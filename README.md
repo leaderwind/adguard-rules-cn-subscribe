@@ -8,15 +8,29 @@
 
 ### Android
 
+主规则：
+
 ```text
 https://raw.githubusercontent.com/leaderwind/adguard-rules-cn-subscribe/main/dist/adguard-android.txt
+```
+
+DNS：
+
+```text
 https://raw.githubusercontent.com/leaderwind/adguard-rules-cn-subscribe/main/dist/adguard-dns.txt
 ```
 
 ### Windows / macOS
 
+主规则：
+
 ```text
 https://raw.githubusercontent.com/leaderwind/adguard-rules-cn-subscribe/main/dist/adguard-windows.txt
+```
+
+DNS：
+
+```text
 https://raw.githubusercontent.com/leaderwind/adguard-rules-cn-subscribe/main/dist/adguard-dns.txt
 ```
 
@@ -34,11 +48,33 @@ https://raw.githubusercontent.com/leaderwind/adguard-rules-cn-subscribe/main/dis
 
 ## 其他分层订阅
 
+Network：
+
 ```text
 https://raw.githubusercontent.com/leaderwind/adguard-rules-cn-subscribe/main/dist/adguard-network.txt
+```
+
+Content：
+
+```text
 https://raw.githubusercontent.com/leaderwind/adguard-rules-cn-subscribe/main/dist/adguard-content.txt
+```
+
+Scriptlet：
+
+```text
 https://raw.githubusercontent.com/leaderwind/adguard-rules-cn-subscribe/main/dist/adguard-scriptlet.txt
+```
+
+Conservative：
+
+```text
 https://raw.githubusercontent.com/leaderwind/adguard-rules-cn-subscribe/main/dist/adguard-conservative.txt
+```
+
+Aggressive：
+
+```text
 https://raw.githubusercontent.com/leaderwind/adguard-rules-cn-subscribe/main/dist/adguard-aggressive.txt
 ```
 

@@ -1,10 +1,10 @@
 ! Title: AdGuard Rules CN - Network
-! Homepage: https://github.com/leaderwind/adguard-rules-cn
-! License: Source licenses apply. See config/sources.json
-! Last modified: 2026-06-21T11:23:09Z
+! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
+! License: Source licenses apply.
+! Last modified: 2026-06-21T15:20:56Z
 ! Layers: network
 ! Mode: standard
-! Rules: 47375
+! Rules: 47381
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -30663,6 +30663,7 @@ _800x80_
 ||google.com/pagead/1p-user-list/
 ||google.com/pagead/conversion_async.js
 ||google.com/pagead/drt/
+||google.com/pagead/form-data/
 ||google.com/pagead/landing?
 ||googleadapis.l.google.com^$third-party
 ||googlesyndication.com/pagead/
@@ -36782,7 +36783,7 @@ template/m1938pc/ads/*.js
 /scroll-track.js
 /scroll-tracker.js
 /SdaAnalytics.js
-/sdc.js
+/sdc.js|
 /sdc1.js
 /sdc2.js
 /sdctag1.js
@@ -41837,6 +41838,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||api.reo.dev^$third-party
 ||api.sardine.ai/assets/loader.min.js$third-party
 ||api.sovendus.com/js/landing.js
+||api.tally.so/forms/*/events
 ||api.visitorapi.com^$third-party
 ||apibaza.com/pixel/
 ||apm-engine.meteor.com^$third-party,xmlhttprequest
@@ -43148,6 +43150,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||taboola.com^$third-party
 ||taboolasyndication.com^$third-party
 ||taggstar.com^*/taggstar.min.js
+||tally.so/api/forms/*/events
 ||tarteaucitron.io/log/
 ||tatadigital.com/analytics-engine/
 ||technolutions.net/ping?
@@ -44218,6 +44221,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||bitwarden.com/plsbl/
 ||blockworks.co/_vercel/insights/
 ||bmoharris.com/www/assets/analytics/loader.js
+||boldin.com/rails/arrival
 ||bonprix.*/ajax/landmarks/
 ||bonprix.*/ajax/marketing-parameters/
 ||booking.com/c360/v1/track
@@ -44533,6 +44537,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||global.canon/00cmn/js/*/analytics-
 ||global.ssl.fastly.net^$domain=allmodern.com|argos.co.uk|basspro.com|birchlane.com|courier-journal.com|courierpress.com|desertsun.com|detroitnews.com|eddiebauer.com|freep.com|glassesusa.com|greenbaypressgazette.com|harborfreight.com|indystar.com|jsonline.com|kurtgeiger.com|legacy.com|lenovo.com|lohud.com|lowes.com|naplesnews.com|news-journalonline.com|northjersey.com|perigold.com|quickship.com|quikshiptoner.com|radiotimes.com|sainsburys.co.uk|sanuk.com|sheboyganpress.com|tallahassee.com|theadvertiser.com|thisweek.com|ugg.com|usatoday.com|wayfair.co.uk|wayfair.com|wwe.com
 ||globes.co.il/shared/s.ashx?
+||glowing.com/unilog
 ||gnavi.co.jp/analysis/
 ||go.fap18.net/ftt2/js.php
 ||go.nutraingredients.com/pd.js
@@ -46715,6 +46720,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||dishtv.in/scripts/adobeAnalytics.js$~third-party
 @@||docs.google.com/*/viewdata$~third-party
 @@||driverfix.com^*/index_src.php?tracking=$~third-party
+@@||duckduckgo.com/local.js$~third-party
 @@||dw.com.com/js/dw.js$domain=cbsnews.com|tv.com
 @@||dz9qn8fh4jznm.cloudfront.net/script.js$script,domain=bostonglobe.com
 @@||easternbank.com/sites/easternbank/files/google_tag/eastern_bank/google_tag.script.js$script,~third-party

@@ -1,0 +1,1975 @@
+{
+  "generated_at_utc": "2026-06-21T11:23:18Z",
+  "outputs": [
+    {
+      "id": "dns",
+      "path": "dist/adguard-dns.txt",
+      "layer": "dns",
+      "layers": [
+        "dns"
+      ],
+      "mode": "standard",
+      "rules": 230700,
+      "selected_upstreams": 16,
+      "successful_upstreams": 16,
+      "preserved_previous": false,
+      "cross_layer_removed_pure_domains": 0,
+      "compression": {
+        "dns_before_compression": 285919,
+        "dns_after_compression": 230700,
+        "dns_removed_by_parent_domain": 55219,
+        "dns_allow_rules": 39
+      },
+      "sources": [
+        {
+          "id": "adguard_dns",
+          "name": "AdGuard DNS filter",
+          "url": "https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt",
+          "ok": true,
+          "input_lines": 160095,
+          "kept": 157598,
+          "duplicates": 0,
+          "ignored": 2497,
+          "routed_to_dns": 0,
+          "classified": {
+            "dns": 157598,
+            "network": 0,
+            "content": 0,
+            "scriptlet": 0
+          },
+          "cross_layer_removed": 0,
+          "error": null
+        },
+        {
+          "id": "awavenue",
+          "name": "AWAvenue Ads Rule",
+          "url": "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule.txt",
+          "ok": true,
+          "input_lines": 916,
+          "kept": 715,
+          "duplicates": 185,
+          "ignored": 16,
+          "routed_to_dns": 0,
+          "classified": {
+            "dns": 899,
+            "network": 0,
+            "content": 0,
+            "scriptlet": 0
+          },
+          "cross_layer_removed": 0,
+          "error": null
+        },
+        {
+          "id": "adguard_chinese",
+          "name": "AdGuard Chinese filter",
+          "url": "https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_224_Chinese/filter.txt",
+          "ok": true,
+          "input_lines": 23645,
+          "kept": 14,
+          "duplicates": 6238,
+          "ignored": 17393,
+          "routed_to_dns": 0,
+          "classified": {
+            "dns": 6251,
+            "network": 0,
+            "content": 0,
+            "scriptlet": 0
+          },
+          "cross_layer_removed": 0,
+          "error": null
+        },
+        {
+          "id": "adrules_dns",
+          "name": "AdRules DNS List",
+          "url": "https://raw.githubusercontent.com/Cats-Team/AdRules/main/dns.txt",
+          "ok": true,
+          "input_lines": 178257,
+          "kept": 33394,
+          "duplicates": 144429,
+          "ignored": 434,
+          "routed_to_dns": 0,
+          "classified": {
+            "dns": 177823,
+            "network": 0,
+            "content": 0,
+            "scriptlet": 0
+          },
+          "cross_layer_removed": 0,
+          "error": null
+        },
+        {
+          "id": "easylist_china",
+          "name": "EasyList China",
+          "url": "https://easylist-downloads.adblockplus.org/easylistchina.txt",
+          "ok": true,
+          "input_lines": 19718,
+          "kept": 0,
+          "duplicates": 6111,
+          "ignored": 13607,
+          "routed_to_dns": 0,
+          "classified": {
+            "dns": 6111,
+            "network": 0,
+            "content": 0,
+            "scriptlet": 0
+          },
+          "cross_layer_removed": 0,
+          "error": null
+        },
+        {
+          "id": "adguard_base",
+          "name": "AdGuard Base filter",
+          "url": "https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_2_Base/filter.txt",
+          "ok": true,
+          "input_lines": 161079,
+          "kept": 3028,
+          "duplicates": 54336,
+          "ignored": 103715,
+          "routed_to_dns": 0,
+          "classified": {
+            "dns": 56977,
+            "network": 0,
+            "content": 0,
+            "scriptlet": 0
+          },
+          "cross_layer_removed": 0,
+          "error": null
+        },
+        {
+          "id": "adguard_mobile",
+          "name": "AdGuard Mobile Ads filter",
+          "url": "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/MobileFilter/sections/adservers.txt",
+          "ok": true,
+          "input_lines": 1061,
+          "kept": 25,
+          "duplicates": 870,
+          "ignored": 166,
+          "routed_to_dns": 0,
+          "classified": {
+            "dns": 895,
+            "network": 0,
+            "content": 0,
+            "scriptlet": 0
+          },
+          "cross_layer_removed": 0,
+          "error": null
+        },
+        {
+          "id": "jiekouad",
+          "name": "jiekouAD",
+          "url": "https://raw.githubusercontent.com/damengzhu/banad/main/dnslist.txt",
+          "ok": true,
+          "input_lines": 4531,
+          "kept": 45,
+          "duplicates": 4443,
+          "ignored": 43,
+          "routed_to_dns": 0,
+          "classified": {
+            "dns": 4488,
+            "network": 0,
+            "content": 0,
+            "scriptlet": 0
+          },
+          "cross_layer_removed": 0,
+          "error": null
+        },
+        {
+          "id": "hagezi_light",
+          "name": "HaGeZi DNS-Blocklists Light",
+          "url": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/light.txt",
+          "ok": true,
+          "input_lines": 42434,
+          "kept": 19041,
+          "duplicates": 23377,
+          "ignored": 16,
+          "routed_to_dns": 0,
+          "classified": {
+            "dns": 42418,
+            "network": 0,
+            "content": 0,
+            "scriptlet": 0
+          },
+          "cross_layer_removed": 0,
+          "error": null
+        },
+        {
+          "id": "oisd_basic",
+          "name": "OISD Basic",
+          "url": "https://abp.oisd.nl/basic/",
+          "ok": true,
+          "input_lines": 60248,
+          "kept": 2450,
+          "duplicates": 57782,
+          "ignored": 16,
+          "routed_to_dns": 0,
+          "classified": {
+            "dns": 60232,
+            "network": 0,
+            "content": 0,
+            "scriptlet": 0
+          },
+          "cross_layer_removed": 0,
+          "error": null
+        },
+        {
+          "id": "cjx_annoyance",
+          "name": "CJX's Annoyance List",
+          "url": "https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-annoyance.txt",
+          "ok": true,
+          "input_lines": 1861,
+          "kept": 2,
+          "duplicates": 112,
+          "ignored": 1747,
+          "routed_to_dns": 0,
+          "classified": {
+            "dns": 114,
+            "network": 0,
+            "content": 0,
+            "scriptlet": 0
+          },
+          "cross_layer_removed": 0,
+          "error": null
+        },
+        {
+          "id": "xinggsf_mv",
+          "name": "xinggsf mv",
+          "url": "https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/mv.txt",
+          "ok": true,
+          "input_lines": 181,
+          "kept": 0,
+          "duplicates": 27,
+          "ignored": 154,
+          "routed_to_dns": 0,
+          "classified": {
+            "dns": 27,
+            "network": 0,
+            "content": 0,
+            "scriptlet": 0
+          },
+          "cross_layer_removed": 0,
+          "error": null
+        },
+        {
+          "id": "easylist",
+          "name": "EasyList",
+          "url": "https://easylist-downloads.adblockplus.org/easylist.txt",
+          "ok": true,
+          "input_lines": 81922,
+          "kept": 1,
+          "duplicates": 48075,
+          "ignored": 33846,
+          "routed_to_dns": 0,
+          "classified": {
+            "dns": 48076,
+            "network": 0,
+            "content": 0,
+            "scriptlet": 0
+          },
+          "cross_layer_removed": 0,
+          "error": null
+        },
+        {
+          "id": "easyprivacy",
+          "name": "EasyPrivacy",
+          "url": "https://easylist-downloads.adblockplus.org/easyprivacy.txt",
+          "ok": true,
+          "input_lines": 53893,
+          "kept": 3420,
+          "duplicates": 37024,
+          "ignored": 13449,
+          "routed_to_dns": 0,
+          "classified": {
+            "dns": 40443,
+            "network": 0,
+            "content": 0,
+            "scriptlet": 0
+          },
+          "cross_layer_removed": 0,
+          "error": null
+        },
+        {
+          "id": "stevenblack_hosts",
+          "name": "StevenBlack hosts",
+          "url": "https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts",
+          "ok": true,
+          "input_lines": 90747,
+          "kept": 66183,
+          "duplicates": 17752,
+          "ignored": 6812,
+          "routed_to_dns": 0,
+          "classified": {
+            "dns": 83935,
+            "network": 0,
+            "content": 0,
+            "scriptlet": 0
+          },
+          "cross_layer_removed": 0,
+          "error": null
+        },
+        {
+          "id": "pollock_hosts",
+          "name": "Pollock hosts",
+          "url": "https://someonewhocares.org/hosts/hosts",
+          "ok": true,
+          "input_lines": 13206,
+          "kept": 3,
+          "duplicates": 12876,
+          "ignored": 327,
+          "routed_to_dns": 0,
+          "classified": {
+            "dns": 12879,
+            "network": 0,
+            "content": 0,
+            "scriptlet": 0
+          },
+          "cross_layer_removed": 0,
+          "error": null
+        },
+        {
+          "id": "custom_reviewed",
+          "name": "Reviewed custom rules",
+          "url": "custom/",
+          "ok": true,
+          "kept": 0,
+          "cross_layer_removed": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "content",
+      "path": "dist/adguard-content.txt",
+      "layer": "content",
+      "layers": [
+        "content"
+      ],
+      "mode": "standard",
+      "rules": 62700,
+      "selected_upstreams": 10,
+      "successful_upstreams": 10,
+      "preserved_previous": false,
+      "cross_layer_removed_pure_domains": 0,
+      "compression": {},
+      "sources": [
+        {
+          "id": "awavenue",
+          "name": "AWAvenue Ads Rule",
+          "url": "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule.txt",
+          "ok": true,
+          "input_lines": 916,
+          "kept": 0,
+          "duplicates": 1,
+          "ignored": 11,
+          "routed_to_dns": 899,
+          "classified": {
+            "dns": 899,
+            "network": 5,
+            "content": 0,
+            "scriptlet": 0
+          },
+          "cross_layer_removed": 0,
+          "error": null
+        },
+        {
+          "id": "adguard_chinese",
+          "name": "AdGuard Chinese filter",
+          "url": "https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_224_Chinese/filter.txt",
+          "ok": true,
+          "input_lines": 23645,
+          "kept": 8764,
+          "duplicates": 18,
+          "ignored": 901,
+          "routed_to_dns": 6251,
+          "classified": {
+            "dns": 6251,
+            "network": 7427,
+            "content": 8764,
+            "scriptlet": 284
+          },
+          "cross_layer_removed": 0,
+          "error": null
+        },
+        {
+          "id": "easylist_china",
+          "name": "EasyList China",
+          "url": "https://easylist-downloads.adblockplus.org/easylistchina.txt",
+          "ok": true,
+          "input_lines": 19718,
+          "kept": 156,
+          "duplicates": 6792,
+          "ignored": 107,
+          "routed_to_dns": 6111,
+          "classified": {
+            "dns": 6111,
+            "network": 6552,
+            "content": 6948,
+            "scriptlet": 0
+          },
+          "cross_layer_removed": 0,
+          "error": null
+        },
+        {
+          "id": "adguard_base",
+          "name": "AdGuard Base filter",
+          "url": "https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_2_Base/filter.txt",
+          "ok": true,
+          "input_lines": 161079,
+          "kept": 51507,
+          "duplicates": 776,
+          "ignored": 20790,
+          "routed_to_dns": 56977,
+          "classified": {
+            "dns": 56977,
+            "network": 25985,
+            "content": 51514,
+            "scriptlet": 5044
+          },
+          "cross_layer_removed": 0,
+          "error": null
+        },
+        {
+          "id": "adguard_mobile",
+          "name": "AdGuard Mobile Ads filter",
+          "url": "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/MobileFilter/sections/adservers.txt",
+          "ok": true,
+          "input_lines": 1061,
+          "kept": 0,
+          "duplicates": 0,
+          "ignored": 75,
+          "routed_to_dns": 895,
+          "classified": {
+            "dns": 895,
+            "network": 91,
+            "content": 0,
+            "scriptlet": 0
+          },
+          "cross_layer_removed": 0,
+          "error": null
+        },
+        {
+          "id": "jiekouad",
+          "name": "jiekouAD",
+          "url": "https://raw.githubusercontent.com/damengzhu/banad/main/jiekouAD.txt",
+          "ok": true,
+          "input_lines": 5886,
+          "kept": 836,
+          "duplicates": 18,
+          "ignored": 16,
+          "routed_to_dns": 4492,
+          "classified": {
+            "dns": 4492,
+            "network": 523,
+            "content": 853,
+            "scriptlet": 1
+          },
+          "cross_layer_removed": 0,
+          "error": null
+        },
+        {
+          "id": "cjx_annoyance",
+          "name": "CJX's Annoyance List",
+          "url": "https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-annoyance.txt",
+          "ok": true,
+          "input_lines": 1861,
+          "kept": 1094,
+          "duplicates": 11,
+          "ignored": 22,
+          "routed_to_dns": 114,
+          "classified": {
+            "dns": 114,
+            "network": 620,
+            "content": 1104,
+            "scriptlet": 0
+          },
+          "cross_layer_removed": 0,
+          "error": null
+        },
+        {
+          "id": "xinggsf_mv",
+          "name": "xinggsf mv",
+          "url": "https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/mv.txt",
+          "ok": true,
+          "input_lines": 181,
+          "kept": 26,
+          "duplicates": 0,
+          "ignored": 47,
+          "routed_to_dns": 27,
+          "classified": {
+            "dns": 27,
+            "network": 71,
+            "content": 26,
+            "scriptlet": 10
+          },
+          "cross_layer_removed": 0,
+          "error": null
+        },
+        {
+          "id": "easylist",
+          "name": "EasyList",
+          "url": "https://easylist-downloads.adblockplus.org/easylist.txt",
+          "ok": true,
+          "input_lines": 81922,
+          "kept": 315,
+          "duplicates": 23946,
+          "ignored": 249,
+          "routed_to_dns": 48076,
+          "classified": {
+            "dns": 48076,
+            "network": 9336,
+            "content": 24261,
+            "scriptlet": 0
+          },
+          "cross_layer_removed": 0,
+          "error": null
+        },
+        {
+          "id": "easyprivacy",
+          "name": "EasyPrivacy",
+          "url": "https://easylist-downloads.adblockplus.org/easyprivacy.txt",
+          "ok": true,
+          "input_lines": 53893,
+          "kept": 2,
+          "duplicates": 1,
+          "ignored": 686,
+          "routed_to_dns": 40443,
+          "classified": {
+            "dns": 40443,
+            "network": 12761,
+            "content": 2,
+            "scriptlet": 0
+          },
+          "cross_layer_removed": 0,
+          "error": null
+        },
+        {
+          "id": "custom_reviewed",
+          "name": "Reviewed custom rules",
+          "url": "custom/",
+          "ok": true,
+          "kept": 0,
+          "cross_layer_removed": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "network",
+      "path": "dist/adguard-network.txt",
+      "layer": "network",
+      "layers": [
+        "network"
+      ],
+      "mode": "standard",
+      "rules": 47375,
+      "selected_upstreams": 10,
+      "successful_upstreams": 10,
+      "preserved_previous": false,
+      "cross_layer_removed_pure_domains": 0,
+      "compression": {},
+      "sources": [
+        {
+          "id": "awavenue",
+          "name": "AWAvenue Ads Rule",
+          "url": "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule.txt",
+          "ok": true,
+          "input_lines": 916,
+          "kept": 5,
+          "duplicates": 1,
+          "ignored": 11,
+          "routed_to_dns": 899,
+          "classified": {
+            "dns": 899,
+            "network": 5,
+            "content": 0,
+            "scriptlet": 0
+          },
+          "cross_layer_removed": 0,
+          "error": null
+        },
+        {
+          "id": "adguard_chinese",
+          "name": "AdGuard Chinese filter",
+          "url": "https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_224_Chinese/filter.txt",
+          "ok": true,
+          "input_lines": 23645,
+          "kept": 7427,
+          "duplicates": 18,
+          "ignored": 901,
+          "routed_to_dns": 6251,
+          "classified": {
+            "dns": 6251,
+            "network": 7427,
+            "content": 8764,
+            "scriptlet": 284
+          },
+          "cross_layer_removed": 0,
+          "error": null
+        },
+        {
+          "id": "easylist_china",
+          "name": "EasyList China",
+          "url": "https://easylist-downloads.adblockplus.org/easylistchina.txt",
+          "ok": true,
+          "input_lines": 19718,
+          "kept": 15,
+          "duplicates": 6537,
+          "ignored": 107,
+          "routed_to_dns": 6111,
+          "classified": {
+            "dns": 6111,
+            "network": 6552,
+            "content": 6948,
+            "scriptlet": 0
+          },
+          "cross_layer_removed": 0,
+          "error": null
+        },
+        {
+          "id": "adguard_base",
+          "name": "AdGuard Base filter",
+          "url": "https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_2_Base/filter.txt",
+          "ok": true,
+          "input_lines": 161079,
+          "kept": 25966,
+          "duplicates": 788,
+          "ignored": 20790,
+          "routed_to_dns": 56977,
+          "classified": {
+            "dns": 56977,
+            "network": 25985,
+            "content": 51514,
+            "scriptlet": 5044
+          },
+          "cross_layer_removed": 0,
+          "error": null
+        },
+        {
+          "id": "adguard_mobile",
+          "name": "AdGuard Mobile Ads filter",
+          "url": "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/MobileFilter/sections/adservers.txt",
+          "ok": true,
+          "input_lines": 1061,
+          "kept": 91,
+          "duplicates": 0,
+          "ignored": 75,
+          "routed_to_dns": 895,
+          "classified": {
+            "dns": 895,
+            "network": 91,
+            "content": 0,
+            "scriptlet": 0
+          },
+          "cross_layer_removed": 0,
+          "error": null
+        },
+        {
+          "id": "jiekouad",
+          "name": "jiekouAD",
+          "url": "https://raw.githubusercontent.com/damengzhu/banad/main/jiekouAD.txt",
+          "ok": true,
+          "input_lines": 5886,
+          "kept": 486,
+          "duplicates": 38,
+          "ignored": 16,
+          "routed_to_dns": 4492,
+          "classified": {
+            "dns": 4492,
+            "network": 523,
+            "content": 853,
+            "scriptlet": 1
+          },
+          "cross_layer_removed": 0,
+          "error": null
+        },
+        {
+          "id": "cjx_annoyance",
+          "name": "CJX's Annoyance List",
+          "url": "https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-annoyance.txt",
+          "ok": true,
+          "input_lines": 1861,
+          "kept": 618,
+          "duplicates": 3,
+          "ignored": 22,
+          "routed_to_dns": 114,
+          "classified": {
+            "dns": 114,
+            "network": 620,
+            "content": 1104,
+            "scriptlet": 0
+          },
+          "cross_layer_removed": 0,
+          "error": null
+        },
+        {
+          "id": "xinggsf_mv",
+          "name": "xinggsf mv",
+          "url": "https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/mv.txt",
+          "ok": true,
+          "input_lines": 181,
+          "kept": 67,
+          "duplicates": 4,
+          "ignored": 47,
+          "routed_to_dns": 27,
+          "classified": {
+            "dns": 27,
+            "network": 71,
+            "content": 26,
+            "scriptlet": 10
+          },
+          "cross_layer_removed": 0,
+          "error": null
+        },
+        {
+          "id": "easylist",
+          "name": "EasyList",
+          "url": "https://easylist-downloads.adblockplus.org/easylist.txt",
+          "ok": true,
+          "input_lines": 81922,
+          "kept": 21,
+          "duplicates": 9315,
+          "ignored": 249,
+          "routed_to_dns": 48076,
+          "classified": {
+            "dns": 48076,
+            "network": 9336,
+            "content": 24261,
+            "scriptlet": 0
+          },
+          "cross_layer_removed": 0,
+          "error": null
+        },
+        {
+          "id": "easyprivacy",
+          "name": "EasyPrivacy",
+          "url": "https://easylist-downloads.adblockplus.org/easyprivacy.txt",
+          "ok": true,
+          "input_lines": 53893,
+          "kept": 12679,
+          "duplicates": 83,
+          "ignored": 686,
+          "routed_to_dns": 40443,
+          "classified": {
+            "dns": 40443,
+            "network": 12761,
+            "content": 2,
+            "scriptlet": 0
+          },
+          "cross_layer_removed": 0,
+          "error": null
+        },
+        {
+          "id": "custom_reviewed",
+          "name": "Reviewed custom rules",
+          "url": "custom/",
+          "ok": true,
+          "kept": 0,
+          "cross_layer_removed": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "scriptlet",
+      "path": "dist/adguard-scriptlet.txt",
+      "layer": "scriptlet",
+      "layers": [
+        "scriptlet"
+      ],
+      "mode": "standard",
+      "rules": 5338,
+      "selected_upstreams": 10,
+      "successful_upstreams": 10,
+      "preserved_previous": false,
+      "cross_layer_removed_pure_domains": 0,
+      "compression": {},
+      "sources": [
+        {
+          "id": "awavenue",
+          "name": "AWAvenue Ads Rule",
+          "url": "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule.txt",
+          "ok": true,
+          "input_lines": 916,
+          "kept": 0,
+          "duplicates": 1,
+          "ignored": 11,
+          "routed_to_dns": 899,
+          "classified": {
+            "dns": 899,
+            "network": 5,
+            "content": 0,
+            "scriptlet": 0
+          },
+          "cross_layer_removed": 0,
+          "error": null
+        },
+        {
+          "id": "adguard_chinese",
+          "name": "AdGuard Chinese filter",
+          "url": "https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_224_Chinese/filter.txt",
+          "ok": true,
+          "input_lines": 23645,
+          "kept": 284,
+          "duplicates": 18,
+          "ignored": 901,
+          "routed_to_dns": 6251,
+          "classified": {
+            "dns": 6251,
+            "network": 7427,
+            "content": 8764,
+            "scriptlet": 284
+          },
+          "cross_layer_removed": 0,
+          "error": null
+        },
+        {
+          "id": "easylist_china",
+          "name": "EasyList China",
+          "url": "https://easylist-downloads.adblockplus.org/easylistchina.txt",
+          "ok": true,
+          "input_lines": 19718,
+          "kept": 0,
+          "duplicates": 0,
+          "ignored": 107,
+          "routed_to_dns": 6111,
+          "classified": {
+            "dns": 6111,
+            "network": 6552,
+            "content": 6948,
+            "scriptlet": 0
+          },
+          "cross_layer_removed": 0,
+          "error": null
+        },
+        {
+          "id": "adguard_base",
+          "name": "AdGuard Base filter",
+          "url": "https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_2_Base/filter.txt",
+          "ok": true,
+          "input_lines": 161079,
+          "kept": 5043,
+          "duplicates": 770,
+          "ignored": 20790,
+          "routed_to_dns": 56977,
+          "classified": {
+            "dns": 56977,
+            "network": 25985,
+            "content": 51514,
+            "scriptlet": 5044
+          },
+          "cross_layer_removed": 0,
+          "error": null
+        },
+        {
+          "id": "adguard_mobile",
+          "name": "AdGuard Mobile Ads filter",
+          "url": "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/MobileFilter/sections/adservers.txt",
+          "ok": true,
+          "input_lines": 1061,
+          "kept": 0,
+          "duplicates": 0,
+          "ignored": 75,
+          "routed_to_dns": 895,
+          "classified": {
+            "dns": 895,
+            "network": 91,
+            "content": 0,
+            "scriptlet": 0
+          },
+          "cross_layer_removed": 0,
+          "error": null
+        },
+        {
+          "id": "jiekouad",
+          "name": "jiekouAD",
+          "url": "https://raw.githubusercontent.com/damengzhu/banad/main/jiekouAD.txt",
+          "ok": true,
+          "input_lines": 5886,
+          "kept": 1,
+          "duplicates": 1,
+          "ignored": 16,
+          "routed_to_dns": 4492,
+          "classified": {
+            "dns": 4492,
+            "network": 523,
+            "content": 853,
+            "scriptlet": 1
+          },
+          "cross_layer_removed": 0,
+          "error": null
+        },
+        {
+          "id": "cjx_annoyance",
+          "name": "CJX's Annoyance List",
+          "url": "https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-annoyance.txt",
+          "ok": true,
+          "input_lines": 1861,
+          "kept": 0,
+          "duplicates": 1,
+          "ignored": 22,
+          "routed_to_dns": 114,
+          "classified": {
+            "dns": 114,
+            "network": 620,
+            "content": 1104,
+            "scriptlet": 0
+          },
+          "cross_layer_removed": 0,
+          "error": null
+        },
+        {
+          "id": "xinggsf_mv",
+          "name": "xinggsf mv",
+          "url": "https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/mv.txt",
+          "ok": true,
+          "input_lines": 181,
+          "kept": 10,
+          "duplicates": 0,
+          "ignored": 47,
+          "routed_to_dns": 27,
+          "classified": {
+            "dns": 27,
+            "network": 71,
+            "content": 26,
+            "scriptlet": 10
+          },
+          "cross_layer_removed": 0,
+          "error": null
+        },
+        {
+          "id": "easylist",
+          "name": "EasyList",
+          "url": "https://easylist-downloads.adblockplus.org/easylist.txt",
+          "ok": true,
+          "input_lines": 81922,
+          "kept": 0,
+          "duplicates": 0,
+          "ignored": 249,
+          "routed_to_dns": 48076,
+          "classified": {
+            "dns": 48076,
+            "network": 9336,
+            "content": 24261,
+            "scriptlet": 0
+          },
+          "cross_layer_removed": 0,
+          "error": null
+        },
+        {
+          "id": "easyprivacy",
+          "name": "EasyPrivacy",
+          "url": "https://easylist-downloads.adblockplus.org/easyprivacy.txt",
+          "ok": true,
+          "input_lines": 53893,
+          "kept": 0,
+          "duplicates": 1,
+          "ignored": 686,
+          "routed_to_dns": 40443,
+          "classified": {
+            "dns": 40443,
+            "network": 12761,
+            "content": 2,
+            "scriptlet": 0
+          },
+          "cross_layer_removed": 0,
+          "error": null
+        },
+        {
+          "id": "custom_reviewed",
+          "name": "Reviewed custom rules",
+          "url": "custom/",
+          "ok": true,
+          "kept": 0,
+          "cross_layer_removed": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "android",
+      "path": "dist/adguard-android.txt",
+      "layer": "content",
+      "layers": [
+        "network",
+        "content",
+        "scriptlet"
+      ],
+      "mode": "standard",
+      "rules": 18177,
+      "selected_upstreams": 6,
+      "successful_upstreams": 6,
+      "preserved_previous": false,
+      "cross_layer_removed_pure_domains": 0,
+      "compression": {},
+      "sources": [
+        {
+          "id": "awavenue",
+          "name": "AWAvenue Ads Rule",
+          "url": "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule.txt",
+          "ok": true,
+          "input_lines": 916,
+          "kept": 5,
+          "duplicates": 1,
+          "ignored": 11,
+          "routed_to_dns": 899,
+          "classified": {
+            "dns": 899,
+            "network": 5,
+            "content": 0,
+            "scriptlet": 0
+          },
+          "cross_layer_removed": 0,
+          "error": null
+        },
+        {
+          "id": "adguard_chinese",
+          "name": "AdGuard Chinese filter",
+          "url": "https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_224_Chinese/filter.txt",
+          "ok": true,
+          "input_lines": 23645,
+          "kept": 16475,
+          "duplicates": 18,
+          "ignored": 901,
+          "routed_to_dns": 6251,
+          "classified": {
+            "dns": 6251,
+            "network": 7427,
+            "content": 8764,
+            "scriptlet": 284
+          },
+          "cross_layer_removed": 0,
+          "error": null
+        },
+        {
+          "id": "easylist_china",
+          "name": "EasyList China",
+          "url": "https://easylist-downloads.adblockplus.org/easylistchina.txt",
+          "ok": true,
+          "input_lines": 19718,
+          "kept": 171,
+          "duplicates": 13329,
+          "ignored": 107,
+          "routed_to_dns": 6111,
+          "classified": {
+            "dns": 6111,
+            "network": 6552,
+            "content": 6948,
+            "scriptlet": 0
+          },
+          "cross_layer_removed": 0,
+          "error": null
+        },
+        {
+          "id": "adguard_mobile",
+          "name": "AdGuard Mobile Ads filter",
+          "url": "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/MobileFilter/sections/adservers.txt",
+          "ok": true,
+          "input_lines": 1061,
+          "kept": 91,
+          "duplicates": 0,
+          "ignored": 75,
+          "routed_to_dns": 895,
+          "classified": {
+            "dns": 895,
+            "network": 91,
+            "content": 0,
+            "scriptlet": 0
+          },
+          "cross_layer_removed": 0,
+          "error": null
+        },
+        {
+          "id": "jiekouad",
+          "name": "jiekouAD",
+          "url": "https://raw.githubusercontent.com/damengzhu/banad/main/jiekouAD.txt",
+          "ok": true,
+          "input_lines": 5886,
+          "kept": 1331,
+          "duplicates": 47,
+          "ignored": 16,
+          "routed_to_dns": 4492,
+          "classified": {
+            "dns": 4492,
+            "network": 523,
+            "content": 853,
+            "scriptlet": 1
+          },
+          "cross_layer_removed": 0,
+          "error": null
+        },
+        {
+          "id": "xinggsf_mv",
+          "name": "xinggsf mv",
+          "url": "https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/mv.txt",
+          "ok": true,
+          "input_lines": 181,
+          "kept": 104,
+          "duplicates": 3,
+          "ignored": 47,
+          "routed_to_dns": 27,
+          "classified": {
+            "dns": 27,
+            "network": 71,
+            "content": 26,
+            "scriptlet": 10
+          },
+          "cross_layer_removed": 0,
+          "error": null
+        },
+        {
+          "id": "custom_reviewed",
+          "name": "Reviewed custom rules",
+          "url": "custom/",
+          "ok": true,
+          "kept": 0,
+          "cross_layer_removed": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "browser",
+      "path": "dist/adguard-browser.txt",
+      "layer": "content",
+      "layers": [
+        "network",
+        "content",
+        "scriptlet"
+      ],
+      "mode": "standard",
+      "rules": 115324,
+      "selected_upstreams": 9,
+      "successful_upstreams": 9,
+      "preserved_previous": false,
+      "cross_layer_removed_pure_domains": 0,
+      "compression": {},
+      "sources": [
+        {
+          "id": "awavenue",
+          "name": "AWAvenue Ads Rule",
+          "url": "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule.txt",
+          "ok": true,
+          "input_lines": 916,
+          "kept": 5,
+          "duplicates": 1,
+          "ignored": 11,
+          "routed_to_dns": 899,
+          "classified": {
+            "dns": 899,
+            "network": 5,
+            "content": 0,
+            "scriptlet": 0
+          },
+          "cross_layer_removed": 0,
+          "error": null
+        },
+        {
+          "id": "adguard_chinese",
+          "name": "AdGuard Chinese filter",
+          "url": "https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_224_Chinese/filter.txt",
+          "ok": true,
+          "input_lines": 23645,
+          "kept": 16475,
+          "duplicates": 18,
+          "ignored": 901,
+          "routed_to_dns": 6251,
+          "classified": {
+            "dns": 6251,
+            "network": 7427,
+            "content": 8764,
+            "scriptlet": 284
+          },
+          "cross_layer_removed": 0,
+          "error": null
+        },
+        {
+          "id": "easylist_china",
+          "name": "EasyList China",
+          "url": "https://easylist-downloads.adblockplus.org/easylistchina.txt",
+          "ok": true,
+          "input_lines": 19718,
+          "kept": 171,
+          "duplicates": 13329,
+          "ignored": 107,
+          "routed_to_dns": 6111,
+          "classified": {
+            "dns": 6111,
+            "network": 6552,
+            "content": 6948,
+            "scriptlet": 0
+          },
+          "cross_layer_removed": 0,
+          "error": null
+        },
+        {
+          "id": "adguard_base",
+          "name": "AdGuard Base filter",
+          "url": "https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_2_Base/filter.txt",
+          "ok": true,
+          "input_lines": 161079,
+          "kept": 82516,
+          "duplicates": 796,
+          "ignored": 20790,
+          "routed_to_dns": 56977,
+          "classified": {
+            "dns": 56977,
+            "network": 25985,
+            "content": 51514,
+            "scriptlet": 5044
+          },
+          "cross_layer_removed": 0,
+          "error": null
+        },
+        {
+          "id": "jiekouad",
+          "name": "jiekouAD",
+          "url": "https://raw.githubusercontent.com/damengzhu/banad/main/jiekouAD.txt",
+          "ok": true,
+          "input_lines": 5886,
+          "kept": 1323,
+          "duplicates": 55,
+          "ignored": 16,
+          "routed_to_dns": 4492,
+          "classified": {
+            "dns": 4492,
+            "network": 523,
+            "content": 853,
+            "scriptlet": 1
+          },
+          "cross_layer_removed": 0,
+          "error": null
+        },
+        {
+          "id": "cjx_annoyance",
+          "name": "CJX's Annoyance List",
+          "url": "https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-annoyance.txt",
+          "ok": true,
+          "input_lines": 1861,
+          "kept": 1712,
+          "duplicates": 13,
+          "ignored": 22,
+          "routed_to_dns": 114,
+          "classified": {
+            "dns": 114,
+            "network": 620,
+            "content": 1104,
+            "scriptlet": 0
+          },
+          "cross_layer_removed": 0,
+          "error": null
+        },
+        {
+          "id": "xinggsf_mv",
+          "name": "xinggsf mv",
+          "url": "https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/mv.txt",
+          "ok": true,
+          "input_lines": 181,
+          "kept": 103,
+          "duplicates": 4,
+          "ignored": 47,
+          "routed_to_dns": 27,
+          "classified": {
+            "dns": 27,
+            "network": 71,
+            "content": 26,
+            "scriptlet": 10
+          },
+          "cross_layer_removed": 0,
+          "error": null
+        },
+        {
+          "id": "easylist",
+          "name": "EasyList",
+          "url": "https://easylist-downloads.adblockplus.org/easylist.txt",
+          "ok": true,
+          "input_lines": 81922,
+          "kept": 336,
+          "duplicates": 33261,
+          "ignored": 249,
+          "routed_to_dns": 48076,
+          "classified": {
+            "dns": 48076,
+            "network": 9336,
+            "content": 24261,
+            "scriptlet": 0
+          },
+          "cross_layer_removed": 0,
+          "error": null
+        },
+        {
+          "id": "easyprivacy",
+          "name": "EasyPrivacy",
+          "url": "https://easylist-downloads.adblockplus.org/easyprivacy.txt",
+          "ok": true,
+          "input_lines": 53893,
+          "kept": 12683,
+          "duplicates": 81,
+          "ignored": 686,
+          "routed_to_dns": 40443,
+          "classified": {
+            "dns": 40443,
+            "network": 12761,
+            "content": 2,
+            "scriptlet": 0
+          },
+          "cross_layer_removed": 0,
+          "error": null
+        },
+        {
+          "id": "custom_reviewed",
+          "name": "Reviewed custom rules",
+          "url": "custom/",
+          "ok": true,
+          "kept": 0,
+          "cross_layer_removed": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "windows",
+      "path": "dist/adguard-windows.txt",
+      "layer": "content",
+      "layers": [
+        "network",
+        "content",
+        "scriptlet"
+      ],
+      "mode": "standard",
+      "rules": 115324,
+      "selected_upstreams": 9,
+      "successful_upstreams": 9,
+      "preserved_previous": false,
+      "cross_layer_removed_pure_domains": 0,
+      "compression": {},
+      "sources": [
+        {
+          "id": "awavenue",
+          "name": "AWAvenue Ads Rule",
+          "url": "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule.txt",
+          "ok": true,
+          "input_lines": 916,
+          "kept": 5,
+          "duplicates": 1,
+          "ignored": 11,
+          "routed_to_dns": 899,
+          "classified": {
+            "dns": 899,
+            "network": 5,
+            "content": 0,
+            "scriptlet": 0
+          },
+          "cross_layer_removed": 0,
+          "error": null
+        },
+        {
+          "id": "adguard_chinese",
+          "name": "AdGuard Chinese filter",
+          "url": "https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_224_Chinese/filter.txt",
+          "ok": true,
+          "input_lines": 23645,
+          "kept": 16475,
+          "duplicates": 18,
+          "ignored": 901,
+          "routed_to_dns": 6251,
+          "classified": {
+            "dns": 6251,
+            "network": 7427,
+            "content": 8764,
+            "scriptlet": 284
+          },
+          "cross_layer_removed": 0,
+          "error": null
+        },
+        {
+          "id": "easylist_china",
+          "name": "EasyList China",
+          "url": "https://easylist-downloads.adblockplus.org/easylistchina.txt",
+          "ok": true,
+          "input_lines": 19718,
+          "kept": 171,
+          "duplicates": 13329,
+          "ignored": 107,
+          "routed_to_dns": 6111,
+          "classified": {
+            "dns": 6111,
+            "network": 6552,
+            "content": 6948,
+            "scriptlet": 0
+          },
+          "cross_layer_removed": 0,
+          "error": null
+        },
+        {
+          "id": "adguard_base",
+          "name": "AdGuard Base filter",
+          "url": "https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_2_Base/filter.txt",
+          "ok": true,
+          "input_lines": 161079,
+          "kept": 82516,
+          "duplicates": 796,
+          "ignored": 20790,
+          "routed_to_dns": 56977,
+          "classified": {
+            "dns": 56977,
+            "network": 25985,
+            "content": 51514,
+            "scriptlet": 5044
+          },
+          "cross_layer_removed": 0,
+          "error": null
+        },
+        {
+          "id": "jiekouad",
+          "name": "jiekouAD",
+          "url": "https://raw.githubusercontent.com/damengzhu/banad/main/jiekouAD.txt",
+          "ok": true,
+          "input_lines": 5886,
+          "kept": 1323,
+          "duplicates": 55,
+          "ignored": 16,
+          "routed_to_dns": 4492,
+          "classified": {
+            "dns": 4492,
+            "network": 523,
+            "content": 853,
+            "scriptlet": 1
+          },
+          "cross_layer_removed": 0,
+          "error": null
+        },
+        {
+          "id": "cjx_annoyance",
+          "name": "CJX's Annoyance List",
+          "url": "https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-annoyance.txt",
+          "ok": true,
+          "input_lines": 1861,
+          "kept": 1712,
+          "duplicates": 13,
+          "ignored": 22,
+          "routed_to_dns": 114,
+          "classified": {
+            "dns": 114,
+            "network": 620,
+            "content": 1104,
+            "scriptlet": 0
+          },
+          "cross_layer_removed": 0,
+          "error": null
+        },
+        {
+          "id": "xinggsf_mv",
+          "name": "xinggsf mv",
+          "url": "https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/mv.txt",
+          "ok": true,
+          "input_lines": 181,
+          "kept": 103,
+          "duplicates": 4,
+          "ignored": 47,
+          "routed_to_dns": 27,
+          "classified": {
+            "dns": 27,
+            "network": 71,
+            "content": 26,
+            "scriptlet": 10
+          },
+          "cross_layer_removed": 0,
+          "error": null
+        },
+        {
+          "id": "easylist",
+          "name": "EasyList",
+          "url": "https://easylist-downloads.adblockplus.org/easylist.txt",
+          "ok": true,
+          "input_lines": 81922,
+          "kept": 336,
+          "duplicates": 33261,
+          "ignored": 249,
+          "routed_to_dns": 48076,
+          "classified": {
+            "dns": 48076,
+            "network": 9336,
+            "content": 24261,
+            "scriptlet": 0
+          },
+          "cross_layer_removed": 0,
+          "error": null
+        },
+        {
+          "id": "easyprivacy",
+          "name": "EasyPrivacy",
+          "url": "https://easylist-downloads.adblockplus.org/easyprivacy.txt",
+          "ok": true,
+          "input_lines": 53893,
+          "kept": 12683,
+          "duplicates": 81,
+          "ignored": 686,
+          "routed_to_dns": 40443,
+          "classified": {
+            "dns": 40443,
+            "network": 12761,
+            "content": 2,
+            "scriptlet": 0
+          },
+          "cross_layer_removed": 0,
+          "error": null
+        },
+        {
+          "id": "custom_reviewed",
+          "name": "Reviewed custom rules",
+          "url": "custom/",
+          "ok": true,
+          "kept": 0,
+          "cross_layer_removed": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "conservative",
+      "path": "dist/adguard-conservative.txt",
+      "layer": "content",
+      "layers": [
+        "network",
+        "content",
+        "scriptlet"
+      ],
+      "mode": "conservative",
+      "rules": 107591,
+      "selected_upstreams": 10,
+      "successful_upstreams": 10,
+      "preserved_previous": false,
+      "cross_layer_removed_pure_domains": 0,
+      "compression": {},
+      "sources": [
+        {
+          "id": "awavenue",
+          "name": "AWAvenue Ads Rule",
+          "url": "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule.txt",
+          "ok": true,
+          "input_lines": 916,
+          "kept": 5,
+          "duplicates": 1,
+          "ignored": 11,
+          "routed_to_dns": 899,
+          "classified": {
+            "dns": 899,
+            "network": 5,
+            "content": 0,
+            "scriptlet": 0
+          },
+          "cross_layer_removed": 0,
+          "error": null
+        },
+        {
+          "id": "adguard_chinese",
+          "name": "AdGuard Chinese filter",
+          "url": "https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_224_Chinese/filter.txt",
+          "ok": true,
+          "input_lines": 23645,
+          "kept": 16134,
+          "duplicates": 18,
+          "ignored": 1242,
+          "routed_to_dns": 6251,
+          "classified": {
+            "dns": 6251,
+            "network": 7427,
+            "content": 8764,
+            "scriptlet": 284
+          },
+          "cross_layer_removed": 0,
+          "error": null
+        },
+        {
+          "id": "easylist_china",
+          "name": "EasyList China",
+          "url": "https://easylist-downloads.adblockplus.org/easylistchina.txt",
+          "ok": true,
+          "input_lines": 19718,
+          "kept": 171,
+          "duplicates": 13315,
+          "ignored": 121,
+          "routed_to_dns": 6111,
+          "classified": {
+            "dns": 6111,
+            "network": 6552,
+            "content": 6948,
+            "scriptlet": 0
+          },
+          "cross_layer_removed": 0,
+          "error": null
+        },
+        {
+          "id": "adguard_base",
+          "name": "AdGuard Base filter",
+          "url": "https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_2_Base/filter.txt",
+          "ok": true,
+          "input_lines": 161079,
+          "kept": 75050,
+          "duplicates": 795,
+          "ignored": 28257,
+          "routed_to_dns": 56977,
+          "classified": {
+            "dns": 56977,
+            "network": 25985,
+            "content": 51514,
+            "scriptlet": 5044
+          },
+          "cross_layer_removed": 0,
+          "error": null
+        },
+        {
+          "id": "adguard_mobile",
+          "name": "AdGuard Mobile Ads filter",
+          "url": "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/MobileFilter/sections/adservers.txt",
+          "ok": true,
+          "input_lines": 1061,
+          "kept": 90,
+          "duplicates": 0,
+          "ignored": 76,
+          "routed_to_dns": 895,
+          "classified": {
+            "dns": 895,
+            "network": 91,
+            "content": 0,
+            "scriptlet": 0
+          },
+          "cross_layer_removed": 0,
+          "error": null
+        },
+        {
+          "id": "jiekouad",
+          "name": "jiekouAD",
+          "url": "https://raw.githubusercontent.com/damengzhu/banad/main/jiekouAD.txt",
+          "ok": true,
+          "input_lines": 5886,
+          "kept": 1322,
+          "duplicates": 55,
+          "ignored": 17,
+          "routed_to_dns": 4492,
+          "classified": {
+            "dns": 4492,
+            "network": 523,
+            "content": 853,
+            "scriptlet": 1
+          },
+          "cross_layer_removed": 0,
+          "error": null
+        },
+        {
+          "id": "cjx_annoyance",
+          "name": "CJX's Annoyance List",
+          "url": "https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-annoyance.txt",
+          "ok": true,
+          "input_lines": 1861,
+          "kept": 1711,
+          "duplicates": 13,
+          "ignored": 23,
+          "routed_to_dns": 114,
+          "classified": {
+            "dns": 114,
+            "network": 620,
+            "content": 1104,
+            "scriptlet": 0
+          },
+          "cross_layer_removed": 0,
+          "error": null
+        },
+        {
+          "id": "xinggsf_mv",
+          "name": "xinggsf mv",
+          "url": "https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/mv.txt",
+          "ok": true,
+          "input_lines": 181,
+          "kept": 93,
+          "duplicates": 4,
+          "ignored": 57,
+          "routed_to_dns": 27,
+          "classified": {
+            "dns": 27,
+            "network": 71,
+            "content": 26,
+            "scriptlet": 10
+          },
+          "cross_layer_removed": 0,
+          "error": null
+        },
+        {
+          "id": "easylist",
+          "name": "EasyList",
+          "url": "https://easylist-downloads.adblockplus.org/easylist.txt",
+          "ok": true,
+          "input_lines": 81922,
+          "kept": 336,
+          "duplicates": 33258,
+          "ignored": 252,
+          "routed_to_dns": 48076,
+          "classified": {
+            "dns": 48076,
+            "network": 9336,
+            "content": 24261,
+            "scriptlet": 0
+          },
+          "cross_layer_removed": 0,
+          "error": null
+        },
+        {
+          "id": "easyprivacy",
+          "name": "EasyPrivacy",
+          "url": "https://easylist-downloads.adblockplus.org/easyprivacy.txt",
+          "ok": true,
+          "input_lines": 53893,
+          "kept": 12679,
+          "duplicates": 83,
+          "ignored": 688,
+          "routed_to_dns": 40443,
+          "classified": {
+            "dns": 40443,
+            "network": 12761,
+            "content": 2,
+            "scriptlet": 0
+          },
+          "cross_layer_removed": 0,
+          "error": null
+        },
+        {
+          "id": "custom_reviewed",
+          "name": "Reviewed custom rules",
+          "url": "custom/",
+          "ok": true,
+          "kept": 0,
+          "cross_layer_removed": 0,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "aggressive",
+      "path": "dist/adguard-aggressive.txt",
+      "layer": "content",
+      "layers": [
+        "network",
+        "content",
+        "scriptlet"
+      ],
+      "mode": "aggressive",
+      "rules": 115413,
+      "selected_upstreams": 10,
+      "successful_upstreams": 10,
+      "preserved_previous": false,
+      "cross_layer_removed_pure_domains": 0,
+      "compression": {},
+      "sources": [
+        {
+          "id": "awavenue",
+          "name": "AWAvenue Ads Rule",
+          "url": "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule.txt",
+          "ok": true,
+          "input_lines": 916,
+          "kept": 5,
+          "duplicates": 1,
+          "ignored": 11,
+          "routed_to_dns": 899,
+          "classified": {
+            "dns": 899,
+            "network": 5,
+            "content": 0,
+            "scriptlet": 0
+          },
+          "cross_layer_removed": 0,
+          "error": null
+        },
+        {
+          "id": "adguard_chinese",
+          "name": "AdGuard Chinese filter",
+          "url": "https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_224_Chinese/filter.txt",
+          "ok": true,
+          "input_lines": 23645,
+          "kept": 16475,
+          "duplicates": 18,
+          "ignored": 901,
+          "routed_to_dns": 6251,
+          "classified": {
+            "dns": 6251,
+            "network": 7427,
+            "content": 8764,
+            "scriptlet": 284
+          },
+          "cross_layer_removed": 0,
+          "error": null
+        },
+        {
+          "id": "easylist_china",
+          "name": "EasyList China",
+          "url": "https://easylist-downloads.adblockplus.org/easylistchina.txt",
+          "ok": true,
+          "input_lines": 19718,
+          "kept": 171,
+          "duplicates": 13329,
+          "ignored": 107,
+          "routed_to_dns": 6111,
+          "classified": {
+            "dns": 6111,
+            "network": 6552,
+            "content": 6948,
+            "scriptlet": 0
+          },
+          "cross_layer_removed": 0,
+          "error": null
+        },
+        {
+          "id": "adguard_base",
+          "name": "AdGuard Base filter",
+          "url": "https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_2_Base/filter.txt",
+          "ok": true,
+          "input_lines": 161079,
+          "kept": 82516,
+          "duplicates": 796,
+          "ignored": 20790,
+          "routed_to_dns": 56977,
+          "classified": {
+            "dns": 56977,
+            "network": 25985,
+            "content": 51514,
+            "scriptlet": 5044
+          },
+          "cross_layer_removed": 0,
+          "error": null
+        },
+        {
+          "id": "adguard_mobile",
+          "name": "AdGuard Mobile Ads filter",
+          "url": "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/MobileFilter/sections/adservers.txt",
+          "ok": true,
+          "input_lines": 1061,
+          "kept": 91,
+          "duplicates": 0,
+          "ignored": 75,
+          "routed_to_dns": 895,
+          "classified": {
+            "dns": 895,
+            "network": 91,
+            "content": 0,
+            "scriptlet": 0
+          },
+          "cross_layer_removed": 0,
+          "error": null
+        },
+        {
+          "id": "jiekouad",
+          "name": "jiekouAD",
+          "url": "https://raw.githubusercontent.com/damengzhu/banad/main/jiekouAD.txt",
+          "ok": true,
+          "input_lines": 5886,
+          "kept": 1323,
+          "duplicates": 55,
+          "ignored": 16,
+          "routed_to_dns": 4492,
+          "classified": {
+            "dns": 4492,
+            "network": 523,
+            "content": 853,
+            "scriptlet": 1
+          },
+          "cross_layer_removed": 0,
+          "error": null
+        },
+        {
+          "id": "cjx_annoyance",
+          "name": "CJX's Annoyance List",
+          "url": "https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-annoyance.txt",
+          "ok": true,
+          "input_lines": 1861,
+          "kept": 1712,
+          "duplicates": 13,
+          "ignored": 22,
+          "routed_to_dns": 114,
+          "classified": {
+            "dns": 114,
+            "network": 620,
+            "content": 1104,
+            "scriptlet": 0
+          },
+          "cross_layer_removed": 0,
+          "error": null
+        },
+        {
+          "id": "xinggsf_mv",
+          "name": "xinggsf mv",
+          "url": "https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/mv.txt",
+          "ok": true,
+          "input_lines": 181,
+          "kept": 103,
+          "duplicates": 4,
+          "ignored": 47,
+          "routed_to_dns": 27,
+          "classified": {
+            "dns": 27,
+            "network": 71,
+            "content": 26,
+            "scriptlet": 10
+          },
+          "cross_layer_removed": 0,
+          "error": null
+        },
+        {
+          "id": "easylist",
+          "name": "EasyList",
+          "url": "https://easylist-downloads.adblockplus.org/easylist.txt",
+          "ok": true,
+          "input_lines": 81922,
+          "kept": 336,
+          "duplicates": 33261,
+          "ignored": 249,
+          "routed_to_dns": 48076,
+          "classified": {
+            "dns": 48076,
+            "network": 9336,
+            "content": 24261,
+            "scriptlet": 0
+          },
+          "cross_layer_removed": 0,
+          "error": null
+        },
+        {
+          "id": "easyprivacy",
+          "name": "EasyPrivacy",
+          "url": "https://easylist-downloads.adblockplus.org/easyprivacy.txt",
+          "ok": true,
+          "input_lines": 53893,
+          "kept": 12681,
+          "duplicates": 83,
+          "ignored": 686,
+          "routed_to_dns": 40443,
+          "classified": {
+            "dns": 40443,
+            "network": 12761,
+            "content": 2,
+            "scriptlet": 0
+          },
+          "cross_layer_removed": 0,
+          "error": null
+        },
+        {
+          "id": "custom_reviewed",
+          "name": "Reviewed custom rules",
+          "url": "custom/",
+          "ok": true,
+          "kept": 0,
+          "cross_layer_removed": 0,
+          "error": null
+        }
+      ]
+    }
+  ],
+  "sha256": {
+    "dist/adguard-dns.txt": "185e8b0eed7808f80248bee1185f8b27eece5ee3f6b7b0d94458fcc701963781",
+    "dist/adguard-content.txt": "96f1812bc64ddd972d592cae53d98d66da5744679d8cd79018cd50dd7947f9f8",
+    "dist/adguard-network.txt": "03d976309559aa8dd234c273663f7e8775e73537c94975b65938990745cbca5f",
+    "dist/adguard-scriptlet.txt": "981dcdc9318e6a70d7d34c331791a76bf77e35604b43a272b6f924545f6f674c",
+    "dist/adguard-android.txt": "6c65630ba4bac0334f3a9ac145d679df5e3098f815e458f2b2ceaf9481be70a1",
+    "dist/adguard-browser.txt": "45d999c8123a493b96f9b55eeabc3df290abac4f1f903bdc8ba07edd88a82d8a",
+    "dist/adguard-windows.txt": "0c8d087f3938e78360af205f59a7b18d1843d64bd1ea964bf1d564f144040a03",
+    "dist/adguard-conservative.txt": "f666a167ace2e0021a038b6bd395d176411b0d91d5fb6012237f3f97a79f16b8",
+    "dist/adguard-aggressive.txt": "58670c504f5c018d82221cf039e2b2b711dda34319e2b9beb1b72dd948c5bf59"
+  }
+}

@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Content
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202606221747
-! Last modified: 2026-06-22T17:47:33Z
+! Version: 202606222112
+! Last modified: 2026-06-22T21:12:14Z
 ! Layers: content
 ! Mode: standard
-! Rules: 62753
+! Rules: 62755
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -16669,6 +16669,8 @@ doomovie-free.com##.row-kodsana-container
 slow-manga.com##.header-ads-section
 123-hd.com##div[id^="banner_"]
 goldtraders.or.th#?#header + div.flex > .px-4:contains(ADVERTISEMENT)
+doujin-y.com##div.center_doujiny
+doujin-y.com##.sticky-close
 thlivehub.com#@#.video-ad-container
 series-days.com##.adhl
 series-days.com##.adl

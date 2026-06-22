@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Network
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202606212342
-! Last modified: 2026-06-21T23:42:42Z
+! Version: 202606220527
+! Last modified: 2026-06-22T05:27:25Z
 ! Layers: network
 ! Mode: standard
-! Rules: 47382
+! Rules: 47383
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -34691,6 +34691,7 @@ template/m1938pc/ads/*.js
 ://ads.$popup,domain=~ad.olx.pl|~ads.mercadolibre.com.ar|~ads.mercadolibre.com.cl|~ads.mercadolibre.com.co|~ads.mercadolibre.com.ec|~ads.mercadolibre.com.mx|~ads.mercadolibre.com.pe|~ads.mercadolibre.com.ve|~ads.mercadolivre.com.br|~ads.openai.com|~ads.pandauth.com|~ads.umd.edu|~axon.ai|~kakaku.com|~reddit.com|~smartnews.com
 ://adv.$popup,domain=~adv.kompas.id|~adv.lack-girl.com
 ||lockerdome.com^$third-party
+||smalk.ai^$third-party
 ||35.227.234.222^
 ||35.232.188.118^
 ||betvictor.com*&utm_campaign=$popup

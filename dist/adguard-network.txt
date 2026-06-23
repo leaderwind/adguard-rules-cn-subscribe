@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Network
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202606231001
-! Last modified: 2026-06-23T10:01:08Z
+! Version: 202606231245
+! Last modified: 2026-06-23T12:45:57Z
 ! Layers: network
 ! Mode: standard
-! Rules: 47371
+! Rules: 47377
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -8326,6 +8326,12 @@ $cookie=__adblocker,domain=slate.com|thehindubusinessline.com
 ||claimfey.com/cryptonews/wp-content/uploads/bqanwcfp.js
 @@||static.trafficjunky.com/ab/ads_test.js$domain=bztube.com|hotovs.com|insuredhome.org|nudegista.com|pornluck.com|vidd.se|redtube.*|youpornru.com|tube8.com|tube8.es|tube8.fr|tube8.net|pornhub.com|pornhub.org|pornhub.net
 @@://www.exoclick.com/ads.js|
+@@||vnjpclub.com^$generichide
+@@||cinehd.app^$generichide
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=cinehd.app
+@@||google-analytics.com/analytics.js$domain=cinehd.app
+@@||static.ads-twitter.com/ads.js$domain=cinehd.app
+@@||googleads.g.doubleclick.net/pagead/ads$domain=cinehd.app
 @@||lihatgambar.my.id/ad_*.js
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=thesun.co.uk
 @@||pubads.g.doubleclick.net/gampad/$domain=sonyliv.com

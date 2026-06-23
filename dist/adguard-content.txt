@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Content
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202606230018
-! Last modified: 2026-06-23T00:18:43Z
+! Version: 202606230513
+! Last modified: 2026-06-23T05:13:43Z
 ! Layers: content
 ! Mode: standard
-! Rules: 62755
+! Rules: 62758
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -56332,7 +56332,7 @@ permanentstyle.com##.widget_sow-advertisements
 androidpctv.com,brigantinenow.com,downbeachbuzz.com,thecatholictravelguide.com##.widget_sp_image
 gamertweak.com##.widget_srlzycxh
 captainaltcoin.com,freedesignresources.net,utahgunexchange.com,webkinznewz.ganzworld.com,webpokie.com##.widget_text
-justjared.com##.widget_tpd_ad_widget
+dreadcentral.com,justjared.com##.widget_tpd_ad_widget
 pacenewsonline.com##.widget_webads_displayads_widget
 carpeludum.com##.widget_widget_catchevolution_adwidget
 cryptoreporter.info##.widget_wpstealthads_widget
@@ -62454,9 +62454,12 @@ yatu.tv##.dplayer-web-fullscreen-fix #tburl,#loadtop,[id^=myas],#myds1,#daohang
 cyberchef.org###workspace-wrapper > [id][style*="height"] {height: 100% !important}
 complex.com##.\[\@media\(min-width\:520px\)\]\:px-\[20px\]
 justjared.com##.banner-spacer-top {max-height: 50px !important;}
+quizzop.com##.display-ad_displayAdWrapper__nO4Kb
 temp-mail.io##.fixed.bottom-0.\[\@media\(max-width\:1350px\)\]\:hidden
 complex.com##.lg\:top-\[var\(--sticky-top\)\]
+umogames.com##.style-module_gam_container__9KUaZ
 justjared.com##[role="banner"] {top:0 !important}
+feedzop.com##div[data-gzp-display-ad-status]
 advocate.com,out.com,pride.com#?#.component.module-headline:has-text(FROM OUR SPONSORS)
 character.ai#?#.space-y-4 > .w-full:has-text(Advertisement)
 cjleo.com#?#.alt-widget-title:has-text(advertisement)

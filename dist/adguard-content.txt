@@ -1,8 +1,8 @@
 ! Title: AdGuard Rules CN - Content
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202606231245
-! Last modified: 2026-06-23T12:45:57Z
+! Version: 202606231606
+! Last modified: 2026-06-23T16:06:39Z
 ! Layers: content
 ! Mode: standard
 ! Rules: 62767
@@ -18720,6 +18720,7 @@ animecorner.me,zarabiajprzez24.pl,watchhentai.xxx,app-how-to-use-it.com,linuxcap
 pawastreams.*,nflbite.to,footybite.to,sportschamp.fun,afly.pro,topsporter.net,soccerstreams.football,mysocceraustralia.com,rayinfosports.com,hesgoals.top,sequencecard.xyz,totalsportek.soccer,metaporky.site,nbabite.to,cyfostreams.com,gamerarcades.com,bestreamsports.org,footy.to,mcrypto.club,greaterkashmir.com###id-custom_banner
 pawastreams.*,groundedtechs.com,rayinfosports.com,sequencecard.xyz,matchtime.co,sportspellz.com,bestreamsports.org,silverspoon.site###dismiss-btn
 vi-control.net,nullforums.net,landyzone.co.uk,nullcave.pro,woxmax.com,waskucity.com,babia.to,technofino.in,reef2reef.com,minebbs.com,craxpro.io,affiliatefix.com,myiptvforum.com,hifivision.com,worldofiptv.com,altenen.is,beermoneyforum.com,germancarforum.com,cracking.org##.samBannerUnit
+thesun.co.uk##.article-boxout
 androidexperto.com##div[class^="ym-p"][class*="-server-"]
 speedof.me##.mezgopv-zone
 cinehd.app##section[aria-label^="Sponsored"]
@@ -35394,7 +35395,7 @@ justthegays.tv##.zd-slot
 theblock.co#?#.py-4.my-6:contains(Advertisement)
 tickle.porn##.fp-ui-block
 tickle.porn##.fp-player > div[style^="inset"]:not([class])
-pcgamesn.com,ign.com,theatlantic.com##.ad-wrapper
+rscripts.net,pcgamesn.com,ign.com,theatlantic.com##.ad-wrapper
 troypoint.com##.entry-content > div[style*="background-color:"][style*="border:"]:has(> span > a[target="_blank"])
 briskoda.net##div[data-ips-ad]
 zenlesslab.com,wutheringlab.com##.e-con-boxed:has(div[id^="pw-incontent"])
@@ -36250,6 +36251,7 @@ implbits.com#@#.banner_container
 chartstream.net###b6c3
 king-shoot.tv#@##ads_top
 polzadom.ru#@#.ad-placement
+forum.betaprofiles.com##.discourse-adplugin
 mako.co.il#$#main[class*="_hidden_"] { transform: none !important; position: relative !important; }
 mako.co.il#$#div[class*="_rootHidden__"] { transform: none !important; position: relative !important; }
 gays-cruising.com##body > div[style="display: block; visibility: visible; height: 100px;"]
@@ -37317,7 +37319,6 @@ kliuki.bg###container > div[style="float:left;"] > div[style]
 ###ad_bnr_btf_08
 ###ad_body
 ###ad_bottom
-###ad_box
 ###ad_box_top
 ###ad_branding
 ###ad_bsb
@@ -41962,7 +41963,6 @@ kliuki.bg###container > div[style="float:left;"] > div[style]
 ##.ad-tall
 ##.ad-tech-widget
 ##.ad-temp
-##.ad-text
 ##.ad-text-centered
 ##.ad-text-label
 ##.ad-text-link
@@ -50101,7 +50101,6 @@ wegotads.co.za#@#.ad-source
 gqjapan.jp#@#.ad-stickyhero
 gqjapan.jp#@#.ad-stickyhero--standard
 gqjapan.jp#@#.ad-stickyhero-enable-mobile
-alliedwindow.com,isewanferry.co.jp,jreu-h.jp,junkmail.co.za,nexco-hoken.co.jp,version2.dk#@#.ad-text
 job.inshokuten.com#@#.ad-title
 gov.uk,videosalon.jp#@#.ad-widget
 dailysportscar.com,honor.com#@#.ad-wrap:not(#google_ads_iframe_checktag)
@@ -50271,7 +50270,6 @@ eh-ic.com#@#.small_ad
 hebdenbridge.co.uk#@#.smallads
 maps.walkingclub.org.uk#@#.sponsor-box
 geekwire.com#@#.sponsor_post
-techradar.com,toimitilat.kauppalehti.fi#@#.sponsored-article
 zdnet.com#@#.sponsoredItem
 flightaware.com#@#.sticky-footer-ad
 kingsofchaos.com#@#.textad
@@ -52233,6 +52231,8 @@ barandbench.com##.ad-slot-row-m__ad-Wrapper__cusCS
 cnn.com##.ad-slot__ad-wrapper
 freepressjournal.in##.ad-slots
 usnews.com##.ad-spacer__AdSpacer-sc-nwg9sv-0
+fermanaghherald.com##.ad-spaces
+ascopost.com,fermanaghherald.com##.ad-text
 techinformed.com##.ad-text-styles
 playbuzz.com##.ad-top-1-wrapper
 companiesmarketcap.com##.ad-tr

@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Content
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202606231606
-! Last modified: 2026-06-23T16:06:39Z
+! Version: 202606231811
+! Last modified: 2026-06-23T18:11:12Z
 ! Layers: content
 ! Mode: standard
-! Rules: 62767
+! Rules: 62771
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -10850,6 +10850,8 @@ dirtstyle.tv##.lightbox
 ##img[width="600"][height="90"]
 ##img[width="720"][height="90"]
 ##img[width="728"][height="90"]
+koha.net##body > div.container:has(> div.d-flex > div.reklame_live)
+koha.net##.reklama_holder
 animeshqip.org#@#.ad-box:not(#ad-banner):not(:empty)
 animeshqip.org#@#.adunit
 animeshqip.org#@#.AdUnit
@@ -58949,6 +58951,7 @@ foobar2000.org#?#caption:contains(advertisement)
 foodlion.com#?#.product-grid-cell:contains(Sponsored)
 freshdirect.com#?#.swiper-slide:contains(Sponsored)
 fxempire.com#?#span[display="inline-block"]:contains(Advertisement)
+gamepadla.com#?#.pMain:contains(Partner)
 gamersnexus.net#?#.moduleContent:contains(Advertisement)
 ganjapreneur.com#?#.has-background:contains(Featured whitepaper)
 giantfood.com,giantfoodstores.com,martinsfoods.com#?#.pdl-generic-content_full:contains(Sponsored)
@@ -62569,6 +62572,7 @@ foobar2000.org#?#caption:has-text(advertisement)
 foodlion.com#?#.product-grid-cell:has-text(Sponsored)
 freshdirect.com#?#.swiper-slide:has-text(Sponsored)
 fxempire.com#?#span[display="inline-block"]:has-text(Advertisement)
+gamepadla.com#?#.pMain:has-text(Partner)
 gamersnexus.net#?#.moduleContent:has-text(Advertisement)
 ganjapreneur.com#?#.has-background:has-text(Featured whitepaper)
 giantfood.com,giantfoodstores.com,martinsfoods.com#?#.pdl-generic-content_full:has-text(Sponsored)

@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Scriptlet
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202606230513
-! Last modified: 2026-06-23T05:13:43Z
+! Version: 202606231001
+! Last modified: 2026-06-23T10:01:08Z
 ! Layers: scriptlet
 ! Mode: standard
-! Rules: 5364
+! Rules: 5365
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -5239,6 +5239,7 @@ adultswim.com#%#//scriptlet('m3u-prune', '/ad-slate|warnermediacdn\.com\/mtg|war
 adultswim.com#%#(()=>{const e={apply:async(n,o,t)=>(t[0]?.toString?.().includes("function () { [native code] }")&&(t[0]=new Proxy(t[0],e)),"object"==typeof t[0]&&t[0].linearAdBreaks&&(t[0].linearAdBreaks=[]),Reflect.apply(n,o,t))},n={construct:(n,o,t)=>{const r=o[0],c=r?.toString(),i=c?.includes("ad breaks");return i&&(o[0]=new Proxy(r,e)),Reflect.construct(n,o,t)}};window.Promise=new Proxy(window.Promise,n)})();
 videohelp.com#%#//scriptlet('remove-node-text', '#text', '/.{0,10}(?:Visit our sponsors?!|and backup Blu-rays!).{0,10}\n?$/')
 rule34hentai.net#%#//scriptlet('abort-on-stack-trace', 'parseInt', 'runRotator')
+tubitv.com#%#//scriptlet('trusted-json-set', 'Promise.resolve', '$.items[?(@.ad_id)]', '$remove$', '', 'arg:0')
 khaddavi.net#%#//scriptlet('set-constant', 'ads', 'emptyObj')
 vix.com,play.fyi.tv,play.history.com,play.aetv.com#%#//scriptlet('prevent-element-src-loading', 'script', 'imasdk.googleapis.com/js/sdkloader/ima3_dai.js')
 watch.shout-tv.com#%#//scriptlet('json-prune', 'streams.*.adUnits.*')

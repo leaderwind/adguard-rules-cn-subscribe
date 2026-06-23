@@ -1,8 +1,8 @@
 ! Title: AdGuard Rules CN - Android
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202606230513
-! Last modified: 2026-06-23T05:13:43Z
+! Version: 202606231001
+! Last modified: 2026-06-23T10:01:08Z
 ! Layers: network,content,scriptlet
 ! Mode: standard
 ! Rules: 18178
@@ -7674,7 +7674,6 @@ x6g.com##.news-article_container > ul > li[class]:has(> a[href^="/ad.php?aHR0c"]
 tcptest.cn##div.min-w-0 > .relative
 tcptest.cn##div.fixed.hidden
 xchina.co##.photo-items > div[class^="item auto-height"]
-techritual.com##.th-single-ad
 newtalk.tw##.ad-half
 tupaki.com##div[id^="detail_wrap_ad"]
 115cdn.com##.flex-shrink-0 > .w-full:has(> div.spotlight-ad-container)
@@ -10223,6 +10222,7 @@ jucha.com##.money_item
 mixytalk.com##.result-inline-ad
 mixytalk.com###ad-interstitial
 69tang.org##a[id^="imgs_link"]
+techritual.com##.th-single-ad
 xchina.co##.photo-items > .auto-height
 staticfile.link###player_pause
 jin10.com##.desktop-tip

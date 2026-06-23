@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Content
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202606230513
-! Last modified: 2026-06-23T05:13:43Z
+! Version: 202606231001
+! Last modified: 2026-06-23T10:01:08Z
 ! Layers: content
 ! Mode: standard
-! Rules: 62758
+! Rules: 62763
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -241,7 +241,6 @@ x6g.com##.news-article_container > ul > li[class]:has(> a[href^="/ad.php?aHR0c"]
 tcptest.cn##div.min-w-0 > .relative
 tcptest.cn##div.fixed.hidden
 xchina.co##.photo-items > div[class^="item auto-height"]
-techritual.com##.th-single-ad
 newtalk.tw##.ad-half
 tupaki.com##div[id^="detail_wrap_ad"]
 115cdn.com##.flex-shrink-0 > .w-full:has(> div.spotlight-ad-container)
@@ -2790,6 +2789,7 @@ jucha.com##.money_item
 mixytalk.com##.result-inline-ad
 mixytalk.com###ad-interstitial
 69tang.org##a[id^="imgs_link"]
+techritual.com##.th-single-ad
 xchina.co##.photo-items > .auto-height
 staticfile.link###player_pause
 jin10.com##.desktop-tip
@@ -18718,6 +18718,11 @@ animecorner.me,zarabiajprzez24.pl,watchhentai.xxx,app-how-to-use-it.com,linuxcap
 pawastreams.*,nflbite.to,footybite.to,sportschamp.fun,afly.pro,topsporter.net,soccerstreams.football,mysocceraustralia.com,rayinfosports.com,hesgoals.top,sequencecard.xyz,totalsportek.soccer,metaporky.site,nbabite.to,cyfostreams.com,gamerarcades.com,bestreamsports.org,footy.to,mcrypto.club,greaterkashmir.com###id-custom_banner
 pawastreams.*,groundedtechs.com,rayinfosports.com,sequencecard.xyz,matchtime.co,sportspellz.com,bestreamsports.org,silverspoon.site###dismiss-btn
 vi-control.net,nullforums.net,landyzone.co.uk,nullcave.pro,woxmax.com,waskucity.com,babia.to,technofino.in,reef2reef.com,minebbs.com,craxpro.io,affiliatefix.com,myiptvforum.com,hifivision.com,worldofiptv.com,altenen.is,beermoneyforum.com,germancarforum.com,cracking.org##.samBannerUnit
+techrepublic.com##div[data-ad-slot]
+techrepublic.com##sticky-footer-ad
+techrepublic.com##.ad-container
+techrepublic.com##.prose > div.has-data-empty\:hidden
+foodrepublic.com##.raptive-video-player
 newscentermaine.com##.grid > div.grid__section_theme_below-article:has(> div.grid__content div.grid__module-sizer_name_ad)
 newscentermaine.com##.grid__main > div.grid__cell:has(> div.grid__module > div.grid__module-sizer_name_ad)
 ashemaletube.com##a.q1-line
@@ -22549,7 +22554,7 @@ gumtree.com###integratedMpu
 pornpics.com##li[class*="r"][class$="-frame"]
 teamoney.site,lookmovie2.to,lilymanga.net##html > iframe[id][style*="position:"][style*="display:"]
 lilymanga.net##.reading-content > .chapter-warning:has(> p > span > strong > a[target="_blank"])
-islands.com##.article > .under-art:has(> .zergnet-widget)
+foodrepublic.com,islands.com##.article > .under-art:has(> .zergnet-widget)
 teamoney.site,lookmovie2.to,hdtodayz.to#$?#html > iframe[style*="position:"] { remove: true; }
 hdtodayz.to##html > div[style*="position:"][style*="pointer-events:"][style*="z-index:"]
 myflixerz.to,hdtodayz.to,moviesjoy.is##div:is([id$="top"], [id$="middle"]) > a[target="_blank"] > img
@@ -28387,7 +28392,7 @@ streamcr7.com##.container > a[href].btn-outline-primary
 sundryfiles.com##.download-timer-text + div[style="text-align:center;font-size:13px;color:#a1a1a1;"]
 news18.com##.pani-wid
 videosdemadurasx.com,an1.com,getsetclean.in,sexgames.cc##a[rel^="sponsored"]
-technologymagazine.com,fintechmagazine.com,zerohedge.com##div[class^="Advert_"]
+telcomagazine.com,technologymagazine.com,fintechmagazine.com,zerohedge.com##div[class^="Advert_"]
 dfiles.eu##iframe[width="240px"][height="800px"]
 getnada.com###__layout > div > div > .pb-4.justify-center.w-full
 washingtonpost.com###fusion-app > div:not([class]):not([id]) > div.bb[style^="padding-left:"][style*="min-height:"]
@@ -53534,6 +53539,7 @@ apkcombo.com##.diseanmevrtt
 airmail.news,govevents.com,protipster.com##.display
 drugs.com##.display-ad
 bestbuy.com##.display-ad-wrapper
+quizzop.com##.display-ad_displayAdWrapper__nO4Kb
 flightconnections.com##.display-box
 flightconnections.com##.display-box-2
 flightconnections.com##.display-box-first-click
@@ -55881,6 +55887,7 @@ missav78.top##.streamer-container2
 stellar.ie##.stuck
 darko.audio##.studio_widget
 news.stv.tv##.stv-article-gam-slot
+umogames.com##.style-module_gam_container__9KUaZ
 dbltap.com##.style_7z5va1-o_O-style_48hmcm-o_O-style_1ts1q2h
 inyourarea.co.uk##.style_advertisementMark_1Jki4
 inyourarea.co.uk##.style_cardWrapper_ycKf8
@@ -57351,6 +57358,7 @@ bedbathandbeyond.com##div[data-cta="plpSponsoredProductClick"]
 gamingbible.com,unilad.com##div[data-cypress^="sticky-header"]
 esmmagazine.com##div[data-dfp]
 thestudentroom.co.uk##div[data-freestar-ad]
+feedzop.com##div[data-gzp-display-ad-status]
 my.clevelandclinic.org##div[data-identity*="board-ad"]
 popculture.com##div[data-lx-claimed="zone-desktop-incontent"]
 popculture.com##div[data-lx-claimed="zone-desktop-index-leaderboard"]
@@ -62454,12 +62462,9 @@ yatu.tv##.dplayer-web-fullscreen-fix #tburl,#loadtop,[id^=myas],#myds1,#daohang
 cyberchef.org###workspace-wrapper > [id][style*="height"] {height: 100% !important}
 complex.com##.\[\@media\(min-width\:520px\)\]\:px-\[20px\]
 justjared.com##.banner-spacer-top {max-height: 50px !important;}
-quizzop.com##.display-ad_displayAdWrapper__nO4Kb
 temp-mail.io##.fixed.bottom-0.\[\@media\(max-width\:1350px\)\]\:hidden
 complex.com##.lg\:top-\[var\(--sticky-top\)\]
-umogames.com##.style-module_gam_container__9KUaZ
 justjared.com##[role="banner"] {top:0 !important}
-feedzop.com##div[data-gzp-display-ad-status]
 advocate.com,out.com,pride.com#?#.component.module-headline:has-text(FROM OUR SPONSORS)
 character.ai#?#.space-y-4 > .w-full:has-text(Advertisement)
 cjleo.com#?#.alt-widget-title:has-text(advertisement)

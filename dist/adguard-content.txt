@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Content
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202606240008
-! Last modified: 2026-06-24T00:08:52Z
+! Version: 202606240433
+! Last modified: 2026-06-24T04:33:58Z
 ! Layers: content
 ! Mode: standard
-! Rules: 62775
+! Rules: 62777
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -54071,6 +54071,7 @@ worldpress.org##.header-bnr
 kveller.com##.header-bottom
 cpbj.com##.header-bottom-adboard-area
 counterpunch.org##.header-center
+stuff.co.nz##.header-container
 justjared.com##.header-container__main
 thetoyinsider.com##.header-drop-zone
 tampabayparenting.com##.header-html-inner
@@ -57391,6 +57392,7 @@ xing.com##div[data-qa="jobs-recommendation-ad"]
 duckduckgo.com##div[data-react-module-id="products-0"]
 basschat.co.uk,momondo.*##div[data-resultid$="-sponsored"]
 briskoda.net,linustechtips.com##div[data-role="sidebarAd"]
+downdetector.com##div[data-service-list-ad]
 fylio.com##div[data-slot]
 costco.com##div[data-source="sponsored"]
 aliexpress.com,aliexpress.us##div[data-spm="seoads"]

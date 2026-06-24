@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Network
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202606240008
-! Last modified: 2026-06-24T00:08:52Z
+! Version: 202606240433
+! Last modified: 2026-06-24T04:33:58Z
 ! Layers: network
 ! Mode: standard
-! Rules: 47378
+! Rules: 47382
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -44455,6 +44455,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||faphouse.com/collector/
 ||farfetch.net/v1/marketing/trackings
 ||faro-collector-prod-*.grafana.net^
+||fastly.com/metrics/gtm/
 ||fastmail.com/api/event/
 ||fc2.com/counter_img.php?
 ||featureflags.grubhub.com/v1/events
@@ -44674,6 +44675,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||keirin.netkeiba.com/ndtracker/
 ||kgoma.com/v1/stat/
 ||khanacademy.org/api/internal/_analytics/
+||kick.com/149e9513-01fa-4fb0-aad4-566afd725d1b/
+||kick.com/UcggFnr2hNhLCwLf/
 ||kio.ac/analytics/
 ||klm.us/CWZUvc/
 ||kloth.net/images/pixel.gif
@@ -46597,6 +46600,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||akamaihd.net/nbad/player/*/visitorapi.js$domain=watch.nba.com
 @@||alphaapi.brandify.com/rest/clicktrack$xmlhttprequest,domain=traderjoes.com
 @@||amazonaws.com/tracker/p/kompasreco/oval_web_analytics_latest.js$domain=kompas.com
+@@||an-sm.naughtycdn.com/js/lti-analytics-*.min.js$domain=members.naughtyamerica.com
 @@||analytics-static.ugc.bazaarvoice.com/prod/$script,domain=hisense.co.uk
 @@||analytics.amplitude.com^$~third-party
 @@||analytics.analytics-egain.com/onetag/$script,domain=boohoo.com|digikey.at|digikey.be|digikey.bg|digikey.ca|digikey.ch|digikey.cn|digikey.co.il|digikey.co.nz|digikey.co.th|digikey.co.uk|digikey.co.za|digikey.com|digikey.com.au|digikey.com.br|digikey.com.mx|digikey.cz|digikey.de|digikey.dk|digikey.ee|digikey.es|digikey.fi|digikey.fr|digikey.gr|digikey.hk|digikey.hu|digikey.ie|digikey.in|digikey.it|digikey.jp|digikey.kr|digikey.lt|digikey.lu|digikey.lv|digikey.my|digikey.nl|digikey.no|digikey.ph|digikey.pl|digikey.pt|digikey.ro|digikey.se|digikey.sg|digikey.si|digikey.sk|digikey.tw

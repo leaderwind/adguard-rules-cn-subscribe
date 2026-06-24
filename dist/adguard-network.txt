@@ -1,8 +1,8 @@
 ! Title: AdGuard Rules CN - Network
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202606241153
-! Last modified: 2026-06-24T11:53:29Z
+! Version: 202606241452
+! Last modified: 2026-06-24T14:52:11Z
 ! Layers: network
 ! Mode: standard
 ! Rules: 47386
@@ -13817,7 +13817,7 @@ $replace=/openNewTab\(".*?".{0\,10}\)/null/,document,subdocument,to=turbovidhls.
 /prize-*/assets/modules.js$~third-party
 /partytown/partytown-sw.js
 /affiliates/vast/?campaign=
-/vast.php?t=*&tags=exoxvideostargetting
+/vast.php?*&tags=exoxvideostargetting
 /vast.php?idzone=
 ?qtag=*&x_pm_click=$all
 /banner.go?spaceid=

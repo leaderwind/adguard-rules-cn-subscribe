@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Scriptlet
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202606251149
-! Last modified: 2026-06-25T11:49:11Z
+! Version: 202606251509
+! Last modified: 2026-06-25T15:09:26Z
 ! Layers: scriptlet
 ! Mode: standard
-! Rules: 5373
+! Rules: 5376
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -2699,6 +2699,9 @@ rynekinfrastruktury.pl#%#//scriptlet('abort-on-stack-trace', 'document.querySele
 kreskowki24.top#%#//scriptlet('abort-current-inline-script', 'EventTarget.prototype.addEventListener', 'showDiscordPopup')
 crystal-launcher.pl#%#//scriptlet('prevent-window-open')
 mgsm.pl#%#//scriptlet('prevent-addEventListener', 'load', 'AdArea')
+miastorumia.pl#%#//scriptlet('prevent-setTimeout', '/adblock|\.offsetHeight[\s]*?===[\s]*?0/')
+miastorumia.pl#%#//scriptlet('remove-node-text', '#text', '/^[\s]*?Reklama[\s]*?$/', '#sidebar')
+miastorumia.pl#%#//scriptlet('remove-node-text', '#text', '/^[\s]*?Reklama[\s]*?$/', '#sidebar #posts_custom_box > .content')
 ewybory.eu#%#//scriptlet('prevent-setTimeout', 'blocked')
 forumrowerowe.org#%#//scriptlet('set-constant', 'AdBlockDetectAction', 'undefined')
 miasto.in#%#//scriptlet('prevent-setTimeout', '.offsetHeight === 0')

@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Android
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202606251149
-! Last modified: 2026-06-25T11:49:11Z
+! Version: 202606251509
+! Last modified: 2026-06-25T15:09:26Z
 ! Layers: network,content,scriptlet
 ! Mode: standard
-! Rules: 18180
+! Rules: 18181
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -16509,6 +16509,7 @@ sudokugame.org#%#//scriptlet('trusted-replace-node-text', 'script', 'adjump', 'f
 @@||criteo.com/delivery/ajs.php?zoneid=$script,domain=gaus.ee
 @@||jd.com/adclick?$popup,~third-party
 ||wnacg.com/game/$image,rewrite=abp-resource:1x1-transparent-gif,domain=wnacg.com
+yahoo.com##.pointer-events-auto.h-\[91px\]
 cngold.org#?#.w310:-abp-has(>.swiper-company)
 hanime1.me#?#div[style*="text-align:"]:-abp-has(>div[style*="color: white"])
 weibo.com#?#.vue-recycle-scroller__item-view:-abp-has(img[src="https://d.sinaimg.cn/prd/1005/891/2025/03/21/icon_auth_white.png"])

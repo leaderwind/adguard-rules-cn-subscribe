@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Network
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202606251149
-! Last modified: 2026-06-25T11:49:11Z
+! Version: 202606251509
+! Last modified: 2026-06-25T15:09:26Z
 ! Layers: network
 ! Mode: standard
-! Rules: 47404
+! Rules: 47406
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -14133,7 +14133,6 @@ _dating3/index.html?aref=$all
 /askdrej/*$script,~third-party
 /bannerpop/uploads/*
 /xxx.js|$script,~third-party
-.systems/signup?ad_domain=$all
 /ld/ifk?zoneid=
 /asset/default/player/plugins/vast-*.js
 .com/1clkn/
@@ -18179,6 +18178,7 @@ $script,third-party,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sha
 ||adxpansion.com/ads.php$redirect=nooptext,important
 ||pornhd.com/connect/stat^$redirect=nooptext,important
 ||syndication.exoclick.com/splash.php$redirect=nooptext,important,domain=pornhd.com
+@@||trip.com^$extension='AdGuard Popup Blocker'|'AdGuard Popup Blocker (Beta)'
 @@178.248.233.239$network
 $popup,domain=cloudnestra.com,badfilter
 @@||cdn.ampproject.org^$domain=ettoday.net
@@ -20297,6 +20297,7 @@ $csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: www.googletagma
 @@||beinconnect.com.tr^$stealth
 @@||account.adobe.com^$document,domain=services.adobe.com,stealth=useragent
 @@||adguard.com^$stealth
+@@||tripo-data.s*-accelerate.amazonaws.com^$stealth=3p-auth,domain=tripo3d.ai
 @@||discord.com/api/*/quests/$stealth=useragent
 @@||unifiedapicommerce-ca.axs.com/veritix/$stealth=ip
 @@||auth.pingone.com^$stealth=3p-auth
@@ -20376,9 +20377,10 @@ $csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: www.googletagma
 @@||crunchyrollcdn.com^$stealth=referrer,domain=crunchyroll.com
 @@||iframe.coomeet.me^$stealth=webrtc
 @@||shutterstock.com^$stealth=useragent
-@@/*/*=|$third-party,xmlhttprequest,media,stealth=referrer,domain=player.videasy.*|cineby.at|cineplay.to|fmovies.nz
-@@.m3u8$third-party,xmlhttprequest,stealth=referrer,domain=player.videasy.*|cineby.at|cineplay.to|fmovies.nz
-@@q=$xmlhttprequest,stealth=referrer,domain=player.videasy.*|cineby.at|cineplay.to|fmovies.nz|vidup.to
+@@||api.videasy.*^$third-party,xmlhttprequest,stealth=referrer,domain=cineby.*|cineplay.to|fmovies.nz
+@@/*/*=|$third-party,xmlhttprequest,media,stealth=referrer,domain=player.videasy.*|cineby.*|cineplay.to|fmovies.nz
+@@.m3u8$third-party,xmlhttprequest,stealth=referrer,domain=player.videasy.*|cineby.*|cineplay.to|fmovies.nz
+@@q=$xmlhttprequest,stealth=referrer,domain=player.videasy.*|cineby.*|cineplay.to|fmovies.nz|vidup.to
 @@||setplay.shop/player/$subdocument,stealth=referrer,domain=hdfilmcehennemi.now
 @@||papagan.shop^$xmlhttprequest,stealth=referrer,domain=setplay.shop
 @@||twincdn.com/videos/$media,stealth=referrer,domain=pornmike.com

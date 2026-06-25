@@ -1,8 +1,8 @@
 ! Title: AdGuard Rules CN - Scriptlet
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202606251722
-! Last modified: 2026-06-25T17:22:44Z
+! Version: 202606252020
+! Last modified: 2026-06-25T20:20:57Z
 ! Layers: scriptlet
 ! Mode: standard
 ! Rules: 5376
@@ -4772,7 +4772,7 @@ yflix.to#%#//scriptlet('prevent-window-open')
 sazwe.com,link.snipcash.com,paymoney.click,tm-earn.com#%#//scriptlet('abort-on-property-read', 'open')
 mangoporn.net,streamporn.nl,pandamovies.*#%#//scriptlet('remove-node-text', 'script', 'mainAds')
 malavida.com#%#//scriptlet('prevent-addEventListener', 'DOMContentLoaded', 'popupOn')
-primesrc.me#%#//scriptlet('remove-attr', 'href', 'a.splash')
+primesrc.me#%#//scriptlet('remove-attr', 'href', 'div.embed-player > a[class^="spla"]')
 simply-hentai.com#%#//scriptlet('json-prune', 'props.layoutProps.data.ads.*.code props.layoutProps.data.adverts.*.code')
 templetoons.com#%#//scriptlet('prevent-window-open')
 gizmodo.com#%#//scriptlet('remove-class', 'dld-cta__link', '', 'stay')

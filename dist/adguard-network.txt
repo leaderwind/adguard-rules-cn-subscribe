@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Network
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202606250421
-! Last modified: 2026-06-25T04:21:39Z
+! Version: 202606250830
+! Last modified: 2026-06-25T08:30:37Z
 ! Layers: network
 ! Mode: standard
-! Rules: 47393
+! Rules: 47398
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -8387,7 +8387,8 @@ $cookie=__adblocker,domain=slate.com|thehindubusinessline.com
 @@||api.adinplay.com/libs/aiptag/*/tag.min.js$domain=play.gamepix.com
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$domain=play.gamepix.com
 @@||securepubads.g.doubleclick.net/pagead/managed/js/gpt/*/pubads_impl.js$domain=play.gamepix.com
-@@||data.adpresenter.de^$domain=xswiper.com|sexeey.com
+*$xmlhttprequest,third-party,redirect=nooptext,domain=vidizzy.com
+@@||data.adpresenter.de^$domain=xswiper.com|sexeey.com|vidizzy.com
 @@||safelinku.com/admanager.js$script,domain=app.khaddavi.net
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=links.lootlabs.gg
 ||snippet.univtec.com/js/swal.js$domain=i24news.tv
@@ -8875,6 +8876,7 @@ $script,redirect-rule=prebid-ads,domain=read.amazon.*
 ||aeromods.app/assets/js/plugins/0.js
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=live.golato.io
 @@||codicibancari.it/*script*/*.js$domain=decompiler.com
+@@||static.doubleclick.net/instream/ad_status.js$domain=stfly.biz
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=stfly.biz|stfly.cc|airevue.net|veroan.com|amalot.net|carribo.net
 @@||cdn.runative-syndicate.com/sdk/v*/bi.js$domain=stfly.cc
 @@||tsyndicate.com/iframes*/$domain=stfly.cc
@@ -27280,6 +27282,7 @@ _800x80_
 ||webshark.pl^$third-party
 ||webtrafic.ru^$third-party
 ||webwap.org^$third-party
+||weforads.com^$third-party
 ||whatstheword.co^$third-party
 ||whizzco.com^$third-party
 ||wlmarketing.com^$third-party
@@ -41731,6 +41734,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||4taps.me/analytics/
 ||51network.com^$third-party
 ||99widgets.com/counters/
+||a.klaviyo.com/forms/api/v3/geo-ip
 ||a.streamed.pk/api/event
 ||a.wishabi.com/track.gif?
 ||a2z.com/sping?
@@ -44269,6 +44273,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||cdn.reverso.net/rumjs/
 ||cdp.vercel.com/rs/
 ||centerblog.net/stats.js
+||cfparequest.pcpartpicker.com/api/event
 ||cgtn.com/api/collect/
 ||ch3ngl0rd.com/hit/
 ||change.org/api-proxy/-/bandit/pull

@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Content
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202606250421
-! Last modified: 2026-06-25T04:21:39Z
+! Version: 202606250830
+! Last modified: 2026-06-25T08:30:37Z
 ! Layers: content
 ! Mode: standard
-! Rules: 62784
+! Rules: 62785
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -209,8 +209,8 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###content_left > .r
 ##body[onresize="stopDebugger()"][onbeforecopy="return!1"] > div#root div:has(> img[src$=".gif"])
 ##body[onresize="stopDebugger()"][onbeforecopy="return!1"] > div#root div.m0auto > div > div.grid + div > div:empty
 fxshu.top##.com_t > div[id]:has(> div[style*="width: 100vw; position: relative;"] > span + img)
-assume.gguaklar.cc,51cg1.com,51baoliao01.com,91cg1.com##.recommend-layer
-assume.gguaklar.cc,51cg1.com,51baoliao01.com,91cg1.com###adFloat
+hokztalt.cc,51cg1.com,51baoliao01.com,91cg1.com##.recommend-layer
+hokztalt.cc,51cg1.com,51baoliao01.com,91cg1.com###adFloat
 51cg1.com##.dplayer-pre-img
 51cg1.com##.dplayer-pre-bg
 51cg1.com##.dplayer-pre-countdown
@@ -9078,7 +9078,7 @@ audiocircuit.dk,topmanhuas.org,kinotehnik.net,gamekazi.com,donghuaworld.com,nxbr
 ##a[id][href="https://chpadblock.com/"][rel="noopener noreferrer"]
 somcima.com###scrollToTop + div[id][class*=" "]
 itdmusicy.com,itdmusics.com##body > div[class]:has(> a[href^="https://chpadblock.com/"])
-dredyson.com###bloghash-scroll-top + div[id][class*=" "]
+devsoftwr.com,dredyson.com###bloghash-scroll-top + div[id][class*=" "]
 merlintoon.com##footer + script + div[id][class*=" "]
 clarinsusa.com##.firework-consent-overlay-js
 viduyy.com#@#.google-ad
@@ -9347,6 +9347,7 @@ pfps.gg#@#.ad-slot
 pfps.gg#@##ad_top_banner
 pfps.gg#$#body { overflow: auto !important; }
 pfps.gg#$##smellcheck { display: none !important; }
+luciferdonghua.in##div[data-afuhost]
 luciferdonghua.in###afu-ab
 luciferdonghua.in##.afu-banner
 streamcash.to##body > div[id][style*="position: fixed; inset: 0px; z-index: 99999;"]
@@ -9359,8 +9360,8 @@ leeapk.com#$#.acrp-adb-blur { overflow: auto !important; pointer-events: auto !i
 mods.to###detect-block
 athlete-insurance.com###kk-adblock-overlay
 rtl.hr#$?##adblock { remove: true; }
-dailyjobposting.xyz,tournguide.com,technons.com,jobnoid.net,shrtslug.biz#@#.ad-unit:not(.textads)
-dailyjobposting.xyz,tournguide.com,technons.com,jobnoid.net,shrtslug.biz#@#.ad_wrapper
+stfly.biz,dailyjobposting.xyz,tournguide.com,technons.com,jobnoid.net,shrtslug.biz#@#.ad-unit:not(.textads)
+stfly.biz,dailyjobposting.xyz,tournguide.com,technons.com,jobnoid.net,shrtslug.biz#@#.ad_wrapper
 dailyjobposting.xyz#@#.clever-core-ads
 openlua.cloud##div.fixed.backdrop-blur-xl
 openlua.cloud#$#main > .hidden:has(> .shadow-lg > div[style] > iframe[title="Advertisement"]) { display: none !important; }

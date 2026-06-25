@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Network
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202606251509
-! Last modified: 2026-06-25T15:09:26Z
+! Version: 202606251722
+! Last modified: 2026-06-25T17:22:44Z
 ! Layers: network
 ! Mode: standard
-! Rules: 47406
+! Rules: 47409
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -10263,7 +10263,6 @@ $xmlhttprequest,third-party,redirect-rule=noopjs,domain=bizjournals.com
 @@||freepornhdonlinegay.com^$generichide
 @@||z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=$domain=pipeflare.io
 @@||aax-us-east.amazon-adsystem.com/x/getad?src=$domain=pipeflare.io
-@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=tvp.pl
 @@||1bit.space/default/public/assets/*.js$~third-party
 @@||1bitspace.com/default/public/assets/*.js$~third-party
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=googlesyndication-adsbygoogle,domain=mr9soft.com,important
@@ -13131,8 +13130,9 @@ wykop.pl$badfilter
 @@||secure.adnxs.com/ptv?id=*&cb=*&pubclick=$xmlhttprequest,other,domain=tvp.pl
 @@||adservice.google.pl/adsid/integrator.js$script,domain=tvp.pl
 @@||myao.adocean.pl/|$domain=tvp.pl
-@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=tvp.pl|tvp.info
 @@||imasdk.googleapis.com/js/sdkloader/vpaid_adapter.js$domain=vod.tvp.pl
+||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima3,important,domain=tvp.pl|tvp.info
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=tvp.pl|tvp.info
 @@||chamsko.pl/js/advertisement.js
 ||wp.pl^$replace=/^var wp_gaf_rv[\s\S]*?\n.*"spin".*"dfpConfig".*"slots?".*//,script
 ||wp.pl^$replace=/(^.{1\,150}\(\{).*?"bunch".*?"bidRequestId".*(}\);)/\$1\$2/,script
@@ -30844,6 +30844,7 @@ _800x80_
 ||siteground.com/img/banners/
 ||siteground.com/static/affiliate/$third-party
 ||skimresources.com^$script,subdocument,third-party
+||skygg.lat/ads/lib.js
 ||slysoft.com/img/banner/
 ||smartdestinations.com/ai/
 ||snacklink.co/js/web-script.js
@@ -31496,6 +31497,7 @@ $third-party,xmlhttprequest,domain=mega4upload.net
 ||eevblog.com/images/comm/$image
 ||elil.cc/pdev/
 ||elil.cc/reqe.js
+||embed.st/ad.html
 ||eteknix.com/wp-content/uploads/*skin
 ||etherscan.io/images/gen/cons_gt_
 ||etools.ch/scripts/ad-engine.js
@@ -46285,6 +46287,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||korewaeroi.com/fukugan_$subdocument
 ||link.tv-asahi.co.jp/tver/cookiesync?
 ||m-oo-m.com/data/report/
+||majikichi.com/js/tracking.js
 ||mangaraw.to/api/v1/view/
 ||masutabe.info/js/access.js
 ||mayla.jp/TRACKING/

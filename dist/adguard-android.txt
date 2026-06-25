@@ -1,8 +1,8 @@
 ! Title: AdGuard Rules CN - Android
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202606251509
-! Last modified: 2026-06-25T15:09:26Z
+! Version: 202606251722
+! Last modified: 2026-06-25T17:22:44Z
 ! Layers: network,content,scriptlet
 ! Mode: standard
 ! Rules: 18181
@@ -10221,6 +10221,7 @@ newduba.cn###jq_youxi
 ##a[href*=".xacg.info/"]
 ##button[onclick*=".xacg.info/"]
 huaren.live##.pause-love
+yahoo.com##.pointer-events-auto.h-\[91px\]
 jucha.com##.money_item
 mixytalk.com##.result-inline-ad
 mixytalk.com###ad-interstitial
@@ -16509,7 +16510,6 @@ sudokugame.org#%#//scriptlet('trusted-replace-node-text', 'script', 'adjump', 'f
 @@||criteo.com/delivery/ajs.php?zoneid=$script,domain=gaus.ee
 @@||jd.com/adclick?$popup,~third-party
 ||wnacg.com/game/$image,rewrite=abp-resource:1x1-transparent-gif,domain=wnacg.com
-yahoo.com##.pointer-events-auto.h-\[91px\]
 cngold.org#?#.w310:-abp-has(>.swiper-company)
 hanime1.me#?#div[style*="text-align:"]:-abp-has(>div[style*="color: white"])
 weibo.com#?#.vue-recycle-scroller__item-view:-abp-has(img[src="https://d.sinaimg.cn/prd/1005/891/2025/03/21/icon_auth_white.png"])

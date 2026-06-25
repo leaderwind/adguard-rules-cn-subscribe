@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Network
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202606250830
-! Last modified: 2026-06-25T08:30:37Z
+! Version: 202606251149
+! Last modified: 2026-06-25T11:49:11Z
 ! Layers: network
 ! Mode: standard
-! Rules: 47398
+! Rules: 47404
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -14378,6 +14378,10 @@ $subdocument,third-party,denyallow=disqus.com,domain=love4u.net
 $third-party,script,domain=klto9.com|f2movies.to|hacamchicac.com|yourporngod.com|zinchanmanga.com|yaoimangaonline.com|tututweak.app|mangaraw.ac|eromanga-show.com|hentai-one.com|hentaipaw.com|nukibooks.com|paipancon.com|jgvdata.com|youtubevanced.com|pandamtl.com|mangaplus.shueisha.tv|shueisharaw.tv
 ||linksconsole.com/ad-system/
 ||misc-api.feathermc.com/*/ads/ad_units?
+||manganato.gg/js/ads/
+||manganato.gg/images/bns/common/shirley.png
+||ashemaletube.com/api/tiles
+||assets.stuff.co.nz/static/stuff-adtech-sdk/ads-sdk/
 ||anysex.com/*oio/|$script
 ||veporn.com/api/vast-proxy
 ||cdn77.ashemaletube.com/ast/www/js-v*.min.js?url=
@@ -18210,9 +18214,9 @@ $popup,third-party,domain=sbplay2.com,badfilter
 $popup,third-party,domain=dood.ws,badfilter
 @@||download.ros.org/*.xsd$document
 @@||airfind.com^$image,domain=headlinelogic.com
-@@||cdn.adsninja.ca/v*/an.js$domain=thegamer.com
-@@||cdn.adsninja.ca/v*/init.js$domain=thegamer.com
-@@||cdn.adsninja.ca/v*/valstream.js$domain=thegamer.com
+@@||cdn.adsninja.ca/v*/an.js$domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
+@@||cdn.adsninja.ca/v*/init.js$domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
+@@||cdn.adsninja.ca/v*/valstream.js$domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
 @@||penta.a.one.impact-ad.jp/*combo?$domain=nissan.co.jp
 @@||img.ak.impact-ad.jp^$domain=nissan.co.jp
 @@||googleadservices.com/pagead/conversion.js$domain=nissan.co.jp
@@ -20293,6 +20297,8 @@ $csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: www.googletagma
 @@||beinconnect.com.tr^$stealth
 @@||account.adobe.com^$document,domain=services.adobe.com,stealth=useragent
 @@||adguard.com^$stealth
+@@||discord.com/api/*/quests/$stealth=useragent
+@@||unifiedapicommerce-ca.axs.com/veritix/$stealth=ip
 @@||auth.pingone.com^$stealth=3p-auth
 @@||access.worldpay.com^$stealth=referrer
 @@||ksdpictures.site^$subdocument,stealth=referrer

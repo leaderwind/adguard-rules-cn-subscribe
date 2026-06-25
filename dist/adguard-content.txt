@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Content
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202606242320
-! Last modified: 2026-06-24T23:20:47Z
+! Version: 202606250421
+! Last modified: 2026-06-25T04:21:39Z
 ! Layers: content
 ! Mode: standard
-! Rules: 62780
+! Rules: 62784
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -53048,6 +53048,7 @@ myanimelist.net##.border_top
 appleinsider.com##.bottom
 capwages.com,downforeveryoneorjustme.com,health.clevelandclinic.org,technomusicworld.com##.bottom-0.fixed
 theblock.co##.bottom-5
+vpntierlists.com##.bottom-6
 indiatimes.com##.bottom-ad-height
 agar.live##.bottom-banner
 reverso.net##.bottom-horizontal
@@ -54800,6 +54801,7 @@ autosport.com,motorsport.com##.ms-hapb
 autosport.com##.ms-side-items--with-banner
 codeproject.com##.msg-300x250
 cryptoticker.io##.mso-cls-wrapper
+vpntierlists.com##.mt-\[500px\]
 textcompare.org##.mui-ot0xle
 boardgameoracle.com##.mui-style-1kdz9ml
 boardgameoracle.com##.mui-style-1vh0vdw
@@ -56181,6 +56183,7 @@ doodrive.com##.uk-margin > [href] > img
 softarchive.is##.un-link
 uncanceled.news##.uncan-content_11
 rankiapro.com##.undefined.relative
+looper.com##.under-art
 pixhost.to##.under-image
 hidefninja.com##.underads
 jakartaglobe.id##.underlay-ad
@@ -58372,6 +58375,7 @@ grit.com###GMTK_Bottom_728x90
 grit.com###GMTK_Middle_300x250
 grit.com###GMTK_Top_728x90
 rogerebert.com###PostInlineVideoContainer
+rogerebert.com###ReviewInlineVideoContainer
 gunsandammo.com###VideoPlayerDivIframe
 ew.com###article__primary-video-jw_1-0
 barchart.com###bc-cnx-player

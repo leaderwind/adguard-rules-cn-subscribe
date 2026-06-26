@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Content
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202606260949
-! Last modified: 2026-06-26T09:49:59Z
+! Version: 202606261225
+! Last modified: 2026-06-26T12:25:39Z
 ! Layers: content
 ! Mode: standard
-! Rules: 62819
+! Rules: 62822
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -18731,6 +18731,8 @@ animecorner.me,zarabiajprzez24.pl,watchhentai.xxx,app-how-to-use-it.com,linuxcap
 pawastreams.*,nflbite.to,footybite.to,sportschamp.fun,afly.pro,topsporter.net,soccerstreams.football,mysocceraustralia.com,rayinfosports.com,hesgoals.top,sequencecard.xyz,totalsportek.soccer,metaporky.site,nbabite.to,cyfostreams.com,gamerarcades.com,bestreamsports.org,footy.to,mcrypto.club,greaterkashmir.com###id-custom_banner
 pawastreams.*,groundedtechs.com,rayinfosports.com,sequencecard.xyz,matchtime.co,sportspellz.com,bestreamsports.org,silverspoon.site###dismiss-btn
 vi-control.net,nullforums.net,landyzone.co.uk,nullcave.pro,woxmax.com,waskucity.com,babia.to,technofino.in,reef2reef.com,minebbs.com,craxpro.io,affiliatefix.com,myiptvforum.com,hifivision.com,worldofiptv.com,altenen.is,beermoneyforum.com,germancarforum.com,cracking.org##.samBannerUnit
+dlsrv.online##.mx-auto > .banner-glow
+dlsrv.online##.mx-auto > .banner-glow + .items-center:has(> a[target="_blank"])
 cheapassgamer.com###placement-header
 wiki.gg##.wgg-netbar__deals-link
 manganato.gg##.container-chapter-reader > div[class] > a[href^="https://flax.to/"]
@@ -62525,6 +62527,7 @@ character.ai#?#.space-y-4 > .w-full:has-text(Advertisement)
 cjleo.com#?#.alt-widget-title:has-text(advertisement)
 fdiintelligence.com#?#.undefined:has-text(Advertisement)
 findagrave.com#?#.rounded-pill:has-text(Remove Ads)
+gamepadla.com#?#.pMain:has(div:-abp-properties(Partner))
 gamepadla.com#?#.sliderBlock:has-text(ADS)
 inc.com#?#.pr-\[25px\].py-\[27px\]:has-text(Apply Now)
 interestingengineering.com#?#.overline-small:has-text(advertisement)

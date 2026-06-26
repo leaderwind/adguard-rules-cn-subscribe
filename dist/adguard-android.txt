@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Android
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202606260949
-! Last modified: 2026-06-26T09:49:59Z
+! Version: 202606261225
+! Last modified: 2026-06-26T12:25:39Z
 ! Layers: network,content,scriptlet
 ! Mode: standard
-! Rules: 18181
+! Rules: 18171
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -7083,16 +7083,6 @@ $image,third-party,domain=258zw.com
 ://*:*/chunyu.html?k=$csp=script-src
 ://*:*/yeyue.html?k=$csp=script-src
 :6607/qy/$script,third-party
-.qsko0*mas.com/$script,xmlhttprequest,third-party
-.mos0*o9i.com/$script,xmlhttprequest,third-party
-.qpqp0*oki.com/$script,xmlhttprequest,third-party
-.uuso0*qhs.xyz/$script,xmlhttprequest,third-party
-^kklq0*p0i.com/$script,xmlhttprequest,third-party
-^ouqo0*luj.com/$script,xmlhttprequest,third-party
-.hur0*kns.com/$script,xmlhttprequest,third-party
-^niu0*jd.top/$script,xmlhttprequest,third-party
-.bgf0*lko.com/$script,xmlhttprequest,third-party
-.jkn0*loi.com/$script,xmlhttprequest,third-party
 .hgo0*uyi.com/$script,xmlhttprequest,third-party
 .yui0*shga.com/$script,xmlhttprequest,third-party
 .moa0*ju.com/$script,xmlhttprequest,third-party

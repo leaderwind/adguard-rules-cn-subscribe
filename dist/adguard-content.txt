@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Content
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202606261225
-! Last modified: 2026-06-26T12:25:39Z
+! Version: 202606261530
+! Last modified: 2026-06-26T15:30:51Z
 ! Layers: content
 ! Mode: standard
-! Rules: 62822
+! Rules: 62826
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -8479,9 +8479,10 @@ jm18c-oec.club,18comic.org,18comic.vip,18comic.ink#?#div[data-group]:has(>.group
 58.com#?#tr[sortid]:has(> .t > .ico.accurate)
 ###guanggao1[style^="position"]
 ###guanggao2[style^="position"]
-xinhua348.com,jstv42.site,91porny.org,jstv600.com##.footer + .block
-xinhua348.com,jstv42.site,91porny.org,jstv600.com#?#.card:has(>.card-image>a[href^="http"])
-xinhua348.com,jstv42.site,91porny.org,jstv600.com###main > div[id^="rd"]
+91porny.com,91porn.fans###main > div[class][id] > .mb-0
+91porny.com,91porn.fans##.videoPlayContainer > style + div[data-nosnippet]
+91porny.com,91porn.fans#?##main > div[class][id]:has(>style)
+91porny.com,91porn.fans#?#.colVideoList:has(>.video-elem>.d-block[href^="http"])
 ###playerJsvLayer.jsv-layer
 91porny.com##.container-fluid.p-0[class*="mb-"]
 ##.fixed-bottom.jsv.jsv-g1
@@ -8918,7 +8919,8 @@ jm18c-oec.club,18comic.org,18comic.vip,18comic.ink#?#div[data-group]:-abp-has(>.
 58.com#?#LI[sortid]:-abp-has(.jinico)
 58.com#?#TR[logr]:-abp-has(> .t > .mt-p-tit > .jingpin)
 58.com#?#tr[sortid]:-abp-has(> .t > .ico.accurate)
-xinhua348.com,jstv42.site,91porny.org,jstv600.com#?#.card:-abp-has(>.card-image>a[href^="http"])
+91porny.com,91porn.fans#?##main > div[class][id]:-abp-has(>style)
+91porny.com,91porn.fans#?#.colVideoList:-abp-has(>.video-elem>.d-block[href^="http"])
 ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com#?##content_left > [class]:-abp-has(span[data-tuiguang])
 ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com#?##content_left > div:-abp-has(.ec-tuiguang)
 ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com#?##content_right > [class]:-abp-has(span[data-tuiguang])
@@ -18731,6 +18733,8 @@ animecorner.me,zarabiajprzez24.pl,watchhentai.xxx,app-how-to-use-it.com,linuxcap
 pawastreams.*,nflbite.to,footybite.to,sportschamp.fun,afly.pro,topsporter.net,soccerstreams.football,mysocceraustralia.com,rayinfosports.com,hesgoals.top,sequencecard.xyz,totalsportek.soccer,metaporky.site,nbabite.to,cyfostreams.com,gamerarcades.com,bestreamsports.org,footy.to,mcrypto.club,greaterkashmir.com###id-custom_banner
 pawastreams.*,groundedtechs.com,rayinfosports.com,sequencecard.xyz,matchtime.co,sportspellz.com,bestreamsports.org,silverspoon.site###dismiss-btn
 vi-control.net,nullforums.net,landyzone.co.uk,nullcave.pro,woxmax.com,waskucity.com,babia.to,technofino.in,reef2reef.com,minebbs.com,craxpro.io,affiliatefix.com,myiptvforum.com,hifivision.com,worldofiptv.com,altenen.is,beermoneyforum.com,germancarforum.com,cracking.org##.samBannerUnit
+businesstoday.in##.storysecondads
+greatandhra.com##.entry-content > p > span[style="color: #ff0000;"]
 dlsrv.online##.mx-auto > .banner-glow
 dlsrv.online##.mx-auto > .banner-glow + .items-center:has(> a[target="_blank"])
 cheapassgamer.com###placement-header

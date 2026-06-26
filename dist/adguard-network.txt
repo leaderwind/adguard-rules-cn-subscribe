@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Network
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202606260521
-! Last modified: 2026-06-26T05:21:08Z
+! Version: 202606260949
+! Last modified: 2026-06-26T09:49:59Z
 ! Layers: network
 ! Mode: standard
-! Rules: 47410
+! Rules: 47414
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -17728,7 +17728,7 @@ new-game-apk.com/wp-content/uploads/2017/*_SLUT_18_*.gif
 ||freepornhq.xxx/imgban/
 ||myparcels.net/images/b/
 ||gstatic.com/xads/$domain=myparcels.net
-||i.imgur.com^$domain=oko.sh|stfly.me|netflav.com|up-load.io|vizcloud2.*
+||i.imgur.com^$domain=oko.sh|stfly.me|netflav.com|up-load.io|vizcloud2.*|flixtrz.com
 ||udvl.com/api/spots/*?host=$third-party
 ||cdn.ouo.io/images/download-ad.
 ||widget.crowdynews.com^$domain=forums.hardwarezone.com.sg
@@ -20372,7 +20372,7 @@ $csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: www.googletagma
 @@/hls2/*$xmlhttprequest,stealth=referrer,domain=vidora.stream
 @@||netrocdn.site/hls2/$xmlhttprequest,stealth=referrer
 @@||netrocdn.site/file2/$xmlhttprequest,stealth=referrer
-@@/content/*page-*.html$xmlhttprequest,stealth=referrer,domain=cloudnestra.com
+@@/content/*page-*.html$xmlhttprequest,stealth=referrer,domain=cloudnestra.com|nextgencloudfabric.com
 @@||fast*.vidplus.dev/file*/*?host=$xmlhttprequest,stealth=referrer
 @@||xcams.com/chat/$stealth=webrtc
 @@||crunchyrollcdn.com^$stealth=referrer,domain=crunchyroll.com
@@ -30819,6 +30819,7 @@ _800x80_
 ||remax-malta.com/widget_new/$third-party
 ||rentalcars.com/partners/
 ||resellerratings.com/popup/include/popup.js
+||s.yimg.com/du/site/pqhdvmrpsxksshgt.js
 ||s1.wp.com^$subdocument,third-party
 ||saambaa.com^$third-party
 ||safarinow.com/affiliate-zone/
@@ -35663,6 +35664,7 @@ template/m1938pc/ads/*.js
 /fbevents.min.js
 /fbpix-events-
 /fbpixel.js
+/fcp/v1/i
 /fdmg-tag-manager/tags.js
 /fe_logger?
 /feature/metrics$xmlhttprequest
@@ -35870,6 +35872,7 @@ template/m1938pc/ads/*.js
 /GTag/general_tracker.js
 /gtag/js?
 /gtagv4.js
+/gtgcore/?id=
 /gtm-data-layer-$script
 /gtm-listeners.js
 /gtm-suite.js
@@ -45062,6 +45065,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||sexu.com/api/ttrack
 ||sexybabepics.net/re/?ping
 ||sf-syn.com/conversion_outbound_tracker$subdocument,domain=sourceforge.net
+||share.9cdn.net/share/short_cache/js/tracking/$domain=nine.com.au
 ||sharechat.com/event-tracking-service/
 ||sharesies.com/v1/identify
 ||sharesies.com/v1/track

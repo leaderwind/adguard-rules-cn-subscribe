@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Scriptlet
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202606261530
-! Last modified: 2026-06-26T15:30:51Z
+! Version: 202606261802
+! Last modified: 2026-06-26T18:02:24Z
 ! Layers: scriptlet
 ! Mode: standard
-! Rules: 5375
+! Rules: 5376
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -4749,6 +4749,7 @@ weloma.art#%#//scriptlet('abort-current-inline-script', 'document.createElement'
 linkvertise.com#%#//scriptlet('prevent-element-src-loading', 'script', 'integrate.linkvertise.com/serp-script.js')
 linkvertise.com#%#//scriptlet('json-prune', 'data.startTask.ads.* data.getContent.tasks.*.ads.*')
 c.newsnow.com#%#//scriptlet('trusted-click-element', '.clickthrough-promo-box ~ a.continue-button')
+chatgpt.com#%#//scriptlet('trusted-json-set', 'WeakMap.prototype.set', '$[?(@.ads_response_id)].*', '$remove$', '', 'arg:1')
 techyorker.com#%#//scriptlet('remove-node-text', 'script', '/initBanner|syncTopFixedBanner/')
 swiftuploads.com#%#//scriptlet('prevent-addEventListener', 'DOMContentLoaded', 'decodeURIComponent')
 swiftuploads.com#%#//scriptlet('prevent-addEventListener', 'click', 'document.body.appendChild')

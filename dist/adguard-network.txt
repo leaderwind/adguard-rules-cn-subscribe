@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Network
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202606262321
-! Last modified: 2026-06-26T23:21:19Z
+! Version: 202606270414
+! Last modified: 2026-06-27T04:14:16Z
 ! Layers: network
 ! Mode: standard
-! Rules: 47409
+! Rules: 47412
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -44234,6 +44234,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||bio.to/~/tr/
 ||biomedcentral.com/track/
 ||biosolutions.tv/audience-proxy/
+||bis.org/metrics/web.gif?
 ||bitchute.com/data/script.js
 ||bitwarden.com/plsbl/
 ||blockworks.co/_vercel/insights/
@@ -44815,6 +44816,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||monetarygoldgroup.com/_ub/
 ||moneycontrol.com/news/services/get_comscore_pageview/
 ||monitor.lifemiles.com/collect
+||morningstar.com/api/v1/analytics
 ||motorsport.com/stat/
 ||mov.t-mobile.com/p/js/1.js
 ||movetv.com/sa-events
@@ -45053,6 +45055,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||secure.teamtalk.com/tag/
 ||secure.tennis365.com/tag/
 ||seekingalpha.com/mone_event
+||seismic.com/playerservice/api/v1/log?
 ||services.haaretz.com/ds/impression
 ||services.haaretz.com/ms-gstat-campaign/
 ||servo-report.dvdfab.

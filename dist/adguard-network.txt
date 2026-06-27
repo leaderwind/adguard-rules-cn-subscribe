@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Network
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202606271216
-! Last modified: 2026-06-27T12:16:34Z
+! Version: 202606271454
+! Last modified: 2026-06-27T14:54:00Z
 ! Layers: network
 ! Mode: standard
-! Rules: 47414
+! Rules: 47415
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -47259,6 +47259,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||timvision.it/libs/fingerprint/fingerprint.js
 @@||track.adform.net/serving/scripts/trackpoint$script,domain=sky.it
 @@||detik.com/urchin.js
+@@||a.run.app/api/stat?$domain=cocowa.app
 @@||allabout.co.jp/mtx_cnt.js$script,~third-party
 @@||analytics.digitalpfizer.com/js/prod/pcc/pf_appmeasurement.js$domain=pfizer-covid19-vaccine.jp
 @@||atwiki.jp/common/_img/spacer.gif?$image,domain=atwiki.jp

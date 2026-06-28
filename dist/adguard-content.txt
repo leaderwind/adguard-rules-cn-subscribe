@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Content
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202606280013
-! Last modified: 2026-06-28T00:13:26Z
+! Version: 202606280543
+! Last modified: 2026-06-28T05:43:46Z
 ! Layers: content
 ! Mode: standard
-! Rules: 62833
+! Rules: 62839
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -50202,7 +50202,7 @@ fuse-box.info#@#.ads-row
 juicesky.com#@#.ads-title
 weddingbee.com#@#.ads-top
 mastersclub.jp#@#.ads.widget
-getwallpapers.com,wallpaperaccess.com,wallpapercosmos.com,wallpaperset.com#@#.ads1
+getwallpapers.com,wallpaperaccess.com,wallpaperbat.com,wallpapercosmos.com,wallpaperset.com#@#.ads1
 jw.org,smart-flash.jp#@#.adsBlock
 cars.mitula.ae#@#.adsList
 oogiri-chaya.com#@#.adsText
@@ -50755,6 +50755,7 @@ ancient-origins.net###block-block-49
 insidehighered.com###block-dfptagarticle-sidebar-bottom
 insidehighered.com###block-dfptagarticle-sidebar-top
 spine-health.com###block-dfptagbottomanchorads1
+gpone.com###block-gpone-advhome
 insidehighered.com###block-ihe-views-block-events-views-block-5
 mothership.sg###block-imu1
 mothership.sg###block-imu2
@@ -51386,6 +51387,7 @@ pons.com###pons-ad-footer
 pons.com###pons-ad-leaderboard__container
 epicload.com###popconlkr
 safetydetectives.com###popup
+sciencewatch.blog###popup-banner
 bankinfosecurity.com###popup-interstitial-full-page
 chaseyoursport.com###popup1
 ratehub.ca###portalLeaderboardAd
@@ -52529,6 +52531,7 @@ insidehighered.com##.adslot-top-container
 ev-database.org##.adslot_detail1
 ev-database.org##.adslot_detail2
 cdrab.com,offerinfo.net##.adslr
+advisorperspectives.com##.adspace-landscape
 bolnews.com##.adspadding
 downzen.com##.adt
 makemytrip.com##.adtech-desktop
@@ -53570,6 +53573,7 @@ gamesradar.com##.dfp-leaderboard-container
 asiaone.com##.dfp-tag-wrapper
 lemonde.fr##.dfp__container
 dollargeneral.com##.dgsponsoredcarousel
+gpone.com##.dh250-mh600
 decripto.org##.dialog-lightbox-widget
 politicspa.com##.dialog-type-lightbox
 financefeeds.com##.dialog-widget
@@ -57432,7 +57436,6 @@ xing.com##div[data-qa="jobs-recommendation-ad"]
 duckduckgo.com##div[data-react-module-id="products-0"]
 basschat.co.uk,momondo.*##div[data-resultid$="-sponsored"]
 briskoda.net,linustechtips.com##div[data-role="sidebarAd"]
-downdetector.com##div[data-service-list-ad]
 fylio.com##div[data-slot]
 costco.com##div[data-source="sponsored"]
 aliexpress.com,aliexpress.us##div[data-spm="seoads"]
@@ -57851,6 +57854,7 @@ wayfair.*##div[data-hb-id="Grid.Item"]:has(a[href*="&sponsoredid="])
 wayfair.*##div[data-name="DisplayAd"]
 wayfair.*##div[data-node-id^="SponsoredListingCollectionItem"]
 checkfelix.com,kayak.*,momondo.*,swoodoo.*##div[data-resultid$="-sponsored"]
+downdetector.*##div[data-service-list-ad]
 leroymerlin.*##div[data-st-name="sponsored"]
 costco.*##div[data-testid="AdSet-all-sponsored_products"]
 walmart.*##div[data-testid="sp-item"]
@@ -58422,6 +58426,7 @@ rogerebert.com###ReviewInlineVideoContainer
 gunsandammo.com###VideoPlayerDivIframe
 ew.com###article__primary-video-jw_1-0
 barchart.com###bc-cnx-player
+gpone.com###block-gpone-advvideo
 stocktwits.com###bottom-nav-content
 crash.net###cmg-vsly
 euronews.com###connatix-container
@@ -59906,6 +59911,7 @@ rule34.xxx##.nutaku-mobile
 boundhub.com##.o3pt
 bdsmx.tube##.oImef0
 f95zone.to##.offCanvasMenu-linkHolder > .offCanvasMenu-link[target="_blank"]
+xerotica.com##.ofx-ads-slot
 porngames.tv##.one-top-link
 pornxbox.com##.opt
 sexseeimage.com##.order-1

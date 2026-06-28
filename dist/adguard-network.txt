@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Network
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202606281413
-! Last modified: 2026-06-28T14:13:22Z
+! Version: 202606281538
+! Last modified: 2026-06-28T15:38:26Z
 ! Layers: network
 ! Mode: standard
-! Rules: 47424
+! Rules: 47418
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -24328,7 +24328,6 @@ cdn.braun634.com^$third-party
 /adrecover.js$script
 /adright.$~xmlhttprequest,domain=~aaahaltontaxi.ca|~adright.com
 /ads-250.$image
-/ads-async.$script
 /ads-common.$image,script
 /ads-front.min.js$script
 /ads-frontend.min.js$script
@@ -24387,7 +24386,6 @@ cdn.braun634.com^$third-party
 /adscontroller.js$script
 /adscroll.js$script
 /adsdelivery/*$subdocument
-/adserv.$script
 /adserve/*$script
 /adserver.$~stylesheet,~xmlhttprequest,domain=~konograma.com
 /adserver3.$image,script
@@ -24471,7 +24469,6 @@ cdn.braun634.com^$third-party
 /apopwin.js$script
 /apstag.js$script
 /apu.php?$script
-/arcads.js$script
 /asset/ad/*$image
 /assets/ads/*$~image,domain=~outlook.live.com
 /asyncjs.php$script
@@ -24515,16 +24512,13 @@ cdn.braun634.com^$third-party
 /campaigns-ad/js/*$script
 /cgi-bin/ad/*$~xmlhttprequest
 /click?adv=
-/cms_ads.js$script
 /code/https-v2.js?uid=
 /code/native.js?h=$script
 /code/pops.js?h=$script
 /code/silent.js?h=$script
 /common/ad.js$script
 /concert_ads-$script
-/content-ads.js$script
 /content/ads/*$~xmlhttprequest
-/cpmbanners.js$script
 /css/ads-$stylesheet
 /css/adsense.$stylesheet
 /css/adv.$stylesheet
@@ -24848,7 +24842,6 @@ cdn.braun634.com^$third-party
 /sr/*/SAFEFRAME.html?ule=$subdocument,third-party
 /sticky_ads.js$script
 /stickyad.js$script
-/stickyads.js$script
 /storage/js/videojs.sda.js$script
 /style_ad.css$stylesheet
 /suurl4.php?$third-party
@@ -25134,12 +25127,11 @@ _prebid.js$script
 /jquery.peelback.$script
 /ad-blocking-advisor/*$script,stylesheet
 /ad-blocking-alert/*$stylesheet
+/ad-blocking-detector/assets/js/adblock-detector.min.js
 /adblock-detect.$script
-/adblock-detector.min.js$script
 /adblock-notify-by-bweb/*$script,stylesheet
 /adblock_detector2.$script
 /adblock_logger.$script
-/adblockdetect.js$script
 /adBlockDetector/*$script
 /ads-blocking-detector.$script
 /anti-adblock/*$~stylesheet
@@ -31634,6 +31626,7 @@ $third-party,xmlhttprequest,domain=mega4upload.net
 ||immoweb.be/*/dpg/
 ||impressivetimes.com/wp-content/uploads/2024/07/primary-plus-advt.jpg
 ||independent.co.uk/internal-api/indy100
+||indexclix.com/js/cpmbanners.js
 ||indiadesire.com/bbd/
 ||indiansinkuwait.com/Campaign/
 ||indiatimes.com/ads_
@@ -45783,6 +45776,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||k-aktuell.de/monitoring?
 ||kaufland.de/uts/events/
 ||leipziger-stadtplan.com/t.gif
+||mengelke.de/Pub/img/ads/werbebanner/adserv.gif
 ||moviepilot.de/assets/autotrack-
 ||mtb-news.de/metric/
 ||muenchener-stadtplan.com/t.gif

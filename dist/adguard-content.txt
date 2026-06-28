@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Content
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202606280930
-! Last modified: 2026-06-28T09:30:38Z
+! Version: 202606281157
+! Last modified: 2026-06-28T11:57:46Z
 ! Layers: content
 ! Mode: standard
-! Rules: 62843
+! Rules: 62842
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -55094,7 +55094,7 @@ dermatologytimes.com##.pb-24
 ahajournals.org,tandfonline.com##.pb-ad
 wweek.com##.pb-f-phanzu-phanzu-ad-code
 cattime.com,dogtime.com,liveoutdoors.com,playstationlifestyle.net,thefashionspot.com##.pb-in-article-content
-ahajournals.org##.pb-las
+agupubs.onlinelibrary.wiley.com,ahajournals.org##.pb-las
 playbuzz.com##.pb-site-player
 washingtonpost.com##.pb-sm.pt-sm.b
 publicbooks.org##.pb_ads_widget
@@ -62541,7 +62541,6 @@ complex.com##.\[\@media\(min-width\:520px\)\]\:px-\[20px\]
 justjared.com##.banner-spacer-top {max-height: 50px !important;}
 temp-mail.io##.fixed.bottom-0.\[\@media\(max-width\:1350px\)\]\:hidden
 complex.com##.lg\:top-\[var\(--sticky-top\)\]
-agupubs.onlinelibrary.wiley.com,ahajournals.org##.pb-las
 justjared.com##[role="banner"] {top:0 !important}
 advocate.com,out.com,pride.com#?#.component.module-headline:has-text(FROM OUR SPONSORS)
 character.ai#?#.space-y-4 > .w-full:has-text(Advertisement)

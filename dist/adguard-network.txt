@@ -1,8 +1,8 @@
 ! Title: AdGuard Rules CN - Network
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202606280930
-! Last modified: 2026-06-28T09:30:38Z
+! Version: 202606281157
+! Last modified: 2026-06-28T11:57:46Z
 ! Layers: network
 ! Mode: standard
 ! Rules: 47424
@@ -27243,6 +27243,7 @@ _800x80_
 ||trigr.co^$third-party
 ||triplelift.com^$third-party
 ||trker.com^$third-party
+||trustedstack.com^$third-party
 ||trustx.org^$third-party
 ||tubeadvertising.eu^$third-party
 ||twads.gg^$third-party
@@ -34707,7 +34708,6 @@ template/m1938pc/ads/*.js
 ://ads.$popup,domain=~ad.olx.pl|~ads.mercadolibre.com.ar|~ads.mercadolibre.com.cl|~ads.mercadolibre.com.co|~ads.mercadolibre.com.ec|~ads.mercadolibre.com.mx|~ads.mercadolibre.com.pe|~ads.mercadolibre.com.ve|~ads.mercadolivre.com.br|~ads.openai.com|~ads.pandauth.com|~ads.umd.edu|~axon.ai|~kakaku.com|~reddit.com|~smartnews.com
 ://adv.$popup,domain=~adv.kompas.id|~adv.lack-girl.com
 ||lockerdome.com^$third-party
-||trustedstack.com^$third-party
 ||35.227.234.222^
 ||35.232.188.118^
 ||betvictor.com*&utm_campaign=$popup

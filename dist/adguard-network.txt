@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Network
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202606281538
-! Last modified: 2026-06-28T15:38:26Z
+! Version: 202606281606
+! Last modified: 2026-06-28T16:06:10Z
 ! Layers: network
 ! Mode: standard
-! Rules: 47418
+! Rules: 47422
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -34697,7 +34697,10 @@ template/m1938pc/ads/*.js
 ||www.yatu.tv/image/*.gif^$image
 ||www.yatu.tv/m/images/$image
 ||tracker.$xhr,websocket,script,ping
+.in/js/footer_ad.js
 .php?zoneid=$script
+/js/doubleclick.min.js?v=
+/vendor/doubleclick.min.js
 ://ads.$popup,domain=~ad.olx.pl|~ads.mercadolibre.com.ar|~ads.mercadolibre.com.cl|~ads.mercadolibre.com.co|~ads.mercadolibre.com.ec|~ads.mercadolibre.com.mx|~ads.mercadolibre.com.pe|~ads.mercadolibre.com.ve|~ads.mercadolivre.com.br|~ads.openai.com|~ads.pandauth.com|~ads.umd.edu|~axon.ai|~kakaku.com|~reddit.com|~smartnews.com
 ://adv.$popup,domain=~adv.kompas.id|~adv.lack-girl.com
 ||lockerdome.com^$third-party
@@ -34718,6 +34721,7 @@ template/m1938pc/ads/*.js
 ||redtube.com^$subdocument,~third-party
 ||youjizz.com/KWIKY*.mp4$rewrite=abp-resource:blank-mp4,domain=youjizz.com
 @@||discord.com^$generichide
+@@||startpage.com^$generichide
 &&sub19=undefined&sub20=undefined
 &action=js_stats
 &ev=PageView&

@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Content
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202606280543
-! Last modified: 2026-06-28T05:43:46Z
+! Version: 202606280930
+! Last modified: 2026-06-28T09:30:38Z
 ! Layers: content
 ! Mode: standard
-! Rules: 62839
+! Rules: 62843
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -55600,6 +55600,7 @@ save-editor.com##.set_wrapper
 bravenewcoin.com##.sevio-ad-wrapper
 minerstat.com##.sevioads
 sportbusiness.com##.sf-taxonomy-body__advert-container
+songfacts.com##.sf_leaderboard_2025
 pressdemocrat.com##.sfb2024-section__ad
 troypoint.com##.sgpb-popup-dialog-main-div-wrapper
 analyticsinsight.net,moviedokan.lol,shortorial.com,troypoint.com##.sgpb-popup-overlay
@@ -56423,7 +56424,7 @@ metro.co.uk##.wp-block-metro-widget-archive-metro-partners
 bangordailynews.com,michigandaily.com##.wp-block-newspack-blocks-wp-block-newspack-ads-blocks-ad-unit
 crikey.com.au##.wp-block-pm-ad-placeholder-block
 popculture.com##.wp-block-savage-platform-primis-video
-popculture.com##.wp-block-savage-platform-raptive-ad
+popculture.com,songfacts.com##.wp-block-savage-platform-raptive-ad
 hyperallergic.com,steamdeckhq.com##.wp-block-spacer
 thewrap.com##.wp-block-the-wrap-ad
 upworthy.com##.wp-container-30
@@ -60701,6 +60702,8 @@ cibaipuki.com##A[href^='/article-list-id']
 cibaipuki.com##.topnotice a:not([href='http://7a7c.com'])
 cibaipuki.com##[href*=":"]
 cibaipuki.com##.table2
+ithome.com##.visited-link-color-fixed:has(.tip-gray)
+ithome.com##.op
 ithome.com##.j_iframe_show > iframe
 ithome.com##.placeholder:has([data-original*='newsuploadfiles'])
 bohe.cn##IFRAME[width='400'][height='200']
@@ -62538,6 +62541,7 @@ complex.com##.\[\@media\(min-width\:520px\)\]\:px-\[20px\]
 justjared.com##.banner-spacer-top {max-height: 50px !important;}
 temp-mail.io##.fixed.bottom-0.\[\@media\(max-width\:1350px\)\]\:hidden
 complex.com##.lg\:top-\[var\(--sticky-top\)\]
+agupubs.onlinelibrary.wiley.com,ahajournals.org##.pb-las
 justjared.com##[role="banner"] {top:0 !important}
 advocate.com,out.com,pride.com#?#.component.module-headline:has-text(FROM OUR SPONSORS)
 character.ai#?#.space-y-4 > .w-full:has-text(Advertisement)

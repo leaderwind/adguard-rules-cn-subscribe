@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Network
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202606280543
-! Last modified: 2026-06-28T05:43:46Z
+! Version: 202606280930
+! Last modified: 2026-06-28T09:30:38Z
 ! Layers: network
 ! Mode: standard
-! Rules: 47414
+! Rules: 47424
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -8317,6 +8317,7 @@ $cookie=__adblocker,domain=slate.com|thehindubusinessline.com
 ||claimfey.com/cryptonews/wp-content/uploads/bqanwcfp.js
 @@||static.trafficjunky.com/ab/ads_test.js$domain=bztube.com|hotovs.com|insuredhome.org|nudegista.com|pornluck.com|vidd.se|redtube.*|youpornru.com|tube8.com|tube8.es|tube8.fr|tube8.net|pornhub.com|pornhub.org|pornhub.net
 @@://www.exoclick.com/ads.js|
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=kodibeginner.com
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima3,domain=i24news.tv
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=i24news.tv
 ||wispbyte.com/client/scripts/wisp-cmp-bridge.js
@@ -27038,6 +27039,7 @@ _800x80_
 ||perkcanada.com^$third-party
 ||persevered.com^$third-party
 ||pgammedia.com^$third-party
+||pinklion.io^$third-party
 ||placeiq.com^$third-party
 ||playamopartners.com^$third-party
 ||playmatic.video^$third-party
@@ -31487,6 +31489,7 @@ $third-party,xmlhttprequest,domain=mega4upload.net
 ||drive.com.au/ads/
 ||duplichecker.com/csds/
 ||easymp3mix.com/js/re-ads-zone.js
+||easytechguides.com/b/
 ||ebay.com/scl/js/ScandalLoader.js
 ||ebaystatic.com/rs/c/scandal/
 ||ebaystatic.com^*/ScandalJS-
@@ -32707,6 +32710,7 @@ $popup,third-party,domain=hentai2read.com|porn-tube-club.com
 @@||2mdn.net/instream/html5/ima3.js$script,domain=earthtv.com|zdnet.com
 @@||4cdn.org/adv/$image,xmlhttprequest,domain=4channel.org
 @@||4channel.org/adv/$image,xmlhttprequest,domain=4channel.org
+@@||a.vdo.ai/core/v-m-timesofindia-v3/vdo.ai.js$domain=timesofindia.indiatimes.com
 @@||abcnews.com/assets/js/prebid.min.js$~third-party
 @@||abcnews.com/assets/player/$script,~third-party
 @@||accuweather.com/bundles/prebid.$script
@@ -34703,6 +34707,7 @@ template/m1938pc/ads/*.js
 ://ads.$popup,domain=~ad.olx.pl|~ads.mercadolibre.com.ar|~ads.mercadolibre.com.cl|~ads.mercadolibre.com.co|~ads.mercadolibre.com.ec|~ads.mercadolibre.com.mx|~ads.mercadolibre.com.pe|~ads.mercadolibre.com.ve|~ads.mercadolivre.com.br|~ads.openai.com|~ads.pandauth.com|~ads.umd.edu|~axon.ai|~kakaku.com|~reddit.com|~smartnews.com
 ://adv.$popup,domain=~adv.kompas.id|~adv.lack-girl.com
 ||lockerdome.com^$third-party
+||trustedstack.com^$third-party
 ||35.227.234.222^
 ||35.232.188.118^
 ||betvictor.com*&utm_campaign=$popup
@@ -35246,6 +35251,7 @@ template/m1938pc/ads/*.js
 /busting/facebook-tracking/*
 /busting/google-tracking/*
 /bv-analytics.js
+/bydataAnalytics.js
 /c.gif?
 /c.wrating.com/*
 /c2_count.js
@@ -35677,6 +35683,7 @@ template/m1938pc/ads/*.js
 /fingerprint3.min.js
 /Fingerprintjs2/fpt2.js
 /firebase-performance-compat.js
+/firebase-performance-standalone-compat.js
 /firebase-performance-standalone.js
 /firestats/js/fs.js.php
 /firm_tracking.js
@@ -39734,6 +39741,7 @@ omni.soundestlink.com$image
 ||plausible.avris.it^$third-party
 ||plausible.io^$third-party
 ||plavxml.com^$third-party
+||playdigo.com^$third-party
 ||plecki.com^$third-party
 ||pleisty.com^$third-party
 ||plerdy.com^$third-party
@@ -42923,6 +42931,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||public.cobrowse.oraclecloud.com/rely/storage/
 ||public.fbot.me/track/
 ||publicbroadcasting.net/analytics/
+||publisher-services.amazon.dev/v1/recordVendorsLoaded
 ||purevideo.com^*/pvshim.gif?
 ||purpledotprice.com/api/v1/track
 ||pushly.com/pushly-event-tracker
@@ -44147,6 +44156,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||amazon.com/1/events/$domain=~aws.amazon.com
 ||amazon.com/e/xsp/imp?
 ||amazon.com/empty.gif?$image
+||amazonaws.com/telemetry.bydata/
 ||amboss.com/analytics/
 ||americanexpress.com/beacon
 ||amiunique.org/analytics.js

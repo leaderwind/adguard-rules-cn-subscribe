@@ -46,6 +46,14 @@ https://raw.githubusercontent.com/leaderwind/adguard-rules-cn-subscribe/main/dis
 https://raw.githubusercontent.com/leaderwind/adguard-rules-cn-subscribe/main/dist/adguard-dns.txt?v=1
 ```
 
+
+
+## 待审查规则（AI 尚未审查的新规则）
+
+```text
+https://raw.githubusercontent.com/leaderwind/adguard-rules-cn-subscribe/main/dist/adguard-pending-review.txt?v=1
+```
+
 ## 其他分层订阅
 
 Network：

@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Network
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202606281606
-! Last modified: 2026-06-28T16:06:10Z
+! Version: 202606290026
+! Last modified: 2026-06-29T00:26:51Z
 ! Layers: network
 ! Mode: standard
-! Rules: 47422
+! Rules: 47417
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -24231,6 +24231,7 @@ cdn.braun634.com^$third-party
 .cz/bannery/$image
 .fuse-cloud.com/$~xmlhttprequest
 .html?clicktag=
+.in/js/footer_ad.js
 .jp/ads/$third-party,domain=~hs-exp.jp
 .lol/js/pub.min.js$third-party
 .lol/sw.js$third-party
@@ -24540,7 +24541,6 @@ cdn.braun634.com^$third-party
 /discourse-adplugin-$script
 /dist/adscript.js$script
 /dmcads_$script
-/doubleclick.min$script
 /drsup-admanager-ajax.js$script
 /ec5bcb7487ff.js$script
 /exitpop.js$script
@@ -24569,7 +24569,6 @@ cdn.braun634.com^$third-party
 /floating-ad-rotator-$script,stylesheet
 /floatingad.js$script
 /floatingads.js$script
-/footer_ad.js$script,domain=~streamruby.com
 /footer_ads.php$subdocument
 /footerads.php$script
 /fro_lo.js$script
@@ -24610,7 +24609,6 @@ cdn.braun634.com^$third-party
 /infinity.js.aspx?$script
 /inhouse_ads/*$image
 /inlineads.aspx$subdocument
-/insertads.js$script
 /internAds.css$stylesheet
 /istripper.gif$image
 /jquery.adi.js
@@ -24623,9 +24621,9 @@ cdn.braun634.com^$third-party
 /jquery.openxtag.js
 /jquery.overlayad.js
 /jquery.popunder.js
-/js/ad_common.js$script
 /js/advRotator.js$script
 /js/dfp.js$script
+/js/doubleclick.min.js?v=
 /js/flyad.js
 /js/frontend_loader.js
 /js/popunder.js$third-party
@@ -24825,7 +24823,6 @@ cdn.braun634.com^$third-party
 /skin/adv/*$~xmlhttprequest
 /skyscraperad.$image
 /slide_in_ads_close.gif$image
-/slider_ad.js$script
 /sliderad.js$script
 /small_ad.$image,domain=~eh-ic.com
 /sp/delivery/*$script
@@ -24873,6 +24870,7 @@ cdn.braun634.com^$third-party
 /vast.php?idzone=$xmlhttprequest
 /vast/?zid=
 /velvet_stack_cmp.js$script
+/vendor/doubleclick.min.js
 /vendors~ads.
 /video_ads.$script
 /videoad.$~xmlhttprequest,domain=~videoad.in
@@ -33113,6 +33111,7 @@ $popup,third-party,domain=hentai2read.com|porn-tube-club.com
 @@||slack.com^$generichide
 @@||sourcegraph.com^$generichide
 @@||stackblitz.com^$generichide
+@@||startpage.com^$generichide
 @@||tailscale.com^$generichide
 @@||teams.live.com^$generichide
 @@||teams.microsoft.com^$generichide
@@ -34697,10 +34696,7 @@ template/m1938pc/ads/*.js
 ||www.yatu.tv/image/*.gif^$image
 ||www.yatu.tv/m/images/$image
 ||tracker.$xhr,websocket,script,ping
-.in/js/footer_ad.js
 .php?zoneid=$script
-/js/doubleclick.min.js?v=
-/vendor/doubleclick.min.js
 ://ads.$popup,domain=~ad.olx.pl|~ads.mercadolibre.com.ar|~ads.mercadolibre.com.cl|~ads.mercadolibre.com.co|~ads.mercadolibre.com.ec|~ads.mercadolibre.com.mx|~ads.mercadolibre.com.pe|~ads.mercadolibre.com.ve|~ads.mercadolivre.com.br|~ads.openai.com|~ads.pandauth.com|~ads.umd.edu|~axon.ai|~kakaku.com|~reddit.com|~smartnews.com
 ://adv.$popup,domain=~adv.kompas.id|~adv.lack-girl.com
 ||lockerdome.com^$third-party
@@ -34721,7 +34717,6 @@ template/m1938pc/ads/*.js
 ||redtube.com^$subdocument,~third-party
 ||youjizz.com/KWIKY*.mp4$rewrite=abp-resource:blank-mp4,domain=youjizz.com
 @@||discord.com^$generichide
-@@||startpage.com^$generichide
 &&sub19=undefined&sub20=undefined
 &action=js_stats
 &ev=PageView&

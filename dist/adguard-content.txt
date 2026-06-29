@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Content
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202606281606
-! Last modified: 2026-06-28T16:06:10Z
+! Version: 202606290026
+! Last modified: 2026-06-29T00:26:51Z
 ! Layers: content
 ! Mode: standard
-! Rules: 62843
+! Rules: 62828
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -40828,7 +40828,6 @@ kliuki.bg###container > div[style="float:left;"] > div[style]
 ##.GoogleDfpAdModule
 ##.GoogleDoubleClick-SponsorText
 ##.GroupAdSense
-##.HeaderAd
 ##.HeaderAds
 ##.HeaderBannerAd
 ##.HeadingAdSpace
@@ -40876,7 +40875,6 @@ kliuki.bg###container > div[style="float:left;"] > div[style]
 ##.Post__ad
 ##.PrimisResponsiveStyle
 ##.PrintAd-Slider
-##.ProductAd
 ##.PushdownAd
 ##.RectangleAd
 ##.Rectangle_1-ad-holder
@@ -40910,7 +40908,6 @@ kliuki.bg###container > div[style="float:left;"] > div[style]
 ##.SkyAdContainer
 ##.SkyAdContent
 ##.SkyScraperAd
-##.SovrnAd
 ##.Sponsor-container
 ##.SponsorHeader
 ##.SponsorIsland
@@ -40929,8 +40926,6 @@ kliuki.bg###container > div[style="float:left;"] > div[style]
 ##.Sticky-AdContainer
 ##.StickyAdRail__Inner
 ##.SummaryPage-HeaderAd
-##.TextAd
-##.TextAdds
 ##.Textads
 ##.TopAd
 ##.TopAdBox
@@ -41163,7 +41158,6 @@ kliuki.bg###container > div[style="float:left;"] > div[style]
 ##.ad-970x250
 ##.ad-970x90
 ##.ad-Advert_Placeholder
-##.ad-E
 ##.ad-LREC
 ##.ad-LREC2
 ##.ad-Leaderboard
@@ -41496,7 +41490,6 @@ kliuki.bg###container > div[style="float:left;"] > div[style]
 ##.ad-group
 ##.ad-halfpage
 ##.ad-halfpage-placeholder
-##.ad-hdr
 ##.ad-head
 ##.ad-header
 ##.ad-header-below
@@ -42010,7 +42003,6 @@ kliuki.bg###container > div[style="float:left;"] > div[style]
 ##.ad-text-links
 ##.ad-textads
 ##.ad-textlink
-##.ad-thanks
 ##.ad-ticker
 ##.ad-tile
 ##.ad-title
@@ -42349,7 +42341,6 @@ kliuki.bg###container > div[style="float:left;"] > div[style]
 ##.adBanner728x90
 ##.adBillboard
 ##.adBkgd
-##.adBlock728
 ##.adBlockBottom
 ##.adBlockSpacer
 ##.adBlockSpot
@@ -42522,7 +42513,6 @@ kliuki.bg###container > div[style="float:left;"] > div[style]
 ##.adPanorama
 ##.adPlaceholder
 ##.adPlacement
-##.adPod
 ##.adPosition
 ##.adPremium
 ##.adRecommend
@@ -42634,7 +42624,6 @@ kliuki.bg###container > div[style="float:left;"] > div[style]
 ##.adUnit
 ##.adUnitHorz
 ##.adUnitVert
-##.adVar
 ##.adVertical
 ##.adVideo
 ##.adVideo2
@@ -43161,7 +43150,6 @@ kliuki.bg###container > div[style="float:left;"] > div[style]
 ##.adblock-top
 ##.adblock-top-left
 ##.adblock-wide
-##.adblock300
 ##.adblock300250
 ##.adblock728x90
 ##.adblock__banner
@@ -45876,7 +45864,6 @@ kliuki.bg###container > div[style="float:left;"] > div[style]
 ##.ct_ad
 ##.cta-ad
 ##.cube-ad
-##.cubeAd
 ##.cube_ad
 ##.cube_ads
 ##.custom-ad
@@ -47841,7 +47828,6 @@ kliuki.bg###container > div[style="float:left;"] > div[style]
 ##.profile__ad-wrapper
 ##.profile_ad_bottom
 ##.profile_ad_top
-##.promo-ad
 ##.promo-mpu
 ##.promoAd
 ##.promoAds
@@ -50108,7 +50094,6 @@ indianexpress.com,jansatta.com#@##taboola-below-article-1
 azclick.jp,tubefilter.com#@##topAd
 analogplanet.com,hifichoice.com,hifinews.com,homecinemachoice.com,shutterbug.com,soundandvision.com,stereophile.com#@##topbannerad
 gamingcools.com#@#.Adsense
-m.motonet.fi#@#.ProductAd
 flightview.com#@#.ad-160-600
 job.inshokuten.com,netmile.co.jp#@#.ad-area:not(.text-ad)
 kincho.co.jp,niji-gazo.com,videosad.net#@#.ad-block

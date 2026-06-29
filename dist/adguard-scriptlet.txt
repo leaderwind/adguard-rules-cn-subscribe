@@ -1,8 +1,8 @@
 ! Title: AdGuard Rules CN - Scriptlet
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202606291820
-! Last modified: 2026-06-29T18:20:38Z
+! Version: 202606292055
+! Last modified: 2026-06-29T20:55:30Z
 ! Layers: scriptlet
 ! Mode: standard
 ! Rules: 5386
@@ -3484,7 +3484,7 @@ smashystream.*#%#//scriptlet('abort-current-inline-script', '$', 'window.open')
 javggvideo.xyz#%#//scriptlet('prevent-window-open')
 javmoon.me#%#//scriptlet('prevent-setTimeout', '/debugger|UserCustomPop/')
 faroutmagazine.co.uk#%#//scriptlet('hide-in-shadow-dom', '.GRVMpuWrapper')
-watchporn.to#%#//scriptlet('trusted-set-local-storage-item', 'kvsplayer_popunder_open', '2000000000000')
+bleachmyeyes.com,watchporn.to#%#//scriptlet('trusted-set-local-storage-item', 'kvsplayer_popunder_open', '2000000000000')
 theporndude.com#%#//scriptlet('trusted-set-cookie', 'wallpaper', 'click')
 streamhub.to#%#//scriptlet('abort-current-inline-script', 'Promise', '_0x')
 velo.outsideonline.com#%#//scriptlet('remove-class', 'c-main-header__nav--prestitial', '.c-main-header__nav')

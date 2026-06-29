@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Content
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202606291607
-! Last modified: 2026-06-29T16:07:18Z
+! Version: 202606291820
+! Last modified: 2026-06-29T18:20:38Z
 ! Layers: content
 ! Mode: standard
-! Rules: 62845
+! Rules: 62850
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -10872,6 +10872,10 @@ filma24.*##center > a[target="_blank"] > img
 filma24.*##.watch-movie > .widgets > .widget > h2
 filma24.*#?#.watch-movie > .movie-info[style]:has(> center > a[target="_blank"])
 gjirafa.com##div[id^="an-holder-"]
+starcima.com#@#.ad-unit:not(.textads)
+starcima.com#@#.ad-space:not(.textads)
+starcima.com#@#.sponsored-ad
+starcima.com#@#.google-ad
 liveonlinesports.net##.tg-ad-notification
 crizyman.online,ryfex.online###popup
 crizyman.online,ryfex.online###adblock-modal
@@ -14003,6 +14007,7 @@ skmedix.pl,interia.pl,trojmiasto.pl,js.iplsc.com,pomponik.pl,posty.pl,zalajkowan
 skmedix.pl,interia.pl,trojmiasto.pl,js.iplsc.com,pomponik.pl,posty.pl,zalajkowane.pl,kulinarnapolska.org,wroclawskiejedzenie.pl,innpoland.pl,mywrestling.com.pl,andek.com.pl,smartage.pl,joemonster.org,tajemnice-swiata.pl,naszraciborz.pl,natemat.pl,stadionowioprawcy.net,fortnitepolska.pl,sadistic.pl,napisy24.pl,mamadu.pl,towideo.pl,forsal.pl,kresy.pl,mambiznes.pl,prnews.pl,weszlo.com,dziwneobrazki.pl#@#.text_ad
 skmedix.pl,interia.pl,trojmiasto.pl,js.iplsc.com,pomponik.pl,posty.pl,zalajkowane.pl,kulinarnapolska.org,wroclawskiejedzenie.pl,innpoland.pl,mywrestling.com.pl,andek.com.pl,smartage.pl,joemonster.org,tajemnice-swiata.pl,naszraciborz.pl,natemat.pl,stadionowioprawcy.net,fortnitepolska.pl,sadistic.pl,napisy24.pl,mamadu.pl,towideo.pl,forsal.pl,kresy.pl,mambiznes.pl,prnews.pl,weszlo.com,dziwneobrazki.pl#@#.text_ads
 roweroweporady.pl#@#.ad_container
+nanasubs.com.pl##.google-ad-desktop
 wawa.info##.grid__ad
 wawa.info##.custom-html-box
 wawa.info##.adv

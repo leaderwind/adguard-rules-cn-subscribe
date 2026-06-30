@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Network
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202606300958
-! Last modified: 2026-06-30T09:58:53Z
+! Version: 202606301223
+! Last modified: 2026-06-30T12:23:05Z
 ! Layers: network
 ! Mode: standard
-! Rules: 47388
+! Rules: 47390
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -822,6 +822,10 @@ $script,third-party,denyallow=myqcloud.com|bytecdntp.com|pddpic.com|googletagman
 ||aiyifan.tv/app/*.js$replace=/this\.shouldSkipAds\|\|/!0||/
 ||101.qq.com/js/base.js$replace=/(el\.getAttribute\("type"\) === "text\/javascript")/\(\$1 && !el\.getAttribute\("nonce"\)\)/
 ||acs.youku.com/*/mtop.youku.play.ups.appinfo.get/*/?jsv=$replace=/("ad":\{)[\s\S]*?(\}\,"playlog")/\$1\$2/,important
+@@/vast.php?idzone=$domain=jptt.tv
+@@||vast.livejasmin.com^$domain=jptt.tv
+@@||go.marzaent.com/smartpop/$domain=jptt.tv
+@@||video.sacdnssedge.com^$domain=jptt.tv
 @@||staticsns.cdn.bcebos.com/amis/$image,domain=pan.baidu.com
 ||republicworld.com/_app/immutable/assets/FloatAd.*.css$redirect-rule=nooptext
 @@||p3-tt.byteimg.com/obj/$domain=agedm.io
@@ -6045,7 +6049,6 @@ meijutt.*/js/pcjs/
 ||tcptest.cn/prod-api/web/adLinks/
 ||r3sub.com/nb/
 ||xwcm.net/caches/ahm.
-||gamersky.com/@display/pc/
 ||mydrivers.com/img/2005/202112011849.png
 @@.adserver.$domain=litv.tv
 @@||holmesmind.com/js/drawV2.$domain=bingfong.com
@@ -7440,7 +7443,6 @@ $script,third-party,domain=torkitty.net|torkitty.com|torrentkitty.app|torrentkit
 ||huya.com/leaf/*=vodadv&$rewrite=abp-resource:blank-mp3,domain=huya.com
 ||yitongkan.com/splash.xml$rewrite=abp-resource:blank-js,domain=yitongkan.com
 ||*.mp4$rewrite=abp-resource:blank-mp3,domain=huavod.com|huaren.live
-||gamersky.com/@display/pc/all
 @@/adguard.$domain=llq.dml.ink
 @@||criteo.com/delivery/ajs.php?zoneid=$script,domain=gaus.ee
 @@||jd.com/adclick?$popup,~third-party

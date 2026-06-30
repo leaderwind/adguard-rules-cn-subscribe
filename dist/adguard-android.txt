@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Android
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202606300958
-! Last modified: 2026-06-30T09:58:53Z
+! Version: 202606301223
+! Last modified: 2026-06-30T12:23:05Z
 ! Layers: network,content,scriptlet
 ! Mode: standard
-! Rules: 18160
+! Rules: 18165
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -822,6 +822,10 @@ $script,third-party,denyallow=myqcloud.com|bytecdntp.com|pddpic.com|googletagman
 ||aiyifan.tv/app/*.js$replace=/this\.shouldSkipAds\|\|/!0||/
 ||101.qq.com/js/base.js$replace=/(el\.getAttribute\("type"\) === "text\/javascript")/\(\$1 && !el\.getAttribute\("nonce"\)\)/
 ||acs.youku.com/*/mtop.youku.play.ups.appinfo.get/*/?jsv=$replace=/("ad":\{)[\s\S]*?(\}\,"playlog")/\$1\$2/,important
+@@/vast.php?idzone=$domain=jptt.tv
+@@||vast.livejasmin.com^$domain=jptt.tv
+@@||go.marzaent.com/smartpop/$domain=jptt.tv
+@@||video.sacdnssedge.com^$domain=jptt.tv
 @@||staticsns.cdn.bcebos.com/amis/$image,domain=pan.baidu.com
 ||republicworld.com/_app/immutable/assets/FloatAd.*.css$redirect-rule=nooptext
 @@||p3-tt.byteimg.com/obj/$domain=agedm.io
@@ -6045,7 +6049,6 @@ meijutt.*/js/pcjs/
 ||tcptest.cn/prod-api/web/adLinks/
 ||r3sub.com/nb/
 ||xwcm.net/caches/ahm.
-||gamersky.com/@display/pc/
 ||mydrivers.com/img/2005/202112011849.png
 @@.adserver.$domain=litv.tv
 @@||holmesmind.com/js/drawV2.$domain=bingfong.com
@@ -7626,6 +7629,8 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###content_left > .r
 ##body[onresize="stopDebugger()"][onbeforecopy="return!1"] > div#root div[id^="notice_modal"]
 ##body[onresize="stopDebugger()"][onbeforecopy="return!1"] > div#root div:has(> img[src$=".gif"])
 ##body[onresize="stopDebugger()"][onbeforecopy="return!1"] > div#root div.m0auto > div > div.grid + div > div:empty
+jptt.tv#$##vast_video_loading_f-player { display: none !important; }
+jptt.tv##.fluid_nonLinear_ad
 fxshu.top##.com_t > div[id]:has(> div[style*="width: 100vw; position: relative;"] > span + img)
 uopakwoll.cc,hokztalt.cc,51cg1.com,51baoliao01.com,91cg1.com##.recommend-layer
 uopakwoll.cc,hokztalt.cc,51cg1.com,51baoliao01.com,91cg1.com###adFloat
@@ -16371,6 +16376,7 @@ ggjav.com,porn87.com#%#//scriptlet('abort-current-inline-script', '$', 'popunder
 bde4.com#%#//scriptlet("adjust-setInterval", "timerAdCountdown", "", "0.02")
 5278.cc#%#//scriptlet("prevent-window-open", "88p2p.com")
 theav.xyz,69xx.one,theporn.cc#%#//scriptlet("set-constant", "is_show", "false")
+jptt.tv#%#//scriptlet('set-constant', 'player.adList', 'emptyObj')
 gamersky.com#%#//scriptlet('abort-current-inline-script', 'localStorage', 'showAd')
 51cg1.com#%#//scriptlet('set-constant', 'DPLAYER_PREROLL_AD.attachPreRollAd', 'noopFunc')
 noslocker.com#%#//scriptlet('remove-node-text', 'script', '/navigator\.platform|new Function/')
@@ -16482,7 +16488,6 @@ sudokugame.org#%#//scriptlet('trusted-replace-node-text', 'script', 'adjump', 'f
 ||huya.com/leaf/*=vodadv&$rewrite=abp-resource:blank-mp3,domain=huya.com
 ||yitongkan.com/splash.xml$rewrite=abp-resource:blank-js,domain=yitongkan.com
 ||*.mp4$rewrite=abp-resource:blank-mp3,domain=huavod.com|huaren.live
-||gamersky.com/@display/pc/all
 @@/adguard.$domain=llq.dml.ink
 @@||criteo.com/delivery/ajs.php?zoneid=$script,domain=gaus.ee
 @@||jd.com/adclick?$popup,~third-party

@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Network
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202607010553
-! Last modified: 2026-07-01T05:53:12Z
+! Version: 202607011010
+! Last modified: 2026-07-01T10:10:02Z
 ! Layers: network
 ! Mode: standard
-! Rules: 47399
+! Rules: 47402
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -8327,6 +8327,7 @@ $cookie=__adblocker,domain=slate.com|thehindubusinessline.com
 ||wispbyte.com/client/scripts/wisp-cmp-bridge.js
 @@||vnjpclub.com^$generichide
 @@||cinehd.app^$generichide
+@@||llvpn.com/tag.min.js$xmlhttprequest,domain=cinehd.app
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=cinehd.app
 @@||google-analytics.com/analytics.js$domain=cinehd.app
 @@||static.ads-twitter.com/ads.js$domain=cinehd.app
@@ -9141,6 +9142,7 @@ $subdocument,redirect-rule=noopframe,domain=ytlarge.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=porn4f.com
 @@||ipalibrary.me^$generichide
 @@||gloacmug.net^|$xmlhttprequest,domain=ipalibrary.me
+@@||d3lppnezw695ey.cloudfront.net^$xmlhttprequest,domain=ipalibrary.me
 $script,redirect-rule=noopjs,domain=anisearch.*
 $stylesheet,redirect-rule=noopcss,domain=anisearch.*
 @@||anisearch.*^$generichide
@@ -11098,7 +11100,6 @@ $script,redirect-rule=noopjs,domain=vidmoly.biz|vidmoly.me|vidmoly.net|vidmoly.t
 @@||watchdoctorwhoonline.com^$generichide
 @@||watchpsychonline.net^$generichide
 @@||watchsmallvilleonline.net^$generichide
-@@||watchhouseonline.net^$generichide
 @@||gay69.stream^$generichide
 @@||v.fwmrm.net/ad/g/1$domain=stream.nbcsports.com
 @@||allvideos.me^$generichide
@@ -14251,6 +14252,7 @@ $document,replace=/<script(?: data-cfasync="false")?(?: nowprocket)?(?: type="[a
 ||html-load.com^$script,xmlhttprequest,domain=gardeningknowhow.com|musicradar.com|nexttv.com|realhomes.com|shortlist.com|techlearning.com
 ||html-load.com^$script,xmlhttprequest,domain=astrozop.com|criczop.com|feedzop.com|gamezop.io|gamezop.com|quizzop.com|umogames.com
 ||html-load.com^$script,xmlhttprequest,domain=buienalarm.nl|meteoradar.co.uk|meteox.com|niederschlagsradar.de|sat24.com|weerslag.nl
+/api/rum|$domain=mapple.*|mapplee.com|mapple.rip
 ||helpers.publisherdesk.com/main.js
 ||soulauth.com/img/advertisements/
 ||porntb.com/cdn/cdn_check.js
@@ -14376,6 +14378,7 @@ $subdocument,third-party,denyallow=disqus.com,domain=love4u.net
 $third-party,script,domain=klto9.com|f2movies.to|hacamchicac.com|yourporngod.com|zinchanmanga.com|yaoimangaonline.com|tututweak.app|mangaraw.ac|eromanga-show.com|hentai-one.com|hentaipaw.com|nukibooks.com|paipancon.com|jgvdata.com|youtubevanced.com|pandamtl.com|mangaplus.shueisha.tv|shueisharaw.tv
 ||linksconsole.com/ad-system/
 ||misc-api.feathermc.com/*/ads/ad_units?
+||ip.sb/banner.html
 ||v.vidxgo.co/assets/js/popups_runner.js
 ||letsporn.com/npadm/
 ||letsporn.com/qsda/

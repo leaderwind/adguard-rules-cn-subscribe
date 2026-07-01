@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Network
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202607010019
-! Last modified: 2026-07-01T00:19:31Z
+! Version: 202607010553
+! Last modified: 2026-07-01T05:53:12Z
 ! Layers: network
 ! Mode: standard
-! Rules: 47392
+! Rules: 47399
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -11040,7 +11040,6 @@ $script,redirect-rule=noopjs,domain=vidmoly.biz|vidmoly.me|vidmoly.net|vidmoly.t
 @@||facebook.com/adsmanager/$generichide
 @@||maps4heroes.com^$generichide
 @@||extraimage.co^$generichide
-@@||crackedgameservers.com/uploads/set_resources*adframe.js
 @@||svipvids.com^$generichide
 @@.png#*ad/$image,domain=visionias.net
 @@||visionias.net^$generichide
@@ -11363,7 +11362,6 @@ $script,redirect-rule=noopjs,domain=vidmoly.biz|vidmoly.me|vidmoly.net|vidmoly.t
 @@||bestlistofporn.com^$generichide
 @@||battlecats.spica-net.com^$generichide
 @@||ratemyprofessors.com/assets/libs/adFrame_ads-*.js
-@@||upbitcoin.com^$generichide
 @@||ads2.contentabc.com/ads?spot_id=$domain=8muses.com,xmlhttprequest
 @@||8muses.com^$generichide
 ||forumfree.net/js/anti_adb.js
@@ -11433,7 +11431,6 @@ $script,redirect-rule=noopjs,domain=vidmoly.biz|vidmoly.me|vidmoly.net|vidmoly.t
 ||businesstoday.in/ad-blocker.html
 @@||js.jansatta.com/ads_js.js
 @@||thenextweb.com$generichide
-@@||thoaimedia.com^$generichide
 @@||adm.fwmrm.net/p/aetn_live/AdManager.swf$domain=fyi.tv
 @@||v.fwmrm.net/ad/p/1?$domain=cdn.watch.aetnd.com
 @@||ad.doubleclick.net/ddm/ad/*$domain=fyi.tv
@@ -20311,6 +20308,7 @@ $csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: www.googletagma
 @@||beinconnect.com.tr^$stealth
 @@||account.adobe.com^$document,domain=services.adobe.com,stealth=useragent
 @@||adguard.com^$stealth
+@@||account.deezer.com/$stealth=flash
 @@.m3u8|$stealth=referrer,domain=embdmstrplayer.com
 @@||signin.costco.com^$stealth=java|useragent
 @@||nekostream.site^$xmlhttprequest,stealth=referrer
@@ -25608,6 +25606,7 @@ _800x80_
 ||bluodpa-a.online^$document
 ||blurbreimbursetrombone.com^$document
 ||bmmads.com^$document
+||bngtrak.com^$document
 ||bobgames-prolister.com^$document
 ||bonusgew.com^$document
 ||boredhippie.com^$document
@@ -25829,6 +25828,7 @@ _800x80_
 ||momotrk.com^$document
 ||moontrkr.com^$document
 ||mosved.com^$document
+||myafriend.com^$document
 ||mylot.com^$document
 ||mynutraresearch.com^$document
 ||mytdsnet.com^$document
@@ -25885,6 +25885,7 @@ _800x80_
 ||phgotof2.com^$document
 ||pilotstracking.com^$document
 ||pisism.com^$document
+||playafterdark.com^$document
 ||playmmogames.com^$document
 ||playonlinegames.space^$document
 ||playstretch.host^$document
@@ -25905,6 +25906,8 @@ _800x80_
 ||priestsuede.click^$document
 ||prmtracking.com^$document
 ||pro-adblocker.com^$document
+||proceedflow.com^$document
+||profitablecpmratenetwork.com^$document
 ||profitablegatecpm.com^$document
 ||propellerclick.com^$document
 ||proscholarshub.com^$document
@@ -28809,6 +28812,7 @@ _800x80_
 ||my-promo7.com^$popup
 ||myadcash.com^$popup
 ||myaffpartners.com^$popup
+||myafriend.com^$popup
 ||mybestdc.com^$popup
 ||mydailynewz.com^$popup
 ||myeasetrack.com^$popup
@@ -29064,6 +29068,7 @@ _800x80_
 ||placetobeforever.com^$popup
 ||planetarium-planet.com^$popup
 ||play-lg.com^$popup
+||playafterdark.com^$popup
 ||playamopartners.com^$popup
 ||playerswhisper.com^$popup
 ||playonlinegames.space^$popup
@@ -29127,7 +29132,9 @@ _800x80_
 ||prizefrenzy.top^$popup
 ||prmtracking.com^$popup
 ||pro-adblocker.com^$popup
+||proceedflow.com^$popup
 ||profitablecpmgate.com^$popup
+||profitablecpmratenetwork.com^$popup
 ||profitableexactly.com^$popup
 ||profitablegate.com^$popup
 ||profitablegatecpm.com^$popup

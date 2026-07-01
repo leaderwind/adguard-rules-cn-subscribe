@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Content
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202607010019
-! Last modified: 2026-07-01T00:19:31Z
+! Version: 202607010553
+! Last modified: 2026-07-01T05:53:12Z
 ! Layers: content
 ! Mode: standard
-! Rules: 62863
+! Rules: 62870
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -1787,6 +1787,7 @@ adguard.info,adguard.com,adguard.app##.hello_from_adguard_chinese
 adguard.info,adguard.com,adguard.app##.hello_from_adguard_apps
 adguard.info,adguard.com,adguard.app##.hello_from_adguard_ext
 adguard.info,adguard.com,adguard.app#$#.hello_from_adguard_advanced_protection_ios { display: none !important; }
+chicagoreader.com#@#.ad-above-footer
 thebaynet.com#@#.ad-above-footer
 mnya.tw#@##advertise
 xjwiki.github.io#@##pub_head
@@ -8936,6 +8937,8 @@ filecr.com#@#.pub_300x250
 filecr.com#@#.text-ad
 filecr.com#@#.text_ad
 creditshui.com,portable4pc.com##div[class^="mdpDeblocker-"]
+portable4pc.com#$#body[class][dir="ltr"] > * { filter: none !important; }
+portable4pc.com#$#body > div[class]:has(> div[class*=" active"][style]) { display: none !important; }
 blisseyhusband.in,freecoursesite.com,novelmultiverse.com$$script:contains(/^.*var .*"slice".*return decodeURIComponent.*$/s)
 codec.kyiv.ua#$?#style[id="mdpDeblocker-css"] { remove: true; }
 shorttrick.in,asiaon.top,jpopsingles.eu,superpsx.com,alliptvlinks.com#$#body[class*="blur"] > * { filter: none !important; }
@@ -9143,12 +9146,12 @@ wikitechy.com##.goto-top + div[id][class*=" "]
 midlandstraveller.com##.overlay-effect + div[id][class*=" "]
 kacengeng.com##.pjs-ontop + script + div[id][class*=" "]
 underground.tboys.ro##.under-dupa-continut + div[id][class*=" "]
-meghalayajobportal.in,constructionmethodology.com,pornincest.net,examscisco.com,game5s.com,reviewmedium.com,stbemuiptvn.com##a[href="#"] + div[id][class*=" "]
+meghalayajobportal.in,constructionmethodology.com,pornincest.net,examscisco.com,game5s.com,reviewmedium.com##a[href="#"] + div[id][class*=" "]
 yamsoti.com##body > footer ~ script + div[id][class*=" "]:not(.Ad-Container)
 tamil-lyrics.com##body > svg[style] + div[id][class*=" "]
 bnews24.com##center > div.dc_dc.fix + div[id][class*=" "]
 wikipooster.com##noscript + div[id][class*=" "]
-cryptotech.fun,skycall.online##body > #page + script + div[id][class*=" "]
+skycall.online##body > #page + script + div[id][class*=" "]
 bikyonyu-bijo-zukan.com,sumirekeiba.com###container + div[id][class*=" "]
 gengen17.com###jetpack-lazy-images-js + div[id][class*=" "]
 helicomicro.com##.backtoptop + div[id][class*=" "]
@@ -9172,7 +9175,7 @@ alexbacher.fr,bokugents.com,4horlover.com##body > div[id][class*=" "]:first-chil
 torrinomedica.it##body > #site-wrapper + div[id][class*=" "]
 baithak.news,ikramlar.online##body > div#page ~ script + div[id][class*=" "]:not(.Ad-Container)
 worthitorwoke.com##.btPageWrap + div[id][class*=" "]
-myicloud.info,boyfuck.me,casopismetropola.sk,javboys.tv,lacrima.jp,the-mystery.org,airportwebcams.net,animalwebcams.net,naruldonghua.com,chikianimation.com,u-idol.com,varnascan.*,summertoon.*,donghuaworld.com###footer + div[id][class*=" "]
+myicloud.info,boyfuck.me,casopismetropola.sk,javboys.tv,lacrima.jp,the-mystery.org,airportwebcams.net,animalwebcams.net,naruldonghua.com,chikianimation.com,varnascan.*,summertoon.*,donghuaworld.com###footer + div[id][class*=" "]
 realtormontreal.ca##.footer + div[id][class*=" "]
 nkreport.jp,nknews.jp###wp-footer > #page-top ~ div[id][class]
 djnonstopmusic.in##body > center ~ script + style + div[id][class]
@@ -33153,7 +33156,6 @@ tunefind.com##div[class^="AdSlot_"]
 thesurfersview.com##div[class^="ad"]
 yay.porn,1porno.net,ip-tracker.org,peggo.tv,fliqlo.com##div[class^="ad-"]
 pixiz.com##div[class^="ad-list"]
-upbitcoin.com##div[class^="ad_place_"]
 relink.to##div[class^="ad_right"]
 stream2watch.co##div[class^="adk2_"]
 einthusan.ca,einthusan.com,einthusan.tv##div[class^="adspace-"]
@@ -51435,6 +51437,8 @@ hockeypatrol.com###pub_marc
 elevationmap.net###publift_home_billboard
 fxsforexsrbijaforum.com###pun-announcement
 pc-builds.com###pushdown_placeholder
+sacurrent.com###pw-ATF-rectangle
+sacurrent.com###pw-BTF-rectangle
 prydwen.gg###pw-footer-ad-1
 bobvila.com,futurism.com,outdoorlife.com,popsci.com,thedrive.com,twz.com###pw-iab-leaderboard
 bobvila.com,futurism.com,outdoorlife.com,popsci.com,taskandpurpose.com,thedrive.com,twz.com###pw-top-right-sidebar-aib
@@ -51542,6 +51546,8 @@ inoreader.com###sinner_container
 guessthe.game,guessthe.house,guesstheangle.wtf,guesstheaudio.com,guessthebook.app,guessthegrid.xyz,guessthelogo.wtf,guessthemovie.name,guessthephrase.xyz###sister-sites-ad
 pocketgamer.com###site-background
 webkinznewz.ganzworld.com###site-description
+animeschedule.net###site-theme
+animeschedule.net###site-theme-foot
 dead-frog.com###site_top
 2oceansvibe.com,pocketgamer.biz###skin
 breakingdefense.com###skin-clickthrough
@@ -57423,6 +57429,7 @@ tennews.in##div[data-adid]
 spiegel.de##div[data-advertisement$=":mobile"]
 back2gaming.com##div[data-ai]
 999thehawk.com##div[data-alias="Sweetjack"]
+chatgpt.com##div[data-assistant-ads]
 bestbuy.ca##div[data-automation^="criteo-sponsored-products-carousel-"]
 reddit.com##div[data-before-content="advertisement"]
 artforum.com##div[data-component="ad-unit-gallery"]

@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Content
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202607011814
-! Last modified: 2026-07-01T18:14:35Z
+! Version: 202607012053
+! Last modified: 2026-07-01T20:53:10Z
 ! Layers: content
 ! Mode: standard
-! Rules: 62882
+! Rules: 62884
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -14377,6 +14377,8 @@ filarybiznesu.pl##span > div[style*="min-height:"][style*="overflow: hidden;"]:h
 webhostingtalk.pl##a[href*="&utm_medium=banner"]
 rmf24.pl##.reklamaPage
 rmf24.pl###RMF_24_podstrony_top_bill
+rmf24.pl##.text-muted[style*="min-height:"]:has(> div[id^="RMF_24_"])
+rmf24.pl##aside .text-muted[style*="min-height:"]:has(> .sticky-wrapper > #sticker > #adsSmall)
 estradaistudio.pl##.tritable-970x250
 estradaistudio.pl##.right > .d-block[style*="max-width: 300px;"]
 zielonyogrodek.pl##.zo-recommended

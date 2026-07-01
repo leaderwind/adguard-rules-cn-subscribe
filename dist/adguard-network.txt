@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Network
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202607011247
-! Last modified: 2026-07-01T12:47:11Z
+! Version: 202607011549
+! Last modified: 2026-07-01T15:49:01Z
 ! Layers: network
 ! Mode: standard
-! Rules: 47405
+! Rules: 47410
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -45751,7 +45751,12 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||hannover-stadtplan.com/t.gif
 ||happysex.ch/app_jquery/Tracking.js
 ||hartgeld.com/cgi-sys/Count.cgi?
+||heise.de/hlt/statistics/$xmlhttprequest
 ||heise.de/ivw-bin/ivw/cp/
+||heise.de/positions|$xmlhttprequest
+||heise.de/pw/metrics/$xmlhttprequest
+||heise.de/recommendation/m/impression$xmlhttprequest
+||heise.de/recommendation/m/view$xmlhttprequest
 ||herz-fuer-tiere.de^*/ad.gif?
 ||herz-fuer-tiere.de^*/sunshine.gif?
 ||holidaycheck.*/svc/ubt/v1/events

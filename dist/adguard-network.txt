@@ -1,8 +1,8 @@
 ! Title: AdGuard Rules CN - Network
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202607021142
-! Last modified: 2026-07-02T11:42:14Z
+! Version: 202607021427
+! Last modified: 2026-07-02T14:27:08Z
 ! Layers: network
 ! Mode: standard
 ! Rules: 47421
@@ -25719,6 +25719,7 @@ _800x80_
 ||gensonal.com^$document
 ||get-gx.co/*sub2=$document
 ||get-gx.net^$document
+||getdirectbonus.com^$document
 ||getsthis.com^$document
 ||gkrtmc.com^$document
 ||gmmads.com^$document
@@ -25992,6 +25993,7 @@ _800x80_
 ||sloto.live^$document
 ||smrtmnk2.com^$document
 ||socialdate.me^$document
+||souszhi.com^$document
 ||sp03k.sbs^$document
 ||sparkpcgames.com^$document
 ||spin83qr.com^$document
@@ -26004,6 +26006,7 @@ _800x80_
 ||stake.mba/?c=$document
 ||staysafeonlinetoday.com^$document
 ||steerensout.net^$document
+||stopads-now.com^$document
 ||stortla.com^$document
 ||strtgic.com^$document
 ||stsbih.com.ba^$document
@@ -26086,6 +26089,7 @@ _800x80_
 ||want-some-psh.com^$document
 ||wbidder.online^$document
 ||wbidder3.com^$document
+||we-offer.com^$document
 ||webfanclub.com^$document
 ||webmedrtb.com^$document
 ||wetrackgames.com^$document
@@ -28341,6 +28345,7 @@ _800x80_
 ||get-gx.net^$popup
 ||get-link.xyz^$popup
 ||get.stoplocker.com^$popup
+||getdirectbonus.com^$popup
 ||getgx.net^$popup
 ||getmatchedlocally.com^$popup
 ||getmyads.com^$popup
@@ -29427,6 +29432,7 @@ _800x80_
 ||soocaips.com^$popup
 ||sotchoum.com^$popup
 ||sousefulhead.com^$popup
+||souszhi.com^$popup
 ||sowve.com^$popup
 ||spacecatholicpalmful.com^$popup
 ||spacetraff.com^$popup
@@ -29473,6 +29479,7 @@ _800x80_
 ||stimaariraco.info^$popup
 ||stoorgel.com^$popup
 ||stop-adblocker.info^$popup
+||stopads-now.com^$popup
 ||stopadzblock.net^$popup
 ||stopblockads.com^$popup
 ||storader.com^$popup
@@ -29812,6 +29819,7 @@ _800x80_
 ||wbilvnmool.com^$popup
 ||wboux.com^$popup
 ||wct.link^$popup
+||we-offer.com^$popup
 ||weaveradrenaline.com^$popup
 ||web-adblocker.com^$popup
 ||web-guardian.xyz^$popup
@@ -34685,18 +34693,10 @@ template/m1938pc/ads/*.js
 .php?zoneid=$script
 ://ads.$popup,domain=~ad.olx.pl|~ads.mercadolibre.com.ar|~ads.mercadolibre.com.cl|~ads.mercadolibre.com.co|~ads.mercadolibre.com.ec|~ads.mercadolibre.com.mx|~ads.mercadolibre.com.pe|~ads.mercadolibre.com.ve|~ads.mercadolivre.com.br|~ads.openai.com|~ads.pandauth.com|~ads.umd.edu|~axon.ai|~kakaku.com|~reddit.com|~smartnews.com
 ://adv.$popup,domain=~adv.kompas.id|~adv.lack-girl.com
-||getdirectbonus.com^$document
-||souszhi.com^$document
-||stopads-now.com^$document
-||we-offer.com^$document
 ||lockerdome.com^$third-party
 ||35.227.234.222^
 ||35.232.188.118^
 ||betvictor.com*&utm_campaign=$popup
-||getdirectbonus.com^$popup
-||souszhi.com^$popup
-||stopads-now.com^$popup
-||we-offer.com^$popup
 ||wizslots.com*&utm_campaign=$popup
 ||130.211.$popup,third-party,domain=~in-addr.arpa
 ||216.21.13.$popup,domain=~in-addr.arpa

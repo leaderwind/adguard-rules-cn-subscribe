@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Network
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202607020019
-! Last modified: 2026-07-02T00:19:36Z
+! Version: 202607020509
+! Last modified: 2026-07-02T05:09:09Z
 ! Layers: network
 ! Mode: standard
-! Rules: 47414
+! Rules: 47412
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -11198,7 +11198,6 @@ $script,redirect-rule=noopjs,domain=vidmoly.biz|vidmoly.me|vidmoly.net|vidmoly.t
 ||gigaleecher.com/templates/plugmod/giga.js
 @@||bitsilver.io^$generichide
 @@||bituniverse.net^$generichide
-@@||hollaforums.com/js/adcash.js
 @@||menshealth.com/*/pubads$script,~third-party
 @@||ad.doubleclick.net/ddm/ad/*$domain=twitch.tv,third-party
 @@||gobits.io^$generichide
@@ -17432,7 +17431,6 @@ majorgeeks.com/images/mg/ad$image
 ||exoclick.com/ad_track.js$important
 ||images.mmorpg.com/images/ros2.jpg
 ||images.mmorpg.com/images/dbzs.jpg
-||hollaforums.com/if/rc
 ||11livematches.com/rent_space/
 ||11livematches.com/images/watch_football.jpg
 ||11livematches.com/images/footballtipster2.jpg

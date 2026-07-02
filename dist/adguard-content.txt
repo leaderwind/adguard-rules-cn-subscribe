@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Content
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202607021427
-! Last modified: 2026-07-02T14:27:08Z
+! Version: 202607021700
+! Last modified: 2026-07-02T17:00:46Z
 ! Layers: content
 ! Mode: standard
-! Rules: 62897
+! Rules: 62903
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -18414,7 +18414,6 @@ syosetu.com$$script[src="securepubads.g.doubleclick.net"]
 beermoneyforum.com###preloader
 triblive.com#?#.section.hex-sports + div:has(> div[data-type="float"])
 triblive.com###storyContent > div[data-type="float"][data-stn-player]
-slate.com##.ad--lngtd
 torontosun.com,athlonsports.com,edmontonsun.com,driving.ca,vancouversun.com$$script:contains(window.adshield)
 weatherzone.com.au##div[class*=" "][height="270px"]
 weatherzone.com.au##div[class*=" "][height="74px"]
@@ -18756,6 +18755,13 @@ animecorner.me,zarabiajprzez24.pl,watchhentai.xxx,app-how-to-use-it.com,linuxcap
 pawastreams.*,nflbite.to,footybite.to,sportschamp.fun,afly.pro,topsporter.net,soccerstreams.football,mysocceraustralia.com,rayinfosports.com,hesgoals.top,sequencecard.xyz,totalsportek.soccer,metaporky.site,nbabite.to,cyfostreams.com,gamerarcades.com,bestreamsports.org,footy.to,mcrypto.club,greaterkashmir.com###id-custom_banner
 pawastreams.*,groundedtechs.com,rayinfosports.com,sequencecard.xyz,matchtime.co,sportspellz.com,bestreamsports.org,silverspoon.site###dismiss-btn
 vi-control.net,nullforums.net,landyzone.co.uk,nullcave.pro,woxmax.com,waskucity.com,babia.to,technofino.in,reef2reef.com,minebbs.com,craxpro.io,affiliatefix.com,myiptvforum.com,hifivision.com,worldofiptv.com,altenen.is,beermoneyforum.com,germancarforum.com,cracking.org##.samBannerUnit
+sportyhunter.xyz,sportyhunter.*###sidebarad_desktop
+slate.com##.ad--lngtd
+ntv.cx###hdrStripWrap
+ntv.cx##.ntv-overlay-body
+ntv.cx#$#body { overflow: auto !important; }
+ntv.cx#$#.ntv-overlay { display: none !important; }
+wbaltv.com,wdsu.com##article[class^="css-"]:has(div.ad-container)
 missav365.*###btimgid1
 missav365.*##.space-y-6:has(> div.hidden > div.mx-auto > script[src^="//horribletrainer.com/"])
 unicorn.asso.eu.org##.bg-amber-900\/20

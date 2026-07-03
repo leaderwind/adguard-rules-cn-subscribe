@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Network
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202607030454
-! Last modified: 2026-07-03T04:54:45Z
+! Version: 202607030825
+! Last modified: 2026-07-03T08:25:43Z
 ! Layers: network
 ! Mode: standard
-! Rules: 47427
+! Rules: 47426
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -8320,6 +8320,7 @@ $cookie=__adblocker,domain=slate.com|thehindubusinessline.com
 ||claimfey.com/cryptonews/wp-content/uploads/bqanwcfp.js
 @@||static.trafficjunky.com/ab/ads_test.js$domain=bztube.com|hotovs.com|insuredhome.org|nudegista.com|pornluck.com|vidd.se|redtube.*|youpornru.com|tube8.com|tube8.es|tube8.fr|tube8.net|pornhub.com|pornhub.org|pornhub.net
 @@://www.exoclick.com/ads.js|
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=firestream.to
 ||leeapk.com/wp-content/plugins/leeapk-adblock-detector/
 @@||static.doubleclick.net/instream/ad_status.js$domain=flacdownloader.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=flacdownloader.com
@@ -8836,8 +8837,6 @@ $script,redirect-rule=prebid-ads,domain=read.amazon.*
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=sivadictionaries.com
 ||im9.eu/*_*_*.js
 @@-sponsor-ad.gif?advert=$domain=im9.eu
-||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$redirect=googlesyndication-adsbygoogle,domain=arahdrive.com,important
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=arahdrive.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=whatsafterthemovie.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=fullboys.com
 @@||tempinbox.xyz/storage/js/mnpw3.js
@@ -18346,7 +18345,6 @@ $script,redirect-rule=noopjs,domain=inflearn.com
 @@||pub.doubleverify.com/dvtag/*/pub.js$domain=bbc.com
 @@||adguardpartner.com^$generichide,genericblock
 @@||vague.style/wp-content/uploads/*.jpg$image,domain=vague.style
-@@||sts.wavewalt.me/scripts/v*/embedv*.min.js$domain=cricstreams.re
 @@||c.amazon-adsystem.com/aax2/apstag.js$domain=thedailybeast.com
 $script,redirect-rule=noopjs,domain=appwrite.io
 @@||rmbooru.org/data/image/$domain=rmbooru.org
@@ -20318,7 +20316,8 @@ $csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: www.googletagma
 @@||beinconnect.com.tr^$stealth
 @@||account.adobe.com^$document,domain=services.adobe.com,stealth=useragent
 @@||adguard.com^$stealth
-@@||sman1asjap.my.id/tsn.m3u8$stealth=referrer,domain=roxiestreams.su
+@@.m3u8$xmlhttprequest,stealth=referrer,domain=roxiestreams.*
+@@.js$xmlhttprequest,stealth=referrer,domain=roxiestreams.*
 @@||ataide0.pingbash.com/$stealth=referrer,domain=roxiestreams.su
 @@||account.deezer.com/$stealth=flash
 @@.m3u8|$stealth=referrer,domain=embdmstrplayer.com

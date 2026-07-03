@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Content
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202607031430
-! Last modified: 2026-07-03T14:30:03Z
+! Version: 202607031644
+! Last modified: 2026-07-03T16:44:05Z
 ! Layers: content
 ! Mode: standard
-! Rules: 62907
+! Rules: 62911
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -18753,6 +18753,7 @@ animecorner.me,zarabiajprzez24.pl,watchhentai.xxx,app-how-to-use-it.com,linuxcap
 pawastreams.*,nflbite.to,footybite.to,sportschamp.fun,afly.pro,topsporter.net,soccerstreams.football,mysocceraustralia.com,rayinfosports.com,hesgoals.top,sequencecard.xyz,totalsportek.soccer,metaporky.site,nbabite.to,cyfostreams.com,gamerarcades.com,bestreamsports.org,footy.to,mcrypto.club,greaterkashmir.com###id-custom_banner
 pawastreams.*,groundedtechs.com,rayinfosports.com,sequencecard.xyz,matchtime.co,sportspellz.com,bestreamsports.org,silverspoon.site###dismiss-btn
 vi-control.net,nullforums.net,landyzone.co.uk,nullcave.pro,woxmax.com,waskucity.com,babia.to,technofino.in,reef2reef.com,minebbs.com,craxpro.io,affiliatefix.com,myiptvforum.com,hifivision.com,worldofiptv.com,altenen.is,beermoneyforum.com,germancarforum.com,cracking.org##.samBannerUnit
+the-sun.com##div[class$="billboard"]
 shortlist.com##div[data-ad-slot-path]
 baked.live###adbanner
 archive.yota.ru##main[class^="_layout_"] > div[class^="_block_"][class*="_appear_"]:has(> div[class^="_cookie_"])
@@ -35969,6 +35970,9 @@ youtube.com#@#body > ytd-app > #content.ytd-app.style-scope > tp-yt-app-drawer#g
 javcrave.com#@#.widget_custom_html
 nybooks.com#@#.top-ad-wrapper
 nybooks.com##.ad-spacing
+collider.com#@#.ad-current
+collider.com#@#.adsninja-ad-zone
+collider.com#@#.ad-zone-container
 jamf.com#@#div.rendered[id][class*=" "]:not([id*="captcha"])
 gemini.google.com#@#div[data-id="mosaic"] > div > div > div[class]:has(> div:not([data-attrid]) > div[style="height:100%"] a[href^="/aclk?sa="])
 howtogeek.com#@#.w-adsninja-video-player

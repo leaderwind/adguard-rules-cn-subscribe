@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Content
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202607030825
-! Last modified: 2026-07-03T08:25:43Z
+! Version: 202607031140
+! Last modified: 2026-07-03T11:40:54Z
 ! Layers: content
 ! Mode: standard
-! Rules: 62901
+! Rules: 62908
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -9344,7 +9344,6 @@ youporn.com$$script:contains(/window\.[\s\S]*?_zone_[\s\S]*?{"zone_id":/)
 #@#.ads_banner
 ##.stickyads:not([style^="width: 32px"], [style^="width: 33px"], [style*="left: -43px"], [style*="-3"][style*="important"][style*="display: block;"], [style*="position: fixed"][style*="-188"], [style*="!important;"][style*="width:"][style*="height:"][style*="position"][style*="left:"][style*="top:"][style*="display"], [data-freestar-ad="123"]):not(:empty)
 ##.ads_banner:not([style^="width: 32px"], [style^="width: 33px"], [style*="left: -43px"], [style*="-3"][style*="important"][style*="display: block;"], [style*="position: fixed"][style*="-188"], [style*="!important;"][style*="width:"][style*="height:"][style*="position"][style*="left:"][style*="top:"][style*="display"]):not(:empty)
-sportsbite.lol##.inset-0.fixed
 leeapk.com###abd-overlay
 flacdownloader.com$$script:contains(baits)
 flacdownloader.com#@#.adsbygoogle-noablate
@@ -14871,7 +14870,10 @@ moviesroom.pl#$#body { overflow: auto !important; }
 fm.tuba.pl##div[class*="bg-[url(/assets/tuba-logo-ads.png)]"]
 parenting.pl##a[rel="sponsored noopener noreferrer"]
 files4you.org###posts div[id^="post_message_"] div[align="center"] > div[style^="height:"][style*="width:"][style*="position:"][style*="background:"]
+monitorfirm.pb.pl##.sas
 pb.pl##.n2pb-ad-container
+pb.pl##.trinity-fab-overlay
+pb.pl##body .n2pb-gad-container:not(#style_important)
 pb.pl##div[class^="npb-"][class$="-adv"]
 24kurier.pl#$#.box_reklama_txt { visibility: hidden !important; }
 cybersport.pl##.banner
@@ -15231,6 +15233,7 @@ pasazer.com##.adv_body
 pasazer.com##article .adv_in_art
 zamkomania.pl#@#.ad_box:not(.text-ad)
 eurosport.tvn24.pl##.AdContainer
+eurosport.tvn24.pl##div[data-testid="marketing-hbo-max-block"]
 viva.pl##.placement
 roland-gazeta.pl#$#.pub_300x250.pub_300x250m.pub_728x90.text-ad.textAd.text_ad.text_ads.text-ads.text-ad-links { display: block !important; }
 energetyka24.com,space24.pl,cyberdefence24.pl,defence24.pl,defence24.com##.partners-module
@@ -18750,6 +18753,8 @@ animecorner.me,zarabiajprzez24.pl,watchhentai.xxx,app-how-to-use-it.com,linuxcap
 pawastreams.*,nflbite.to,footybite.to,sportschamp.fun,afly.pro,topsporter.net,soccerstreams.football,mysocceraustralia.com,rayinfosports.com,hesgoals.top,sequencecard.xyz,totalsportek.soccer,metaporky.site,nbabite.to,cyfostreams.com,gamerarcades.com,bestreamsports.org,footy.to,mcrypto.club,greaterkashmir.com###id-custom_banner
 pawastreams.*,groundedtechs.com,rayinfosports.com,sequencecard.xyz,matchtime.co,sportspellz.com,bestreamsports.org,silverspoon.site###dismiss-btn
 vi-control.net,nullforums.net,landyzone.co.uk,nullcave.pro,woxmax.com,waskucity.com,babia.to,technofino.in,reef2reef.com,minebbs.com,craxpro.io,affiliatefix.com,myiptvforum.com,hifivision.com,worldofiptv.com,altenen.is,beermoneyforum.com,germancarforum.com,cracking.org##.samBannerUnit
+shortlist.com##div[data-ad-slot-path]
+baked.live###adbanner
 archive.yota.ru##main[class^="_layout_"] > div[class^="_block_"][class*="_appear_"]:has(> div[class^="_cookie_"])
 streamfree.top##a[href^="https://hub.buzzaffiliates.com/"]
 sportyhunter.xyz,sportyhunter.*###sidebarad_desktop
@@ -35964,6 +35969,7 @@ youtube.com#@#body > ytd-app > #content.ytd-app.style-scope > tp-yt-app-drawer#g
 javcrave.com#@#.widget_custom_html
 nybooks.com#@#.top-ad-wrapper
 nybooks.com##.ad-spacing
+jamf.com#@#div.rendered[id][class*=" "]:not([id*="captcha"])
 gemini.google.com#@#div[data-id="mosaic"] > div > div > div[class]:has(> div:not([data-attrid]) > div[style="height:100%"] a[href^="/aclk?sa="])
 howtogeek.com#@#.w-adsninja-video-player
 cheapassgamer.com#@#.top.ad
@@ -62595,6 +62601,7 @@ yatu.tv##.dplayer-web-fullscreen-fix #tburl,#loadtop,[id^=myas],#myds1,#daohang
 ##[class^="div-gpt-ad"]
 cyberchef.org###workspace-wrapper > [id][style*="height"] {height: 100% !important}
 complex.com##.\[\@media\(min-width\:520px\)\]\:px-\[20px\]
+kingmods.net,tappedout.net,tvinsider.com##.banner-ad
 justjared.com##.banner-spacer-top {max-height: 50px !important;}
 temp-mail.io##.fixed.bottom-0.\[\@media\(max-width\:1350px\)\]\:hidden
 complex.com##.lg\:top-\[var\(--sticky-top\)\]

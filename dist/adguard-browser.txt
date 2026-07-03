@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Browser
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202607030017
-! Last modified: 2026-07-03T00:17:38Z
+! Version: 202607030454
+! Last modified: 2026-07-03T04:54:45Z
 ! Layers: network,content,scriptlet
 ! Mode: standard
-! Rules: 115647
+! Rules: 115648
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -111997,6 +111997,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||api.tblcontent.com*/log/
 ||indiatimes.com/pixel?
 ||tvid.in/log/
+||gopay.sh/collect
 ||mediagroupnetwork.com/js/ua.js
 ||mediaquark.com/tracker.js
 ||oval.id/tracker/

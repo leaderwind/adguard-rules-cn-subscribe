@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Network
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202607041614
-! Last modified: 2026-07-04T16:14:44Z
+! Version: 202607041813
+! Last modified: 2026-07-04T18:13:01Z
 ! Layers: network
 ! Mode: standard
-! Rules: 47440
+! Rules: 47442
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -14380,6 +14380,7 @@ $subdocument,third-party,denyallow=disqus.com,domain=love4u.net
 $third-party,script,domain=klto9.com|f2movies.to|hacamchicac.com|yourporngod.com|zinchanmanga.com|yaoimangaonline.com|tututweak.app|mangaraw.ac|eromanga-show.com|hentai-one.com|hentaipaw.com|nukibooks.com|paipancon.com|jgvdata.com|youtubevanced.com|pandamtl.com|mangaplus.shueisha.tv|shueisharaw.tv
 ||linksconsole.com/ad-system/
 ||misc-api.feathermc.com/*/ads/ad_units?
+||shorts.b-cdn.net/ads/$domain=shorts.xxx
 ||adultdeepfakes.com/static/ads/
 ||streamfree.top/analytics.js
 ||ntv.cx/assets/stake/
@@ -22060,6 +22061,7 @@ $csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: www.googletagma
 @@||login.wmtransfer.com^$stealth=3p-cookie
 @@||login.uid.me^$domain=ucoz.ru,stealth=3p-cookie
 @@||vodakpsdhdsdrm-vh.akamaihd.net/z/clips/$stealth=3p-cookie
+@@||rt.ru^$stealth=dpi
 @@||lluban.by^$stealth=dpi
 @@||goldenergy.pt^$stealth=dpi
 @@||nsl.pincrux.com^$stealth=dpi

@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Windows
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202607041216
-! Last modified: 2026-07-04T12:16:17Z
+! Version: 202607041444
+! Last modified: 2026-07-04T14:44:51Z
 ! Layers: network,content,scriptlet
 ! Mode: standard
-! Rules: 115665
+! Rules: 115672
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -34768,6 +34768,7 @@ _800x80_
 ||ads-blocker.app^$document
 ||ads4trk.com^$document
 ||adsco.re^$document
+||adsgateway.net^$document
 ||adskeeper.co.uk^$document
 ||adspredictiv.com^$document
 ||adsquasher.com^$document
@@ -34842,6 +34843,7 @@ _800x80_
 ||bunth.net^$document
 ||byethost41.net^$document
 ||c3j7rk-rtbix.top^$document
+||camads.workers.dev^$document
 ||camliveshow.xyz^$document
 ||candellume.shop^$document
 ||candyai.love^$document
@@ -35005,6 +35007,7 @@ _800x80_
 ||land.pixelsee.app^$document
 ||landerhq.com^$document
 ||leadgainz.com^$document
+||leadimmensely.com^$document
 ||leakvideos.live^$document
 ||leoyard.com^$document
 ||lindychat.com^$document
@@ -35014,6 +35017,7 @@ _800x80_
 ||locooler-ageneral.com^$document
 ||locopar.com^$document
 ||lorymo.online^$document
+||lstgddss.com^$document
 ||lwnbts.com^$document
 ||lylufhuxqwi.com^$document
 ||madeupice.com^$document
@@ -35158,6 +35162,7 @@ _800x80_
 ||r8bz.com^$document
 ||racunn.com^$document
 ||radiancerelaysacred.com^$document
+||ragan-qdr.com^$document
 ||rbtfit.com^$document
 ||rcdn-web.com^$document
 ||realsh.xyz^$document
@@ -87345,6 +87350,7 @@ news18.com##.desktopadh
 coingape.com##.desktopds
 news18.com##.desktopflex
 ancient-origins.net##.desktops
+picnob.com##.desney
 audio-database.com##.detail_ad_01
 audio-database.com##.detail_ad_02
 audio-database.com##.detail_ad_03
@@ -87465,9 +87471,11 @@ clutchpoints.com##.ehgtMe.sc-ed3f1eaf-1
 filmibeat.com##.ele-ad
 sashares.co.za##.elementor-48612
 cryptopolitan.com##.elementor-element-094410a
+transportandenergy.com##.elementor-element-16336d8
 avitrader.com##.elementor-element-31aeedc
 hilltimes.com##.elementor-element-5818a09
 whakatakitimes.nz##.elementor-element-97aca2d
+transportandenergy.com##.elementor-popup-modal
 optimyz.com,ringsidenews.com##.elementor-shortcode
 canyoublockit.com##.elementor-widget-container > center > p
 vedantbhoomi.com##.elementor-widget-smartmag-codes
@@ -102633,7 +102641,6 @@ yatu.tv,yhdm7.com,yhdm95.com,xdm530.com##+js(aopw,document.oncontextmenu)
 cyberchef.org###workspace-wrapper > [id][style*="height"] {height: 100% !important}
 complex.com##.\[\@media\(min-width\:520px\)\]\:px-\[20px\]
 justjared.com##.banner-spacer-top {max-height: 50px !important;}
-picnob.com##.desney
 temp-mail.io##.fixed.bottom-0.\[\@media\(max-width\:1350px\)\]\:hidden
 complex.com##.lg\:top-\[var\(--sticky-top\)\]
 justjared.com##[role="banner"] {top:0 !important}

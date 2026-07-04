@@ -1,8 +1,8 @@
 ! Title: AdGuard Rules CN - Content
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202607040803
-! Last modified: 2026-07-04T08:03:33Z
+! Version: 202607041023
+! Last modified: 2026-07-04T10:23:20Z
 ! Layers: content
 ! Mode: standard
 ! Rules: 62913
@@ -18753,6 +18753,7 @@ animecorner.me,zarabiajprzez24.pl,watchhentai.xxx,app-how-to-use-it.com,linuxcap
 pawastreams.*,nflbite.to,footybite.to,sportschamp.fun,afly.pro,topsporter.net,soccerstreams.football,mysocceraustralia.com,rayinfosports.com,hesgoals.top,sequencecard.xyz,totalsportek.soccer,metaporky.site,nbabite.to,cyfostreams.com,gamerarcades.com,bestreamsports.org,footy.to,mcrypto.club,greaterkashmir.com###id-custom_banner
 pawastreams.*,groundedtechs.com,rayinfosports.com,sequencecard.xyz,matchtime.co,sportspellz.com,bestreamsports.org,silverspoon.site###dismiss-btn
 vi-control.net,nullforums.net,landyzone.co.uk,nullcave.pro,woxmax.com,waskucity.com,babia.to,technofino.in,reef2reef.com,minebbs.com,craxpro.io,affiliatefix.com,myiptvforum.com,hifivision.com,worldofiptv.com,altenen.is,beermoneyforum.com,germancarforum.com,cracking.org##.samBannerUnit
+sbnation.com###content > div[class]:has(> div[data-concert="desktop_leaderboard_variable"])
 hoopsrumors.com##.div-gpt-ad-post
 the-sun.com##div[class$="billboard"]
 shortlist.com##div[data-ad-slot-path]
@@ -51259,7 +51260,7 @@ techrepublic.com###leader-plus-top
 ugstandard.com###leader-wrap
 pistonheads.com###leaderBoard
 whdh.com,wsvn.com###leader_1
-12tomatoes.com,allwomenstalk.com,bloomberg.com,datpiff.com,gadgetreview.com,gransnet.com,hockeybuzz.com,koreaboo.com,logotv.com,news.sky.com,onthesnow.co.uk,onthesnow.com,penny-arcade.com,publishersweekly.com,skysports.com,thedrinknation.com,theserverside.com,vacations.info###leaderboard
+12tomatoes.com,allwomenstalk.com,bloomberg.com,datpiff.com,gransnet.com,hockeybuzz.com,koreaboo.com,logotv.com,news.sky.com,onthesnow.co.uk,onthesnow.com,penny-arcade.com,publishersweekly.com,skysports.com,thedrinknation.com,theserverside.com,vacations.info###leaderboard
 open.spotify.com###leaderboard-ad-element
 vocm.com###leaderboard-area
 bbc.com###leaderboard-aside-content
@@ -53702,6 +53703,7 @@ the-sun.com##.dpa-grid
 thesun.co.uk##.dpa-slot
 immoweb.be##.dpg
 radiopaedia.org##.drive-banner
+dropr.co##.dropr-ad-wrap
 cryptonews.com##.dslot
 kickasstorrents.to##.dssdffds
 crash.net##.dt
@@ -54287,9 +54289,7 @@ mtgrocks.com##.htl-inarticle-ad
 nameberry.com##.htlad-InContent_Flex
 nameberry.com##.htlad-Leaderboard_Flex
 avclub.com##.htlad-above_logo
-gadgetreview.com##.htlad-in_content
 avclub.com##.htlad-middle_rectangle
-gadgetreview.com##.htlad-right_rail
 avclub.com##.htlad-top_leaderboard
 zedge.net##.htlad-zedge_browse
 wtop.com##.hubb-at-rad-header

@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Aggressive
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202607051451
-! Last modified: 2026-07-05T14:51:35Z
+! Version: 202607051617
+! Last modified: 2026-07-05T16:17:44Z
 ! Layers: network,content,scriptlet
 ! Mode: aggressive
-! Rules: 115774
+! Rules: 115773
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -103690,6 +103690,7 @@ otomi-games.com##.clean-grid-grid-post:has(> [id^="otomi-"] + .clean-grid-grid-p
 /cnt_js.php?
 /cnvtr.js
 /cocoon-master/lib/analytics/access.
+/code/e.js|$~third-party
 /codesters-analytics.
 /CofinaHits.js
 /cogi-etracker.js
@@ -105952,7 +105953,6 @@ otomi-games.com##.clean-grid-grid-post:has(> [id^="otomi-"] + .clean-grid-grid-p
 ://datacollector.*/event
 ://dwh-prod.*/de.npg/
 ://elqtrk.
-://estats.*/code/e.js
 ://fallback.*/collector
 ://fathom.$domain=~fathom.care|~fathom.co.za|~fathom.fm|~fathom.info|~fathom.io|~fathom.lib.uchicago.edu|~fathom.org|~fathom.video|~fathom.world|~fathomdelivers.com|~fathomseo.com|~usesfathom.com
 ://gtrack.*/dye
@@ -105976,7 +105976,6 @@ otomi-games.com##.clean-grid-grid-post:has(> [id^="otomi-"] + .clean-grid-grid-p
 ://sp.*/sp/h|$xmlhttprequest
 ://ssgtm.
 ://stat.*/pageview/$xmlhttprequest
-://stats.*/code/e.js
 ://t.targito.
 ://track.*/collect
 ://track.*/dye

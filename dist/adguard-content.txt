@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Content
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202607061258
-! Last modified: 2026-07-06T12:58:04Z
+! Version: 202607061629
+! Last modified: 2026-07-06T16:29:30Z
 ! Layers: content
 ! Mode: standard
-! Rules: 62933
+! Rules: 62939
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -9344,6 +9344,9 @@ youporn.com$$script:contains(/window\.[\s\S]*?_zone_[\s\S]*?{"zone_id":/)
 #@#.ads_banner
 ##.stickyads:not([style^="width: 32px"], [style^="width: 33px"], [style*="left: -43px"], [style*="-3"][style*="important"][style*="display: block;"], [style*="position: fixed"][style*="-188"], [style*="!important;"][style*="width:"][style*="height:"][style*="position"][style*="left:"][style*="top:"][style*="display"], [data-freestar-ad="123"]):not(:empty)
 ##.ads_banner:not([style^="width: 32px"], [style^="width: 33px"], [style*="left: -43px"], [style*="-3"][style*="important"][style*="display: block;"], [style*="position: fixed"][style*="-188"], [style*="!important;"][style*="width:"][style*="height:"][style*="position"][style*="left:"][style*="top:"][style*="display"]):not(:empty)
+gsmfile2025.blogspot.com##.ad-top-banner
+gsmfile2025.blogspot.com##.ad-left-wrapper
+gsmfile2025.blogspot.com##.ad-right-wrapper
 leeapk.com###abd-overlay
 flacdownloader.com$$script:contains(baits)
 flacdownloader.com#@#.adsbygoogle-noablate
@@ -13204,6 +13207,7 @@ dm5.com##.cp_adct
 movie76.com,wardhanime.net##div[id^="teaser"]
 downloadfilem.com$$div[class="box"]:contains(<h2>Iklan</h2>)
 movie76.com##img[alt="ads"]
+fanpage.it##.adv-wrapper
 cdt.ch##div.wnh__banner
 tuttoandroid.net##.post-content > div.box_read_also:has(> div > strong > a[href^="https://www.ebay.it/"])
 vocegiallorossa.it##div.centra > div.center[style]:has(> .tcc-banner #div-gpt-ad-MaxTicker)
@@ -18758,6 +18762,8 @@ animecorner.me,zarabiajprzez24.pl,watchhentai.xxx,app-how-to-use-it.com,linuxcap
 pawastreams.*,nflbite.to,footybite.to,sportschamp.fun,afly.pro,topsporter.net,soccerstreams.football,mysocceraustralia.com,rayinfosports.com,hesgoals.top,sequencecard.xyz,totalsportek.soccer,metaporky.site,nbabite.to,cyfostreams.com,gamerarcades.com,bestreamsports.org,footy.to,mcrypto.club,greaterkashmir.com###id-custom_banner
 pawastreams.*,groundedtechs.com,rayinfosports.com,sequencecard.xyz,matchtime.co,sportspellz.com,bestreamsports.org,silverspoon.site###dismiss-btn
 vi-control.net,nullforums.net,landyzone.co.uk,nullcave.pro,woxmax.com,waskucity.com,babia.to,technofino.in,reef2reef.com,minebbs.com,craxpro.io,affiliatefix.com,myiptvforum.com,hifivision.com,worldofiptv.com,altenen.is,beermoneyforum.com,germancarforum.com,cracking.org##.samBannerUnit
+clutchpoints.com##div.flex.border:has(> div[class] > .ad-slot)
+gsmfile2025.blogspot.com##.fake-downloads
 emule-security.org##.partner-block
 pawgpornstars.com##a[href^="https://www2.pornfidelity.com/track/"]
 pawgpornstars.com##a[href^="https://pawgpornstars.com/link/brazzers/"]
@@ -20192,7 +20198,7 @@ yellowpages.com##.center-ads
 bestbuy.ca##section[data-automation="dynamic-content-ad-slot"]
 healthgrades.com##div[class]:has(> div[data-visible] > div[data-qa-target="leaderboard-ad"])
 bestmvno.com##.advertextsize
-hockeyfeed.com##.not-prose
+clutchpoints.com,hockeyfeed.com##.not-prose
 altarofgaming.com###aog-adthrive-header
 outlookindia.com##.new-lhs-md-ads-res
 outlookmoney.com,outlookbusiness.com,outlookindia.com###ol_story_sticky

@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Content
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202607052318
-! Last modified: 2026-07-05T23:18:52Z
+! Version: 202607060436
+! Last modified: 2026-07-06T04:36:32Z
 ! Layers: content
 ! Mode: standard
-! Rules: 62919
+! Rules: 62920
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -36291,7 +36291,7 @@ msn.com#@#a[href^="https://clk.tradedoubler.com/"]
 rema.no#@#.top-banners
 pornhub.com,pornhub.org,pornhub.net#@#div > [style] iframe[width][height]
 pornhub.com,pornhub.org,pornhub.net#@#[style] > div > iframe[width]:first-child
-motherless.com#@#iframe[style]
+motherless.xxx#@#iframe[style]
 ekstrabladet.dk#@##adtechWallpaper
 readwhere.com#@#.adunit
 business.financialpost.com#@#.adsizewrapper
@@ -50963,6 +50963,7 @@ miloserdov.org###custom_html-11
 colombiareports.com,miloserdov.org,mostlyblogging.com###custom_html-14
 mostlyblogging.com,sonyalpharumors.com###custom_html-15
 eetimes.eu,miloserdov.org###custom_html-16
+wallethacks.com###custom_html-18
 budgetbytes.com,ets2.lt,miloserdov.org###custom_html-2
 blissfuldomestication.com###custom_html-22
 sonyalpharumors.com###custom_html-25
@@ -51326,7 +51327,7 @@ bmj.com###mdgxWidgetiFrame
 active.com###med_rec_bottom
 active.com###med_rec_top
 bitcoinworld.co.in###media_image-18
-wakingtimes.com,ymcinema.com###media_image-2
+quantpedia.com,wakingtimes.com,ymcinema.com###media_image-2
 airfactsjournal.com###media_image-3
 palestinechronicle.com###media_image-4
 mostlyblogging.com###media_image-5

@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Aggressive
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202607060909
-! Last modified: 2026-07-06T09:09:17Z
+! Version: 202607061258
+! Last modified: 2026-07-06T12:58:04Z
 ! Layers: network,content,scriptlet
 ! Mode: aggressive
-! Rules: 115764
+! Rules: 115769
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -17529,6 +17529,7 @@ $cookie=__adblocker,domain=slate.com|thehindubusinessline.com
 ||claimfey.com/cryptonews/wp-content/uploads/bqanwcfp.js
 @@||static.trafficjunky.com/ab/ads_test.js$domain=bztube.com|hotovs.com|insuredhome.org|nudegista.com|pornluck.com|vidd.se|redtube.*|youpornru.com|tube8.com|tube8.es|tube8.fr|tube8.net|pornhub.com|pornhub.org|pornhub.net
 @@://www.exoclick.com/ads.js|
+||4up.pics/assets/js/anti-adblock.js
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=firestream.to
 ||leeapk.com/wp-content/plugins/leeapk-adblock-detector/
 @@||static.doubleclick.net/instream/ad_status.js$domain=flacdownloader.com
@@ -24059,8 +24060,8 @@ $replace=/window\.location\.replace\(urlRandom\);//,document,domain=pelisplus-of
 ||cdn.jsdelivr.net/gh/itspro-dev/project_files@master/anikoto.js
 ://creative.*/widgets/v4/Universal?$subdocument,redirect=noopframe,domain=leak.xxx
 ||adultgamesworld.com/wp-content/uploads/*/new_banner.gif
-/assets/script|$~third-party,domain=9anime-hub.com
-/build/assets/modal-register-*.js$domain=9anime-hub.com
+/assets/script|$~third-party,domain=9anime-hub.com|9-anime.me|animesa.net
+/build/assets/modal-register-*.js$domain=9anime-hub.com|9-anime.me|animesa.net
 ||travelweekly.co.uk/AfoCampaign/
 ||realpornblogger.com/wp-content/uploads/*/*/Banner-*.mp4
 ||leakgallery.com/tinder/
@@ -52455,6 +52456,7 @@ animecorner.me,zarabiajprzez24.pl,watchhentai.xxx,app-how-to-use-it.com,linuxcap
 pawastreams.*,nflbite.to,footybite.to,sportschamp.fun,afly.pro,topsporter.net,soccerstreams.football,mysocceraustralia.com,rayinfosports.com,hesgoals.top,sequencecard.xyz,totalsportek.soccer,metaporky.site,nbabite.to,cyfostreams.com,gamerarcades.com,bestreamsports.org,footy.to,mcrypto.club,greaterkashmir.com###id-custom_banner
 pawastreams.*,groundedtechs.com,rayinfosports.com,sequencecard.xyz,matchtime.co,sportspellz.com,bestreamsports.org,silverspoon.site###dismiss-btn
 vi-control.net,nullforums.net,landyzone.co.uk,nullcave.pro,woxmax.com,waskucity.com,babia.to,technofino.in,reef2reef.com,minebbs.com,craxpro.io,affiliatefix.com,myiptvforum.com,hifivision.com,worldofiptv.com,altenen.is,beermoneyforum.com,germancarforum.com,cracking.org##.samBannerUnit
+emule-security.org##.partner-block
 pawgpornstars.com##a[href^="https://www2.pornfidelity.com/track/"]
 pawgpornstars.com##a[href^="https://pawgpornstars.com/link/brazzers/"]
 badvault.com##.video-card-ad-wrapper
@@ -52725,9 +52727,9 @@ hltv.org##.match > div.match-bottom > div.match-fixtures
 songlyrics.com##.ad-zone-reserve
 songlyrics.com##div[id^="sl-player-"]
 worldsoccer.com##div[style="height:500px;margin:8px 0;"]
-mensfitness.co.uk,worldsoccer.com##.content-ad
-mensfitness.co.uk,worldsoccer.com##.pageskin-ads
-mensfitness.co.uk,worldsoccer.com###VideoAdContainer
+amateurphotographer.com,mensfitness.co.uk,worldsoccer.com##.content-ad
+amateurphotographer.com,mensfitness.co.uk,worldsoccer.com##.pageskin-ads
+amateurphotographer.com,mensfitness.co.uk,worldsoccer.com###VideoAdContainer
 filespayouts.com##center:has(> div.nf-page > div.cb-ad-box)
 the-race.com##.tr-top-nav-ad
 the-race.com##.full-width-ad-spot
@@ -55020,7 +55022,7 @@ abcnews.go.com##.ScrollSpy_container > div[data-container="band"]:has(> div[clas
 abcnews.go.com##.ScrollSpy_container > div[data-container="band"]:has(> div[class] > div[data-box-type^="fitt-adbox-thinbanner"])
 abcnews.go.com##.navigation__hulu
 tecadmin.net##.a-wrap:has(> .adsbygoogle)
-9anime-hub.com###mdl-register
+animesa.net,9-anime.me,9anime-hub.com###mdl-register
 society19.com##div[style*="margin:"][style*="text-align:"][style*="display:"]:has(> div[id^="div-gpt-"])
 healthline.com##div[data-testid="tabbed-article-section"] > div[class]:has(> aside[data-testid="sticky-inline-ad"])
 futurism.com,popsci.com###pw-iab-leaderboard
@@ -94590,6 +94592,7 @@ torupload.com#%#//scriptlet('set-constant', 'loadads', 'noopFunc')
 torupload.com#%#//scriptlet('prevent-element-src-loading', 'img', 'googlesyndication.com')
 nzn3.org,bysevepoin.com,arbitrarydecisions.com#%#//scriptlet('json-prune', 'adblock_detection force_disable_adblock')
 cloudfam.io#%#(()=>{const e={apply:(e,t,n)=>{const o=Reflect.apply(e,t,n);try{o instanceof HTMLIFrameElement&&""===o.src&&o.contentWindow&&(o.contentWindow.fetch=window.fetch,o.contentWindow.getComputedStyle=window.getComputedStyle)}catch(e){}return o}};Node.prototype.appendChild=new Proxy(Node.prototype.appendChild,e)})();
+cloudfam.io#%#//scriptlet('trusted-replace-argument', 'Blob', '0', 'emptyArr', '/fetch\(.+\.data\.url/')
 cloudfam.io#%#//scriptlet('abort-on-stack-trace', 'document.createElement', '/openAdWithFallback|getNativeApis/')
 cloudfam.io#%#//scriptlet('prevent-fetch', 'method:HEAD')
 cloudfam.io#%#//scriptlet('prevent-element-src-loading', 'script', '/adsbygoogle|doubleclick/')
@@ -99161,7 +99164,7 @@ allinonedownloader.com#%#//scriptlet('abort-current-inline-script', 'document.on
 thepointsguy.com#%#//scriptlet('set-session-storage-item', 'exitModal', '1')
 indiaglitz.com#%#//scriptlet('abort-on-property-read', 'showLanding')
 indiaglitz.com#%#//scriptlet('abort-current-inline-script', '$', '/landingpage|bannermain/')
-9anime-hub.com#%#//scriptlet('prevent-setTimeout', '-register')
+animesa.net,9-anime.me,9anime-hub.com#%#//scriptlet('prevent-setTimeout', '-register')
 hentaihaven.com#%#//scriptlet('prevent-setTimeout', 'shouldShow')
 hentaihaven.com#%#//scriptlet('abort-on-property-write', 'Script_Manager')
 hentaihaven.com#%#//scriptlet('prevent-addEventListener', 'click', '/inter')
@@ -102714,7 +102717,9 @@ yatu.tv,yhdm7.com,yhdm95.com,xdm530.com##+js(aopw,document.oncontextmenu)
 ||35.227.234.222^$popup
 ||35.232.188.118^$popup
 ||2mdn.net/videoplayback/$rewrite=abp-resource:blank-mp4,domain=laurelberninteriors.com|safeframe.googlesyndication.com
+||dlhd.*/rs4k-adbanner.html
 ||googlevideo.com/videoplayback?$rewrite=abp-resource:blank-mp4,domain=laurelberninteriors.com|safeframe.googlesyndication.com
+||igniteandship.com/js/adcashign.js
 ||innovid.com/media/encoded/*.mp4$rewrite=abp-resource:blank-mp4,domain=ktla.com
 ||aucdn.net/library/*.mp4$rewrite=abp-resource:blank-mp4,domain=txnhh.com|xnxx.com|xvideos.com|xvv1deos.com
 ||cdn.miohentai.com/partners/$rewrite=abp-resource:blank-mp4,domain=miohentai.com

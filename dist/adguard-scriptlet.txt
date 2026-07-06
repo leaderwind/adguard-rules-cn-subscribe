@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Scriptlet
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202607061629
-! Last modified: 2026-07-06T16:29:30Z
+! Version: 202607061903
+! Last modified: 2026-07-06T19:03:48Z
 ! Layers: scriptlet
 ! Mode: standard
-! Rules: 5412
+! Rules: 5414
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -435,6 +435,7 @@ youporn.com,bztube.com,hotovs.com,insuredhome.org,nudegista.com,pornluck.com,vid
 pornhub.com,pornhub.org,pornhub.net#%#//scriptlet('set-constant', 'page_params.holiday_promo_prem', 'true')
 pornhub.com,pornhub.org,pornhub.net#%#//scriptlet('prevent-setTimeout', '\x41\x64\x62\x6c\x6f\x63\x6b\x20\x66\x6f\x72\x20\x70\x6f\x72\x6e\x68\x75\x62')
 youporn.com#%#//scriptlet('remove-node-text', 'script', '/window\.[\s\S]*?_zone_[\s\S]*?{"zone_id":/')
+donghua-ar.me#%#//scriptlet('prevent-setTimeout', 'offsetHeight===0')
 gsmfile2025.blogspot.com#%#//scriptlet('prevent-setTimeout', 'getComputedStyle', '250')
 xdownloaderz.com#%#//scriptlet('prevent-constructor', 'Promise', 'pagead2.googlesyndication.com')
 xdownloaderz.com#%#//scriptlet('trusted-replace-argument', 'Array.prototype.some', '0', 'falseFunc', '/\.offsetHeight\s*\|\|\s*0\s*===/')
@@ -4701,6 +4702,7 @@ www.youtube.com#%#//scriptlet('set-constant', 'ytcfg.data_.EXPERIMENT_FLAGS.web_
 www.youtube.com#%#//scriptlet('prevent-setTimeout', '(),a,b)', '5000')
 m.youtube.com#%#//scriptlet('json-prune', 'playerResponse.messages.[].youThereRenderer')
 m.youtube.com#%#(()=>{const t={apply:(t,e,n)=>{if(location.href.includes("/shorts/")||location.href.includes("youtube.com/tv")||location.href.includes("youtube.com/embed/"))return Reflect.apply(t,e,n);try{const a=n[0];if(!a?.context?.client)return Reflect.apply(t,e,n);const o=String(Date.now());a.playbackContext&&void 0===a.playbackContext.adPlaybackContext&&(a.playbackContext.contentPlaybackContext.lactMilliseconds=o),a.playerRequest&&void 0===a.playerRequest.playbackContext?.adPlaybackContext&&(a.playerRequest.playbackContext.contentPlaybackContext.lactMilliseconds=o),n[0]=a}catch(t){}return Reflect.apply(t,e,n)}};window.JSON.stringify=new Proxy(window.JSON.stringify,t)})();
+pornoxo.com#%#//scriptlet('remove-node-text', 'script', 'labadena')
 gsmfile2025.blogspot.com#%#//scriptlet('prevent-window-open', '_blank')
 motherless.xxx#%#//scriptlet('abort-current-inline-script', 'Math.floor', '_0x')
 unicorn.asso.eu.org#%#//scriptlet('prevent-window-open')

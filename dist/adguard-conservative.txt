@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Conservative
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202607072140
-! Last modified: 2026-07-07T21:40:57Z
+! Version: 202607072313
+! Last modified: 2026-07-07T23:13:38Z
 ! Layers: network,content,scriptlet
 ! Mode: conservative
-! Rules: 107912
+! Rules: 107914
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -16157,6 +16157,8 @@ fqsousou.com,kengso.com#@#.user-share
 @@/adguard.$domain=llq.dml.ink
 @@||criteo.com/delivery/ajs.php?zoneid=$script,domain=gaus.ee
 @@||jd.com/adclick?$popup,~third-party
+.net/themes/jieqi/wap/js/test.
+.net/themes/jieqi/wap/js/fixed.
 ||wnacg.com/game/$image,rewrite=abp-resource:1x1-transparent-gif,domain=wnacg.com
 cngold.org#?#.w310:-abp-has(>.swiper-company)
 hanime1.me#?#div[style*="text-align:"]:-abp-has(>div[style*="color: white"])

@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Conservative
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202607071512
-! Last modified: 2026-07-07T15:12:04Z
+! Version: 202607071726
+! Last modified: 2026-07-07T17:26:21Z
 ! Layers: network,content,scriptlet
 ! Mode: conservative
-! Rules: 107909
+! Rules: 107910
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -28778,6 +28778,7 @@ $image,script,stylesheet,subdocument,third-party,xmlhttprequest,domain=animepahe
 @@||tous-sports.fr/js/advertisement-AdBlock.js
 @@||tous-sports.tv/js/advertisement-AdBlock.js
 @@||account.adobe.com^$document,domain=services.adobe.com,stealth=useragent
+@@||cdn.asdasdhg.com^$image,stealth=referrer,domain=silentquill.net
 @@||cdn.readdetectiveconan.com^$image,stealth=referrer,domain=mangapill.com
 @@||xxxcdn.org^$image,stealth=referrer
 @@||ninstream.com/*.jpg|$xmlhttprequest,stealth=referrer,domain=senshi.live

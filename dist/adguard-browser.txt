@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Browser
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202607071512
-! Last modified: 2026-07-07T15:12:04Z
+! Version: 202607071726
+! Last modified: 2026-07-07T17:26:21Z
 ! Layers: network,content,scriptlet
 ! Mode: standard
-! Rules: 115745
+! Rules: 115746
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -29546,6 +29546,7 @@ $csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: www.googletagma
 @@||beinconnect.com.tr^$stealth
 @@||account.adobe.com^$document,domain=services.adobe.com,stealth=useragent
 @@||adguard.com^$stealth
+@@||cdn.asdasdhg.com^$image,stealth=referrer,domain=silentquill.net
 @@||cdn.readdetectiveconan.com^$image,stealth=referrer,domain=mangapill.com
 @@||fak.xxx^$stealth=ip
 @@||xxxcdn.org^$image,stealth=referrer

@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Content
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202607071208
-! Last modified: 2026-07-07T12:08:46Z
+! Version: 202607071512
+! Last modified: 2026-07-07T15:12:04Z
 ! Layers: content
 ! Mode: standard
-! Rules: 62974
+! Rules: 62975
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -14929,6 +14929,7 @@ silesion.pl##.theiaStickySidebar > aside > .widget_block > figure.wp-block-image
 silesion.pl#?#.theiaStickySidebar > aside > .widget_block:has(> figure.wp-block-image > a[href^="https://silesion.pl/"] > img[srcset])
 rdc.pl##.advertisement_holder_box
 histmag.org,inzynieria.com##.w2g-rodzic
+histmag.org###content > .my-12:has(> #our-bread > .mb-4 > .w2g-rodzic)
 planetagracza.pl##.ad__in
 planetagracza.pl##.discounts-block
 planetagracza.pl##.discounts--partner
@@ -18781,8 +18782,8 @@ mangabats.com,mangakakalot.gg,mangakakalove.com,manganato.gg,natomanga.com,nelom
 mangabats.com,mangakakalot.gg,mangakakalove.com,manganato.gg,natomanga.com,nelomanga.net##a[href^="https://bit.ly/"]
 mid-day.com##div[class^="top-"][class*="-add"]
 mid-day.com##.swiper-wrapper > div.swiper-slide:has(> div[class*="adWrapOverlay"])
-comick.art##div[class^="AD"] a[target="_blank"]
-comick.art##.owl-stage > div.owl-item:has(> div[class*=" AD"] img[src*="/ads/"])
+comick.live,comick.art,comick.*##div[class^="AD"] a[target="_blank"]
+comick.live,comick.art,comick.*##.owl-stage > div.owl-item:has(> div[class*=" AD"] img[src*="/ads/"])
 anfieldwatch.co.uk##.player-container-article:has(#bs-vod)
 xheti.net##.ast-builder-footer-grid-columns
 xheti.net###adsterra-refresh-target

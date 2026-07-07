@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Conservative
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202607071208
-! Last modified: 2026-07-07T12:08:46Z
+! Version: 202607071512
+! Last modified: 2026-07-07T15:12:04Z
 ! Layers: network,content,scriptlet
 ! Mode: conservative
-! Rules: 107905
+! Rules: 107909
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -22802,6 +22802,7 @@ $document,replace=/<script(?: data-cfasync="false")?(?: nowprocket)?(?: type="[a
 ||html-load.com^$script,xmlhttprequest,domain=gardeningknowhow.com|musicradar.com|nexttv.com|realhomes.com|shortlist.com|techlearning.com
 ||html-load.com^$script,xmlhttprequest,domain=astrozop.com|criczop.com|feedzop.com|gamezop.io|gamezop.com|quizzop.com|umogames.com
 ||html-load.com^$script,xmlhttprequest,domain=buienalarm.nl|meteoradar.co.uk|meteox.com|niederschlagsradar.de|sat24.com|weerslag.nl
+/adblock.js$domain=anisnatch.top|anisnatch.p1y.top
 /api/rum|$domain=mapple.*|mapplee.com|mapple.rip
 ||helpers.publisherdesk.com/main.js
 ||soulauth.com/img/advertisements/
@@ -22919,7 +22920,7 @@ $subdocument,third-party,denyallow=disqus.com,domain=love4u.net
 $third-party,script,domain=klto9.com|f2movies.to|hacamchicac.com|yourporngod.com|zinchanmanga.com|yaoimangaonline.com|tututweak.app|mangaraw.ac|eromanga-show.com|hentai-one.com|hentaipaw.com|nukibooks.com|paipancon.com|jgvdata.com|youtubevanced.com|pandamtl.com|mangaplus.shueisha.tv|shueisharaw.tv
 ||linksconsole.com/ad-system/
 ||misc-api.feathermc.com/*/ads/ad_units?
-||comick.art/images/ads/
+||comick.*/images/ads/
 *$script,~third-party,redirect=noopjs,domain=pornhottube.com
 ||leftnewsex.com/fb/fb_hilltopads.php
 ||cdn77.pornoxo.com/pxo/www/js-v*/vast.min.js
@@ -28777,12 +28778,14 @@ $image,script,stylesheet,subdocument,third-party,xmlhttprequest,domain=animepahe
 @@||tous-sports.fr/js/advertisement-AdBlock.js
 @@||tous-sports.tv/js/advertisement-AdBlock.js
 @@||account.adobe.com^$document,domain=services.adobe.com,stealth=useragent
+@@||cdn.readdetectiveconan.com^$image,stealth=referrer,domain=mangapill.com
 @@||xxxcdn.org^$image,stealth=referrer
 @@||ninstream.com/*.jpg|$xmlhttprequest,stealth=referrer,domain=senshi.live
 @@||swiftstream.top/proxy/$xmlhttprequest,image,stealth=referrer,domain=animetsu.*
-@@||wp.youtube-anime.com^$image,stealth=referrer,domain=allmanga.to
+@@||wp.youtube-anime.com^$image,stealth=referrer,domain=allmanga.to|mkissa.to
 @@.m3u8$xmlhttprequest,stealth=referrer,domain=roxiestreams.*
 @@.js$xmlhttprequest,stealth=referrer,domain=roxiestreams.*
+@@/^https:\/\/imgbb.zip\/ib\/[a-z0-9]{15}_[0-9]{10}\.jpg$/$image,third-party,stealth=referrer,domain=rogmovies.*|xprimehub.*|vegamovies.*|vegamovies.navy|rogmovies.cv|xprimehub.bond
 @@||nekostream.site^$xmlhttprequest,stealth=referrer
 @@||ksdpictures.site^$subdocument,stealth=referrer
 @@.mp4?headers$media,stealth=referrer,domain=vidlink.pro
@@ -46000,6 +46003,7 @@ silesion.pl##.theiaStickySidebar > aside > .widget_block > figure.wp-block-image
 silesion.pl#?#.theiaStickySidebar > aside > .widget_block:has(> figure.wp-block-image > a[href^="https://silesion.pl/"] > img[srcset])
 rdc.pl##.advertisement_holder_box
 histmag.org,inzynieria.com##.w2g-rodzic
+histmag.org###content > .my-12:has(> #our-bread > .mb-4 > .w2g-rodzic)
 planetagracza.pl##.ad__in
 planetagracza.pl##.discounts-block
 planetagracza.pl##.discounts--partner
@@ -49728,8 +49732,8 @@ mangabats.com,mangakakalot.gg,mangakakalove.com,manganato.gg,natomanga.com,nelom
 mangabats.com,mangakakalot.gg,mangakakalove.com,manganato.gg,natomanga.com,nelomanga.net##a[href^="https://bit.ly/"]
 mid-day.com##div[class^="top-"][class*="-add"]
 mid-day.com##.swiper-wrapper > div.swiper-slide:has(> div[class*="adWrapOverlay"])
-comick.art##div[class^="AD"] a[target="_blank"]
-comick.art##.owl-stage > div.owl-item:has(> div[class*=" AD"] img[src*="/ads/"])
+comick.live,comick.art,comick.*##div[class^="AD"] a[target="_blank"]
+comick.live,comick.art,comick.*##.owl-stage > div.owl-item:has(> div[class*=" AD"] img[src*="/ads/"])
 anfieldwatch.co.uk##.player-container-article:has(#bs-vod)
 xheti.net##.ast-builder-footer-grid-columns
 xheti.net###adsterra-refresh-target

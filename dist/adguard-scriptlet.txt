@@ -1,8 +1,8 @@
 ! Title: AdGuard Rules CN - Scriptlet
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202607071208
-! Last modified: 2026-07-07T12:08:46Z
+! Version: 202607071512
+! Last modified: 2026-07-07T15:12:04Z
 ! Layers: scriptlet
 ! Mode: standard
 ! Rules: 5416
@@ -526,7 +526,7 @@ elamigosgamez.net#%#//scriptlet('remove-node-text', 'script', 'checkAdblockUser'
 cnxxx.org#%#//scriptlet('prevent-fetch', 'adsbygoogle')
 cricket365.com,football365.com,golf365.com,loverugbyleague.com,planetf1.com,planetfootball.com,planetrugby.com,teamtalk.com,tennis365.com#%#//scriptlet('abort-current-inline-script', 'RegExp.prototype.test', '_0x')
 ftuapps.farlad.com#%#//scriptlet('remove-node-text', 'script', 'showAntiAdblockOverlay')
-torupload.com#%#//scriptlet('set-constant', 'loadads', 'noopFunc')
+nathanmichaelphoto.com,torupload.com#%#//scriptlet('set-constant', 'loadads', 'noopFunc')
 torupload.com#%#//scriptlet('prevent-element-src-loading', 'img', 'googlesyndication.com')
 nzn3.org,bysevepoin.com,arbitrarydecisions.com#%#//scriptlet('json-prune', 'adblock_detection force_disable_adblock')
 cloudfam.io#%#(()=>{const e={apply:(e,t,n)=>{const o=Reflect.apply(e,t,n);try{o instanceof HTMLIFrameElement&&""===o.src&&o.contentWindow&&(o.contentWindow.fetch=window.fetch,o.contentWindow.getComputedStyle=window.getComputedStyle)}catch(e){}return o}};Node.prototype.appendChild=new Proxy(Node.prototype.appendChild,e)})();
@@ -4895,7 +4895,7 @@ mycima.kim#%#//scriptlet('prevent-window-open')
 showcamrips.com#%#//scriptlet('remove-node-text', 'script', '/ads-|popunder|ads_|moiads|SetFirstPop/')
 umatechnology.org,geekchamp.com#%#//scriptlet('abort-current-inline-script', 'EventTarget.prototype.addEventListener', '/randPrefix|pagead2\.googlesyndication\.com|inlineBanners|\.adsbygoogle/')
 sulasok.cz#%#//scriptlet('abort-current-inline-script', 'Math.floor', 'window.open')
-anihq.cc,universal-lover-zz.icu,7fractals.icu,rupadirecta.lat,ffc786.icu#%#//scriptlet('prevent-window-open', '_blank')
+universal-lover-zz.icu,7fractals.icu,rupadirecta.lat,ffc786.icu#%#//scriptlet('prevent-window-open', '_blank')
 tik-tok.porn#%#//scriptlet('prevent-addEventListener', 'click', 'clkUnder')
 tik-tok.porn#%#//scriptlet('set-constant', 'adsArr', 'emptyObj')
 tik-tok.porn#%#//scriptlet('set-constant', 'ads_every_x_videos', '9999')
@@ -5078,7 +5078,7 @@ evowars.io#%#//scriptlet('set-constant', 'aiptag.adplayer', 'undefined')
 fuxxx.com,gettranny.com,onlyporn.tube,pornhits.com#%#//scriptlet('abort-on-property-read', 'AdManager')
 lewdgames.to#%#//scriptlet("trusted-replace-node-text", "script", "vastSource", "/vastSource:'.*?'/", "vastSource:''")
 streambolt.tv#%#//scriptlet('prevent-addEventListener', 'DOMContentLoaded', 'detect')
-vik1ngfile.site,kungfutv.net,nexusgames.to#%#//scriptlet('prevent-addEventListener', 'DOMContentLoaded', 'window.open')
+anihq.cc,vik1ngfile.site,kungfutv.net,nexusgames.to#%#//scriptlet('prevent-addEventListener', 'DOMContentLoaded', 'window.open')
 hentakugames.com#%#//scriptlet('prevent-window-open')
 daemon-hentai.com#%#//scriptlet('abort-on-stack-trace', 'open', 'Popunder')
 cn-av.com,anime-jav.com,fc2ppv.me,fc2ppv.stream,hentai-manga.org,hentai-sub.com,hentai4f.com,javball.com,javtele.net,kin8-jav.com,kr-av.com,old-young.net,porn-pig.com,xxpics.org,savefiles.com#%#//scriptlet('prevent-addEventListener', 'click', 'clickCount')

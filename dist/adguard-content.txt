@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Content
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202607080933
-! Last modified: 2026-07-08T09:33:50Z
+! Version: 202607081156
+! Last modified: 2026-07-08T11:56:11Z
 ! Layers: content
 ! Mode: standard
-! Rules: 62984
+! Rules: 62985
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -8477,10 +8477,9 @@ jm18c-oec.club,18comic.org,18comic.vip,18comic.ink#?#div[data-group]:has(>.group
 58.com#?#tr[sortid]:has(> .t > .ico.accurate)
 ###guanggao1[style^="position"]
 ###guanggao2[style^="position"]
-91porny.com,91porn.fans,91porny.org###main > div[class][id] > .mb-0
-91porny.com,91porn.fans,91porny.org##.videoPlayContainer > style + div[data-nosnippet]
-91porny.com,91porn.fans,91porny.org#?##main > div[class][id]:has(>style)
-91porny.com,91porn.fans,91porny.org#?#.colVideoList:has(>.video-elem>.d-block[href^="http"])
+91porny.com,91porn.fans,91porny.org#?##main > div[class][id]:has(.video-elem>a[rel="noopener nofollow"])
+91porny.com,91porn.fans,91porny.org#?#.colVideoList:has(>.video-elem>.display[href^="http"])
+91porny.com,91porn.fans,91porny.org#?##main > div[class][id]:has(>div>style)
 ###playerJsvLayer.jsv-layer
 91porny.com##.container-fluid.p-0[class*="mb-"]
 ##.fixed-bottom.jsv.jsv-g1
@@ -15961,6 +15960,7 @@ ndz24.pl,przegladkoninski.pl,rzeszow.pl,esopot.pl,lowiczanin.info,gwarek.com.pl,
 wpu24.pl,ddwloclawek.pl,ddtorun.pl##.TOPNewsB
 wpu24.pl,ddwloclawek.pl,ddtorun.pl##.topLayer
 wpu24.pl,ddwloclawek.pl,ddtorun.pl##.banner--toplayer
+mojakruszwica.pl##.text-center:has(> .d-inline-block-not-important[data-ciid])
 mamazone.pl#?#.row div[class][style*="border-bottom"][style*="max-height:"] > div[style]:contains(REKLAM):upward(1)
 wylecz.to#?#.row div[class][style*="border-bottom"][style*="max-height:"] > div[style]:contains(REKLAM):upward(1)
 darkw.pl##.bladbl
@@ -17558,6 +17558,7 @@ truyenqqhot.com##div[id^="ads_"]
 ##div[class^="index-module_openwebAd_"]
 ##div[class^="TaboolaHomepageFeed_taboolaWrapper"]
 ###fallbackTerms.fallback-term-holder
+##.tbl-floating-unit
 ##.adbg
 ###tdsAdContainer
 ##.wp-block-gamurs-ad
@@ -57311,6 +57312,7 @@ warm98.com##a[href^="https://giving.cincinnatichildrens.org/donate"]
 disasterscans.com##a[href^="https://go.onelink.me/"]
 forkast.news##a[href^="https://h5.whalefin.com/landing2/"]
 douploads.net##a[href^="https://href.li/?"]
+http.dog##a[href^="https://http.app/"]
 embed.listcorp.com##a[href^="https://j.moomoo.com/"]
 disasterscans.com##a[href^="https://martialscanssoulland.onelink.me/"]
 metager.org##a[href^="https://metager.org"][href*="/partner/r?"]
@@ -57327,6 +57329,7 @@ modyolo.com##a[href^="https://referencemen.net/"]
 narkive.com##a[href^="https://rfnm.io/?"]
 cnx-software.com##a[href^="https://rock.sh/"]
 emalm.com,linkdecode.com,up-4ever.net##a[href^="https://s.click.aliexpress.com/"]
+http.dog##a[href^="https://searchbrothers.com/"]
 997wpro.com##a[href^="https://seascapeinc.com/"]
 cointelegraph.com##a[href^="https://servedbyadbutler.com/"]
 listland.com##a[href^="https://shareasale.com/r.cfm?"]
@@ -59117,7 +59120,6 @@ coincarp.com#?#.border-bottom:contains(Sponsored)
 coindesk.com#?#.bg-white.flex.gap-6.w-full.shrink.justify-between.md\:justify-normal.lg\:flex-row-reverse:has(.font-metadata.mr-1.uppercase:contains(Sponsored by))
 cointelegraph.com#?#li.group-\[\.inline\]\:mb-8:contains(Ad)
 coles.com.au#?#.coles-targeting-UnitContainer:has(ul.product__top_messaging)
-coles.com.au#?#[role="presentation"]:has([data-testid="product-tile"]:contains(Sponsored))
 comfig.app#?#.card:contains(Partnered)
 coolors.co#?#a:has(div:last-child:contains(Hide))
 corvetteblogger.com#?#aside.td_block_template_1.widget.widget_text:has(> h4.block-title > span:contains(Visit Our Sponsors))
@@ -62747,7 +62749,6 @@ cleantechnica.com#?#.zox-side-widget:has-text(/^Advertis/)
 coincarp.com#?#.border-bottom:has-text(Sponsored)
 coindesk.com#?#.bg-white.flex.gap-6.w-full.shrink.justify-between.md\:justify-normal.lg\:flex-row-reverse:has(.font-metadata.mr-1.uppercase:has-text(Sponsored by))
 cointelegraph.com#?#li.group-\[\.inline\]\:mb-8:has-text(Ad)
-coles.com.au#?#[role="presentation"]:has([data-testid="product-tile"]:has-text(Sponsored))
 comfig.app#?#.card:has-text(Partnered)
 coolors.co#?#a:has(div:last-child:has-text(Hide))
 corvetteblogger.com#?#aside.td_block_template_1.widget.widget_text:has(> h4.block-title > span:has-text(Visit Our Sponsors))

@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Network
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202607081437
-! Last modified: 2026-07-08T14:37:50Z
+! Version: 202607081648
+! Last modified: 2026-07-08T16:48:08Z
 ! Layers: network
 ! Mode: standard
-! Rules: 47453
+! Rules: 47456
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -9531,6 +9531,9 @@ $image,third-party,denyallow=cdn77.org|globalcdn.co|others-cdn.com|rncdn7.com|sb
 @@||www.pussyspace.net/style/img/abuse.email.png#|
 @@||www.pussyspace.net/style/img/navbg.hover.png|
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=falpus.com|fooak.com|upfiles-urls.com|upfiles.app|upfion.com
+@@||upfilesgo.com^$generichide
+@@||c.amazon-adsystem.com/aax2/apstag.js$domain=upfilesgo.com|upplinks.net|upfion.com|upfiles.app|upfiles-urls.com|falpus.com|fooak.com
+@@||cdn.taboola.com/libtrc/loader.js$xmlhttprequest,domain=upfilesgo.com|upplinks.net|upfion.com|upfiles.app|upfiles-urls.com|falpus.com|fooak.com
 @@||citynews.ca/*/get_ad_$domain=citynews.ca
 ||citynews.ca/*/get_ad_$xmlhttprequest,redirect=noopjson,domain=citynews.ca,important
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$redirect=googlesyndication-adsbygoogle,domain=t2bot.ru,important
@@ -10811,7 +10814,6 @@ $script,redirect-rule=noopjs,domain=vidmoly.biz|vidmoly.me|vidmoly.net|vidmoly.t
 ||script.bloggerku.com/antiadblock/1.0/script.min.js
 @@||justlightnovels.com^$generichide
 @@||oldskool.vip^$generichide
-@@||vpnjantit.com^$generichide
 @@||bdix.org^$generichide
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$redirect=googlesyndication-adsbygoogle,domain=boards.vinylcollective.com,important
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=boards.vinylcollective.com
@@ -14389,6 +14391,7 @@ $subdocument,third-party,denyallow=disqus.com,domain=love4u.net
 $third-party,script,domain=klto9.com|f2movies.to|hacamchicac.com|yourporngod.com|zinchanmanga.com|yaoimangaonline.com|tututweak.app|mangaraw.ac|eromanga-show.com|hentai-one.com|hentaipaw.com|nukibooks.com|paipancon.com|jgvdata.com|youtubevanced.com|pandamtl.com|mangaplus.shueisha.tv|shueisharaw.tv
 ||linksconsole.com/ad-system/
 ||misc-api.feathermc.com/*/ads/ad_units?
+*$xmlhttprequest,third-party,denyallow=kstatic.to,domain=kagane.to
 ||8kporner.com/themes/lite/js/mztn.js
 ||thisvid.com/zvrk/
 ||comick.*/images/ads/

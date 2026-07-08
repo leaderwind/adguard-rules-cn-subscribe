@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Android
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202607080637
-! Last modified: 2026-07-08T06:37:14Z
+! Version: 202607080933
+! Last modified: 2026-07-08T09:33:50Z
 ! Layers: network,content,scriptlet
 ! Mode: standard
-! Rules: 18174
+! Rules: 18175
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -16640,8 +16640,9 @@ jm18c-oec.club,18comic.org,18comic.vip,18comic.ink#?#div[data-group]:-abp-has(>.
 58.com#?#LI[sortid]:-abp-has(.jinico)
 58.com#?#TR[logr]:-abp-has(> .t > .mt-p-tit > .jingpin)
 58.com#?#tr[sortid]:-abp-has(> .t > .ico.accurate)
-91porny.com,91porn.fans,91porny.org#?##main > div[class][id]:-abp-has(>style)
-91porny.com,91porn.fans,91porny.org#?#.colVideoList:-abp-has(>.video-elem>.d-block[href^="http"])
+91porny.com,91porn.fans,91porny.org#?##main > div[class][id]:-abp-has(.video-elem>a[rel="noopener nofollow"])
+91porny.com,91porn.fans,91porny.org#?#.colVideoList:-abp-has(>.video-elem>.display[href^="http"])
+91porny.com,91porn.fans,91porny.org#?##main > div[class][id]:-abp-has(>div>style)
 ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com#?##content_left > [class]:-abp-has(span[data-tuiguang])
 ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com#?##content_left > div:-abp-has(.ec-tuiguang)
 ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com#?##content_right > [class]:-abp-has(span[data-tuiguang])

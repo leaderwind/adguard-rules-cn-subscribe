@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Network
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202607090019
-! Last modified: 2026-07-09T00:19:35Z
+! Version: 202607090504
+! Last modified: 2026-07-09T05:04:49Z
 ! Layers: network
 ! Mode: standard
-! Rules: 47456
+! Rules: 47452
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -9358,8 +9358,6 @@ $xmlhttprequest,redirect-rule=nooptext,domain=kbjfree.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=faqwiki.us
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=w3resource.com
 ||engage.ajc.com/prod/ajc/loader.min.js
-||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=noopjs,domain=z-lib.io
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=z-lib.io
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=receivesms.org|receivesms.co
 /^https?:\/\/[0-9a-z]{13,14}\.cloudfront\.net\/\?[a-z]{3,5}=\d{6}$/$domain=workink.click,xmlhttprequest,redirect=noopjs
 @@/^https?:\/\/[0-9a-z]+\.cloudfront\.net\/\?[a-z]+=[0-9]+$/$domain=workink.click,xmlhttprequest
@@ -9665,7 +9663,6 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 $script,redirect-rule=noopjs,domain=zeroupload.com
 @@||zeroupload.com^$generichide
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=zeroupload.com
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=dudestream.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=juba-get.com
 @@||tpc.googlesyndication.com/simgad/$domain=financemonk.net
 ||sellthing.co/?advertiserId=&platform=$important,redirect=noopjs
@@ -10227,9 +10224,6 @@ $xmlhttprequest,third-party,redirect-rule=noopjs,domain=bizjournals.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=kitguru.net
 @@||hobby-machinist.com^$generichide
 ||rblx.land/main_scriptx2.js
-@@||oklivetv.com/*&*=*&*&_=$xmlhttprequest,~third-party
-@@||okteve.com/*&*=*&*&_=$xmlhttprequest,~third-party
-@@||aweprt.com/embed/fk?_=$domain=oklivetv.com|okteve.com
 @@||nocorspolicy.com^$xmlhttprequest,domain=taming.io|tamming.io
 @@||api.adinplay.com/$xmlhttprequest,domain=taming.io|tamming.io
 @@||api.adinplay.com/libs/aiptag/pub/NND/taming.io/tag.min.js$domain=taming.io|tamming.io
@@ -17998,6 +17992,7 @@ xxxadd.com/eureka
 ||zevera.com/*.swf$third-party
 ||novelhall.com/statics/default/js/position.js
 ||circleofcricket.com/assets/adv/
+||chatgpt.com/backend-api/bazaar/conversation/*/ads|$xmlhttprequest
 *$script,third-party,denyallow=cloudflare.com|gplinks.com|jquery.com,domain=powergam.online
 ||assets.sb-cd.com/static/common/js/bjssu_$domain=spankbang.com
 ||dmcdn.net/playerv5/dmp.advertising.*.js$domain=dailymotion.com
@@ -46813,6 +46808,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||extreme-ip-lookup.com^$script,domain=bulkbarn.ca
 @@||ezodn.com/cmp/gvl.json$xmlhttprequest
 @@||fast.fonts.net/jsapi/core/mt.js$script,domain=abeautifuldominion.com|bkmedical.com|eclecticbars.co.uk|gables.com|itsolutions-inc.com|kinsfarmmarket.com|senate.gov|toyotagazooracing.com
+@@||fastly-analytics.com/debug_resolver$xmlhttprequest,domain=fastly-debug.com
 @@||fathom.video/embed/$subdocument
 @@||fdi.fiduciarydecisions.com/a/lib/gtag/gtag.js$script,~third-party
 @@||fdi.fiduciarydecisions.com/v/app/components/*/Analytics.js$script,~third-party

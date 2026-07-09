@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Network
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202607091608
-! Last modified: 2026-07-09T16:08:59Z
+! Version: 202607091807
+! Last modified: 2026-07-09T18:07:26Z
 ! Layers: network
 ! Mode: standard
-! Rules: 47454
+! Rules: 47455
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -32893,6 +32893,7 @@ $popup,third-party,domain=hentai2read.com|porn-tube-club.com
 @@||lokopromo.com^*/adsimages/$~third-party
 @@||looker.com/api/internal/$~third-party
 @@||luminalearning.com/affiliate-content/$image,~third-party
+@@||mail-ads.google.com/mail/*/adsfe/main_jspb?$xmlhttprequest,domain=mail.google.com
 @@||makeuseof.com/public/build/images/bg-advert-with-us.$~third-party
 @@||manageengine.com/images/logo/$image,~third-party
 @@||manageengine.com/products/ad-manager/$~third-party

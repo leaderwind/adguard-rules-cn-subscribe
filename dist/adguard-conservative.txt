@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Conservative
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202607091214
-! Last modified: 2026-07-09T12:14:53Z
+! Version: 202607091608
+! Last modified: 2026-07-09T16:08:59Z
 ! Layers: network,content,scriptlet
 ! Mode: conservative
-! Rules: 107947
+! Rules: 107953
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -21717,9 +21717,9 @@ $script,redirect-rule=noopjs,domain=173.249.8.3
 @@||s0.2mdn.net/ads/studio/Enabler.js$domain=drogerium.pl
 @@||xboxforum.pl^$generichide
 /pl/_ajax/ablck.php|$~third-party,xmlhttprequest
-/js/html2canvas.min.js$domain=wpu24.pl|ddwloclawek.pl|ddtorun.pl|gostyn24.pl|gorlice24.pl|mojakruszwica.pl|expresskaszubski.pl|gniewkowo.eu|iszczecinek.pl|mielec.pl|grudziadz365.pl|esopot.pl|lowiczanin.info|gwarek.com.pl|tyna.info.pl|tusochaczew.pl|myglogow.pl|plonskwsieci.pl|spotradomsko.pl|portalsremski.pl|ekstrasierpc.pl|ki24.info|uniejow.net.pl|e-krajna.pl|gwio.pl|faktypilskie.pl|swiecie24.pl|rzeszow.pl|przegladkoninski.pl|ndz24.pl
+/js/html2canvas.min.js$domain=wpu24.pl|ddwloclawek.pl|ddtorun.pl|gostyn24.pl|gorlice24.pl|mojakruszwica.pl|expresskaszubski.pl|gniewkowo.eu|iszczecinek.pl|mielec.pl|grudziadz365.pl|esopot.pl|lowiczanin.info|gwarek.com.pl|tyna.info.pl|tusochaczew.pl|myglogow.pl|plonskwsieci.pl|spotradomsko.pl|portalsremski.pl|ekstrasierpc.pl|ki24.info|uniejow.net.pl|e-krajna.pl|gwio.pl|faktypilskie.pl|swiecie24.pl|rzeszow.pl|przegladkoninski.pl|ndz24.pl|sportsinwinter.pl
 /scripts/banners/*$domain=ddtorun.pl|przegladkoninski.pl
-/pl/js/system-ba.js$domain=ndz24.pl
+/pl/js/system-ba.js$domain=ndz24.pl|sportsinwinter.pl
 /pl/js/questpass-$domain=rzeszow.pl
 /pl/js/new-system.js$domain=ostrowiecka.pl|rzeszow.pl
 /js/adInitializer.js$domain=ddwloclawek.pl|ddtorun.pl
@@ -47025,10 +47025,10 @@ naekranie.pl##span[style*="text-align: center;"][style*="margin: 15px auto 5px a
 naekranie.pl##.right-content > div[id] > div[style*="height:600"][style*="position:relative"]
 naekranie.pl##.interia-ad
 xboxforum.pl##.adsbygoogle
-ndz24.pl,przegladkoninski.pl,rzeszow.pl,esopot.pl,lowiczanin.info,gwarek.com.pl,tyna.info.pl,tusochaczew.pl,myglogow.pl,plonskwsieci.pl,spotradomsko.pl,portalsremski.pl,ekstrasierpc.pl,ki24.info,uniejow.net.pl,e-krajna.pl,gwio.pl,faktypilskie.pl,swiecie24.pl,grudziadz365.pl,mielec.pl,iszczecinek.pl,gniewkowo.eu,mojakruszwica.pl,expresskaszubski.pl,gorlice24.pl,gostyn24.pl,wpu24.pl,ddwloclawek.pl,ddtorun.pl##.baner
-ndz24.pl,przegladkoninski.pl,rzeszow.pl,esopot.pl,lowiczanin.info,gwarek.com.pl,tyna.info.pl,tusochaczew.pl,myglogow.pl,plonskwsieci.pl,spotradomsko.pl,portalsremski.pl,ekstrasierpc.pl,ki24.info,uniejow.net.pl,e-krajna.pl,gwio.pl,faktypilskie.pl,swiecie24.pl,grudziadz365.pl,mielec.pl,iszczecinek.pl,gniewkowo.eu,mojakruszwica.pl,expresskaszubski.pl,gorlice24.pl,gostyn24.pl,wpu24.pl,ddwloclawek.pl,ddtorun.pl##.banner
-ndz24.pl,przegladkoninski.pl,rzeszow.pl,esopot.pl,lowiczanin.info,gwarek.com.pl,tyna.info.pl,tusochaczew.pl,myglogow.pl,plonskwsieci.pl,spotradomsko.pl,portalsremski.pl,ekstrasierpc.pl,ki24.info,uniejow.net.pl,e-krajna.pl,gwio.pl,faktypilskie.pl,swiecie24.pl,grudziadz365.pl,mielec.pl,iszczecinek.pl,gniewkowo.eu,mojakruszwica.pl,expresskaszubski.pl,gorlice24.pl,gostyn24.pl,wpu24.pl,ddwloclawek.pl,ddtorun.pl##.news-slot-center
-ndz24.pl,przegladkoninski.pl,rzeszow.pl,esopot.pl,lowiczanin.info,gwarek.com.pl,tyna.info.pl,tusochaczew.pl,myglogow.pl,plonskwsieci.pl,spotradomsko.pl,portalsremski.pl,ekstrasierpc.pl,ki24.info,uniejow.net.pl,e-krajna.pl,gwio.pl,faktypilskie.pl,swiecie24.pl,grudziadz365.pl,mielec.pl,iszczecinek.pl,gniewkowo.eu,mojakruszwica.pl,expresskaszubski.pl,gorlice24.pl,gostyn24.pl,wpu24.pl,ddwloclawek.pl,ddtorun.pl##.container > .justify-beewten > .relative:has(> ins[class^="staticpubads"])
+sportsinwinter.pl,ndz24.pl,przegladkoninski.pl,rzeszow.pl,esopot.pl,lowiczanin.info,gwarek.com.pl,tyna.info.pl,tusochaczew.pl,myglogow.pl,plonskwsieci.pl,spotradomsko.pl,portalsremski.pl,ekstrasierpc.pl,ki24.info,uniejow.net.pl,e-krajna.pl,gwio.pl,faktypilskie.pl,swiecie24.pl,grudziadz365.pl,mielec.pl,iszczecinek.pl,gniewkowo.eu,mojakruszwica.pl,expresskaszubski.pl,gorlice24.pl,gostyn24.pl,wpu24.pl,ddwloclawek.pl,ddtorun.pl##.baner
+sportsinwinter.pl,ndz24.pl,przegladkoninski.pl,rzeszow.pl,esopot.pl,lowiczanin.info,gwarek.com.pl,tyna.info.pl,tusochaczew.pl,myglogow.pl,plonskwsieci.pl,spotradomsko.pl,portalsremski.pl,ekstrasierpc.pl,ki24.info,uniejow.net.pl,e-krajna.pl,gwio.pl,faktypilskie.pl,swiecie24.pl,grudziadz365.pl,mielec.pl,iszczecinek.pl,gniewkowo.eu,mojakruszwica.pl,expresskaszubski.pl,gorlice24.pl,gostyn24.pl,wpu24.pl,ddwloclawek.pl,ddtorun.pl##.banner
+sportsinwinter.pl,ndz24.pl,przegladkoninski.pl,rzeszow.pl,esopot.pl,lowiczanin.info,gwarek.com.pl,tyna.info.pl,tusochaczew.pl,myglogow.pl,plonskwsieci.pl,spotradomsko.pl,portalsremski.pl,ekstrasierpc.pl,ki24.info,uniejow.net.pl,e-krajna.pl,gwio.pl,faktypilskie.pl,swiecie24.pl,grudziadz365.pl,mielec.pl,iszczecinek.pl,gniewkowo.eu,mojakruszwica.pl,expresskaszubski.pl,gorlice24.pl,gostyn24.pl,wpu24.pl,ddwloclawek.pl,ddtorun.pl##.news-slot-center
+sportsinwinter.pl,ndz24.pl,przegladkoninski.pl,rzeszow.pl,esopot.pl,lowiczanin.info,gwarek.com.pl,tyna.info.pl,tusochaczew.pl,myglogow.pl,plonskwsieci.pl,spotradomsko.pl,portalsremski.pl,ekstrasierpc.pl,ki24.info,uniejow.net.pl,e-krajna.pl,gwio.pl,faktypilskie.pl,swiecie24.pl,grudziadz365.pl,mielec.pl,iszczecinek.pl,gniewkowo.eu,mojakruszwica.pl,expresskaszubski.pl,gorlice24.pl,gostyn24.pl,wpu24.pl,ddwloclawek.pl,ddtorun.pl##.container > .justify-beewten > .relative:has(> ins[class^="staticpubads"])
 wpu24.pl,ddwloclawek.pl,ddtorun.pl##.TOPNewsB
 wpu24.pl,ddwloclawek.pl,ddtorun.pl##.topLayer
 wpu24.pl,ddwloclawek.pl,ddtorun.pl##.banner--toplayer
@@ -66984,7 +66984,7 @@ theanalyst.com#@#iframe[width="100%"][height="120"]:not([src*="bandcamp.com"], [
 collider.com#@#.ad-current
 collider.com#@#.adsninja-ad-zone
 collider.com#@#.ad-zone-container
-jamf.com#@#div.rendered[id][class*=" "]:not([id*="captcha"])
+learngerman.dw.com,jamf.com#@#div.rendered[id][class*=" "]:not([id*="captcha"])
 gemini.google.com#@#div[data-id="mosaic"] > div > div > div[class]:has(> div:not([data-attrid]) > div[style="height:100%"] a[href^="/aclk?sa="])
 howtogeek.com#@#.w-adsninja-video-player
 cheapassgamer.com#@#.top.ad
@@ -88825,6 +88825,7 @@ automobile-catalog.com,car.com,silentera.com##table[height="90"]
 automobile-catalog.com,itnewsonline.com##table[width="300"]
 worldtimezone.com##table[width="472"]
 pcstats.com##table[width="866"]
+play.typeracer.com##td:has(> .newEastWidget)
 vpforums.org##td[align="center"][style="padding: 0px;"]
 schlockmercenary.com##td[colspan="3"]
 geekzone.co.nz##td[colspan="3"].forumRow[style="border-right:solid 1px #fff;"]
@@ -88973,6 +88974,7 @@ kohls.com###kmncarousel-add_buy_carousel-anchor:has(.KMNProductSlider__sponsored
 kohls.com###kmncarousel-page-anchor:has(.KMNProductSlider__sponsored)
 klz9.com###list-imga center:has(> a[id^="adLink"])
 klz9.com###list-imga center:has(a[href^="https://olimposcans.com/"])
+startpage.com,startpagel6srwcjlue4zgq3zevrujfaow726kjytqbbjyrswwmjzcqd.onion###main > div:not([class], [id]):has(> div[class^="css-"] > .pa-amp)
 ratehub.ca###main-content > div > section:has([class^="Ad__Container-sc-"])
 noon.com###modules-renderer:has([class*="sponsored"])
 noon.com###noon-modules:has([class*="AdBrandVideo"])
@@ -89270,6 +89272,7 @@ flightradar24.com##div.items-center.justify-center:has(> div#pb-slot-fr24-airpla
 tvguide.co.uk##div.mx-auto:has(> .flex.justify-center:empty)
 costco.ca##div.product:has(.criteo-sponsored)
 thebay.com##div.product:has(div.citrus-sponsored)
+startpage.com,startpagel6srwcjlue4zgq3zevrujfaow726kjytqbbjyrswwmjzcqd.onion##div.result[style="margin-bottom: 10px;"]:has(path[d^="M2.31179"])
 startpage.com,startpagel6srwcjlue4zgq3zevrujfaow726kjytqbbjyrswwmjzcqd.onion##div.result[style="margin-bottom: 10px;"]:has(path[d^="m6.07067"])
 meijer.com##div.slick-slide:has(.product-tile__sponsored)
 healthyrex.com##div.textwidget:has(a[rel="nofollow sponsored"])
@@ -105527,6 +105530,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||reelgood.com/v3.0/checkip
 ||rei.com/customer-analytics-attributes/
 ||reichelt.com/setsid.php?
+||relay-prod.typeracer.com/e/
+||relay-prod.typeracer.com/flags/
 ||remarkable.com/api/proxy/marker
 ||researchgate.net/beacon/
 ||researchgate.net/track/
@@ -106681,6 +106686,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||handler.amarujala.com/user/event
 ||ndtv.in/estatic/hindi-fcm.js
 ||staticasset.amarujala.com/handler/recomUserEvent.js
+||api-rengine-stg.viva.id/hit
 ||bukalapak.com/banner-redirector/impression
 ||bukalapak.com/track-external-visit
 ||bukalapak.com/track_external.json

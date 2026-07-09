@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Network
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202607090504
-! Last modified: 2026-07-09T05:04:49Z
+! Version: 202607090841
+! Last modified: 2026-07-09T08:41:14Z
 ! Layers: network
 ! Mode: standard
-! Rules: 47452
+! Rules: 47444
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -13302,24 +13302,14 @@ wykop.pl$badfilter
 ||elektroda.pl/js/welcome.js
 @@||iiv.pl^$generichide
 @@/^https:\/\/www\.[a-z]{7,14}\.com\/[a-z]{1,4}\.js/$script,third-party,domain=shinden.pl,badfilter
-@@||spolecznosci.net/core/*/main.js$domain=shinden.pl
-@@||spolecznosci.net/js/core*-min.js$domain=shinden.pl
-@@||spolecznosci.net/js/modules/*.js$domain=shinden.pl
-@@||a.spolecznosci.net/pet?s=Shinden$domain=shinden.pl
-@@||static.criteo.net/js/ld/publishertag.js$domain=shinden.pl
-||spolecznosci.net/js/modules/sfw.js$important,domain=shinden.pl
-||reklama.shinden.eu/adpeeps.php$redirect=noopframe,domain=shinden.pl
+||spolecznosci.net^$domain=shinden.pl,important
 ||smartadserver.com/ac$script,redirect=noopjs,domain=shinden.pl,important
 ||ced-ns.sascdn.com/diff/templates/js/sas/sas-browser.js$script,redirect=noopjs,domain=shinden.pl,important
 ||securepubads.g.doubleclick.net/gpt/pubads_impl_$domain=shinden.pl,redirect=nooptext,important
 ||ced-ns.sascdn.com/diff/templates/js/overslide/sas-overslide-*.js$script,redirect=noopjs,domain=shinden.pl,important
-@@||smartadserver.com/ac|$domain=shinden.pl
-@@||stats.g.doubleclick.net/r/collect$image,domain=shinden.pl
-@@||adsco.re^$domain=shinden.pl
-@@||serve.popads.net^$script,domain=shinden.pl
-@@||popads.net/pop.js$script,important,domain=shinden.pl
 ||tradeadexchange.com/a/display.php$domain=shinden.pl,important
 ||reklama.shinden.eu^$domain=shinden.pl,important
+||reklama.shinden.eu/adpeeps.php$redirect=noopframe,domain=shinden.pl
 @@||cdn.jsdelivr.net/npm/fuckadblock*/fuckadblock.js$domain=shinden.pl
 $script,third-party,denyallow=ckeditor.com|fastly.net|statically.io|sharecast.ws|bunnycdn.ru|bootstrapcdn.com|cdn.ampproject.org|cloudflare.com|cdn.staticfile.org|disqus.com|disquscdn.com|dmca.com|ebacdn.com|facebook.net|fbcdn.net|fluidplayer.com|fontawesome.com|github.io|google.com|googleapis.com|googletagmanager.com|gstatic.com|jquery.com|jsdelivr.net|jwpcdn.com|jwplatform.com|recaptcha.net|shrink.pe|twitter.com|ulogin.ru|unpkg.com|userapi.com|vidazoo.com|vk.com|yastatic.net|ytimg.com|zencdn.net|youtube.com|cackle.me|googleoptimize.com|vuukle.com|chatango.com|twimg.com|google-analytics.com|hcaptcha.com|media-imdb.com|blogger.com|hwcdn.net|instagram.com|wp.com|fastcomments.com|plyr.io,_____,domain=shinden.pl
 @@||static.videostar.pl/static/assets/js/adcheck.min.js^
@@ -14034,6 +14024,7 @@ _ad_content.
 /getStartPageAds
 /getads?
 /tghr.js$script
+/wp-content/plugins/1shortlink/*
 /link.php?cat=&idzone=$all
 /embed/*?c=object_container*&psid=
 .go?pid=*&spaceid=*&ctrlid=
@@ -42040,6 +42031,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||cdn.app.cfigroup.com/webmon/$script
 ||cdn.clkmc.com/cmc.js
 ||cdn.debugbear.com^$third-party
+||cdn.fonts.net/t/1.css?
 ||cdn.lr-hv-in.com/logger.min.js
 ||cdn.one.store/xdomain_cookie.html
 ||cdn.skypack.dev/uuid

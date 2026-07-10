@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Browser
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202607101843
-! Last modified: 2026-07-10T18:43:01Z
+! Version: 202607102041
+! Last modified: 2026-07-10T20:41:18Z
 ! Layers: network,content,scriptlet
 ! Mode: standard
-! Rules: 115806
+! Rules: 115807
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -17558,6 +17558,7 @@ $cookie=__adblocker,domain=slate.com|thehindubusinessline.com
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$domain=thesun.co.uk
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=thesun.co.uk
 @@||coinadster.com^$generichide
+@@||rscripts.net/ads/custom_ads.js$script,domain=rscripts.net
 @@||rscripts.net^$generichide
 @@||googleads.g.doubleclick.net/pagead/id$domain=rscripts.net
 ||gameinformer.com/libraries/adblock-checker/

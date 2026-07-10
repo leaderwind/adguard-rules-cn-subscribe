@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Network
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202607100410
-! Last modified: 2026-07-10T04:10:54Z
+! Version: 202607100751
+! Last modified: 2026-07-10T07:51:50Z
 ! Layers: network
 ! Mode: standard
-! Rules: 47452
+! Rules: 47454
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -8211,8 +8211,8 @@ $script,third-party,domain=torkitty.net|torkitty.com|torrentkitty.app|torrentkit
 ||krx18.com/ads/adsblockx.js
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=googlesyndication-adsbygoogle,important,domain=puressh.net|iptvbin.com|htnovo.net|frendz4m.org|codenova-center.web.app|rivanimation.com|elbierzodigital.com|uploadrar.com|vknsorgula.net|safelink.asia
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=puressh.net|iptvbin.com|htnovo.net|frendz4m.org|codenova-center.web.app|rivanimation.com|elbierzodigital.com|uploadrar.com|vknsorgula.net|safelink.asia
-||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=googlesyndication-adsbygoogle,important,domain=freebnbcoin.com|exotictgirl.blogspot.com|bospedia.com|rockmods.net|aiimsneetshortnotes.com|arabseed.*|miuiku.com|flash-firmware.blogspot.com|rumahit.id|romfirmware.com|gsmfirmware.net|akwam.*|fc-lc.com|fc.lc|note1s.com|ipacrack.com|traffic1s.com|adnews.me|ak4eg.*|xn--mgba7fjn.*|akw.to|ak4ar.*|nguyenvanbao.com|ak.sv|indokontraktor.com|neosatsu.com|shahidd4u.net|shaid4u.day|shahhid4u.cam|shhahid4u.day|shhahid4u.cam|shahid4u.*|shahid4u.you|shahid-4u.*|shahid-4u.day|shahid-4u.my|sshahid4u.*|sshahid4u.day|shah4u.*|shah4u.day|shaahed4u.net|shiid4u.day|shhahhed4u.net|shahheid4u.net|shaheiid4u.net|odiadance.com|shaheed4u.day|shahieeid4u.net
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=freebnbcoin.com|exotictgirl.blogspot.com|bospedia.com|rockmods.net|aiimsneetshortnotes.com|arabseed.onl|miuiku.com|flash-firmware.blogspot.com|rumahit.id|romfirmware.com|gsmfirmware.net|akwam.*|fc-lc.com|fc.lc|note1s.com|ipacrack.com|traffic1s.com|adnews.me|ak4eg.*|xn--mgba7fjn.*|akw.to|ak4ar.*|nguyenvanbao.com|ak.sv|indokontraktor.com|shahid4u.*|neosatsu.com|shahidd4u.net|shahiid4u.net|shahid-4u.*|shaid4u.day|shahhid4u.cam|shhahid4u.*|sshahid4u.*|sshahid4u.day|sd4u.net|shah4u.*|shah4u.day|shaahed4u.net|shiid4u.day|shhahhed4u.net|shahheid4u.net|shaheiid4u.net|odiadance.comz|shaheed4u.day|shahieeid4u.net
+||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=googlesyndication-adsbygoogle,important,domain=freebnbcoin.com|exotictgirl.blogspot.com|bospedia.com|rockmods.net|aiimsneetshortnotes.com|arabseed.*|miuiku.com|flash-firmware.blogspot.com|rumahit.id|romfirmware.com|gsmfirmware.net|akwam.*|fc-lc.com|fc.lc|note1s.com|ipacrack.com|traffic1s.com|adnews.me|ak4eg.*|xn--mgba7fjn.*|akw.to|ak4ar.*|nguyenvanbao.com|ak.sv|indokontraktor.com|neosatsu.com|shahidd4u.net|shaid4u.day|shahhid4u.cam|shhahid4u.day|shhahid4u.cam|shahid4u.*|shahid4u.you|shahid-4u.*|shahid-4u.day|shahid-4u.my|sshahid4u.*|sshahid4u.day|shah4u.*|shah4u.day|shaahed4u.net|shiid4u.day|shhahhed4u.net|shahheid4u.net|shaheiid4u.net|odiadance.com|shaheed4u.day|shahieeid4u.net|sahid4u.com
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=freebnbcoin.com|exotictgirl.blogspot.com|bospedia.com|rockmods.net|aiimsneetshortnotes.com|arabseed.onl|miuiku.com|flash-firmware.blogspot.com|rumahit.id|romfirmware.com|gsmfirmware.net|akwam.*|fc-lc.com|fc.lc|note1s.com|ipacrack.com|traffic1s.com|adnews.me|ak4eg.*|xn--mgba7fjn.*|akw.to|ak4ar.*|nguyenvanbao.com|ak.sv|indokontraktor.com|shahid4u.*|neosatsu.com|shahidd4u.net|shahiid4u.net|shahid-4u.*|shaid4u.day|shahhid4u.cam|shhahid4u.*|sshahid4u.*|sshahid4u.day|sd4u.net|shah4u.*|shah4u.day|shaahed4u.net|shiid4u.day|shhahhed4u.net|shahheid4u.net|shaheiid4u.net|odiadance.comz|shaheed4u.day|shahieeid4u.net|sahid4u.com
 /wp-content/plugins/dh-anti-adblocker/*$stylesheet
 @@/dh-anti-adblocker/assets/js/ads-prebid.js
 @@/dh-anti-adblocker/assets/js/prebid-ads.js
@@ -17835,7 +17835,7 @@ xxxadd.com/eureka
 ||cdn.thri.xxx/web/uploads/b_images/
 ||cdne.stripchat.com/cdn/banners/
 ||clickadu.com/apu.php$redirect=nooptext,important
-||cloudfront.net^$domain=porn00.org|milfnut.com|iir.ai|tii.ai|newepisodes.co|megaup.net|ckk.ai|streamtajm.com|yesmovies.to|thehouseofportable.com|oke.io|xrivonet.info|linkrex.net|youtubemultidownloader.com|cpygames.com|srt.am|dancingastronaut.com|gamesofpc.com|tinyical.com|itdmusic.com|prefiles.com|anime-odcinki.pl|clickndownload.*|clicknupload.*|unblocked.lol|lipstickalley.com|addic7ed.com|animeflv.net|avxhome.in|avxhome.se|baiscopelk.com|filescdn.com|javgo.me|katfile.com|multiup.org|newpct.com|newpct1.com|nhentai.net|nitroflare.com|psarips.com|sankakucomplex.com|uptostream.com|userscloud.com|tmearn.com|y2mate.com|animepahe.ru|tei.ai|mastibaaz.com|soap2day.*|igg-games.com|torrentmac.net|send.cm|bluemediafiles.*|sakurafile.com|torrentgalaxy.mx|igg-games.co|ziperto.com|bluemediafile.*|oxtorrent.sk|bluemediadownload.*|urlbluemedia.*|bluedownload.*|datanodes.to|pahe.ink|pahe.*
+||cloudfront.net^$domain=porn00.org|milfnut.com|iir.ai|tii.ai|newepisodes.co|megaup.net|ckk.ai|streamtajm.com|yesmovies.to|thehouseofportable.com|oke.io|xrivonet.info|linkrex.net|youtubemultidownloader.com|cpygames.com|srt.am|dancingastronaut.com|gamesofpc.com|tinyical.com|itdmusic.com|prefiles.com|anime-odcinki.pl|clickndownload.*|clicknupload.*|unblocked.lol|lipstickalley.com|addic7ed.com|animeflv.net|avxhome.in|baiscopelk.com|filescdn.com|javgo.me|katfile.com|multiup.org|newpct.com|newpct1.com|nhentai.net|nitroflare.com|psarips.com|sankakucomplex.com|uptostream.com|userscloud.com|tmearn.com|y2mate.com|animepahe.ru|tei.ai|mastibaaz.com|soap2day.*|igg-games.com|torrentmac.net|send.cm|bluemediafiles.*|sakurafile.com|torrentgalaxy.mx|igg-games.co|ziperto.com|bluemediafile.*|oxtorrent.sk|bluemediadownload.*|urlbluemedia.*|bluedownload.*|datanodes.to|pahe.ink|pahe.*
 ||cnn.com/cnnintl_adspaces/
 ||coderanch.com/forums/banner/
 ||commitstrip.com/hello.php
@@ -25649,6 +25649,7 @@ _800x80_
 ||boskodating.com^$document
 ||brainberries.co^$document
 ||brationalfilarded.com^$document
+||broadlyjukeboxunrevised.com^$document
 ||bucksmein.com^$document
 ||bunth.net^$document
 ||byethost41.net^$document
@@ -28698,6 +28699,7 @@ _800x80_
 ||lody24.com^$popup
 ||logicdate.com^$popup
 ||logicschort.com^$popup
+||lolapelisse.cyou^$popup
 ||lone-pack.com^$popup
 ||loodauni.com^$popup
 ||loohaiturigavik.net^$popup

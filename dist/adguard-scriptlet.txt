@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Scriptlet
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202607092334
-! Last modified: 2026-07-09T23:34:53Z
+! Version: 202607100410
+! Last modified: 2026-07-10T04:10:54Z
 ! Layers: scriptlet
 ! Mode: standard
-! Rules: 5422
+! Rules: 5423
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -644,7 +644,7 @@ fortnitetracker.com#%#//scriptlet('set-constant', 'nitroAds.abp', 'true')
 streameast.*#%#//scriptlet('prevent-setTimeout', '.offsetHeight === 0')
 amanchourasia.in#%#//scriptlet('prevent-setInterval', 'showAdblockNotice')
 amanchourasia.in#%#//scriptlet('prevent-addEventListener', 'load', 'detectAdblock')
-elamigosweb.com#%#//scriptlet('prevent-setTimeout', 'checkAdblock')
+elamigosgames.net,elamigosweb.net,elamigosweb.com#%#//scriptlet('prevent-setTimeout', 'checkAdblock')
 9filmyzilla.skin#%#//scriptlet('prevent-eval-if', 'pub_300x250 pub_300x250m text-ad textAd text_ad adBanner ad-banner ad_box adbox')
 smash-karts.game-files.crazygames.com#%#//scriptlet('set-constant', 'adblockDetected', 'false')
 4khd.com,uuss.uk#%#//scriptlet('prevent-setTimeout', 'localStorage')
@@ -1448,6 +1448,7 @@ coinsrev.com#%#//scriptlet("abort-current-inline-script", "decodeURIComponent", 
 now.us,now.gg#%#//scriptlet('prevent-fetch', 'pagead2.googlesyndication.com')
 now.us,now.gg#%#//scriptlet('prevent-element-src-loading', 'script', '/\/prebid-load\.js|fundingchoicesmessages\.google\.com/')
 dlpanda.com#%#//scriptlet('prevent-xhr', 'pagead2.googlesyndication.com')
+faqwiki.*#%#//scriptlet('abort-current-inline-script', 'document.createElement', 'googlesyndication')
 faqwiki.*#%#//scriptlet('abort-current-inline-script', 'EventTarget.prototype.addEventListener', '/AdBlock|adsbygoogle\.js/')
 w3resource.com#%#//scriptlet('prevent-setTimeout', 'ins.adsbygoogle')
 examword.com#%#//scriptlet('prevent-setTimeout', 'data-ad-status')

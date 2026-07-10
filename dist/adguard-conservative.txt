@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Conservative
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202607101705
-! Last modified: 2026-07-10T17:05:48Z
+! Version: 202607101843
+! Last modified: 2026-07-10T18:43:01Z
 ! Layers: network,content,scriptlet
 ! Mode: conservative
-! Rules: 107958
+! Rules: 107961
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -7633,7 +7633,6 @@ tupaki.com##div[id^="detail_wrap_ad"]
 xyg688.com##img[alt="广告"]
 zhale.me##.sponsor-card
 freedidi.com##.spm-on:has(> div[class^="spm"] > .spm-body > a[target="_blank"])
-169bbs.com##.a_f
 ssm.fun##.cAnnouncements
 ssm.fun##.cAnnouncementsContent
 123pan.cn##.web-wrap > div:has(> img[src^="https://statics.123pan.com/"])
@@ -10158,6 +10157,7 @@ newduba.cn###jq_youxi
 ##a[href*=".erodatalabs.com/"]
 ##a[href*=".xacg.info/"]
 ##button[onclick*=".xacg.info/"]
+169bbs.com##.a_f
 huaren.live##.pause-love
 huavod.com###player-vip
 yahoo.com##.pointer-events-auto.h-\[91px\]
@@ -16321,6 +16321,7 @@ rvlev.com,t66y.com#?#[class]:-abp-has(>a[onmouseover="this.style.background='#DE
 ||adsconex.com^$third-party
 ||103.179.189.35^$network
 ||twimg.cash^$all
+||aboveboardcomplicate.com^$all
 ||uproestup.sbs^$all
 ||lustygg.com^$all
 ||betus.com.pa^$all
@@ -28824,6 +28825,7 @@ $image,script,stylesheet,subdocument,third-party,xmlhttprequest,domain=animepahe
 @@||58img.top^$image,stealth=referrer,domain=hornysimp.com.lv|mypornerleak.com
 @@||tubexplayer.com^$subdocument,stealth=referrer,domain=pornobae.com
 @@||xxvideoss.net/e/$subdocument,stealth=useragent
+@@||surrit.com^$image,stealth=referrer,domain=missav.ws
 @@||surrit.com/*/video*.jpeg$image,xmlhttprequest,stealth=referrer,domain=missav.live|missav.ws|missav123.com|missav888.com|missav.*|missav01.com
 @@||fourhoi.com^$image,media,stealth=referrer,domain=missav.live|missav.ws|missav123.com|missav888.com|missav.*|missav01.com
 @@||supercachecdn.com/play/$media,stealth=referrer,domain=pornmedium.com|pornammo.com
@@ -49739,6 +49741,7 @@ animecorner.me,zarabiajprzez24.pl,watchhentai.xxx,app-how-to-use-it.com,linuxcap
 pawastreams.*,nflbite.to,footybite.to,sportschamp.fun,afly.pro,topsporter.net,soccerstreams.football,mysocceraustralia.com,rayinfosports.com,hesgoals.top,sequencecard.xyz,totalsportek.soccer,metaporky.site,nbabite.to,cyfostreams.com,gamerarcades.com,bestreamsports.org,footy.to,mcrypto.club,greaterkashmir.com###id-custom_banner
 pawastreams.*,groundedtechs.com,rayinfosports.com,sequencecard.xyz,matchtime.co,sportspellz.com,bestreamsports.org,silverspoon.site###dismiss-btn
 vi-control.net,nullforums.net,landyzone.co.uk,nullcave.pro,woxmax.com,waskucity.com,babia.to,technofino.in,reef2reef.com,minebbs.com,craxpro.io,affiliatefix.com,myiptvforum.com,hifivision.com,worldofiptv.com,altenen.is,beermoneyforum.com,germancarforum.com,cracking.org##.samBannerUnit
+timeextension.com##.insert-uplift
 missav01.com##.text-nord14
 missav01.com##.bottom-2.fixed
 missav01.com##div.mx-auto:has(> iframe[src])

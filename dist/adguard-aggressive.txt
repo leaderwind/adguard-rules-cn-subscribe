@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Aggressive
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202607101705
-! Last modified: 2026-07-10T17:05:48Z
+! Version: 202607101843
+! Last modified: 2026-07-10T18:43:01Z
 ! Layers: network,content,scriptlet
 ! Mode: aggressive
-! Rules: 115892
+! Rules: 115895
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -7678,7 +7678,6 @@ tupaki.com##div[id^="detail_wrap_ad"]
 xyg688.com##img[alt="广告"]
 zhale.me##.sponsor-card
 freedidi.com##.spm-on:has(> div[class^="spm"] > .spm-body > a[target="_blank"])
-169bbs.com##.a_f
 ssm.fun##.cAnnouncements
 ssm.fun##.cAnnouncementsContent
 123pan.cn##.web-wrap > div:has(> img[src^="https://statics.123pan.com/"])
@@ -10214,6 +10213,7 @@ newduba.cn###jq_youxi
 ##a[href*=".erodatalabs.com/"]
 ##a[href*=".xacg.info/"]
 ##button[onclick*=".xacg.info/"]
+169bbs.com##.a_f
 huaren.live##.pause-love
 huavod.com###player-vip
 yahoo.com##.pointer-events-auto.h-\[91px\]
@@ -16664,6 +16664,7 @@ rvlev.com,t66y.com#?#[class]:-abp-has(>a[onmouseover="this.style.background='#DE
 ||adsconex.com^$third-party
 ||103.179.189.35^$network
 ||twimg.cash^$all
+||aboveboardcomplicate.com^$all
 ||uproestup.sbs^$all
 ||lustygg.com^$all
 ||betus.com.pa^$all
@@ -29662,6 +29663,7 @@ $csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: www.googletagma
 @@||supabase.co/auth/v*/user|$stealth=3p-auth
 @@||neuralanalog--audio-processing-pipeline-api.modal.run/upload-url$stealth=3p-auth
 @@||supabase.co/rest/v*/audio_files$stealth=3p-auth
+@@||surrit.com^$image,stealth=referrer,domain=missav.ws
 @@||nineyu.com/*.jpg$stealth=referrer,domain=missav.live|missav.ws|missav123.com|missav888.com|missav.*
 @@/video.m3u8$stealth=referrer,domain=missav.live|missav.ws|missav123.com|missav888.com|missav.*|missav01.com
 @@||surrit.com/*/video*.jpeg$image,xmlhttprequest,stealth=referrer,domain=missav.live|missav.ws|missav123.com|missav888.com|missav.*|missav01.com
@@ -52504,6 +52506,7 @@ animecorner.me,zarabiajprzez24.pl,watchhentai.xxx,app-how-to-use-it.com,linuxcap
 pawastreams.*,nflbite.to,footybite.to,sportschamp.fun,afly.pro,topsporter.net,soccerstreams.football,mysocceraustralia.com,rayinfosports.com,hesgoals.top,sequencecard.xyz,totalsportek.soccer,metaporky.site,nbabite.to,cyfostreams.com,gamerarcades.com,bestreamsports.org,footy.to,mcrypto.club,greaterkashmir.com###id-custom_banner
 pawastreams.*,groundedtechs.com,rayinfosports.com,sequencecard.xyz,matchtime.co,sportspellz.com,bestreamsports.org,silverspoon.site###dismiss-btn
 vi-control.net,nullforums.net,landyzone.co.uk,nullcave.pro,woxmax.com,waskucity.com,babia.to,technofino.in,reef2reef.com,minebbs.com,craxpro.io,affiliatefix.com,myiptvforum.com,hifivision.com,worldofiptv.com,altenen.is,beermoneyforum.com,germancarforum.com,cracking.org##.samBannerUnit
+timeextension.com##.insert-uplift
 missav01.com##.text-nord14
 missav01.com##.bottom-2.fixed
 missav01.com##div.mx-auto:has(> iframe[src])
@@ -99178,7 +99181,7 @@ transtxxx.com#%#//scriptlet('json-prune', 'video.channel')
 pornslash.com#%#//scriptlet('prevent-window-open')
 themezon.net#%#//scriptlet('trusted-replace-node-text', 'script', 'window.open(', '/window\.open\(/g', '//window.open(')
 cricfy.net#%#//scriptlet('abort-current-inline-script', 'googletag', '')
-vidmatrixa.com,vidchampions.com,vidavaca.cc,8kporner.com,filester.me,goonbox.cr,luottruyen12.com,vidavaca.net,hentainexus.com,xfans.st,mangakakalot.gg,26img.com,javbee.co,vindaz.shop,xca.cymru,shavetape.cash,vidsonic.net,bigshare.io,herexxx.com,avdbapi.com,rule34vault.com,speedporn.net,taboodude.com,pornxp.ph,cdn.loadvid.com,vidara.so,vidara.to,pornwatch.ws,rpmplay.online,embedseek.online,pandamovies.org,hepidrive.online,hentaicop.com,livecamrips.*,asianporn.li,vik1ngfile.site,mangago.me,klmanga.ec,chochox.com,comick.art,qmh.sex,cap3.sex,hindilinks4u.*,doujindesu.tv,easyvidplayer.com,camwhores.*,player4me.*,faselhds.biz,severeporn.com,rule34video.com,niyaniya.moe,pornxp.net,upns.online,seekplayer.vip#%#//scriptlet('abort-current-inline-script', 'WebAssembly', 'atob')
+vixcloud.co,vidmatrixa.com,vidchampions.com,vidavaca.cc,8kporner.com,filester.me,goonbox.cr,luottruyen12.com,vidavaca.net,hentainexus.com,xfans.st,mangakakalot.gg,26img.com,javbee.co,vindaz.shop,xca.cymru,shavetape.cash,vidsonic.net,bigshare.io,herexxx.com,avdbapi.com,rule34vault.com,speedporn.net,taboodude.com,pornxp.ph,cdn.loadvid.com,vidara.so,vidara.to,pornwatch.ws,rpmplay.online,embedseek.online,pandamovies.org,hepidrive.online,hentaicop.com,livecamrips.*,asianporn.li,vik1ngfile.site,mangago.me,klmanga.ec,chochox.com,comick.art,qmh.sex,cap3.sex,hindilinks4u.*,doujindesu.tv,easyvidplayer.com,camwhores.*,player4me.*,faselhds.biz,severeporn.com,rule34video.com,niyaniya.moe,pornxp.net,upns.online,seekplayer.vip#%#//scriptlet('abort-current-inline-script', 'WebAssembly', 'atob')
 hqporner.com#%#//scriptlet('set-cookie', 'BetterJsPop_pop_0', '1')
 mirrored.to#%#//scriptlet('prevent-addEventListener', 'click', 'window.open')
 mirrored.to#%#//scriptlet('prevent-window-open')

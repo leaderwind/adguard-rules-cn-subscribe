@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Network
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202607101705
-! Last modified: 2026-07-10T17:05:48Z
+! Version: 202607101843
+! Last modified: 2026-07-10T18:43:01Z
 ! Layers: network
 ! Mode: standard
-! Rules: 47455
+! Rules: 47457
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -7452,6 +7452,7 @@ $script,third-party,domain=torkitty.net|torkitty.com|torrentkitty.app|torrentkit
 ||adsconex.com^$third-party
 ||103.179.189.35^$network
 ||twimg.cash^$all
+||aboveboardcomplicate.com^$all
 ||uproestup.sbs^$all
 ||lustygg.com^$all
 ||betus.com.pa^$all
@@ -20450,6 +20451,7 @@ $csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: www.googletagma
 @@||supabase.co/auth/v*/user|$stealth=3p-auth
 @@||neuralanalog--audio-processing-pipeline-api.modal.run/upload-url$stealth=3p-auth
 @@||supabase.co/rest/v*/audio_files$stealth=3p-auth
+@@||surrit.com^$image,stealth=referrer,domain=missav.ws
 @@||nineyu.com/*.jpg$stealth=referrer,domain=missav.live|missav.ws|missav123.com|missav888.com|missav.*
 @@/video.m3u8$stealth=referrer,domain=missav.live|missav.ws|missav123.com|missav888.com|missav.*|missav01.com
 @@||surrit.com/*/video*.jpeg$image,xmlhttprequest,stealth=referrer,domain=missav.live|missav.ws|missav123.com|missav888.com|missav.*|missav01.com

@@ -1,8 +1,8 @@
 ! Title: AdGuard Rules CN - Android
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202607101705
-! Last modified: 2026-07-10T17:05:48Z
+! Version: 202607101843
+! Last modified: 2026-07-10T18:43:01Z
 ! Layers: network,content,scriptlet
 ! Mode: standard
 ! Rules: 18172
@@ -7678,7 +7678,6 @@ tupaki.com##div[id^="detail_wrap_ad"]
 xyg688.com##img[alt="广告"]
 zhale.me##.sponsor-card
 freedidi.com##.spm-on:has(> div[class^="spm"] > .spm-body > a[target="_blank"])
-169bbs.com##.a_f
 ssm.fun##.cAnnouncements
 ssm.fun##.cAnnouncementsContent
 123pan.cn##.web-wrap > div:has(> img[src^="https://statics.123pan.com/"])
@@ -10214,6 +10213,7 @@ newduba.cn###jq_youxi
 ##a[href*=".erodatalabs.com/"]
 ##a[href*=".xacg.info/"]
 ##button[onclick*=".xacg.info/"]
+169bbs.com##.a_f
 huaren.live##.pause-love
 huavod.com###player-vip
 yahoo.com##.pointer-events-auto.h-\[91px\]

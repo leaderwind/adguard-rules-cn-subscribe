@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - DNS
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202607111032
-! Last modified: 2026-07-11T10:32:52Z
+! Version: 202607111202
+! Last modified: 2026-07-11T12:02:58Z
 ! Layers: dns
 ! Mode: standard
-! Rules: 219089
+! Rules: 219102
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -148218,6 +148218,7 @@
 ||hbnygj.com^
 ||https-filtering-check.adtidy.org^
 ||unpkg.com^$badfilter
+||rnrjpr8gc.com^
 /pa.dajiahao*.top/
 /^.+stat\.kugou\.com/
 /^admarvel\./
@@ -178699,6 +178700,13 @@
 ||freeadultcomix.com^$badfilter
 ||imgshare.info^$badfilter
 @@||connectivitycheck.gstatic.com^$important
+||dudaimarake.cyou^
+||evrgtqetom.com^
+||fbsikgptjlgpv.website^
+||ffnhnwwhslouo.website^
+||fmnboblykckin.website^
+||ukhgbufnqfmc.com^
+||westnarrow.com^
 /(https?:\/\/)104\.154\..{100,}/
 /(https?:\/\/)104\.197\..{100,}/
 /(https?:\/\/)104\.198\..{100,}/
@@ -195970,6 +195978,11 @@
 ||zysuvysaj.pro^
 ||zzux.com^
 ||sobot.com^
+||clintygnarlspolium.qpon^
+||fqhbmwgaeisiz.website^
+||fxrmtpyhvulsp.site^
+||gdkhthxgdvefr.online^
+||isohelsangels.cfd^
 ||mobile.pipe.aria.microsoft.com^
 ||cu-cn-north00001.gala.convection.cn^
 ||xvtelink.com^

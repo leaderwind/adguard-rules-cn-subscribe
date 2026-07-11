@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Conservative
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202607111512
-! Last modified: 2026-07-11T15:12:52Z
+! Version: 202607111713
+! Last modified: 2026-07-11T17:13:06Z
 ! Layers: network,content,scriptlet
 ! Mode: conservative
-! Rules: 107961
+! Rules: 107962
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -29090,6 +29090,7 @@ $image,script,stylesheet,subdocument,third-party,xmlhttprequest,domain=animepahe
 @@||cbox.ws/box/?boxid=$domain=exystence.net,stealth=referrer
 @@||login.uid.me^$domain=ucoz.ru,stealth=3p-cookie
 @@*$app=viva.republica.toss,stealth=dpi
+||abs.twimg.com/responsive-web/client-web/main.$script,replace=/t\.isTrue\("rweb_home_jot_context_enabled"\)/false/
 ||pluto.tv/*/session.json$jsonprune=\$.adBreak.*
 ||pluto.tv/*/session.json$jsonprune=\$.adBreaks.*
 ||pluto.tv/*/session.json$jsonprune=\$.adBreakLocations.*

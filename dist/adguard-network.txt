@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Network
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202607121352
-! Last modified: 2026-07-12T13:52:33Z
+! Version: 202607121513
+! Last modified: 2026-07-12T15:13:05Z
 ! Layers: network
 ! Mode: standard
-! Rules: 47463
+! Rules: 47464
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -12640,6 +12640,7 @@ $script,redirect-rule=noopjs,domain=173.249.8.3
 ||weszlo.com/wp-content/themes/weszlo/questpass.js
 ||lib.wtg-ads.com/prebid/prebid_*.js$xmlhttprequest,redirect=nooptext
 @@||lib.wtg-ads.com/prebid/prebid_*.js$domain=tvn.pl
+||docchi.pl/api/addon/
 ||e-katalog.pl/*.php?idb_=$subdocument,~third-party
 ||smaki.pl/_static/ads-*.js
 ||static.android.com.pl/plugins/acp-campaigns/

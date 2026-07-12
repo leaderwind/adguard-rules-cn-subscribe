@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Network
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202607121123
-! Last modified: 2026-07-12T11:23:06Z
+! Version: 202607121352
+! Last modified: 2026-07-12T13:52:33Z
 ! Layers: network
 ! Mode: standard
-! Rules: 47462
+! Rules: 47463
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -8318,6 +8318,7 @@ $cookie=__adblocker,domain=slate.com|thehindubusinessline.com
 ||claimfey.com/cryptonews/wp-content/uploads/bqanwcfp.js
 @@||static.trafficjunky.com/ab/ads_test.js$domain=bztube.com|hotovs.com|insuredhome.org|nudegista.com|pornluck.com|vidd.se|redtube.*|youpornru.com|tube8.com|tube8.es|tube8.fr|tube8.net|pornhub.com|pornhub.org|pornhub.net
 @@://www.exoclick.com/ads.js|
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=dramaflix.cc
 ||555fap.com/upload/assets/js/anti-adblock.js
 ||fc2ppv.*/upload/assets/js/anti-adblock.js
 @@||allinonerebornvip.blogspot.com^$generichide
@@ -8486,7 +8487,7 @@ $cookie=__adblocker,domain=slate.com|thehindubusinessline.com
 @@||lootup.me/assets/js/flashAd.js
 ||nasdaqfutures.org/wp-content/uploads/edcbdb/eeaafb.js
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,domain=apply.gokiwi.in
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=kdvqi.xyz
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=kdvqi.xyz|famasocial.site
 @@||custommapposter.com^$generichide
 ||google-analytics.com^$image,redirect=1x1-transparent.gif,domain=simpmusic.org
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=googlesyndication-adsbygoogle,domain=simpmusic.org,important
@@ -36413,7 +36414,7 @@ template/m1938pc/ads/*.js
 /ot_e404.gif?
 /OtAutoBlock.js
 /ouibounce.min.js
-/outbrain.js
+/outbrain.js$~xmlhttprequest
 /outbrainAd.
 /outLoging.js
 /outLoging2.js
@@ -37091,7 +37092,7 @@ template/m1938pc/ads/*.js
 /t/event?
 /t?referer=
 /t?tcid=
-/taboola.js
+/taboola.js$~xmlhttprequest
 /taboola/loader.js
 /taboolaHead.js
 /taevents-c.js

@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Content
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202607121123
-! Last modified: 2026-07-12T11:23:06Z
+! Version: 202607121352
+! Last modified: 2026-07-12T13:52:33Z
 ! Layers: content
 ! Mode: standard
-! Rules: 63014
+! Rules: 63015
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -9091,7 +9091,7 @@ javx357.com##body > #back-top + div[id][class*=" "]
 nlcosplay.com##.banner-wrapper + div[id][class*=" "]
 modapk.world##body > #page > footer.site-footer + div[id][class*=" "]
 transfap.to###back-to-top + div[id][class]
-jobsheel.com,dwert.co.kr,itdmusicy.com,itdmusics.com,evspec.in,bradola.com,paradoxscans.com,hispajav.com,sub69.online,itdmusicy.com,janammusic.in.net##body > div[id][class*=" "]:has(div.adblock_subtitle)
+famasocial.site,jobsheel.com,dwert.co.kr,itdmusicy.com,itdmusics.com,evspec.in,bradola.com,paradoxscans.com,hispajav.com,sub69.online,itdmusicy.com,janammusic.in.net##body > div[id][class*=" "]:has(div.adblock_subtitle)
 fapfapgames.com,pornosubtitula2.com,softdevelopp.com,fitnesstipz.com,stock-rom.com,xporn.to,kodibeginner.com,windbreaker.me,fazy.online,cricket12.com,stimotion.pl,thelastgamestandingexp.com,chart.services,moneysave.info,pornmz.com,yakisurume.com,tehnar.net.ua,rocdacier.com,audiotrip.org,flowsnet.com,brulosophy.com,reprezentacija.rs##body > div#page ~ div[id][class*=" "]
 medeberiya1.com,free-wargamer.com,trendmagazineonline.com,broadbottomvillage.co.uk,call4cloud.nl,aitoolsfree.org,realpornblogger.com,sirenitashot.com,medeberiya.site,djstar.in,two4storytale.altervista.org,marimo-info.net,bestofchristianity.com,princetechzone.in,clockskin.us,haqem.com,tvappapk.com,violablu.net,villettt.kitchen,aitohuman.org,dailyweb.pl,zerogptai.org,nsw2u.*,game-2u.com,rubyskitchenrecipes.uk,know-how-tree.com##body > #page + div[id][class*=" "]
 gcmob.net##.site ~ div[id][class]
@@ -9348,6 +9348,9 @@ youporn.com$$script:contains(/window\.[\s\S]*?_zone_[\s\S]*?{"zone_id":/)
 #@#.ads_banner
 ##.stickyads:not([style^="width: 32px"], [style^="width: 33px"], [style*="left: -43px"], [style*="-3"][style*="important"][style*="display: block;"], [style*="position: fixed"][style*="-188"], [style*="!important;"][style*="width:"][style*="height:"][style*="position"][style*="left:"][style*="top:"][style*="display"], [data-freestar-ad="123"]):not(:empty)
 ##.ads_banner:not([style^="width: 32px"], [style^="width: 33px"], [style*="left: -43px"], [style*="-3"][style*="important"][style*="display: block;"], [style*="position: fixed"][style*="-188"], [style*="!important;"][style*="width:"][style*="height:"][style*="position"][style*="left:"][style*="top:"][style*="display"]):not(:empty)
+dramaflix.cc#@#.google-ad
+dramaflix.cc#@#.adsbygoogle-noablate
+dramaflix.cc#@#.ad-slot
 donghua-ar.me#@#.ad-unit:not(.textads)
 donghua-ar.me#@#.ad_wrapper
 donghua-ar.me#@#.ad-slot
@@ -18783,6 +18786,7 @@ animecorner.me,zarabiajprzez24.pl,watchhentai.xxx,app-how-to-use-it.com,linuxcap
 pawastreams.*,nflbite.to,footybite.to,sportschamp.fun,afly.pro,topsporter.net,soccerstreams.football,mysocceraustralia.com,rayinfosports.com,hesgoals.top,sequencecard.xyz,totalsportek.soccer,metaporky.site,nbabite.to,cyfostreams.com,gamerarcades.com,bestreamsports.org,footy.to,mcrypto.club,greaterkashmir.com###id-custom_banner
 pawastreams.*,groundedtechs.com,rayinfosports.com,sequencecard.xyz,matchtime.co,sportspellz.com,bestreamsports.org,silverspoon.site###dismiss-btn
 vi-control.net,nullforums.net,landyzone.co.uk,nullcave.pro,woxmax.com,waskucity.com,babia.to,technofino.in,reef2reef.com,minebbs.com,craxpro.io,affiliatefix.com,myiptvforum.com,hifivision.com,worldofiptv.com,altenen.is,beermoneyforum.com,germancarforum.com,cracking.org##.samBannerUnit
+linuxcommunity.io##.discourse-custom-ad-component
 dnsrobot.net##div[style^="min-height: "]:has(> ins.adsbygoogle)
 linuxblog.io##.hayden-after-paragraph
 timeextension.com##.insert-uplift
@@ -36697,7 +36701,6 @@ kliuki.bg###container > div[style="float:left;"] > div[style]
 ###AD_300
 ###AD_468x60
 ###AD_ROW
-###AD_Top
 ###AD_text
 ###ADbox
 ###Ad-3-Slider
@@ -36716,7 +36719,6 @@ kliuki.bg###container > div[style="float:left;"] > div[style]
 ###AdContainerTop
 ###AdContent
 ###AdDisclaimer
-###AdHeader
 ###AdMiddle
 ###AdPopUp
 ###AdRectangleBanner
@@ -37056,7 +37058,6 @@ kliuki.bg###container > div[style="float:left;"] > div[style]
 ###ad-label2
 ###ad-large-banner-top
 ###ad-lb-secondary
-###ad-lead
 ###ad-leadboard1
 ###ad-leadboard2
 ###ad-leader
@@ -39475,7 +39476,6 @@ kliuki.bg###container > div[style="float:left;"] > div[style]
 ###home_mpu
 ###home_sidebar_ad
 ###home_top_right_ad
-###homead
 ###homeheaderad
 ###homepage-ad
 ###homepage-adbar
@@ -51240,6 +51240,7 @@ dailysocial.id###home-ads
 transfermarkt.com###home-rectangle-spotlight
 shobiddak.com###homeShobiddakAds
 sslshopper.com###home_quick_search_buttons > div
+barcelonadestinations.com,farmads.co.uk,farmersguide.co.uk,honeybeekeeping.co.uk,towindustryweek.com###homead
 hometheaterreview.com###homepagehorizontalad
 nutritioninsight.com,packaginginsights.com###horizontalblk
 skylinewebcams.com###hostedby

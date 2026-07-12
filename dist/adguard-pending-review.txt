@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Pending Review (Not AI-reviewed)
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202607112307
-! Last modified: 2026-07-11T23:07:42Z
+! Version: 202607120007
+! Last modified: 2026-07-12T00:07:52Z
 ! Layers: dns
 ! Mode: standard
-! Rules: 219252
+! Rules: 219261
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -178801,6 +178801,8 @@
 ||zzy1.quyaoya.com^
 ||zzycj.com^
 ||zzz.onion.pet^
+||4c0wa2ml2f.com^
+||fretsaw55.top^
 ||piguiqproxy.com^$badfilter
 /^https:\/\/[0-9a-z]+\.xyz\/rinku\/land/$document,~third-party,match-case,replace=/const proxyStatus = "Y";/const proxyStatus = "N";/
 /js/sextb.js$domain=sextb.date|sextb.net,replace=/if\(checkads\(\)==false\)/if(!0)/
@@ -178828,6 +178830,12 @@
 ||freeadultcomix.com^$badfilter
 ||imgshare.info^$badfilter
 @@||connectivitycheck.gstatic.com^$important
+||dsgeln.com^
+||mloearytfxebml.com^
+||muidpurrfryer.qpon^
+||piwxhjpggrbmnim.com^
+||sontfbmuqonzf.online^
+||vntinbntecdpm.site^
 /(https?:\/\/)104\.154\..{100,}/
 /(https?:\/\/)104\.197\..{100,}/
 /(https?:\/\/)104\.198\..{100,}/
@@ -196130,8 +196138,9 @@
 ||zysuvysaj.pro^
 ||zzux.com^
 ||sobot.com^
-||dsgeln.com^
-||sontfbmuqonzf.online^
+||kyjbsfidbcmsk.space^
+||ojsqrskhczvnq.website^
+||qqkxmhpqaxbop.online^
 ||mobile.pipe.aria.microsoft.com^
 ||cu-cn-north00001.gala.convection.cn^
 ||xvtelink.com^

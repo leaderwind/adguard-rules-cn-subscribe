@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Browser
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202607130008
-! Last modified: 2026-07-13T00:08:18Z
+! Version: 202607130356
+! Last modified: 2026-07-13T03:56:37Z
 ! Layers: network,content,scriptlet
 ! Mode: standard
-! Rules: 115821
+! Rules: 115827
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -332,6 +332,7 @@ $script,xmlhttprequest,third-party,domain=00ksw.com|01zww.com|0biquge.com|114zw.
 ||im.1vkx.cn/uploads/images/*.gif$third-party
 /^(?!.*(mega.co.nz|mega.nz|libs.baidu.com|ilfcdn.li|bytecdntp.com|doodcdn.io|intensedebate.com|vixcloud.co|cdn.plyr.io|rsc.cdn77.org|linkvertise.com|fastly.net|statically.io|sharecast.ws|b-cdn.net|bunnycdn.ru|bootstrapcdn.com|cdn.ampproject.org|cloudflare.com|cdn.staticfile.org|disqus.com|disquscdn.com|dmca.com|ebacdn.com|facebook.net|fastlylb.net|fbcdn.net|fluidplayer.com|fontawesome.com|github.io|google.com|googleapis.com|googletagmanager.com|gstatic.com|jquery.com|jsdelivr.net|jwpcdn.com|jwplatform.com|recaptcha.net|shrink.pe|twitter.com|ulogin.ru|unpkg.com|userapi.com|vidazoo.com|(\/\/|\.)vk\.com|yandex.|yastatic.net|ytimg.com|zencdn.net|player|youtube.com|cackle.me|googleoptimize.com|vuukle.com|chatango.com|twimg.com|google-analytics.com|hcaptcha.com|media-imdb.com|blogger.com|hwcdn.net|instagram.com|wp.com|fastcomments.com|plyr.io|imgsmail.ru|cloudflare.net|rabbitstream.net|51.la|cloudflareinsights.com|tongjiniao.com|vp1shop.shop|ovscdns.com|alicdn.com|(\/\/|\.)x\.com)).*$/$third-party,script,_____,domain=manshuxs.com|yemancomic.com|qimiaoxiaoshuo.com|gaofuwu.org|nxpaaq.com|dengbi2.com|92hm.top|634.tv|myhaitang.cc|ckplayer.vip|qushucheng.com|av6k.com|18j.tv|uaa.com|xb6v.org|6v520.cc
 *$script,third-party,denyallow=mega.co.nz|mega.nz|libs.baidu.com|ilfcdn.li|bytecdntp.com|doodcdn.io|intensedebate.com|vixcloud.co|cdn.plyr.io|rsc.cdn77.org|linkvertise.com|fastly.net|statically.io|sharecast.ws|b-cdn.net|bunnycdn.ru|bootstrapcdn.com|cdn.ampproject.org|cloudflare.com|cdn.staticfile.org|disqus.com|disquscdn.com|dmca.com|ebacdn.com|facebook.net|fastlylb.net|fbcdn.net|fluidplayer.com|fontawesome.com|github.io|google.com|googleapis.com|googletagmanager.com|gstatic.com|jquery.com|jsdelivr.net|jwpcdn.com|jwplatform.com|recaptcha.net|shrink.pe|twitter.com|ulogin.ru|unpkg.com|userapi.com|vidazoo.com|vk.com|yastatic.net|ytimg.com|zencdn.net|youtube.com|cackle.me|googleoptimize.com|vuukle.com|chatango.com|twimg.com|google-analytics.com|hcaptcha.com|media-imdb.com|blogger.com|hwcdn.net|instagram.com|wp.com|fastcomments.com|plyr.io|imgsmail.ru|cloudflare.net|rabbitstream.net|x.com|51.la|cloudflareinsights.com|tongjiniao.com|vp1shop.shop|lamparasde.net|hoopchina.com.cn|kankan2024.com|ovscdns.com|rumanhua.org|cdnsrc.asp.net|ddxsmf.com|apps.bdimg.com|alicdn.com,_____,domain=wap.dmwenku.com|m.wfxs.tw|wap.ishuquge.la|m.91zww.com|592mh.top|dubuxiaoshuo.com|clm410.buzz|bookbl.com|shuku99.com|qiyoudy2.com|1yydstxt178.com|rouman5.com|feijisu20.com|iqb5.org|wap.xkushu.com|spoilertop.com|booktxts.com|bixia33.com|rouwenwu19.com|91porny.com|yznnw.com|vodtw.la|ckplayer.vip|uuread.tw|fengchedmp.com|aeahsck.cc|xiaoshubao.net|wap.yushuwu.cloud|twbook.cc|vodtw.xyz|xbqg6.com|qq3009qq.link|18jtv.cc|m.haxuku.com|xm200.com|av6k.com|18j.tv|haiwaishubao.com|uaa.com|lamparasde.net|bbs.hupu.com|kankan2024.com|hanime1-me.icu|hanime1-me.top|rumanhua.org|ddxsmf.com|xb6v.org|6v520.cc|xl02.com.de|26img.com|noslocker.com
+||bbys.app/api.php/web/feature
 ||testingcf.jsdelivr.net/gh/softwaredefinevehicle/static/lozad.min.js
 .gif|$image,third-party,domain=91porny.com
 ||gamersky.com/web/getJS?url=*.gamersky.com*newAd
@@ -7627,6 +7628,7 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###content_left > .r
 ##body[onresize="stopDebugger()"][onbeforecopy="return!1"] > div#root div[id^="notice_modal"]
 ##body[onresize="stopDebugger()"][onbeforecopy="return!1"] > div#root div:has(> img[src$=".gif"])
 ##body[onresize="stopDebugger()"][onbeforecopy="return!1"] > div#root div.m0auto > div > div.grid + div > div:empty
+bbys.app##.global-desktop-ad
 stock-calculator.net##.grid > div > div.overflow-hidden:has(> div.inset-0 > ins.adsbygoogle)
 91porny.com##div[data-nosnippet]:has(div.row a[href][rel^="noopener"])
 91porny.com##.alert
@@ -23466,7 +23468,7 @@ $document,replace=/<script(?: data-cfasync="false")?(?: nowprocket)?(?: type="[a
 ||html-load.com^$script,xmlhttprequest,domain=fitbook-magazine.com|myhomebook-magazine.com|petbook-magazine.com
 ||html-load.com^$script,xmlhttprequest,domain=gardeningknowhow.com|musicradar.com|nexttv.com|realhomes.com|shortlist.com|techlearning.com
 ||html-load.com^$script,xmlhttprequest,domain=astrozop.com|criczop.com|feedzop.com|gamezop.io|gamezop.com|quizzop.com|umogames.com
-||html-load.com^$script,xmlhttprequest,domain=buienalarm.nl|meteoradar.co.uk|meteox.com|niederschlagsradar.de|sat24.com|weerslag.nl
+||html-load.com^$script,xmlhttprequest,domain=buienalarm.nl|meteoradar.co.uk|meteox.com|niederschlagsradar.de|sat24.com|weerslag.nl|weerplaza.nl|buienalarm.be
 /adblock.js$domain=anisnatch.top|anisnatch.p1y.top
 /api/rum|$domain=mapple.*|mapplee.com|mapple.rip
 ||helpers.publisherdesk.com/main.js
@@ -42433,7 +42435,7 @@ $popup,third-party,domain=hentai2read.com|porn-tube-club.com
 @@||googleads.g.doubleclick.net/ads/preferences/$domain=googleads.g.doubleclick.net
 @@||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$domain=247sports.com|4029tv.com|bet.com|bloomberg.co.jp|bloomberg.com|cbc.ca|cbssports.com|cc.com|clickorlando.com|digi24.ro|gbnews.com|history.com|kcci.com|kcra.com|ketv.com|kmbc.com|koat.com|koco.com|ksbw.com|mynbc5.com|paramountplus.com|s.yimg.jp|sbs.com.au|sonyliv.com|tv.rakuten.co.jp|vk.sportsbull.jp|wapt.com|watchcharge.com|wbaltv.com|wcvb.com|wdsu.com|wesh.com|wgal.com|wisn.com|wjcl.com|wlky.com|wlwt.com|wmtw.com|wmur.com|worldsurfleague.com|wpbf.com|wtae.com|wvtm13.com|wxii12.com|wyff4.com
 @@||pubads.g.doubleclick.net/ondemand/hls/$domain=history.com
-@@||imasdk.googleapis.com/js/core/bridge*.html$subdocument,domain=~airtelxstream.in|~danet.vn|~einthusan.tv|~spotify.com
+@@||imasdk.googleapis.com/js/core/bridge*.html$subdocument,domain=~airtelxstream.in|~danet.vn|~einthusan.tv|~sonyliv.com|~spotify.com
 @@||imasdk.googleapis.com/pal/sdkloader/pal.js$domain=pluto.tv|stirr.com|tunein.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3_debug.js$domain=brightcove.net|cbsnews.com|embed.sportsline.com|insideedition.com|pch.com|utsports.com
 @@||pubads.g.doubleclick.net/ssai/
@@ -52223,9 +52225,9 @@ petbook-magazine.com,myhomebook-magazine.com,fitbook-magazine.com$$script[data-c
 techlearning.com,shortlist.com,realhomes.com,nexttv.com,musicradar.com,gardeningknowhow.com$$script[src*="html-load.com"]
 techlearning.com,shortlist.com,realhomes.com,nexttv.com,musicradar.com,gardeningknowhow.com$$script:contains(()=>eval)
 techlearning.com,shortlist.com,realhomes.com,nexttv.com,musicradar.com,gardeningknowhow.com$$script[data-cfasync="false"][nowprocket]
-weerslag.nl,sat24.com,niederschlagsradar.de,meteox.com,meteoradar.co.uk,buienalarm.nl$$script[src*="html-load.com"]
-weerslag.nl,sat24.com,niederschlagsradar.de,meteox.com,meteoradar.co.uk,buienalarm.nl$$script[data-cfasync="false"][nowprocket]
-weerslag.nl,sat24.com,niederschlagsradar.de,meteox.com,meteoradar.co.uk,buienalarm.nl$$script:contains(').join(String.fromCharCode')
+buienalarm.be,weerplaza.nl,weerslag.nl,sat24.com,niederschlagsradar.de,meteox.com,meteoradar.co.uk,buienalarm.nl$$script[src*="html-load.com"]
+buienalarm.be,weerplaza.nl,weerslag.nl,sat24.com,niederschlagsradar.de,meteox.com,meteoradar.co.uk,buienalarm.nl$$script[data-cfasync="false"][nowprocket]
+buienalarm.be,weerplaza.nl,weerslag.nl,sat24.com,niederschlagsradar.de,meteox.com,meteoradar.co.uk,buienalarm.nl$$script:contains(').join(String.fromCharCode')
 pirate4x4.com,personalitycafe.com,jeepforum.com,e46fanatics.com,thetopflight.com,risingapple.com,gamesided.com,flicksided.com,can-amforum.com,cadillacforums.com,expatforum.com,hyundai-forums.com,overclock.net,hookemheadlines.com,fordescape.org,archerytalk.com,reptileforums.co.uk,corral.net,e46fanatics.com,jeepforum.com,ifish.net,frugalvillage.com,menstennisforums.com##.feedItem-list-container > div[class^="img_"]
 pirate4x4.com,personalitycafe.com,jeepforum.com,e46fanatics.com,thetopflight.com,risingapple.com,gamesided.com,flicksided.com,can-amforum.com,cadillacforums.com,expatforum.com,hyundai-forums.com,overclock.net,hookemheadlines.com,fordescape.org,archerytalk.com,reptileforums.co.uk,corral.net,e46fanatics.com,jeepforum.com,ifish.net,frugalvillage.com,menstennisforums.com##div[spottype]
 pirate4x4.com,personalitycafe.com,jeepforum.com,e46fanatics.com,thetopflight.com,risingapple.com,gamesided.com,flicksided.com,can-amforum.com,cadillacforums.com,expatforum.com,hyundai-forums.com,overclock.net,hookemheadlines.com,fordescape.org,archerytalk.com,reptileforums.co.uk,corral.net,e46fanatics.com,jeepforum.com,ifish.net,frugalvillage.com,menstennisforums.com##.p-footer + div[class^="img_"]
@@ -98788,10 +98790,10 @@ techlearning.com,shortlist.com,realhomes.com,nexttv.com,musicradar.com,gardening
 techlearning.com,shortlist.com,realhomes.com,nexttv.com,musicradar.com,gardeningknowhow.com#%#//scriptlet('remove-node-text', 'script', '()=>eval')
 umogames.com,quizzop.com,gamezop.com,gamezop.io,feedzop.com,criczop.com,astrozop.com#%#//scriptlet('trusted-replace-argument', 'Element.prototype.setAttribute', '1', '', '/error-report|new Promise|;await new|:\[?window|&&window,|void 0\]|location\.href|void 0\|\|window|,window,|void 0,window|\[0,window\]|\)\.join\(String\.fromCharCode/')
 umogames.com,quizzop.com,gamezop.com,gamezop.io,feedzop.com,criczop.com,astrozop.com#%#//scriptlet('trusted-replace-argument', 'Element.prototype.setAttribute', '1', 'replace:/.+(error-report|new Promise|:window|&&window,|\|\|window,|void 0\]|html-load\.com[\s\S]*_onerror).+//g')
-weerslag.nl,sat24.com,niederschlagsradar.de,meteox.com,meteoradar.co.uk,buienalarm.nl#%#//scriptlet('trusted-replace-argument', 'Element.prototype.setAttribute', '1', '', '/error-report|new Promise|;await new|:\[?window|&&window,|void 0\]|location\.href|void 0\|\|window|,window,|void 0,window|\[0,window\]|\)\.join\(String\.fromCharCode/')
-weerslag.nl,sat24.com,niederschlagsradar.de,meteox.com,meteoradar.co.uk,buienalarm.nl#%#//scriptlet('trusted-replace-argument', 'Element.prototype.setAttribute', '1', 'replace:/.+(error-report|new Promise|:window|&&window,|\|\|window,|void 0\]|html-load\.com[\s\S]*_onerror).+//g')
-weerslag.nl,sat24.com,niederschlagsradar.de,meteox.com,meteoradar.co.uk,buienalarm.nl#%#//scriptlet('remove-node-text', 'script', ').join(String.fromCharCode')
-weeronline.nl#%#//scriptlet('trusted-replace-argument', 'Range.prototype.createContextualFragment', '0', '<script></script>', 'html-load.com')
+buienalarm.be,weerplaza.nl,weerslag.nl,sat24.com,niederschlagsradar.de,meteox.com,meteoradar.co.uk,buienalarm.nl#%#//scriptlet('trusted-replace-argument', 'Element.prototype.setAttribute', '1', '', '/error-report|new Promise|;await new|:\[?window|&&window,|void 0\]|location\.href|void 0\|\|window|,window,|void 0,window|\[0,window\]|\)\.join\(String\.fromCharCode/')
+buienalarm.be,weerplaza.nl,weerslag.nl,sat24.com,niederschlagsradar.de,meteox.com,meteoradar.co.uk,buienalarm.nl#%#//scriptlet('trusted-replace-argument', 'Element.prototype.setAttribute', '1', 'replace:/.+(error-report|new Promise|:window|&&window,|\|\|window,|void 0\]|html-load\.com[\s\S]*_onerror).+//g')
+meteovista.be,weeronline.nl#%#//scriptlet('trusted-replace-argument', 'Range.prototype.createContextualFragment', '0', '<script></script>', 'html-load.com')
+buienalarm.be,weerplaza.nl,weerslag.nl,sat24.com,niederschlagsradar.de,meteox.com,meteoradar.co.uk,buienalarm.nl#%#//scriptlet('remove-node-text', 'script', ').join(String.fromCharCode')
 euronews.com#%#//scriptlet('remove-attr', 'onerror', 'script[id][onerror]')
 thesavvyexplorers.com,thegoldendaily.com,hometalkpaid.com,hometalk.com,homehobbiesdaily.com,foodtalkdaily.com,rvguide.com,petguide.com,motorcycle.com,atv.com,redesigndaily.com,thesimplifydaily.com,autoguide.com#%#//scriptlet('set-constant', 'loadShield', 'noopFunc')
 wetter.com#%#//scriptlet('set-constant', 'wcomBlock', 'noopFunc')
@@ -102748,6 +102750,9 @@ yatu.tv,yhdm7.com,yhdm95.com,xdm530.com##+js(aopw,document.oncontextmenu)
 .php?zoneid=$script
 ://ads.$popup,domain=~ad.olx.pl|~ads.mercadolibre.com.ar|~ads.mercadolibre.com.cl|~ads.mercadolibre.com.co|~ads.mercadolibre.com.ec|~ads.mercadolibre.com.mx|~ads.mercadolibre.com.pe|~ads.mercadolibre.com.ve|~ads.mercadolivre.com.br|~ads.openai.com|~ads.pandauth.com|~ads.umd.edu|~axon.ai|~kakaku.com|~reddit.com|~smartnews.com
 ://adv.$popup,domain=~adv.kompas.id|~adv.lack-girl.com
+||kinetiksoft.com^$document
+||rak8s.com^$document
+||scarfstartpickle.com^$document
 ||lockerdome.com^$third-party
 ||35.227.234.222^
 ||35.232.188.118^
@@ -102766,7 +102771,6 @@ yatu.tv,yhdm7.com,yhdm95.com,xdm530.com##+js(aopw,document.oncontextmenu)
 ||redtube.com^$subdocument,~third-party
 ||youjizz.com/KWIKY*.mp4$rewrite=abp-resource:blank-mp4,domain=youjizz.com
 @@||discord.com^$generichide
-@@||imasdk.googleapis.com/js/core/bridge*.html$subdocument,domain=~airtelxstream.in|~danet.vn|~einthusan.tv|~sonyliv.com|~spotify.com
 ##.ad-unit
 ##[class^="div-gpt-ad"]
 cyberchef.org###workspace-wrapper > [id][style*="height"] {height: 100% !important}
@@ -110220,6 +110224,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||api.country.is^$third-party
 ||api.gist.ai/v1/analytics/track
 ||api.gleap.io/sessions/ping
+||api.intelligems.io/v3/track
 ||api.ipgeolocation.io/getip
 ||api.iris.tv/update
 ||api.mambasms.com/monitorEvent/
@@ -111609,6 +111614,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tradablebits.com/pixels/
 ||trafficmanager.net/uet/tracking_script?
 ||trakksocial.googlecode.com^$third-party
+||transcend.io/collect
 ||traq.li/tracker/
 ||travix.com/log
 ||tree-nation.com/js/track.js

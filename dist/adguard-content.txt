@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Content
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202607130356
-! Last modified: 2026-07-13T03:56:37Z
+! Version: 202607130734
+! Last modified: 2026-07-13T07:34:50Z
 ! Layers: content
 ! Mode: standard
-! Rules: 63018
+! Rules: 63026
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -9349,6 +9349,9 @@ youporn.com$$script:contains(/window\.[\s\S]*?_zone_[\s\S]*?{"zone_id":/)
 #@#.ads_banner
 ##.stickyads:not([style^="width: 32px"], [style^="width: 33px"], [style*="left: -43px"], [style*="-3"][style*="important"][style*="display: block;"], [style*="position: fixed"][style*="-188"], [style*="!important;"][style*="width:"][style*="height:"][style*="position"][style*="left:"][style*="top:"][style*="display"], [data-freestar-ad="123"]):not(:empty)
 ##.ads_banner:not([style^="width: 32px"], [style^="width: 33px"], [style*="left: -43px"], [style*="-3"][style*="important"][style*="display: block;"], [style*="position: fixed"][style*="-188"], [style*="!important;"][style*="width:"][style*="height:"][style*="position"][style*="left:"][style*="top:"][style*="display"]):not(:empty)
+freegen.app#$##adblockOverlay { display: none !important; }
+freegen.app#$#html, body { overflow: auto !important; }
+freegen.app#@#.ad_unit
 dramaflix.cc#@#.google-ad
 dramaflix.cc#@#.adsbygoogle-noablate
 dramaflix.cc#@#.ad-slot
@@ -14031,6 +14034,10 @@ skmedix.pl,interia.pl,trojmiasto.pl,js.iplsc.com,pomponik.pl,posty.pl,zalajkowan
 skmedix.pl,interia.pl,trojmiasto.pl,js.iplsc.com,pomponik.pl,posty.pl,zalajkowane.pl,kulinarnapolska.org,wroclawskiejedzenie.pl,innpoland.pl,mywrestling.com.pl,andek.com.pl,smartage.pl,joemonster.org,tajemnice-swiata.pl,naszraciborz.pl,natemat.pl,stadionowioprawcy.net,fortnitepolska.pl,sadistic.pl,napisy24.pl,mamadu.pl,towideo.pl,forsal.pl,kresy.pl,mambiznes.pl,prnews.pl,weszlo.com,dziwneobrazki.pl#@#.text_ad
 skmedix.pl,interia.pl,trojmiasto.pl,js.iplsc.com,pomponik.pl,posty.pl,zalajkowane.pl,kulinarnapolska.org,wroclawskiejedzenie.pl,innpoland.pl,mywrestling.com.pl,andek.com.pl,smartage.pl,joemonster.org,tajemnice-swiata.pl,naszraciborz.pl,natemat.pl,stadionowioprawcy.net,fortnitepolska.pl,sadistic.pl,napisy24.pl,mamadu.pl,towideo.pl,forsal.pl,kresy.pl,mambiznes.pl,prnews.pl,weszlo.com,dziwneobrazki.pl#@#.text_ads
 roweroweporady.pl#@#.ad_container
+biznesenter.pl##.post-ad-content
+pcformat.pl##.pcf-ad-slot-wrap
+pcformat.pl##.pcf-sidebar-ad-top
+computerworld.pl##div[class*="-ads-placement"]
 docchi.pl##.adcash-banner-wrapper
 fashionbiznes.pl##div[class^="optad"]
 e-katalog.pl#$#.header { margin-top: 0 !important; }
@@ -16413,6 +16420,7 @@ polygamia.pl,dobreprogramy.pl##div[class*=" "]:has(> div:first-child + img[src*=
 turystyka.wp.pl,finanse.wp.pl,film.wp.pl,kobieta.wp.pl,komorkomania.pl,tech.wp.pl,gadzetomania.pl,polygamia.pl,dobreprogramy.pl##div[class*=" "]:has(> img[src*="://v.wpimg.pl/"] + div[class] > style:first-child + div:last-child)
 dobreprogramy.pl#$#body:not(#bd):not([style*="background-image:"]) { background-image:none!important; }
 homebook.pl,abczdrowie.pl,autokult.pl,dobreprogramy.pl,echirurgia.pl,fotoblogia.pl,gadzetomania.pl,jejswiat.pl,kafeteria.pl,komorkomania.pl,luxlux.pl,mixer.pl,money.pl,nocowanie.pl,o2.pl,open.fm,parenting.pl,pinger.pl,pogodnie.pl,pudelek.pl,samosia.pl,wp.pl#$#body { pointer-events: auto !important; }
+spidersweb.pl##div[class^="Header_container"] > a[target="_blank"]
 spidersweb.pl##div[data-prebid-slot]
 spidersweb.pl##.ad-left + div[style="height: 250px;"]
 spidersweb.pl##.ad-left + div:not([class], [id]) > div[style="position: absolute; font-size: 12px;"]
@@ -24817,7 +24825,7 @@ earth.com##div[style="min-width:200px;min-height:250px"]
 thebrighterside.news##.didna-adhesion-bottom
 thebrighterside.news##div[data-testid="mesh-container-content"] > div[id^="comp-"]:not(.wixui-horizontal-line):empty
 forbes.com##.grid__ad-container--amp
-espncricinfo.com##.ci-story-content-ad
+cricinfo.com,espncricinfo.com##.ci-story-content-ad
 petkeen.com##.sidebar__opp
 andhrafriends.com###ipsLayout_mainArea > center > table
 a2zapk.dev##.RightAside

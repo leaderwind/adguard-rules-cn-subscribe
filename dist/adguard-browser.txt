@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Browser
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202607130356
-! Last modified: 2026-07-13T03:56:37Z
+! Version: 202607130734
+! Last modified: 2026-07-13T07:34:50Z
 ! Layers: network,content,scriptlet
 ! Mode: standard
-! Rules: 115827
+! Rules: 115835
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -17532,6 +17532,7 @@ $cookie=__adblocker,domain=slate.com|thehindubusinessline.com
 ||claimfey.com/cryptonews/wp-content/uploads/bqanwcfp.js
 @@||static.trafficjunky.com/ab/ads_test.js$domain=bztube.com|hotovs.com|insuredhome.org|nudegista.com|pornluck.com|vidd.se|redtube.*|youpornru.com|tube8.com|tube8.es|tube8.fr|tube8.net|pornhub.com|pornhub.org|pornhub.net
 @@://www.exoclick.com/ads.js|
+@@||buysellads.net/pub/freegen.js$xmlhttprequest,domain=freegen.app
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=dramaflix.cc
 ||555fap.com/upload/assets/js/anti-adblock.js
 ||fc2ppv.*/upload/assets/js/anti-adblock.js
@@ -26831,8 +26832,6 @@ new-game-apk.com/wp-content/uploads/2017/*_SLUT_18_*.gif
 ||ioredi.com/apu.php^$redirect=nooptext,important
 ||static.javhd.com/sb/720_100_javhd.jpg
 ||theporndude.com/promo/$third-party
-||naughtyblog.org/wp-content/cache/minify/1e473.js
-||naughtyblog.org/*/*.php|
 ||nxgx.com/Scripts/fl12.js
 ||prepathon.com/embeds/vqa/*&utm_campaign=vqa_ads
 ||japanesefuck.com/adboom.php
@@ -35034,6 +35033,7 @@ _800x80_
 ||kagonst.com^$document
 ||kaminari.systems^$document
 ||ker2clk.com^$document
+||kinetiksoft.com^$document
 ||kstrk.com^$document
 ||ku42hjr2e.com^$document
 ||lamplynx.com^$document
@@ -35194,6 +35194,7 @@ _800x80_
 ||racunn.com^$document
 ||radiancerelaysacred.com^$document
 ||ragan-qdr.com^$document
+||rak8s.com^$document
 ||rbtfit.com^$document
 ||rcdn-web.com^$document
 ||realsh.xyz^$document
@@ -35227,6 +35228,7 @@ _800x80_
 ||sabasadara.com^$document
 ||safeonlinetips.com^$document
 ||savinist.com^$document
+||scarfstartpickle.com^$document
 ||schedulerationally.com^$document
 ||security-suggestion.com^$document
 ||security-u.com^$document
@@ -43079,6 +43081,9 @@ youporn.com$$script:contains(/window\.[\s\S]*?_zone_[\s\S]*?{"zone_id":/)
 #@#.ads_banner
 ##.stickyads:not([style^="width: 32px"], [style^="width: 33px"], [style*="left: -43px"], [style*="-3"][style*="important"][style*="display: block;"], [style*="position: fixed"][style*="-188"], [style*="!important;"][style*="width:"][style*="height:"][style*="position"][style*="left:"][style*="top:"][style*="display"], [data-freestar-ad="123"]):not(:empty)
 ##.ads_banner:not([style^="width: 32px"], [style^="width: 33px"], [style*="left: -43px"], [style*="-3"][style*="important"][style*="display: block;"], [style*="position: fixed"][style*="-188"], [style*="!important;"][style*="width:"][style*="height:"][style*="position"][style*="left:"][style*="top:"][style*="display"]):not(:empty)
+freegen.app#$##adblockOverlay { display: none !important; }
+freegen.app#$#html, body { overflow: auto !important; }
+freegen.app#@#.ad_unit
 dramaflix.cc#@#.google-ad
 dramaflix.cc#@#.adsbygoogle-noablate
 dramaflix.cc#@#.ad-slot
@@ -47761,6 +47766,10 @@ skmedix.pl,interia.pl,trojmiasto.pl,js.iplsc.com,pomponik.pl,posty.pl,zalajkowan
 skmedix.pl,interia.pl,trojmiasto.pl,js.iplsc.com,pomponik.pl,posty.pl,zalajkowane.pl,kulinarnapolska.org,wroclawskiejedzenie.pl,innpoland.pl,mywrestling.com.pl,andek.com.pl,smartage.pl,joemonster.org,tajemnice-swiata.pl,naszraciborz.pl,natemat.pl,stadionowioprawcy.net,fortnitepolska.pl,sadistic.pl,napisy24.pl,mamadu.pl,towideo.pl,forsal.pl,kresy.pl,mambiznes.pl,prnews.pl,weszlo.com,dziwneobrazki.pl#@#.text_ad
 skmedix.pl,interia.pl,trojmiasto.pl,js.iplsc.com,pomponik.pl,posty.pl,zalajkowane.pl,kulinarnapolska.org,wroclawskiejedzenie.pl,innpoland.pl,mywrestling.com.pl,andek.com.pl,smartage.pl,joemonster.org,tajemnice-swiata.pl,naszraciborz.pl,natemat.pl,stadionowioprawcy.net,fortnitepolska.pl,sadistic.pl,napisy24.pl,mamadu.pl,towideo.pl,forsal.pl,kresy.pl,mambiznes.pl,prnews.pl,weszlo.com,dziwneobrazki.pl#@#.text_ads
 roweroweporady.pl#@#.ad_container
+biznesenter.pl##.post-ad-content
+pcformat.pl##.pcf-ad-slot-wrap
+pcformat.pl##.pcf-sidebar-ad-top
+computerworld.pl##div[class*="-ads-placement"]
 docchi.pl##.adcash-banner-wrapper
 fashionbiznes.pl##div[class^="optad"]
 e-katalog.pl#$#.header { margin-top: 0 !important; }
@@ -50143,6 +50152,7 @@ polygamia.pl,dobreprogramy.pl##div[class*=" "]:has(> div:first-child + img[src*=
 turystyka.wp.pl,finanse.wp.pl,film.wp.pl,kobieta.wp.pl,komorkomania.pl,tech.wp.pl,gadzetomania.pl,polygamia.pl,dobreprogramy.pl##div[class*=" "]:has(> img[src*="://v.wpimg.pl/"] + div[class] > style:first-child + div:last-child)
 dobreprogramy.pl#$#body:not(#bd):not([style*="background-image:"]) { background-image:none!important; }
 homebook.pl,abczdrowie.pl,autokult.pl,dobreprogramy.pl,echirurgia.pl,fotoblogia.pl,gadzetomania.pl,jejswiat.pl,kafeteria.pl,komorkomania.pl,luxlux.pl,mixer.pl,money.pl,nocowanie.pl,o2.pl,open.fm,parenting.pl,pinger.pl,pogodnie.pl,pudelek.pl,samosia.pl,wp.pl#$#body { pointer-events: auto !important; }
+spidersweb.pl##div[class^="Header_container"] > a[target="_blank"]
 spidersweb.pl##div[data-prebid-slot]
 spidersweb.pl##.ad-left + div[style="height: 250px;"]
 spidersweb.pl##.ad-left + div:not([class], [id]) > div[style="position: absolute; font-size: 12px;"]
@@ -58547,7 +58557,7 @@ earth.com##div[style="min-width:200px;min-height:250px"]
 thebrighterside.news##.didna-adhesion-bottom
 thebrighterside.news##div[data-testid="mesh-container-content"] > div[id^="comp-"]:not(.wixui-horizontal-line):empty
 forbes.com##.grid__ad-container--amp
-espncricinfo.com##.ci-story-content-ad
+cricinfo.com,espncricinfo.com##.ci-story-content-ad
 petkeen.com##.sidebar__opp
 andhrafriends.com###ipsLayout_mainArea > center > table
 a2zapk.dev##.RightAside
@@ -94615,6 +94625,7 @@ youporn.com,bztube.com,hotovs.com,insuredhome.org,nudegista.com,pornluck.com,vid
 pornhub.com,pornhub.org,pornhub.net#%#//scriptlet('set-constant', 'page_params.holiday_promo_prem', 'true')
 pornhub.com,pornhub.org,pornhub.net#%#//scriptlet('prevent-setTimeout', '\x41\x64\x62\x6c\x6f\x63\x6b\x20\x66\x6f\x72\x20\x70\x6f\x72\x6e\x68\x75\x62')
 youporn.com#%#//scriptlet('remove-node-text', 'script', '/window\.[\s\S]*?_zone_[\s\S]*?{"zone_id":/')
+freegen.app#%#//scriptlet('abort-on-stack-trace', 'Promise.all', 'runCheck')
 dramaflix.cc#%#//scriptlet('prevent-fetch', 'adsbygoogle')
 dramaflix.cc#%#//scriptlet('prevent-setTimeout', 'offsetHeight')
 allinonerebornvip.blogspot.com#%#//scriptlet('prevent-addEventListener', 'DOMContentLoaded', 'detectAdblock')
@@ -98815,8 +98826,8 @@ omnicalculator.com#%#//scriptlet('json-prune', 'runtimeConfig.adShieldEnabled')
 pics-view.com#%#//scriptlet('prevent-addEventListener', 'click', 'link.click')
 thestreet.com,nextchessmove.com#%#//scriptlet('trusted-replace-argument', 'Element.prototype.setAttribute', '1', 'replace:/.+error-report.+//g')
 thestreet.com,nextchessmove.com#%#//scriptlet('remove-node-text', 'script', 'head.appendChild.bind')
-coolmathgames.com#%#//scriptlet('abort-current-inline-script', 'sessionStorage', 'html-load.com')
-coolmathgames.com,biancazapatka.com,mexicoinmykitchen.com,advnture.com,avnetwork.com,bikeperfect.com,fitandwell.com,imore.com,itpro.com,laptopmag.com,tvtechnology.com,androidcentral.com,rainbowplantlife.com,joyusgarden.com,cinemablend.com,creativebloq.com,cyclingnews.com,cyclingweekly.com,decanter.com,digitalcameraworld.com,fourfourtwo.com,guitarworld.com,homesandgardens.com,idealhome.co.uk,kiplinger.com,livingetc.com,loudersound.com,marieclaire.co.uk,marieclaire.com,moneyweek.com,space.com,t3.com,theweek.co.uk,tomsguide.com,wallpaper.com,whathifi.com,whattowatch.com,whowhatwear.com,womanandhome.com,techradar.com,gamesradar.com,tomshardware.com,windowscentral.com,chunkbase.com,wetter.com,appunwrapper.com,iambaker.net,si.com,glutenfreeonashoestring.com,madaboutfood.co,galonamission.com,iheartnaptime.net,momontimeout.com,31daily.com,easydessertrecipes.com,dessertsonadime.com,skinnytaste.com,thehomesteadinghippy.com,intoindiegames.com,1lumen.com,wholesomeyum.com,yahoo.com,awellstyledlife.com,indianhealthyrecipes.com,stocktwits.com,sallysbakingaddiction.com#%#//scriptlet('abort-current-inline-script', 'document.createElement', '/html-load\.com|error-report\.com|if\(await eval/')
+gamebanana.com,coolmathgames.com#%#//scriptlet('abort-current-inline-script', 'sessionStorage', 'html-load.com')
+gamebanana.com,coolmathgames.com,biancazapatka.com,mexicoinmykitchen.com,advnture.com,avnetwork.com,bikeperfect.com,fitandwell.com,imore.com,itpro.com,laptopmag.com,tvtechnology.com,androidcentral.com,rainbowplantlife.com,joyusgarden.com,cinemablend.com,creativebloq.com,cyclingnews.com,cyclingweekly.com,decanter.com,digitalcameraworld.com,fourfourtwo.com,guitarworld.com,homesandgardens.com,idealhome.co.uk,kiplinger.com,livingetc.com,loudersound.com,marieclaire.co.uk,marieclaire.com,moneyweek.com,space.com,t3.com,theweek.co.uk,tomsguide.com,wallpaper.com,whathifi.com,whattowatch.com,whowhatwear.com,womanandhome.com,techradar.com,gamesradar.com,tomshardware.com,windowscentral.com,chunkbase.com,wetter.com,appunwrapper.com,iambaker.net,si.com,glutenfreeonashoestring.com,madaboutfood.co,galonamission.com,iheartnaptime.net,momontimeout.com,31daily.com,easydessertrecipes.com,dessertsonadime.com,skinnytaste.com,thehomesteadinghippy.com,intoindiegames.com,1lumen.com,wholesomeyum.com,yahoo.com,awellstyledlife.com,indianhealthyrecipes.com,stocktwits.com,sallysbakingaddiction.com#%#//scriptlet('abort-current-inline-script', 'document.createElement', '/html-load\.com|error-report\.com|if\(await eval/')
 quizlet.com#%#//scriptlet('set-constant', 'adshield', 'emptyObj')
 theanalyst.com,apnews.com,leboncoin.fr#%#//scriptlet('abort-current-inline-script', 'btoa', 'HTMLIFrameElement_contentWindow')
 tz.de#%#//scriptlet('abort-on-stack-trace', 'globalThis', 'loader.min.js')
@@ -102750,9 +102761,6 @@ yatu.tv,yhdm7.com,yhdm95.com,xdm530.com##+js(aopw,document.oncontextmenu)
 .php?zoneid=$script
 ://ads.$popup,domain=~ad.olx.pl|~ads.mercadolibre.com.ar|~ads.mercadolibre.com.cl|~ads.mercadolibre.com.co|~ads.mercadolibre.com.ec|~ads.mercadolibre.com.mx|~ads.mercadolibre.com.pe|~ads.mercadolibre.com.ve|~ads.mercadolivre.com.br|~ads.openai.com|~ads.pandauth.com|~ads.umd.edu|~axon.ai|~kakaku.com|~reddit.com|~smartnews.com
 ://adv.$popup,domain=~adv.kompas.id|~adv.lack-girl.com
-||kinetiksoft.com^$document
-||rak8s.com^$document
-||scarfstartpickle.com^$document
 ||lockerdome.com^$third-party
 ||35.227.234.222^
 ||35.232.188.118^

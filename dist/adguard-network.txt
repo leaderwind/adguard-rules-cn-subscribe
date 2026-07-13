@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Network
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202607130356
-! Last modified: 2026-07-13T03:56:37Z
+! Version: 202607130734
+! Last modified: 2026-07-13T07:34:50Z
 ! Layers: network
 ! Mode: standard
-! Rules: 47470
+! Rules: 47469
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -8319,6 +8319,7 @@ $cookie=__adblocker,domain=slate.com|thehindubusinessline.com
 ||claimfey.com/cryptonews/wp-content/uploads/bqanwcfp.js
 @@||static.trafficjunky.com/ab/ads_test.js$domain=bztube.com|hotovs.com|insuredhome.org|nudegista.com|pornluck.com|vidd.se|redtube.*|youpornru.com|tube8.com|tube8.es|tube8.fr|tube8.net|pornhub.com|pornhub.org|pornhub.net
 @@://www.exoclick.com/ads.js|
+@@||buysellads.net/pub/freegen.js$xmlhttprequest,domain=freegen.app
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=dramaflix.cc
 ||555fap.com/upload/assets/js/anti-adblock.js
 ||fc2ppv.*/upload/assets/js/anti-adblock.js
@@ -17618,8 +17619,6 @@ new-game-apk.com/wp-content/uploads/2017/*_SLUT_18_*.gif
 ||ioredi.com/apu.php^$redirect=nooptext,important
 ||static.javhd.com/sb/720_100_javhd.jpg
 ||theporndude.com/promo/$third-party
-||naughtyblog.org/wp-content/cache/minify/1e473.js
-||naughtyblog.org/*/*.php|
 ||nxgx.com/Scripts/fl12.js
 ||prepathon.com/embeds/vqa/*&utm_campaign=vqa_ads
 ||japanesefuck.com/adboom.php
@@ -25821,6 +25820,7 @@ _800x80_
 ||kagonst.com^$document
 ||kaminari.systems^$document
 ||ker2clk.com^$document
+||kinetiksoft.com^$document
 ||kstrk.com^$document
 ||ku42hjr2e.com^$document
 ||lamplynx.com^$document
@@ -25981,6 +25981,7 @@ _800x80_
 ||racunn.com^$document
 ||radiancerelaysacred.com^$document
 ||ragan-qdr.com^$document
+||rak8s.com^$document
 ||rbtfit.com^$document
 ||rcdn-web.com^$document
 ||realsh.xyz^$document
@@ -26014,6 +26015,7 @@ _800x80_
 ||sabasadara.com^$document
 ||safeonlinetips.com^$document
 ||savinist.com^$document
+||scarfstartpickle.com^$document
 ||schedulerationally.com^$document
 ||security-suggestion.com^$document
 ||security-u.com^$document
@@ -34719,9 +34721,6 @@ template/m1938pc/ads/*.js
 .php?zoneid=$script
 ://ads.$popup,domain=~ad.olx.pl|~ads.mercadolibre.com.ar|~ads.mercadolibre.com.cl|~ads.mercadolibre.com.co|~ads.mercadolibre.com.ec|~ads.mercadolibre.com.mx|~ads.mercadolibre.com.pe|~ads.mercadolibre.com.ve|~ads.mercadolivre.com.br|~ads.openai.com|~ads.pandauth.com|~ads.umd.edu|~axon.ai|~kakaku.com|~reddit.com|~smartnews.com
 ://adv.$popup,domain=~adv.kompas.id|~adv.lack-girl.com
-||kinetiksoft.com^$document
-||rak8s.com^$document
-||scarfstartpickle.com^$document
 ||lockerdome.com^$third-party
 ||35.227.234.222^
 ||35.232.188.118^

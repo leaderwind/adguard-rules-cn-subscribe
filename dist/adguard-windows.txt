@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Windows
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202607131722
-! Last modified: 2026-07-13T17:22:05Z
+! Version: 202607131945
+! Last modified: 2026-07-13T19:45:41Z
 ! Layers: network,content,scriptlet
 ! Mode: standard
-! Rules: 115833
+! Rules: 115835
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -17627,6 +17627,7 @@ $cookie=__adblocker,domain=slate.com|thehindubusinessline.com
 /favicon.ico$image,third-party,redirect=32x32-transparent.png,domain=cricket365.com|football365.com|golf365.com|loverugbyleague.com|planetf1.com|planetfootball.com|planetrugby.com|teamtalk.com|tennis365.com,important
 @@/favicon.ico$domain=cricket365.com|football365.com|golf365.com|loverugbyleague.com|planetf1.com|planetfootball.com|planetrugby.com|teamtalk.com|tennis365.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=ftuapps.farlad.com
+||cloudfam.io^$replace=/if\s*\(!blocked\)/if(!0)/,document
 @@||cloudfam.io^$generichide
 @@||cloudfam.io/assets/ads/adsense.js
 @@||cloudfam.io/assets/ads/gpt-publisher.js
@@ -53293,7 +53294,7 @@ hotcleaner.com##div:empty
 psa.wf##a[href^="https://fileserve.com/"]
 uploadg.com##div.backdrop-blur-sm > div.relative > div.flex.rounded-xl
 uploadg.com##.ad-host
-cloudfam.io##.cf-body > .cf-ad-box
+cloudfam.io##.cf-ad-box
 fapnado.com##.fluid_html_on_pause_container
 fapnado.com##div[style="height: 400px; width: 1240px; margin: 0 auto; text-align: center;"]
 fapnado.com##a[href^="https://www.tckcandy.com/"]
@@ -94720,6 +94721,7 @@ ftuapps.farlad.com#%#//scriptlet('remove-node-text', 'script', 'showAntiAdblockO
 nathanmichaelphoto.com,torupload.com#%#//scriptlet('set-constant', 'loadads', 'noopFunc')
 torupload.com#%#//scriptlet('prevent-element-src-loading', 'img', 'googlesyndication.com')
 nzn3.org,bysevepoin.com,arbitrarydecisions.com#%#//scriptlet('json-prune', 'adblock_detection force_disable_adblock')
+cloudfam.io#%#//scriptlet('trusted-replace-node-text', 'script', 'blocked', '/if\s*\(!blocked\)/g', 'if(!0)')
 cloudfam.io#%#(()=>{const e={apply:(e,t,n)=>{const o=Reflect.apply(e,t,n);try{o instanceof HTMLIFrameElement&&""===o.src&&o.contentWindow&&(o.contentWindow.fetch=window.fetch,o.contentWindow.getComputedStyle=window.getComputedStyle)}catch(e){}return o}};Node.prototype.appendChild=new Proxy(Node.prototype.appendChild,e)})();
 cloudfam.io#%#//scriptlet('trusted-replace-argument', 'Blob', '0', 'emptyArr', '/\(.+\.data\.url/')
 cloudfam.io#%#//scriptlet('abort-on-stack-trace', 'document.createElement', '/openAdWithFallback|getNativeApis/')

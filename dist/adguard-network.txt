@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Network
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202607131722
-! Last modified: 2026-07-13T17:22:05Z
+! Version: 202607131945
+! Last modified: 2026-07-13T19:45:41Z
 ! Layers: network
 ! Mode: standard
-! Rules: 47476
+! Rules: 47477
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -8414,6 +8414,7 @@ $cookie=__adblocker,domain=slate.com|thehindubusinessline.com
 /favicon.ico$image,third-party,redirect=32x32-transparent.png,domain=cricket365.com|football365.com|golf365.com|loverugbyleague.com|planetf1.com|planetfootball.com|planetrugby.com|teamtalk.com|tennis365.com,important
 @@/favicon.ico$domain=cricket365.com|football365.com|golf365.com|loverugbyleague.com|planetf1.com|planetfootball.com|planetrugby.com|teamtalk.com|tennis365.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=ftuapps.farlad.com
+||cloudfam.io^$replace=/if\s*\(!blocked\)/if(!0)/,document
 @@||cloudfam.io^$generichide
 @@||cloudfam.io/assets/ads/adsense.js
 @@||cloudfam.io/assets/ads/gpt-publisher.js

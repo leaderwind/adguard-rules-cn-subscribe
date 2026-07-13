@@ -1,8 +1,8 @@
 ! Title: AdGuard Rules CN - Content
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202607131722
-! Last modified: 2026-07-13T17:22:05Z
+! Version: 202607131945
+! Last modified: 2026-07-13T19:45:41Z
 ! Layers: content
 ! Mode: standard
 ! Rules: 63016
@@ -19554,7 +19554,7 @@ hotcleaner.com##div:empty
 psa.wf##a[href^="https://fileserve.com/"]
 uploadg.com##div.backdrop-blur-sm > div.relative > div.flex.rounded-xl
 uploadg.com##.ad-host
-cloudfam.io##.cf-body > .cf-ad-box
+cloudfam.io##.cf-ad-box
 fapnado.com##.fluid_html_on_pause_container
 fapnado.com##div[style="height: 400px; width: 1240px; margin: 0 auto; text-align: center;"]
 fapnado.com##a[href^="https://www.tckcandy.com/"]

@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Pending Review (Not AI-reviewed)
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202607122306
-! Last modified: 2026-07-12T23:06:51Z
+! Version: 202607130008
+! Last modified: 2026-07-13T00:08:18Z
 ! Layers: dns
 ! Mode: standard
-! Rules: 218949
+! Rules: 218963
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -179172,6 +179172,10 @@
 ||zzy1.quyaoya.com^
 ||zzycj.com^
 ||zzz.onion.pet^
+||xxp4802or.com^
+||x94pjnejo.com^
+||wheelbarrow64.com^
+||bzxkfnsexolzbu.com^
 ||piguiqproxy.com^$badfilter
 /^https:\/\/[0-9a-z]+\.xyz\/rinku\/land/$document,~third-party,match-case,replace=/const proxyStatus = "Y";/const proxyStatus = "N";/
 /js/sextb.js$domain=sextb.date|sextb.net,replace=/if\(checkads\(\)==false\)/if(!0)/
@@ -179199,6 +179203,14 @@
 ||freeadultcomix.com^$badfilter
 ||imgshare.info^$badfilter
 @@||connectivitycheck.gstatic.com^$important
+||brtowphqrzxww.site^
+||dsejee.com^
+||epoptesdiecaseyaourt.cyou^
+||hhuhwkfwugi.com^
+||igzynuqksgauf.site^
+||njnxeeqdcmllq.online^
+||toledandevide.shop^
+||trsadeuexufh.com^
 /(https?:\/\/)104\.154\..{100,}/
 /(https?:\/\/)104\.197\..{100,}/
 /(https?:\/\/)104\.198\..{100,}/
@@ -195856,9 +195868,11 @@
 ||zysuvysaj.pro^
 ||zzux.com^
 ||sobot.com^
-||brtowphqrzxww.site^
-||dsejee.com^
-||trsadeuexufh.com^
+||221settings.com^
+||64streamline.net^
+||ppysmqqjwpwpy.space^
+||rezfdhzncvoqv.site^
+||vdkdxarnqiaedw.com^
 ||mobile.pipe.aria.microsoft.com^
 ||cu-cn-north00001.gala.convection.cn^
 ||xvtelink.com^

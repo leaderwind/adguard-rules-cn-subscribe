@@ -1,8 +1,8 @@
 ! Title: AdGuard Rules CN - Network
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202607141410
-! Last modified: 2026-07-14T14:10:04Z
+! Version: 202607141544
+! Last modified: 2026-07-14T15:44:38Z
 ! Layers: network
 ! Mode: standard
 ! Rules: 47473
@@ -8322,14 +8322,15 @@ $cookie=__adblocker,domain=slate.com|thehindubusinessline.com
 ||claimfey.com/cryptonews/wp-content/uploads/bqanwcfp.js
 @@||static.trafficjunky.com/ab/ads_test.js$domain=bztube.com|hotovs.com|insuredhome.org|nudegista.com|pornluck.com|vidd.se|redtube.*|youpornru.com|tube8.com|tube8.es|tube8.fr|tube8.net|pornhub.com|pornhub.org|pornhub.net
 @@://www.exoclick.com/ads.js|
+@@||static.doubleclick.net/pcs/click?ts=$image,domain=indratranslations.com
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=indratranslations.com
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?ts=$script,domain=indratranslations.com
+/assets/js/anti-adblock.js$domain=555fap.com|fc2ppv.*|4up.pics|rimworldbase.com|anime-jav.com|javtele.net|javball.com
 @@||buysellads.net/pub/freegen.js$xmlhttprequest,domain=freegen.app
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=dramaflix.cc
-||555fap.com/upload/assets/js/anti-adblock.js
-||fc2ppv.*/upload/assets/js/anti-adblock.js
 @@||allinonerebornvip.blogspot.com^$generichide
 @@||gsmfile2025.blogspot.com^$generichide
 @@||xdownloaderz.com^$generichide
-||4up.pics/assets/js/anti-adblock.js
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=firestream.to
 ||leeapk.com/wp-content/plugins/leeapk-adblock-detector/
 @@||static.doubleclick.net/instream/ad_status.js$domain=flacdownloader.com
@@ -10532,7 +10533,6 @@ $script,redirect-rule=noopjs,domain=vidmoly.biz|vidmoly.me|vidmoly.net|vidmoly.t
 @@||googleads.g.doubleclick.net/pagead/ads?client=ca-pub-$subdocument,domain=filecr.com
 ||cdn.staticaly.com/gist/pyarmeindia/*/raw/*/gourabblock.js$third-party
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=noopjs,important,domain=softwarecrackguru.com
-||rimworldbase.com/wp-content/plugins/mireia-tools/assets/js/anti-adblock.js
 @@||viptools.es/assets/ads.js
 @@||adslink.pw/advertisement.js
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=cdnvideo.me

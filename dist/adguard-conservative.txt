@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Conservative
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202607141410
-! Last modified: 2026-07-14T14:10:04Z
+! Version: 202607141544
+! Last modified: 2026-07-14T15:44:38Z
 ! Layers: network,content,scriptlet
 ! Mode: conservative
-! Rules: 107981
+! Rules: 107987
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -17180,14 +17180,15 @@ rvlev.com,t66y.com#?#[class]:-abp-has(>a[onmouseover="this.style.background='#DE
 ||claimfey.com/cryptonews/wp-content/uploads/bqanwcfp.js
 @@||static.trafficjunky.com/ab/ads_test.js$domain=bztube.com|hotovs.com|insuredhome.org|nudegista.com|pornluck.com|vidd.se|redtube.*|youpornru.com|tube8.com|tube8.es|tube8.fr|tube8.net|pornhub.com|pornhub.org|pornhub.net
 @@://www.exoclick.com/ads.js|
+@@||static.doubleclick.net/pcs/click?ts=$image,domain=indratranslations.com
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=indratranslations.com
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?ts=$script,domain=indratranslations.com
+/assets/js/anti-adblock.js$domain=555fap.com|fc2ppv.*|4up.pics|rimworldbase.com|anime-jav.com|javtele.net|javball.com
 @@||buysellads.net/pub/freegen.js$xmlhttprequest,domain=freegen.app
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=dramaflix.cc
-||555fap.com/upload/assets/js/anti-adblock.js
-||fc2ppv.*/upload/assets/js/anti-adblock.js
 @@||allinonerebornvip.blogspot.com^$generichide
 @@||gsmfile2025.blogspot.com^$generichide
 @@||xdownloaderz.com^$generichide
-||4up.pics/assets/js/anti-adblock.js
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=firestream.to
 ||leeapk.com/wp-content/plugins/leeapk-adblock-detector/
 @@||static.doubleclick.net/instream/ad_status.js$domain=flacdownloader.com
@@ -19329,7 +19330,6 @@ $script,redirect-rule=noopjs,domain=vidmoly.biz|vidmoly.me|vidmoly.net|vidmoly.t
 @@||googleads.g.doubleclick.net/pagead/ads?client=ca-pub-$subdocument,domain=filecr.com
 ||cdn.staticaly.com/gist/pyarmeindia/*/raw/*/gourabblock.js$third-party
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=noopjs,important,domain=softwarecrackguru.com
-||rimworldbase.com/wp-content/plugins/mireia-tools/assets/js/anti-adblock.js
 @@||viptools.es/assets/ads.js
 @@||adslink.pw/advertisement.js
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=cdnvideo.me
@@ -40528,6 +40528,10 @@ ru-clip.com###morev
 #@#.ads_banner
 ##.stickyads:not([style^="width: 32px"], [style^="width: 33px"], [style*="left: -43px"], [style*="-3"][style*="important"][style*="display: block;"], [style*="position: fixed"][style*="-188"], [style*="!important;"][style*="width:"][style*="height:"][style*="position"][style*="left:"][style*="top:"][style*="display"], [data-freestar-ad="123"]):not(:empty)
 ##.ads_banner:not([style^="width: 32px"], [style^="width: 33px"], [style*="left: -43px"], [style*="-3"][style*="important"][style*="display: block;"], [style*="position: fixed"][style*="-188"], [style*="!important;"][style*="width:"][style*="height:"][style*="position"][style*="left:"][style*="top:"][style*="display"]):not(:empty)
+indratranslations.com#@#.ad-unit:not(.textads)
+indratranslations.com#@#.adzone
+indratranslations.com#@#.adslot
+indratranslations.com#@#.ad_banner
 xoxocomic.com###adblock-overlay
 freegen.app#$##adblockOverlay { display: none !important; }
 freegen.app#$#html, body { overflow: auto !important; }
@@ -86087,6 +86091,7 @@ etonline.com##.omni-skybox-plus-stick-placeholder
 oneindia.com##.one-ad
 albernivalleynews.com,bainbridgereview.com,bakercityherald.com,bgdailynews.com,bluemountaineagle.com,bothell-reporter.com,campbellrivermirror.com,castlegarnews.com,cloverdalereporter.com,cowichanvalleycitizen.com,dailyleader.com,eaglevalleynews.com,eastoregonian.com,federalwaymirror.com,goldstreamgazette.com,interior-news.com,irontontribune.com,kelownacapnews.com,kentreporter.com,lobservateur.com,magnoliastatelive.com,mapleridgenews.com,mi-reporter.com,nanaimobulletin.com,northernsentinel.com,panews.com,peacearchnews.com,pentictonwesternnews.com,portlandtribune.com,pqbnews.com,reddeeradvocate.com,rentonreporter.com,revelstokereview.com,rosslandnews.com,saanichnews.com,salisburypost.com,saobserver.net,seattleweekly.com,sequimgazette.com,sookenewsmirror.com,surreynowleader.com,tacomadailyindex.com,terracestandard.com,thedailyworld.com,thefreepress.ca,thenorthernview.com,theprogress.com,tryondailybulletin.com,valdostadailytimes.com,vancouverislandfreedaily.com,vashonbeachcomber.com,vernonmorningstar.com,wallowa.com,whidbeynewstimes.com,wltribune.com,www.kirklandreporter.com,yukon-news.com##.one_by_one_group
 techspot.com##.onejob
+twitch.tv##.online-video-ad-container
 decrypt.co##.opacity-75
 lowtoxlife.com##.openpay-footer
 opensourceforu.com##.opens-rollup-desktop
@@ -87673,6 +87678,7 @@ enostech.com##[class^="wp-image-41"]
 torlock.com##[class^="wrn"]
 linkedin.com##[componentkey*="urn:li:sponsoredContentV2"]
 newspointapp.com##[ctn-style]
+twitch.tv##[data-a-target="outstream-ax-overlay"]
 flatpanelshd.com##[data-aa-adunit]
 dribbble.com##[data-ad-data*="ad_link"]
 nytimes.com##[data-ad-element="outer_ad_container"]

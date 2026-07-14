@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Content
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202607141410
-! Last modified: 2026-07-14T14:10:04Z
+! Version: 202607141544
+! Last modified: 2026-07-14T15:44:38Z
 ! Layers: content
 ! Mode: standard
-! Rules: 63025
+! Rules: 63031
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -9349,6 +9349,10 @@ youporn.com$$script:contains(/window\.[\s\S]*?_zone_[\s\S]*?{"zone_id":/)
 #@#.ads_banner
 ##.stickyads:not([style^="width: 32px"], [style^="width: 33px"], [style*="left: -43px"], [style*="-3"][style*="important"][style*="display: block;"], [style*="position: fixed"][style*="-188"], [style*="!important;"][style*="width:"][style*="height:"][style*="position"][style*="left:"][style*="top:"][style*="display"], [data-freestar-ad="123"]):not(:empty)
 ##.ads_banner:not([style^="width: 32px"], [style^="width: 33px"], [style*="left: -43px"], [style*="-3"][style*="important"][style*="display: block;"], [style*="position: fixed"][style*="-188"], [style*="!important;"][style*="width:"][style*="height:"][style*="position"][style*="left:"][style*="top:"][style*="display"]):not(:empty)
+indratranslations.com#@#.ad-unit:not(.textads)
+indratranslations.com#@#.adzone
+indratranslations.com#@#.adslot
+indratranslations.com#@#.ad_banner
 xoxocomic.com###adblock-overlay
 freegen.app#$##adblockOverlay { display: none !important; }
 freegen.app#$#html, body { overflow: auto !important; }
@@ -55151,6 +55155,7 @@ etonline.com##.omni-skybox-plus-stick-placeholder
 oneindia.com##.one-ad
 albernivalleynews.com,bainbridgereview.com,bakercityherald.com,bgdailynews.com,bluemountaineagle.com,bothell-reporter.com,campbellrivermirror.com,castlegarnews.com,cloverdalereporter.com,cowichanvalleycitizen.com,dailyleader.com,eaglevalleynews.com,eastoregonian.com,federalwaymirror.com,goldstreamgazette.com,interior-news.com,irontontribune.com,kelownacapnews.com,kentreporter.com,lobservateur.com,magnoliastatelive.com,mapleridgenews.com,mi-reporter.com,nanaimobulletin.com,northernsentinel.com,panews.com,peacearchnews.com,pentictonwesternnews.com,portlandtribune.com,pqbnews.com,reddeeradvocate.com,rentonreporter.com,revelstokereview.com,rosslandnews.com,saanichnews.com,salisburypost.com,saobserver.net,seattleweekly.com,sequimgazette.com,sookenewsmirror.com,surreynowleader.com,tacomadailyindex.com,terracestandard.com,thedailyworld.com,thefreepress.ca,thenorthernview.com,theprogress.com,tryondailybulletin.com,valdostadailytimes.com,vancouverislandfreedaily.com,vashonbeachcomber.com,vernonmorningstar.com,wallowa.com,whidbeynewstimes.com,wltribune.com,www.kirklandreporter.com,yukon-news.com##.one_by_one_group
 techspot.com##.onejob
+twitch.tv##.online-video-ad-container
 decrypt.co##.opacity-75
 lowtoxlife.com##.openpay-footer
 opensourceforu.com##.opens-rollup-desktop
@@ -56737,6 +56742,7 @@ enostech.com##[class^="wp-image-41"]
 torlock.com##[class^="wrn"]
 linkedin.com##[componentkey*="urn:li:sponsoredContentV2"]
 newspointapp.com##[ctn-style]
+twitch.tv##[data-a-target="outstream-ax-overlay"]
 flatpanelshd.com##[data-aa-adunit]
 dribbble.com##[data-ad-data*="ad_link"]
 nytimes.com##[data-ad-element="outer_ad_container"]

@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Content
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202607140622
-! Last modified: 2026-07-14T06:22:49Z
+! Version: 202607140915
+! Last modified: 2026-07-14T09:15:52Z
 ! Layers: content
 ! Mode: standard
-! Rules: 63018
+! Rules: 63022
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -9349,6 +9349,7 @@ youporn.com$$script:contains(/window\.[\s\S]*?_zone_[\s\S]*?{"zone_id":/)
 #@#.ads_banner
 ##.stickyads:not([style^="width: 32px"], [style^="width: 33px"], [style*="left: -43px"], [style*="-3"][style*="important"][style*="display: block;"], [style*="position: fixed"][style*="-188"], [style*="!important;"][style*="width:"][style*="height:"][style*="position"][style*="left:"][style*="top:"][style*="display"], [data-freestar-ad="123"]):not(:empty)
 ##.ads_banner:not([style^="width: 32px"], [style^="width: 33px"], [style*="left: -43px"], [style*="-3"][style*="important"][style*="display: block;"], [style*="position: fixed"][style*="-188"], [style*="!important;"][style*="width:"][style*="height:"][style*="position"][style*="left:"][style*="top:"][style*="display"]):not(:empty)
+xoxocomic.com###adblock-overlay
 freegen.app#$##adblockOverlay { display: none !important; }
 freegen.app#$#html, body { overflow: auto !important; }
 freegen.app#@#.ad_unit
@@ -15955,10 +15956,10 @@ naekranie.pl##span[style*="text-align: center;"][style*="margin: 15px auto 5px a
 naekranie.pl##.right-content > div[id] > div[style*="height:600"][style*="position:relative"]
 naekranie.pl##.interia-ad
 xboxforum.pl##.adsbygoogle
-sportsinwinter.pl,ndz24.pl,przegladkoninski.pl,rzeszow.pl,esopot.pl,lowiczanin.info,gwarek.com.pl,tyna.info.pl,tusochaczew.pl,myglogow.pl,plonskwsieci.pl,spotradomsko.pl,portalsremski.pl,ekstrasierpc.pl,ki24.info,uniejow.net.pl,e-krajna.pl,gwio.pl,faktypilskie.pl,swiecie24.pl,grudziadz365.pl,mielec.pl,iszczecinek.pl,gniewkowo.eu,mojakruszwica.pl,expresskaszubski.pl,gorlice24.pl,gostyn24.pl,wpu24.pl,ddwloclawek.pl,ddtorun.pl##.baner
-sportsinwinter.pl,ndz24.pl,przegladkoninski.pl,rzeszow.pl,esopot.pl,lowiczanin.info,gwarek.com.pl,tyna.info.pl,tusochaczew.pl,myglogow.pl,plonskwsieci.pl,spotradomsko.pl,portalsremski.pl,ekstrasierpc.pl,ki24.info,uniejow.net.pl,e-krajna.pl,gwio.pl,faktypilskie.pl,swiecie24.pl,grudziadz365.pl,mielec.pl,iszczecinek.pl,gniewkowo.eu,mojakruszwica.pl,expresskaszubski.pl,gorlice24.pl,gostyn24.pl,wpu24.pl,ddwloclawek.pl,ddtorun.pl##.banner
-sportsinwinter.pl,ndz24.pl,przegladkoninski.pl,rzeszow.pl,esopot.pl,lowiczanin.info,gwarek.com.pl,tyna.info.pl,tusochaczew.pl,myglogow.pl,plonskwsieci.pl,spotradomsko.pl,portalsremski.pl,ekstrasierpc.pl,ki24.info,uniejow.net.pl,e-krajna.pl,gwio.pl,faktypilskie.pl,swiecie24.pl,grudziadz365.pl,mielec.pl,iszczecinek.pl,gniewkowo.eu,mojakruszwica.pl,expresskaszubski.pl,gorlice24.pl,gostyn24.pl,wpu24.pl,ddwloclawek.pl,ddtorun.pl##.news-slot-center
-sportsinwinter.pl,ndz24.pl,przegladkoninski.pl,rzeszow.pl,esopot.pl,lowiczanin.info,gwarek.com.pl,tyna.info.pl,tusochaczew.pl,myglogow.pl,plonskwsieci.pl,spotradomsko.pl,portalsremski.pl,ekstrasierpc.pl,ki24.info,uniejow.net.pl,e-krajna.pl,gwio.pl,faktypilskie.pl,swiecie24.pl,grudziadz365.pl,mielec.pl,iszczecinek.pl,gniewkowo.eu,mojakruszwica.pl,expresskaszubski.pl,gorlice24.pl,gostyn24.pl,wpu24.pl,ddwloclawek.pl,ddtorun.pl##.container > .justify-beewten > .relative:has(> ins[class^="staticpubads"])
+echo24.tv,sportsinwinter.pl,ndz24.pl,przegladkoninski.pl,rzeszow.pl,esopot.pl,lowiczanin.info,gwarek.com.pl,tyna.info.pl,tusochaczew.pl,myglogow.pl,plonskwsieci.pl,spotradomsko.pl,portalsremski.pl,ekstrasierpc.pl,ki24.info,uniejow.net.pl,e-krajna.pl,gwio.pl,faktypilskie.pl,swiecie24.pl,grudziadz365.pl,mielec.pl,iszczecinek.pl,gniewkowo.eu,mojakruszwica.pl,expresskaszubski.pl,gorlice24.pl,gostyn24.pl,wpu24.pl,ddwloclawek.pl,ddtorun.pl##.baner
+echo24.tv,sportsinwinter.pl,ndz24.pl,przegladkoninski.pl,rzeszow.pl,esopot.pl,lowiczanin.info,gwarek.com.pl,tyna.info.pl,tusochaczew.pl,myglogow.pl,plonskwsieci.pl,spotradomsko.pl,portalsremski.pl,ekstrasierpc.pl,ki24.info,uniejow.net.pl,e-krajna.pl,gwio.pl,faktypilskie.pl,swiecie24.pl,grudziadz365.pl,mielec.pl,iszczecinek.pl,gniewkowo.eu,mojakruszwica.pl,expresskaszubski.pl,gorlice24.pl,gostyn24.pl,wpu24.pl,ddwloclawek.pl,ddtorun.pl##.banner
+echo24.tv,sportsinwinter.pl,ndz24.pl,przegladkoninski.pl,rzeszow.pl,esopot.pl,lowiczanin.info,gwarek.com.pl,tyna.info.pl,tusochaczew.pl,myglogow.pl,plonskwsieci.pl,spotradomsko.pl,portalsremski.pl,ekstrasierpc.pl,ki24.info,uniejow.net.pl,e-krajna.pl,gwio.pl,faktypilskie.pl,swiecie24.pl,grudziadz365.pl,mielec.pl,iszczecinek.pl,gniewkowo.eu,mojakruszwica.pl,expresskaszubski.pl,gorlice24.pl,gostyn24.pl,wpu24.pl,ddwloclawek.pl,ddtorun.pl##.news-slot-center
+echo24.tv,sportsinwinter.pl,ndz24.pl,przegladkoninski.pl,rzeszow.pl,esopot.pl,lowiczanin.info,gwarek.com.pl,tyna.info.pl,tusochaczew.pl,myglogow.pl,plonskwsieci.pl,spotradomsko.pl,portalsremski.pl,ekstrasierpc.pl,ki24.info,uniejow.net.pl,e-krajna.pl,gwio.pl,faktypilskie.pl,swiecie24.pl,grudziadz365.pl,mielec.pl,iszczecinek.pl,gniewkowo.eu,mojakruszwica.pl,expresskaszubski.pl,gorlice24.pl,gostyn24.pl,wpu24.pl,ddwloclawek.pl,ddtorun.pl##.container > .justify-beewten > .relative:has(> ins[class^="staticpubads"])
 wpu24.pl,ddwloclawek.pl,ddtorun.pl##.TOPNewsB
 wpu24.pl,ddwloclawek.pl,ddtorun.pl##.topLayer
 wpu24.pl,ddwloclawek.pl,ddtorun.pl##.banner--toplayer
@@ -16175,6 +16176,8 @@ mgsm.pl#$#.mediafarm { height: 0 !important; }
 mgsm.pl###left-con div[style="min-height: 280px; display: flex; align-items: center; justify-content: center;"]
 mgsm.pl###left-con > .row > .columns > div[style="display: block; height: 330px; text-align:center;"]
 tv.wp.pl#?##app div[class*=" "]:matches-property("/__reactInternalInstance/.child.memoizedProps.slotNumber"="/\d+/")
+money.pl##.money-ecommerce-container
+money.pl##.wp-widget-stock .banner-container
 money.pl#?#div[data-breakpoint] > div[class^="sc-"] > div[class^="sc-"] > div[class*="sc-"]:not([class^="sc-"]) > div[class^="sc-"]:matches-css(before, content: REKLAMA)
 money.pl##iframe[src="https://direct.money.pl/promoted-offers-hp-money"]
 money.pl#?#main > div[class]:has(> iframe[src="https://direct.money.pl/promoted-offers-hp-money"]):matches-css(before, content: REKLAMA)
@@ -18783,6 +18786,7 @@ animecorner.me,zarabiajprzez24.pl,watchhentai.xxx,app-how-to-use-it.com,linuxcap
 pawastreams.*,nflbite.to,footybite.to,sportschamp.fun,afly.pro,topsporter.net,soccerstreams.football,mysocceraustralia.com,rayinfosports.com,hesgoals.top,sequencecard.xyz,totalsportek.soccer,metaporky.site,nbabite.to,cyfostreams.com,gamerarcades.com,bestreamsports.org,footy.to,mcrypto.club,greaterkashmir.com###id-custom_banner
 pawastreams.*,groundedtechs.com,rayinfosports.com,sequencecard.xyz,matchtime.co,sportspellz.com,bestreamsports.org,silverspoon.site###dismiss-btn
 vi-control.net,nullforums.net,landyzone.co.uk,nullcave.pro,woxmax.com,waskucity.com,babia.to,technofino.in,reef2reef.com,minebbs.com,craxpro.io,affiliatefix.com,myiptvforum.com,hifivision.com,worldofiptv.com,altenen.is,beermoneyforum.com,germancarforum.com,cracking.org##.samBannerUnit
+tweaktown.com##.tt-deals
 movieboxonline.net###detail-page > .mt-4 > .mt-4:has(> a.group.block[href^="https://gamixo.org/"])
 siliconrepublic.com##li:has(> div.sideads)
 gophersports.com###global-top-ad
@@ -56654,7 +56658,7 @@ securityweek.com##.zox-post-ad-wrap
 marketscreener.com##.zppAds
 newsinfo.inquirer.net##.ztoop
 wunderground.com##AD-TRIPLE-BOX
-tjrwrestling.net##[ad-slot]
+boxingnewsonline.net,tjrwrestling.net##[ad-slot]
 frzyc.github.io##[alt*="Banner"]
 cloutgist.com,codesnse.com##[alt="AD DESCRIPTION"]
 takeuforward.org##[alt="Ad Panel"]

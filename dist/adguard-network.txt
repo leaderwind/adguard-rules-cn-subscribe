@@ -1,8 +1,8 @@
 ! Title: AdGuard Rules CN - Network
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202607140622
-! Last modified: 2026-07-14T06:22:49Z
+! Version: 202607140915
+! Last modified: 2026-07-14T09:15:52Z
 ! Layers: network
 ! Mode: standard
 ! Rules: 47468
@@ -12993,9 +12993,9 @@ $script,redirect-rule=noopjs,domain=173.249.8.3
 @@||s0.2mdn.net/ads/studio/Enabler.js$domain=drogerium.pl
 @@||xboxforum.pl^$generichide
 /pl/_ajax/ablck.php|$~third-party,xmlhttprequest
-/js/html2canvas.min.js$domain=wpu24.pl|ddwloclawek.pl|ddtorun.pl|gostyn24.pl|gorlice24.pl|mojakruszwica.pl|expresskaszubski.pl|gniewkowo.eu|iszczecinek.pl|mielec.pl|grudziadz365.pl|esopot.pl|lowiczanin.info|gwarek.com.pl|tyna.info.pl|tusochaczew.pl|myglogow.pl|plonskwsieci.pl|spotradomsko.pl|portalsremski.pl|ekstrasierpc.pl|ki24.info|uniejow.net.pl|e-krajna.pl|gwio.pl|faktypilskie.pl|swiecie24.pl|rzeszow.pl|przegladkoninski.pl|ndz24.pl|sportsinwinter.pl
+/js/html2canvas.min.js$domain=wpu24.pl|ddwloclawek.pl|ddtorun.pl|gostyn24.pl|gorlice24.pl|mojakruszwica.pl|expresskaszubski.pl|gniewkowo.eu|iszczecinek.pl|mielec.pl|grudziadz365.pl|esopot.pl|lowiczanin.info|gwarek.com.pl|tyna.info.pl|tusochaczew.pl|myglogow.pl|plonskwsieci.pl|spotradomsko.pl|portalsremski.pl|ekstrasierpc.pl|ki24.info|uniejow.net.pl|e-krajna.pl|gwio.pl|faktypilskie.pl|swiecie24.pl|rzeszow.pl|przegladkoninski.pl|ndz24.pl|sportsinwinter.pl|echo24.tv
 /scripts/banners/*$domain=ddtorun.pl|przegladkoninski.pl
-/pl/js/system-ba.js$domain=ndz24.pl|sportsinwinter.pl
+/pl/js/system-ba.js$domain=ndz24.pl|sportsinwinter.pl|echo24.tv
 /pl/js/questpass-$domain=rzeszow.pl
 /pl/js/new-system.js$domain=ostrowiecka.pl|rzeszow.pl
 /js/adInitializer.js$domain=ddwloclawek.pl|ddtorun.pl
@@ -13007,7 +13007,7 @@ $script,redirect-rule=noopjs,domain=173.249.8.3
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=autocentrum.pl|autokult.pl|gadzetomania.pl|fotoblogia.pl|pudelek.pl
 ||bdr.wpcdn.pl/tag/gaftag.html
 /^https:\/\/[a-z]{2,14}\.wp\.pl\/[a-zA-Z0-9_-]{200,}/$script,domain=poczta.o2.pl,badfilter
-||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima3,important,domain=videostar.pl|o2.pl|dobreprogramy.pl|polygamia.pl|genialne.pl|pysznosci.pl|benchmark.pl|wp.pl|jastrzabpost.pl
+||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima3,important,domain=videostar.pl|o2.pl|dobreprogramy.pl|polygamia.pl|genialne.pl|pysznosci.pl|benchmark.pl|wp.pl|jastrzabpost.pl|money.pl
 ||wp.hit.gemius.pl/gplayer.js$script,redirect=noopjs,domain=videostar.pl
 ||googletagmanager.com/gtm.js?id=$script,redirect=noopjs,domain=pilot.wp.pl
 ||hit.gemius.pl/xgemius.js$script,redirect=noopjs,domain=wp.pl|money.pl|o2.pl|pudelek.pl|komorkomania.pl|gadzetomania.pl|fotoblogia.pl|autokult.pl|abczdrowie.pl|parenting.pl|videostar.pl|autocentrum.pl

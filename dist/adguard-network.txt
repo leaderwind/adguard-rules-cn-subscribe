@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Network
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202607140007
-! Last modified: 2026-07-14T00:07:28Z
+! Version: 202607140329
+! Last modified: 2026-07-14T03:29:37Z
 ! Layers: network
 ! Mode: standard
-! Rules: 47477
+! Rules: 47466
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -9767,7 +9767,6 @@ $script,xmlhttprequest,redirect-rule=noopjs,domain=freesolana.top
 @@||memangbau.com/sailthru.js
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=imagetotext.io
 @@||techniknews.net/data/ads/doubleserve.js
-@@||pastehub.net/assets/ads/advertisement.js$domain=searchresults.cc
 @@||micro.rubiconproject.com/prebid/dynamic/*.js$domain=ladbible.com|unilad.com|gamingbible.com|tyla.com
 ||googletagmanager.com/gtag/js$script,redirect=noopjs,domain=faucetofbob.xyz
 @@||googletagmanager.com/gtag/js$domain=faucetofbob.xyz
@@ -9953,8 +9952,6 @@ $xmlhttprequest,third-party,redirect-rule=noopjs,domain=bizjournals.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=tutcourse.com
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,xmlhttprequest,redirect=noopjs,domain=mix957gr.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=mix957gr.com
-||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=noopjs,domain=oxygenu.xyz
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=oxygenu.xyz
 @@||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$domain=zoomtventertainment.com
 ||cdn.jsdelivr.net/gh/Indzign/InSEO@master/levelmaxblock.js
 ||pagead2.googlesyndication.com/pagead/managed/js/adsense/*/show_ads_impl_fy2019.js$script,xmlhttprequest,redirect=noopjs,domain=beatsnoop.com
@@ -10320,7 +10317,6 @@ $script,redirect-rule=noopjs,domain=vidmoly.biz|vidmoly.me|vidmoly.net|vidmoly.t
 @@||wcoanimedub.tv/inc/embed/ads.js
 ||vladan.fr/wp-content/cache/min/1/wp-content/uploads/images/bmdqpcen-*.js
 @@||tutorial.siberuang.com/wp-content/plugins/wp-safelink/assets/fuckadblock.js
-@@||mahimeta.com/networks/ad_code.php$domain=biggboss13.io
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=googlesyndication-adsbygoogle,domain=laptrinhx.com,important
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=laptrinhx.com
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,xmlhttprequest,redirect=noopjs,domain=southindianactress.in
@@ -10463,7 +10459,6 @@ $script,redirect-rule=noopjs,domain=vidmoly.biz|vidmoly.me|vidmoly.net|vidmoly.t
 @@||ads.themoneytizer.com/*/gen.js$domain=mylink.*|my1ink.*|myl1nk.*|myli3k.*
 @@|http$script,~third-party,domain=mylink.*|my1ink.*|myl1nk.*|myli3k.*
 @@||in-page-push.com^$script,domain=mylink.*|my1ink.*|myl1nk.*|myli3k.*
-@@||freebcc.org/static/ads/popunder.js
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=googlesyndication-adsbygoogle,domain=techably.com
 ||cdn.rawgit.com/hasrul11/mass/a68bd824/script.min.js
 @@||cdn.reignn.com/Products/Reignn/DataPixels/AdBlockerCheck/ads.js
@@ -10509,8 +10504,6 @@ $script,redirect-rule=noopjs,domain=vidmoly.biz|vidmoly.me|vidmoly.net|vidmoly.t
 @@/ad.js$~third-party,domain=giveaway.su
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=noopjs,domain=sna3talaflam.com
 ||intl.startrek.com/modules/contrib/ctd_sourcepoint/js/ctd-sourcepoint.js
-@@||100count.net/*/linko/advertisement.js
-@@||freebcc.org/claim/vendor/ads/ads.js
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=vivo.sx
 @@|/wp-content/plugins/*/assets/fuckadblock.js
 @@||firefaucet.win^$generichide
@@ -10808,7 +10801,6 @@ $script,redirect-rule=noopjs,domain=vidmoly.biz|vidmoly.me|vidmoly.net|vidmoly.t
 @@||game-maps.com/ads.js
 @@||tubidy.net/ads.js
 @@||lols.gg^$generichide
-@@||100count.net^$generichide
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=cdn.witchhut.com
 @@||origin-ads.exosrv.com/ad99uip8i.php
 ||script.bloggerku.com/antiadblock/1.0/script.min.js
@@ -10988,7 +10980,6 @@ $script,redirect-rule=noopjs,domain=vidmoly.biz|vidmoly.me|vidmoly.net|vidmoly.t
 @@||pagead2.googlesyndication.com/pagead/js/r*/show_ads_impl.js$domain=emurom.net
 @@||nibbits.com^$generichide
 @@||mp4upload.com/ads.js
-@@||coingrabr.com^$generichide
 @@||wroffle.com^$generichide
 @@||wroffle.com/wp-content/plugins/ad-inserter^
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=stickgames.com
@@ -15804,7 +15795,6 @@ $script,third-party,denyallow=disquscdn.com|disqus.com|fastlylb.net,domain=bluel
 ||nsfwzone.xyz/js/jquery/*/jquery-*.min.js?v=
 ||app.audiopulsar.com/*/embed/
 ||media-cdn.synkd.life/fenix.js$domain=worldofbuzz.com
-||searchresults.cc/system.js
 ||app.wiki.gg/public/CCM_MREC_Ads_
 /\.com\/[0-9a-z]{12,}\/[0-9a-z]{12,}\.js$/$script,~third-party,domain=tube-teen-18.com|teen-hd-sex.com|xxx-asian-tube.com
 ||k1nk.co/videos/*/_.*.js
@@ -19121,7 +19111,6 @@ $image,script,stylesheet,subdocument,third-party,xmlhttprequest,domain=animepahe
 @@||bikerumor.com/detroitchicago/dayton.js
 @@||linuxize.com/porpoiseant/banger.js
 @@||linuxize.com/detroitchicago/dayton.js
-@@||freebcc.org/assets/img/ad_468x60_*.png
 @@||cntr.lookmovie.ag/get.php$xmlhttprequest,domain=lookmovie.ag
 @@||kaufdex.com/detroitchicago/dayton.js
 @@||kaufdex.com/porpoiseant/banger.js

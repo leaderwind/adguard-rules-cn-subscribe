@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Network
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202607141733
-! Last modified: 2026-07-14T17:33:21Z
+! Version: 202607141941
+! Last modified: 2026-07-14T19:41:14Z
 ! Layers: network
 ! Mode: standard
-! Rules: 47473
+! Rules: 47476
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -14379,6 +14379,8 @@ $subdocument,third-party,denyallow=disqus.com,domain=love4u.net
 $third-party,script,domain=klto9.com|f2movies.to|hacamchicac.com|yourporngod.com|zinchanmanga.com|yaoimangaonline.com|tututweak.app|mangaraw.ac|eromanga-show.com|hentai-one.com|hentaipaw.com|nukibooks.com|paipancon.com|jgvdata.com|youtubevanced.com|pandamtl.com|mangaplus.shueisha.tv|shueisharaw.tv
 ||linksconsole.com/ad-system/
 ||misc-api.feathermc.com/*/ads/ad_units?
+||ar.prd.content.itv.com/media/$domain=itv.com
+||content.swncdn.com/zcast/oneplace/
 ||assets.gnwcdn.com/prebid*.js
 ||eurogamer.net/static/*/js/commercial.min.js
 ||nudify.now/resources/js/p6.js
@@ -24299,6 +24301,8 @@ cdn.braun634.com^$third-party
 .html?clicktag=
 .in/js/footer_ad.js
 .jp/ads/$third-party,domain=~hs-exp.jp
+.js?i=*&referrer_url=
+.js?rh=*&bh=
 .lol/js/pub.min.js$third-party
 .lol/sw.js$third-party
 .net/ad2/$~xmlhttprequest
@@ -32185,7 +32189,6 @@ $popup,domain=07c225f3.online|content-loader.com|css-load.com|html-load.cc|html-
 ||akiba-online.com/data/siropu/
 ||alrincon.com/nbk/
 ||amateur.tv/misc/mYcLBNp7fx.js
-||amateur8.com/ffd5/afb.js
 ||analdin.*/html.php?aid=
 ||analsexstars.com/og/
 ||anybunny.tv/js/main.ex.js

@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Network
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202607140915
-! Last modified: 2026-07-14T09:15:52Z
+! Version: 202607141142
+! Last modified: 2026-07-14T11:42:50Z
 ! Layers: network
 ! Mode: standard
-! Rules: 47468
+! Rules: 47470
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -20333,6 +20333,8 @@ $csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: www.googletagma
 @@||beinconnect.com.tr^$stealth
 @@||account.adobe.com^$document,domain=services.adobe.com,stealth=useragent
 @@||adguard.com^$stealth
+@@/^https:\/\/mshale\.com\/[a-f0-9]{8}\/[a-zA-Z0-9]+$/$match-case,stealth=referrer|searchqueries
+@@||x.com^$stealth=flash|java
 @@||wpscdn.cn^$stealth=referrer,domain=wps.cn
 @@/proxy?data=$third-party,xmlhttprequest,stealth=referrer,domain=flixer.*
 @@||api.travelclick.com/oauth/$stealth=referrer,domain=reservations.pentahotels.com

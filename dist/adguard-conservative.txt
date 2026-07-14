@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Conservative
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202607141142
-! Last modified: 2026-07-14T11:42:50Z
+! Version: 202607141410
+! Last modified: 2026-07-14T14:10:04Z
 ! Layers: network,content,scriptlet
 ! Mode: conservative
-! Rules: 107977
+! Rules: 107981
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -16315,6 +16315,9 @@ rvlev.com,t66y.com#?#[class]:-abp-has(>a[onmouseover="this.style.background='#DE
 rvlev.com,t66y.com#?#[class]:-abp-has(>a[onmouseover="this.style.background='#DEF5CD';"]:nth-child(n+180):-abp-contains(/赌|娱|澳/)) > :nth-child(-n+188)
 rvlev.com,t66y.com#?#[class]:-abp-has(>a[onmouseover="this.style.background='#DEF5CD';"]:nth-child(n+190):-abp-contains(/赌|娱|澳/)) > :nth-child(-n+195)
 69xx.one,69xx487.xyz,8mav.cc,av411.xyz,cable2055.cc,theav.xyz,thep178.com,theporn.cc,weav.xyz#?#[class]:-abp-has(>a>.q-responsive)
+||dzqxwy.com^$all
+||ormatenqron.com^$all
+||pulse.neurostreamlink10.cfd^$all
 ||adeqmedia.com^$third-party
 ||lineare.net^$third-party
 ||profitablecpmratenetwork.com^$all
@@ -49747,6 +49750,7 @@ animecorner.me,zarabiajprzez24.pl,watchhentai.xxx,app-how-to-use-it.com,linuxcap
 pawastreams.*,nflbite.to,footybite.to,sportschamp.fun,afly.pro,topsporter.net,soccerstreams.football,mysocceraustralia.com,rayinfosports.com,hesgoals.top,sequencecard.xyz,totalsportek.soccer,metaporky.site,nbabite.to,cyfostreams.com,gamerarcades.com,bestreamsports.org,footy.to,mcrypto.club,greaterkashmir.com###id-custom_banner
 pawastreams.*,groundedtechs.com,rayinfosports.com,sequencecard.xyz,matchtime.co,sportspellz.com,bestreamsports.org,silverspoon.site###dismiss-btn
 vi-control.net,nullforums.net,landyzone.co.uk,nullcave.pro,woxmax.com,waskucity.com,babia.to,technofino.in,reef2reef.com,minebbs.com,craxpro.io,affiliatefix.com,myiptvforum.com,hifivision.com,worldofiptv.com,altenen.is,beermoneyforum.com,germancarforum.com,cracking.org##.samBannerUnit
+linkshash.com##div[class^="ad-box"]
 complex.com##div.border-b.overflow-visible:has(.mwd-inline-loaded)
 newarab.com##.ad-gpt-pro
 tweaktown.com##.tt-deals

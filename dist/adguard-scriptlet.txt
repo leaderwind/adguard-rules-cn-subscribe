@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Scriptlet
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202607150329
-! Last modified: 2026-07-15T03:29:15Z
+! Version: 202607150626
+! Last modified: 2026-07-15T06:26:14Z
 ! Layers: scriptlet
 ! Mode: standard
-! Rules: 5431
+! Rules: 5429
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -758,8 +758,8 @@ uploadcloud.pro#%#//scriptlet('prevent-setTimeout', '.offsetHeight == 0')
 mmsmasala.com#%#//scriptlet('prevent-fetch', 'pagead2.googlesyndication.com')
 [$domain=/mmsbee\d+\.com/]#%#//scriptlet('prevent-fetch', 'pagead2.googlesyndication.com')
 rlxoff.com#%#//scriptlet('prevent-addEventListener', 'load', 'detectAdBlock')
-tallgalls.com,general24news.in,arceusxdownload.com,htmlgames.website,iqmastered.com,jobjankari.online,procinehub.com#%#//scriptlet('prevent-fetch', 'pagead2.googlesyndication.com')
-tallgalls.com,general24news.in,arceusxdownload.com,htmlgames.website,iqmastered.com,jobjankari.online,procinehub.com#%#//scriptlet('prevent-setTimeout', 'fakeAd')
+general24news.in,arceusxdownload.com,htmlgames.website,iqmastered.com,jobjankari.online,procinehub.com#%#//scriptlet('prevent-fetch', 'pagead2.googlesyndication.com')
+general24news.in,arceusxdownload.com,htmlgames.website,iqmastered.com,jobjankari.online,procinehub.com#%#//scriptlet('prevent-setTimeout', 'fakeAd')
 examsnews.com#%#//scriptlet('set-constant', 'document.hidden', 'false')
 general24news.in#%#//scriptlet('prevent-addEventListener', 'load', 'AdBDetected')
 ads.luarmor.net#%#//scriptlet('prevent-element-src-loading', 'script', 'pagead2.googlesyndication.com')
@@ -1318,7 +1318,6 @@ techno360.in#%#//scriptlet('abort-current-inline-script', 'document.createElemen
 filmy4wab.pro#%#//scriptlet('set-constant', 'isBrave', 'noopFunc')
 vicksburgnews.com#%#//scriptlet('prevent-fetch', 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js')
 luchaonline.com,onworks.net,unitystr.com,azrotv.com,uptoplay.net#%#//scriptlet('prevent-fetch', '/histats\.com|pagead2\.googlesyndication\.com/')
-pmsarkarijob.com#%#//scriptlet('abort-on-property-write', 'AdbModel')
 gold-24.net#%#//scriptlet("set-constant", "getalladblocks", "noopFunc")
 snapwordz.com#%#//scriptlet('prevent-fetch', 'pagead2.googlesyndication.com')
 gsmware.com#%#//scriptlet('prevent-eval-if', 'adblock')
@@ -1434,7 +1433,6 @@ youtube.com#%#//scriptlet('set-constant', 'google_ad_status', '1')
 btcbunch.com#%#//scriptlet('abort-current-inline-script', 'EventTarget.prototype.addEventListener', 'window.location')
 megaurl.in,megafly.in#%#//scriptlet("abort-current-inline-script", "document.getElementById", "').style.display='none';")
 incredibox.com#%#//scriptlet('prevent-fetch', 'pagead2.googlesyndication.com')
-filmypoints.in#%#//scriptlet('prevent-fetch', 'pagead2.googlesyndication.com')
 morbidkuriosity.com#%#//scriptlet('prevent-addEventListener', 'np.detect', 'detail.blocking')
 uservideo.xyz#%#//scriptlet('prevent-fetch', 'imasdk.googleapis.com')
 fulltime-predict.com#%#//scriptlet('prevent-fetch', 'www3.doubleclick.net')

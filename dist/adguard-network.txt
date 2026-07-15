@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Network
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202607150329
-! Last modified: 2026-07-15T03:29:15Z
+! Version: 202607150626
+! Last modified: 2026-07-15T06:26:14Z
 ! Layers: network
 ! Mode: standard
-! Rules: 47477
+! Rules: 47475
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -9197,7 +9197,6 @@ $cookie=adblock,domain=irishradiolive.com|myonlineradio.at|myonlineradio.de|myon
 @@||media.salemwebnetwork.com/adverts/advertisement.js$domain=biblestudytools.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=vicksburgnews.com
 ||cdn.almaftuchin.com/js/no-adblock.js
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=pmsarkarijob.com|tallgalls.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=gold-24.net
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js|$domain=snapwordz.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=gsmware.com
@@ -9860,8 +9859,6 @@ $script,xmlhttprequest,redirect-rule=noopjs,domain=freesolana.top
 ||cdn.jsdelivr.net/gh/choipanwendy/adsBlock@main/adblock.js
 @@||quizack.com/assets/img/ads.js
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=quizack.com
-||cdn.jsdelivr.net/gh/mytoolznet/mab/js/dublocker.js
-||cdn.jsdelivr.net/gh/mytoolznet/M-AdBlocker/2.0/code.min.js
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=toeflmocks.com
 @@||lootup.me/assets/js/ads-prebid.js
 ||bizjournals.com/static/js/app/cxense.js
@@ -20356,6 +20353,7 @@ $csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: www.googletagma
 @@||ataide0.pingbash.com/$stealth=referrer,domain=roxiestreams.su
 @@/^https:\/\/imgbb.zip\/ib\/[a-z0-9]{15}_[0-9]{10}\.jpg$/$image,third-party,stealth=referrer,domain=rogmovies.*|xprimehub.*|vegamovies.*|vegamovies.navy|rogmovies.cv|xprimehub.bond
 @@||account.deezer.com/$stealth=flash
+@@.jpg|$third-party,xmlhttprequest,stealth=referrer,domain=embdmstrplayer.com
 @@.m3u8|$stealth=referrer,domain=embdmstrplayer.com
 @@||signin.costco.com^$stealth=java|useragent
 @@||nekostream.site^$xmlhttprequest,stealth=referrer
@@ -20438,7 +20436,7 @@ $csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: www.googletagma
 @@||crunchyrollcdn.com^$stealth=referrer,domain=crunchyroll.com
 @@||iframe.coomeet.me^$stealth=webrtc
 @@||shutterstock.com^$stealth=useragent
-@@||api.wingsdatabase.com/seed?mediaId=$third-party,xmlhttprequest,stealth=referrer
+@@||api.*/seed?mediaId=$third-party,xmlhttprequest,stealth=referrer
 @@/\/[a-z0-9]{8}\/[a-zA-Z0-9_-]{200,900}/$xmlhttprequest,third-party,match-case,stealth=referrer,domain=player.videasy.*|cineby.*|cineplay.to|fmovies.*|vidup.to|vidfast.pro|www.fmovies.gd|vidking.net|111movies.net
 @@/sources-with-title?title=*&mediaType=$third-party,xmlhttprequest,stealth=referrer
 @@/*/*=|$third-party,xmlhttprequest,media,stealth=referrer,domain=player.videasy.*|cineby.*|cineplay.to|fmovies.*|www.fmovies.gd|vidking.net

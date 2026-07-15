@@ -1,6 +1,6 @@
 {
-  "version": "202607151934",
-  "generated_at_utc": "2026-07-15T19:34:54Z",
+  "version": "202607152113",
+  "generated_at_utc": "2026-07-15T21:13:21Z",
   "outputs": [
     {
       "id": "dns",
@@ -10,14 +10,14 @@
         "dns"
       ],
       "mode": "standard",
-      "rules": 219435,
+      "rules": 219438,
       "selected_upstreams": 16,
       "successful_upstreams": 16,
       "preserved_previous": false,
       "cross_layer_removed_pure_domains": 0,
       "compression": {
-        "dns_before_compression": 286920,
-        "dns_after_compression": 219435,
+        "dns_before_compression": 286923,
+        "dns_after_compression": 219438,
         "dns_removed_by_parent_domain": 51345,
         "dns_removed_by_allow": 7860,
         "dns_allow_rules": 8280
@@ -28,13 +28,13 @@
           "name": "AdGuard DNS filter",
           "url": "https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt",
           "ok": true,
-          "input_lines": 159234,
-          "kept": 156724,
+          "input_lines": 159237,
+          "kept": 156727,
           "duplicates": 0,
           "ignored": 2510,
           "routed_to_dns": 0,
           "classified": {
-            "dns": 156724,
+            "dns": 156727,
             "network": 0,
             "content": 0,
             "scriptlet": 0
@@ -86,8 +86,8 @@
           "url": "https://raw.githubusercontent.com/Cats-Team/AdRules/main/dns.txt",
           "ok": true,
           "input_lines": 177672,
-          "kept": 33759,
-          "duplicates": 143480,
+          "kept": 33757,
+          "duplicates": 143482,
           "ignored": 433,
           "routed_to_dns": 0,
           "classified": {
@@ -181,8 +181,8 @@
           "url": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/light.txt",
           "ok": true,
           "input_lines": 42642,
-          "kept": 20615,
-          "duplicates": 22010,
+          "kept": 20614,
+          "duplicates": 22011,
           "ignored": 17,
           "routed_to_dns": 0,
           "classified": {
@@ -199,13 +199,13 @@
           "name": "OISD Basic",
           "url": "https://abp.oisd.nl/basic/",
           "ok": true,
-          "input_lines": 55357,
+          "input_lines": 55302,
           "kept": 2419,
-          "duplicates": 52924,
+          "duplicates": 52869,
           "ignored": 14,
           "routed_to_dns": 0,
           "classified": {
-            "dns": 55343,
+            "dns": 55288,
             "network": 0,
             "content": 0,
             "scriptlet": 0
@@ -313,13 +313,13 @@
           "name": "Pollock hosts",
           "url": "https://someonewhocares.org/hosts/hosts",
           "ok": true,
-          "input_lines": 13265,
-          "kept": 3,
+          "input_lines": 13268,
+          "kept": 6,
           "duplicates": 12935,
           "ignored": 327,
           "routed_to_dns": 0,
           "classified": {
-            "dns": 12938,
+            "dns": 12941,
             "network": 0,
             "content": 0,
             "scriptlet": 0
@@ -346,14 +346,14 @@
         "dns"
       ],
       "mode": "standard",
-      "rules": 219435,
+      "rules": 219438,
       "selected_upstreams": 16,
       "successful_upstreams": 16,
       "preserved_previous": false,
       "cross_layer_removed_pure_domains": 0,
       "compression": {
-        "dns_before_compression": 286920,
-        "dns_after_compression": 219435,
+        "dns_before_compression": 286923,
+        "dns_after_compression": 219438,
         "dns_removed_by_parent_domain": 51345,
         "dns_removed_by_allow": 7860,
         "dns_allow_rules": 8280
@@ -364,13 +364,13 @@
           "name": "AdGuard DNS filter",
           "url": "https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt",
           "ok": true,
-          "input_lines": 159234,
-          "kept": 156724,
+          "input_lines": 159237,
+          "kept": 156727,
           "duplicates": 0,
           "ignored": 2510,
           "routed_to_dns": 0,
           "classified": {
-            "dns": 156724,
+            "dns": 156727,
             "network": 0,
             "content": 0,
             "scriptlet": 0
@@ -422,8 +422,8 @@
           "url": "https://raw.githubusercontent.com/Cats-Team/AdRules/main/dns.txt",
           "ok": true,
           "input_lines": 177672,
-          "kept": 33759,
-          "duplicates": 143480,
+          "kept": 33757,
+          "duplicates": 143482,
           "ignored": 433,
           "routed_to_dns": 0,
           "classified": {
@@ -517,8 +517,8 @@
           "url": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/light.txt",
           "ok": true,
           "input_lines": 42642,
-          "kept": 20615,
-          "duplicates": 22010,
+          "kept": 20614,
+          "duplicates": 22011,
           "ignored": 17,
           "routed_to_dns": 0,
           "classified": {
@@ -535,13 +535,13 @@
           "name": "OISD Basic",
           "url": "https://abp.oisd.nl/basic/",
           "ok": true,
-          "input_lines": 55357,
+          "input_lines": 55302,
           "kept": 2419,
-          "duplicates": 52924,
+          "duplicates": 52869,
           "ignored": 14,
           "routed_to_dns": 0,
           "classified": {
-            "dns": 55343,
+            "dns": 55288,
             "network": 0,
             "content": 0,
             "scriptlet": 0
@@ -649,13 +649,13 @@
           "name": "Pollock hosts",
           "url": "https://someonewhocares.org/hosts/hosts",
           "ok": true,
-          "input_lines": 13265,
-          "kept": 3,
+          "input_lines": 13268,
+          "kept": 6,
           "duplicates": 12935,
           "ignored": 327,
           "routed_to_dns": 0,
           "classified": {
-            "dns": 12938,
+            "dns": 12941,
             "network": 0,
             "content": 0,
             "scriptlet": 0
@@ -2300,15 +2300,15 @@
     }
   ],
   "sha256": {
-    "dist/adguard-dns.txt": "ed5e5a7e1552f559ad7ab44308b4ffaccea5a0209aac3954f04d3ceaa1b67459",
-    "dist/adguard-pending-review.txt": "5f0b6773801065f1a5700c40c6ffd6f8036355b8db946a0572c563fe244a7da5",
-    "dist/adguard-content.txt": "b0d0de3e183a90446e6dedd84156f300b3a73a07b0f33efd6414fe1eea0a4870",
-    "dist/adguard-network.txt": "c9574ae0c83b9ae06aeacb5b44d384f9e0ecc9bebbf939099d7adb225fc40d67",
-    "dist/adguard-scriptlet.txt": "fdff41aefc749ffdbeb7e067a642e6730c29dc83e91266ca8ff01cd03c1cdd0f",
-    "dist/adguard-android.txt": "ee6369cd640d43db213a29070532e0b9a17004b25c8de95cec8f9f2283927ece",
-    "dist/adguard-browser.txt": "bcf6804d1089a668aca97f54e3bf07e730bee7e7a73dbd9499b1f5d2b8e78309",
-    "dist/adguard-windows.txt": "d4ac3ec6d8cb7fa14189d30ffc20fe0942ef1d9b2d034fc72969c4e696ac63fb",
-    "dist/adguard-conservative.txt": "8f9014c568eb728f18518c34f8c68fd2e2c89fa89b46aeb4a032aea8e3bcc118",
-    "dist/adguard-aggressive.txt": "c7191bd074cfa3109b6e9c1ba0c0a5bcf1d63a305f352e349e898f6f31f15419"
+    "dist/adguard-dns.txt": "fb1f6459e8a5423355c63057e2c832b7fdd9ffe68cce756d8cfac976ad5b0ef8",
+    "dist/adguard-pending-review.txt": "45da6d8209b4aa2e07d347f5d5167debeaa70469c87247a879be6e042ee21062",
+    "dist/adguard-content.txt": "4f1919fc4cbb67795fa6acb18dfac1698f0e0dc0d6751574bfc27700655443b4",
+    "dist/adguard-network.txt": "14b8a9cf164ebdb50a71dfce4ab8c023c197a5d985067f92ea2bead424d7deb1",
+    "dist/adguard-scriptlet.txt": "d08a437bcf3a02972f0682a434c4ed55abd8943c09278539fac05d418dbec39c",
+    "dist/adguard-android.txt": "12fa7e729fcfa0bfbde9047f96937c672c2af91688be875e799a57a603926b2c",
+    "dist/adguard-browser.txt": "8f72dc0f0c5c9e9fd2a49687ad5b8b6f3a245c2f2bbbd20913e2f435c1fe9227",
+    "dist/adguard-windows.txt": "7a82dc9021ff10382cf913147e41d28074afa6217e47160f9099e1d528845ebd",
+    "dist/adguard-conservative.txt": "9846ea965cbb4e679a67171d4351978020ab41856e52301df677cf7303901d0c",
+    "dist/adguard-aggressive.txt": "4c2cd7b802cc824840bf04e392a9eba398c80517dab1f6513e868eb66a505360"
   }
 }

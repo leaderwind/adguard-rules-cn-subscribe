@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - DNS
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202607142309
-! Last modified: 2026-07-14T23:09:17Z
+! Version: 202607150004
+! Last modified: 2026-07-15T00:04:08Z
 ! Layers: dns
 ! Mode: standard
-! Rules: 219951
+! Rules: 219969
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -179847,6 +179847,11 @@
 ||zzy1.quyaoya.com^
 ||zzycj.com^
 ||zzz.onion.pet^
+||paintbrush82.top^
+||yymowvdy0.com^
+||eq9qnbh53.com^
+||xspxdhkcaplhza.com^
+||nrfvq6g98.com^
 ||piguiqproxy.com^$badfilter
 /^https:\/\/[0-9a-z]+\.xyz\/rinku\/land/$document,~third-party,match-case,replace=/const proxyStatus = "Y";/const proxyStatus = "N";/
 /js/sextb.js$domain=sextb.date|sextb.net,replace=/if\(checkads\(\)==false\)/if(!0)/
@@ -179874,6 +179879,15 @@
 ||freeadultcomix.com^$badfilter
 ||imgshare.info^$badfilter
 @@||connectivitycheck.gstatic.com^$important
+||cliphotbokep.xyz^
+||getmoviehd.com^
+||kbnckhyduaokd.website^
+||marovia.cc^
+||mnemictarpeiamannish.qpon^
+||moztjjfanyebd.space^
+||playerhit.co^
+||yylbxambafvvg.site^
+||zexyivyvafozx.space^
 /(https?:\/\/)104\.154\..{100,}/
 /(https?:\/\/)104\.197\..{100,}/
 /(https?:\/\/)104\.198\..{100,}/
@@ -196802,9 +196816,13 @@
 ||zysuvysaj.pro^
 ||zzux.com^
 ||sobot.com^
-||kbnckhyduaokd.website^
-||yylbxambafvvg.site^
-||zexyivyvafozx.space^
+||inwhcaanqt.com^
+||pbbsyfhhwpypl.site^
+||rogffkno.com^
+||rvqhsxjttymcq.online^
+||ulcqzujwvttwf.website^
+||uwcayjqyzfiye.online^
+||wgkqywcf.com^
 ||mobile.pipe.aria.microsoft.com^
 ||cu-cn-north00001.gala.convection.cn^
 ||xvtelink.com^

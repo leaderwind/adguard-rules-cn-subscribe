@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Conservative
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202607142309
-! Last modified: 2026-07-14T23:09:17Z
+! Version: 202607150004
+! Last modified: 2026-07-15T00:04:08Z
 ! Layers: network,content,scriptlet
 ! Mode: conservative
-! Rules: 107998
+! Rules: 108002
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -16157,6 +16157,7 @@ fqsousou.com,kengso.com#@#.user-share
 @@||criteo.com/delivery/ajs.php?zoneid=$script,domain=gaus.ee
 @@||jd.com/adclick?$popup,~third-party
 ||wnacg.com/game/$image,rewrite=abp-resource:1x1-transparent-gif,domain=wnacg.com
+##._v_ad_container
 cngold.org#?#.w310:-abp-has(>.swiper-company)
 hanime1.me#?#div[style*="text-align:"]:-abp-has(>div[style*="color: white"])
 weibo.com#?#.vue-recycle-scroller__item-view:-abp-has(img[src="https://d.sinaimg.cn/prd/1005/891/2025/03/21/icon_auth_white.png"])
@@ -32375,6 +32376,7 @@ _800x80_
 ||casinobonusdeals.io^$document
 ||cauditcommernal.com^$document
 ||cautommityring.com^$document
+||cawsg.com^$document
 ||cddtsecure.com^$document
 ||ceramicturtleremnant.com^$document
 ||checkcdn.net^$document
@@ -32385,6 +32387,7 @@ _800x80_
 ||clickblitzo.com^$document
 ||clickmintads.site^$document
 ||clickpunch.icu^$document
+||cliphotbokep.xyz^$document
 ||clixwells.com^$document
 ||clladss.com^$document
 ||cloudvideosa.com^$document
@@ -32550,6 +32553,7 @@ _800x80_
 ||making.party^$document
 ||maredpt.com^$document
 ||marketingthing.click^$document
+||marovia.cc^$document
 ||masterreviews.org^$document
 ||maxconvtrk.com^$document
 ||maxickedpantents.com^$document

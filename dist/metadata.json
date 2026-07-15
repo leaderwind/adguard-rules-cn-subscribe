@@ -1,6 +1,6 @@
 {
-  "version": "202607151546",
-  "generated_at_utc": "2026-07-15T15:46:16Z",
+  "version": "202607151736",
+  "generated_at_utc": "2026-07-15T17:36:15Z",
   "outputs": [
     {
       "id": "dns",
@@ -10,14 +10,14 @@
         "dns"
       ],
       "mode": "standard",
-      "rules": 219242,
+      "rules": 219243,
       "selected_upstreams": 16,
       "successful_upstreams": 16,
       "preserved_previous": false,
       "cross_layer_removed_pure_domains": 0,
       "compression": {
-        "dns_before_compression": 286726,
-        "dns_after_compression": 219242,
+        "dns_before_compression": 286727,
+        "dns_after_compression": 219243,
         "dns_removed_by_parent_domain": 51344,
         "dns_removed_by_allow": 7860,
         "dns_allow_rules": 8280
@@ -123,13 +123,13 @@
           "name": "AdGuard Base filter",
           "url": "https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_2_Base/filter.txt",
           "ok": true,
-          "input_lines": 160532,
-          "kept": 2857,
+          "input_lines": 160545,
+          "kept": 2858,
           "duplicates": 53335,
-          "ignored": 104340,
+          "ignored": 104352,
           "routed_to_dns": 0,
           "classified": {
-            "dns": 55791,
+            "dns": 55792,
             "network": 0,
             "content": 0,
             "scriptlet": 0
@@ -199,13 +199,13 @@
           "name": "OISD Basic",
           "url": "https://abp.oisd.nl/basic/",
           "ok": true,
-          "input_lines": 55369,
+          "input_lines": 55346,
           "kept": 2419,
-          "duplicates": 52936,
+          "duplicates": 52913,
           "ignored": 14,
           "routed_to_dns": 0,
           "classified": {
-            "dns": 55355,
+            "dns": 55332,
             "network": 0,
             "content": 0,
             "scriptlet": 0
@@ -346,14 +346,14 @@
         "dns"
       ],
       "mode": "standard",
-      "rules": 219242,
+      "rules": 219243,
       "selected_upstreams": 16,
       "successful_upstreams": 16,
       "preserved_previous": false,
       "cross_layer_removed_pure_domains": 0,
       "compression": {
-        "dns_before_compression": 286726,
-        "dns_after_compression": 219242,
+        "dns_before_compression": 286727,
+        "dns_after_compression": 219243,
         "dns_removed_by_parent_domain": 51344,
         "dns_removed_by_allow": 7860,
         "dns_allow_rules": 8280
@@ -459,13 +459,13 @@
           "name": "AdGuard Base filter",
           "url": "https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_2_Base/filter.txt",
           "ok": true,
-          "input_lines": 160532,
-          "kept": 2857,
+          "input_lines": 160545,
+          "kept": 2858,
           "duplicates": 53335,
-          "ignored": 104340,
+          "ignored": 104352,
           "routed_to_dns": 0,
           "classified": {
-            "dns": 55791,
+            "dns": 55792,
             "network": 0,
             "content": 0,
             "scriptlet": 0
@@ -535,13 +535,13 @@
           "name": "OISD Basic",
           "url": "https://abp.oisd.nl/basic/",
           "ok": true,
-          "input_lines": 55369,
+          "input_lines": 55346,
           "kept": 2419,
-          "duplicates": 52936,
+          "duplicates": 52913,
           "ignored": 14,
           "routed_to_dns": 0,
           "classified": {
-            "dns": 55355,
+            "dns": 55332,
             "network": 0,
             "content": 0,
             "scriptlet": 0
@@ -682,7 +682,7 @@
         "content"
       ],
       "mode": "standard",
-      "rules": 63050,
+      "rules": 63051,
       "selected_upstreams": 10,
       "successful_upstreams": 10,
       "preserved_previous": false,
@@ -751,16 +751,16 @@
           "name": "AdGuard Base filter",
           "url": "https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_2_Base/filter.txt",
           "ok": true,
-          "input_lines": 160532,
-          "kept": 51842,
+          "input_lines": 160545,
+          "kept": 51843,
           "duplicates": 798,
-          "ignored": 20930,
-          "routed_to_dns": 55791,
+          "ignored": 20935,
+          "routed_to_dns": 55792,
           "classified": {
-            "dns": 55791,
-            "network": 26036,
-            "content": 51849,
-            "scriptlet": 5135
+            "dns": 55792,
+            "network": 26040,
+            "content": 51850,
+            "scriptlet": 5137
           },
           "cross_layer_removed": 0,
           "error": null
@@ -898,7 +898,7 @@
         "network"
       ],
       "mode": "standard",
-      "rules": 47476,
+      "rules": 47480,
       "selected_upstreams": 10,
       "successful_upstreams": 10,
       "preserved_previous": false,
@@ -967,16 +967,16 @@
           "name": "AdGuard Base filter",
           "url": "https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_2_Base/filter.txt",
           "ok": true,
-          "input_lines": 160532,
-          "kept": 26017,
+          "input_lines": 160545,
+          "kept": 26021,
           "duplicates": 810,
-          "ignored": 20930,
-          "routed_to_dns": 55791,
+          "ignored": 20935,
+          "routed_to_dns": 55792,
           "classified": {
-            "dns": 55791,
-            "network": 26036,
-            "content": 51849,
-            "scriptlet": 5135
+            "dns": 55792,
+            "network": 26040,
+            "content": 51850,
+            "scriptlet": 5137
           },
           "cross_layer_removed": 0,
           "error": null
@@ -1114,7 +1114,7 @@
         "scriptlet"
       ],
       "mode": "standard",
-      "rules": 5432,
+      "rules": 5434,
       "selected_upstreams": 10,
       "successful_upstreams": 10,
       "preserved_previous": false,
@@ -1183,16 +1183,16 @@
           "name": "AdGuard Base filter",
           "url": "https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_2_Base/filter.txt",
           "ok": true,
-          "input_lines": 160532,
-          "kept": 5134,
+          "input_lines": 160545,
+          "kept": 5136,
           "duplicates": 792,
-          "ignored": 20930,
-          "routed_to_dns": 55791,
+          "ignored": 20935,
+          "routed_to_dns": 55792,
           "classified": {
-            "dns": 55791,
-            "network": 26036,
-            "content": 51849,
-            "scriptlet": 5135
+            "dns": 55792,
+            "network": 26040,
+            "content": 51850,
+            "scriptlet": 5137
           },
           "cross_layer_removed": 0,
           "error": null
@@ -1474,7 +1474,7 @@
         "scriptlet"
       ],
       "mode": "standard",
-      "rules": 115869,
+      "rules": 115876,
       "selected_upstreams": 9,
       "successful_upstreams": 9,
       "preserved_previous": false,
@@ -1543,16 +1543,16 @@
           "name": "AdGuard Base filter",
           "url": "https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_2_Base/filter.txt",
           "ok": true,
-          "input_lines": 160532,
-          "kept": 82993,
+          "input_lines": 160545,
+          "kept": 83000,
           "duplicates": 818,
-          "ignored": 20930,
-          "routed_to_dns": 55791,
+          "ignored": 20935,
+          "routed_to_dns": 55792,
           "classified": {
-            "dns": 55791,
-            "network": 26036,
-            "content": 51849,
-            "scriptlet": 5135
+            "dns": 55792,
+            "network": 26040,
+            "content": 51850,
+            "scriptlet": 5137
           },
           "cross_layer_removed": 0,
           "error": null
@@ -1673,7 +1673,7 @@
         "scriptlet"
       ],
       "mode": "standard",
-      "rules": 115869,
+      "rules": 115876,
       "selected_upstreams": 9,
       "successful_upstreams": 9,
       "preserved_previous": false,
@@ -1742,16 +1742,16 @@
           "name": "AdGuard Base filter",
           "url": "https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_2_Base/filter.txt",
           "ok": true,
-          "input_lines": 160532,
-          "kept": 82993,
+          "input_lines": 160545,
+          "kept": 83000,
           "duplicates": 818,
-          "ignored": 20930,
-          "routed_to_dns": 55791,
+          "ignored": 20935,
+          "routed_to_dns": 55792,
           "classified": {
-            "dns": 55791,
-            "network": 26036,
-            "content": 51849,
-            "scriptlet": 5135
+            "dns": 55792,
+            "network": 26040,
+            "content": 51850,
+            "scriptlet": 5137
           },
           "cross_layer_removed": 0,
           "error": null
@@ -1872,7 +1872,7 @@
         "scriptlet"
       ],
       "mode": "conservative",
-      "rules": 108010,
+      "rules": 108014,
       "selected_upstreams": 10,
       "successful_upstreams": 10,
       "preserved_previous": false,
@@ -1941,16 +1941,16 @@
           "name": "AdGuard Base filter",
           "url": "https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_2_Base/filter.txt",
           "ok": true,
-          "input_lines": 160532,
-          "kept": 75403,
+          "input_lines": 160545,
+          "kept": 75407,
           "duplicates": 817,
-          "ignored": 28521,
-          "routed_to_dns": 55791,
+          "ignored": 28529,
+          "routed_to_dns": 55792,
           "classified": {
-            "dns": 55791,
-            "network": 26036,
-            "content": 51849,
-            "scriptlet": 5135
+            "dns": 55792,
+            "network": 26040,
+            "content": 51850,
+            "scriptlet": 5137
           },
           "cross_layer_removed": 0,
           "error": null
@@ -2090,7 +2090,7 @@
         "scriptlet"
       ],
       "mode": "aggressive",
-      "rules": 115958,
+      "rules": 115965,
       "selected_upstreams": 10,
       "successful_upstreams": 10,
       "preserved_previous": false,
@@ -2159,16 +2159,16 @@
           "name": "AdGuard Base filter",
           "url": "https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_2_Base/filter.txt",
           "ok": true,
-          "input_lines": 160532,
-          "kept": 82993,
+          "input_lines": 160545,
+          "kept": 83000,
           "duplicates": 818,
-          "ignored": 20930,
-          "routed_to_dns": 55791,
+          "ignored": 20935,
+          "routed_to_dns": 55792,
           "classified": {
-            "dns": 55791,
-            "network": 26036,
-            "content": 51849,
-            "scriptlet": 5135
+            "dns": 55792,
+            "network": 26040,
+            "content": 51850,
+            "scriptlet": 5137
           },
           "cross_layer_removed": 0,
           "error": null
@@ -2300,15 +2300,15 @@
     }
   ],
   "sha256": {
-    "dist/adguard-dns.txt": "cbc7da690105685a8b9a89147ea21d74b571fa50036a3114388e8ff92f101151",
-    "dist/adguard-pending-review.txt": "e3bec215fe16edbf2d5afdd673d2abaf59848b8bed82f8517e18b9514bc60830",
-    "dist/adguard-content.txt": "08a45ae2214c52c933aa9a7fbc2337322cb8196ee0692d8daaf094c245508915",
-    "dist/adguard-network.txt": "98d8e1254a6a5a53447a4812930f65a266b6d3e110313302023420dee1e3d014",
-    "dist/adguard-scriptlet.txt": "ab53c3b753419f2d6e68eb15d575a7c244192b9c459ab6995352545adf6ea6f5",
-    "dist/adguard-android.txt": "fc049a18bae613a1d7c51c0df42a49a164fe2b5eb278392dae7fe3b15e2a56c7",
-    "dist/adguard-browser.txt": "ec06626ba4a2f693d28cddc1d3c62fbe1c8f4f9ad36214806c0d13ef128940b4",
-    "dist/adguard-windows.txt": "750a47f725a867261e47d3f5a60c829f028cd70bfaf6ae83b2cf9f5557115abf",
-    "dist/adguard-conservative.txt": "c7e76722cd986bd89e9f36b54642d320fe8053544257431f4ecdf15602d3f6ba",
-    "dist/adguard-aggressive.txt": "7e24789c3a45646c575aaabb59cd305bb3463cbbe8e29463d6c4a13208a58cd7"
+    "dist/adguard-dns.txt": "bb12f5d9df184f120529cac8fd66f45de164944fe0158f5356a90a8e6e516e3f",
+    "dist/adguard-pending-review.txt": "c9077fa5108bfe60c240cf27838586f8e84836dae1fc37bf18de0465ec4e7855",
+    "dist/adguard-content.txt": "607de3e7c645eada2f382b737367b72eeafb95cb6db5da19e1d20aaafbbc7a99",
+    "dist/adguard-network.txt": "d55a31d7ca513757c485d90bb263700f3678b6eb4712e982df7987fa41e7125f",
+    "dist/adguard-scriptlet.txt": "d82cd867c4cb916475acf1c278930f46949209e8d0559d99c59ec7cfab61fcfb",
+    "dist/adguard-android.txt": "d5ca4501883d0754165263069b1f9ab5ed0c8ae92639e84ed4959f6cb7e06559",
+    "dist/adguard-browser.txt": "77611afe956fe472756672e71002962db12bcd0503f445f39505604c602b9557",
+    "dist/adguard-windows.txt": "b389d72cea4005a679e0106825824c1fc5e3482b48bf58ce29bce171b1aac342",
+    "dist/adguard-conservative.txt": "1d676300cf70ab0cd3dde25829fe30417e0ed497fa054638cee6d9a019ea0a31",
+    "dist/adguard-aggressive.txt": "9bec4710e64200379cf78a89d95a042fe8c16963d6bb8b12549e26e3c0391413"
   }
 }

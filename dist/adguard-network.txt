@@ -1,8 +1,8 @@
 ! Title: AdGuard Rules CN - Network
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202607150626
-! Last modified: 2026-07-15T06:26:14Z
+! Version: 202607150919
+! Last modified: 2026-07-15T09:19:54Z
 ! Layers: network
 ! Mode: standard
 ! Rules: 47475
@@ -10204,7 +10204,6 @@ $xmlhttprequest,third-party,redirect-rule=noopjs,domain=bizjournals.com
 ||dnitv.com^$media,domain=discoveryplus.*
 @@||mparticle.com^*/login$domain=discoveryplus.*
 ||prod-adops-proxy.dnitv.net^$redirect=nooptext,domain=discoveryplus.*
-||cdn.jsdelivr.net/gh/dandyraka/jnck-adblock/jnck.adblock.min.js$domain=jnckmedia.com
 ||cdn.tinypass.com^$domain=futurism.com
 @@||ephoto360.com/js/blockadblock.js
 @@||client.falixnodes.net^$generichide
@@ -20334,6 +20333,7 @@ $csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: www.googletagma
 @@||beinconnect.com.tr^$stealth
 @@||account.adobe.com^$document,domain=services.adobe.com,stealth=useragent
 @@||adguard.com^$stealth
+@@.mp4%3Fsign%3$third-party,media,stealth=referrer,domain=vidrock.ru
 @@/^https:\/\/mshale\.com\/[a-f0-9]{8}\/[a-zA-Z0-9]+$/$match-case,stealth=referrer|searchqueries
 @@||x.com^$stealth=flash|java
 @@||wpscdn.cn^$stealth=referrer,domain=wps.cn

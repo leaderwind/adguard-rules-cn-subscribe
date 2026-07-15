@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Conservative
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202607150626
-! Last modified: 2026-07-15T06:26:14Z
+! Version: 202607150919
+! Last modified: 2026-07-15T09:19:54Z
 ! Layers: network,content,scriptlet
 ! Mode: conservative
-! Rules: 107996
+! Rules: 108002
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -19018,7 +19018,6 @@ $xmlhttprequest,third-party,redirect-rule=noopjs,domain=bizjournals.com
 ||akamaihd.net^$media,domain=discoveryplus.*
 ||dnitv.com^$media,domain=discoveryplus.*
 @@||mparticle.com^*/login$domain=discoveryplus.*
-||cdn.jsdelivr.net/gh/dandyraka/jnck-adblock/jnck.adblock.min.js$domain=jnckmedia.com
 ||cdn.tinypass.com^$domain=futurism.com
 @@||ephoto360.com/js/blockadblock.js
 @@||client.falixnodes.net^$generichide
@@ -28780,6 +28779,7 @@ $image,script,stylesheet,subdocument,third-party,xmlhttprequest,domain=animepahe
 @@||tous-sports.fr/js/advertisement-AdBlock.js
 @@||tous-sports.tv/js/advertisement-AdBlock.js
 @@||account.adobe.com^$document,domain=services.adobe.com,stealth=useragent
+@@.mp4%3Fsign%3$third-party,media,stealth=referrer,domain=vidrock.ru
 @@/^https:\/\/mshale\.com\/[a-f0-9]{8}\/[a-zA-Z0-9]+$/$match-case,stealth=referrer|searchqueries
 @@/proxy?data=$third-party,xmlhttprequest,stealth=referrer,domain=flixer.*
 @@||cdn.asdasdhg.com^$image,stealth=referrer,domain=silentquill.net
@@ -49756,6 +49756,11 @@ animecorner.me,zarabiajprzez24.pl,watchhentai.xxx,app-how-to-use-it.com,linuxcap
 pawastreams.*,nflbite.to,footybite.to,sportschamp.fun,afly.pro,topsporter.net,soccerstreams.football,mysocceraustralia.com,rayinfosports.com,hesgoals.top,sequencecard.xyz,totalsportek.soccer,metaporky.site,nbabite.to,cyfostreams.com,gamerarcades.com,bestreamsports.org,footy.to,mcrypto.club,greaterkashmir.com###id-custom_banner
 pawastreams.*,groundedtechs.com,rayinfosports.com,sequencecard.xyz,matchtime.co,sportspellz.com,bestreamsports.org,silverspoon.site###dismiss-btn
 vi-control.net,nullforums.net,landyzone.co.uk,nullcave.pro,woxmax.com,waskucity.com,babia.to,technofino.in,reef2reef.com,minebbs.com,craxpro.io,affiliatefix.com,myiptvforum.com,hifivision.com,worldofiptv.com,altenen.is,beermoneyforum.com,germancarforum.com,cracking.org##.samBannerUnit
+heatworld.com##div[class*="_adContainer_"]
+celebtattler.com##.banner1
+celebtattler.com##div[style="width:300px;min-height:250px;"]
+redflix.club,redflix.co##.watch-sidebar > div.overflow-hidden:has(> div[class^="adsContainer"])
+cinehub.one##.watch-sidebar > div.overflow-hidden:has(> div.shrink-0.flex)
 pepper.com##div[data-t="bannerAd"]
 biblestudytools.com##a[target="_blank"] > img
 biblestudytools.com##div:has(> a[target="_blank"]:only-child > img:only-child)
@@ -50126,7 +50131,8 @@ onejailbreak.com##.gtm-cls
 onejailbreak.com##div[id^="slot-"]:not(#style_important)
 indiansexstories3.com##iframe[src^="https://blazingserver.net/"]
 hoopshype.com###__next > div[class*="__variable_"] > div:has(> div.ad-content)
-celebmafia.com##.featured
+celebmafia.com##body .featured:not(#style_important)
+celebmafia.com##.entry-content > div[class]:has(> div[data-fuse*="_incontent_"])
 express.co.uk##.partners-element
 maltadaily.mt##.max-w-5xl > a[href]:has(> img[alt*="Advertisement"])
 maltadaily.mt#?#.max-w-3xl:has(> div.flex > span.font-semibold:contains(/^Continue reading$/i))

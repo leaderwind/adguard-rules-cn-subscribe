@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Browser
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202607151146
-! Last modified: 2026-07-15T11:46:42Z
+! Version: 202607151406
+! Last modified: 2026-07-15T14:06:52Z
 ! Layers: network,content,scriptlet
 ! Mode: standard
-! Rules: 115861
+! Rules: 115867
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -52528,6 +52528,9 @@ animecorner.me,zarabiajprzez24.pl,watchhentai.xxx,app-how-to-use-it.com,linuxcap
 pawastreams.*,nflbite.to,footybite.to,sportschamp.fun,afly.pro,topsporter.net,soccerstreams.football,mysocceraustralia.com,rayinfosports.com,hesgoals.top,sequencecard.xyz,totalsportek.soccer,metaporky.site,nbabite.to,cyfostreams.com,gamerarcades.com,bestreamsports.org,footy.to,mcrypto.club,greaterkashmir.com###id-custom_banner
 pawastreams.*,groundedtechs.com,rayinfosports.com,sequencecard.xyz,matchtime.co,sportspellz.com,bestreamsports.org,silverspoon.site###dismiss-btn
 vi-control.net,nullforums.net,landyzone.co.uk,nullcave.pro,woxmax.com,waskucity.com,babia.to,technofino.in,reef2reef.com,minebbs.com,craxpro.io,affiliatefix.com,myiptvforum.com,hifivision.com,worldofiptv.com,altenen.is,beermoneyforum.com,germancarforum.com,cracking.org##.samBannerUnit
+rg.org###headerBanner
+rg.org##section[class^="_"][style]:has(> div > a[href^="/en-ca/go/undefined/"] > img)
+rg.org##article[class^="_"] > section[class^="_"]:has(> div[class^="_"] a[href^="/en-ca/go/undefined/sportsbook-bonus/"])
 heatworld.com##div[class*="_adContainer_"]
 celebtattler.com##.banner1
 celebtattler.com##div[style="width:300px;min-height:250px;"]
@@ -91154,6 +91157,7 @@ opensubtitles.org##a[target="_blank"][href^="https://www.amazon.com/gp/search"]
 classicstoday.com##a[target="_blank"][rel="noopener"] > img
 megaplay.cc,wiztube.xyz##a[title="Free money easy"]
 kroger.com##a[title^="Advertisement:"]
+thisismoney.co.uk##ad-slot
 rottentomatoes.com##ad-unit
 cryptodaily.co.uk##advert
 cooljugator.com##amp-auto-ads
@@ -98918,6 +98922,7 @@ www.youtube.com#%#//scriptlet('set-constant', 'ytcfg.data_.EXPERIMENT_FLAGS.web_
 www.youtube.com#%#//scriptlet('prevent-setTimeout', '(),a,b)', '5000')
 m.youtube.com#%#//scriptlet('json-prune', 'playerResponse.messages.[].youThereRenderer')
 m.youtube.com#%#(()=>{const t={apply:(t,e,n)=>{if(location.href.includes("/shorts/")||location.href.includes("youtube.com/tv")||location.href.includes("youtube.com/embed/"))return Reflect.apply(t,e,n);try{const a=n[0];if(!a?.context?.client)return Reflect.apply(t,e,n);const o=String(Date.now());a.playbackContext&&void 0===a.playbackContext.adPlaybackContext&&(a.playbackContext.contentPlaybackContext.lactMilliseconds=o),a.playerRequest&&void 0===a.playerRequest.playbackContext?.adPlaybackContext&&(a.playerRequest.playbackContext.contentPlaybackContext.lactMilliseconds=o),n[0]=a}catch(t){}return Reflect.apply(t,e,n)}};window.JSON.stringify=new Proxy(window.JSON.stringify,t)})();
+onoflix.com,onoflix.live#%#//scriptlet('json-prune', 'adScript')
 bananamovies.org#%#//scriptlet('abort-current-inline-script', 'setTimeout', 'uam-wrapper')
 amateur8.com,bigtitslust.com,freeporn8.com#%#//scriptlet('abort-on-property-write', '__spotSettings')
 linkshash.com#%#//scriptlet('prevent-addEventListener', 'click', '.click();')
@@ -113133,6 +113138,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||kgoma.com/v1/stat/
 ||khanacademy.org/api/internal/_analytics/
 ||kio.ac/analytics/
+||kitces.com/wp-json/kwm/v1/track
 ||klm.us/CWZUvc/
 ||kloth.net/images/pixel.gif
 ||knewz.com/api/event

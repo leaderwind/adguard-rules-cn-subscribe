@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Android
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202607150004
-! Last modified: 2026-07-15T00:04:08Z
+! Version: 202607150329
+! Last modified: 2026-07-15T03:29:15Z
 ! Layers: network,content,scriptlet
 ! Mode: standard
-! Rules: 18175
+! Rules: 18177
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -10191,6 +10191,7 @@ newduba.cn###jq_youxi
 ###index-ad-banner
 ##.newsAD
 ##.art-layer-ad
+##._v_ad_container
 ##a[href*="/122.51.121.126:"]
 ##a[href*="/137.220.194.105:"]
 ##a[href*="/137.220.194.123:"]
@@ -16500,7 +16501,6 @@ sudokugame.org#%#//scriptlet('trusted-replace-node-text', 'script', 'adjump', 'f
 @@||criteo.com/delivery/ajs.php?zoneid=$script,domain=gaus.ee
 @@||jd.com/adclick?$popup,~third-party
 ||wnacg.com/game/$image,rewrite=abp-resource:1x1-transparent-gif,domain=wnacg.com
-##._v_ad_container
 cngold.org#?#.w310:-abp-has(>.swiper-company)
 hanime1.me#?#div[style*="text-align:"]:-abp-has(>div[style*="color: white"])
 weibo.com#?#.vue-recycle-scroller__item-view:-abp-has(img[src="https://d.sinaimg.cn/prd/1005/891/2025/03/21/icon_auth_white.png"])
@@ -17416,6 +17416,8 @@ izaiwen.cn##DIV[carousel-item]
 izaiwen.cn##.item-box
 jianshu.com##[aria-label='lwa-ad-one']
 jianshu.com##.app-float-btn
+blog.csdn.net##.passport-login-container
+blog.csdn.net##[class^='mobileContainer_']
 huya.com###template
 huya.com##A[data-edesc='点击/推荐/左侧导航推荐图']
 smartapps.cn##swan-nest-banner-ad.ad-expose

@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Aggressive
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202607151736
-! Last modified: 2026-07-15T17:36:15Z
+! Version: 202607151934
+! Last modified: 2026-07-15T19:34:54Z
 ! Layers: network,content,scriptlet
 ! Mode: aggressive
-! Rules: 115965
+! Rules: 115967
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -23590,6 +23590,7 @@ $subdocument,third-party,denyallow=disqus.com,domain=love4u.net
 $third-party,script,domain=klto9.com|f2movies.to|hacamchicac.com|yourporngod.com|zinchanmanga.com|yaoimangaonline.com|tututweak.app|mangaraw.ac|eromanga-show.com|hentai-one.com|hentaipaw.com|nukibooks.com|paipancon.com|jgvdata.com|youtubevanced.com|pandamtl.com|mangaplus.shueisha.tv|shueisharaw.tv
 ||linksconsole.com/ad-system/
 ||misc-api.feathermc.com/*/ads/ad_units?
+||vares.top/js/profiton-auto_adblock*.js
 ||ar.prd.content.itv.com/media/$domain=itv.com
 ||content.swncdn.com/zcast/oneplace/
 ||assets.gnwcdn.com/prebid*.js
@@ -98930,6 +98931,7 @@ www.youtube.com#%#//scriptlet('set-constant', 'ytcfg.data_.EXPERIMENT_FLAGS.web_
 www.youtube.com#%#//scriptlet('prevent-setTimeout', '(),a,b)', '5000')
 m.youtube.com#%#//scriptlet('json-prune', 'playerResponse.messages.[].youThereRenderer')
 m.youtube.com#%#(()=>{const t={apply:(t,e,n)=>{if(location.href.includes("/shorts/")||location.href.includes("youtube.com/tv")||location.href.includes("youtube.com/embed/"))return Reflect.apply(t,e,n);try{const a=n[0];if(!a?.context?.client)return Reflect.apply(t,e,n);const o=String(Date.now());a.playbackContext&&void 0===a.playbackContext.adPlaybackContext&&(a.playbackContext.contentPlaybackContext.lactMilliseconds=o),a.playerRequest&&void 0===a.playerRequest.playbackContext?.adPlaybackContext&&(a.playerRequest.playbackContext.contentPlaybackContext.lactMilliseconds=o),n[0]=a}catch(t){}return Reflect.apply(t,e,n)}};window.JSON.stringify=new Proxy(window.JSON.stringify,t)})();
+vares.top#%#//scriptlet('prevent-window-open', '_blank', '1')
 net77.cc#%#//scriptlet('prevent-window-open')
 onoflix.com,onoflix.live#%#//scriptlet('json-prune', 'adScript')
 bananamovies.org#%#//scriptlet('abort-current-inline-script', 'setTimeout', 'uam-wrapper')

@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Pending Review (Not AI-reviewed)
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202607161639
-! Last modified: 2026-07-16T16:39:50Z
+! Version: 202607161818
+! Last modified: 2026-07-16T18:18:09Z
 ! Layers: dns
 ! Mode: standard
-! Rules: 219832
+! Rules: 219858
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -149916,6 +149916,9 @@
 ||hbnygj.com^
 ||https-filtering-check.adtidy.org^
 ||unpkg.com^$badfilter
+||trowel03.com^
+||hcyo99iyr.com^
+||anqv97upx.com^
 /pa.dajiahao*.top/
 /^.+stat\.kugou\.com/
 /^admarvel\./
@@ -180427,9 +180430,6 @@
 ||zzy1.quyaoya.com^
 ||zzycj.com^
 ||zzz.onion.pet^
-||trowel03.com^
-||hcyo99iyr.com^
-||anqv97upx.com^
 ||piguiqproxy.com^$badfilter
 /^https:\/\/[0-9a-z]+\.xyz\/rinku\/land/$document,~third-party,match-case,replace=/const proxyStatus = "Y";/const proxyStatus = "N";/
 /js/sextb.js$domain=sextb.date|sextb.net,replace=/if\(checkads\(\)==false\)/if(!0)/
@@ -180460,17 +180460,29 @@
 ||3m69hwfwjmye5u528j4.cfd^
 ||aozrkylybcmjp.space^
 ||beorlswotqdis.space^
+||bxdrrkfeichhms.com^
+||cilerysofa.cyou^
 ||dipwaretraikykohemp.cfd^
 ||finnedrepitchplanaru.cfd^
 ||nbslziuvlttlt.space^
 ||o4pi5tvhnp4t2wenoz5k12.rest^
 ||orkxknsdsklcx.online^
+||pingoorality.shop^
+||pyrubgdzzvkox.site^
+||scrithemolompi.qpon^
+||smuggerpalar.cfd^
+||square-smoke.pro^
+||umhtpaohymjwy.com^
+||uyewpmfdsonyo.website^
 ||uzawebaho.sbs^
 ||wqujzrooysizj.website^
 ||wtcailhxmpge.com^
 ||wyaqlqweavllo.site^
 ||wzlaeetkljcuy.website^
 ||xnbutlfbooeia.website^
+||xtebqjqhrafhm.space^
+||ycabzuutwyjqh.online^
+||zjxcmktnzfszz.space^
 /(https?:\/\/)104\.154\..{100,}/
 /(https?:\/\/)104\.197\..{100,}/
 /(https?:\/\/)104\.198\..{100,}/
@@ -197828,6 +197840,20 @@
 ||zysuvysaj.pro^
 ||zzux.com^
 ||sobot.com^
+||alaninscaraipeterrar.cyou^
+||apperilich.qpon^
+||bkpcveblxdwzc.website^
+||carapanasaump.cyou^
+||cciqjddkvgljm.site^
+||daleabeaver.shop^
+||dirigeimpies.cfd^
+||glarilyacerb.shop^
+||jewhoodblicky.qpon^
+||jzmwxos.com^
+||lionetdepark.cyou^
+||pwrcoughed.qpon^
+||scuddlecuties.qpon^
+||wappspewy.cyou^
 ||mobile.pipe.aria.microsoft.com^
 ||cu-cn-north00001.gala.convection.cn^
 ||xvtelink.com^

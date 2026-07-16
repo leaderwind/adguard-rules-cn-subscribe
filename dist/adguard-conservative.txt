@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Conservative
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202607161418
-! Last modified: 2026-07-16T14:18:19Z
+! Version: 202607161639
+! Last modified: 2026-07-16T16:39:50Z
 ! Layers: network,content,scriptlet
 ! Mode: conservative
-! Rules: 108036
+! Rules: 108046
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -17181,6 +17181,8 @@ rvlev.com,t66y.com#?#[class]:-abp-has(>a[onmouseover="this.style.background='#DE
 ||claimfey.com/cryptonews/wp-content/uploads/bqanwcfp.js
 @@||static.trafficjunky.com/ab/ads_test.js$domain=bztube.com|hotovs.com|insuredhome.org|nudegista.com|pornluck.com|vidd.se|redtube.*|youpornru.com|tube8.com|tube8.es|tube8.fr|tube8.net|pornhub.com|pornhub.org|pornhub.net
 @@://www.exoclick.com/ads.js|
+@@||flyfile.app^$generichide
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=flyfile.app
 ||hdmovieverse.site/wp-content/plugins/adblock-detector/adblock-detector.js
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=net77.cc
 @@||publishers.monetag.com/assets/favicon-16x16.png$domain=net77.cc
@@ -22913,6 +22915,7 @@ $subdocument,third-party,denyallow=disqus.com,domain=love4u.net
 $third-party,script,domain=klto9.com|f2movies.to|hacamchicac.com|yourporngod.com|zinchanmanga.com|yaoimangaonline.com|tututweak.app|mangaraw.ac|eromanga-show.com|hentai-one.com|hentaipaw.com|nukibooks.com|paipancon.com|jgvdata.com|youtubevanced.com|pandamtl.com|mangaplus.shueisha.tv|shueisharaw.tv
 ||linksconsole.com/ad-system/
 ||misc-api.feathermc.com/*/ads/ad_units?
+||ladybanana.co.uk/js/enhance.js
 ||amigosporn.com/api/ads/
 ||vares.top/js/profiton-auto_adblock*.js
 ||ar.prd.content.itv.com/media/$domain=itv.com
@@ -26726,6 +26729,7 @@ $popup,third-party,domain=fembed-hd.com,badfilter
 $popup,third-party,domain=sbplay2.com,badfilter
 $popup,third-party,domain=dood.ws,badfilter
 @@||download.ros.org/*.xsd$document
+@@||ehgt.org/*.jpg|$image,domain=e-hentai.org
 @@$popup,domain=datanodes.to,third-party
 @@||tanstack.com^$elemhide
 @@||cdn.viously.com/js/sdk/boot.js$domain=gamekult.com
@@ -29697,6 +29701,7 @@ cdn.braun634.com^$third-party
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
 @@/\.(gif|jpg|png|svg).*#.*\/ad\//$image,domain=mizugigurabia.com|aimasummd.blog.fc2.com|newssokuhou666.blog.fc2.com|touhoudougamatome.blog.fc2.com|metamani.blog15.fc2.com|youkaiwatch2345.blog.fc2.com|dokuo666.blog98.fc2.com|mysafe.stisda.ac.id|metamani.blog15.fc2.com|link.technics-goods.info|gfilex.blogspot.com|codare.fun|ads-ti9ni4.blogspot.com|thelibrarydigital.blogspot.com|www-daftarharga.blogspot.com|mediapemersatubangsa.com|ear-phone-review.com|tienganhedu.com|itdmusics.com|burnbutt.com|valuable.hatenablog.com|leechpremium.net|lib.hatenablog.com|gametter.com|mini.surveyenquete.net|opatil.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=dqmsl-search.net
+@@||pidlio.com^$generichide
 @@||opatil.com^$generichide
 @@||mini.surveyenquete.net^$generichide
 @@||yoima2.hatenablog.com^$generichide
@@ -47663,6 +47668,7 @@ cinemagia.ro#$##main_container { padding-top: 0!important; }
 romanialibera.ro##body > div.m-auto[style="width: 1200px; height: 200px"]
 gsp.ro##.parteneri > .inside > .boxuri-parteneri > .box-partener.custom
 a1.ro##.ima-ad-container
+halooglasi.com##.banner-list-item
 tanjug.rs##.banner
 filmoviplex.com##a[target="_blank"] > img[style="max-width: 100%;"]
 sportal.blic.rs##div.mx-auto:has(> div.wrapperAd)
@@ -49770,6 +49776,10 @@ animecorner.me,zarabiajprzez24.pl,watchhentai.xxx,app-how-to-use-it.com,linuxcap
 pawastreams.*,nflbite.to,footybite.to,sportschamp.fun,afly.pro,topsporter.net,soccerstreams.football,mysocceraustralia.com,rayinfosports.com,hesgoals.top,sequencecard.xyz,totalsportek.soccer,metaporky.site,nbabite.to,cyfostreams.com,gamerarcades.com,bestreamsports.org,footy.to,mcrypto.club,greaterkashmir.com###id-custom_banner
 pawastreams.*,groundedtechs.com,rayinfosports.com,sequencecard.xyz,matchtime.co,sportspellz.com,bestreamsports.org,silverspoon.site###dismiss-btn
 vi-control.net,nullforums.net,landyzone.co.uk,nullcave.pro,woxmax.com,waskucity.com,babia.to,technofino.in,reef2reef.com,minebbs.com,craxpro.io,affiliatefix.com,myiptvforum.com,hifivision.com,worldofiptv.com,altenen.is,beermoneyforum.com,germancarforum.com,cracking.org##.samBannerUnit
+football.london##div[data-tmdatatrack-type="commercial"]
+flyfile.app##a[href^="https://s.pemsrv.com/"]
+livemint.com##.inline-carousel-ad
+livemint.com##.carouselAdWrapper
 amigosporn.com,amg.upns.live##iframe[style*="bottom: 70px; z-index: 5;"]
 aruble.net###stickyAdZone
 sbs.com.au##div[class^="LeaderboardAdContainer"]

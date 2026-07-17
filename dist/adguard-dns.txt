@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - DNS
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202607162309
-! Last modified: 2026-07-16T23:09:37Z
+! Version: 202607170011
+! Last modified: 2026-07-17T00:11:27Z
 ! Layers: dns
 ! Mode: standard
-! Rules: 220218
+! Rules: 220229
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -180522,6 +180522,8 @@
 ||zzy1.quyaoya.com^
 ||zzycj.com^
 ||zzz.onion.pet^
+||xhckbgvd0.com^
+||blhkzjnamvlxxg.com^
 ||piguiqproxy.com^$badfilter
 /^https:\/\/[0-9a-z]+\.xyz\/rinku\/land/$document,~third-party,match-case,replace=/const proxyStatus = "Y";/const proxyStatus = "N";/
 /js/sextb.js$domain=sextb.date|sextb.net,replace=/if\(checkads\(\)==false\)/if(!0)/
@@ -180549,6 +180551,13 @@
 ||freeadultcomix.com^$badfilter
 ||imgshare.info^$badfilter
 @@||connectivitycheck.gstatic.com^$important
+||dunitejuffer.cfd^
+||jwihniosbudsa.site^
+||lzlkovbmegukt.space^
+||odsvxirweqzxn.space^
+||oxzdcaowlhuon.online^
+||pgykmhllukmfp.space^
+||rotbaqjfv.com^
 /(https?:\/\/)104\.154\..{100,}/
 /(https?:\/\/)104\.197\..{100,}/
 /(https?:\/\/)104\.198\..{100,}/
@@ -198208,11 +198217,13 @@
 ||zysuvysaj.pro^
 ||zzux.com^
 ||sobot.com^
-||jwihniosbudsa.site^
-||lzlkovbmegukt.space^
-||odsvxirweqzxn.space^
-||oxzdcaowlhuon.online^
-||rotbaqjfv.com^
+||cjgfhwowemhpz.online^
+||cjtwulixijqpu.space^
+||paartureen.cyou^
+||qfpwlzcwyjtxs.space^
+||reetamvampyreslumps.cfd^
+||ujwulcyggvger.site^
+||vdfexpilffejp.space^
 ||mobile.pipe.aria.microsoft.com^
 ||cu-cn-north00001.gala.convection.cn^
 ||xvtelink.com^

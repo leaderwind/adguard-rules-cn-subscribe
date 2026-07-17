@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Network
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202607170626
-! Last modified: 2026-07-17T06:26:16Z
+! Version: 202607170919
+! Last modified: 2026-07-17T09:19:45Z
 ! Layers: network
 ! Mode: standard
-! Rules: 47497
+! Rules: 47498
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -8322,6 +8322,7 @@ $cookie=__adblocker,domain=slate.com|thehindubusinessline.com
 ||claimfey.com/cryptonews/wp-content/uploads/bqanwcfp.js
 @@||static.trafficjunky.com/ab/ads_test.js$domain=bztube.com|hotovs.com|insuredhome.org|nudegista.com|pornluck.com|vidd.se|redtube.*|youpornru.com|tube8.com|tube8.es|tube8.fr|tube8.net|pornhub.com|pornhub.org|pornhub.net
 @@://www.exoclick.com/ads.js|
+@@||ssl.p.jwpcdn.com/player/v/8.36.2/googima.js$domain=playmate.to
 @@||flyfile.app^$generichide
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=flyfile.app
 ||hdmovieverse.site/wp-content/plugins/adblock-detector/adblock-detector.js

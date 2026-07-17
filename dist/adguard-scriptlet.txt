@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Scriptlet
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202607171930
-! Last modified: 2026-07-17T19:30:42Z
+! Version: 202607172106
+! Last modified: 2026-07-17T21:06:32Z
 ! Layers: scriptlet
 ! Mode: standard
-! Rules: 5443
+! Rules: 5445
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -435,6 +435,8 @@ youporn.com,bztube.com,hotovs.com,insuredhome.org,nudegista.com,pornluck.com,vid
 pornhub.com,pornhub.org,pornhub.net#%#//scriptlet('set-constant', 'page_params.holiday_promo_prem', 'true')
 pornhub.com,pornhub.org,pornhub.net#%#//scriptlet('prevent-setTimeout', '\x41\x64\x62\x6c\x6f\x63\x6b\x20\x66\x6f\x72\x20\x70\x6f\x72\x6e\x68\x75\x62')
 youporn.com#%#//scriptlet('remove-node-text', 'script', '/window\.[\s\S]*?_zone_[\s\S]*?{"zone_id":/')
+cinefreak.nl#%#//scriptlet('abort-current-inline-script', 'onload', 'adsbygoogle')
+cinecloud.site#%#//scriptlet('abort-current-inline-script', 'EventTarget.prototype.addEventListener', 'adsbygoogle')
 playmate.to#%#//scriptlet('abort-current-inline-script', 'document.createElement', 'googima.js')
 flyfile.app#%#//scriptlet('prevent-fetch', 'adsbygoogle')
 aruble.net#%#//scriptlet('prevent-fetch', 'cdn.bmcdn6.com')

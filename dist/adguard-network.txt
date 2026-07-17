@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Network
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202607171138
-! Last modified: 2026-07-17T11:38:58Z
+! Version: 202607171400
+! Last modified: 2026-07-17T14:00:13Z
 ! Layers: network
 ! Mode: standard
-! Rules: 47503
+! Rules: 47504
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -35129,6 +35129,7 @@ template/m1938pc/ads/*.js
 /api/reqAnalytic/*
 /api/sentry/tunnel$xmlhttprequest
 /api/stat?
+/api/stn/audience|$xmlhttprequest
 /api/track?guid
 /api/trk?
 /api/v1/EndpointTracker

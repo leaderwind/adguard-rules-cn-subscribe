@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Browser
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202607170011
-! Last modified: 2026-07-17T00:11:27Z
+! Version: 202607170337
+! Last modified: 2026-07-17T03:37:08Z
 ! Layers: network,content,scriptlet
 ! Mode: standard
-! Rules: 115918
+! Rules: 115923
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -39866,6 +39866,7 @@ _800x80_
 ||disqus.com/ads-iframe/
 ||disqus.com/listPromoted?
 ||dnscloud.github.io/js/waypoints.min.js
+||dungatv.xyz/buceta.php
 ||dunhilltraveldeals.com^$third-party
 ||dx.com/affiliate/
 ||e-tailwebstores.com/accounts/default1/banners/
@@ -40592,6 +40593,7 @@ $third-party,xmlhttprequest,domain=mega4upload.net
 ||api.deepai.org/thrad-ad-proxy
 ||api.production.k8s.y3o.tv/nevarro/video-ads/$domain=yallo.tv
 ||app.mps.vsnt.net/fetch/ext/load-rottentomatoes-web.js$domain=rottentomatoes.com
+||appteka.store/api/banners?
 ||arbiscan.io/images/gen/*_StylusBlitz_Arbiscan_Ad.png
 ||armyrecognition.com/images/stories/customer/
 ||artdaily.cc/banners/
@@ -86785,6 +86787,7 @@ rhumbarlv.com##.banlink
 papermag.com##.banner--ad__placeholder
 dayspedia.com##.banner--aside
 onlineradiobox.com##.banner--header
+oilprice.com##.banner--header_mobile
 oilprice.com##.banner--inPage
 puzzlegarage.com##.banner--inside
 dayspedia.com##.banner--main
@@ -87590,6 +87593,7 @@ filehorse.com##.dx-hp-2
 filehorse.com##.dx-hp-4
 filehorse.com##.dx-pr-3
 filehorse.com##.dx-pr-4
+trueachievements.com##.dyn-lb
 coinpaprika.com##.dynamic-ad
 dailydot.com##.dynamic-block
 ontvtonight.com##.dynamicStuffHere
@@ -90349,6 +90353,7 @@ igi-global.com##.width-100
 ign.com##.wiki-bobble
 wethegeek.com##.win
 dailywire.com##.wisepops-block-image
+businessinsider.com##.with-markets-insider-banner
 whoseno.com##.wn-ad-wrap
 reuters.com##.workspace-article-banner-module__image__F14iP
 warontherocks.com##.wotr_top_lbjspot

@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Scriptlet
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202607181511
-! Last modified: 2026-07-18T15:11:26Z
+! Version: 202607181610
+! Last modified: 2026-07-18T16:10:54Z
 ! Layers: scriptlet
 ! Mode: standard
-! Rules: 5447
+! Rules: 5448
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -480,6 +480,7 @@ streamcash.to#%#//scriptlet('abort-on-stack-trace', 'document.getElementById', '
 streamcash.to#%#//scriptlet('abort-on-stack-trace', 'document.createElement', '/\.style\.setProperty|\.contentWindow\.document\.createElement/')
 lihatgambar.my.id#%#//scriptlet('remove-node-text', 'script', 'adsbygoogle.push')
 sonyliv.com#%#//scriptlet('prevent-fetch', 'pubads.g.doubleclick.net')
+thesun.co.uk#%#//scriptlet('abort-current-inline-script', 'atob', 'insertBefore(s')
 thesun.co.uk#%#//scriptlet('prevent-fetch', 'adsbygoogle')
 thesun.co.uk#%#//scriptlet('prevent-element-src-loading', 'script', 'gpt.js')
 rscripts.net#%#//scriptlet('prevent-fetch', 'doubleclick')

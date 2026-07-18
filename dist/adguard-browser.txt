@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Browser
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202607181511
-! Last modified: 2026-07-18T15:11:26Z
+! Version: 202607181610
+! Last modified: 2026-07-18T16:10:54Z
 ! Layers: network,content,scriptlet
 ! Mode: standard
-! Rules: 115942
+! Rules: 115937
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -1746,7 +1746,6 @@ wss://*/api/wss/GetNotReadCount$third-party
 ||szlite.cn^$third-party
 ||zhangyuyidong.cn^$third-party
 ||imjtv.cc^$third-party
-||31fq.com^$third-party
 ||zooj.cn^$third-party
 ||1133.cc^$third-party
 ||1188.com^$third-party
@@ -7082,10 +7081,6 @@ $image,third-party,domain=258zw.com
 ://*:*/chunyu.html?k=$csp=script-src
 ://*:*/yeyue.html?k=$csp=script-src
 :6607/qy/$script,third-party
-.hgo0*uyi.com/$script,xmlhttprequest,third-party
-.yui0*shga.com/$script,xmlhttprequest,third-party
-.moa0*ju.com/$script,xmlhttprequest,third-party
-/83zg/tss.js
 ||hupu*.com/js/html$~third-party,script
 ||hupu*.com/js/cdn.js
 yydstxt*.com/js/html
@@ -10201,7 +10196,6 @@ newduba.cn###jq_youxi
 ##a[href*="/lesi151.cc"]
 ##a[href*="/lesi198.com"]
 ##a[href*=".jmtybc.com"]
-##a[href*=".fdgsnnvfsdv2df1bf3fdb1.cc"]
 ##a[href="http://yun886.com"]
 ##a[href*="/2e9c9aa9.com/"]
 ##a[href*="/33hth.cn"]
@@ -94755,6 +94749,7 @@ streamcash.to#%#//scriptlet('abort-on-stack-trace', 'document.getElementById', '
 streamcash.to#%#//scriptlet('abort-on-stack-trace', 'document.createElement', '/\.style\.setProperty|\.contentWindow\.document\.createElement/')
 lihatgambar.my.id#%#//scriptlet('remove-node-text', 'script', 'adsbygoogle.push')
 sonyliv.com#%#//scriptlet('prevent-fetch', 'pubads.g.doubleclick.net')
+thesun.co.uk#%#//scriptlet('abort-current-inline-script', 'atob', 'insertBefore(s')
 thesun.co.uk#%#//scriptlet('prevent-fetch', 'adsbygoogle')
 thesun.co.uk#%#//scriptlet('prevent-element-src-loading', 'script', 'gpt.js')
 rscripts.net#%#//scriptlet('prevent-fetch', 'doubleclick')

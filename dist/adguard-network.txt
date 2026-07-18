@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Network
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202607181511
-! Last modified: 2026-07-18T15:11:26Z
+! Version: 202607181610
+! Last modified: 2026-07-18T16:10:54Z
 ! Layers: network
 ! Mode: standard
-! Rules: 47506
+! Rules: 47501
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -1746,7 +1746,6 @@ wss://*/api/wss/GetNotReadCount$third-party
 ||szlite.cn^$third-party
 ||zhangyuyidong.cn^$third-party
 ||imjtv.cc^$third-party
-||31fq.com^$third-party
 ||zooj.cn^$third-party
 ||1133.cc^$third-party
 ||1188.com^$third-party
@@ -7082,10 +7081,6 @@ $image,third-party,domain=258zw.com
 ://*:*/chunyu.html?k=$csp=script-src
 ://*:*/yeyue.html?k=$csp=script-src
 :6607/qy/$script,third-party
-.hgo0*uyi.com/$script,xmlhttprequest,third-party
-.yui0*shga.com/$script,xmlhttprequest,third-party
-.moa0*ju.com/$script,xmlhttprequest,third-party
-/83zg/tss.js
 ||hupu*.com/js/html$~third-party,script
 ||hupu*.com/js/cdn.js
 yydstxt*.com/js/html

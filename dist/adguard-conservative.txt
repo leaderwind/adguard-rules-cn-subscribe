@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Conservative
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202607180857
-! Last modified: 2026-07-18T08:57:19Z
+! Version: 202607181038
+! Last modified: 2026-07-18T10:38:13Z
 ! Layers: network,content,scriptlet
 ! Mode: conservative
-! Rules: 108070
+! Rules: 108063
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -52555,8 +52555,6 @@ ogfap.com##.ad-placement
 ososedki.com###masonry > div.thumbs:has(> center > noindex > div[style^="min-height:"])
 ososedki.com##.grid-more > div.thumbs-more:has(> center > noindex > div[style^="min-height:"])
 classace.io##div[class^="GoogleInArticleAdsenseContainer"]
-pixiv.net##div[data-gtm-recommend-zone] > ul > li:has(> div > div[id^="adsdk-"])
-pixiv.net##div[style="margin: 48px auto 8px; width: 728px; line-height: 0; font-size: 0px;"]
 flufi.me##div[class^="AdsBanner"]
 letsporn.com##.sp-holder
 letsporn.com##a[target="_blank"][onclick*="paysite_outgoing_click"]
@@ -53424,8 +53422,6 @@ boundhub.com##.content > div[class^="to"][class$="op"]
 theportugalnews.com###sliding-banner
 saiganak.com##.entry-adsense
 vikingfile.com##a[href^="/fast-download/"]
-pixiv.net##div[style="position: static; z-index: auto;"] + div[style^="margin-left"]:empty
-pixiv.net##div[data-overlay-container="true"] > div:not([class]) > div[class^="sc-"]:has(> div[id^="adsdk"])
 wccftech.com##button[rel="nofollow sponsored"]
 camhub.cc,public-porno.com##.grid-temp > li.spot:has(> div.thumb-box)
 videos.tybito.com,videos.pornototale.com,videos.eispop.com,videos.porndig.com##.shaka-player-toolbar
@@ -59583,7 +59579,6 @@ india.com###cbanner
 lookmovie.io##.bottom-message-container
 lookmovie.io##div[class$="-page-ads-wrapper"]
 lookmovie.io##.notifyjs-corner
-pixiv.net##._illust-upload + div[style*="968px;"][style*="170px;"]
 lowendtalk.com###Foot > a[href] > img
 iceporn.com##.spot-300x100
 fileriver.net##center > a[onclick*="https://href.li"]
@@ -64882,14 +64877,6 @@ nulleb.com#?#.g1-collection-items > .g1-injected-unit:has(> .g1-advertisement-in
 roleplayer.me#?#div[align="center"] > font[color="grey"]:contains(/^Advertisement$/)
 roleplayer.me#?#div[id^="ClearVista_Roleplayerme_300x"] + table:has(> tbody > tr > td > center > font > a[href="premium/paid_membership.php"])
 thequint.com#?#.content div[style=""] > div[class*=" "]:has(> div[class] > div > .adunitContainer)
-pixiv.net#?#iframe[name="dashboard_home"]:upward(div[class^="sc-"][span="1"])
-pixiv.net#?#iframe[name="footer"][width="728"][height="90"]:upward(1)
-pixiv.net#?#iframe[name="rectangle"][width="300"][height="250"]:upward(1)
-pixiv.net#?#iframe[name][width="184"][height="232"]:upward(1)
-pixiv.net#?#iframe[name][width="500"][height="520"]:upward(1)
-pixiv.net#?#.gtm-toppage-thumbnail-illustration-recommend-works-zone ul[class] > li:has(> div[class] > iframe[name="topbranding_rectangle"])
-pixiv.net#?#div[style^="position: static;"] + div[class] > iframe[name="header"][width]:upward(1)
-pixiv.net#?#div[class^="sc-"] > div[style^="margin:"][style*="font-size:"]:only-child > iframe[name="footer"][width]:only-child:upward(2)
 torrentfreak.com#?#.page__sidebar > .widget_text > .o-widget__title:contains(/^Sponsors$/):upward(1)
 cinereporters.com#?##btm-widget > h1:contains(/^From around the web$/)
 cinereporters.com#?#.colombiaonesuccess > div[class]:has(> div[id] > div > a[onclick] > div > .brand_ctn)
@@ -85171,6 +85158,7 @@ topminecraftservers.org##.grey-section
 sltrib.com##.grid-ad-container-2
 teleboy.ch##.grid-col-content-leaderboard
 newsnow.co.uk##.grid-column__container
+pixiv.net##.grid-flow-dense > .aspect-square.overflow-hidden
 issuu.com##.grid-layout__ad-by-details
 issuu.com##.grid-layout__ad-by-reader
 issuu.com##.grid-layout__ad-in-shelf
@@ -88169,6 +88157,7 @@ bravoporn.com,gogoanime.co.in,harimanga.me,hurawatch.cc,instamod.co,leercapitulo
 bravoporn.com,gogoanime.co.in,harimanga.me,hurawatch.cc,instamod.co,leercapitulo.co,mangadna.com,messitv.net,miraculous.to,putlockers.li,sukidesuost.info,waploaded.com,yts-subs.com##[style*="z-index:"]
 shotcut.org##[style="background-color: #fff; padding: 6px; text-align: center"]
 realitytvworld.com##[style="background-color: white; background: white"]
+pixiv.net##[style="display: block; height: 345px; width: 500px;"]
 pixiv.net##[style="display: block; width: 100%; height: 520px;"]
 pixiv.net##[style="display: block; width: 300px; height: 250px;"]
 imgbox.com##[style="display: inline-block;width:300px;height:250px"]
@@ -88183,6 +88172,7 @@ geekzone.co.nz##[style="height:90px"]
 apkcombo.com##[style="margin-bottom: 10px; max-height: 260px; min-height: 260px; overflow: hidden"]
 thespoken.cc##[style="margin-bottom: 25px;"]
 builtbybit.com##[style="margin-top: 20px; display: flex; justify-content: center;"]
+pixiv.net##[style="margin: 48px auto 8px; width: 728px; line-height: 0; font-size: 0px;"]
 realitytvworld.com##[style="margin: 5px 0px 5px; display: inline-block; text-align: center; height: 250;"]
 gpfans.com##[style="margin:10px auto 10px auto; text-align:center; width:100%; overflow:hidden; min-height: 250px;"]
 timesnownews.com##[style="min-height: 181px;"]
@@ -89161,9 +89151,11 @@ slickdeals.net##.frontpageGrid__feedItem:has(.dealCardBadge--promoted)
 alibaba.com##.gallery-card:has(.searchx-card-e-ad)
 detectiveconanworld.com##.generated-sidebar[style="background: #ffffff;"]
 bestbuy.com##.generic-morpher:has(.spns-label)
+pixiv.net##.grid-flow-dense > div:has(> [style="display: block; width: 184px; height: 232px;"] > iframe)
 sainsburys.co.uk##.gridItem:has(.citrusAdproduct)
 pstream.org##.group > .border-buttons-purple:has(> button[aria-label="Dismiss ad"])
-pixiv.net##.gtm-toppage-thumbnail-illustration-recommend-works-zone > ul > li:has(> div > [id^="adsdk-"])
+pixiv.net##.gtm-toppage-thumbnail-illustration-recommend-works-zone > ul > li:has(> div > [style="display: block; width: 300px; height: 250px;"])
+pixiv.net##.gtm-toppage-thumbnail-manga-recommend-works-zone li:has(> [style="display: block; width: 184px; height: 232px;"])
 manomano.co.uk,manomano.de,manomano.es,manomano.fr,manomano.it##.hrHZYT:has([data-testid="popoverTriggersponsoredLabel"])
 dollargeneral.com##.image__desktop-container:has([data-track-image*="|P&G|Gain|"])
 1tamilmv.tax##.ipsWidget:has([href*="RajbetImage"])
@@ -89177,7 +89169,6 @@ bjs.com##.lazyload-wrapper:has(> #promoteIqContent)
 motortrend.com##.lg\:min-h-\[90px\]
 alibaba.com##.list-card:has([data-role="ad-area"])
 trip.com##.list-item:has(span.ad-info)
-pixiv.net##.list-none:has(> div > [id^="adsdk"])
 hotukdeals.com##.listLayout-box:has(> .bRad--a)
 pcgamer.com##.listingResult:has(> .sponsored-post)
 euronews.com##.m-object:has(.m-object__spons-quote)
@@ -89337,6 +89328,7 @@ alibaba.com##[id^="sse-fluent-wending"]:has(.creative-ad-tag)
 kayak.com##[role="button"]:has([class*="ad-marking"])
 staples.com##[role="complementary"] #observer-id-temp:has(> #SKU_FeaturedProductCarousel)
 kayak.com##[role="tab"]:has([class*="sponsored"])
+pixiv.net##[span="1"]:has(> div > div > div[style="display: block; width: 100%; height: 434px;"])
 unknowncheats.me##[style*="justify-content"]:has([rel^="sponsored"]) + [style]
 pixiv.net##[style^="display: block; width: 100%; height"]:has(> iframe[data-uid])
 manomano.*##a[class]:has(> .UWP_c8)
@@ -89489,6 +89481,7 @@ windowsreport.com##section.hide-mbl:has(a[href^="https://out.reflectormedia.com/
 hwbusters.com##section.widget:has(> div[data-hwbus-trackbid])
 thehansindia.com##section:has(> .to-be-async-loaded-ad)
 thehansindia.com##section:has(> [class*="level_ad"])
+pixiv.net##section:has(> div > div > iframe[name="illusttop_appeal"])
 tripadvisor.*##section[data-automation$="_AdPlaceholder"]:has(.txxUo)
 homedepot.com##section[id^="browse-search-pods-"] > div.browse-search__pod:has(div.product-sponsored)
 mirrored.to##tbody > tr:has(> td[data-label="Host"] > img[src="https://www.mirrored.to/templates/mirrored/images/hosts/FilesDL.png"])

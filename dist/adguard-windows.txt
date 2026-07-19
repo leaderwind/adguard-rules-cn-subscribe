@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Windows
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202607190349
-! Last modified: 2026-07-19T03:49:08Z
+! Version: 202607190641
+! Last modified: 2026-07-19T06:41:46Z
 ! Layers: network,content,scriptlet
 ! Mode: standard
-! Rules: 115937
+! Rules: 115940
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -10252,8 +10252,8 @@ iplark.com##div[style="position: relative;"]
 cngold.org#?#.w310:has(>.swiper-company)
 cngold.org##.headCompanys
 cngold.org##.mainRight > .border_top:first-child
-ping0.cc##.xaeles
-ping0.cc###adfright
+ping0.cc##.xbeles
+ping0.cc###adgright
 cngold.org##.foot_megagame
 cngold.org##.fixed_jt
 hanime1.me#?#div[style*="text-align:"]:has(>div[style*="color: white"])
@@ -16498,8 +16498,6 @@ sudokugame.org#%#//scriptlet('trusted-replace-node-text', 'script', 'adjump', 'f
 @@||jd.com/adclick?$popup,~third-party
 ||wnacg.com/game/$image,rewrite=abp-resource:1x1-transparent-gif,domain=wnacg.com
 cngold.org#?#.w310:-abp-has(>.swiper-company)
-ping0.cc##.xbeles
-ping0.cc###adgright
 hanime1.me#?#div[style*="text-align:"]:-abp-has(>div[style*="color: white"])
 weibo.com#?#.vue-recycle-scroller__item-view:-abp-has(img[src="https://d.sinaimg.cn/prd/1005/891/2025/03/21/icon_auth_white.png"])
 douyu.com#?#div[class^="body__"] > div[class^="card__"] > span > span[class^="card__"]:-abp-has(span[class^="cardTypeLabel"]:-abp-contains(广告))
@@ -17572,8 +17570,8 @@ $cookie=__adblocker,domain=slate.com|thehindubusinessline.com
 @@||sonyliv.com^$generichide
 ||imasdk.googleapis.com/js/core/$domain=sonyliv.com,important
 @@||pubads.g.doubleclick.net/gampad/$domain=sonyliv.com
-@@||securepubads.g.doubleclick.net/tag/js/gpt.js$domain=thesun.co.uk
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=thesun.co.uk
+@@||securepubads.g.doubleclick.net/tag/js/gpt.js$domain=thesun.co.uk|the-sun.com|thesun.ie|thescottishsun.co.uk
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=thesun.co.uk|the-sun.com|thesun.ie|thescottishsun.co.uk
 @@||coinadster.com^$generichide
 @@||rscripts.net/ads/custom_ads.js$script,domain=rscripts.net
 @@||rscripts.net^$generichide
@@ -52557,6 +52555,7 @@ animecorner.me,zarabiajprzez24.pl,watchhentai.xxx,app-how-to-use-it.com,linuxcap
 pawastreams.*,nflbite.to,footybite.to,sportschamp.fun,afly.pro,topsporter.net,soccerstreams.football,mysocceraustralia.com,rayinfosports.com,hesgoals.top,sequencecard.xyz,totalsportek.soccer,metaporky.site,nbabite.to,cyfostreams.com,gamerarcades.com,bestreamsports.org,footy.to,mcrypto.club,greaterkashmir.com###id-custom_banner
 pawastreams.*,groundedtechs.com,rayinfosports.com,sequencecard.xyz,matchtime.co,sportspellz.com,bestreamsports.org,silverspoon.site###dismiss-btn
 vi-control.net,nullforums.net,landyzone.co.uk,nullcave.pro,woxmax.com,waskucity.com,babia.to,technofino.in,reef2reef.com,minebbs.com,craxpro.io,affiliatefix.com,myiptvforum.com,hifivision.com,worldofiptv.com,altenen.is,beermoneyforum.com,germancarforum.com,cracking.org##.samBannerUnit
+thescottishsun.co.uk,thesun.ie##.module--1-billboard
 greatandhra.com##.shp-layer
 uindex.org##body > [id][class*=" "]:has(> a[target="_blank"])
 moviebite.cc##.site-ad-banner
@@ -94749,9 +94748,9 @@ streamcash.to#%#//scriptlet('abort-on-stack-trace', 'document.getElementById', '
 streamcash.to#%#//scriptlet('abort-on-stack-trace', 'document.createElement', '/\.style\.setProperty|\.contentWindow\.document\.createElement/')
 lihatgambar.my.id#%#//scriptlet('remove-node-text', 'script', 'adsbygoogle.push')
 sonyliv.com#%#//scriptlet('prevent-fetch', 'pubads.g.doubleclick.net')
-thesun.co.uk#%#//scriptlet('abort-current-inline-script', 'atob', 'insertBefore(s')
-thesun.co.uk#%#//scriptlet('prevent-fetch', 'adsbygoogle')
-thesun.co.uk#%#//scriptlet('prevent-element-src-loading', 'script', 'gpt.js')
+the-sun.com,thesun.ie,thescottishsun.co.uk,thesun.co.uk#%#//scriptlet('abort-current-inline-script', 'atob', 'insertBefore(s')
+the-sun.com,thesun.ie,thescottishsun.co.uk,thesun.co.uk#%#//scriptlet('prevent-fetch', 'adsbygoogle')
+the-sun.com,thesun.ie,thescottishsun.co.uk,thesun.co.uk#%#//scriptlet('prevent-element-src-loading', 'script', 'gpt.js')
 rscripts.net#%#//scriptlet('prevent-fetch', 'doubleclick')
 anime.uniquestream.net#%#//scriptlet('set-constant', '__US_CONFIG__.ads', 'undefined')
 anime.uniquestream.net#%#//scriptlet('json-prune', 'ads')
@@ -102885,8 +102884,12 @@ cyberchef.org###workspace-wrapper > [id][style*="height"] {height: 100% !importa
 complex.com##.\[\@media\(min-width\:520px\)\]\:px-\[20px\]
 justjared.com##.banner-spacer-top {max-height: 50px !important;}
 temp-mail.io##.fixed.bottom-0.\[\@media\(max-width\:1350px\)\]\:hidden
+progameguides.com##.leaderboard_atf
 complex.com##.lg\:top-\[var\(--sticky-top\)\]
 justjared.com##[role="banner"] {top:0 !important}
+roundtable.io##div[style^="min-width: 160px;"]
+roundtable.io##div[style^="min-width: 320px;"]
+etfexpress.com##img[width="970"][height="250"]
 deliveroo.*#?#a[role="button"]:has(p:has-text(Sponsored))
 deliveroo.*#?#div[class^="HomeFeedScrollTracker-"]:has(span[class^="HomeFeedUILines-"]:has-text(Sponsored))
 advocate.com,out.com,pride.com#?#.component.module-headline:has-text(FROM OUR SPONSORS)

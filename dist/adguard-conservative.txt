@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Conservative
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202607191610
-! Last modified: 2026-07-19T16:10:50Z
+! Version: 202607191715
+! Last modified: 2026-07-19T17:15:28Z
 ! Layers: network,content,scriptlet
 ! Mode: conservative
-! Rules: 108063
+! Rules: 108065
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -49786,6 +49786,8 @@ pawastreams.*,groundedtechs.com,rayinfosports.com,sequencecard.xyz,matchtime.co,
 vi-control.net,nullforums.net,landyzone.co.uk,nullcave.pro,woxmax.com,waskucity.com,babia.to,technofino.in,reef2reef.com,minebbs.com,craxpro.io,affiliatefix.com,myiptvforum.com,hifivision.com,worldofiptv.com,altenen.is,beermoneyforum.com,germancarforum.com,cracking.org##.samBannerUnit
 twitch.tv##.stream-display-ad__wrapper + div > div[style^="position:"] > div[class^="Layout-sc-"]:has(video[src^="https://m.media-amazon.com"])
 twitch.tv##.chat-shell > div[class^="Layout-sc-"]  > div[style^="transition:"]:has(video[src^="https://m.media-amazon.com"])
+crazyshit.com##a[href^="https://trustberrie.com/zn/"]
+crazyshit.com##div[id^="aad-footer"]
 thescottishsun.co.uk,thesun.ie##.module--1-billboard
 greatandhra.com##.shp-layer
 uindex.org##body > [id][class*=" "]:has(> a[target="_blank"])

@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Network
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202607191121
-! Last modified: 2026-07-19T11:21:26Z
+! Version: 202607191349
+! Last modified: 2026-07-19T13:49:41Z
 ! Layers: network
 ! Mode: standard
-! Rules: 47504
+! Rules: 47503
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -18228,7 +18228,6 @@ $script,third-party,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sha
 ||adxpansion.com/ads.php$redirect=nooptext,important
 ||pornhd.com/connect/stat^$redirect=nooptext,important
 ||syndication.exoclick.com/splash.php$redirect=nooptext,important,domain=pornhd.com
-||abs.twimg.com/responsive-web/client-web/main.$script,replace=/\,_\.send\(e\.data\)/\,_.send()/,badfilter
 @@||trip.com^$extension='AdGuard Popup Blocker'|'AdGuard Popup Blocker (Beta)'
 @@178.248.233.239$network
 $popup,domain=cloudnestra.com,badfilter

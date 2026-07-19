@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Pending Review (Not AI-reviewed)
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202607182306
-! Last modified: 2026-07-18T23:06:52Z
+! Version: 202607190006
+! Last modified: 2026-07-19T00:06:31Z
 ! Layers: dns
 ! Mode: standard
-! Rules: 223975
+! Rules: 223989
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -150192,6 +150192,9 @@
 ||hbnygj.com^
 ||https-filtering-check.adtidy.org^
 ||unpkg.com^$badfilter
+||riveter29.com^
+||5bybyqjzl.com^
+||dshsnxfcjwdhpe.com^
 /pa.dajiahao*.top/
 /^.+stat\.kugou\.com/
 /^admarvel\./
@@ -180712,6 +180715,8 @@
 ||zzy1.quyaoya.com^
 ||zzycj.com^
 ||zzz.onion.pet^
+||invvuu9js.com^
+||ikuaiquwan6.com^
 ||piguiqproxy.com^$badfilter
 /^https:\/\/[0-9a-z]+\.xyz\/rinku\/land/$document,~third-party,match-case,replace=/const proxyStatus = "Y";/const proxyStatus = "N";/
 /js/sextb.js$domain=sextb.date|sextb.net,replace=/if\(checkads\(\)==false\)/if(!0)/
@@ -180739,6 +180744,10 @@
 ||freeadultcomix.com^$badfilter
 ||imgshare.info^$badfilter
 @@||connectivitycheck.gstatic.com^$important
+||ihnscyoekwkkq.site^
+||kuaadsslt.com^
+||njutbnafvyzwf.space^
+||qvlwilstyazir.space^
 /(https?:\/\/)104\.154\..{100,}/
 /(https?:\/\/)104\.197\..{100,}/
 /(https?:\/\/)104\.198\..{100,}/
@@ -191352,7 +191361,6 @@
 ||ijoear.com^
 ||ikanju.xyz^
 ||ikeanangelsaidthe.com^
-||ikuaiquwan6.com^
 ||il-insurance--quotes.com^
 ||il-picchio.eu^
 ||ila9trk.com^
@@ -199342,9 +199350,15 @@
 ||zysuvysaj.pro^
 ||zzux.com^
 ||sobot.com^
-||ihnscyoekwkkq.site^
-||kuaadsslt.com^
-||njutbnafvyzwf.space^
+||dsomii.com^
+||ewjiaorjdbcpx.website^
+||flashlyrisenglaikit.cfd^
+||jpdfscwwg.com^
+||paeoninyeti.cfd^
+||rddeozopwnpnm.space^
+||ruwjqicmqamdb.website^
+||thunderousprocess.pro^
+||vxspxbdivdirz.website^
 ||mobile.pipe.aria.microsoft.com^
 ||cu-cn-north00001.gala.convection.cn^
 ||cu-cn-north00002.gala.convection.cn^

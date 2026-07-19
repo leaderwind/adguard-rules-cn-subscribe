@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Conservative
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202607190915
-! Last modified: 2026-07-19T09:15:18Z
+! Version: 202607191121
+! Last modified: 2026-07-19T11:21:26Z
 ! Layers: network,content,scriptlet
 ! Mode: conservative
-! Rules: 108064
+! Rules: 108065
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -26700,6 +26700,7 @@ $script,third-party,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sha
 ||smartadserver.com/ac^$domain=deezer.com,redirect=nooptext,important
 /http(s?):\/\/.+\.com\/([0-9][0-9][0-9]+)\/$/$domain=putlockerhd.co
 ||kitz.co.uk/files/jump2/
+||abs.twimg.com/responsive-web/client-web/main.$script,replace=/\,_\.send\(e\.data\)/\,_.send()/,badfilter
 @@||trip.com^$extension='AdGuard Popup Blocker'|'AdGuard Popup Blocker (Beta)'
 @@178.248.233.239$network
 $popup,domain=cloudnestra.com,badfilter

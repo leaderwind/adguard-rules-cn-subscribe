@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - DNS
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202607192307
-! Last modified: 2026-07-19T23:07:59Z
+! Version: 202607200009
+! Last modified: 2026-07-20T00:09:04Z
 ! Layers: dns
 ! Mode: standard
-! Rules: 223798
+! Rules: 223810
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -150510,6 +150510,9 @@
 ||hbnygj.com^
 ||https-filtering-check.adtidy.org^
 ||unpkg.com^$badfilter
+||bvnnxhmypzrpbe.com^
+||crusher38.top^
+||gzhkarwp9n.com^
 /pa.dajiahao*.top/
 /^.+stat\.kugou\.com/
 /^admarvel\./
@@ -181026,6 +181029,8 @@
 ||zzy1.quyaoya.com^
 ||zzycj.com^
 ||zzz.onion.pet^
+||1zw5kzrzjm.com^
+||dhfshdmuvezfhm.com^
 ||piguiqproxy.com^$badfilter
 /^https:\/\/[0-9a-z]+\.xyz\/rinku\/land/$document,~third-party,match-case,replace=/const proxyStatus = "Y";/const proxyStatus = "N";/
 /js/sextb.js$domain=sextb.date|sextb.net,replace=/if\(checkads\(\)==false\)/if(!0)/
@@ -181053,6 +181058,14 @@
 ||freeadultcomix.com^$badfilter
 ||imgshare.info^$badfilter
 @@||connectivitycheck.gstatic.com^$important
+||competent-bicycle.pro^
+||dobbingsessed.cyou^
+||dvmbarfzhhuyq.com^
+||ergotinmedleyseggars.cyou^
+||olopisotmvkug.site^
+||vebsawehaoesj.site^
+||wllqfspzytqxw.space^
+||xkrzwyxrswksy.space^
 /(https?:\/\/)104\.154\..{100,}/
 /(https?:\/\/)104\.197\..{100,}/
 /(https?:\/\/)104\.198\..{100,}/
@@ -199184,10 +199197,9 @@
 ||zysuvysaj.pro^
 ||zzux.com^
 ||sobot.com^
-||competent-bicycle.pro^
-||dvmbarfzhhuyq.com^
-||olopisotmvkug.site^
-||vebsawehaoesj.site^
+||boutonspannus.shop^
+||ynxomkygrmeud.site^
+||ywuwphcithuaj.space^
 ||mobile.pipe.aria.microsoft.com^
 ||cu-cn-north00001.gala.convection.cn^
 ||cu-cn-north00002.gala.convection.cn^

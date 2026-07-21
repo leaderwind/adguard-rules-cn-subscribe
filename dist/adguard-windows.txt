@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Windows
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202607210340
-! Last modified: 2026-07-21T03:40:28Z
+! Version: 202607210639
+! Last modified: 2026-07-21T06:39:47Z
 ! Layers: network,content,scriptlet
 ! Mode: standard
-! Rules: 115984
+! Rules: 115986
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -99300,8 +99300,8 @@ manhuatop.org#%#//scriptlet('prevent-window-open')
 manhuatop.org#%#//scriptlet('prevent-addEventListener', 'click', 'localStorage')
 seeflix.to#%#//scriptlet('remove-attr', 'onclick', 'div[onclick^="redirectToAd"]')
 sxyprn.net,sxyprn.com#%#//scriptlet('remove-node-text', 'script', 'typeof bait_')
-hentaihaven.xxx#%#//scriptlet('prevent-window-open')
-hentaihaven.xxx#%#//scriptlet('remove-node-text', 'script', '/popup|Script_Manager/')
+hentaihaven.com,hentaihaven.xxx#%#//scriptlet('prevent-window-open')
+hentaihaven.com,hentaihaven.xxx#%#//scriptlet('remove-node-text', 'script', '/popup|Script_Manager/')
 missav01.com,missav.live,xojav.com,homejav.com,xmorex.com#%#//scriptlet('prevent-window-open', '/pop?')
 dopebox.to#%#//scriptlet('abort-on-property-read', '_g_sb_click')
 dopebox.to#%#//scriptlet('abort-current-inline-script', 'globalThis', '/break;case|;break;default:/')
@@ -102927,6 +102927,7 @@ complex.com##.\[\@media\(min-width\:520px\)\]\:px-\[20px\]
 justjared.com##.banner-spacer-top {max-height: 50px !important;}
 temp-mail.io##.fixed.bottom-0.\[\@media\(max-width\:1350px\)\]\:hidden
 complex.com##.lg\:top-\[var\(--sticky-top\)\]
+alternativeto.net##[aria-label="Official partner"]
 justjared.com##[role="banner"] {top:0 !important}
 deliveroo.*#?#a[role="button"]:has(p:has-text(Sponsored))
 deliveroo.*#?#div[class^="HomeFeedScrollTracker-"]:has(span[class^="HomeFeedUILines-"]:has-text(Sponsored))
@@ -114902,6 +114903,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||shopch.jp/com/js/analytics.js
 ||shueisha.online/op/analytics.js
 ||so-zou.jp/js/ga.js
+||socialxup.com/api/sale-accounts
 ||softonic.jp/web-stats
 ||ssai.api.streaks.jp/*/ad_info?
 ||tanweb.net/wordpress/?rest_route=/sng/v1/page-count

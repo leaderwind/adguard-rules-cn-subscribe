@@ -1,8 +1,8 @@
 ! Title: AdGuard Rules CN - Scriptlet
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202607210340
-! Last modified: 2026-07-21T03:40:28Z
+! Version: 202607210639
+! Last modified: 2026-07-21T06:39:47Z
 ! Layers: scriptlet
 ! Mode: standard
 ! Rules: 5452
@@ -4994,8 +4994,8 @@ manhuatop.org#%#//scriptlet('prevent-window-open')
 manhuatop.org#%#//scriptlet('prevent-addEventListener', 'click', 'localStorage')
 seeflix.to#%#//scriptlet('remove-attr', 'onclick', 'div[onclick^="redirectToAd"]')
 sxyprn.net,sxyprn.com#%#//scriptlet('remove-node-text', 'script', 'typeof bait_')
-hentaihaven.xxx#%#//scriptlet('prevent-window-open')
-hentaihaven.xxx#%#//scriptlet('remove-node-text', 'script', '/popup|Script_Manager/')
+hentaihaven.com,hentaihaven.xxx#%#//scriptlet('prevent-window-open')
+hentaihaven.com,hentaihaven.xxx#%#//scriptlet('remove-node-text', 'script', '/popup|Script_Manager/')
 missav01.com,missav.live,xojav.com,homejav.com,xmorex.com#%#//scriptlet('prevent-window-open', '/pop?')
 dopebox.to#%#//scriptlet('abort-on-property-read', '_g_sb_click')
 dopebox.to#%#//scriptlet('abort-current-inline-script', 'globalThis', '/break;case|;break;default:/')

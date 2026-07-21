@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Content
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202607211158
-! Last modified: 2026-07-21T11:58:57Z
+! Version: 202607211418
+! Last modified: 2026-07-21T14:18:43Z
 ! Layers: content
 ! Mode: standard
-! Rules: 63105
+! Rules: 63110
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -18801,6 +18801,8 @@ animecorner.me,zarabiajprzez24.pl,watchhentai.xxx,app-how-to-use-it.com,linuxcap
 pawastreams.*,nflbite.to,footybite.to,sportschamp.fun,afly.pro,topsporter.net,soccerstreams.football,mysocceraustralia.com,rayinfosports.com,hesgoals.top,sequencecard.xyz,totalsportek.soccer,metaporky.site,nbabite.to,cyfostreams.com,gamerarcades.com,bestreamsports.org,footy.to,mcrypto.club,greaterkashmir.com###id-custom_banner
 pawastreams.*,groundedtechs.com,rayinfosports.com,sequencecard.xyz,matchtime.co,sportspellz.com,bestreamsports.org,silverspoon.site###dismiss-btn
 vi-control.net,nullforums.net,landyzone.co.uk,nullcave.pro,woxmax.com,waskucity.com,babia.to,technofino.in,reef2reef.com,minebbs.com,craxpro.io,affiliatefix.com,myiptvforum.com,hifivision.com,worldofiptv.com,altenen.is,beermoneyforum.com,germancarforum.com,cracking.org##.samBannerUnit
+seenews.com##body > div.row:has(> div.d-flex > div > iframe[id^="google_ads_iframe_"])
+seenews.com##.d-flex:has(> div > iframe[id^="google_ads_iframe_"])
 startpage.com##div[data-identifier="exoclick-native-impression"]
 hentaius.online##aside[aria-label="Sponsored content"]
 bleepingcomputer.com##.bc_right_sidebar > div:has(> ul > li > a.spon_res)
@@ -54118,6 +54120,7 @@ getgreenshot.org##.ga-ldrbrd
 getgreenshot.org##.ga-skscrpr
 elevenforum.com,html-code-generator.com##.gads
 farmersjournal.ie##.gadvertisementheader
+alibaba.com##.gallery-card[data-aplus-auto-offer*="&is_ad=true"]
 eonline.com##.gallery-rail-sticky-container
 vicnews.com##.gam
 drive.com.au##.gam-ad
@@ -57666,9 +57669,11 @@ xing.com##div[data-qa="jobs-recommendation-ad"]
 duckduckgo.com##div[data-react-module-id="products-0"]
 basschat.co.uk,momondo.*##div[data-resultid$="-sponsored"]
 briskoda.net,linustechtips.com##div[data-role="sidebarAd"]
+alibaba.com##div[data-search-floor^="area=wending&"]
 fylio.com##div[data-slot]
 costco.com##div[data-source="sponsored"]
 aliexpress.com,aliexpress.us##div[data-spm="seoads"]
+alibaba.com##div[data-spm="wending-bottom"]
 ecosia.org##div[data-test-id="mainline-result-ad"]
 ecosia.org##div[data-test-id="mainline-result-productAds"]
 debenhams.com##div[data-test-id^="sponsored-product-card"]

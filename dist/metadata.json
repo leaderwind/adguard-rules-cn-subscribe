@@ -1,6 +1,6 @@
 {
-  "version": "202607212211",
-  "generated_at_utc": "2026-07-21T22:11:30Z",
+  "version": "202607212311",
+  "generated_at_utc": "2026-07-21T23:11:43Z",
   "outputs": [
     {
       "id": "dns",
@@ -10,14 +10,14 @@
         "dns"
       ],
       "mode": "standard",
-      "rules": 229310,
+      "rules": 229334,
       "selected_upstreams": 16,
       "successful_upstreams": 16,
       "preserved_previous": false,
       "cross_layer_removed_pure_domains": 0,
       "compression": {
-        "dns_before_compression": 303267,
-        "dns_after_compression": 229310,
+        "dns_before_compression": 303291,
+        "dns_after_compression": 229334,
         "dns_removed_by_parent_domain": 57902,
         "dns_removed_by_allow": 7775,
         "dns_allow_rules": 8280
@@ -28,13 +28,13 @@
           "name": "AdGuard DNS filter",
           "url": "https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt",
           "ok": true,
-          "input_lines": 160634,
-          "kept": 158121,
+          "input_lines": 160661,
+          "kept": 158148,
           "duplicates": 0,
           "ignored": 2513,
           "routed_to_dns": 0,
           "classified": {
-            "dns": 158121,
+            "dns": 158148,
             "network": 0,
             "content": 0,
             "scriptlet": 0
@@ -124,8 +124,8 @@
           "url": "https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_2_Base/filter.txt",
           "ok": true,
           "input_lines": 162381,
-          "kept": 2860,
-          "duplicates": 55032,
+          "kept": 2857,
+          "duplicates": 55035,
           "ignored": 104489,
           "routed_to_dns": 0,
           "classified": {
@@ -346,14 +346,14 @@
         "dns"
       ],
       "mode": "standard",
-      "rules": 229310,
+      "rules": 229334,
       "selected_upstreams": 16,
       "successful_upstreams": 16,
       "preserved_previous": false,
       "cross_layer_removed_pure_domains": 0,
       "compression": {
-        "dns_before_compression": 303267,
-        "dns_after_compression": 229310,
+        "dns_before_compression": 303291,
+        "dns_after_compression": 229334,
         "dns_removed_by_parent_domain": 57902,
         "dns_removed_by_allow": 7775,
         "dns_allow_rules": 8280
@@ -364,13 +364,13 @@
           "name": "AdGuard DNS filter",
           "url": "https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt",
           "ok": true,
-          "input_lines": 160634,
-          "kept": 158121,
+          "input_lines": 160661,
+          "kept": 158148,
           "duplicates": 0,
           "ignored": 2513,
           "routed_to_dns": 0,
           "classified": {
-            "dns": 158121,
+            "dns": 158148,
             "network": 0,
             "content": 0,
             "scriptlet": 0
@@ -460,8 +460,8 @@
           "url": "https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_2_Base/filter.txt",
           "ok": true,
           "input_lines": 162381,
-          "kept": 2860,
-          "duplicates": 55032,
+          "kept": 2857,
+          "duplicates": 55035,
           "ignored": 104489,
           "routed_to_dns": 0,
           "classified": {
@@ -2300,15 +2300,15 @@
     }
   ],
   "sha256": {
-    "dist/adguard-dns.txt": "328ec9f24c22fd17f4904d5ebbb951d4e21d36f22fe82c07f741dc1105b20512",
-    "dist/adguard-pending-review.txt": "dde25212a9318f5112e5c18df934469d448458b6584c17328abae2954502d68a",
-    "dist/adguard-content.txt": "d3399fe48d5a28cd49963f075b287145dc89cf1ea1bda888c22ef92ae2dcb982",
-    "dist/adguard-network.txt": "be814cbeb7791817abe92792361f72577e2782957f8b6c2bd60eecf2c7327ab0",
-    "dist/adguard-scriptlet.txt": "5fbc5d73268ffe3305985bcf1ca76f9ed29e6c1d93d5f9b8001e2d5de1986504",
-    "dist/adguard-android.txt": "1408d49b544aa877e36e9c4bf13e4c87775b910dfd619d302d04aaecbdd59b85",
-    "dist/adguard-browser.txt": "67421af6f52eae544019c6cc1e6405d7fcbaf0219d85b4db0017aee9ac896426",
-    "dist/adguard-windows.txt": "bb088edcfe0b881ac20ca48cd7de641e22724af112a3567f9689b45319ffcdfe",
-    "dist/adguard-conservative.txt": "667563643e06930160aa9e18f1fe566465fae2da8cd98e70b63e5b7dee800579",
-    "dist/adguard-aggressive.txt": "d1a5433af3bc591b1e4484efeb1b47b106f6fd6b181234514c136f7463358907"
+    "dist/adguard-dns.txt": "8a7ef11defba688b17ccd8817adf54eedec7e4cf951325c3f7f4143b3a22792e",
+    "dist/adguard-pending-review.txt": "ff50b545ba48223ce12237cd61b114d3fd364cd947e15e4601e636b0d58c755e",
+    "dist/adguard-content.txt": "e662d6aebb963bafc94b0e0238d2e693023f9438610d18d76ea4a28623114cac",
+    "dist/adguard-network.txt": "c88a54acb5d2dc772f03b08ae32927214ac4894a8dbdbe730ec315a31f51dc88",
+    "dist/adguard-scriptlet.txt": "a698acf362cc76bf684dafc2ff86966a57537f0dae2215f1a0eb0e3db86c8120",
+    "dist/adguard-android.txt": "616da343a7805467bcd11f2014b76c6c53fdb0d300b269c41e8dfaaaaacc997f",
+    "dist/adguard-browser.txt": "701af7e6196126446799988fbe13a80e6d3f5d5791cb34e3fad7a0de3a2fdded",
+    "dist/adguard-windows.txt": "d4f73976fbbe13beaaec11e00d0374c0a53f7ddb5c66c14982be859136abdd39",
+    "dist/adguard-conservative.txt": "b5c8b7dad9f60b9fe3f579c446954594d083de20d5491601585aad115ea07beb",
+    "dist/adguard-aggressive.txt": "84d8599e352855483c26d686893c3e2ce06ecc134cb9a6b2cc31f423cdc11711"
   }
 }

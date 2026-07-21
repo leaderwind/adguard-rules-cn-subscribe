@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Network
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202607210639
-! Last modified: 2026-07-21T06:39:47Z
+! Version: 202607210936
+! Last modified: 2026-07-21T09:36:58Z
 ! Layers: network
 ! Mode: standard
-! Rules: 47524
+! Rules: 47521
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -7442,6 +7442,7 @@ $script,third-party,domain=torkitty.net|torkitty.com|torrentkitty.app|torrentkit
 @@||criteo.com/delivery/ajs.php?zoneid=$script,domain=gaus.ee
 @@||jd.com/adclick?$popup,~third-party
 ||wnacg.com/game/$image,rewrite=abp-resource:1x1-transparent-gif,domain=wnacg.com
+||cno.jerkmate.net^$all
 ||arx8x.net^$all
 ||mercu-wgp.com^$all
 ||rvmessage.online^$third-party
@@ -14455,8 +14456,6 @@ $third-party,script,domain=klto9.com|f2movies.to|hacamchicac.com|yourporngod.com
 .php?*=*&*&$xmlhttprequest,other,domain=vidmoly.biz|vidmoly.*
 /^https:\/\/[a-z0-9]+\.[a-z0-9]+\.cfd\/\?[a-z]+=[a-zA-Z0-9+/=:_-]+$/$third-party,all,match-case
 ||cfd^$third-party,popup,domain=multiup.io
-||cineby.*/scripts/os.js
-||fmovies.nz/scripts/os.js
 ||gameinformer.com/modules/custom/gi5_ads/js/content/
 ||gameinformer.com/modules/custom/gi5_ads/js/*ads_video*
 ||gameinformer.com/async-load/block?block_plugin_id=gi5_ads_content_article_
@@ -14559,9 +14558,7 @@ $third-party,script,domain=klto9.com|f2movies.to|hacamchicac.com|yourporngod.com
 ||sarugbymag.co.za^$domain=carmag.co.za
 ||geekwire.com/wp-json/geekwire/v*/geekwire-sponsor-posts
 ||static.goplay.su^$script
-||cineby.sc/scripts/ab.js
-||cineby.sc/scripts/gk.js
-/^https:\/\/www\.cineby\.sc\/scripts\/[a-z][a-z]\.js$/$script,domain=cineby.sc
+/\/scripts\/[a-z][a-z]\.js$/$script,domain=www.cineby.at|cineby.*|fmovies.gd|fmovies.*|cineplay.to|cineplay.*
 ||go.inxxx.cam^$xmlhttprequest,domain=inxxx.com
 ||porcore.com/plugins/nads/
 ||cdn.myhentaicomics.com/assets/Frames/banner
@@ -18046,7 +18043,7 @@ xxxadd.com/eureka
 ||missav*/herebyad
 ||minio.charismamedia.com/*/ads.css$domain=charismanews.com
 ||minio.charismamedia.com/*/background.jpg$domain=charismanews.com
-/\/check-host\.net\/images\/[a-zA-Z0-9-]{0,9}(?:cloze|host-|alex|privalps|wcor|waitj|host3|avahosting|servhost|azlogo)[a-zA-Z0-9-]{0,9}\.[a-z]{3}/$image,domain=check-host.net
+/\/[a-zA-Z0-9-]{0,9}(?:clobew|-host-|alex|privalps|wcor|waitj|host3|avahosting|servhost|azlogo)[a-zA-Z0-9-]{0,9}\.[a-z]{3}/$image,domain=check-host.net
 ||snippet.affilimate.io^$domain=androidauthority.com
 ||facebook.com/ajax/bnzai*__comet_req=
 ||facebook.com/audiencenetwork/web/?

@@ -1,8 +1,8 @@
 ! Title: AdGuard Rules CN - Browser
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202607220341
-! Last modified: 2026-07-22T03:41:22Z
+! Version: 202607220641
+! Last modified: 2026-07-22T06:41:24Z
 ! Layers: network,content,scriptlet
 ! Mode: standard
 ! Rules: 115999
@@ -99083,7 +99083,7 @@ pocket-lint.com#%#//scriptlet('remove-node-text', 'script', 'adsninja')
 player.videasy.*,player.videasy.to#%#//scriptlet('prevent-addEventListener', 'unload', 'unloaded_at')
 player.videasy.*,player.videasy.to#%#//scriptlet('prevent-window-open')
 theyarehuge.com#%#//scriptlet('abort-current-inline-script', 'document.createElement', 'interstitial')
-multiup.io#%#//scriptlet('abort-current-inline-script', 'document.defaultView.atob', '')
+uploadrar.com,multiup.io#%#//scriptlet('abort-current-inline-script', 'document.defaultView.atob', '')
 torrentio.to,old-young.net#%#//scriptlet('prevent-window-open', '_blank')
 onionplay.st,onionplay.*#%#//scriptlet('remove-attr', 'href', '#clickfakeplayer')
 onionplay.st,onionplay.*#%#//scriptlet('set-constant', 'scds', '0')

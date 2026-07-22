@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Content
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202607220937
-! Last modified: 2026-07-22T09:37:10Z
+! Version: 202607221202
+! Last modified: 2026-07-22T12:02:11Z
 ! Layers: content
 ! Mode: standard
-! Rules: 63111
+! Rules: 63116
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -9084,6 +9084,11 @@ audiocircuit.dk,topmanhuas.org,kinotehnik.net,gamekazi.com,donghuaworld.com,nxbr
 ##div.fadeInDown[id$="____equal"][class$="____equal"]
 ###chp_branding
 ##a[id][href="https://chpadblock.com/"][rel="noopener noreferrer"]
+paradoxscans.com##body > div[id][class*="_"]
+paradoxscans.com##body > footer ~ h4[class*="_"] + div[class*="_"] + div[class=""] + div[class*="_"]
+paradoxscans.com##body > footer ~ h4[class*="_"] + div[class*="_"] + div[class=""]
+paradoxscans.com##body > footer ~ h4[class*="_"] + div[class*="_"]
+paradoxscans.com##body > footer ~ h4[class*="_"]
 somcima.com###scrollToTop + div[id][class*=" "]
 itdmusicy.com,itdmusics.com##body > div[class]:has(> a[href^="https://chpadblock.com/"])
 zpserver.com,devsoftwr.com,dredyson.com###bloghash-scroll-top + div[id][class*=" "]

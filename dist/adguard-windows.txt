@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Windows
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202607220937
-! Last modified: 2026-07-22T09:37:10Z
+! Version: 202607221202
+! Last modified: 2026-07-22T12:02:11Z
 ! Layers: network,content,scriptlet
 ! Mode: standard
-! Rules: 116001
+! Rules: 116006
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -17518,14 +17518,14 @@ rvlev.com,t66y.com#?#[class]:-abp-has(>a[onmouseover="this.style.background='#DE
 @@||softcobra.com^$generichide
 @@||rbs.ta36.com^$generichide
 ||xys*-jadwal.pages.dev/adblock.js
+||hanopatch4u.com/wp-content/uploads/aebdbf/ceedad.js
+||rbs.ta36.com/wp-content/plugins/chp-ads-block-detector
+||link1s.com/kiem-tien-mua-sua-cho-con-gai.js
 @@||google-analytics.com/analytics.js$domain=viduyy.com
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$domain=viduyy.com
 @@||static.ads-twitter.com/uwt.js$domain=viduyy.com
 @@||googletagservices.com/tag/js/gpt.js$domain=viduyy.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=viduyy.com
-||hanopatch4u.com/wp-content/uploads/aebdbf/ceedad.js
-||rbs.ta36.com/wp-content/plugins/chp-ads-block-detector
-||link1s.com/kiem-tien-mua-sua-cho-con-gai.js
 /js/detector.js$domain=bestsimsmods.com|dtbps3games.com|passionategeekz.com
 ||hb.wpmucdn.com/thirdeyemedia.wpmudev.host/5a0d26e8-7036-49f5-a883-1fcdaf372013.js
 ||generazionebio.com/wp-content/uploads/siteground-optimizer-assets/penci_ad_blocker.min.js
@@ -42863,6 +42863,11 @@ audiocircuit.dk,topmanhuas.org,kinotehnik.net,gamekazi.com,donghuaworld.com,nxbr
 ##div.fadeInDown[id$="____equal"][class$="____equal"]
 ###chp_branding
 ##a[id][href="https://chpadblock.com/"][rel="noopener noreferrer"]
+paradoxscans.com##body > div[id][class*="_"]
+paradoxscans.com##body > footer ~ h4[class*="_"] + div[class*="_"] + div[class=""] + div[class*="_"]
+paradoxscans.com##body > footer ~ h4[class*="_"] + div[class*="_"] + div[class=""]
+paradoxscans.com##body > footer ~ h4[class*="_"] + div[class*="_"]
+paradoxscans.com##body > footer ~ h4[class*="_"]
 somcima.com###scrollToTop + div[id][class*=" "]
 itdmusicy.com,itdmusics.com##body > div[class]:has(> a[href^="https://chpadblock.com/"])
 zpserver.com,devsoftwr.com,dredyson.com###bloghash-scroll-top + div[id][class*=" "]

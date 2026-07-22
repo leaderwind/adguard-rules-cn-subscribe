@@ -1,8 +1,8 @@
 ! Title: AdGuard Rules CN - Network
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202607220937
-! Last modified: 2026-07-22T09:37:10Z
+! Version: 202607221202
+! Last modified: 2026-07-22T12:02:11Z
 ! Layers: network
 ! Mode: standard
 ! Rules: 47526
@@ -8302,14 +8302,14 @@ $script,third-party,domain=torkitty.net|torkitty.com|torrentkitty.app|torrentkit
 @@||softcobra.com^$generichide
 @@||rbs.ta36.com^$generichide
 ||xys*-jadwal.pages.dev/adblock.js
+||hanopatch4u.com/wp-content/uploads/aebdbf/ceedad.js
+||rbs.ta36.com/wp-content/plugins/chp-ads-block-detector
+||link1s.com/kiem-tien-mua-sua-cho-con-gai.js
 @@||google-analytics.com/analytics.js$domain=viduyy.com
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$domain=viduyy.com
 @@||static.ads-twitter.com/uwt.js$domain=viduyy.com
 @@||googletagservices.com/tag/js/gpt.js$domain=viduyy.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=viduyy.com
-||hanopatch4u.com/wp-content/uploads/aebdbf/ceedad.js
-||rbs.ta36.com/wp-content/plugins/chp-ads-block-detector
-||link1s.com/kiem-tien-mua-sua-cho-con-gai.js
 /js/detector.js$domain=bestsimsmods.com|dtbps3games.com|passionategeekz.com
 ||hb.wpmucdn.com/thirdeyemedia.wpmudev.host/5a0d26e8-7036-49f5-a883-1fcdaf372013.js
 ||generazionebio.com/wp-content/uploads/siteground-optimizer-assets/penci_ad_blocker.min.js

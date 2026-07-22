@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Conservative
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202607221420
-! Last modified: 2026-07-22T14:20:02Z
+! Version: 202607221642
+! Last modified: 2026-07-22T16:42:37Z
 ! Layers: network,content,scriptlet
 ! Mode: conservative
-! Rules: 108118
+! Rules: 108122
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -28804,6 +28804,7 @@ $image,script,stylesheet,subdocument,third-party,xmlhttprequest,domain=animepahe
 @@||tous-sports.fr/js/advertisement-AdBlock.js
 @@||tous-sports.tv/js/advertisement-AdBlock.js
 @@||account.adobe.com^$document,domain=services.adobe.com,stealth=useragent
+@@||vidtub.kotocdn.site^$xmlhttprequest,stealth=referrer,domain=vidtube.site
 @@/proxy?data=$third-party,xmlhttprequest,stealth=referrer,domain=hexa.su
 @@?type=*&id=$third-party,stealth=referrer,domain=nextbox.uno|next-box.su
 @@?p=$third-party,stealth=referrer,domain=nextbox.uno|next-box.su
@@ -49805,6 +49806,9 @@ animecorner.me,zarabiajprzez24.pl,watchhentai.xxx,app-how-to-use-it.com,linuxcap
 pawastreams.*,nflbite.to,footybite.to,sportschamp.fun,afly.pro,topsporter.net,soccerstreams.football,mysocceraustralia.com,rayinfosports.com,hesgoals.top,sequencecard.xyz,totalsportek.soccer,metaporky.site,nbabite.to,cyfostreams.com,gamerarcades.com,bestreamsports.org,footy.to,mcrypto.club,greaterkashmir.com###id-custom_banner
 pawastreams.*,groundedtechs.com,rayinfosports.com,sequencecard.xyz,matchtime.co,sportspellz.com,bestreamsports.org,silverspoon.site###dismiss-btn
 vi-control.net,nullforums.net,landyzone.co.uk,nullcave.pro,woxmax.com,waskucity.com,babia.to,technofino.in,reef2reef.com,minebbs.com,craxpro.io,affiliatefix.com,myiptvforum.com,hifivision.com,worldofiptv.com,altenen.is,beermoneyforum.com,germancarforum.com,cracking.org##.samBannerUnit
+moviebox.ph,movieboxapp.in,themoviebox.org,moviebox.pk,movieboxapp.in,123movienow.cc##.home-global-ad
+foreks.com##.homepage-ad-desktop-bant
+foreks.com##the-ads
 streamsports99.su##a[href^="https://rocketstreams4k.com"]
 streamsports99.su##div[role="tablist"] > button[id^="radix-"][id$="-trigger-iptv"]
 neowin.net###news-content > .news-item:has(> .news-item-promo > figure > a[href^="/deals/"])

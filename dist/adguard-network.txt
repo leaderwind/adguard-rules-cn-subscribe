@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Network
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202607221202
-! Last modified: 2026-07-22T12:02:11Z
+! Version: 202607221420
+! Last modified: 2026-07-22T14:20:02Z
 ! Layers: network
 ! Mode: standard
-! Rules: 47526
+! Rules: 47527
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -4922,8 +4922,6 @@ meijutt.*/js/pcjs/
 ||pharmnet.com.cn/js/float_div.js
 ||phb123.com/skin/js/tongji.js
 ||phbkm.com/js/
-||php.cn/ad1.
-||php.cn/hezuo/
 ||php1.cn/uploads/huayun.jpg
 ||phpernote.com/ali
 ||phpstudyimg.com/all/hrl.gif
@@ -6051,6 +6049,8 @@ meijutt.*/js/pcjs/
 ||tcptest.cn/prod-api/web/adLinks/
 ||r3sub.com/nb/
 ||xwcm.net/caches/ahm.
+||teacher.php.cn/php/
+||right.com.cn/forum/data/attachment/common/template/boardimg_20260602yahb3wsd.
 ||mydrivers.com/img/2005/202112011849.png
 @@.adserver.$domain=litv.tv
 @@||holmesmind.com/js/drawV2.$domain=bingfong.com
@@ -20359,6 +20359,7 @@ $csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: www.googletagma
 @@||beinconnect.com.tr^$stealth
 @@||account.adobe.com^$document,domain=services.adobe.com,stealth=useragent
 @@||adguard.com^$stealth
+@@/proxy?data=$third-party,xmlhttprequest,stealth=referrer,domain=hexa.su
 @@||my.microsoftpersonalcontent.com^$stealth=3p-auth
 @@||qfsysguoaxbwhjeqkwat.supabase.co/rest/$stealth=3p-auth,domain=juicewrldvault.com
 @@||next-box.su^$stealth=useragent

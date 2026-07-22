@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Windows
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202607221202
-! Last modified: 2026-07-22T12:02:11Z
+! Version: 202607221420
+! Last modified: 2026-07-22T14:20:02Z
 ! Layers: network,content,scriptlet
 ! Mode: standard
-! Rules: 116006
+! Rules: 116007
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -4922,8 +4922,6 @@ meijutt.*/js/pcjs/
 ||pharmnet.com.cn/js/float_div.js
 ||phb123.com/skin/js/tongji.js
 ||phbkm.com/js/
-||php.cn/ad1.
-||php.cn/hezuo/
 ||php1.cn/uploads/huayun.jpg
 ||phpernote.com/ali
 ||phpstudyimg.com/all/hrl.gif
@@ -6051,6 +6049,8 @@ meijutt.*/js/pcjs/
 ||tcptest.cn/prod-api/web/adLinks/
 ||r3sub.com/nb/
 ||xwcm.net/caches/ahm.
+||teacher.php.cn/php/
+||right.com.cn/forum/data/attachment/common/template/boardimg_20260602yahb3wsd.
 ||mydrivers.com/img/2005/202112011849.png
 @@.adserver.$domain=litv.tv
 @@||holmesmind.com/js/drawV2.$domain=bingfong.com
@@ -8397,7 +8397,7 @@ iyf.tv##.player-right
 5dy15.cc##div[id][class^="is_"][style^="margin"]
 pornlulu.com,pornbest.org###fullPageModal
 cupfox.app##.banner > div.banner-content.right
-right.com.cn###hd > div.wp > div.hdc > h2
+right.com.cn###hd > div.wp > div.hdc > h2 img.boardlogo
 helloyishi.com.tw##.article-desktop-ad-wrapper
 dy.xdf.cn,haoweichi.com##.ad2
 newmobilelife.com###ATS_sticky
@@ -14711,7 +14711,6 @@ silver.org.cn##.zl_login
 zol.com.cn##.zol-eshop
 efu.com.cn##.zs_banner_a
 zuanke8.com##.zuanpw
-php.cn##.zwwad
 tuliu.com##.zx-advertising-box
 19lou.com##.zx-link
 foodmate.net##.zx_ad
@@ -14870,7 +14869,6 @@ galacg.me##a[href*="/game"]
 55188.com##a[href*="/gg-link."]
 ccav1.com##a[href*="/go"]
 423down.com##a[href*="/go."] > img
-php.cn##a[href*="/go."]:not([href*="Fwww.php"])
 27ka.cn##a[href*="/go/"]
 dy2018.com,xiaopian.com##a[href*="/htmlcode/"]
 cableabc.com##a[href*="/img1/"]
@@ -29575,6 +29573,7 @@ $csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: www.googletagma
 @@||beinconnect.com.tr^$stealth
 @@||account.adobe.com^$document,domain=services.adobe.com,stealth=useragent
 @@||adguard.com^$stealth
+@@/proxy?data=$third-party,xmlhttprequest,stealth=referrer,domain=hexa.su
 @@||my.microsoftpersonalcontent.com^$stealth=3p-auth
 @@||qfsysguoaxbwhjeqkwat.supabase.co/rest/$stealth=3p-auth,domain=juicewrldvault.com
 @@||next-box.su^$stealth=useragent
@@ -52585,6 +52584,8 @@ animecorner.me,zarabiajprzez24.pl,watchhentai.xxx,app-how-to-use-it.com,linuxcap
 pawastreams.*,nflbite.to,footybite.to,sportschamp.fun,afly.pro,topsporter.net,soccerstreams.football,mysocceraustralia.com,rayinfosports.com,hesgoals.top,sequencecard.xyz,totalsportek.soccer,metaporky.site,nbabite.to,cyfostreams.com,gamerarcades.com,bestreamsports.org,footy.to,mcrypto.club,greaterkashmir.com###id-custom_banner
 pawastreams.*,groundedtechs.com,rayinfosports.com,sequencecard.xyz,matchtime.co,sportspellz.com,bestreamsports.org,silverspoon.site###dismiss-btn
 vi-control.net,nullforums.net,landyzone.co.uk,nullcave.pro,woxmax.com,waskucity.com,babia.to,technofino.in,reef2reef.com,minebbs.com,craxpro.io,affiliatefix.com,myiptvforum.com,hifivision.com,worldofiptv.com,altenen.is,beermoneyforum.com,germancarforum.com,cracking.org##.samBannerUnit
+streamsports99.su##a[href^="https://rocketstreams4k.com"]
+streamsports99.su##div[role="tablist"] > button[id^="radix-"][id$="-trigger-iptv"]
 neowin.net###news-content > .news-item:has(> .news-item-promo > figure > a[href^="/deals/"])
 seenews.com##body > div.row:has(> div.d-flex > div > iframe[id^="google_ads_iframe_"])
 seenews.com##.d-flex:has(> div > iframe[id^="google_ads_iframe_"])

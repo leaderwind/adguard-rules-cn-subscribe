@@ -1,8 +1,8 @@
 ! Title: AdGuard Rules CN - Content
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202607231643
-! Last modified: 2026-07-23T16:43:50Z
+! Version: 202607231822
+! Last modified: 2026-07-23T18:22:29Z
 ! Layers: content
 ! Mode: standard
 ! Rules: 63126
@@ -35279,9 +35279,9 @@ charismanews.com###FrontpageFeatureRightColumn
 charismanews.com##div[style="min-width: 300px; min-height: 250px;"]
 charismanews.com###articles > article.article:has(> div.contentBoxWrap a[href^="https://servedby.aqua-adserver.com/"])
 charismanews.com#$##headerAreaWrap { height: 180px !important; }
-check-host.net##div[id^="amstveaytpuik"]
-check-host.net##div[class]:has(> [class^="alx"])
-check-host.net##.mb-2.crounded.text-sm
+check-host.net##div[class]:has(> a[href$="?utm=checkhost"])
+check-host.net##div[id^="amdtveaytpuik"]
+check-host.net##div[class]:has(> [class^="alc"])
 quora.com#?#.qu-pb--medium > .q-box.qu-borderAll:has(> .q-box > .qu-py--small > .q-box > div[id^="div-gpt-"])
 quora.com#?#.q-box[style^="box-sizing:"] > div.q-box:has(> span[data-nosnippet="true"] > div.q-box[style="display: none !important;"])
 quora.com#?#div[style="box-sizing: border-box; direction: ltr;"] > div > div[class^="Box-"]:has(div[display="inline-block"]:contains(/Sponsored|Promoted by/))

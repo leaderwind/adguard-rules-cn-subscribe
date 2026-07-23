@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Aggressive
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202607231643
-! Last modified: 2026-07-23T16:43:50Z
+! Version: 202607231822
+! Last modified: 2026-07-23T18:22:29Z
 ! Layers: network,content,scriptlet
 ! Mode: aggressive
-! Rules: 116117
+! Rules: 116119
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -332,6 +332,7 @@ $script,xmlhttprequest,third-party,domain=00ksw.com|01zww.com|0biquge.com|114zw.
 ||im.1vkx.cn/uploads/images/*.gif$third-party
 /^(?!.*(mega.co.nz|mega.nz|libs.baidu.com|ilfcdn.li|bytecdntp.com|doodcdn.io|intensedebate.com|vixcloud.co|cdn.plyr.io|rsc.cdn77.org|linkvertise.com|fastly.net|statically.io|sharecast.ws|b-cdn.net|bunnycdn.ru|bootstrapcdn.com|cdn.ampproject.org|cloudflare.com|cdn.staticfile.org|disqus.com|disquscdn.com|dmca.com|ebacdn.com|facebook.net|fastlylb.net|fbcdn.net|fluidplayer.com|fontawesome.com|github.io|google.com|googleapis.com|googletagmanager.com|gstatic.com|jquery.com|jsdelivr.net|jwpcdn.com|jwplatform.com|recaptcha.net|shrink.pe|twitter.com|ulogin.ru|unpkg.com|userapi.com|vidazoo.com|(\/\/|\.)vk\.com|yandex.|yastatic.net|ytimg.com|zencdn.net|player|youtube.com|cackle.me|googleoptimize.com|vuukle.com|chatango.com|twimg.com|google-analytics.com|hcaptcha.com|media-imdb.com|blogger.com|hwcdn.net|instagram.com|wp.com|fastcomments.com|plyr.io|imgsmail.ru|cloudflare.net|rabbitstream.net|51.la|cloudflareinsights.com|tongjiniao.com|vp1shop.shop|ovscdns.com|alicdn.com|(\/\/|\.)x\.com)).*$/$third-party,script,_____,domain=manshuxs.com|yemancomic.com|qimiaoxiaoshuo.com|gaofuwu.org|nxpaaq.com|dengbi2.com|92hm.top|634.tv|myhaitang.cc|ckplayer.vip|qushucheng.com|av6k.com|18j.tv|uaa.com|xb6v.org|6v520.cc
 *$script,third-party,denyallow=mega.co.nz|mega.nz|libs.baidu.com|ilfcdn.li|bytecdntp.com|doodcdn.io|intensedebate.com|vixcloud.co|cdn.plyr.io|rsc.cdn77.org|linkvertise.com|fastly.net|statically.io|sharecast.ws|b-cdn.net|bunnycdn.ru|bootstrapcdn.com|cdn.ampproject.org|cloudflare.com|cdn.staticfile.org|disqus.com|disquscdn.com|dmca.com|ebacdn.com|facebook.net|fastlylb.net|fbcdn.net|fluidplayer.com|fontawesome.com|github.io|google.com|googleapis.com|googletagmanager.com|gstatic.com|jquery.com|jsdelivr.net|jwpcdn.com|jwplatform.com|recaptcha.net|shrink.pe|twitter.com|ulogin.ru|unpkg.com|userapi.com|vidazoo.com|vk.com|yastatic.net|ytimg.com|zencdn.net|youtube.com|cackle.me|googleoptimize.com|vuukle.com|chatango.com|twimg.com|google-analytics.com|hcaptcha.com|media-imdb.com|blogger.com|hwcdn.net|instagram.com|wp.com|fastcomments.com|plyr.io|imgsmail.ru|cloudflare.net|rabbitstream.net|x.com|51.la|cloudflareinsights.com|tongjiniao.com|vp1shop.shop|lamparasde.net|hoopchina.com.cn|kankan2024.com|ovscdns.com|rumanhua.org|cdnsrc.asp.net|ddxsmf.com|apps.bdimg.com|alicdn.com,_____,domain=wap.dmwenku.com|m.wfxs.tw|wap.ishuquge.la|m.91zww.com|592mh.top|dubuxiaoshuo.com|clm410.buzz|bookbl.com|shuku99.com|qiyoudy2.com|1yydstxt178.com|rouman5.com|feijisu20.com|iqb5.org|wap.xkushu.com|spoilertop.com|booktxts.com|bixia33.com|rouwenwu19.com|91porny.com|yznnw.com|vodtw.la|ckplayer.vip|uuread.tw|fengchedmp.com|aeahsck.cc|xiaoshubao.net|wap.yushuwu.cloud|twbook.cc|vodtw.xyz|xbqg6.com|qq3009qq.link|18jtv.cc|m.haxuku.com|xm200.com|av6k.com|18j.tv|haiwaishubao.com|uaa.com|lamparasde.net|bbs.hupu.com|kankan2024.com|hanime1-me.icu|hanime1-me.top|rumanhua.org|ddxsmf.com|xb6v.org|6v520.cc|xl02.com.de|26img.com|noslocker.com
+||69shuba.tw/js/gg.js
 ||picjs.xyz/image/*.gif$domain=vikacg.com
 ||bbys.app/api.php/web/feature
 ||testingcf.jsdelivr.net/gh/softwaredefinevehicle/static/lozad.min.js
@@ -27260,7 +27261,7 @@ xxxadd.com/eureka
 ||missav*/herebyad
 ||minio.charismamedia.com/*/ads.css$domain=charismanews.com
 ||minio.charismamedia.com/*/background.jpg$domain=charismanews.com
-/\/[a-zA-Z0-9-]{0,9}(?:clobew|-host-|alex|privalps|wcor|waitj|host3|avahosting|servhost|azlogo)[a-zA-Z0-9-]{0,9}\.[a-z]{3}/$image,domain=check-host.net
+/\/[a-zA-Z0-9-]{0,9}(?:clobew|-host-|alex|privalps|wcor|waitj|host3|avahosting|servhost|azlogo|luxhst)[a-zA-Z0-9-]{0,9}\.[a-z]{3}/$image,domain=check-host.net
 ||snippet.affilimate.io^$domain=androidauthority.com
 ||facebook.com/ajax/bnzai*__comet_req=
 ||facebook.com/audiencenetwork/web/?
@@ -69062,9 +69063,9 @@ charismanews.com###FrontpageFeatureRightColumn
 charismanews.com##div[style="min-width: 300px; min-height: 250px;"]
 charismanews.com###articles > article.article:has(> div.contentBoxWrap a[href^="https://servedby.aqua-adserver.com/"])
 charismanews.com#$##headerAreaWrap { height: 180px !important; }
-check-host.net##div[id^="amstveaytpuik"]
-check-host.net##div[class]:has(> [class^="alx"])
-check-host.net##.mb-2.crounded.text-sm
+check-host.net##div[class]:has(> a[href$="?utm=checkhost"])
+check-host.net##div[id^="amdtveaytpuik"]
+check-host.net##div[class]:has(> [class^="alc"])
 quora.com#?#.qu-pb--medium > .q-box.qu-borderAll:has(> .q-box > .qu-py--small > .q-box > div[id^="div-gpt-"])
 quora.com#?#.q-box[style^="box-sizing:"] > div.q-box:has(> span[data-nosnippet="true"] > div.q-box[style="display: none !important;"])
 quora.com#?#div[style="box-sizing: border-box; direction: ltr;"] > div > div[class^="Box-"]:has(div[display="inline-block"]:contains(/Sponsored|Promoted by/))
@@ -99718,6 +99719,7 @@ mmtv01.xyz#%#//scriptlet('set-constant', 'premium', '')
 mmtv01.xyz#%#//scriptlet('trusted-replace-node-text', 'script', 'openNewTab', '/openNewTab[(]".*?"[)]/g', 'null')
 7mm003.cc,7mmtv.sx#%#//scriptlet('trusted-click-element', 'div[id^="mvspan_"][id*="_s_k_i_p_b"]', '', '500')
 7mmtv.sx#%#//scriptlet('prevent-window-open')
+check-host.net#%#//scriptlet('trusted-set-cookie', 'closey_advertisments', '"pp-liaryt,waic-b,privatealps,pp-liaryt2,avahosting,alexhost,servhost-rep"')
 facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion#%#//scriptlet('json-prune-xhr-response', 'data.viewer.instream_video_ads data.scrubber', '', '/api/graphql')
 fmovies24.*,fmoviesz.*,bflix.to,watchseries.mx,hurawatch.*#%#//scriptlet('abort-current-inline-script', 'document.write', '_bnx')
 xhamster46.desi,tr.myxh.today,tr.usbxh.life,xhamster44.desi,aawweb.beauty,colourxh.site,xhamster43.desi,fullxh.com,interxh.site,xhspot.com,xhwide5.com,xhchannel.com,xhtotal.com,xhtree.com,xhwide2.com,xhlease.world,xhamsterporno.mx,valuexh.life,xhdate.world,xhbranch5.com,galleryxh.site,xhbig.com,xhaccess.com,xhofficial.com,seexh.com,xhamster42.desi,xhvid.com,xhamster20.desi,xhamster19.desi,xhwebsite2.com,xhamster18.desi,xhadult3.com,xhadult2.com,xhmoon5.com,xhwide1.com,xhamster3.com,xhplanet2.com,megaxh.com,xhamster16.*,xhamster.com,xhamster2.com,xhamster7.com,xhamster8.com,xhamster9.com,xhamster10.com,xhamster12.com,xhamster13.*,xhamster14.com,xhamster15.com,xhamster17.*,xhamster18.*,xhamster19.com,xhamster1.desi,xhamster2.desi,xhamster3.*,xhamster4.desi,xhamster22.com,xhamster27.com,openxh.com,xhamster5.desi,xhopen.com,openxh1.com,xhamster40.com,xhamster.one,xhamster.desi,stripchat.com#%#//scriptlet('remove-cookie', 'video_view_count')

@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Content
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202607222215
-! Last modified: 2026-07-22T22:15:26Z
+! Version: 202607230012
+! Last modified: 2026-07-23T00:12:27Z
 ! Layers: content
 ! Mode: standard
-! Rules: 63121
+! Rules: 63122
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -54270,6 +54270,7 @@ buzzly.art##.h-min.overflow-hidden
 target.com##.h-position-fixed-bottom
 lyricsmode.com##.h113
 hindustantimes.com##.h325
+doordash.com##.hDHYLH.sc-bd87b8a6-0
 opoyi.com##.hLYYlN
 distractify.com##.hNIPOc
 clutchpoints.com##.hYrQwu
@@ -56349,6 +56350,7 @@ livescores.biz##.top-bk
 freedesignresources.net##.top-cat-ads
 procyclingstats.com##.top-cont
 foodrenegade.com##.top-cta
+investmentnews.com##.top-down-list--sponsored
 forbes.com##.top-ed-placeholder
 theguardian.com##.top-fronts-banner-ad-container
 debka.com##.top-full-width-sidebar
@@ -56781,6 +56783,7 @@ genius.com##[class^="InreadContainer__"]
 zerohedge.com##[class^="PromoButton"]
 beincrypto.com##[class^="TopAdBanner-"]
 printweek.in##[class^="ad-section-"]
+investmentnews.com##[class^="ad-wrapper"]
 uploader.link##[class^="ads"]
 zeenews.india.com##[class^="ads-box"]
 pixabay.com##[class^="adsSection"]
@@ -57680,7 +57683,6 @@ duckduckgo.com##div[data-react-module-id="products-0"]
 basschat.co.uk,momondo.*##div[data-resultid$="-sponsored"]
 briskoda.net,linustechtips.com##div[data-role="sidebarAd"]
 alibaba.com##div[data-search-floor^="area=wending&"]
-fylio.com##div[data-slot]
 costco.com##div[data-source="sponsored"]
 aliexpress.com,aliexpress.us##div[data-spm="seoads"]
 alibaba.com##div[data-spm="wending-bottom"]
@@ -62815,7 +62817,6 @@ cyberchef.org###workspace-wrapper > [id][style*="height"] {height: 100% !importa
 complex.com##.\[\@media\(min-width\:520px\)\]\:px-\[20px\]
 justjared.com##.banner-spacer-top {max-height: 50px !important;}
 temp-mail.io##.fixed.bottom-0.\[\@media\(max-width\:1350px\)\]\:hidden
-doordash.com##.hDHYLH.sc-bd87b8a6-0
 complex.com##.lg\:top-\[var\(--sticky-top\)\]
 justjared.com##[role="banner"] {top:0 !important}
 deliveroo.*#?#a[role="button"]:has(p:has-text(Sponsored))

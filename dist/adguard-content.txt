@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Content
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202607230933
-! Last modified: 2026-07-23T09:33:27Z
+! Version: 202607231201
+! Last modified: 2026-07-23T12:01:27Z
 ! Layers: content
 ! Mode: standard
-! Rules: 63123
+! Rules: 63125
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -10898,6 +10898,7 @@ filma24.*##center > a[target="_blank"] > img
 filma24.*##.watch-movie > .widgets > .widget > h2
 filma24.*#?#.watch-movie > .movie-info[style]:has(> center > a[target="_blank"])
 gjirafa.com##div[id^="an-holder-"]
+series4down.site###blc-wrap
 kora-sia.com##.albayalla-e3lan
 starcima.com#@#.ad-unit:not(.textads)
 starcima.com#@#.ad-space:not(.textads)
@@ -58089,6 +58090,7 @@ hookerhillstudios.com##div.items-center:has(> #articlead)
 douglas.*##div.product-grid-column:has(button[data-testid="sponsored-button"])
 checkfelix.com,kayak.*,momondo.*,swoodoo.*##div[class$="-result-item-container"]:has(a[href*="/s/clickthrough.jsp?"])
 checkfelix.com,kayak.*,momondo.*,swoodoo.*##div[class$="-result-item-container"]:has(div[class$="-ad-badge"])
+kayak.*##div[class*="-sponsored-result"]
 skyscanner.*##div[class*="InlineAd_card-wrapper"]
 walmart.*##div[class="mv3 ml3 mv4-xl mh0-xl"][data-testid="sp-item"]
 tripadvisor.*##div[class="ui_container dSjaD _S"]

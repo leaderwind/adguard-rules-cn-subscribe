@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Content
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202607241408
-! Last modified: 2026-07-24T14:08:59Z
+! Version: 202607241543
+! Last modified: 2026-07-24T15:43:08Z
 ! Layers: content
 ! Mode: standard
-! Rules: 63139
+! Rules: 63136
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -40935,7 +40935,6 @@ kliuki.bg###container > div[style="float:left;"] > div[style]
 ##.AdCompactheader
 ##.AdContainer
 ##.AdContainer-Sidebar
-##.AdHeader
 ##.AdHere
 ##.AdHolder
 ##.AdInline
@@ -41809,8 +41808,6 @@ kliuki.bg###container > div[style="float:left;"] > div[style]
 ##.ad-lazy
 ##.ad-lb
 ##.ad-ldrbrd
-##.ad-lead
-##.ad-lead-bottom
 ##.ad-lead-magnet
 ##.ad-leader
 ##.ad-leader-board
@@ -52246,7 +52243,6 @@ whatcar.com##.ReviewHero_mastheadStyle__Bv8X0
 newser.com##.RightRailAds
 games.usatoday.com##.RightRailDeprecated__displayAdRight___byqVgMD_
 games.mashable.com##.RightRail__displayAdRight___PjhV3mIW
-clutchpoints.com##.RzKEf
 gulfnews.com##.SDEAy
 toonstream.co##.SH-Ads
 gq.com##.SavingsUnitedCouponsWrapper-gPnqA-d
@@ -53031,7 +53027,7 @@ qz.com,theinventory.com##.ay-ad-slot
 factinate.com##.aySlotLocation
 auctionzip.com##.az-header-ads-container
 conservativefiringline.com##.az6l2zz4
-businessday.co.za,chalkbeat.org,irishnews.com,sowetan.co.za,timeslive.co.za,votebeat.org##.b-ads-block
+businessday.co.za,chalkbeat.org,dailydispatch.co.za,irishnews.com,sowetan.co.za,timeslive.co.za,votebeat.org##.b-ads-block
 bnnbloomberg.ca,cp24.com,ctvnews.ca,tsn.ca##.b-ads-custom
 dailyvoice.com##.b-banner
 ownedcore.com##.b-below-so-content
@@ -55244,6 +55240,7 @@ businesstoday.in##.outer-add-section
 salon.com##.outer_ad_container
 pricespy.co.nz,pricespy.co.uk##.outsider-ads
 aminoapps.com##.overflow-scroll-sidebar > div
+clutchpoints.com##.overflow-x-hidden.text-center.my-2\.5
 shtfplan.com##.overlay-container
 isidewith.com##.overlayBG
 isidewith.com##.overlayContent
@@ -55698,7 +55695,7 @@ jta.org##.right-rail-container
 businessinsider.com##.right-rail-min-height-250
 medpagetoday.com##.right-rail-panel
 supplychainbrain.com##.right-rail-sponsors
-businessday.co.za##.right-rail__ad
+businessday.co.za,dailydispatch.co.za##.right-rail__ad
 jpost.com##.right-side-banner
 businesstoday.in##.right-side-tabola
 livemint.com##.rightAdNew

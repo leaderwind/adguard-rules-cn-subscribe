@@ -1,8 +1,8 @@
 ! Title: AdGuard Rules CN - Conservative
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202607242119
-! Last modified: 2026-07-24T21:19:14Z
+! Version: 202607242314
+! Last modified: 2026-07-24T23:14:48Z
 ! Layers: network,content,scriptlet
 ! Mode: conservative
 ! Rules: 108154
@@ -95087,8 +95087,10 @@ yatu.tv##.dplayer-web-fullscreen-fix #tburl,#loadtop,[id^=myas],#myds1,#daohang
 ||aucdn.net/library/*.mp4$rewrite=abp-resource:blank-mp4,domain=txnhh.com|xnxx.com|xvideos.com|xvv1deos.com
 ||cdn.miohentai.com/partners/$rewrite=abp-resource:blank-mp4,domain=miohentai.com
 ||cfgr3.com/videos/*.mp4$rewrite=abp-resource:blank-mp4,domain=hitbdsm.com
+||elitebabes.com/panel8vz3/
 ||redtube.com^$subdocument,~third-party
 ||youjizz.com/KWIKY*.mp4$rewrite=abp-resource:blank-mp4,domain=youjizz.com
+@@||bannersnack.com/banners/$subdocument,domain=adventcards.co.uk|charitychristmascards.org|christmascardpacks.co.uk|kingsmead.com|kingsmeadcards.co.uk|nativitycards.co.uk|printedchristmascards.co.uk
 @@||discord.com^$generichide
 ##.ad-unit
 ##[class^="div-gpt-ad"]
@@ -103276,8 +103278,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||kit.com/ui/reporting_event
 ||kiwisizing.com/api/log
 ||kk-resources.com/ks.js
-||klarnaservices.com/v1/osm-client-script/
-||klarnaservices.com^$image,third-party
 ||klaviyo.com/onsite/js/sentry.
 ||klaviyo.com/onsite/track-analytics?
 ||klickly.com^$third-party

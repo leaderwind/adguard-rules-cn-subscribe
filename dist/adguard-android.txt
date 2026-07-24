@@ -1,8 +1,8 @@
 ! Title: AdGuard Rules CN - Android
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202607241154
-! Last modified: 2026-07-24T11:54:33Z
+! Version: 202607241408
+! Last modified: 2026-07-24T14:08:59Z
 ! Layers: network,content,scriptlet
 ! Mode: standard
 ! Rules: 18175
@@ -16386,7 +16386,7 @@ theav.xyz,69xx.one,theporn.cc#%#//scriptlet("set-constant", "is_show", "false")
 hanjuk.com#%#//scriptlet('abort-current-inline-script', 'document.createElement', 'new Function')
 jptt.tv#%#//scriptlet('set-constant', 'player.adList', 'emptyObj')
 gamersky.com#%#//scriptlet('abort-current-inline-script', 'localStorage', 'showAd')
-51cg1.com#%#//scriptlet('set-constant', 'DPLAYER_PREROLL_AD.attachPreRollAd', 'noopFunc')
+mrds66.com,51cg1.com#%#//scriptlet('set-constant', 'DPLAYER_PREROLL_AD.attachPreRollAd', 'noopFunc')
 noslocker.com#%#//scriptlet('remove-node-text', 'script', '/navigator\.platform|new Function/')
 moegirl.org.cn#%#//scriptlet('prevent-addEventListener', 'DOMContentLoaded', 'sponsored')
 xl02.com.de#%#//scriptlet('set-cookie', 'closeAd', '1')

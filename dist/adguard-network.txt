@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Network
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202607240637
-! Last modified: 2026-07-24T06:37:43Z
+! Version: 202607240930
+! Last modified: 2026-07-24T09:30:50Z
 ! Layers: network
 ! Mode: standard
-! Rules: 47536
+! Rules: 47537
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -20473,6 +20473,7 @@ $csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: www.googletagma
 @@/hls2/*$xmlhttprequest,stealth=referrer,domain=vidora.stream
 @@||netrocdn.site/hls2/$xmlhttprequest,stealth=referrer
 @@||netrocdn.site/file2/$xmlhttprequest,stealth=referrer
+@@||streamdata.vaplayer.ru/api.php?$xmlhttprequest,third-party,stealth=referrer
 @@||fast*.vidplus.dev/file*/*?host=$xmlhttprequest,stealth=referrer
 @@||xcams.com/chat/$stealth=webrtc
 @@||crunchyrollcdn.com^$stealth=referrer,domain=crunchyroll.com

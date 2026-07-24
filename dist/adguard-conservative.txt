@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Conservative
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202607240637
-! Last modified: 2026-07-24T06:37:43Z
+! Version: 202607240930
+! Last modified: 2026-07-24T09:30:50Z
 ! Layers: network,content,scriptlet
 ! Mode: conservative
-! Rules: 108141
+! Rules: 108144
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -28851,6 +28851,7 @@ $image,script,stylesheet,subdocument,third-party,xmlhttprequest,domain=animepahe
 @@/hls2/*$xmlhttprequest,stealth=referrer,domain=vidora.stream
 @@||netrocdn.site/hls2/$xmlhttprequest,stealth=referrer
 @@||netrocdn.site/file2/$xmlhttprequest,stealth=referrer
+@@||streamdata.vaplayer.ru/api.php?$xmlhttprequest,third-party,stealth=referrer
 @@||fast*.vidplus.dev/file*/*?host=$xmlhttprequest,stealth=referrer
 @@||api.*/seed?mediaId=$third-party,xmlhttprequest,stealth=referrer
 @@/\/[a-z0-9]{8}\/[a-zA-Z0-9_-]{200,900}/$xmlhttprequest,third-party,match-case,stealth=referrer,domain=player.videasy.*|cineby.*|cineplay.to|fmovies.*|vidup.to|vidfast.pro|www.fmovies.gd|vidking.net|111movies.net
@@ -49813,6 +49814,8 @@ animecorner.me,zarabiajprzez24.pl,watchhentai.xxx,app-how-to-use-it.com,linuxcap
 pawastreams.*,nflbite.to,footybite.to,sportschamp.fun,afly.pro,topsporter.net,soccerstreams.football,mysocceraustralia.com,rayinfosports.com,hesgoals.top,sequencecard.xyz,totalsportek.soccer,metaporky.site,nbabite.to,cyfostreams.com,gamerarcades.com,bestreamsports.org,footy.to,mcrypto.club,greaterkashmir.com###id-custom_banner
 pawastreams.*,groundedtechs.com,rayinfosports.com,sequencecard.xyz,matchtime.co,sportspellz.com,bestreamsports.org,silverspoon.site###dismiss-btn
 vi-control.net,nullforums.net,landyzone.co.uk,nullcave.pro,woxmax.com,waskucity.com,babia.to,technofino.in,reef2reef.com,minebbs.com,craxpro.io,affiliatefix.com,myiptvforum.com,hifivision.com,worldofiptv.com,altenen.is,beermoneyforum.com,germancarforum.com,cracking.org##.samBannerUnit
+palworld.th.gl##.bg-card.text-card-foreground:has(> div.rounded:is(.max-w-\[400px\].h-\[170px\],.w-\[300px\].h-\[600px\]))
+zepto.com##div.w-full > div.grid > a[class][href^="/"]:has(> div > div[data-slot-id="ProductImageWrapper"] [data-slot-id="SponsorTag"])
 mtgcardsmith.com##.smith-ad
 goal.com##.fco-sticky-wrapper__wrapper
 moviebox.ph,movieboxapp.in,themoviebox.org,moviebox.pk,movieboxapp.in,123movienow.cc##.home-global-ad
@@ -85461,6 +85464,7 @@ thecanary.co##.in-content-ad
 thepostmillennial.com##.in-content-top
 outlookindia.com##.in-house-banner1
 letsrun.com##.in-post-ad
+becleverwithyourcash.com##.in-post-ad-wrapper
 businessinsider.com##.in-post-sticky
 alphacoders.com##.in-thumb-ad-mobile-desktop
 faithpot.com##.inarticle-ad
@@ -86859,6 +86863,7 @@ panarmenian.net##.side_panner
 supermarketnews.co.nz,tutorialrepublic.com##.sidebar
 maison-et-domotique.com##.sidebar .widget_media_image
 coincodex.com##.sidebar-4skyscraper
+becleverwithyourcash.com##.sidebar-ad-section
 jayisgames.com##.sidebar-ad-top
 autoguide.com,motorcycle.com##.sidebar-ad-unit
 movieinsider.com##.sidebar-ad300
@@ -95081,9 +95086,7 @@ cyberchef.org###workspace-wrapper > [id][style*="height"] {height: 100% !importa
 complex.com##.\[\@media\(min-width\:520px\)\]\:px-\[20px\]
 justjared.com##.banner-spacer-top {max-height: 50px !important;}
 temp-mail.io##.fixed.bottom-0.\[\@media\(max-width\:1350px\)\]\:hidden
-becleverwithyourcash.com##.in-post-ad-wrapper
 complex.com##.lg\:top-\[var\(--sticky-top\)\]
-becleverwithyourcash.com##.sidebar-ad-section
 justjared.com##[role="banner"] {top:0 !important}
 deliveroo.*#?#a[role="button"]:has(p:has-text(Sponsored))
 deliveroo.*#?#div[class^="HomeFeedScrollTracker-"]:has(span[class^="HomeFeedUILines-"]:has-text(Sponsored))

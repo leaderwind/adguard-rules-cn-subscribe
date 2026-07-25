@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Conservative
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202607250334
-! Last modified: 2026-07-25T03:34:35Z
+! Version: 202607250627
+! Last modified: 2026-07-25T06:27:59Z
 ! Layers: network,content,scriptlet
 ! Mode: conservative
-! Rules: 108155
+! Rules: 108156
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -95100,6 +95100,7 @@ justjared.com##.banner-spacer-top {max-height: 50px !important;}
 temp-mail.io##.fixed.bottom-0.\[\@media\(max-width\:1350px\)\]\:hidden
 complex.com##.lg\:top-\[var\(--sticky-top\)\]
 justjared.com##[role="banner"] {top:0 !important}
+chatgpt.com##div[data-testid="bazaar-single-card-container"]
 deliveroo.*#?#a[role="button"]:has(p:has-text(Sponsored))
 deliveroo.*#?#div[class^="HomeFeedScrollTracker-"]:has(span[class^="HomeFeedUILines-"]:has-text(Sponsored))
 advocate.com,out.com,pride.com#?#.component.module-headline:has-text(FROM OUR SPONSORS)

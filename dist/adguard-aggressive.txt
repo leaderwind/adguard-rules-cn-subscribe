@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Aggressive
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202607250627
-! Last modified: 2026-07-25T06:27:59Z
+! Version: 202607250910
+! Last modified: 2026-07-25T09:10:36Z
 ! Layers: network,content,scriptlet
 ! Mode: aggressive
-! Rules: 116146
+! Rules: 116148
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -16498,6 +16498,7 @@ sudokugame.org#%#//scriptlet('trusted-replace-node-text', 'script', 'adjump', 'f
 @@/adguard.$domain=llq.dml.ink
 @@||criteo.com/delivery/ajs.php?zoneid=$script,domain=gaus.ee
 @@||jd.com/adclick?$popup,~third-party
+$csp=script-src 'self' *,domain=yebiquge.com|zduxs.com|90shuyuan.com|sswwxs.com|akexs.com|qqmmxs.com|qimiaoxs.cc|qimiaoxiaoshuo.com|wuwxs.com|biquge678.com|biqugezw.us
 ||wnacg.com/game/$image,rewrite=abp-resource:1x1-transparent-gif,domain=wnacg.com
 cngold.org#?#.w310:-abp-has(>.swiper-company)
 hanime1.me#?#div[style*="text-align:"]:-abp-has(>div[style*="color: white"])
@@ -91508,6 +91509,7 @@ costco.com##div[data-testid="AdSet-all-sponsored_products_-_search_top"]
 semafor.com##div[data-testid="ad-body"]
 semafor.com##div[data-testid="ad-sticky-header"]
 copilot.microsoft.com##div[data-testid="ads-card"]
+chatgpt.com##div[data-testid="bazaar-single-card-container"]
 hotstar.com##div[data-testid="bbtype-video"]
 manomano.co.uk,manomano.de,manomano.es,manomano.fr,manomano.it##div[data-testid="boosted-product-recommendations"]
 twitter.com,x.com##div[data-testid="cellInnerDiv"] > div > div[class] > div[class][data-testid="placementTracking"]
@@ -103088,7 +103090,6 @@ justjared.com##.banner-spacer-top {max-height: 50px !important;}
 temp-mail.io##.fixed.bottom-0.\[\@media\(max-width\:1350px\)\]\:hidden
 complex.com##.lg\:top-\[var\(--sticky-top\)\]
 justjared.com##[role="banner"] {top:0 !important}
-chatgpt.com##div[data-testid="bazaar-single-card-container"]
 deliveroo.*#?#a[role="button"]:has(p:has-text(Sponsored))
 deliveroo.*#?#div[class^="HomeFeedScrollTracker-"]:has(span[class^="HomeFeedUILines-"]:has-text(Sponsored))
 advocate.com,out.com,pride.com#?#.component.module-headline:has-text(FROM OUR SPONSORS)
@@ -106701,6 +106702,7 @@ _WebVitalsReporter_
 /maling.roidusat.com/t/*$image
 /marketing.wrightentgroup.com/t/*$image
 /media.sailthru.com/5ik/1k4/9/*.gif
+/ml.bitcash.co.jp/c/*$image
 /newsletter/log/*$image
 /newsletter/read?s=$image
 /newslink.reuters.com/img/*$image

@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Network
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202607250627
-! Last modified: 2026-07-25T06:27:59Z
+! Version: 202607250910
+! Last modified: 2026-07-25T09:10:36Z
 ! Layers: network
 ! Mode: standard
-! Rules: 47546
+! Rules: 47548
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -7442,6 +7442,7 @@ $script,third-party,domain=torkitty.net|torkitty.com|torrentkitty.app|torrentkit
 @@/adguard.$domain=llq.dml.ink
 @@||criteo.com/delivery/ajs.php?zoneid=$script,domain=gaus.ee
 @@||jd.com/adclick?$popup,~third-party
+$csp=script-src 'self' *,domain=yebiquge.com|zduxs.com|90shuyuan.com|sswwxs.com|akexs.com|qqmmxs.com|qimiaoxs.cc|qimiaoxiaoshuo.com|wuwxs.com|biquge678.com|biqugezw.us
 ||wnacg.com/game/$image,rewrite=abp-resource:1x1-transparent-gif,domain=wnacg.com
 ||gamengirls.com^$all
 ||cno.jerkmate.net^$all
@@ -38103,6 +38104,7 @@ _WebVitalsReporter_
 /maling.roidusat.com/t/*$image
 /marketing.wrightentgroup.com/t/*$image
 /media.sailthru.com/5ik/1k4/9/*.gif
+/ml.bitcash.co.jp/c/*$image
 /newsletter/log/*$image
 /newsletter/read?s=$image
 /newslink.reuters.com/img/*$image

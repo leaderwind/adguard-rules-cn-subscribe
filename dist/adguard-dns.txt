@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - DNS
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202607252107
-! Last modified: 2026-07-25T21:07:13Z
+! Version: 202607252207
+! Last modified: 2026-07-25T22:07:49Z
 ! Layers: dns
 ! Mode: standard
-! Rules: 231642
+! Rules: 231662
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -182853,6 +182853,11 @@
 ||freeadultcomix.com^$badfilter
 ||imgshare.info^$badfilter
 @@||connectivitycheck.gstatic.com^$important
+||lmlirxrgiowap.online^
+||mmbswwebcbpwr.online^
+||rkggfvnreccrz.space^
+||udnxazqpiyepo.site^
+||vtmkplihozqfv.com^
 /(https?:\/\/)104\.154\..{100,}/
 /(https?:\/\/)104\.197\..{100,}/
 /(https?:\/\/)104\.198\..{100,}/
@@ -200588,9 +200593,24 @@
 ||zysuvysaj.pro^
 ||zzux.com^
 ||sobot.com^
-||lmlirxrgiowap.online^
-||mmbswwebcbpwr.online^
-||rkggfvnreccrz.space^
+||asksbirrs.cyou^
+||awedlydanismpeda.cyou^
+||chapahshuler.cfd^
+||choristlibget.cfd^
+||deavedazilian.qpon^
+||marekanidian.cfd^
+||nttqvbx5u97j5b763mffv.rest^
+||nymphszymosis.qpon^
+||ormoluskiaughs.qpon^
+||quiltrearm.qpon^
+||settdenar.qpon^
+||teriannrammage.cfd^
+||tetterssynedra.qpon^
+||umcitbmzgqelw.space^
+||v34l1h2cyxpjuevw54uhl.cfd^
+||xkkevlweemcty.site^
+||xtmtmiztqxkpi.space^
+||zoaeaeucrasy.qpon^
 ||mobile.pipe.aria.microsoft.com^
 ||cu-cn-north00001.gala.convection.cn^
 ||cu-cn-north00002.gala.convection.cn^

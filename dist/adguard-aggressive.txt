@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Aggressive
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202607260012
-! Last modified: 2026-07-26T00:12:16Z
+! Version: 202607260355
+! Last modified: 2026-07-26T03:55:50Z
 ! Layers: network,content,scriptlet
 ! Mode: aggressive
-! Rules: 116147
+! Rules: 116148
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -41063,6 +41063,7 @@ $third-party,xmlhttprequest,domain=mega4upload.net
 ||outbrain.com^$domain=bgr.com|buzzfeed.com|dto.to|investing.com|mamasuncut.com|mangatoto.com|tvline.com
 ||outputter.io/uploads/$subdocument
 ||ownedcore.com/forums/ocpbanners/
+||ozbargain.com.au/js/ozbads.js
 ||pandora.com/api/v1/ad/
 ||pandora.com/web-client-assets/displayAdFrame.
 ||pastemagazine.com/common/js/ads-
@@ -115575,7 +115576,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||mapquestapi.com/logger/$domain=hertz.com
 @@||maps.arcgis.com/apps/*/AppMeasurement.js$~third-party
 @@||maptiles.ping-admin.ru^$image,domain=ping-admin.com
-@@||martech.condenastdigital.com/lib/martech.js$script,domain=wired.com
+@@||martech.condenastdigital.com/lib/martech.js$script,domain=cntraveler.com|wired.com
 @@||matomo.miraheze.org/matomo.js$script,~third-party
 @@||maxmind.com/geoip/$xmlhttprequest,domain=ibanez.com
 @@||maxmind.com^*/geoip.js$domain=aljazeera.com|ballerstatus.com|bikemap.net|carltonjordan.com|cashu.com|dr.dk|everydaysource.com|fab.com|girlgames4u.com|ip-address.cc|qatarairways.com|sat-direction.com|sotctours.com|stoli.com|vibe.com

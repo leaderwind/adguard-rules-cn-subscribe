@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Content
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202607271754
-! Last modified: 2026-07-27T17:54:26Z
+! Version: 202607271951
+! Last modified: 2026-07-27T19:51:32Z
 ! Layers: content
 ! Mode: standard
-! Rules: 63157
+! Rules: 63162
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -18817,6 +18817,11 @@ animecorner.me,zarabiajprzez24.pl,watchhentai.xxx,app-how-to-use-it.com,linuxcap
 pawastreams.*,nflbite.to,footybite.to,sportschamp.fun,afly.pro,topsporter.net,soccerstreams.football,mysocceraustralia.com,rayinfosports.com,hesgoals.top,sequencecard.xyz,totalsportek.soccer,metaporky.site,nbabite.to,cyfostreams.com,gamerarcades.com,bestreamsports.org,footy.to,mcrypto.club,greaterkashmir.com###id-custom_banner
 pawastreams.*,groundedtechs.com,rayinfosports.com,sequencecard.xyz,matchtime.co,sportspellz.com,bestreamsports.org,silverspoon.site###dismiss-btn
 vi-control.net,nullforums.net,landyzone.co.uk,nullcave.pro,woxmax.com,waskucity.com,babia.to,technofino.in,reef2reef.com,minebbs.com,craxpro.io,affiliatefix.com,myiptvforum.com,hifivision.com,worldofiptv.com,altenen.is,beermoneyforum.com,germancarforum.com,cracking.org##.samBannerUnit
+boyfriend.tv##.info-block-wrapper
+boyfriend.tv#?#.side-content-block > div:contains(Advertisment)
+boyfriend.tv##.info-wrap > .zn-label
+boyfriend.tv##a[href^="https://go.janusaent.com/"]
+boyfriend.tv##a[href^="https://www.boyfriend.tv/link/out/"]
 xgroovy.com###top_links
 thunderstore.io##.community-promo
 cricinfo.com##.ds-flex-none > div.ds-mb-4:has(> div > div.ds-w-full div.ds-flex > a[href^="https://www.bet365.com/"])

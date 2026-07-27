@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Network
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202607271236
-! Last modified: 2026-07-27T12:36:16Z
+! Version: 202607271550
+! Last modified: 2026-07-27T15:50:17Z
 ! Layers: network
 ! Mode: standard
-! Rules: 47559
+! Rules: 47564
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -18072,7 +18072,7 @@ xxxadd.com/eureka
 ://aj2*.online^$xmlhttprequest,other
 ||brightcovecdn.com/playback/*/*?ad_config_id=$removeparam=ad_config_id,xmlhttprequest,domain=tvnz.co.nz|roosterteeth.com|nhl.com|9now.com.au|video.telequebec.tv|player.stv.tv
 ||brightcove.com/playback/*/*?ad_config_id$removeparam=ad_config_id,xmlhttprequest,domain=tvnz.co.nz|roosterteeth.com|nhl.com|9now.com.au|video.telequebec.tv|player.stv.tv
-||ssaimanifest.prod.boltdns.net/playback/once/v*/vmap/$xmlhttprequest,removeparam=prof,domain=amcplus.com
+||ssaimanifest.prod.boltdns.net/playback/once/v*/vmap/$xmlhttprequest,removeparam=prof,domain=amcplus.com|ifc.com
 ||stre4mpay.one/blobjs.hj
 /..nt.nt\.st.+p.ay\..+/$domain=straemplay.*|stemplay.*|steamplay.*|steanplay.*|streamp1ay.*|streanplay.*|streampiay.*|stre4mplay.*|powstream.*
 jquery-1.8.3.min.js$domain=straemplay.*|stemplay.*|steamplay.*|steanplay.*|streamp1ay.*|streanplay.*|streampiay.*|stre4mplay.*|powstream.*
@@ -20373,6 +20373,8 @@ $csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: www.googletagma
 @@||beinconnect.com.tr^$stealth
 @@||account.adobe.com^$document,domain=services.adobe.com,stealth=useragent
 @@||adguard.com^$stealth
+@@||videopark.top^$subdocument,stealth=referrer,domain=jetfilmizle.*
+@@||d2rs.com^$subdocument,stealth=referrer,domain=jetfilmizle.*
 @@||superflixapi.pro/player/redirect?t=$stealth=referrer
 @@||xn--kcksk7a2bl5le7b6doc1h3f.com/video/$stealth=referrer
 @@||vidtub.kotocdn.site^$xmlhttprequest,stealth=referrer,domain=vidtube.site
@@ -31271,6 +31273,7 @@ _800x80_
 ||nnteens.com/ad$subdocument
 ||nubiles.net/webmasters/promo/
 ||nude.hu/html/$third-party
+||nudeidols.com^$domain=mypornstarblogs.com
 ||openadultdirectory.com/banner-
 ||otcash.com/images/
 ||paperstreetcash.com/banners/$third-party
@@ -32107,6 +32110,7 @@ $third-party,xmlhttprequest,domain=mega4upload.net
 ||bustle.com^*/prebid-
 ||jwplatform.com/libraries/tdeymorh.js
 ||purexbox.com/javascript/gn/prebid-
+||solitairen.com/prebid11.$script
 ||fireworkapi1.com^$domain=boldsky.com
 ||anyclip.com^$third-party,domain=~click2houston.com|~clickondetroit.com|~clickorlando.com|~dictionary.com|~heute.at|~ksat.com|~news4jax.com|~therealdeal.com|~thesaurus.com|~video.timeout.com|~wsls.com
 ||blockchain.info/explorer-gateway/advertisements
@@ -32234,6 +32238,7 @@ $popup,domain=07c225f3.online|content-loader.com|css-load.com|html-load.cc|html-
 ||3movs.xxx/2ff/
 ||3prn.com/even/ok.js
 ||429men.com/zdoink/
+||4pornhd.com/nb/
 ||4tube.com/assets/abpe-
 ||4tube.com/assets/adf-
 ||4tube.com/assets/adn-
@@ -32367,6 +32372,7 @@ $popup,domain=07c225f3.online|content-loader.com|css-load.com|html-load.cc|html-
 ||extremescatporn.com/static/images/banners/
 ||fakings.com/tools/get_banner.php
 ||familyporner.com/prerolls/
+||fanhub.com/_xa/ads_batch?
 ||fapclub.sex/js/hr.js
 ||fapnado.com/api/
 ||fapnado.com/bump
@@ -34810,7 +34816,6 @@ template/m1938pc/ads/*.js
 ||aucdn.net/library/*.mp4$rewrite=abp-resource:blank-mp4,domain=txnhh.com|xnxx.com|xvideos.com|xvv1deos.com
 ||cdn.miohentai.com/partners/$rewrite=abp-resource:blank-mp4,domain=miohentai.com
 ||cfgr3.com/videos/*.mp4$rewrite=abp-resource:blank-mp4,domain=hitbdsm.com
-||fanhub.com/_xa/ads_batch?
 ||redtube.com^$subdocument,~third-party
 ||youjizz.com/KWIKY*.mp4$rewrite=abp-resource:blank-mp4,domain=youjizz.com
 @@||discord.com^$generichide

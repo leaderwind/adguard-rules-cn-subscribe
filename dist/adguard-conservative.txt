@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Conservative
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202607271236
-! Last modified: 2026-07-27T12:36:16Z
+! Version: 202607271550
+! Last modified: 2026-07-27T15:50:17Z
 ! Layers: network,content,scriptlet
 ! Mode: conservative
-! Rules: 108182
+! Rules: 108191
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -26565,7 +26565,7 @@ xxxadd.com/eureka
 ://aj2*.online^$xmlhttprequest,other
 ||brightcovecdn.com/playback/*/*?ad_config_id=$removeparam=ad_config_id,xmlhttprequest,domain=tvnz.co.nz|roosterteeth.com|nhl.com|9now.com.au|video.telequebec.tv|player.stv.tv
 ||brightcove.com/playback/*/*?ad_config_id$removeparam=ad_config_id,xmlhttprequest,domain=tvnz.co.nz|roosterteeth.com|nhl.com|9now.com.au|video.telequebec.tv|player.stv.tv
-||ssaimanifest.prod.boltdns.net/playback/once/v*/vmap/$xmlhttprequest,removeparam=prof,domain=amcplus.com
+||ssaimanifest.prod.boltdns.net/playback/once/v*/vmap/$xmlhttprequest,removeparam=prof,domain=amcplus.com|ifc.com
 ||stre4mpay.one/blobjs.hj
 /..nt.nt\.st.+p.ay\..+/$domain=straemplay.*|stemplay.*|steamplay.*|steanplay.*|streamp1ay.*|streanplay.*|streampiay.*|stre4mplay.*|powstream.*
 jquery-1.8.3.min.js$domain=straemplay.*|stemplay.*|steamplay.*|steanplay.*|streamp1ay.*|streanplay.*|streampiay.*|stre4mplay.*|powstream.*
@@ -28823,6 +28823,8 @@ $image,script,stylesheet,subdocument,third-party,xmlhttprequest,domain=animepahe
 @@||tous-sports.fr/js/advertisement-AdBlock.js
 @@||tous-sports.tv/js/advertisement-AdBlock.js
 @@||account.adobe.com^$document,domain=services.adobe.com,stealth=useragent
+@@||videopark.top^$subdocument,stealth=referrer,domain=jetfilmizle.*
+@@||d2rs.com^$subdocument,stealth=referrer,domain=jetfilmizle.*
 @@||vidtub.kotocdn.site^$xmlhttprequest,stealth=referrer,domain=vidtube.site
 @@/proxy?data=$third-party,xmlhttprequest,stealth=referrer,domain=hexa.su
 @@?type=*&id=$third-party,stealth=referrer,domain=nextbox.uno|next-box.su
@@ -37964,6 +37966,7 @@ _800x80_
 ||nnteens.com/ad$subdocument
 ||nubiles.net/webmasters/promo/
 ||nude.hu/html/$third-party
+||nudeidols.com^$domain=mypornstarblogs.com
 ||openadultdirectory.com/banner-
 ||otcash.com/images/
 ||paperstreetcash.com/banners/$third-party
@@ -38798,6 +38801,7 @@ $third-party,xmlhttprequest,domain=mega4upload.net
 ||bustle.com^*/prebid-
 ||jwplatform.com/libraries/tdeymorh.js
 ||purexbox.com/javascript/gn/prebid-
+||solitairen.com/prebid11.$script
 ||fireworkapi1.com^$domain=boldsky.com
 ||anyclip.com^$third-party,domain=~click2houston.com|~clickondetroit.com|~clickorlando.com|~dictionary.com|~heute.at|~ksat.com|~news4jax.com|~therealdeal.com|~thesaurus.com|~video.timeout.com|~wsls.com
 ||blockchain.info/explorer-gateway/advertisements
@@ -38924,6 +38928,7 @@ $popup,domain=07c225f3.online|content-loader.com|css-load.com|html-load.cc|html-
 ||3movs.xxx/2ff/
 ||3prn.com/even/ok.js
 ||429men.com/zdoink/
+||4pornhd.com/nb/
 ||4tube.com/assets/abpe-
 ||4tube.com/assets/adf-
 ||4tube.com/assets/adn-
@@ -39054,6 +39059,7 @@ $popup,domain=07c225f3.online|content-loader.com|css-load.com|html-load.cc|html-
 ||extremescatporn.com/static/images/banners/
 ||fakings.com/tools/get_banner.php
 ||familyporner.com/prerolls/
+||fanhub.com/_xa/ads_batch?
 ||fapclub.sex/js/hr.js
 ||fapnado.com/api/
 ||fapnado.com/bump
@@ -40417,7 +40423,7 @@ tamil-lyrics.com##body > svg[style] + div[id][class*=" "]
 bnews24.com##center > div.dc_dc.fix + div[id][class*=" "]
 wikipooster.com##noscript + div[id][class*=" "]
 skycall.online##body > #page + script + div[id][class*=" "]
-bikyonyu-bijo-zukan.com,sumirekeiba.com###container + div[id][class*=" "]
+9-gld.net,bikyonyu-bijo-zukan.com,sumirekeiba.com###container + div[id][class*=" "]
 gengen17.com###jetpack-lazy-images-js + div[id][class*=" "]
 helicomicro.com##.backtoptop + div[id][class*=" "]
 karwan.tv##.gdpr-cm-wrap + script + div[id][class*=" "]
@@ -49841,11 +49847,12 @@ animecorner.me,zarabiajprzez24.pl,watchhentai.xxx,app-how-to-use-it.com,linuxcap
 pawastreams.*,nflbite.to,footybite.to,sportschamp.fun,afly.pro,topsporter.net,soccerstreams.football,mysocceraustralia.com,rayinfosports.com,hesgoals.top,sequencecard.xyz,totalsportek.soccer,metaporky.site,nbabite.to,cyfostreams.com,gamerarcades.com,bestreamsports.org,footy.to,mcrypto.club,greaterkashmir.com###id-custom_banner
 pawastreams.*,groundedtechs.com,rayinfosports.com,sequencecard.xyz,matchtime.co,sportspellz.com,bestreamsports.org,silverspoon.site###dismiss-btn
 vi-control.net,nullforums.net,landyzone.co.uk,nullcave.pro,woxmax.com,waskucity.com,babia.to,technofino.in,reef2reef.com,minebbs.com,craxpro.io,affiliatefix.com,myiptvforum.com,hifivision.com,worldofiptv.com,altenen.is,beermoneyforum.com,germancarforum.com,cracking.org##.samBannerUnit
+cricinfo.com##.ds-flex-none > div.ds-mb-4:has(> div > div.ds-w-full div.ds-flex > a[href^="https://www.bet365.com/"])
 wphive.com##.widget_wphiveadvertiseflywpwidget
 lustreels.tube##.video-feed-inner > div[class="video-feed-item"][data-video-id=""]:has(> div.ad-slot)
 awwwards.com##ul.grid-cards[data-group="awards"] > li:not([class])
 tld-list.com##.wrapper > .mx-auto:has(> a[rel*="sponsored"])
-dovechannel.com,screambox.com,midnightpulp.com###v-player_ima-ad-container
+cineverse.com,dovechannel.com,screambox.com,midnightpulp.com###v-player_ima-ad-container
 freewebnovel.com##.slot-frame
 x-x-x.tube###inpage-ad-container
 filepress.baby##.fixed.pointer-events-none
@@ -51386,6 +51393,8 @@ healthgrades.com##div[class]:has(> div[data-visible] > div[data-qa-target="leade
 bestmvno.com##.advertextsize
 clutchpoints.com,hockeyfeed.com##.not-prose
 altarofgaming.com###aog-adthrive-header
+respawn.outlookindia.com##.items-center:is([class*="h-["], [class*="w-["]):has(> span.font-open-sans)
+respawn.outlookindia.com##body > .min-h-screen > .justify-center:has(> .items-center:is([class*="h-["], [class*="w-["])> span.font-open-sans)
 outlookindia.com##.new-lhs-md-ads-res
 outlookmoney.com,outlookbusiness.com,outlookindia.com###ol_story_sticky
 outlookmoney.com##a[href*="dogearbanner"]
@@ -90602,6 +90611,7 @@ youngamateursporn.com###inplayer_block
 hentaiprn.com###l_340
 pornlib.com###lcams2
 escortbook.com###links
+mypornstarblogs.com###live-pornstars
 redtube.com###live_models_row_wrap
 maturetubehere.com###lotal
 4tube.com###main-jessy-grid
@@ -90801,7 +90811,7 @@ hd21.com##.aside_video
 babepump.com,fapnfuck.com,fuqster.com,povxl.com,sexpester.com,w1mp.com,w4nkr.com,xmateur.com##.asside-link
 xhamster.com##.auto-generated-banner-container
 avn.com##.avn-article-tower
-firstincest.com,hentaienglish.com,hentaiporno.xxx##.ays-pb-modals
+firstincest.com,hentaienglish.com,hentaiporno.xxx,hentaitk.com##.ays-pb-modals
 mrskin.com##.az
 fapeza.com##.azz_div
 gaymaletube.name,gogaytube.tv,hdpornvideo.tv,madgaysex.com,xgaytube.tv##.b-advertisement
@@ -95113,7 +95123,6 @@ yatu.tv##.dplayer-web-fullscreen-fix #tburl,#loadtop,[id^=myas],#myds1,#daohang
 ||aucdn.net/library/*.mp4$rewrite=abp-resource:blank-mp4,domain=txnhh.com|xnxx.com|xvideos.com|xvv1deos.com
 ||cdn.miohentai.com/partners/$rewrite=abp-resource:blank-mp4,domain=miohentai.com
 ||cfgr3.com/videos/*.mp4$rewrite=abp-resource:blank-mp4,domain=hitbdsm.com
-||fanhub.com/_xa/ads_batch?
 ||redtube.com^$subdocument,~third-party
 ||youjizz.com/KWIKY*.mp4$rewrite=abp-resource:blank-mp4,domain=youjizz.com
 @@||discord.com^$generichide

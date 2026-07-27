@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Aggressive
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202607271951
-! Last modified: 2026-07-27T19:51:32Z
+! Version: 202607272122
+! Last modified: 2026-07-27T21:22:25Z
 ! Layers: network,content,scriptlet
 ! Mode: aggressive
-! Rules: 116199
+! Rules: 116201
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -91626,6 +91626,7 @@ geekchamp.com##div[id^="rk-"]
 rsbnetwork.com##div[id^="rsbne-"]
 ruralradio.com##div[id^="rural-"]
 sbstatesman.com##div[id^="sbsta-"]
+eloshapes.com##div[id^="side-banners-"]
 smallnetbuilder.com##div[id^="snb-"]
 filehorse.com##div[id^="td-"]
 birrapedia.com##div[id^="textoDivPublicidad_"]
@@ -113048,6 +113049,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||change.org/api-proxy/-/et
 ||change.org/api-proxy/-/event_tracker
 ||channel.io/front/v*/channels/*/events
+||chase.com/apps/services/clientBeacon.html
 ||chat.groq.com/global_stats
 ||chatfuel.com/cf-analytics/
 ||chatroll.com/t.gif

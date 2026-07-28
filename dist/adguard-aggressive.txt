@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Aggressive
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202607281649
-! Last modified: 2026-07-28T16:49:22Z
+! Version: 202607281842
+! Last modified: 2026-07-28T18:42:10Z
 ! Layers: network,content,scriptlet
 ! Mode: aggressive
-! Rules: 116216
+! Rules: 116218
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -40618,11 +40618,13 @@ _800x80_
 ||loveaholics.com^$popup
 ||mrskin.com/?_$popup
 ||naughtydate.com^$popup
+||offers.cam4tracking.com^$popup
 ||porngames.adult^*=$popup,third-party
 ||prelanding3.cuntempire.com/?utm_$popup
 ||tgp1.brazzersnetwork.com^$popup
 ||tm-offers.gamingadult.com^$popup
 ||together2night.com^$popup
+||track.cam4tracking.com^$popup
 ||zillastream.com/api/$popup
 $third-party,xmlhttprequest,domain=mega4upload.net
 /pmc-adm-v2/build/setup-ads.js$domain=bgr.com|deadline.com|rollingstone.com

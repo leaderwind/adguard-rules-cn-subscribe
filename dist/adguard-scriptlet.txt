@@ -1,8 +1,8 @@
 ! Title: AdGuard Rules CN - Scriptlet
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202607280638
-! Last modified: 2026-07-28T06:38:36Z
+! Version: 202607280945
+! Last modified: 2026-07-28T09:45:28Z
 ! Layers: scriptlet
 ! Mode: standard
 ! Rules: 5467
@@ -4479,7 +4479,7 @@ multiup.io#%#//scriptlet('prevent-setInterval', '$("form").submit()')
 up-4ever.org#%#//scriptlet('remove-attr', 'onclick', 'a[onclick*="window.open"][data-target*="up4ever.download"]')
 katestube.com#%#(function(){var c=document.addEventListener;document.addEventListener=function(a,b,d,e){"click"!=a&&-1==b.toString().indexOf('bi()')&&c(a,b,d,e)}.bind(document);})();
 motherless.com#%#//scriptlet("set-constant", "_ml_ads_ns", "null")
-winporn.*#%#//scriptlet("set-constant", "showspop", "undefined")
+pornlib.com,pornlib.icu,winporn.*#%#//scriptlet("set-constant", "showspop", "undefined")
 porndr.com#%#//scriptlet("abort-current-inline-script", "getCookie", "popup_url")
 clk.ink#%#//scriptlet("remove-attr", "href", "a[href='/skiplink'][target='_blank']")
 vidbob.com#%#(function(){var c=document.addEventListener;document.addEventListener=function(a,b,d,e){"mousedown"!=a&&-1==b.toString().indexOf('Z4P')&&c(a,b,d,e)}.bind(document); var b=window.setTimeout;window.setTimeout=function(a,c){if(!/Z4P/.test(a.toString()))return b(a,c)};})();

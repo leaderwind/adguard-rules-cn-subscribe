@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Content
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202607280638
-! Last modified: 2026-07-28T06:38:36Z
+! Version: 202607280945
+! Last modified: 2026-07-28T09:45:28Z
 ! Layers: content
 ! Mode: standard
-! Rules: 63161
+! Rules: 63164
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -14037,6 +14037,7 @@ skmedix.pl,interia.pl,trojmiasto.pl,js.iplsc.com,pomponik.pl,posty.pl,zalajkowan
 skmedix.pl,interia.pl,trojmiasto.pl,js.iplsc.com,pomponik.pl,posty.pl,zalajkowane.pl,kulinarnapolska.org,wroclawskiejedzenie.pl,innpoland.pl,mywrestling.com.pl,andek.com.pl,smartage.pl,joemonster.org,tajemnice-swiata.pl,naszraciborz.pl,natemat.pl,stadionowioprawcy.net,fortnitepolska.pl,sadistic.pl,napisy24.pl,mamadu.pl,towideo.pl,forsal.pl,kresy.pl,mambiznes.pl,prnews.pl,weszlo.com,dziwneobrazki.pl#@#.text_ad
 skmedix.pl,interia.pl,trojmiasto.pl,js.iplsc.com,pomponik.pl,posty.pl,zalajkowane.pl,kulinarnapolska.org,wroclawskiejedzenie.pl,innpoland.pl,mywrestling.com.pl,andek.com.pl,smartage.pl,joemonster.org,tajemnice-swiata.pl,naszraciborz.pl,natemat.pl,stadionowioprawcy.net,fortnitepolska.pl,sadistic.pl,napisy24.pl,mamadu.pl,towideo.pl,forsal.pl,kresy.pl,mambiznes.pl,prnews.pl,weszlo.com,dziwneobrazki.pl#@#.text_ads
 roweroweporady.pl#@#.ad_container
+memy.pl##div.overflow-hidden:has(> div[style^="min-height:"] > .adsbygoogle)
 lubiehrubie.pl##.baner
 lubiehrubie.pl##.row > div.box-margin:has(> div.baner)
 lubiehrubie.pl##.pancernik__wrapper
@@ -14194,6 +14195,7 @@ gazetki.pl##.ad_d_small
 gazetki.pl##aside > div[style*="height:"]:has(> .ad_d_small)
 korektortekstu.pl##.container > .row> .col-md-12[style]:has(> .adsbygoogle)
 obserwatorlogistyczny.pl##.obser-target
+trans.info##.pt-4 > aside:has(> .hidden > a[rel*="sponsored"])
 trans.info##a[href*="_banner_ad"][target="_blank"] > img
 trans.info##.font-normal:has(+ .hidden > a[href*="_banner_ad"][target="_blank"] > img)
 well.pl##.sad
@@ -19554,6 +19556,7 @@ tr.motor1.com##.m1-header-main > div.top-module
 myabandonware.com##.adm-passback
 xmoviesforyou.com##.relative.backdrop-blur-sm:has(a[href^="https://a.adtng.com/"])
 dokkandb.com##.home-ads-block
+pornlib.com,pornlib.icu##.sspots
 pornlib.com,pornlib.icu###lcams2
 kodi-guide.com##.privacy-box
 filecrypt.co,filecrypt.cc##.butt1ns > span

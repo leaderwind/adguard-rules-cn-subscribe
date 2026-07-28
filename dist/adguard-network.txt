@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Network
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202607272318
-! Last modified: 2026-07-27T23:18:53Z
+! Version: 202607280331
+! Last modified: 2026-07-28T03:31:35Z
 ! Layers: network
 ! Mode: standard
-! Rules: 47567
+! Rules: 47560
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -8206,7 +8206,6 @@ $script,third-party,domain=torkitty.net|torkitty.com|torrentkitty.app|torrentkit
 ||optiklink.com/arlinablock.js
 ||ruxox.ru/js/plears.js
 ||cdn.jsdelivr.net/gh/adigunawanxd/pluginsgalaxymag@master/seosecretidnblockads.js
-||cdn.jsdelivr.net/gh/ayoubcr5/bestnhl/ad.js
 ||cdn.rawgit.com/Arlina-Design/quasar/*/arlinablock.js
 ||cdn.jsdelivr.net/gh/mdnaik/myblog@master/arlinablock.js
 ||cdn.jsdelivr.net/gh/Arlina-Design/quasar@master/arlinablock.js
@@ -10006,7 +10005,6 @@ $xmlhttprequest,third-party,redirect-rule=noopjs,domain=bizjournals.com
 @@||dl.adoptum.net/spc?sid=$domain=sms24.me|sms24.info
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=sms24.me|sms24.info
 @@||sledujserialy.io/theme/js/popunder.js
-@@||fluxteam.xyz/*/checkpoint/css/advert/
 ||securepubads.g.doubleclick.net/tag/js/gpt.js$script,redirect=noopjs,important,domain=link.rota.cc
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$xmlhttprequest,domain=link.rota.cc
 ||jsdelivr.net/gh/RockBlogger/Anti-AdBlocker@main/
@@ -10719,7 +10717,6 @@ $script,redirect-rule=noopjs,domain=vidmoly.biz|vidmoly.me|vidmoly.net|vidmoly.t
 @@||win10.vn^$generichide
 @@||tinyhomebuilders.com/scripts/ads.js
 @@||stfly.io^$generichide
-@@||xiaomifirmwareupdater.com^$generichide
 @@||filesharing.io^$generichide
 @@||jntufastupdates.com^$generichide
 @@||akoam.ws^$generichide
@@ -11126,7 +11123,6 @@ $script,redirect-rule=noopjs,domain=vidmoly.biz|vidmoly.me|vidmoly.net|vidmoly.t
 @@||allvideos.me^$generichide
 @@||pubads.g.doubleclick.net^$domain=twitch.tv
 @@||mapquest.com^$generichide
-@@||hyperdebrid.net^$generichide
 @@||anime-loads.org^$generichide
 @@||azdictionary.com^$generichide
 @@||gamefaucet.com/assets/js/fuckadblock.js
@@ -20426,6 +20422,7 @@ $csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: www.googletagma
 @@||hotstar.com/api/internal$stealth=ip
 @@||places.googleapis.com^$stealth=referrer
 @@||addressvalidation.googleapis.com^$stealth=referrer
+@@/sacdn/dash/*?host=$xmlhttprequest,stealth=referrer,domain=vidlink.pro
 @@.mp4?headers$media,stealth=referrer,domain=vidlink.pro
 @@||ksdpictures.site/embed/$subdocument,stealth=referrer
 @@.m3u8|$stealth=referrer,domain=streamingnow.mov
@@ -23234,7 +23231,6 @@ cdn.braun634.com^$third-party
 @@||jumpmanclubbrasil.com.br^$generichide
 @@||altyazili13.xyz^$generichide
 @@||onehack.us^$generichide
-@@||freecoursesonline.me^$generichide
 @@||wojtekczytawh40k.blogspot.com^$generichide
 @@||akoam.net^$generichide
 @@||download.3dzip.org^$generichide
@@ -23701,9 +23697,6 @@ cdn.braun634.com^$third-party
 @@||parzibyte.me/blog/wp-content/plugins/ad-inserter/*/*.js
 @@||contextual.media.net/dmedianet.js$domain=parzibyte.me
 @@thalia.de/shop/*.html?pid=*&group_id=0&banner_id=
-@@||contextual.media.net/dmedianet.js$domain=freecoursesonline.me
-@@||freecoursesonline.me/wp-content/uploads/ad-inserter/*/*.js
-@@||freecoursesonline.me/wp-content/plugins/ad-inserter-pro/images/ads.png
 @@||techadvisor.co.uk^$generichide
 @@||techadvisor.co.uk/cmsdata/features/
 @@||drugs.com^$generichide
@@ -23752,7 +23745,6 @@ cdn.braun634.com^$third-party
 @@||news.bg^$generichide
 @@||topsport.bg^$generichide
 @@||allmusic.com/ads.js
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=freecoursesonline.me
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=sna3talaflam.com
 @@||elmundo.es^$generichide
 @@||q32.ru/themes/default/reklama/advertising.js
@@ -45200,6 +45192,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||sexu.com/api/ttrack
 ||sexybabepics.net/re/?ping
 ||sf-syn.com/conversion_outbound_tracker$subdocument,domain=sourceforge.net
+||sfgate.com/api/client-logs
 ||share.9cdn.net/share/short_cache/js/tracking/$domain=nine.com.au
 ||sharechat.com/event-tracking-service/
 ||sharesies.com/v1/identify

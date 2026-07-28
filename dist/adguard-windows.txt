@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Windows
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202607281842
-! Last modified: 2026-07-28T18:42:10Z
+! Version: 202607282023
+! Last modified: 2026-07-28T20:23:52Z
 ! Layers: network,content,scriptlet
 ! Mode: standard
-! Rules: 116129
+! Rules: 116130
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -35948,6 +35948,7 @@ _800x80_
 ||coguan.com^$third-party
 ||coinads.online^$third-party
 ||coinmedia.co^$third-party
+||coinprediction.ai^$third-party
 ||cointraffic.io^$third-party
 ||coinzilla.io^$third-party
 ||comicad.net^$third-party
@@ -42114,8 +42115,7 @@ $popup,third-party,domain=hentai2read.com|porn-tube-club.com
 @@||cdn.ex.co^$domain=mm-watch.com|theautopian.com
 @@||cdn.wgchrrammzv.com/prod/ajc/loader.min.js$domain=journal-news.com
 @@||chycor.co.uk/cms/advert_search_thumb.php$image,domain=chycor.co.uk
-@@||client.aps.amazon-adsystem.com/publisher.js$script,domain=thestreet.com
-@@||client.aps.amazon-adsystem.com^$script,domain=newsweek.com
+@@||client.aps.amazon-adsystem.com/publisher.js$script,domain=foxnews.com|newsweek.com|thestreet.com
 @@||clients.plex.tv/api/v2/ads/$~third-party
 @@||cloudfront.net/js/common/invoke.js
 @@||commons.wikimedia.org/w/api.php?$~third-party,xmlhttprequest
@@ -91237,6 +91237,7 @@ twitter.com,x.com##a[href*="src=promoted_trend_click"] + div
 coolors.co##a[href*="srv.Buysellads.com"]
 unitconversion.org##a[href="../noads.html"]
 winaero.com##a[href="/fix-prf-issues/"]
+tuberipper.click##a[href="/r/dl"]
 osradar.com##a[href="http://insiderapps.com/"]
 cryptorank.io##a[href="https://aitechpad.io"][target="_blank"]
 dailyuploads.net##a[href="https://aptoze.com/"]

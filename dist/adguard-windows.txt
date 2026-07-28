@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Windows
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202607281210
-! Last modified: 2026-07-28T12:10:18Z
+! Version: 202607281434
+! Last modified: 2026-07-28T14:34:53Z
 ! Layers: network,content,scriptlet
 ! Mode: standard
-! Rules: 116116
+! Rules: 116122
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -23620,6 +23620,7 @@ $subdocument,third-party,denyallow=disqus.com,domain=love4u.net
 $third-party,script,domain=klto9.com|f2movies.to|hacamchicac.com|yourporngod.com|zinchanmanga.com|yaoimangaonline.com|tututweak.app|mangaraw.ac|eromanga-show.com|hentai-one.com|hentaipaw.com|nukibooks.com|paipancon.com|jgvdata.com|youtubevanced.com|pandamtl.com|mangaplus.shueisha.tv|shueisharaw.tv
 ||linksconsole.com/ad-system/
 ||misc-api.feathermc.com/*/ads/ad_units?
+||movienestbd.*/min.js
 ||boyfriendtv.com/bftv/bb/$subdocument
 /^https?:\/\/xgroovy\.com\/[A-Za-z0-9]{16}\/$/$script,domain=xgroovy.com
 ||peekvids.com/ads/
@@ -29598,6 +29599,7 @@ $csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: www.googletagma
 @@||beinconnect.com.tr^$stealth
 @@||account.adobe.com^$document,domain=services.adobe.com,stealth=useragent
 @@||adguard.com^$stealth
+@@||app.zoom.us^$stealth=useragent
 @@||happy1de.space/embed/$subdocument,stealth=referrer
 @@||playerx.info^$subdocument,stealth=referrer,domain=jetfilmizle.*
 @@||videopark.top^$subdocument,stealth=referrer,domain=jetfilmizle.*
@@ -52631,6 +52633,8 @@ animecorner.me,zarabiajprzez24.pl,watchhentai.xxx,app-how-to-use-it.com,linuxcap
 pawastreams.*,nflbite.to,footybite.to,sportschamp.fun,afly.pro,topsporter.net,soccerstreams.football,mysocceraustralia.com,rayinfosports.com,hesgoals.top,sequencecard.xyz,totalsportek.soccer,metaporky.site,nbabite.to,cyfostreams.com,gamerarcades.com,bestreamsports.org,footy.to,mcrypto.club,greaterkashmir.com###id-custom_banner
 pawastreams.*,groundedtechs.com,rayinfosports.com,sequencecard.xyz,matchtime.co,sportspellz.com,bestreamsports.org,silverspoon.site###dismiss-btn
 vi-control.net,nullforums.net,landyzone.co.uk,nullcave.pro,woxmax.com,waskucity.com,babia.to,technofino.in,reef2reef.com,minebbs.com,craxpro.io,affiliatefix.com,myiptvforum.com,hifivision.com,worldofiptv.com,altenen.is,beermoneyforum.com,germancarforum.com,cracking.org##.samBannerUnit
+embedsun.cc###bg_wrap_88
+times.abema.tv##aside > div[style="height: 200px;"]
 willowmovies.com##div.w-fit > div.relative:has([data-umami-event])
 redditporn.com##.ad-card-natural
 redditporn.com##.ad-strip-row
@@ -99141,6 +99145,8 @@ www.youtube.com#%#//scriptlet('set-constant', 'ytcfg.data_.EXPERIMENT_FLAGS.web_
 www.youtube.com#%#//scriptlet('prevent-setTimeout', '(),a,b)', '5000')
 m.youtube.com#%#//scriptlet('json-prune', 'playerResponse.messages.[].youThereRenderer')
 m.youtube.com#%#(()=>{const t={apply:(t,e,n)=>{if(location.href.includes("/shorts/")||location.href.includes("youtube.com/tv")||location.href.includes("youtube.com/embed/"))return Reflect.apply(t,e,n);try{const a=n[0];if(!a?.context?.client)return Reflect.apply(t,e,n);const o=String(Date.now());a.playbackContext&&void 0===a.playbackContext.adPlaybackContext&&(a.playbackContext.contentPlaybackContext.lactMilliseconds=o),a.playerRequest&&void 0===a.playerRequest.playbackContext?.adPlaybackContext&&(a.playerRequest.playbackContext.contentPlaybackContext.lactMilliseconds=o),n[0]=a}catch(t){}return Reflect.apply(t,e,n)}};window.JSON.stringify=new Proxy(window.JSON.stringify,t)})();
+ernax.pro#%#//scriptlet('trusted-set-local-storage-item', 'purevpn_interstitial_last', '$now$')
+movienestbd.*,movienestbd.best#%#//scriptlet('prevent-addEventListener', 'click', 'openLink')
 iqsmartgames.com#%#//scriptlet('abort-current-inline-script', 'localStorage', 'popunder')
 cineverse.com,dovechannel.com,screambox.com,midnightpulp.com#%#//scriptlet('google-ima3')
 tvnz.co.nz#%#//scriptlet('xml-prune', 'xpath(//*[name()="Period"][.//*[name()="BaseURL" and contains(text(),"https:")]])', '', '.mpd')

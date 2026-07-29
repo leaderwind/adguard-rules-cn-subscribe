@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Network
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202607291940
-! Last modified: 2026-07-29T19:40:44Z
+! Version: 202607292111
+! Last modified: 2026-07-29T21:11:18Z
 ! Layers: network
 ! Mode: standard
-! Rules: 47591
+! Rules: 47593
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -34833,6 +34833,7 @@ template/m1938pc/ads/*.js
 ||redtube.com^$subdocument,~third-party
 ||youjizz.com/KWIKY*.mp4$rewrite=abp-resource:blank-mp4,domain=youjizz.com
 @@||discord.com^$generichide
+@@||neoseeker.com^$generichide
 &&sub19=undefined&sub20=undefined
 &action=js_stats
 &ev=PageView&
@@ -36083,6 +36084,7 @@ template/m1938pc/ads/*.js
 /imp_check.php
 /imp_cnt.gif?
 /imp_img.php?
+/impb?b=
 /impr.gif?
 /impresion/zona/*
 /impress.php?

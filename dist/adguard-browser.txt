@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Browser
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202607291940
-! Last modified: 2026-07-29T19:40:44Z
+! Version: 202607292111
+! Last modified: 2026-07-29T21:11:18Z
 ! Layers: network,content,scriptlet
 ! Mode: standard
-! Rules: 116171
+! Rules: 116173
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -85425,6 +85425,7 @@ techraptor.net,tftactics.gg###nn_player
 steamidfinder.com###nn_player_wrapper
 forums.somethingawful.com###notregistered
 ekathimerini.com###nx-stick-help
+allaboutcookies.org###offer-review-widget
 allaboutcookies.org###offer-review-widget-container
 proreader.io###offerModal
 freeaddresscheck.com,freecallerlookup.com,freecarrierlookup.com,freeemailvalidator.com,freeiplookup.com,freephonevalidator.com###offers
@@ -86271,7 +86272,7 @@ ndtvgames.com##.ad-art_dsk
 buzzfeed.com##.ad-awareness
 kurocore.com##.ad-b1
 deccanherald.com##.ad-background
-britannica.com,canadiantire.ca,courthousenews.com,diabetesjournals.org,infobel.com,kuioo.com,linkedin.com,pilot007.org,radiotimes.com,soundguys.com,topperlearning.com##.ad-banner
+britannica.com,canadiantire.ca,courthousenews.com,cryptobriefing.com,diabetesjournals.org,infobel.com,kuioo.com,linkedin.com,pilot007.org,radiotimes.com,soundguys.com,topperlearning.com##.ad-banner
 radiopaedia.org##.ad-banner-desktop-row
 wikiwand.com##.ad-between-sections
 home-designing.com,inc.com,trustpilot.com##.ad-block
@@ -103087,9 +103088,9 @@ yatu.tv,yhdm7.com,yhdm95.com,xdm530.com##+js(aopw,document.oncontextmenu)
 ||redtube.com^$subdocument,~third-party
 ||youjizz.com/KWIKY*.mp4$rewrite=abp-resource:blank-mp4,domain=youjizz.com
 @@||discord.com^$generichide
+@@||neoseeker.com^$generichide
 ##.ad-unit
 ##[class^="div-gpt-ad"]
-allaboutcookies.org###offer-review-widget
 cyberchef.org###workspace-wrapper > [id][style*="height"] {height: 100% !important}
 complex.com##.\[\@media\(min-width\:520px\)\]\:px-\[20px\]
 justjared.com##.banner-spacer-top {max-height: 50px !important;}
@@ -104659,6 +104660,7 @@ otomi-games.com##.clean-grid-grid-post:has(> [id^="otomi-"] + .clean-grid-grid-p
 /imp_check.php
 /imp_cnt.gif?
 /imp_img.php?
+/impb?b=
 /impr.gif?
 /impresion/zona/*
 /impress.php?

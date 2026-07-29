@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Content
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202607291518
-! Last modified: 2026-07-29T15:18:42Z
+! Version: 202607291735
+! Last modified: 2026-07-29T17:35:05Z
 ! Layers: content
 ! Mode: standard
-! Rules: 63187
+! Rules: 63190
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -62883,9 +62883,12 @@ complex.com##.\[\@media\(min-width\:520px\)\]\:px-\[20px\]
 justjared.com##.banner-spacer-top {max-height: 50px !important;}
 temp-mail.io##.fixed.bottom-0.\[\@media\(max-width\:1350px\)\]\:hidden
 complex.com##.lg\:top-\[var\(--sticky-top\)\]
+nexusmods.com##[data-testid^="ad-"]
+dicoall.com##[href^="/ads/"]
 justjared.com##[role="banner"] {top:0 !important}
 deliveroo.*#?#a[role="button"]:has(p:has-text(Sponsored))
 deliveroo.*#?#div[class^="HomeFeedScrollTracker-"]:has(span[class^="HomeFeedUILines-"]:has-text(Sponsored))
+dicoall.com##.sidebarListMenu > button:has([class^="item_adsMark"])
 advocate.com,out.com,pride.com#?#.component.module-headline:has-text(FROM OUR SPONSORS)
 character.ai#?#.space-y-4 > .w-full:has-text(Advertisement)
 cjleo.com#?#.alt-widget-title:has-text(advertisement)

@@ -1,8 +1,8 @@
 ! Title: AdGuard Rules CN - Scriptlet
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202607291518
-! Last modified: 2026-07-29T15:18:42Z
+! Version: 202607291735
+! Last modified: 2026-07-29T17:35:05Z
 ! Layers: scriptlet
 ! Mode: standard
 ! Rules: 5468
@@ -3424,7 +3424,7 @@ travelchannel.com,animalplanet.com,hgtv.com,cookingchanneltv.com,discoveryplus.*
 travelchannel.com,animalplanet.com,hgtv.com,cookingchanneltv.com,discoveryplus.*,go.discovery.com,investigationdiscovery.com,go.tlc.com,sciencechannel.com#%#//scriptlet('xml-prune', 'xpath(//*[name()="MPD"][.//*[name()="BaseURL" and contains(text(),"dash_clear_fmp4") and contains(text(),"/a/")]]/@mediaPresentationDuration | //*[name()="Period"][./*[name()="BaseURL" and contains(text(),"dash_clear_fmp4") and contains(text(),"/a/")]])', '', '.mpd')
 play.discoveryplus.com,play.hbomax.com,play.max.com#%#//scriptlet('json-prune', 'ssaiInfo fallback.ssaiInfo')
 play.discoveryplus.com,play.hbomax.com,play.max.com#%#//scriptlet('json-prune', 'adtech-brightline adtech-google-pal adtech-iab-om')
-play.discoveryplus.com,play.hbomax.com#%#//scriptlet('xml-prune', 'xpath(//*[name()="MPD"]/@mediaPresentationDuration | //*[name()="Period"]/@start | //*[name()="Period"][not(.//*[name()="SegmentTimeline"] or .//*[name()="ContentProtection"])] | //*[name()="Period"][./*[name()="BaseURL"]][not(.//*[name()="ContentProtection"])])', '', '.mpd')
+play.discoveryplus.com#%#//scriptlet('xml-prune', 'xpath(//*[name()="MPD"]/@mediaPresentationDuration | //*[name()="Period"]/@start | //*[name()="Period"][not(.//*[name()="SegmentTimeline"] or .//*[name()="ContentProtection"])] | //*[name()="Period"][./*[name()="BaseURL"]][not(.//*[name()="ContentProtection"])])', '', '.mpd')
 onejav.com#%#//scriptlet('abort-on-stack-trace', 'Number', '_0x')
 draplay2.pro#%#//scriptlet('prevent-window-open')
 secure.goskippy.com#%#//scriptlet('remove-class', 'async-hide', 'html')

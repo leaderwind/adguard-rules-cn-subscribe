@@ -1,8 +1,8 @@
 ! Title: AdGuard Rules CN - Network
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202607292111
-! Last modified: 2026-07-29T21:11:18Z
+! Version: 202607292213
+! Last modified: 2026-07-29T22:13:01Z
 ! Layers: network
 ! Mode: standard
 ! Rules: 47593
@@ -33272,6 +33272,7 @@ $popup,third-party,domain=hentai2read.com|porn-tube-club.com
 @@||geekzone.co.nz^$generichide
 @@||history.com^$generichide
 @@||megaup.net^$generichide
+@@||neoseeker.com^$generichide
 @@||nfl.com^$generichide
 @@||sciencechannel.com^$generichide
 @@||smallseotools.com^$generichide
@@ -34833,7 +34834,6 @@ template/m1938pc/ads/*.js
 ||redtube.com^$subdocument,~third-party
 ||youjizz.com/KWIKY*.mp4$rewrite=abp-resource:blank-mp4,domain=youjizz.com
 @@||discord.com^$generichide
-@@||neoseeker.com^$generichide
 &&sub19=undefined&sub20=undefined
 &action=js_stats
 &ev=PageView&

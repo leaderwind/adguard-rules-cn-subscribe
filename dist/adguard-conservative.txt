@@ -1,8 +1,8 @@
 ! Title: AdGuard Rules CN - Conservative
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202607290008
-! Last modified: 2026-07-29T00:08:14Z
+! Version: 202607290335
+! Last modified: 2026-07-29T03:35:14Z
 ! Layers: network,content,scriptlet
 ! Mode: conservative
 ! Rules: 108230
@@ -1914,7 +1914,7 @@ $popup,third-party,domain=76fengyun.com|avsdown.com|downdv.com|downdvs.com|downh
 ||xiyouence.com^$popup,third-party
 ||yy18.info^*thanks$popup
 $image,third-party,domain=lady1.top
-$script,third-party,domain=xiaoyakankan.com|52movieba.com|audio699.com|kan-tv.com|m.supfree.net|movieffm.net|xiaoheimi.cc
+$script,third-party,domain=xunleisou.life|xiaoyakankan.com|52movieba.com|audio699.com|kan-tv.com|m.supfree.net|movieffm.net|xiaoheimi.cc
 $script,third-party,websocket,domain=52codes.net
 $third-party,websocket,xmlhttprequest,domain=qiyoudy2.com|qiyoudy4.com
 $third-party,xmlhttprequest,domain=subhd.tv|subhdtw.com|zzzzz688.com
@@ -32550,6 +32550,7 @@ _800x80_
 ||hiasor.com^$document
 ||highcpmgate.com^$document
 ||hiiona.com^$document
+||hilltopads.net^$document
 ||hnrgmc.com^$document
 ||hoktrips.com^$document
 ||hooligs.app^$document
@@ -49999,7 +50000,7 @@ hqporner.com#$##nav > ul { margin-bottom: 0 !important; }
 shorts.xxx##.adfiller
 shorts.xxx##.boxads2
 sbnation.com###content > div[class]:has(> div[data-concert="desktop_leaderboard_variable"])
-hoopsrumors.com##.div-gpt-ad-post
+mlbtraderumors.com,hoopsrumors.com##.div-gpt-ad-post
 the-sun.com##div[class$="billboard"]
 shortlist.com##div[data-ad-slot-path]
 baked.live###adbanner
@@ -85911,7 +85912,7 @@ pushsquare.com,songlyrics.com##.masthead
 eetimes.eu,korinthostv.gr,powerelectronicsnews.com##.masthead-banner
 augustman.com##.masthead-container
 csst.at##.max-h-48
-modrinth.com##.max-h-\[250px\]
+modrinth.com,nexusmods.com##.max-h-\[250px\]
 cloudwards.net##.max-medium
 buzzheavier.com##.max-w-\[60rem\] > p.mt-5.text-center.text-lg
 spin.com##.max-w-\[970px\]
@@ -88022,6 +88023,7 @@ manomano.co.uk,manomano.de,manomano.es,manomano.fr,manomano.it##[data-testid="sp
 bonappetit.com##[data-testid="sticky-hero-ad"]
 therealdeal.com##[data-testid="test-div-id-for-pushdown"]
 duckduckgo.com##[data-testid=serp-popover-promo]
+nexusmods.com##[data-testid]
 costco.com##[data-testid^="CriteoAdSet_undefined"]
 dailystar.co.uk,mirror.co.uk,themirror.com##[data-tmdatatrack-type="commercial"]
 game8.co##[data-track-nier-keyword="footer_overlay_ads"]
@@ -89441,6 +89443,7 @@ tesco.com##[class^="styled__StyledLIProductItem"]:has([class^="styled__StyledOff
 userstyles.org##[class^="styles-grid_gridItems_"] > .hideInMobile:has(> [class^="GoogleAd_"])
 argos.co.uk##[class^="styles__LazyHydrateCard"]:has([class*="ProductCardstyles__FlyoutBadge"])
 argos.co.uk##[class^="styles__LazyHydrateCard-sc"]:has([class*="SponsoredBadge"])
+thestreet.com##[class^="styles_container"]:has(.OUTBRAIN)
 outlook.live.com##[data-app-section="MessageList"] div[style^="position: absolute; left: 0px; top: 0px"]:has(.ms-Shimmer-container)
 bjs.com##[data-cnstrc-recommendations="true"]:has(.sponsored-products)
 maisonsdumonde.com##[data-el="product-card-grid"] article:has([data-el="product-card__sponsored"])
@@ -95136,7 +95139,6 @@ yatu.tv##.dplayer-web-fullscreen-fix #tburl,#loadtop,[id^=myas],#myds1,#daohang
 .php?zoneid=$script
 ://ads.$popup,domain=~ad.olx.pl|~ads.mercadolibre.com.ar|~ads.mercadolibre.com.cl|~ads.mercadolibre.com.co|~ads.mercadolibre.com.ec|~ads.mercadolibre.com.mx|~ads.mercadolibre.com.pe|~ads.mercadolibre.com.ve|~ads.mercadolivre.com.br|~ads.openai.com|~ads.pandauth.com|~ads.umd.edu|~axon.ai|~kakaku.com|~reddit.com|~smartnews.com
 ://adv.$popup,domain=~adv.kompas.id|~adv.lack-girl.com
-||hilltopads.net^$document
 ||lockerdome.com^$third-party
 ||35.227.234.222^
 ||35.232.188.118^
@@ -95162,8 +95164,6 @@ complex.com##.\[\@media\(min-width\:520px\)\]\:px-\[20px\]
 justjared.com##.banner-spacer-top {max-height: 50px !important;}
 temp-mail.io##.fixed.bottom-0.\[\@media\(max-width\:1350px\)\]\:hidden
 complex.com##.lg\:top-\[var\(--sticky-top\)\]
-modrinth.com,nexusmods.com##.max-h-\[250px\]
-nexusmods.com##[data-testid]
 justjared.com##[role="banner"] {top:0 !important}
 deliveroo.*#?#a[role="button"]:has(p:has-text(Sponsored))
 deliveroo.*#?#div[class^="HomeFeedScrollTracker-"]:has(span[class^="HomeFeedUILines-"]:has-text(Sponsored))

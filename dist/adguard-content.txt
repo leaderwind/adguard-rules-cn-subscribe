@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Content
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202607282215
-! Last modified: 2026-07-28T22:15:35Z
+! Version: 202607290008
+! Last modified: 2026-07-29T00:08:14Z
 ! Layers: content
 ! Mode: standard
-! Rules: 63175
+! Rules: 63178
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -54795,6 +54795,7 @@ thenationalherald.com##.leftside-add
 thehansindia.com##.level-after-1-2
 thefederal.com##.level_1_ad_1
 websitedown.info##.lftleft
+independent.co.uk##.lfyduH
 esports.op.gg##.lg\:bg-gray-800.lg\:rounded.lg\:p-2
 radio.net##.lg\:h-\[270px\]
 coincheckup.com##.lg\:h-\[90px\]
@@ -62871,6 +62872,8 @@ complex.com##.\[\@media\(min-width\:520px\)\]\:px-\[20px\]
 justjared.com##.banner-spacer-top {max-height: 50px !important;}
 temp-mail.io##.fixed.bottom-0.\[\@media\(max-width\:1350px\)\]\:hidden
 complex.com##.lg\:top-\[var\(--sticky-top\)\]
+modrinth.com,nexusmods.com##.max-h-\[250px\]
+nexusmods.com##[data-testid]
 justjared.com##[role="banner"] {top:0 !important}
 deliveroo.*#?#a[role="button"]:has(p:has-text(Sponsored))
 deliveroo.*#?#div[class^="HomeFeedScrollTracker-"]:has(span[class^="HomeFeedUILines-"]:has-text(Sponsored))

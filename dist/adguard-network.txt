@@ -1,8 +1,8 @@
 ! Title: AdGuard Rules CN - Network
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202607301646
-! Last modified: 2026-07-30T16:46:20Z
+! Version: 202607301842
+! Last modified: 2026-07-30T18:42:55Z
 ! Layers: network
 ! Mode: standard
 ! Rules: 47604
@@ -12567,7 +12567,6 @@ $script,redirect-rule=noopjs,domain=173.249.8.3
 ||beppegrillo.it/js/cadetect.js
 @@||aranzulla.it^*ads$domain=aranzulla.it
 /img/b/*$domain=khboxhd.com
-@@||ad-creative.pstatic.net/static/$domain=m.search.naver.com,stylesheet
 ||vesti.lv/www/imgget/imgjs.php?
 ||cdn.tiesraides.lv/app/viblast/*/videojs.vast.js
 ||cdn.tiesraides.lv/app/viblast/*/lib/vast-client.js
@@ -39488,6 +39487,7 @@ omni.soundestlink.com$image
 ||logcounter.com^$third-party
 ||logdy.com^$third-party
 ||logentries.com^$third-party
+||loggerx.com^$third-party
 ||loggly.com^$third-party
 ||logicsfort.com^$third-party
 ||loginfra.com^$third-party

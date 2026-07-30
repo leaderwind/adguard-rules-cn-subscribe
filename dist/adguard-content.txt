@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Content
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202607301202
-! Last modified: 2026-07-30T12:02:57Z
+! Version: 202607301429
+! Last modified: 2026-07-30T14:29:39Z
 ! Layers: content
 ! Mode: standard
-! Rules: 63213
+! Rules: 63216
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -18834,8 +18834,8 @@ vi-control.net,nullforums.net,landyzone.co.uk,nullcave.pro,woxmax.com,waskucity.
 hindustantimes.com##.homePageAdMinHeight
 hindustantimes.com##.h288:has(> .adHeight270)
 hindustantimes.com##.swiper-slide:has(> .sponsorAd)
-weareiowa.com,krem.com##.grid__main > div.grid__cell:has(> div.grid__module > div.grid__module-sizer_name_braze-signup)
-weareiowa.com,krem.com##.grid__content > div.grid__sticky-column:has(> div.grid__sticky-content > div.grid__module > div.grid__module-sizer_name_ad)
+9news.com,newswest9.com,weareiowa.com,krem.com##.grid__main > div.grid__cell:has(> div.grid__module > div.grid__module-sizer_name_braze-signup)
+9news.com,newswest9.com,weareiowa.com,krem.com##.grid__content > div.grid__sticky-column:has(> div.grid__sticky-content > div.grid__module > div.grid__module-sizer_name_ad)
 indiatoday.in##.questbanner
 troypoint.com#?#h3:has(> strong:only-child:contains(VPN))
 troypoint.com##h3[style*="display: none !important;"] ~ p[style]
@@ -19071,7 +19071,7 @@ techrepublic.com##sticky-footer-ad
 techrepublic.com##.ad-container
 techrepublic.com##.prose > div.has-data-empty\:hidden
 foodrepublic.com##.raptive-video-player
-weareiowa.com,krem.com,newscentermaine.com##.grid > div.grid__section_theme_below-article:has(> div.grid__content div.grid__module-sizer_name_ad)
+9news.com,newswest9.com,weareiowa.com,krem.com,newscentermaine.com##.grid > div.grid__section_theme_below-article:has(> div.grid__content div.grid__module-sizer_name_ad)
 newscentermaine.com##.grid__main > div.grid__cell:has(> div.grid__module > div.grid__module-sizer_name_ad)
 ashemaletube.com##a.q1-line
 ashemaletube.com##ul.detail-info-links > li:has(> .ads-stripchat-link)
@@ -59848,6 +59848,8 @@ hentai2w.com##.aff-col
 hentai2w.com##.aff-content-col
 porngals4.com##.affl
 cockdude.com##.after-boxes-ver2
+damplips.com##.after-single-video
+damplips.com##.after-video-content
 katestube.com,sleazyneasy.com,vikiporn.com##.after_adv
 hentaidude.xxx##.ai_widget
 hentai2read.com##.alert-danger
@@ -60357,6 +60359,7 @@ pornhub.com,pornhub.org##.realsex
 vxxx.com##.recltiecrrllt
 xnxxvideos.rest##.refr
 svscomics.com##.regi
+mypornstarbook.net##.reklama-tablet2
 nuvid.com##.rel_right
 cockdude.com##.related-boxes-footer-ver2
 bestjavporn.com,javdock.com,javhdporn.net##.related-native-banner
@@ -60583,7 +60586,7 @@ myreadingmanga.info##.widget-area[class^="after_"]
 bustyporn.com##.widget-friends
 interviews.adultdvdtalk.com##.widget_adt_performer_buy_links_widget
 hentaiprn.com,whipp3d.com##.widget_block
-freeadultcomix.com,hotcelebshome.com,jav.guru,javcrave.com,pussycatxx.com##.widget_custom_html
+damplips.com,freeadultcomix.com,hotcelebshome.com,jav.guru,javcrave.com,pussycatxx.com##.widget_custom_html
 gifsauce.com##.widget_live
 ryuugames.com##.widget_media_image a:not([href^="https://www.ryuugames.com/"])
 hentaiblue.com,pornifyme.com##.widget_text

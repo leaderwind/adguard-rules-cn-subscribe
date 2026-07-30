@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Content
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202607292314
-! Last modified: 2026-07-29T23:14:48Z
+! Version: 202607300324
+! Last modified: 2026-07-30T03:24:09Z
 ! Layers: content
 ! Mode: standard
-! Rules: 63202
+! Rules: 63204
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -52202,6 +52202,7 @@ nationalworld.com##.Dailymotion__Inner-sc-gmjr3r-1
 realityblurb.com##.Desktop-Sticky
 tweaktown.com##.DesktopRightBA
 dormtherapy.com##.DesktopStickyBanner
+koreatimes.co.kr##.Detail_ad-container__TXWnJ
 yandex.com##.DirectFeature
 games.mashable.com,games.usatoday.com,games.washingtonpost.com##.DisplayAd__container___lyvUfeBN
 additivemanufacturing.media,compositesworld.com,ptonline.com##.DisplayBar
@@ -56481,6 +56482,7 @@ sun-sentinel.com##.trb_sf_hl
 coinmarketcap.com##.trending-sponsored
 iflscience.com##.trendmd-container
 naturalblaze.com##.trfkye8nxr
+g2a.com##.trust_banner
 thumbsnap.com##.ts-blurb-wrap
 thesimsresource.com##.tsr-ad
 yidio.com##.tt
@@ -59880,6 +59882,7 @@ dominationworld.com,femdomzzz.com##.ban-tezf
 pornburst.xxx##.bann3rss
 18teensex.tv,3movs.xxx,adultdeepfakes.com,babesmachine.com,chaturbate.com,fboomporn.com,freepornpicss.com,gramateurs.com,happysex.ch,hdtube.porn,its.porn,kawaiihentai.com,milffox.com,oldies.name,paradisehill.cc,playporngames.com,playsexgames.xxx,playvids.com,porngames.com,private.com,submittedgf.com,teenextrem.com,video.laxd.com,vikiporn.com,vjav.com,watchhentaivideo.com,waybig.com,xbabe.com,xcum.com,xnudepics.com,youcanfaptothis.com,yourdailygirls.com,youx.xxx##.banner
 highporn.net##.banner-a
+hanime.tv##.banner-ad-container
 javfor.tv##.banner-c
 jav.guru##.banner-container
 thefree3dporn.com##.banner-fixed
@@ -62892,7 +62895,6 @@ yatu.tv##.dplayer-web-fullscreen-fix #tburl,#loadtop,[id^=myas],#myds1,#daohang
 ##.ad-unit
 ##[class^="div-gpt-ad"]
 cyberchef.org###workspace-wrapper > [id][style*="height"] {height: 100% !important}
-koreatimes.co.kr##.Detail_ad-container__TXWnJ
 complex.com##.\[\@media\(min-width\:520px\)\]\:px-\[20px\]
 justjared.com##.banner-spacer-top {max-height: 50px !important;}
 temp-mail.io##.fixed.bottom-0.\[\@media\(max-width\:1350px\)\]\:hidden

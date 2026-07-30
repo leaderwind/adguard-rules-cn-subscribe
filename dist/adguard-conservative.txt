@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Conservative
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202607301429
-! Last modified: 2026-07-30T14:29:39Z
+! Version: 202607301646
+! Last modified: 2026-07-30T16:46:20Z
 ! Layers: network,content,scriptlet
 ! Mode: conservative
-! Rules: 108288
+! Rules: 108293
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -21305,6 +21305,7 @@ $script,redirect-rule=noopjs,domain=173.249.8.3
 ||beppegrillo.it/js/cadetect.js
 @@||aranzulla.it^*ads$domain=aranzulla.it
 /img/b/*$domain=khboxhd.com
+@@||ad-creative.pstatic.net/static/$domain=m.search.naver.com,stylesheet
 ||vesti.lv/www/imgget/imgjs.php?
 ||cdn.tiesraides.lv/app/viblast/*/videojs.vast.js
 ||cdn.tiesraides.lv/app/viblast/*/lib/vast-client.js
@@ -49876,6 +49877,10 @@ animecorner.me,zarabiajprzez24.pl,watchhentai.xxx,app-how-to-use-it.com,linuxcap
 pawastreams.*,nflbite.to,footybite.to,sportschamp.fun,afly.pro,topsporter.net,soccerstreams.football,mysocceraustralia.com,rayinfosports.com,hesgoals.top,sequencecard.xyz,totalsportek.soccer,metaporky.site,nbabite.to,cyfostreams.com,gamerarcades.com,bestreamsports.org,footy.to,mcrypto.club,greaterkashmir.com###id-custom_banner
 pawastreams.*,groundedtechs.com,rayinfosports.com,sequencecard.xyz,matchtime.co,sportspellz.com,bestreamsports.org,silverspoon.site###dismiss-btn
 vi-control.net,nullforums.net,landyzone.co.uk,nullcave.pro,woxmax.com,waskucity.com,babia.to,technofino.in,reef2reef.com,minebbs.com,craxpro.io,affiliatefix.com,myiptvforum.com,hifivision.com,worldofiptv.com,altenen.is,beermoneyforum.com,germancarforum.com,cracking.org##.samBannerUnit
+sportplus.watch,sportplus.tv##.page__aside-banner
+sportplus.watch,sportplus.tv##main.page__main [ng-version]:not(div, section, [class]):has(a[href^="go/"])
+sportplus.watch,sportplus.tv##a[href^="go/"]
+aylink.co##.media-panel
 hindustantimes.com##.homePageAdMinHeight
 hindustantimes.com##.h288:has(> .adHeight270)
 hindustantimes.com##.swiper-slide:has(> .sponsorAd)
@@ -57744,7 +57749,7 @@ dnsleak.com##.outer__benefits
 dnsleak.com##.why__block
 dnsleak.com##.try__pia
 techgeekbuzz.com###custom_html-21
-techgeekbuzz.com###block-7
+animationxpress.com,techgeekbuzz.com###block-7
 hentaihorizon.com,contactform7.com,techgeekbuzz.com###block-5
 photopea.com##.app > div[style^="padding: 10px"][style*="overflow: hidden; z-index:"]:has(> a + img)
 photopea.com##div[style^="padding-top: 10px; overflow: hidden; padding-left:"] > img
@@ -58994,7 +58999,7 @@ goodreturns.in###couponPromoWdg
 ndtv.com##.__footer_ads > div[style*="height:auto"][style*="text-align:center"]
 hindustantimes.com,livemint.com##div[class^="adMinHeight"]
 livemint.com##div[class^="outbrainAd"]
-beautyvsfashion.com##div[class^="adunit-"]
+animationxpress.com,beautyvsfashion.com##div[class^="adunit-"]
 techrrival.com##a[href^="http://stvkr.com/"]
 qz.com###marquee-ad
 encyclopedia.com,qz.com##.article-content-ad
@@ -67208,7 +67213,7 @@ theanalyst.com#@#iframe[width="100%"][height="120"]:not([src*="bandcamp.com"], [
 collider.com#@#.ad-current
 collider.com#@#.adsninja-ad-zone
 collider.com#@#.ad-zone-container
-learngerman.dw.com,jamf.com#@#div.rendered[id][class*=" "]:not([id*="captcha"])
+nordicsemi.com,learngerman.dw.com,jamf.com#@#div.rendered[id][class*=" "]:not([id*="captcha"]):not(.cell-container)
 gemini.google.com#@#div[data-id="mosaic"] > div > div > div[class]:has(> div:not([data-attrid]) > div[style="height:100%"] a[href^="/aclk?sa="])
 howtogeek.com#@#.w-adsninja-video-player
 cheapassgamer.com#@#.top.ad

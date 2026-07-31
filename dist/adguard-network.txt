@@ -1,8 +1,8 @@
 ! Title: AdGuard Rules CN - Network
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202607310809
-! Last modified: 2026-07-31T08:09:27Z
+! Version: 202607311050
+! Last modified: 2026-07-31T10:50:49Z
 ! Layers: network
 ! Mode: standard
 ! Rules: 47606
@@ -8336,6 +8336,8 @@ $cookie=__adblocker,domain=slate.com|thehindubusinessline.com
 ||claimfey.com/cryptonews/wp-content/uploads/bqanwcfp.js
 @@||static.trafficjunky.com/ab/ads_test.js$domain=bztube.com|hotovs.com|insuredhome.org|nudegista.com|pornluck.com|vidd.se|redtube.*|youpornru.com|tube8.com|tube8.es|tube8.fr|tube8.net|pornhub.com|pornhub.org|pornhub.net
 @@://www.exoclick.com/ads.js|
+@@||api.poki.com/ads/houseads/video/$domain=vectaria.io
+@@||v.poki-cdn.com^$domain=vectaria.io
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=stirr.com
 ||urlshortpro.com/wp-content/plugins/adblock-detector/
 /wp-content/plugins/adblock-detector/adblock-detector.js
@@ -15191,7 +15193,6 @@ $script,third-party,denyallow=cloudflare.net|jquery.com|jsdelivr.net|lulucdn.com
 /nt.js$domain=fc-lc.xyz|tmail.io|oii.io|gamezizo.com
 ||symbaloo.com/static/banners/*/fsHomepage.js
 /assets/jquery/app0.js?type=mainstream&v=$domain=swhoi.com
-/\/z-[a-z0-9]{7,10}(\.js)?$/$script,domain=nepu.to
 ||nzbstars.com/deatowllpik.php
 /mega4upload.com\/\w-\d+$/$domain=mega4upload.com
 ||modsfire.com/js/alt/gjd3a12.js
@@ -20554,7 +20555,7 @@ $csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: www.googletagma
 @@||mostplayer.com^$subdocument,stealth=referrer
 @@||fc2stream.tv/e/$stealth=referrer
 @@||id.gov.ua/?response_type=$stealth=referrer
-@@||vox-xov-cdn-*.$xmlhttprequest,stealth=referrer,domain=nepu.to
+@@||vox-xov-cdn-*.$xmlhttprequest,stealth=referrer,domain=nepu.*
 @@||jav.sb^$stealth=flash
 @@||maxstream.org^$subdocument,stealth=referrer,third-party
 @@||turbovid.vip^$subdocument,stealth=referrer
@@ -37463,7 +37464,6 @@ template/m1938pc/ads/*.js
 /uds/stats?
 /uecomscore_cmp_event_mundo.js
 /uem-ep.js
-/ui-core-analytics-bundle.js
 /uisprime/track
 /umami.js
 /umg-analytics.min.js

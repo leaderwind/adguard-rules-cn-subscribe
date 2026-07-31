@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Conservative
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202607310014
-! Last modified: 2026-07-31T00:14:53Z
+! Version: 202607310436
+! Last modified: 2026-07-31T04:36:21Z
 ! Layers: network,content,scriptlet
 ! Mode: conservative
-! Rules: 108298
+! Rules: 108300
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -49876,6 +49876,8 @@ animecorner.me,zarabiajprzez24.pl,watchhentai.xxx,app-how-to-use-it.com,linuxcap
 pawastreams.*,nflbite.to,footybite.to,sportschamp.fun,afly.pro,topsporter.net,soccerstreams.football,mysocceraustralia.com,rayinfosports.com,hesgoals.top,sequencecard.xyz,totalsportek.soccer,metaporky.site,nbabite.to,cyfostreams.com,gamerarcades.com,bestreamsports.org,footy.to,mcrypto.club,greaterkashmir.com###id-custom_banner
 pawastreams.*,groundedtechs.com,rayinfosports.com,sequencecard.xyz,matchtime.co,sportspellz.com,bestreamsports.org,silverspoon.site###dismiss-btn
 vi-control.net,nullforums.net,landyzone.co.uk,nullcave.pro,woxmax.com,waskucity.com,babia.to,technofino.in,reef2reef.com,minebbs.com,craxpro.io,affiliatefix.com,myiptvforum.com,hifivision.com,worldofiptv.com,altenen.is,beermoneyforum.com,germancarforum.com,cracking.org##.samBannerUnit
+cincinnati.com##.page-main-content-container > .secondary
+cincinnati.com#$#.page-main-content-container > .primary { width: 100% !important; max-width: 100% !important; }
 autoweek.com,bestproducts.com,bicycling.com,caranddriver.com,sex.cosmopolitan.com,countryliving.com,oprahdaily.com,popularmechanics.com,roadandtrack.com,runnersworld.com###main-content > div[class^="css-"]:has(div#gpt-leaderboard-ad)
 cosmopolitan.com,delish.com,goodhousekeeping.com,elle.com,esquire.com,harpersbazaar.com,housebeautiful.com,menshealth.com,prevention.com,redbookmag.com,seventeen.com,townandcountrymag.com,womansday.com,womenshealthmag.com###__next > div[class^="css-"]:has(div#gpt-leaderboard-ad)
 downloaderto.com##.affiliate-offers
@@ -82708,6 +82710,7 @@ walgreens.com###prod-sponsored
 programmerhumor.io###product-widget
 bluejaysnation.com,canucksarmy.com,dailyfaceoff.com,flamesnation.ca,oilersnation.com,theleafsnation.com###promo-container
 sslshopper.com###promo-outer
+investing.com###promo-strip
 dailymail.co.uk###promo-unit
 porkbun.com###protonPromote
 proxyium.com###proxyscrape_ad
@@ -95212,7 +95215,6 @@ yatu.tv##.dplayer-web-fullscreen-fix #tburl,#loadtop,[id^=myas],#myds1,#daohang
 @@||discord.com^$generichide
 ##.ad-unit
 ##[class^="div-gpt-ad"]
-investing.com###promo-strip
 cyberchef.org###workspace-wrapper > [id][style*="height"] {height: 100% !important}
 complex.com##.\[\@media\(min-width\:520px\)\]\:px-\[20px\]
 justjared.com##.banner-spacer-top {max-height: 50px !important;}

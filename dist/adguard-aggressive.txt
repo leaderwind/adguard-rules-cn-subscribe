@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Aggressive
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202607302217
-! Last modified: 2026-07-30T22:17:44Z
+! Version: 202607310014
+! Last modified: 2026-07-31T00:14:53Z
 ! Layers: network,content,scriptlet
 ! Mode: aggressive
-! Rules: 116305
+! Rules: 116306
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -103218,6 +103218,7 @@ yatu.tv,yhdm7.com,yhdm95.com,xdm530.com##+js(aopw,document.oncontextmenu)
 @@||discord.com^$generichide
 ##.ad-unit
 ##[class^="div-gpt-ad"]
+investing.com###promo-strip
 cyberchef.org###workspace-wrapper > [id][style*="height"] {height: 100% !important}
 complex.com##.\[\@media\(min-width\:520px\)\]\:px-\[20px\]
 justjared.com##.banner-spacer-top {max-height: 50px !important;}

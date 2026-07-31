@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Content
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202607302217
-! Last modified: 2026-07-30T22:17:44Z
+! Version: 202607310014
+! Last modified: 2026-07-31T00:14:53Z
 ! Layers: content
 ! Mode: standard
-! Rules: 63224
+! Rules: 63225
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -62914,6 +62914,7 @@ dandanzan.*,nnyy.in,nunuyy5.com##video:style(max-height:100%!important)
 yatu.tv##.dplayer-web-fullscreen-fix #tburl,#loadtop,[id^=myas],#myds1,#daohang
 ##.ad-unit
 ##[class^="div-gpt-ad"]
+investing.com###promo-strip
 cyberchef.org###workspace-wrapper > [id][style*="height"] {height: 100% !important}
 complex.com##.\[\@media\(min-width\:520px\)\]\:px-\[20px\]
 justjared.com##.banner-spacer-top {max-height: 50px !important;}

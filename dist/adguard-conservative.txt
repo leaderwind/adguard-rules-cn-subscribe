@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Conservative
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202607310436
-! Last modified: 2026-07-31T04:36:21Z
+! Version: 202607310809
+! Last modified: 2026-07-31T08:09:27Z
 ! Layers: network,content,scriptlet
 ! Mode: conservative
-! Rules: 108300
+! Rules: 108309
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -21305,6 +21305,7 @@ $script,redirect-rule=noopjs,domain=173.249.8.3
 ||beppegrillo.it/js/cadetect.js
 @@||aranzulla.it^*ads$domain=aranzulla.it
 /img/b/*$domain=khboxhd.com
+||coucounews.com/coupas/
 ||vesti.lv/www/imgget/imgjs.php?
 ||cdn.tiesraides.lv/app/viblast/*/videojs.vast.js
 ||cdn.tiesraides.lv/app/viblast/*/lib/vast-client.js
@@ -22944,6 +22945,7 @@ $subdocument,third-party,denyallow=disqus.com,domain=love4u.net
 $third-party,script,domain=klto9.com|f2movies.to|hacamchicac.com|yourporngod.com|zinchanmanga.com|yaoimangaonline.com|tututweak.app|mangaraw.ac|eromanga-show.com|hentai-one.com|hentaipaw.com|nukibooks.com|paipancon.com|jgvdata.com|youtubevanced.com|pandamtl.com|mangaplus.shueisha.tv|shueisharaw.tv
 ||linksconsole.com/ad-system/
 ||misc-api.feathermc.com/*/ads/ad_units?
+||bossip.com/wp-content/plugins/ione-modules/*/universal-ads/
 ||crmkt.livejasmin.com/s/pu/insljvime?$all
 ||movienestbd.*/min.js
 ||boyfriendtv.com/bftv/bb/$subdocument
@@ -45017,6 +45019,11 @@ tech-cambodia.com###body_ads_0_0_3
 tech-cambodia.com###popup
 khboxhd.com##div[id$="-ad"]
 dap-news.com##.ads
+coucounews.com##div[class$="continue_coupang"] div.mb-4.text-center:has(> img.inline-block[loading="lazy"][alt^="_"][src^="https://cdn.zigcou.com/"])
+coucounews.com##div[class$="continue_coupang"] div.mb-4.text-center:has(> img.inline-block[loading="lazy"][alt^="_"][src^="https://cdn.zigcou.com/"]) + div.cursor-pointer
+coucounews.com##main > div.px-2 > div:not([class]):not([style]) > div.text-left > div.grid > div:has(a[href^="https://blog.naver.com/byolla/"])
+coucounews.com##.post-contents > div.text-left > p > div[style="display: flex; justify-content: center; overflow: hidden;"]
+coucounews.com##.aceplanet-coupang-banner
 tvchak.live##.banner-box
 tvroom4.org##[class*="banner"]
 spoki.lv##.params > div.cnt_btn
@@ -49876,9 +49883,11 @@ animecorner.me,zarabiajprzez24.pl,watchhentai.xxx,app-how-to-use-it.com,linuxcap
 pawastreams.*,nflbite.to,footybite.to,sportschamp.fun,afly.pro,topsporter.net,soccerstreams.football,mysocceraustralia.com,rayinfosports.com,hesgoals.top,sequencecard.xyz,totalsportek.soccer,metaporky.site,nbabite.to,cyfostreams.com,gamerarcades.com,bestreamsports.org,footy.to,mcrypto.club,greaterkashmir.com###id-custom_banner
 pawastreams.*,groundedtechs.com,rayinfosports.com,sequencecard.xyz,matchtime.co,sportspellz.com,bestreamsports.org,silverspoon.site###dismiss-btn
 vi-control.net,nullforums.net,landyzone.co.uk,nullcave.pro,woxmax.com,waskucity.com,babia.to,technofino.in,reef2reef.com,minebbs.com,craxpro.io,affiliatefix.com,myiptvforum.com,hifivision.com,worldofiptv.com,altenen.is,beermoneyforum.com,germancarforum.com,cracking.org##.samBannerUnit
+bossip.com##.ione-incontent-sticky-ad-wrapper
+ozbargain.com.au###sticky
 cincinnati.com##.page-main-content-container > .secondary
 cincinnati.com#$#.page-main-content-container > .primary { width: 100% !important; max-width: 100% !important; }
-autoweek.com,bestproducts.com,bicycling.com,caranddriver.com,sex.cosmopolitan.com,countryliving.com,oprahdaily.com,popularmechanics.com,roadandtrack.com,runnersworld.com###main-content > div[class^="css-"]:has(div#gpt-leaderboard-ad)
+townandcountrymag.com,menshealth.com,harpersbazaar.com,elle.com,delish.com,womenshealthmag.com,womansday.com,cosmopolitan.com,esquire.com,goodhousekeeping.com,housebeautiful.com,prevention.com,redbookmag.com,seventeen.com,autoweek.com,bestproducts.com,bicycling.com,caranddriver.com,sex.cosmopolitan.com,countryliving.com,oprahdaily.com,popularmechanics.com,roadandtrack.com,runnersworld.com###main-content > div[class^="css-"]:has(div#gpt-leaderboard-ad)
 cosmopolitan.com,delish.com,goodhousekeeping.com,elle.com,esquire.com,harpersbazaar.com,housebeautiful.com,menshealth.com,prevention.com,redbookmag.com,seventeen.com,townandcountrymag.com,womansday.com,womenshealthmag.com###__next > div[class^="css-"]:has(div#gpt-leaderboard-ad)
 downloaderto.com##.affiliate-offers
 sportplus.watch,sportplus.tv##.page__aside-banner
@@ -64099,7 +64108,7 @@ yahoo.com###yucs-top-ff-promo
 festyy.com##.a-el
 aarp.org##.aarpe-ad
 imdb.com##.ab_zergnet
-cryptobriefing.com,huskers.com,rule34-videos.com,gifyu.com,topperlearning.com,aap.org,bbcgoodfood.com,gardenersworld.com,historyextra.com,ndtv.com##.ad-banner
+latestly.com,cryptobriefing.com,huskers.com,rule34-videos.com,gifyu.com,topperlearning.com,aap.org,bbcgoodfood.com,gardenersworld.com,historyextra.com,ndtv.com##.ad-banner
 theatlantic.com##.ad-boxinjector-wrapper
 theatlantic.com##.ad-boxright-wrapper
 tampermonkey.net##.ad-changelog-block

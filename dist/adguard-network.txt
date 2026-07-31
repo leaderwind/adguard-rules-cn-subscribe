@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Network
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202607310436
-! Last modified: 2026-07-31T04:36:21Z
+! Version: 202607310809
+! Last modified: 2026-07-31T08:09:27Z
 ! Layers: network
 ! Mode: standard
-! Rules: 47604
+! Rules: 47606
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -12567,6 +12567,7 @@ $script,redirect-rule=noopjs,domain=173.249.8.3
 ||beppegrillo.it/js/cadetect.js
 @@||aranzulla.it^*ads$domain=aranzulla.it
 /img/b/*$domain=khboxhd.com
+||coucounews.com/coupas/
 ||vesti.lv/www/imgget/imgjs.php?
 ||cdn.tiesraides.lv/app/viblast/*/videojs.vast.js
 ||cdn.tiesraides.lv/app/viblast/*/lib/vast-client.js
@@ -14404,6 +14405,7 @@ $subdocument,third-party,denyallow=disqus.com,domain=love4u.net
 $third-party,script,domain=klto9.com|f2movies.to|hacamchicac.com|yourporngod.com|zinchanmanga.com|yaoimangaonline.com|tututweak.app|mangaraw.ac|eromanga-show.com|hentai-one.com|hentaipaw.com|nukibooks.com|paipancon.com|jgvdata.com|youtubevanced.com|pandamtl.com|mangaplus.shueisha.tv|shueisharaw.tv
 ||linksconsole.com/ad-system/
 ||misc-api.feathermc.com/*/ads/ad_units?
+||bossip.com/wp-content/plugins/ione-modules/*/universal-ads/
 ||crmkt.livejasmin.com/s/pu/insljvime?$all
 ||movienestbd.*/min.js
 ||boyfriendtv.com/bftv/bb/$subdocument

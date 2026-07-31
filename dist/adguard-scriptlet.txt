@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Scriptlet
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202607311528
-! Last modified: 2026-07-31T15:28:45Z
+! Version: 202607311750
+! Last modified: 2026-07-31T17:50:53Z
 ! Layers: scriptlet
 ! Mode: standard
-! Rules: 5479
+! Rules: 5480
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -2470,6 +2470,7 @@ expres.cz#%#//scriptlet('remove-node-text', 'script', '"branding"')
 expres.cz#@%#//scriptlet('ubo-aeld.js', 'beforeunload', '()')
 idnes.cz#%#(()=>{const e={apply:(e,r,t)=>{try{const e=r[0];e?.adTree&&(r.shift(),t=[])}catch(e){console.trace(e)}return Reflect.apply(e,r,t)}};window.Array.prototype.splice=new Proxy(window.Array.prototype.splice,e)})();
 idnes.cz#%#//scriptlet('trusted-create-element', 'head', 'script', '', '(()=>{const e={apply:(e,r,t)=>{try{const e=r[0];e?.adTree&&(r.shift(),t=[])}catch(e){console.trace(e)}return Reflect.apply(e,r,t)}};window.Array.prototype.splice=new Proxy(window.Array.prototype.splice,e)})();')
+idnes.cz#%#//scriptlet('evaldata-prune', 'evilad05', '', 'uni.js')
 idnes.cz#%#//scriptlet('remove-node-text', 'script', 'visibilityPing')
 idnes.cz#%#//scriptlet("abort-on-property-read", "Object.prototype.BrandingLayer")
 antiyoutuber.cz,expres.cz,idnes.cz#%#//scriptlet('prevent-setTimeout', 'checkCookie(++')

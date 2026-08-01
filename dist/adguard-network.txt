@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Network
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202608010639
-! Last modified: 2026-08-01T06:39:51Z
+! Version: 202608010918
+! Last modified: 2026-08-01T09:18:27Z
 ! Layers: network
 ! Mode: standard
-! Rules: 47615
+! Rules: 47618
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -27755,6 +27755,7 @@ _800x80_
 ||aitsatho.com^$popup
 ||aj1070.online^$popup
 ||ajrkmx1.com^$popup
+||ajrkmx9.com^$popup
 ||ajump1.com^$popup
 ||ajump2.com^$popup
 ||ajxx98.online^$popup
@@ -29904,6 +29905,7 @@ _800x80_
 ||vizoalygrenn.com^$popup
 ||vkcdnservice.com^$popup
 ||vkgtrack.com^$popup
+||vlmjm1.com^$popup
 ||vodobyve.pro^$popup
 ||vokut.com^$popup
 ||volform.online^$popup
@@ -34833,9 +34835,7 @@ template/m1938pc/ads/*.js
 ||lockerdome.com^$third-party
 ||35.227.234.222^
 ||35.232.188.118^
-||ajrkmx9.com^$popup
 ||betvictor.com*&utm_campaign=$popup
-||vlmjm1.com^$popup
 ||wizslots.com*&utm_campaign=$popup
 ||130.211.$popup,third-party,domain=~in-addr.arpa
 ||216.21.13.$popup,domain=~in-addr.arpa
@@ -44458,6 +44458,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||change.org/api-proxy/-/et
 ||change.org/api-proxy/-/event_tracker
 ||channel.io/front/v*/channels/*/events
+||chartkidmatt.com/nectar_analytics
+||chartkidmatt.com/page_view
 ||chase.com/apps/services/clientBeacon.html
 ||chat.groq.com/global_stats
 ||chatfuel.com/cf-analytics/
@@ -44466,6 +44468,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||chickadvisor.com/js/detect.min.js
 ||choosefi.com/api/site/track
 ||choosefi.com/block-event
+||choosefi.com/conversion-event
 ||cidrap.umn.edu/core/modules/statistics
 ||cisco.com/c/dam/cdc/j/at.js
 ||civitai.com/api/page-view

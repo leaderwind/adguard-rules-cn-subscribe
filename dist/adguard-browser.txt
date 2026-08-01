@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Browser
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202608010639
-! Last modified: 2026-08-01T06:39:51Z
+! Version: 202608010918
+! Last modified: 2026-08-01T09:18:27Z
 ! Layers: network,content,scriptlet
 ! Mode: standard
-! Rules: 116251
+! Rules: 116256
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -36974,6 +36974,7 @@ _800x80_
 ||aitsatho.com^$popup
 ||aj1070.online^$popup
 ||ajrkmx1.com^$popup
+||ajrkmx9.com^$popup
 ||ajump1.com^$popup
 ||ajump2.com^$popup
 ||ajxx98.online^$popup
@@ -39123,6 +39124,7 @@ _800x80_
 ||vizoalygrenn.com^$popup
 ||vkcdnservice.com^$popup
 ||vkgtrack.com^$popup
+||vlmjm1.com^$popup
 ||vodobyve.pro^$popup
 ||vokut.com^$popup
 ||volform.online^$popup
@@ -87778,6 +87780,7 @@ thepiratebay3.to##.download_buutoon
 the-sun.com##.dpa-grid
 thesun.co.uk##.dpa-slot
 immoweb.be##.dpg
+chartkidmatt.com##.dream-post-content-htmlSnippet
 radiopaedia.org##.drive-banner
 dropr.co##.dropr-ad-wrap
 cryptonews.com##.dslot
@@ -89067,7 +89070,7 @@ worldcrunch.com##.newspack-placeholder
 washingtoninformer.com##.newspack_global_ad
 firstpost.com##.newtopadd
 moddb.com##.nextmediaboxtop
-novelfire.net##.nf-ads
+novelfire.net,novelphoenix.com##.nf-ads
 nhl.com##.nhl-c-editorial-list__mrec
 nhl.com##.nhl-l-section-bg__adv
 nhl.com##.nhl-o-adv
@@ -90766,6 +90769,7 @@ costco.com##[data-bi-placement="Criteo_Home_Espot"]
 costco.ca##[data-bi-placement="Criteo_Product_Display_Page_Espot"]
 privacywall.org##[data-bingads-suffix]
 chron.com,seattlepi.com,sfchronicle.com,timesunion.com##[data-block-type="ad"]
+choosefi.com##[data-block-type="credit-card-top-offers"]
 chewy.com##[data-carousel-id="plp_sponsored_brand"]
 theblaze.com##[data-category="SPONSORED"]
 autotrader.com##[data-cmp="alphaShowcase"]
@@ -103144,9 +103148,7 @@ yatu.tv,yhdm7.com,yhdm95.com,xdm530.com##+js(aopw,document.oncontextmenu)
 ||lockerdome.com^$third-party
 ||35.227.234.222^
 ||35.232.188.118^
-||ajrkmx9.com^$popup
 ||betvictor.com*&utm_campaign=$popup
-||vlmjm1.com^$popup
 ||wizslots.com*&utm_campaign=$popup
 ||130.211.$popup,third-party,domain=~in-addr.arpa
 ||216.21.13.$popup,domain=~in-addr.arpa
@@ -113092,6 +113094,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||change.org/api-proxy/-/et
 ||change.org/api-proxy/-/event_tracker
 ||channel.io/front/v*/channels/*/events
+||chartkidmatt.com/nectar_analytics
+||chartkidmatt.com/page_view
 ||chase.com/apps/services/clientBeacon.html
 ||chat.groq.com/global_stats
 ||chatfuel.com/cf-analytics/
@@ -113100,6 +113104,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||chickadvisor.com/js/detect.min.js
 ||choosefi.com/api/site/track
 ||choosefi.com/block-event
+||choosefi.com/conversion-event
 ||cidrap.umn.edu/core/modules/statistics
 ||cisco.com/c/dam/cdc/j/at.js
 ||civitai.com/api/page-view

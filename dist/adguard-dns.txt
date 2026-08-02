@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - DNS
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202608012310
-! Last modified: 2026-08-01T23:10:03Z
+! Version: 202608020010
+! Last modified: 2026-08-02T00:10:54Z
 ! Layers: dns
 ! Mode: standard
-! Rules: 234860
+! Rules: 234871
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -184700,6 +184700,10 @@
 ||zzy1.quyaoya.com^
 ||zzycj.com^
 ||zzz.onion.pet^
+||3927fqw3xd.com^
+||q643s5wiiz.com^
+||ftrgpdecexhzto.com^
+||shampoo54.top^
 ||piguiqproxy.com^$badfilter
 /^https:\/\/[0-9a-z]+\.xyz\/rinku\/land/$document,~third-party,match-case,replace=/const proxyStatus = "Y";/const proxyStatus = "N";/
 /js/sextb.js$domain=sextb.date|sextb.net,replace=/if\(checkads\(\)==false\)/if(!0)/
@@ -184727,6 +184731,10 @@
 ||freeadultcomix.com^$badfilter
 ||imgshare.info^$badfilter
 @@||connectivitycheck.gstatic.com^$important
+||bscheestmnocq.online^
+||zbbuttbhoybvc.space^
+||zioynaervpnht.space^
+||scientificfor.com^
 /(https?:\/\/)104\.154\..{100,}/
 /(https?:\/\/)104\.197\..{100,}/
 /(https?:\/\/)104\.198\..{100,}/
@@ -197601,7 +197609,6 @@
 ||schochedueful.com^
 ||schuhegunstignice.de^
 ||science.news^
-||scientificfor.com^
 ||scissorsexplainedale.com^
 ||sckexing.cn^
 ||scopateitaliane.it^
@@ -201831,8 +201838,11 @@
 ||zysuvysaj.pro^
 ||zzux.com^
 ||sobot.com^
-||zbbuttbhoybvc.space^
-||zioynaervpnht.space^
+||aggravatingchicken.pro^
+||itdqaeglexkue.website^
+||jznijkqkvhlig.website^
+||kryyqduvqqdnm.website^
+||pearlinproxysmmewl.qpon^
 ||mobile.pipe.aria.microsoft.com^
 ||cu-cn-north00001.gala.convection.cn^
 ||cu-cn-north00002.gala.convection.cn^
@@ -234556,6 +234566,7 @@
 ||zippingcare.com^
 ||zmedia.com^
 ||2006mindfreaklike.blogspot.com^
+||33.merivonview33.cc^
 ||girlownedbypolicelike.blogspot.com^
 ||akpafzad.in^
 ||antique-dad.pro^

@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Content
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202608021133
-! Last modified: 2026-08-02T11:33:33Z
+! Version: 202608021351
+! Last modified: 2026-08-02T13:51:21Z
 ! Layers: content
 ! Mode: standard
-! Rules: 63249
+! Rules: 63255
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -13239,6 +13239,7 @@ dm5.com##.cp_adct
 movie76.com,wardhanime.net##div[id^="teaser"]
 downloadfilem.com$$div[class="box"]:contains(<h2>Iklan</h2>)
 movie76.com##img[alt="ads"]
+corriere.it##.sponsor-strip
 gazzetta.it###rcsad_Bacheca1
 fanpage.it##.adv-wrapper
 cdt.ch##div.wnh__banner
@@ -35598,7 +35599,7 @@ me##td[background^="//cdn.livetv"] > table[width="100%"] > tbody > tr > td[valig
 me##iframe[src^="//ads.livetv"]
 me##body > #ads[style^="position: absolute; z-index:"]
 me##body[bgcolor="#000000"] > div[id="adbtm"][style^="position: fixed;"]
-xhamster46.desi##.xplayer > div.xh-helper-hidden + div[class*="-hover-menu"]
+xhamster.com,xhamster46.desi##.xplayer > div.xh-helper-hidden + div[class*="-hover-menu"]
 xhamster46.desi##.thumb-list__item:has(> div[class*="skeleton-"])
 xhamster46.desi,tr.myxh.today,tr.usbxh.life,xhamster44.desi,aawweb.beauty,colourxh.site,xhamster43.desi,fullxh.com,interxh.site,xhspot.com,xhwide5.com,xhchannel.com,xhtotal.com,xhtree.com,xhwide2.com,xhlease.world,xhamsterporno.mx,valuexh.life,xhdate.world,xhbranch5.com,galleryxh.site,xhbig.com,xhaccess.com,xhofficial.com,seexh.com,xhamster42.desi,xhvid.com,xhamster20.desi,xhamster19.desi,xhwebsite2.com,xhamster18.desi,xhadult3.com,xhadult2.com,xhmoon5.com,xhwide1.com,xhamster3.com,xhplanet2.com,megaxh.com,xhamster16.*,xhamster.com,xhamster2.com,xhamster7.com,xhamster8.com,xhamster9.com,xhamster10.com,xhamster12.com,xhamster13.*,xhamster14.com,xhamster15.com,xhamster17.*,xhamster18.*,xhamster19.com,xhamster1.desi,xhamster2.desi,xhamster3.*,xhamster4.desi,xhamster22.com,xhamster27.com,openxh.com,xhamster5.desi,xhopen.com,openxh1.com,xhamster40.com,xhamster.one,xhamster.desi,stripchat.com##div[class*="premium-n-overlay"]
 xhamster46.desi,tr.myxh.today,tr.usbxh.life,xhamster44.desi,aawweb.beauty,colourxh.site,xhamster43.desi,fullxh.com,interxh.site,xhspot.com,xhwide5.com,xhchannel.com,xhtotal.com,xhtree.com,xhwide2.com,xhlease.world,xhamsterporno.mx,valuexh.life,xhdate.world,xhbranch5.com,galleryxh.site,xhbig.com,xhaccess.com,xhofficial.com,seexh.com,xhamster42.desi,xhvid.com,xhamster20.desi,xhamster19.desi,xhwebsite2.com,xhamster18.desi,xhadult3.com,xhadult2.com,xhmoon5.com,xhwide1.com,xhamster3.com,xhplanet2.com,megaxh.com,xhamster16.*,xhamster.com,xhamster2.com,xhamster7.com,xhamster8.com,xhamster9.com,xhamster10.com,xhamster12.com,xhamster13.*,xhamster14.com,xhamster15.com,xhamster17.*,xhamster18.*,xhamster19.com,xhamster1.desi,xhamster2.desi,xhamster3.*,xhamster4.desi,xhamster22.com,xhamster27.com,openxh.com,xhamster5.desi,xhopen.com,openxh1.com,xhamster40.com,xhamster.one,xhamster.desi,stripchat.com##.top-menu div[data-item] > a[target="_blank"]
@@ -58498,6 +58499,8 @@ argos.co.uk##[class^="styles__LazyHydrateCard-sc"]:has([class*="SponsoredBadge"]
 thestreet.com##[class^="styles_container"]:has(.OUTBRAIN)
 outlook.live.com##[data-app-section="MessageList"] div[style^="position: absolute; left: 0px; top: 0px"]:has(.ms-Shimmer-container)
 bjs.com##[data-cnstrc-recommendations="true"]:has(.sponsored-products)
+stockx.com##[data-component="brand-tile"]:has([data-testid="sponsored-tag"])
+stockx.com##[data-component="product-tile"]:has([data-testid="sponsored-tag"])
 maisonsdumonde.com##[data-el="product-card-grid"] article:has([data-el="product-card__sponsored"])
 pixiv.net##[data-gtm-recommend-zone="index"] li:has(> div > iframe[name$="rectangle"])
 avxhm.se##[data-localize]:has(a[href^="https://canv.ai/"])
@@ -58511,6 +58514,7 @@ noon.com##[data-qa="plp-grid"] [data-qa="plp-product-box"]:has(svg[width="20"] >
 noon.com##[data-qa="plp-product-box"]:has([class^="SponsoredTag"])
 noon.com##[data-qa="widget_recommendedProducts"]:has(svg[width="20"] > path[d])
 wolt.com##[data-test-id="MainDiscoveryContent"] li[draggable]:has(a[aria-label*="Sponsored"])
+stockx.com##[data-testid="banner-collage"] .chakra-aspect-ratio:has(a[title*="Promo"])
 pexels.com##[data-testid="column"] [data-testid="item"]:has([class*="AIGCAdShared"])
 pexels.com##[data-testid="column"] [data-testid="item"]:has([data-heading*="Sponsored"])
 pexels.com##[data-testid="column"] [data-testid="item"]:has([data-text="Sponsored Photos"])
@@ -59353,6 +59357,7 @@ boots.com#?#.oct-listers-hits__item:contains(Sponsored)
 businessday.co.za,sowetan.co.za,timeslive.co.za#?#.content-list-block:contains(News & insights from our commercial partners)
 capwages.com#?#.gap-1.items-center.flex-col.flex:contains(Remove Ads)
 aliexpress.com#?##card-list > .search-item-card-wrapper-gallery:has(a.search-card-item[href*="&aem_p4p_detail="] div[class*="cards--image--"] > div[class*="multi--ax--"]:contains(/^(?:AD|An[uú]ncio|광고|広告)$/)):has(+ .search-item-card-wrapper-gallery a.search-card-item:not([href*="&aem_p4p_detail="]))
+chatgpt.com#?#.opacity-100.transition-opacity.ease-out:contains(Sponsored options)
 china.ahk.de#?#.b-main__section:has(h2.homepage-headline:contains(Advertisement))
 cleantechnica.com#?#.zox-side-widget:contains(/^Advertis/)
 coincarp.com#?#.border-bottom:contains(Sponsored)
@@ -62997,6 +63002,7 @@ boots.com#?#.oct-listers-hits__item:has-text(Sponsored)
 businessday.co.za,sowetan.co.za,timeslive.co.za#?#.content-list-block:has-text(News & insights from our commercial partners)
 capwages.com#?#.gap-1.items-center.flex-col.flex:has-text(Remove Ads)
 aliexpress.com#?##card-list > .search-item-card-wrapper-gallery:has(a.search-card-item[href*="&aem_p4p_detail="] div[class*="cards--image--"] > div[class*="multi--ax--"]:has-text(/^(?:AD|An[uú]ncio|광고|広告)$/)):has(+ .search-item-card-wrapper-gallery a.search-card-item:not([href*="&aem_p4p_detail="]))
+chatgpt.com#?#.opacity-100.transition-opacity.ease-out:has-text(Sponsored options)
 china.ahk.de#?#.b-main__section:has(h2.homepage-headline:has-text(Advertisement))
 cleantechnica.com#?#.zox-side-widget:has-text(/^Advertis/)
 coincarp.com#?#.border-bottom:has-text(Sponsored)

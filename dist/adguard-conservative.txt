@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Conservative
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202608020643
-! Last modified: 2026-08-02T06:43:49Z
+! Version: 202608020919
+! Last modified: 2026-08-02T09:19:49Z
 ! Layers: network,content,scriptlet
 ! Mode: conservative
-! Rules: 108336
+! Rules: 108337
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -22949,6 +22949,7 @@ $subdocument,third-party,denyallow=disqus.com,domain=love4u.net
 $third-party,script,domain=klto9.com|f2movies.to|hacamchicac.com|yourporngod.com|zinchanmanga.com|yaoimangaonline.com|tututweak.app|mangaraw.ac|eromanga-show.com|hentai-one.com|hentaipaw.com|nukibooks.com|paipancon.com|jgvdata.com|youtubevanced.com|pandamtl.com|mangaplus.shueisha.tv|shueisharaw.tv
 ||linksconsole.com/ad-system/
 ||misc-api.feathermc.com/*/ads/ad_units?
+||anime.nexus/video/vast-ad.mov
 ||bossip.com/wp-content/plugins/ione-modules/*/universal-ads/
 ||crmkt.livejasmin.com/s/pu/insljvime?$all
 ||movienestbd.*/min.js

@@ -1,8 +1,8 @@
 ! Title: AdGuard Rules CN - Network
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202608031720
-! Last modified: 2026-08-03T17:20:09Z
+! Version: 202608031954
+! Last modified: 2026-08-03T19:54:39Z
 ! Layers: network
 ! Mode: standard
 ! Rules: 47640
@@ -20986,7 +20986,6 @@ $csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: www.googletagma
 @@||img.soutula.com^$stealth=referrer,domain=fabiaoqing.com
 @@||engagently.com/graphql$stealth=3p-auth,xmlhttprequest
 @@hls/player$stealth=referrer,xmlhttprequest,domain=sportshub.to
-@@||lkm-*.cfd^$stealth=referrer,domain=sn.dplayer82.site
 @@.php$subdocument,stealth,domain=/dizipal\d+.com/
 @@||dosyaload.com/embed/$stealth=referrer
 @@||vidload.lol/iframe/$stealth=referrer
@@ -37383,6 +37382,7 @@ template/m1938pc/ads/*.js
 /tracking-links.js
 /tracking.asmx/AddTrack?
 /tracking.jsp?sid=
+/tracking/affiliate|$image
 /tracking/airdog
 /tracking/common.html
 /tracking/cookies?

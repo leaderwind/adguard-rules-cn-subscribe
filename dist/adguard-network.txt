@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Network
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202608031141
-! Last modified: 2026-08-03T11:41:52Z
+! Version: 202608031513
+! Last modified: 2026-08-03T15:13:08Z
 ! Layers: network
 ! Mode: standard
-! Rules: 47627
+! Rules: 47640
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -8417,6 +8417,13 @@ $cookie=__adblocker,domain=slate.com|thehindubusinessline.com
 @@||5gvci.com/act/files$domain=321movies.xyz
 @@||stpd.cloud/saas/6233?_=$xmlhttprequest
 @@||acapellas.eu^$generichide
+@@||confidecross.com^$domain=openlua.cloud
+@@||openlua.cloud/*.gif
+@@||openlua.cloud/ads-common.js
+@@||openlua.cloud/jquery.popunder.js
+@@||openlua.cloud/admanager.js
+@@||openlua.cloud/exitpopup.js
+@@||openlua.cloud/gpt-prebid.js
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=etnowpolymers.com|femina.in|filmfare.com|goodhomes.co.in|grazia.co.in|themachinist.in
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$domain=techypopat.in
 @@||techypopat.in^$generichide
@@ -14832,6 +14839,7 @@ $script,third-party,denyallow=jsdelivr.net|cloudflare.com|unpkg.com|vikingfile.c
 ||manage.whtop.com/*.gif?/review/$image
 ||javhub.net/av/img/pbanner*.jpg
 /\/js\/\d{2,3}eka\d{2,3}\.js$/$script,~third-party,domain=club|com|one|pro
+||mediatailor.*.amazonaws.com/v1/tracking/*/prod-shudder-mediatailor-config-via-sdk/$domain=watch.shudder.com
 ||cdn.peacocktv.com/pck-vod/*/tracking/
 ||linkinbio.fun/iframes/ssmmgirlsbanner.html
 ||yahoo.com/smartbanner/
@@ -20401,6 +20409,11 @@ $csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: www.googletagma
 @@||beinconnect.com.tr^$stealth
 @@||account.adobe.com^$document,domain=services.adobe.com,stealth=useragent
 @@||adguard.com^$stealth
+@@||api.openlua.cloud/download/$stealth
+@@||shield-drm.onvesper.com^$stealth=3p-auth
+@@||d2ab400qlgxn2g.cloudfront.net/dev/spaces/$stealth=3p-auth,domain=visa.vfsglobal.com
+@@||user-gw.cds.amcn.com^$stealth=3p-auth
+@@||gw.cds.amcn.com^$stealth=3p-auth
 @@/playlist/*$xmlhttprequest,third-party,stealth=referrer,domain=cinejoy.to
 @@/hls/*$xmlhttprequest,third-party,stealth=referrer,domain=cinejoy.to
 @@/video/*$xmlhttprequest,third-party,stealth=referrer,domain=cinejoy.to

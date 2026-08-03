@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Conservative
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202608030741
-! Last modified: 2026-08-03T07:41:44Z
+! Version: 202608031141
+! Last modified: 2026-08-03T11:41:52Z
 ! Layers: network,content,scriptlet
 ! Mode: conservative
-! Rules: 108346
+! Rules: 108356
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -20583,6 +20583,8 @@ $third-party,xmlhttprequest,domain=faselhd.cafe|faselhd-watch.shop,badfilter
 ||pcchip.hr/wp-content/uploads*BANNER
 ||mob.hr/blog/wp-content/uploads/noviupload/NOA-E1-BANNER
 ||mob.hr^*-300x250.
+||sector.sk/default-*.aspx
+||sector.sk/scripts/trixam.min.js
 ||cdn.telekomunikace.cz/banners
 @@||warforum.xyz/ads.js?$script,~third-party
 ||armyweb.cz/data/presentation/$image
@@ -28848,6 +28850,9 @@ $image,script,stylesheet,subdocument,third-party,xmlhttprequest,domain=animepahe
 @@||tous-sports.tv/js/advertisement-AdBlock.js
 @@||fritz.com/*/apps/knowledge-base/$xmlhttprequest,elemhide,jsinject,extension
 @@||account.adobe.com^$document,domain=services.adobe.com,stealth=useragent
+@@/playlist/*$xmlhttprequest,third-party,stealth=referrer,domain=cinejoy.to
+@@/hls/*$xmlhttprequest,third-party,stealth=referrer,domain=cinejoy.to
+@@/video/*$xmlhttprequest,third-party,stealth=referrer,domain=cinejoy.to
 @@||iqws-cds.intechiq.com/rest/$xmlhttprequest,stealth=3p-auth
 @@/\/cdn\/(files|zone)\d?\//$media,third-party,match-case,stealth=referrer,domain=kimoitv.com
 @@||happy1de.space/embed/$subdocument,stealth=referrer
@@ -49900,6 +49905,8 @@ animecorner.me,zarabiajprzez24.pl,watchhentai.xxx,app-how-to-use-it.com,linuxcap
 pawastreams.*,nflbite.to,footybite.to,sportschamp.fun,afly.pro,topsporter.net,soccerstreams.football,mysocceraustralia.com,rayinfosports.com,hesgoals.top,sequencecard.xyz,totalsportek.soccer,metaporky.site,nbabite.to,cyfostreams.com,gamerarcades.com,bestreamsports.org,footy.to,mcrypto.club,greaterkashmir.com###id-custom_banner
 pawastreams.*,groundedtechs.com,rayinfosports.com,sequencecard.xyz,matchtime.co,sportspellz.com,bestreamsports.org,silverspoon.site###dismiss-btn
 vi-control.net,nullforums.net,landyzone.co.uk,nullcave.pro,woxmax.com,waskucity.com,babia.to,technofino.in,reef2reef.com,minebbs.com,craxpro.io,affiliatefix.com,myiptvforum.com,hifivision.com,worldofiptv.com,altenen.is,beermoneyforum.com,germancarforum.com,cracking.org##.samBannerUnit
+myfoxzone.com,newswest9.com,12news.com,13newsnow.com,5newsonline.com,fox61.com##.grid__cell[data-columns]:has(> .grid__module:only-child > .grid__module-sizer_name_ad)
+myfoxzone.com,newswest9.com,12news.com,13newsnow.com,5newsonline.com,fox61.com##.grid__module:has(> .grid__module-sizer_name_ad)
 weebcentral.com##a[rel="noopener noreferrer sponsored"]
 weebcentral.com##section[x-data*="sub_feed_shown"] + section > div.relative:has(> a[aria-label="AdChoices"])
 picazor.com##main > .relative.z-0.w-full[style="height:235px;min-height:235px;contain:layout paint size"]
@@ -49922,9 +49929,9 @@ aylink.co##.media-panel
 hindustantimes.com##.homePageAdMinHeight
 hindustantimes.com##.h288:has(> .adHeight270)
 hindustantimes.com##.swiper-slide:has(> .sponsorAd)
-wtol.com,9news.com,newswest9.com,weareiowa.com,krem.com,newscentermaine.com##.grid__content > div.grid__sticky-column:has(> div.grid__sticky-content > div.grid__module > div.grid__module-sizer_name_ad)
-wtol.com,9news.com,newswest9.com,weareiowa.com,krem.com,newscentermaine.com##.grid > div.grid__section_theme_below-article:has(> div.grid__content div.grid__module-sizer_name_ad)
 indiatoday.in##.questbanner
+pastpaperspdf.com###sticky-note
+pastpaperspdf.com##.global-banner-wrapper
 troypoint.com#?#h3:has(> strong:only-child:contains(VPN))
 troypoint.com##h3[style*="display: none !important;"] ~ p[style]
 troypoint.com##div:not(.toolbox-main-wrapper) > a[href="https://troypoint.com/tpapplc-general-click"]
@@ -50034,6 +50041,7 @@ doniaweb.com##div[data-ips-ad]
 8kporner.com##a[href^="https://69Search.com/"]
 bmcservers.com##.block-sticky-bar__element
 bmcservers.com##.transition--root-hidden
+thisvid.com##.container > div[style^="margin: 0 auto 16px; display: inline-block;"]
 bbato.com##.pages > .notice-page
 filespayouts.com##a.zb
 mangafire.to##body > a[href][target="_blank"][style*="z-index: 99999"]
@@ -66284,6 +66292,8 @@ myabandonware.com###content > .box.metas > div:not([class], [id]):not(:has(> *))
 myabandonware.com#$##content > .box.metas > .gameData { width: 100% !important; }
 myabandonware.com#$?#div[class][id]:has(> div:matches-attr(/data-[a-z][0-9]{3,4}-ad/):only-child) { remove: true; }
 myabandonware.com#?#div:matches-attr(/data-[a-z][0-9]{3,4}-ad/)
+wtol.com,9news.com,newswest9.com,weareiowa.com,krem.com,newscentermaine.com##.grid__content > div.grid__sticky-column:has(> div.grid__sticky-content > div.grid__module > div.grid__module-sizer_name_ad)
+wtol.com,9news.com,newswest9.com,weareiowa.com,krem.com,newscentermaine.com##.grid > div.grid__section_theme_below-article:has(> div.grid__content div.grid__module-sizer_name_ad)
 9news.com,myfoxzone.com,wtol.com,5newsonline.com,fox61.com,wqad.com,fox43.com,10tv.com,localmemphis.com,newswest9.com,weareiowa.com,krem.com,kcentv.com,cbs19.tv,kiiitv.com,12newsnow.com,cbs8.com,kvue.com,wbir.com,wltx.com,wgrz.com,newscentermaine.com,whas11.com,ktvb.com,13wmaz.com,firstcoastnews.com,wnep.com,wtsp.com,wfaa.com,kgw.com,king5.com,wcnc.com,kens5.com,ksdk.com,khou.com,wusa9.com,abc10.com,wwltv.com,11alive.com,wfmynews2.com,thv11.com,wkyc.com,wzzm13.com,kare11.com,13newsnow.com,12news.com##div[data-module="just-a-pinch"]
 kickassanimes.*,kaas.*,kickassanime.*##.hide-button
 kickassanimes.*,kaas.*,kickassanime.*##.hide-button + a[target="_blank"] > img

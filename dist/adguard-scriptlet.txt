@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Scriptlet
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202608041802
-! Last modified: 2026-08-04T18:02:37Z
+! Version: 202608041954
+! Last modified: 2026-08-04T19:54:15Z
 ! Layers: scriptlet
 ! Mode: standard
-! Rules: 5481
+! Rules: 5482
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -1209,7 +1209,8 @@ hiraethtranslation.com#%#//scriptlet('abort-on-stack-trace', 'DOMTokenList.proto
 hiraethtranslation.com#%#//scriptlet('prevent-fetch', 'pagead2.googlesyndication.com')
 pomofocus.io#%#//scriptlet('prevent-xhr', 'pagead2.googlesyndication.com', 'true')
 billingsmix.com#%#//scriptlet('prevent-fetch', 'pagead2.googlesyndication.com')
-cc.com,nickjr.com,nick.com#%#//scriptlet('prevent-element-src-loading', 'script', 'imasdk.googleapis.com')
+cc.com#%#//scriptlet('prevent-fetch', 'imasdk.googleapis.com')
+nickjr.com,nick.com#%#//scriptlet('prevent-element-src-loading', 'script', 'imasdk.googleapis.com')
 tubereader.me#%#//scriptlet('abort-on-stack-trace', 'document.createElement', 'showAdblock')
 nudecams.xxx#%#//scriptlet('prevent-xhr', 'pagead2.googlesyndication.com')
 file.apkmoddone.com#%#//scriptlet('prevent-addEventListener', 'click', 'adElements')

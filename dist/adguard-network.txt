@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Network
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202608041802
-! Last modified: 2026-08-04T18:02:37Z
+! Version: 202608041954
+! Last modified: 2026-08-04T19:54:15Z
 ! Layers: network
 ! Mode: standard
-! Rules: 47643
+! Rules: 47644
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -9079,7 +9079,8 @@ $subdocument,redirect-rule=noopframe,domain=ytlarge.com
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,redirect=googlesyndication-adsbygoogle,domain=pomofocus.io
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=pomofocus.io
 ||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$script,redirect=noopjs,domain=nick.com|nickjr.com|cc.com
-@@||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$domain=nick.com|nickjr.com|cc.com
+@@||imasdk.googleapis.com/js/core/dai_iframe3$domain=cc.com
+@@||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$domain=nick.com|nickjr.com
 ||tubereader.me/build/assets/app-*.js
 @@||isthischannelmonetized.com/wp-content/plugins/*/assets/js/bannerad.js
 @@||mhn.quest/*.js$~third-party

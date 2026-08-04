@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Network
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202608041216
-! Last modified: 2026-08-04T12:16:58Z
+! Version: 202608041534
+! Last modified: 2026-08-04T15:34:11Z
 ! Layers: network
 ! Mode: standard
-! Rules: 47642
+! Rules: 47643
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -14488,7 +14488,6 @@ $third-party,script,domain=klto9.com|f2movies.to|hacamchicac.com|yourporngod.com
 ||willowmovies.com/ads.json
 ||arhfoundation.org/adspanjang.js
 ||arhfoundation.org/adscode.js
-||media-elmtree.com/pu_script.js
 /vast.php$domain=xnxx.com
 ||cdn.jsdelivr.net/gh/streamcorner/popads/
 ||cdn.jsdelivr.net/gh/streamcorner/adcsh/
@@ -18203,6 +18202,7 @@ jquery-1.8.3.min.js$domain=straemplay.*|stemplay.*|steamplay.*|steanplay.*|strea
 /\.net\/[a-z-]+\.html$/$subdocument,~third-party,domain=imgdrive.net
 /\.com\/[0-9a-f]+\.js$/$script,~third-party,domain=imgadult.com|imgtaxi.com|imgwallet.com
 /\.net\/[0-9a-f]+\.js$/$script,~third-party,domain=imgdrive.net
+||media-elmtree.com/pu_script.js
 ||m.media-amazon.com/images/S/al-*.mp4$media,domain=imdb.com
 ||m-hentai.net/img/Native%20Ads/
 ||goraidparty.com/images/ad_banner
@@ -20405,6 +20405,7 @@ $csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: www.googletagma
 @@||beinconnect.com.tr^$stealth
 @@||account.adobe.com^$document,domain=services.adobe.com,stealth=useragent
 @@||adguard.com^$stealth
+@@||api.viduki.net/embed_providers?$stealth=referrer
 @@||workers.dev^$xmlhttprequest,third-party,stealth=referrer,domain=cinelove.live|netplayz.top
 @@/master.m3u8|$xmlhttprequest,third-party,stealth=referrer,domain=nxsha.app
 @@||web.zmaps-api.com/maps_loader$stealth=3p-auth,domain=seven-eleven.areamarker.com

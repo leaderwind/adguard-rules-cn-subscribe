@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Network
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202608032318
-! Last modified: 2026-08-03T23:18:02Z
+! Version: 202608040334
+! Last modified: 2026-08-04T03:34:03Z
 ! Layers: network
 ! Mode: standard
-! Rules: 47640
+! Rules: 47636
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -11174,7 +11174,6 @@ $script,redirect-rule=noopjs,domain=vidmoly.biz|vidmoly.me|vidmoly.net|vidmoly.t
 ||thefreedictionary.com/_/tr.ashx?
 @@||sltrib.com/pb/resources/scripts/utils/ads/ads.js
 ||cdn.tinypass.com/api/tinypass.min.js$domain=sltrib.com
-@@||mooma.sh^$generichide
 @@||porngun.net^$generichide
 @@||free-premium.maxidbr.com^$generichide
 @@||securepubads.g.doubleclick.net/gampad/ads^$domain=theatlantic.com
@@ -11211,7 +11210,6 @@ $script,redirect-rule=noopjs,domain=vidmoly.biz|vidmoly.me|vidmoly.net|vidmoly.t
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=supergames.com
 @@||doomed.io/scripts/ads.min.js
 @@||pagead2.googlesyndication.com/pagead/js/r20180124/r20170110/osd.js$domain=cpu-world.com
-@@||idsly.com^$generichide
 @@||9bis.net/advert.js
 @@||pagead2.googlesyndication.com/pagead/$domain=free-scores.com,image
 @@||verdirectotv.com^$generichide
@@ -11446,7 +11444,6 @@ $script,redirect-rule=noopjs,domain=vidmoly.biz|vidmoly.me|vidmoly.net|vidmoly.t
 @@://*.ico$domain=livenewschat.eu
 @@||adsatt.espn.starwave.com^$domain=livenewschat.eu,~script
 @@||sexwebvideo.com/js/ad*.js
-@@||computerera.co.in^$generichide
 @@||katfile.com/js/*ad*.js
 @@||static.cdn.web.tv/scripts/ads.js
 @@||ad.doubleclick.net/ddm/ad/*$domain=seekingalpha.com
@@ -14284,10 +14281,10 @@ $document,replace=/<script(?: data-cfasync="false")?(?: nowprocket)?(?: type="[a
 ||html-load.com^$script,important,domain=hookemheadlines.com|12thmanrising.com|aroundthefoghorn.com|arrowheadaddict.com|badgerofhonor.com|bamahammer.com|beargoggleson.com|beyondtheflag.com|blackandteal.com|blogredmachine.com|bluemanhoop.com|boltbeat.com|bosoxinjection.com|buffalowdown.com|caneswarning.com|catcrave.com|chopchat.com|climbingtalshill.com|cubbiescrib.com|dailyknicks.com|dairylandexpress.com|dawindycity.com|dawnofthedawg.com|detroitjockcity.com|dodgersway.com|ebonybird.com|fansided.com|gbmwolverine.com|gmenhq.com|hailfloridahail.com|hardwoodhoudini.com|horseshoeheroes.com|housethathankbuilt.com|huskercorner.com|insidetheiggles.com|jaysjournal.com|justblogbaby.com|kckingdom.com|kingjamesgospel.com|lakeshowlife.com|lombardiave.com|mentalfloss.com|motorcitybengals.com|musketfire.com|nflspinzone.com|ninernoise.com|nugglove.com|phinphanatic.com|pistonpowered.com|predominantlyorange.com|ramblinfan.com|redbirdrants.com|reviewingthebrew.com|riggosrag.com|ripcityproject.com|risingapple.com|rumbunter.com|scarletandgame.com|section215.com|sidelionreport.com|slapthesign.com|sodomojo.com|stillcurtain.com|stormininnorman.com|stripehype.com|thatballsouttahere.com|thejetpress.com|thelandryhat.com|thepewterplank.com|thesmokingcuban.com|thevikingage.com|thunderousintentions.com|valleyofthesuns.com|whodatdish.com|yanksgoyard.com
 ||html-load.com^$script,xmlhttprequest,domain=faitsfizzle.fr|tipsenweetjes.nl|fizzlefacts.com|fizzlefakten.de|hechosfizzle.com|consejosytrucos.co|conselhosetruques.com|consiglietrucchi.com|poradyiwskazowki.pl|tipsandtricksarab.com|tippsundtricks.co|trucs-et-astuces.co
 ||html-load.com^$domain=dingenvoorvrouwen.nl|golfersmagazine.nl|kookfans.nl|nautique.nl|playboy.nl|autobahn.eu|beaumonde.nl|elegance.nl|grazia.nl|happyinshape.nl|marieclaire.nl|noorderland.nl|nouveau.nl|panorama.nl|revu.nl|upcoming.nl
-||html-load.com^$script,xmlhttprequest,domain=birminghamworld.uk|bristolworld.com|derbyworld.co.uk|donegallive.ie|farminglife.com|limerickleader.ie|londonworld.com|nationalworld.com|newryreporter.com|northdevongazette.co.uk|nottinghamworld.com|rotherhamadvertiser.co.uk|surreyworld.co.uk|totallysnookered.com
+||html-load.com^$script,xmlhttprequest,domain=birminghamworld.uk|bristolworld.com|derbyworld.co.uk|donegallive.ie|farminglife.com|limerickleader.ie|londonworld.com|nationalworld.com|newryreporter.com|northdevongazette.co.uk|nottinghamworld.com|rotherhamadvertiser.co.uk|surreyworld.co.uk|totallysnookered.com|3addedminutes.com
 ||html-load.com^$script,xmlhttprequest,domain=gamesider.com|harpersbazaar.fr|uppercutmma.com|techbook-magazine.com|travelbook-magazine.com
 ||html-load.com^$script,xmlhttprequest,domain=fitbook-magazine.com|myhomebook-magazine.com|petbook-magazine.com
-||html-load.com^$script,xmlhttprequest,domain=gardeningknowhow.com|musicradar.com|nexttv.com|realhomes.com|shortlist.com|techlearning.com
+||html-load.com^$script,xmlhttprequest,domain=gardeningknowhow.com|musicradar.com|nexttv.com|realhomes.com|shortlist.com|techlearning.com|goodto.com|guitarplayer.com|toptenreviews.com
 ||html-load.com^$script,xmlhttprequest,domain=astrozop.com|criczop.com|feedzop.com|gamezop.io|gamezop.com|quizzop.com|umogames.com
 ||html-load.com^$script,xmlhttprequest,domain=buienalarm.nl|meteoradar.co.uk|meteox.com|niederschlagsradar.de|sat24.com|weerslag.nl|weerplaza.nl|buienalarm.be
 ||html-load.com^$script,xmlhttprequest,domain=fmradiofree.com|internetradio-horen.de|radio-norge.org|radio-danmark.dk|radio-hrvatska.com|radio-australia.org|radio-osterreich.at
@@ -17429,8 +17426,6 @@ rgmechanicsgames.com*VPN.exe
 ||dbnaked.com/ban^
 ||messytube.com/pup^
 ||netnesspb.com/mad/desk/*.php
-||idsly.com/downlaod1.png
-||idsly.com/download.png
 ||aeonsource.org/wp-content/uploads/*/wp-discount-banner.gif
 ||originalindianporn.com/func.js
 ||alsoporn.com/func.js
@@ -44957,6 +44952,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||lookawoman.com/t/
 ||lookfantastic.ie/track
 ||loom.com/metrics/graphql
+||lowes.com/baymax/events/track?
 ||lowes.com/gauge/
 ||lowes.com/pharos/api/webTelemetry?
 ||lucida.su/api/event

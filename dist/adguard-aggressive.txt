@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Aggressive
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202608041954
-! Last modified: 2026-08-04T19:54:15Z
+! Version: 202608042133
+! Last modified: 2026-08-04T21:33:58Z
 ! Layers: network,content,scriptlet
 ! Mode: aggressive
-! Rules: 116404
+! Rules: 116411
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -40182,6 +40182,7 @@ _800x80_
 ||searchnowexpert.com/sr/
 ||secure.money.com^$third-party
 ||service.smscoin.com/js/sendpic.js
+||serving.srmg.com/player/srmgads.js
 ||servrg.com^$third-party
 ||shareasale.com/image/$third-party
 ||shink.in/js/script.js
@@ -92249,6 +92250,7 @@ alphacoders.com##.item:has(.in-thumb-ad-mobile-desktop)
 herzindagi.com##.items-center:has(.ads)
 yovizag.com##.jeg_column:has(> .jeg_wrapper > .jeg_ad)
 motortrend.com##.justify-center:has(.nativo-news)
+slickdeals.net##.kevelYouMightLikeDealCard:has(.dealCardBadge--promoted)
 chewy.com##.kib-carousel-item:has(.kib-product-sponsor)
 bjs.com##.lazyload-wrapper:has(> #promoteIqContent)
 motortrend.com##.lg\:min-h-\[90px\]
@@ -93310,6 +93312,7 @@ heb.com#?#div:has(> div > div[class^="Carousel_wrapper"]:contains(Promoted))
 heb.com#?#div:has(> div > div[class^="ModuleSet_moduleSetContainer"]:contains(Promoted))
 heb.com#?#div[class^="sc-"]:has(> div[data-qe-id="productCard"]:contains(Promoted))
 historic-uk.com#?#.article-sidebar:contains(Advertisement)
+rome2rio.com#?##hotel-list-wrapper li:contains(Ad)
 inc.com#?#.pr-\[25px\].py-\[27px\]:contains(Apply Now)
 infographicjournal.com#?#.et_pb_module:contains(Partners)
 infographicjournal.com#?#.et_pb_module:contains(Partners) + .et_pb_module
@@ -93350,6 +93353,7 @@ nerdwallet.com#?#._3JhNDX:contains(Advertisement)
 netflixjunkie.com#?#[style="text-align:center"]:contains(ADVERTISEMENT)
 newegg.com#?#.product-banner:contains(Sponsored)
 news.yahoo.com#?#div.md\:block:contains(Advertisement)
+nextdoor.com#?#[data-testid*="searchFeedItem"]:contains(Sponsored by)
 nextdoor.com#?#[data-v3-view-type="V3Wrapper"]:has(> [data-testid="feed-item-visibility-tracker"]:contains(Sponsored))
 nextdoor.com#?#div[data-testid="feed-item-card"]:has(span[class^="reset_"]:contains(А⁠d))
 noelleeming.co.nz#?#div.product-tile:has(span:contains(Sponsored))
@@ -103430,6 +103434,7 @@ heb.com#?#div:has(> div > div[class^="Carousel_wrapper"]:has-text(Promoted))
 heb.com#?#div:has(> div > div[class^="ModuleSet_moduleSetContainer"]:has-text(Promoted))
 heb.com#?#div[class^="sc-"]:has(> div[data-qe-id="productCard"]:has-text(Promoted))
 historic-uk.com#?#.article-sidebar:has-text(Advertisement)
+rome2rio.com#?##hotel-list-wrapper li:has-text(Ad)
 inc.com#?#.pr-\[25px\].py-\[27px\]:has-text(Apply Now)
 infographicjournal.com#?#.et_pb_module:has-text(Partners)
 infographicjournal.com#?#.et_pb_module:has-text(Partners) + .et_pb_module
@@ -103470,6 +103475,7 @@ nerdwallet.com#?#._3JhNDX:has-text(Advertisement)
 netflixjunkie.com#?#[style="text-align:center"]:has-text(ADVERTISEMENT)
 newegg.com#?#.product-banner:has-text(Sponsored)
 news.yahoo.com#?#div.md\:block:has-text(Advertisement)
+nextdoor.com#?#[data-testid*="searchFeedItem"]:has-text(Sponsored by)
 nextdoor.com#?#[data-v3-view-type="V3Wrapper"]:has(> [data-testid="feed-item-visibility-tracker"]:has-text(Sponsored))
 nextdoor.com#?#div[data-testid="feed-item-card"]:has(span[class^="reset_"]:has-text(А⁠d))
 noelleeming.co.nz#?#div.product-tile:has(span:has-text(Sponsored))
@@ -108533,6 +108539,7 @@ omni.soundestlink.com$image
 ||nyltx.com^$third-party
 ||nytlog.com^$third-party
 ||o-s.io^$third-party
+||observer.marketing^$third-party
 ||observerapp.com^$third-party
 ||octavius.rocks^$third-party
 ||octomarket.com^$third-party

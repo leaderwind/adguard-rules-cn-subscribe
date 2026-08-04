@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Network
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202608041954
-! Last modified: 2026-08-04T19:54:15Z
+! Version: 202608042133
+! Last modified: 2026-08-04T21:33:58Z
 ! Layers: network
 ! Mode: standard
-! Rules: 47644
+! Rules: 47646
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -30962,6 +30962,7 @@ _800x80_
 ||searchnowexpert.com/sr/
 ||secure.money.com^$third-party
 ||service.smscoin.com/js/sendpic.js
+||serving.srmg.com/player/srmgads.js
 ||servrg.com^$third-party
 ||shareasale.com/image/$third-party
 ||shink.in/js/script.js
@@ -39775,6 +39776,7 @@ omni.soundestlink.com$image
 ||nyltx.com^$third-party
 ||nytlog.com^$third-party
 ||o-s.io^$third-party
+||observer.marketing^$third-party
 ||observerapp.com^$third-party
 ||octavius.rocks^$third-party
 ||octomarket.com^$third-party

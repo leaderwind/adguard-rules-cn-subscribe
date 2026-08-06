@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Network
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202608052317
-! Last modified: 2026-08-05T23:17:14Z
+! Version: 202608060333
+! Last modified: 2026-08-06T03:33:01Z
 ! Layers: network
 ! Mode: standard
-! Rules: 47646
+! Rules: 47637
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -11173,14 +11173,12 @@ $script,redirect-rule=noopjs,domain=vidmoly.biz|vidmoly.me|vidmoly.net|vidmoly.t
 @@||sltrib.com/pb/resources/scripts/utils/ads/ads.js
 ||cdn.tinypass.com/api/tinypass.min.js$domain=sltrib.com
 @@||porngun.net^$generichide
-@@||free-premium.maxidbr.com^$generichide
 @@||securepubads.g.doubleclick.net/gampad/ads^$domain=theatlantic.com
 @@||cdn.theatlantic.com/assets/static/*/js/advertisement.2.js
 @@||theatlantic.com^$generichide
 @@||hotcopper.com.au/ads.js
 @@||cdn.broadstreetads.com/init.js$domain=thebatavian.com
 ||mma-core.com/vidjs*.js
-@@||stc.fx.fastcontentdelivery.com/js/showad_.js
 @@||clksite.com/static/advertisement.js
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=sms-receive.net
 @@||pagead2.googlesyndication.com/pagead/js/r20180214/r20170110/show_ads_impl.js$domain=sms-receive.net
@@ -11210,7 +11208,6 @@ $script,redirect-rule=noopjs,domain=vidmoly.biz|vidmoly.me|vidmoly.net|vidmoly.t
 @@||pagead2.googlesyndication.com/pagead/js/r20180124/r20170110/osd.js$domain=cpu-world.com
 @@||9bis.net/advert.js
 @@||pagead2.googlesyndication.com/pagead/$domain=free-scores.com,image
-@@||verdirectotv.com^$generichide
 @@||metabomb.net^$generichide
 ||www.multiup.*/js/compiled_js_
 @@||c.amazon-adsystem.com/aax2/apstag.js$domain=player.watch.aetnd.com
@@ -11230,7 +11227,6 @@ $script,redirect-rule=noopjs,domain=vidmoly.biz|vidmoly.me|vidmoly.net|vidmoly.t
 @@||therichest.com^$generichide
 ||gigaleecher.com/templates/plugmod/giga.js
 @@||bitsilver.io^$generichide
-@@||bituniverse.net^$generichide
 @@||menshealth.com/*/pubads$script,~third-party
 @@||ad.doubleclick.net/ddm/ad/*$domain=twitch.tv,third-party
 @@||gobits.io^$generichide
@@ -11247,7 +11243,6 @@ $script,redirect-rule=noopjs,domain=vidmoly.biz|vidmoly.me|vidmoly.net|vidmoly.t
 @@||target.my.com/media/js/app/ads.js^
 @@||ebates.com^$generichide
 ||vortez.net/jscript/warn2.js
-@@||freecoursesonline.us^$generichide
 @@||popcornflix.com^$generichide
 @@||androidrepublic.org^$generichide
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=uptostream.com
@@ -11270,7 +11265,6 @@ $script,redirect-rule=noopjs,domain=vidmoly.biz|vidmoly.me|vidmoly.net|vidmoly.t
 @@||lasvegassun.com^$generichide
 @@||crazyhd.com^$generichide
 @@||media.wired.it/static/js/cn-adv.js
-@@/ads.js$domain=cut-urls.com,~third-party
 @@||hdliveextra-a.akamaihd.net/HD/scripts/*/config/ads.js
 @@||bigspeeds.com/ajax/advertisement.js
 ||leechpremium.net/*/main.js$replace=/\\$\(window\.atob\('Lm1haW4tY29udGVudA=='\)\)\.html\(window\.atob\('PGNlbnRlcj48aDE\+UGxlYXNlIGRpc2FibGUgeW91ciBhZGJsb2NrZXIgYW5kIHRoYW4gcmVmcmVzaCB0aGUgc2l0ZS48L2gxPjxicj5NYXliZSBDVFJMICsgRjUgd2lsbCBoZWxwIHRvbzwvY2VudGVyPg=='\)\);/var hello;/
@@ -16953,7 +16947,6 @@ kickassanime.ru/codea/
 ||theseotools.net/sponsors/$image
 ||oko.sh/sw.js
 ||audioz.download/templates/Default/img/promotional/
-||cut-urls.com/files/p1.js
 ||tubev.sex/static/js/abb.js
 /wp-content/themes/dooplay/nex1.$domain=mangoporn.co
 ||movcpm.com/watch.xml?key=
@@ -17443,8 +17436,6 @@ rgmechanicsgames.com*VPN.exe
 ||sexcord.com/play*.php
 ||sexlist.tv/show.php|
 ||sexlist.tv/x1.js
-||verdirectotv.com/publi/publi728.php
-||verdirectotv.com/publi/publi300.php
 ||vercanalestv.com/ad300.html$important
 ||vercanalestv.com/publimia.html$important
 /www.eporner.com\/[^xhr][^comment][1-9]{0,3}[a-z]{0,3}/$script,domain=eporner.com

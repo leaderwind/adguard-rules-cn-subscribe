@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Pending Review (Not AI-reviewed)
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202608071705
-! Last modified: 2026-08-07T17:05:29Z
+! Version: 202608071800
+! Last modified: 2026-08-07T18:00:30Z
 ! Layers: dns
 ! Mode: standard
-! Rules: 238145
+! Rules: 238167
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -186347,6 +186347,7 @@
 ||zzy1.quyaoya.com^
 ||zzycj.com^
 ||zzz.onion.pet^
+||elwd3duunc.com^
 ||piguiqproxy.com^$badfilter
 /^https:\/\/[0-9a-z]+\.xyz\/rinku\/land/$document,~third-party,match-case,replace=/const proxyStatus = "Y";/const proxyStatus = "N";/
 /js/sextb.js$domain=sextb.date|sextb.net,replace=/if\(checkads\(\)==false\)/if(!0)/
@@ -186374,6 +186375,23 @@
 ||freeadultcomix.com^$badfilter
 ||imgshare.info^$badfilter
 @@||connectivitycheck.gstatic.com^$important
+||bnfoyewasfoiwir.com^
+||caroonbicep.cyou^
+||copalundo.cfd^
+||glashannerol.cfd^
+||hotlyslant.cfd^
+||idaeanaplite.cyou^
+||mbirasfaitour.shop^
+||omentalavale.qpon^
+||porettoompah.cyou^
+||russulamisname.qpon^
+||sdurrthvlrybn.site^
+||sojcnfcvuslmv.online^
+||taxisbowsed.cfd^
+||tolingscreeve.cyou^
+||uyekhalsblhin.website^
+||zelantmetremepulping.qpon^
+||zypvvubom.com^
 /(https?:\/\/)104\.154\..{100,}/
 /(https?:\/\/)104\.197\..{100,}/
 /(https?:\/\/)104\.198\..{100,}/
@@ -203602,7 +203620,11 @@
 ||zysuvysaj.pro^
 ||zzux.com^
 ||sobot.com^
-||sdurrthvlrybn.site^
+||glittering-draft.pro^
+||niesdekares.cyou^
+||vagsjktcbzbro.website^
+||xlafbthquwfzr.space^
+||yirdshugest.cfd^
 ||mobile.pipe.aria.microsoft.com^
 ||cu-cn-north00001.gala.convection.cn^
 ||cu-cn-north00002.gala.convection.cn^

@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Conservative
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202608071335
-! Last modified: 2026-08-07T13:35:45Z
+! Version: 202608071507
+! Last modified: 2026-08-07T15:07:54Z
 ! Layers: network,content,scriptlet
 ! Mode: conservative
-! Rules: 108412
+! Rules: 108414
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -22832,7 +22832,7 @@ $document,replace=/<script(?: data-cfasync="false")?(?: nowprocket)?(?: type="[a
 ||html-load.com^$script,xmlhttprequest,domain=astrozop.com|criczop.com|feedzop.com|gamezop.io|gamezop.com|quizzop.com|umogames.com
 ||html-load.com^$script,xmlhttprequest,domain=buienalarm.nl|meteoradar.co.uk|meteox.com|niederschlagsradar.de|sat24.com|weerslag.nl|weerplaza.nl|buienalarm.be
 ||html-load.com^$script,xmlhttprequest,domain=fmradiofree.com|internetradio-horen.de|radio-norge.org|radio-danmark.dk|radio-hrvatska.com|radio-australia.org|radio-osterreich.at
-/adblock.js$domain=anisnatch.top|anisnatch.p1y.top
+/adblock.js$domain=anisnatch.top|anisnatch.to
 /api/rum|$domain=mapple.*|mapplee.com|mapple.rip
 ||helpers.publisherdesk.com/main.js
 ||soulauth.com/img/advertisements/
@@ -28853,6 +28853,7 @@ $image,script,stylesheet,subdocument,third-party,xmlhttprequest,domain=animepahe
 @@||tous-sports.tv/js/advertisement-AdBlock.js
 @@||fritz.com/*/apps/knowledge-base/$xmlhttprequest,elemhide,jsinject,extension
 @@||account.adobe.com^$document,domain=services.adobe.com,stealth=useragent
+@@||video*.yxhhdl.com^$media,stealth=referrer,domain=video.5054399.com
 @@/upload/*/master.m3u8|$media,xmlhttprequest,stealth=referrer,domain=anikuro.ru|anikuro.to
 @@/upload/*.txt|$xmlhttprequest,stealth=referrer,domain=anikuro.ru|anikuro.to
 @@||phncdn.com/$media,stealth=referrer,domain=pornhub.com
@@ -40652,6 +40653,7 @@ ru-clip.com###morev
 #@#.ads_banner
 ##.stickyads:not([style^="width: 32px"], [style^="width: 33px"], [style*="left: -43px"], [style*="-3"][style*="important"][style*="display: block;"], [style*="position: fixed"][style*="-188"], [style*="!important;"][style*="width:"][style*="height:"][style*="position"][style*="left:"][style*="top:"][style*="display"], [data-freestar-ad="123"]):not(:empty)
 ##.ads_banner:not([style^="width: 32px"], [style^="width: 33px"], [style*="left: -43px"], [style*="-3"][style*="important"][style*="display: block;"], [style*="position: fixed"][style*="-188"], [style*="!important;"][style*="width:"][style*="height:"][style*="position"][style*="left:"][style*="top:"][style*="display"]):not(:empty)
+tempmailhub.org##.app > div[style*="adb-fadeIn"]
 dp-vids.com###dpv-adblock-overlay
 expressnews.com#@#[name*="google_ads"]
 expressnews.com#@#[id*="google_ads"]
@@ -56527,7 +56529,7 @@ hanime.tv##.subtext + div.event-container
 bundle.app##.upMasthead
 elevenforum.com##div[style="width:300px;padding-bottom:10px;text-align:center;height:600px;margin-bottom:15px;"]
 sex-videos.xyz,xnxx.fit###fluid-onpause_spot
-classicpornvids.com,maturesexx.homes,asiabest.help,sxxx.quest,new-porn.*,sex-vid.quest,xxx888.homes,best-porn.video,teenpornvideo.fun,asiantv.fun,asianporn.life##.spotholder
+matursex.homes,classicpornvids.com,maturesexx.homes,asiabest.help,sxxx.quest,new-porn.*,sex-vid.quest,xxx888.homes,best-porn.video,teenpornvideo.fun,asiantv.fun,asianporn.life##.spotholder
 citynews.ca##body div.inter-module-ad
 privacysavvy.com###ps-popup
 xxxshake.com##.fluid-b > div.fluid-b-title

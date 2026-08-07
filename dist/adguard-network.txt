@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Network
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202608071335
-! Last modified: 2026-08-07T13:35:45Z
+! Version: 202608071507
+! Last modified: 2026-08-07T15:07:54Z
 ! Layers: network
 ! Mode: standard
-! Rules: 47655
+! Rules: 47656
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -14282,7 +14282,7 @@ $document,replace=/<script(?: data-cfasync="false")?(?: nowprocket)?(?: type="[a
 ||html-load.com^$script,xmlhttprequest,domain=astrozop.com|criczop.com|feedzop.com|gamezop.io|gamezop.com|quizzop.com|umogames.com
 ||html-load.com^$script,xmlhttprequest,domain=buienalarm.nl|meteoradar.co.uk|meteox.com|niederschlagsradar.de|sat24.com|weerslag.nl|weerplaza.nl|buienalarm.be
 ||html-load.com^$script,xmlhttprequest,domain=fmradiofree.com|internetradio-horen.de|radio-norge.org|radio-danmark.dk|radio-hrvatska.com|radio-australia.org|radio-osterreich.at
-/adblock.js$domain=anisnatch.top|anisnatch.p1y.top
+/adblock.js$domain=anisnatch.top|anisnatch.to
 /api/rum|$domain=mapple.*|mapplee.com|mapple.rip
 ||helpers.publisherdesk.com/main.js
 ||soulauth.com/img/advertisements/
@@ -20404,6 +20404,7 @@ $csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: www.googletagma
 @@||beinconnect.com.tr^$stealth
 @@||account.adobe.com^$document,domain=services.adobe.com,stealth=useragent
 @@||adguard.com^$stealth
+@@||video*.yxhhdl.com^$media,stealth=referrer,domain=video.5054399.com
 @@/upload/*/master.m3u8|$media,xmlhttprequest,stealth=referrer,domain=anikuro.ru|anikuro.to
 @@/upload/*.txt|$xmlhttprequest,stealth=referrer,domain=anikuro.ru|anikuro.to
 @@||dev.microsofttranslator.com/apps/endpoint?api-version=$stealth=referrer

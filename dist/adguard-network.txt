@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Network
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202608070404
-! Last modified: 2026-08-07T04:04:02Z
+! Version: 202608070549
+! Last modified: 2026-08-07T05:49:19Z
 ! Layers: network
 ! Mode: standard
-! Rules: 47648
+! Rules: 47647
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -31459,6 +31459,7 @@ $third-party,xmlhttprequest,domain=mega4upload.net
 ||24live.com/api/banners
 ||2mdn.net/videoplayback/$redirect=noopmp4-1s,domain=laurelberninteriors.com|safeframe.googlesyndication.com
 ||2merkato.com/images/banners/
+||2v2.io/ads/
 ||4rfv.co.uk/advnew/
 ||5dariyanews.com/images/adherecolads.jpg
 ||80.lv/api/promos?
@@ -32896,9 +32897,9 @@ $popup,third-party,domain=hentai2read.com|porn-tube-club.com
 @@||amazonaws.com/prod.iqdcontroller.iqdigital/cdn_iqdspiegel/live/iqadcontroller.js.gz$domain=spiegel.de
 @@||aniview.com/api/$script,xmlhttprequest,domain=gamingbible.co.uk|ladbible.com|stirr.com
 @@||aone-soft.com/style/images/ad2.jpg
-@@||api.adinplay.com/libs/aiptag/$script,domain=bigescapegames.com|brofist.io|cuberealm.io|findcat.io|geotastic.net|lordz.io
+@@||api.adinplay.com/libs/aiptag/$script,domain=2v2.io|bigescapegames.com|brofist.io|cuberealm.io|findcat.io|geotastic.net|lordz.io
 @@||api.adinplay.com/libs/aiptag/pub/$domain=geotastic.net
-@@||api.adinplay.com/v4/live/aip/ad-manager.js$script,domain=cuberealm.io
+@@||api.adinplay.com/v4/live/aip/ad-manager.js$script,domain=2v2.io|cuberealm.io
 @@||api.adnetmedia.lt/api/$~third-party
 @@||apis.kostprice.com/fapi/$script,domain=gadgets.ndtv.com
 @@||apmebf.com/ad/$domain=betfair.com
@@ -34872,8 +34873,6 @@ template/m1938pc/ads/*.js
 ||cfgr3.com/videos/*.mp4$rewrite=abp-resource:blank-mp4,domain=hitbdsm.com
 ||redtube.com^$subdocument,~third-party
 ||youjizz.com/KWIKY*.mp4$rewrite=abp-resource:blank-mp4,domain=youjizz.com
-@@||api.adinplay.com/libs/aiptag/$script,domain=2v2.io|bigescapegames.com|brofist.io|cuberealm.io|findcat.io|geotastic.net|lordz.io
-@@||api.adinplay.com/v4/live/aip/ad-manager.js$script,domain=2v2.io|cuberealm.io
 @@||discord.com^$generichide
 &&sub19=undefined&sub20=undefined
 &action=js_stats

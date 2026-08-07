@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - DNS
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202608072253
-! Last modified: 2026-08-07T22:53:30Z
+! Version: 202608072346
+! Last modified: 2026-08-07T23:46:37Z
 ! Layers: dns
 ! Mode: standard
-! Rules: 238228
+! Rules: 238234
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -186456,6 +186456,9 @@
 ||freeadultcomix.com^$badfilter
 ||imgshare.info^$badfilter
 @@||connectivitycheck.gstatic.com^$important
+||bmhoimdrvdsmj.site^
+||otwxrrncagpdp.space^
+||zanytower.pro^
 /(https?:\/\/)104\.154\..{100,}/
 /(https?:\/\/)104\.197\..{100,}/
 /(https?:\/\/)104\.198\..{100,}/
@@ -203684,8 +203687,11 @@
 ||zysuvysaj.pro^
 ||zzux.com^
 ||sobot.com^
-||otwxrrncagpdp.space^
-||zanytower.pro^
+||czjsxim.com^
+||itrtxppdamlez.space^
+||rydwbtjetdesf.site^
+||seuboseevrnop.com^
+||vegetalposedpetaly.cfd^
 ||mobile.pipe.aria.microsoft.com^
 ||cu-cn-north00001.gala.convection.cn^
 ||cu-cn-north00002.gala.convection.cn^

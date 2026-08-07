@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Network
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202608070914
-! Last modified: 2026-08-07T09:14:24Z
+! Version: 202608071105
+! Last modified: 2026-08-07T11:05:53Z
 ! Layers: network
 ! Mode: standard
-! Rules: 47649
+! Rules: 47652
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -14409,7 +14409,6 @@ $subdocument,third-party,denyallow=disqus.com,domain=love4u.net
 $third-party,script,domain=klto9.com|f2movies.to|hacamchicac.com|yourporngod.com|zinchanmanga.com|yaoimangaonline.com|tututweak.app|mangaraw.ac|eromanga-show.com|hentai-one.com|hentaipaw.com|nukibooks.com|paipancon.com|jgvdata.com|youtubevanced.com|pandamtl.com|mangaplus.shueisha.tv|shueisharaw.tv
 ||linksconsole.com/ad-system/
 ||misc-api.feathermc.com/*/ads/ad_units?
-/embed/*.js?_=$script,domain=cloudorchestranova.com
 ||mesmer.tools/api/v*/ad?
 ||workers.dev/|$xmlhttprequest,domain=cinelove.live|netplayz.top
 ||weebcentral.com/static/henry_ads/
@@ -18158,7 +18157,9 @@ jquery-1.8.3.min.js$domain=straemplay.*|stemplay.*|steamplay.*|steanplay.*|strea
 ||app.torbobit.net/api/ads/
 /custom_code/*.js$domain=torbobit.net
 /files/news/image/offer$domain=torbobit.net|trubobit.com
-/^https:\/\/[a-z-]{5,13}\.[a-z]{2,6}\/[a-z0-9]{1,20}\?[A-Za-z0-9]{15,26}=(?=.*[A-Z])[A-Za-z0-9%]{35,2000}$/$xmlhttprequest,third-party,match-case
+/^https:\/\/[a-z-]{5,13}\.[a-z]{2,7}\/[a-z0-9]{1,20}\?[A-Za-z0-9]{15,26}=(?=.*[A-Z])[A-Za-z0-9%]{35,2000}$/$xmlhttprequest,third-party,match-case
+/^https:\/\/anime\.uniquestream\.net\/[a-z0-9][a-z0-9][a-z0-9][a-z0-9][a-z0-9][a-z0-9][a-z0-9][a-z0-9]\.js$/$script,match-case
+/embed/*.js?_=$script,domain=cloudorchestranova.com
 /^https:\/\/strumyk\.net\/assets\/[0-9]+.js$/$script,domain=strumyk.net
 ||strumyk.net/assets/z-*.js
 ||cinesrc.st/burger.js
@@ -20403,6 +20404,8 @@ $csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: www.googletagma
 @@||beinconnect.com.tr^$stealth
 @@||account.adobe.com^$document,domain=services.adobe.com,stealth=useragent
 @@||adguard.com^$stealth
+@@||dev.microsofttranslator.com/apps/endpoint?api-version=$stealth=referrer
+@@||westeurope.tts.speech.microsoft.com/cognitiveservices/$stealth=3p-auth
 @@/stream/*.m3u8$stealth=referrer,domain=livosports30.live
 @@||phncdn.com/$media,stealth=referrer,domain=pornhub.com
 @@||api.viduki.net/embed_providers?$stealth=referrer

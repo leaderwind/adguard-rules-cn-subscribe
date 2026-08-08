@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Content
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202608080759
-! Last modified: 2026-08-08T07:59:51Z
+! Version: 202608080857
+! Last modified: 2026-08-08T08:57:51Z
 ! Layers: content
 ! Mode: standard
-! Rules: 63304
+! Rules: 63306
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -9413,6 +9413,8 @@ luciferdonghua.in##div[data-afuhost]
 luciferdonghua.in###afu-ab
 luciferdonghua.in##.afu-banner
 streamcash.to##body > div[id][style*="position: fixed; inset: 0px; z-index: 99999;"]
+streamcash.to#@#.in_content_ad_container
+streamcash.to#@#.js-slide-top-ad
 streamcash.to#?#body > div[id][style*="position: fixed; inset: 0px; z-index: 99999;"]
 xvideos.com#@#.remove-ads
 xvideos.com#@##video-right

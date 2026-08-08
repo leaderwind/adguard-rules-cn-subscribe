@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Conservative
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202608080759
-! Last modified: 2026-08-08T07:59:51Z
+! Version: 202608080857
+! Last modified: 2026-08-08T08:57:51Z
 ! Layers: network,content,scriptlet
 ! Mode: conservative
-! Rules: 108418
+! Rules: 108421
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -16331,6 +16331,7 @@ rvlev.com,t66y.com#?#[class]:-abp-has(>a[onmouseover="this.style.background='#DE
 rvlev.com,t66y.com#?#[class]:-abp-has(>a[onmouseover="this.style.background='#DEF5CD';"]:nth-child(n+180):-abp-contains(/赌|娱|澳/)) > :nth-child(-n+188)
 rvlev.com,t66y.com#?#[class]:-abp-has(>a[onmouseover="this.style.background='#DEF5CD';"]:nth-child(n+190):-abp-contains(/赌|娱|澳/)) > :nth-child(-n+195)
 69xx.one,69xx487.xyz,8mav.cc,av411.xyz,cable2055.cc,theav.xyz,thep178.com,theporn.cc,weav.xyz#?#[class]:-abp-has(>a>.q-responsive)
+||supersedeaccolade.com^$popup
 ||gamengirls.com^$all
 ||cno.jerkmate.net^$all
 ||arx8x.net^$all
@@ -40705,6 +40706,8 @@ luciferdonghua.in##div[data-afuhost]
 luciferdonghua.in###afu-ab
 luciferdonghua.in##.afu-banner
 streamcash.to##body > div[id][style*="position: fixed; inset: 0px; z-index: 99999;"]
+streamcash.to#@#.in_content_ad_container
+streamcash.to#@#.js-slide-top-ad
 streamcash.to#?#body > div[id][style*="position: fixed; inset: 0px; z-index: 99999;"]
 xvideos.com#@#.remove-ads
 xvideos.com#@##video-right

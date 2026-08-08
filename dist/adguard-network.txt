@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Network
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202608080759
-! Last modified: 2026-08-08T07:59:51Z
+! Version: 202608080857
+! Last modified: 2026-08-08T08:57:51Z
 ! Layers: network
 ! Mode: standard
-! Rules: 47658
+! Rules: 47659
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -7454,6 +7454,7 @@ $script,third-party,domain=torkitty.net|torkitty.com|torrentkitty.app|torrentkit
 @@||criteo.com/delivery/ajs.php?zoneid=$script,domain=gaus.ee
 @@||jd.com/adclick?$popup,~third-party
 ||wnacg.com/game/$image,rewrite=abp-resource:1x1-transparent-gif,domain=wnacg.com
+||supersedeaccolade.com^$popup
 ||gamengirls.com^$all
 ||cno.jerkmate.net^$all
 ||arx8x.net^$all

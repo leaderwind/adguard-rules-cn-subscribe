@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Pending Review (Not AI-reviewed)
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202608081049
-! Last modified: 2026-08-08T10:49:30Z
+! Version: 202608081140
+! Last modified: 2026-08-08T11:40:41Z
 ! Layers: dns
 ! Mode: standard
-! Rules: 238279
+! Rules: 238285
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -186615,6 +186615,11 @@
 ||freeadultcomix.com^$badfilter
 ||imgshare.info^$badfilter
 @@||connectivitycheck.gstatic.com^$important
+||aiwmlmzzomtjt.space^
+||alnurswyejuzu.website^
+||bpaybiplqddqb.website^
+||ffryqzpblxa.com^
+||unwrittenheight.pro^
 /(https?:\/\/)104\.154\..{100,}/
 /(https?:\/\/)104\.197\..{100,}/
 /(https?:\/\/)104\.198\..{100,}/
@@ -203739,10 +203744,11 @@
 ||zysuvysaj.pro^
 ||zzux.com^
 ||sobot.com^
-||aiwmlmzzomtjt.space^
-||alnurswyejuzu.website^
-||ffryqzpblxa.com^
-||unwrittenheight.pro^
+||cagfqiocagixd.website^
+||frigid-user.pro^
+||mackinsbirianiusurper.cyou^
+||qdwkcbqso.com^
+||stormyairbornefacility.com^
 ||mobile.pipe.aria.microsoft.com^
 ||cu-cn-north00001.gala.convection.cn^
 ||cu-cn-north00002.gala.convection.cn^

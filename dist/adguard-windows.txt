@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Windows
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202608090227
-! Last modified: 2026-08-09T02:27:06Z
+! Version: 202608090434
+! Last modified: 2026-08-09T04:34:55Z
 ! Layers: network,content,scriptlet
 ! Mode: standard
-! Rules: 116371
+! Rules: 116373
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -91527,6 +91527,7 @@ gulfcoastnewsnow.com,ketv.com,wisn.com,wjcl.com##aside > div:has(> div > div > d
 gulfcoastnewsnow.com,ketv.com,wisn.com,wjcl.com##aside > div:has(> div > div.ad-container)
 everydayrussianlanguage.com##aside img[src^="/wp-content/themes/edr/img/"]
 petmd.com##aside[aria-label="advertisement"]
+chatgpt.com##aside[data-assistant-ads-unit]
 bluejaysnation.com,canucksarmy.com,dailyfaceoff.com,flamesnation.ca,oilersnation.com,theleafsnation.com##bam-inline-promotion
 bluejaysnation.com,canucksarmy.com,dailyfaceoff.com,flamesnation.ca,oilersnation.com,theleafsnation.com##bam-inline-promotion-block
 bluejaysnation.com,canucksarmy.com,dailyfaceoff.com,flamesnation.ca,oilersnation.com,theleafsnation.com##bam-promotion-list
@@ -103268,6 +103269,7 @@ yatu.tv,yhdm7.com,yhdm95.com,xdm530.com##+js(aopw,document.oncontextmenu)
 ||cfgr3.com/videos/*.mp4$rewrite=abp-resource:blank-mp4,domain=hitbdsm.com
 ||redtube.com^$subdocument,~third-party
 ||youjizz.com/KWIKY*.mp4$rewrite=abp-resource:blank-mp4,domain=youjizz.com
+@@||api.adinplay.com/v4/live/$script,domain=2v2.io|cuberealm.io
 @@||discord.com^$generichide
 ##.ad-unit
 ##[class^="div-gpt-ad"]

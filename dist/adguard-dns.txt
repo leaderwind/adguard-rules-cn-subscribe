@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - DNS
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202608100451
-! Last modified: 2026-08-10T04:51:30Z
+! Version: 202608100621
+! Last modified: 2026-08-10T06:21:14Z
 ! Layers: dns
 ! Mode: standard
-! Rules: 228672
+! Rules: 228697
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -147351,6 +147351,9 @@
 ||hbnygj.com^
 ||https-filtering-check.adtidy.org^
 ||unpkg.com^$badfilter
+||ezcl19vy10.com^
+||w2qyyljk71.com^
+||qyxiangr.com^
 /pa.dajiahao*.top/
 /^.+stat\.kugou\.com/
 /^admarvel\./
@@ -188694,8 +188697,6 @@
 ||zzy1.quyaoya.com^
 ||zzycj.com^
 ||zzz.onion.pet^
-||ezcl19vy10.com^
-||w2qyyljk71.com^
 ||piguiqproxy.com^$badfilter
 /wp-content/plugins/gplinks-flow/assets/js/flow.js|$replace=/var shown = false;/return;/
 /^https:\/\/[0-9a-z]+\.xyz\/rinku\/land/$document,~third-party,match-case,replace=/const proxyStatus = "Y";/const proxyStatus = "N";/
@@ -188724,6 +188725,21 @@
 ||freeadultcomix.com^$badfilter
 ||imgshare.info^$badfilter
 @@||connectivitycheck.gstatic.com^$important
+||ayuyueuripos.cfd^
+||balmsmarket.cyou^
+||bidfly.net^
+||cloggermarmot.cfd^
+||dskeydfctmgfd.online^
+||gblpemzjjjyiy.online^
+||htuyvpnaurqxn.website^
+||mwxvbjitipn.com^
+||newestizar.qpon^
+||ribbytawhid.shop^
+||scupfulskerry.cfd^
+||stricturocystgallied.qpon^
+||tilapianigel.qpon^
+||vhrghfgq.com^
+||zabianunmoral.qpon^
 /(https?:\/\/)104\.154\..{100,}/
 /(https?:\/\/)104\.197\..{100,}/
 /(https?:\/\/)104\.198\..{100,}/
@@ -191236,9 +191252,18 @@
 ||zysuvysaj.pro^
 ||zzux.com^
 ||sobot.com^
-||bidfly.net^
-||htuyvpnaurqxn.website^
-||mwxvbjitipn.com^
+||edomiteaeneid.cyou^
+||ketchwalloch.shop^
+||krfigbmmniqfr.space^
+||ldsoytbpkvwdo.online^
+||mowrmntkcfuv.com^
+||orvamgdjbijvb.space^
+||pdqdzdahwiowl.website^
+||qoxkbwbootoaq.space^
+||reseekrepel.shop^
+||rsgiafnwpmlffb.com^
+||statersubtype.qpon^
+||submisslure.qpon^
 ||idsequoia.ai^
 ||grow.urbandictionary.network^
 ||fp-upload.dun.163.com^

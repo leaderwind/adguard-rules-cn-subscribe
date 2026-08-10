@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Pending Review (Not AI-reviewed)
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202608101035
-! Last modified: 2026-08-10T10:35:42Z
+! Version: 202608101157
+! Last modified: 2026-08-10T11:57:40Z
 ! Layers: dns
 ! Mode: standard
-! Rules: 218784
+! Rules: 218797
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -147669,6 +147669,7 @@
 ||hbnygj.com^
 ||https-filtering-check.adtidy.org^
 ||unpkg.com^$badfilter
+||pqruoaz4co.com^
 /pa.dajiahao*.top/
 /^.+stat\.kugou\.com/
 /^admarvel\./
@@ -178682,6 +178683,13 @@
 ||freeadultcomix.com^$badfilter
 ||imgshare.info^$badfilter
 @@||connectivitycheck.gstatic.com^$important
+||azxgujecbqaip.space^
+||bcpbebsbjbllq.space^
+||bffoytonrusbx.website^
+||dfphrjhnkilkyq.com^
+||disdubdronehexylic.qpon^
+||tmqvuslvns.com^
+||xeniasvogues.cyou^
 /(https?:\/\/)104\.154\..{100,}/
 /(https?:\/\/)104\.197\..{100,}/
 /(https?:\/\/)104\.198\..{100,}/
@@ -181351,6 +181359,11 @@
 ||zysuvysaj.pro^
 ||zzux.com^
 ||sobot.com^
+||attoursulfine.com^
+||cnqfsqelcsech.website^
+||cvmrctpmftvrq.website^
+||ridge-cdn.xyz^
+||thunderousapartment.pro^
 ||fp-upload.dun.163.com^
 ||gia.jd.com^
 ||mvconf.f.360.cn^

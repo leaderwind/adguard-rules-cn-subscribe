@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Content
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202608100621
-! Last modified: 2026-08-10T06:21:14Z
+! Version: 202608100851
+! Last modified: 2026-08-10T08:51:27Z
 ! Layers: content
 ! Mode: standard
-! Rules: 63313
+! Rules: 63327
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -9252,7 +9252,7 @@ crystalcomics.com,hardlevel.com.br,orenoraresne.com##iframe[name="__tcfapiLocato
 intelligence-console.com,anime-torrent.com##body > .totop + div[id][class*=" "]
 beaddiagrams.com##body > .big-wrapper + div[id][class*=" "]
 hao.lingganjie.com##body > #search-modal + div[id][class*=" "]
-diyprojectslab.com,italiadascoprire.net##body > .search-modal-wrap + div[id][class*=" "]
+anime-jl.top,diyprojectslab.com,italiadascoprire.net##body > .search-modal-wrap + div[id][class*=" "]
 uozzart.com,chanjaeblog.jp,luchaonline.com,nudeslegion.com,learnodo-newtonic.com##body > .site-footer ~ div[id][class*=" "]
 diarioeducacion.com,tuxnews.it,oracleerpappsguide.com###fb-root + div[id][class*=" "]
 medeberiya.net,kailaba.com,lelmak.com,sayphotobooth.com,odiadance.com,bellezashot.com,magesypro.com,pasatiemposparaimprimir.com,assignmentdon.com,berlin-teltow.de,bestofarea.com,coderblog.in,dailytips247.com,davewigstone.com,deutschpersischtv.com,domainregistrationtips.info,friedrichshainblog.de,funztv.com,healthcheckup.com,hindinest.com,infokita17.com,negative.tboys.ro,onestringlab.com,poco.rcccn.in,prensaesports.com,start-to-run.be,stimotion.pl,symboleslowianskie.pl,thegnomishgazette.com,utilidades.ecuadjsradiocorp.com,eldawly.xyz,elbadr.xyz,abda3.xyz,wisw.online,gooltok.com,cgcosplay.org,loiz.store,towerofgod.me,chevalmag.com,infinityskull.com,audiotools.blog,fattelodasolo.it,koume-in-huistenbosch.net,mens1069.com,english-dubbed.com,businessnews-nigeria.com,day4news.com,net4you.xyz,gameblog.jp,ster-blog.xyz,yazilidayim.net,pandanote.info,forexrw7.com,hyogo.ie-t.net,chatgbt.one,shrinklinker.com,felicetommasino.com,chatgptfree.ai,keroseed.net,ewybory.eu,nghetruyenma.net,azrom.net,mitaku.net,siirtolayhaber.com,japannihon.com,kllproject.lv,telephone-soudan.com###page + div[id][class]
@@ -9361,6 +9361,7 @@ youporn.com$$script:contains(/window\.[\s\S]*?_zone_[\s\S]*?{"zone_id":/)
 #@#.ads_banner
 ##.stickyads:not([style^="width: 32px"], [style^="width: 33px"], [style*="left: -43px"], [style*="-3"][style*="important"][style*="display: block;"], [style*="position: fixed"][style*="-188"], [style*="!important;"][style*="width:"][style*="height:"][style*="position"][style*="left:"][style*="top:"][style*="display"], [data-freestar-ad="123"]):not(:empty)
 ##.ads_banner:not([style^="width: 32px"], [style^="width: 33px"], [style*="left: -43px"], [style*="-3"][style*="important"][style*="display: block;"], [style*="position: fixed"][style*="-188"], [style*="!important;"][style*="width:"][style*="height:"][style*="position"][style*="left:"][style*="top:"][style*="display"]):not(:empty)
+masrawytrend.com#@#.ad-unit:not(.textads)
 tempmailhub.org##.app > div[style*="adb-fadeIn"]
 dp-vids.com###dpv-adblock-overlay
 expressnews.com#@#[name*="google_ads"]
@@ -14084,6 +14085,7 @@ wawa.info##.grid__ad
 wawa.info##.custom-html-box
 wawa.info##.adv
 wawa.info##.grid__col > .card:has(> .box > .box__container > div[id^="bills_in_"])
+wawa.info##.grid__row > .grid__col > .card--box:has(> .custom-html-box > .podawacz-spots)
 tkn24.pl,przelom.pl##.baner
 miejskireporter.pl##.mr-ad-slot
 smaki.pl##.ad-aside
@@ -14301,6 +14303,7 @@ sad24.pl##.pp-adds-under-menu
 sad24.pl##.sad24-target
 tekstowo.pl##.adv-home
 lublin112.pl##div[style="min-height: 200px"]
+lublin112.pl##.page_wrap > .container[style^="min-height:"]:has(> ins[data-revive-zoneid])
 dobreprogramy.pl##div[data-container="true"] > div:has(> div > div > img:not([alt]))
 wiadomoscihandlowe.pl##.container--break-00
 fanipogody.pl##div[id^="oa_placeholder"]
@@ -14335,12 +14338,20 @@ wieliczkacity.pl#@#A[target="_self"] > IMG
 stalowemiasto.pl#$##m-adblock { display: none !important; }
 stalowemiasto.pl#$#html.blurred { overflow: auto !important; }
 stalowemiasto.pl#$#html.blurred > body > * { filter: none !important; }
-miastorumia.pl#@#.ad
-miastorumia.pl#@#.ads
-miastorumia.pl#@#.google-ad
-miastorumia.pl##.banners
-miastorumia.pl###sidebar > a > img
-miastorumia.pl###sidebar #posts_custom_box > .content > a > img
+warszawa.in,miastorumia.pl#@#.ad
+warszawa.in,miastorumia.pl#@#.ads
+warszawa.in,miastorumia.pl#@#.google-ad
+warszawa.in,miastorumia.pl#$#body { overflow: auto !important; }
+warszawa.in,miastorumia.pl#$##adblock-info-overlay { display: none !important; }
+warszawa.in,miastorumia.pl##.banners
+warszawa.in,miastorumia.pl##header > .container > font
+warszawa.in,miastorumia.pl###sidebar > a > img
+warszawa.in,miastorumia.pl###sidebar > center > a > img
+warszawa.in,miastorumia.pl##.container > left > font
+warszawa.in,miastorumia.pl##.container > a[target="_blank"] > img
+warszawa.in,miastorumia.pl##center:has(> font ~ a[target="_blank"])
+warszawa.in,miastorumia.pl###sidebar #posts_custom_box > .content > a > img
+warszawa.in,miastorumia.pl###revive-responsive-top:has(> a[target="_blank"])
 juvepoland.com###jedynka
 miasto.in#@#.adunit
 miasto.in#$#body { overflow: auto !important; }
@@ -14432,9 +14443,9 @@ po-bandzie.com.pl#?#div[data-widget_type="theme-post-content.default"] > .elemen
 po-bandzie.com.pl#?#div[data-widget_type="theme-post-content.default"] > .elementor-widget-container > p:has(> strong:contains(/^REKLAMA/)) + p > img
 conowego.pl##a.gofollow[data-track]
 dnarynkow.pl##section[class^="banner"][class*="-spacer-"]
-infowet.pl,pulshr.pl##.sad
-infowet.pl,pulshr.pl##.sad-container
-pulshr.pl#@#[class$="-ads"]
+wiescirolnicze.pl,infowet.pl,pulshr.pl##.sad
+wiescirolnicze.pl,infowet.pl,pulshr.pl##.sad-container
+wiescirolnicze.pl,pulshr.pl#@#[class$="-ads"]
 globenergia.pl##a[data-bid][rel*="sponsored"]
 globenergia.pl#?#p.has-text-align-center:contains(/^Reklamy$/)
 40ton.net##a[href^="https://servedby.flashtalking.com/click/"]
@@ -18853,6 +18864,8 @@ animecorner.me,zarabiajprzez24.pl,watchhentai.xxx,app-how-to-use-it.com,linuxcap
 pawastreams.*,nflbite.to,footybite.to,sportschamp.fun,afly.pro,topsporter.net,soccerstreams.football,mysocceraustralia.com,rayinfosports.com,hesgoals.top,sequencecard.xyz,totalsportek.soccer,metaporky.site,nbabite.to,cyfostreams.com,gamerarcades.com,bestreamsports.org,footy.to,mcrypto.club,greaterkashmir.com###id-custom_banner
 pawastreams.*,groundedtechs.com,rayinfosports.com,sequencecard.xyz,matchtime.co,sportspellz.com,bestreamsports.org,silverspoon.site###dismiss-btn
 vi-control.net,nullforums.net,landyzone.co.uk,nullcave.pro,woxmax.com,waskucity.com,babia.to,technofino.in,reef2reef.com,minebbs.com,craxpro.io,affiliatefix.com,myiptvforum.com,hifivision.com,worldofiptv.com,altenen.is,beermoneyforum.com,germancarforum.com,cracking.org##.samBannerUnit
+velomarkt.*##.banner-horizontal
+velomarkt.*###ads-gallery
 myanimelist.net###contentWrapper ~ div[class]:not([id]):has(a.ga-click[href*="PDA"] img.ga-impression[src*="PDA"])
 myanimelist.net###headerSmall + div[class]:not([id]):has(a.ga-click[href*="PDA"] img.ga-impression[src*="PDA"])
 myanimelist.net##.widget[class*="bookstores-recommend-plugin"]
@@ -19974,9 +19987,9 @@ softpedia.com###sjmp > div.grid_48:has(> div[class^="mgtop_"]:only-child > div[i
 softpedia.com###sjmp > div.grid_48:has(> div[class^="mgtop_"]:only-child > div[id] > iframe[id^="google_ads_iframe"])
 snexplores.org##.ad-block__mq-wrapper
 getyarn.io###filtered-top
-yeon.one,bibien.tv##.r34-banner
-yeon.one,bibien.tv##.r34-overlay
-yeon.one,bibien.tv##.r34-in-content
+inverse-protocol.com,emaxilab.com,keplersociety.com,mikaboshidao.com,dazzlingcafesweets.com,yeon.one,bibien.tv##.r34-banner
+inverse-protocol.com,emaxilab.com,keplersociety.com,mikaboshidao.com,dazzlingcafesweets.com,yeon.one,bibien.tv##.r34-overlay
+inverse-protocol.com,emaxilab.com,keplersociety.com,mikaboshidao.com,dazzlingcafesweets.com,yeon.one,bibien.tv##.r34-in-content
 softpedia.com##.mgtop_50
 whoreshub.com$$script:contains(SNSPAdManager)
 russh.com##.affix-top > #unit3
@@ -20045,6 +20058,7 @@ interestingengineering.com#?#aside.t-w-full:has(> div > .t-flex > .t-flex-col > 
 interestingengineering.com#?#.t-w-full:has(> span.t-text-xs:contains(Advertisement))
 freeroms.com##p[style="margin-top: 20px; font-size: 15px;"]
 gupload.xyz##body > div[id^="vp-"]
+gupload.xyz##body > div[id][style^="position: fixed; inset: 0px; z-index: 9999;"]
 analdin.xxx##div[style^="text-align:"][style*="width: 950px;"]
 analdin.xxx###lj-container
 filecrypt.cc##.butt1ns button[onclick*="href='/Link/"]

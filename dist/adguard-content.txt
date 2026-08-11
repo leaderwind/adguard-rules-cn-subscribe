@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Content
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202608111105
-! Last modified: 2026-08-11T11:05:05Z
+! Version: 202608111155
+! Last modified: 2026-08-11T11:55:14Z
 ! Layers: content
 ! Mode: standard
-! Rules: 63348
+! Rules: 63352
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -9364,8 +9364,9 @@ youporn.com$$script:contains(/window\.[\s\S]*?_zone_[\s\S]*?{"zone_id":/)
 #@#.ads_banner
 ##.stickyads:not([style^="width: 32px"], [style^="width: 33px"], [style*="left: -43px"], [style*="-3"][style*="important"][style*="display: block;"], [style*="position: fixed"][style*="-188"], [style*="!important;"][style*="width:"][style*="height:"][style*="position"][style*="left:"][style*="top:"][style*="display"], [data-freestar-ad="123"]):not(:empty)
 ##.ads_banner:not([style^="width: 32px"], [style^="width: 33px"], [style*="left: -43px"], [style*="-3"][style*="important"][style*="display: block;"], [style*="position: fixed"][style*="-188"], [style*="!important;"][style*="width:"][style*="height:"][style*="position"][style*="left:"][style*="top:"][style*="display"]):not(:empty)
-math-aids.com###catch_message_window
 masrawytrend.com#@#.ad-unit:not(.textads)
+osmhelper.com#@#.google-ad
+math-aids.com###catch_message_window
 tempmailhub.org##.app > div[style*="adb-fadeIn"]
 dp-vids.com###dpv-adblock-overlay
 expressnews.com#@#[name*="google_ads"]
@@ -18871,6 +18872,9 @@ animecorner.me,zarabiajprzez24.pl,watchhentai.xxx,app-how-to-use-it.com,linuxcap
 pawastreams.*,nflbite.to,footybite.to,sportschamp.fun,afly.pro,topsporter.net,soccerstreams.football,mysocceraustralia.com,rayinfosports.com,hesgoals.top,sequencecard.xyz,totalsportek.soccer,metaporky.site,nbabite.to,cyfostreams.com,gamerarcades.com,bestreamsports.org,footy.to,mcrypto.club,greaterkashmir.com###id-custom_banner
 pawastreams.*,groundedtechs.com,rayinfosports.com,sequencecard.xyz,matchtime.co,sportspellz.com,bestreamsports.org,silverspoon.site###dismiss-btn
 vi-control.net,nullforums.net,landyzone.co.uk,nullcave.pro,woxmax.com,waskucity.com,babia.to,technofino.in,reef2reef.com,minebbs.com,craxpro.io,affiliatefix.com,myiptvforum.com,hifivision.com,worldofiptv.com,altenen.is,beermoneyforum.com,germancarforum.com,cracking.org##.samBannerUnit
+xhamster.com##.thumb-list > div[class^="thumbContainer-"]:has(> div:only-child > a[target="_blank"]:not([href^="https://xhamster.com"]))
+masrawytrend.com##a[href^="https://reatasesetitoefa.com"]
+masrawytrend.com###adx-interstitial
 underhentai.net#?#.row > article.post-card:has(> a[href] > div.img-wrapper > div.badge:contains(/^AD$/g))
 underhentai.net##menu > li:has(> a[href="/games/"])
 openinbox.io#?#.overflow-hidden.w-full:has(> div.text-center:contains(Advertisement))

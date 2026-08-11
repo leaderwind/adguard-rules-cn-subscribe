@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Android
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202608102349
-! Last modified: 2026-08-10T23:49:08Z
+! Version: 202608110224
+! Last modified: 2026-08-11T02:24:42Z
 ! Layers: network,content,scriptlet
 ! Mode: standard
-! Rules: 18194
+! Rules: 18193
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -16018,7 +16018,7 @@ bing.com##.b_algo:has(.b_ads1line)
 bing.com##li[class="b_algo"]:has(.b_attribution[data-partnertag]+p[class])
 bing.com##.sb_form_placeholder:has(>.ad-ghost-slug)
 bing.com###b_results > li:has(.b_adProvider)
-bing.com,~www.bing.com##.b_algo:has(p[style="display: none !important;"])
+bing.com##.b_algo:has(.sb_adTA_title_link_cn)
 bingfeng.tw###adbt
 bingfeng.tw##.wow-ad-link
 boylov.xyz,boylove.cc,boyloves.fun###fake_avivid_waterfall_webpush
@@ -16664,7 +16664,6 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com#?##content_left > d
 ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com#?##content_right > [class]:-abp-has(span[data-tuiguang])
 ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com#?##content_right > div:-abp-has(.ec-tuiguang)
 ipv6.baidu.com,xueshu.baidu.com,www.baidu.com,www1.baidu.com#?#.c-container:-abp-has(.t > a[data-landurl])
-bing.com,~www.bing.com#?#.b_algo p:-abp-properties(display: inline-block;)
 boylov.xyz,boylove.cc,boyloves.fun#?#:-abp-has(>.adsbyexoclick)
 ddooo.com#?#span:-abp-has(>p:-abp-contains(高速))
 ddooo.com#?#ul:-abp-has(>dd:-abp-contains(高速))

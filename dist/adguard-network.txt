@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Network
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202608111711
-! Last modified: 2026-08-11T17:11:11Z
+! Version: 202608111806
+! Last modified: 2026-08-11T18:06:42Z
 ! Layers: network
 ! Mode: standard
-! Rules: 47659
+! Rules: 47660
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -8343,6 +8343,7 @@ $cookie=__adblocker,domain=slate.com|thehindubusinessline.com
 ||claimfey.com/cryptonews/wp-content/uploads/bqanwcfp.js
 @@||static.trafficjunky.com/ab/ads_test.js$domain=bztube.com|hotovs.com|insuredhome.org|nudegista.com|pornluck.com|vidd.se|redtube.*|youpornru.com|tube8.com|tube8.es|tube8.fr|tube8.net|pornhub.com|pornhub.org|pornhub.net
 @@://www.exoclick.com/ads.js|
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=temp-mail.africa
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=aflamicose.com
 @@||a.pemsrv.com/popunder1000.js$domain=unicorn.edu.eu.org
 ||pearos.xyz/assets/adblock-detector.js
@@ -9728,7 +9729,7 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 ||woiden.id/dist/js/red.js
 $script,redirect-rule=noopjs,domain=zeroupload.com
 @@||zeroupload.com^$generichide
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=zeroupload.com
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,script,domain=zeroupload.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=juba-get.com
 @@||tpc.googlesyndication.com/simgad/$domain=financemonk.net
 ||sellthing.co/?advertiserId=&platform=$important,redirect=noopjs

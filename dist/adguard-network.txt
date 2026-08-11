@@ -1,8 +1,8 @@
 ! Title: AdGuard Rules CN - Network
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202608111155
-! Last modified: 2026-08-11T11:55:14Z
+! Version: 202608111339
+! Last modified: 2026-08-11T13:39:15Z
 ! Layers: network
 ! Mode: standard
 ! Rules: 47656
@@ -20692,10 +20692,9 @@ $csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: www.googletagma
 @@||ifsaembed.site^$stealth=referrer
 @@||kadolop.cfd/*.mp4$stealth=referrer
 @@.m3u8$stealth=referrer,domain=iyf.tv
-@@||fhd.*.xyz/v/*.png$stealth=referrer
 @@||player.vidmody.com^$stealth=referrer
 @@||redone.cdnserver1.online^$stealth=referrer
-@@/v/*-*/*p/*.png$stealth=referrer,media
+@@/v/*-*/*p/*.png$stealth=referrer,media,xmlhttprequest
 @@||luciferplays.com/embed/$stealth=referrer
 @@||hdmovieplay.xyz/embed/$stealth=referrer
 @@||pages.dev^$stealth=referrer
@@ -46169,6 +46168,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||591.com.tw/stats/
 ||9game.cn/stat/
 ||ac.dun.163yun.com/v2/collect?
+||aichaoxing.com/res/cx_stat.js
 ||alicdn.com/f/pcdn/i.php?
 ||api.ea3w.com/hits.js
 ||autohome.com.cn/impress?

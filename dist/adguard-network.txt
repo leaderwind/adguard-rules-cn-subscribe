@@ -1,8 +1,8 @@
 ! Title: AdGuard Rules CN - Network
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202608112300
-! Last modified: 2026-08-11T23:00:15Z
+! Version: 202608112357
+! Last modified: 2026-08-11T23:57:01Z
 ! Layers: network
 ! Mode: standard
 ! Rules: 47662
@@ -26736,6 +26736,7 @@ _800x80_
 ||capacitygrid.com^$third-party
 ||carambo.la^$third-party
 ||carbonads.com^$third-party
+||carbonatix.com^$third-party
 ||caroda.io^$third-party
 ||cdn.mcnn.pl^$third-party
 ||cdnreference.com^$third-party
@@ -34865,7 +34866,6 @@ template/m1938pc/ads/*.js
 .php?zoneid=$script
 ://ads.$popup,domain=~ad.olx.pl|~ads.mercadolibre.com.ar|~ads.mercadolibre.com.cl|~ads.mercadolibre.com.co|~ads.mercadolibre.com.ec|~ads.mercadolibre.com.mx|~ads.mercadolibre.com.pe|~ads.mercadolibre.com.ve|~ads.mercadolivre.com.br|~ads.openai.com|~ads.pandauth.com|~ads.umd.edu|~axon.ai|~kakaku.com|~reddit.com|~smartnews.com
 ://adv.$popup,domain=~adv.kompas.id|~adv.lack-girl.com
-||carbonatix.com^$third-party
 ||lockerdome.com^$third-party
 ||35.227.234.222^
 ||35.232.188.118^

@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Network
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202608111011
-! Last modified: 2026-08-11T10:11:35Z
+! Version: 202608111105
+! Last modified: 2026-08-11T11:05:05Z
 ! Layers: network
 ! Mode: standard
-! Rules: 47655
+! Rules: 47656
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -18070,6 +18070,7 @@ xxxadd.com/eureka
 ||myabandonware.com/media/img/g2a/
 ||myabandonware.com/media/img/innog/
 ||myabandonware.com/media/img/wgm/
+/_nuxt/*.js?v3|$script,domain=kaa.lt
 ||ver.gratis^$~image,domain=fulltv.com.ar|fulltv.tv|fulltv.com.mx
 ||fulltv.video^$~image,domain=fulltv.com.ar|fulltv.tv|fulltv.com.mx
 /inside-banner.mini.js$domain=irishradiolive.com|myonlineradio.at|myonlineradio.de|myonlineradio.hu|myonlineradio.nl|myonlineradio.sk|myradioendirect.fr|myradioenvivo.ar|myradioenvivo.mx|myradioonline.cl|myradioonline.es|myradioonline.it|myradioonline.pl|myradioonline.ro|ukradiolive.com

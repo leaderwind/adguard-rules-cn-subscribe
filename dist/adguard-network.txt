@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Network
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202608110224
-! Last modified: 2026-08-11T02:24:42Z
+! Version: 202608110438
+! Last modified: 2026-08-11T04:38:06Z
 ! Layers: network
 ! Mode: standard
-! Rules: 47657
+! Rules: 47652
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -347,6 +347,7 @@ $script,xmlhttprequest,third-party,domain=00ksw.com|01zww.com|0biquge.com|114zw.
 ||gamersky.com/web/getJS?url=*.gamersky.com*banner
 ||scriptcat.org/api/*/advertise?
 ||yilufff.com^$domain=xiaoaimh.com
+||sdk.tvbs.com.tw/ad/v*/ad-sdk.min.js
 ||pic.deueza.cn/*.gif$domain=mqoeomads.cc
 ||zudns.cn/uploads/*.gif$image,domain=tcptest.cn
 ||newtalk.tw/js/ad/
@@ -9035,8 +9036,6 @@ $script,redirect-rule=prebid-ads,domain=read.amazon.*
 @@||googleads.g.doubleclick.net/pagead/html/*/zrt_lookup_nohtml_fy2021.html$domain=alliptvlinks.com
 @@||googleads.g.doubleclick.net/pagead/html/*/zrt_lookup_inhead_fy2021.html$domain=alliptvlinks.com
 @@||pagead2.googlesyndication.com/pagead/managed/js/adsense/*/show_ads_impl_fy2021.js$domain=alliptvlinks.com
-@@||static.surfe.pro/js/net.js$domain=webeducate.top
-@@||googletagmanager.com/gtm.js$domain=webeducate.top
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=tunein.com
 @@||imasdk.googleapis.com/pal/sdkloader/pal.js$domain=tunein.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=soninow.com
@@ -9816,7 +9815,6 @@ $script,xmlhttprequest,redirect-rule=noopjs,domain=freesolana.top
 ||static.surfe.pro/js/net.js$script,xmlhttprequest,redirect=nooptext,domain=freebitcoin.top
 @@||static.surfe.pro/js/net.js$domain=freebitcoin.top
 @@||pagead2.googlesyndication.com/pagead/show_ads.js$domain=cdgplayer.youfiles.net
-@@||allarewin.space/assets/ads-*.js
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=hackr.io
 @@||r3owners.net^$generichide
 @@||racedepartment.com^$generichide
@@ -10718,9 +10716,6 @@ $script,redirect-rule=noopjs,domain=vidmoly.biz|vidmoly.me|vidmoly.net|vidmoly.t
 @@.png#-$domain=pharmaguideline.com
 @@||veedi.com/*/js/ads/advert.js
 @@||v.fwmrm.net/ad/g/1$domain=uktvplay.uktv.co.uk|uktvplay.co.uk
-@@||ktmx.pro^$generichide
-@@.jpg#$domain=ktmx.pro
-@@||simulatedapeminer.com^$generichide
 @@||bc.vc/fly/ads.js
 @@||mediaite.com/*/adsbygoogle.js
 @@||getfreesmsnumber.com^$generichide

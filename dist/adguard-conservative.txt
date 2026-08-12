@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Conservative
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202608120640
-! Last modified: 2026-08-12T06:40:37Z
+! Version: 202608120838
+! Last modified: 2026-08-12T08:38:48Z
 ! Layers: network,content,scriptlet
 ! Mode: conservative
-! Rules: 108487
+! Rules: 108492
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -40723,6 +40723,8 @@ leeapk.com#$##acrp-adb-overlay { display: none !important; }
 leeapk.com#$#.acrp-adb-blur { overflow: auto !important; pointer-events: auto !important; }
 mods.to###detect-block
 athlete-insurance.com###kk-adblock-overlay
+freemagazines.top#$##ublock-detector-modal { display: none !important; }
+freemagazines.top#$#html > body:not(#style_important) { overflow: auto !important; pointer-events: auto !important; }
 rtl.hr#$?##adblock { remove: true; }
 stfly.biz,dailyjobposting.xyz,tournguide.com,technons.com,jobnoid.net,shrtslug.biz#@#.ad-unit:not(.textads)
 stfly.biz,dailyjobposting.xyz,tournguide.com,technons.com,jobnoid.net,shrtslug.biz#@#.ad_wrapper
@@ -45273,6 +45275,7 @@ skmedix.pl,interia.pl,trojmiasto.pl,js.iplsc.com,pomponik.pl,posty.pl,zalajkowan
 skmedix.pl,interia.pl,trojmiasto.pl,js.iplsc.com,pomponik.pl,posty.pl,zalajkowane.pl,kulinarnapolska.org,wroclawskiejedzenie.pl,innpoland.pl,mywrestling.com.pl,andek.com.pl,smartage.pl,joemonster.org,tajemnice-swiata.pl,naszraciborz.pl,natemat.pl,stadionowioprawcy.net,fortnitepolska.pl,sadistic.pl,napisy24.pl,mamadu.pl,towideo.pl,forsal.pl,kresy.pl,mambiznes.pl,prnews.pl,weszlo.com,dziwneobrazki.pl#@#.text_ad
 skmedix.pl,interia.pl,trojmiasto.pl,js.iplsc.com,pomponik.pl,posty.pl,zalajkowane.pl,kulinarnapolska.org,wroclawskiejedzenie.pl,innpoland.pl,mywrestling.com.pl,andek.com.pl,smartage.pl,joemonster.org,tajemnice-swiata.pl,naszraciborz.pl,natemat.pl,stadionowioprawcy.net,fortnitepolska.pl,sadistic.pl,napisy24.pl,mamadu.pl,towideo.pl,forsal.pl,kresy.pl,mambiznes.pl,prnews.pl,weszlo.com,dziwneobrazki.pl#@#.text_ads
 roweroweporady.pl#@#.ad_container
+quizowa.pl##div[class^="main-box"]:has(> .adsbygoogle)
 globenergia.pl##div[id^="globe-"]
 popkulturowcy.pl###custom-main-ad
 klubzwierzaki.pl##.art .lazyload-wrapper:has(.close + div[class] > a[href="/twoja-prywatnosc"])
@@ -49958,6 +49961,9 @@ animecorner.me,zarabiajprzez24.pl,watchhentai.xxx,app-how-to-use-it.com,linuxcap
 pawastreams.*,nflbite.to,footybite.to,sportschamp.fun,afly.pro,topsporter.net,soccerstreams.football,mysocceraustralia.com,rayinfosports.com,hesgoals.top,sequencecard.xyz,totalsportek.soccer,metaporky.site,nbabite.to,cyfostreams.com,gamerarcades.com,bestreamsports.org,footy.to,mcrypto.club,greaterkashmir.com###id-custom_banner
 pawastreams.*,groundedtechs.com,rayinfosports.com,sequencecard.xyz,matchtime.co,sportspellz.com,bestreamsports.org,silverspoon.site###dismiss-btn
 vi-control.net,nullforums.net,landyzone.co.uk,nullcave.pro,woxmax.com,waskucity.com,babia.to,technofino.in,reef2reef.com,minebbs.com,craxpro.io,affiliatefix.com,myiptvforum.com,hifivision.com,worldofiptv.com,altenen.is,beermoneyforum.com,germancarforum.com,cracking.org##.samBannerUnit
+drtuber.desi,drtuber.com,drtuber.*###vb_rvt_2
+drtuber.desi,drtuber.com,drtuber.*##.wrapper_frame
+drtuber.desi,drtuber.com,drtuber.*##a[href*="drtuber.com/linkout/"]
 coinadster.com##body .banner-container
 coinadster.com##.cx-dash > div[style^="background:"]:has(> #ad_unit)
 jobfound.org##div.list-none > div.w-full:has(ins.adsbygoogle)
@@ -50095,8 +50101,7 @@ thescottishsun.co.uk,thesun.ie##.module--1-billboard
 greatandhra.com##.shp-layer
 uindex.org##body > [id][class*=" "]:has(> a[target="_blank"])
 moviebite.cc##.site-ad-banner
-nuvid.tv##.header_premium_bar
-nuvid.tv##.header_roulette_button
+drtuber.desi,drtuber.com,drtuber.*,nuvid.tv##.header_roulette_button
 nuvid.tv##.ID_live_cam_inner
 nuvid.tv##.footer-live-cam
 sdc.com##a[href^="https://mysteryvibe.com/"]
@@ -50207,7 +50212,6 @@ tubeon.com,tubeon.net##div[class^="adv-"]
 tubeon.comtubeon.net##.thumb-link-rounded
 tubeon.com,tubeon.net##section > div.container:has(> div#spot_video_livecams)
 tubeon.com,tubeon.net##.cams-opener
-tubeon.com,tubeon.net##.header_premium_bar
 tubeon.com,tubeon.net###spot_video_underplayer_livecams
 tubeon.com,tubeon.net##a[href^="https://go.xliiirdr.com/"]
 tubeon.com,tubeon.net##a[href^="https://fhgte.com/"]
@@ -50553,8 +50557,8 @@ yeptube.*##.player-live-title
 yeptube.*###spot_video_underplayer_livecams
 yeptube.*##.main-frame > section:has(> div.container > div#spot_video_livecams)
 yeptube.*##.cams
-yeptube.*##.header_premium_bar
 yeptube.*##.navbar-pages > li.navbar-page:has(> a[href][target="_blank"][rel="nofollow"])
+drtuber.desi,drtuber.com,drtuber.*,nuvid.tv,tubeon.com,tubeon.net,yeptube.*##.header_premium_bar
 ebaumsworld.com##.large-ad-space
 thebaynet.com##a[href="https://www.owingsautomotive.com/"]
 thebaynet.com##a[href^="https://www.princegeorgescountymd.gov/"]
@@ -51790,8 +51794,8 @@ pornlib.com##div[id^="lcams"]
 pornlib.com##.spots
 pornlib.com##.row_content:has(> div:only-child > .spots:only-child)
 pornlib.com##.aside_content > div.row_content:has(> div.wrap_container > div.spots)
-pornlib.com##.spot-live-cam
 pornlib.com##.twocolumns > div.wrapper_content:has(> div.row_container div.live_cams_iframe)
+drtuber.desi,drtuber.com,drtuber.*,pornlib.com##.spot-live-cam
 uniteapi.dev##main > div[class*=" "] > div[class^="sc-"]:first-child:empty
 uniteapi.dev##main > div[class*=" "] > div[class^="sc-"]:has(> div:only-child > div[id^="nn_lb"])
 gpblog.com##.raw-html-component:has(> script[src*="aniview.com/"])
@@ -59928,8 +59932,8 @@ torlock2.com##article > table.hidden-xs[style^="padding-bottom:"]
 tutcourse.com###stream-item-widget-4
 ovagames.com###adter
 yespornpleasexxx.com##iframe[src^="https://creative.alxbgo.com/"]
+drtuber.desi,drtuber.com,drtuber.*##.livecams_main
 drtuber.desi##.aside_panel_video > div[class="heading fh"]
-drtuber.desi##.livecams_main
 drtuber.desi##div[class="footer f_width"] > div.item_box
 shootup.io###main-wrap > #left-wrap
 shootup.io###main-wrap > #bottom-wrap
@@ -93551,6 +93555,7 @@ javbus.com##.container-fluid:nth-child(9) > .row > .ad-list:nth-child(3)
 ##div.page.list div.small-icon-container
 ##DIV.swiper-container.swiper-container-horizontal.swiper-container-ios.swiper-container-wp8-horizontal.swiper-container-initialized.swiper-container-android
 ##div.pannel > div.grid
+##div.footer-area.mobile DIV#banner_container
 ##div.page-d.page-turn > [style='position: relative; margin: auto; clear: both; width: 300px;']
 ##body.__amp.amp-mode-touch IFRAME[frameborder='0'][framespacing='0']
 ##DIV.small-icon-container.is_mb

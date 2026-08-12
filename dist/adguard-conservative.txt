@@ -1,8 +1,8 @@
 ! Title: AdGuard Rules CN - Conservative
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202608112357
-! Last modified: 2026-08-11T23:57:01Z
+! Version: 202608120241
+! Last modified: 2026-08-12T02:41:53Z
 ! Layers: network,content,scriptlet
 ! Mode: conservative
 ! Rules: 108493
@@ -83434,6 +83434,7 @@ medievalists.net##.Mnet_TopLeft_970x250
 wired.com##.MobileProductCardOuter-kMqsSf
 autonocion.com##.Mobile_Bottom
 autonocion.com##.Mobile_Top
+pastpapers.co##.MuiBox-root:has(> .adsbygoogle)
 ahaan.co.uk##.MuiSnackbar-anchorOriginBottomCenter
 news18.com##.NAT_add
 business-standard.com##.Nws_banner_Hp
@@ -88291,6 +88292,7 @@ ppv.cx##[href="https://duel.com/r/PPV"]
 spys.one##[href="https://fineproxy.org/ru/"]
 julieroys.com##[href="https://julieroys.com/restore"]
 conservativeplaybook.com##[href="https://ourgoldguy.com/contact/"]
+pastpapers.co##[href="https://papafy.com"]
 fijivillage.com##[href="https://psh.com.fj/cardiac/"]
 bioinformant.com##[href="https://regenevive.com/bioinformant/%20"]
 davidwalsh.name##[href="https://requestmetrics.com/"]
@@ -95392,12 +95394,10 @@ yatu.tv##.dplayer-web-fullscreen-fix #tburl,#loadtop,[id^=myas],#myds1,#daohang
 ##.ad-unit
 ##[class^="div-gpt-ad"]
 cyberchef.org###workspace-wrapper > [id][style*="height"] {height: 100% !important}
-pastpapers.co##.MuiBox-root:has(> .adsbygoogle)
 complex.com##.\[\@media\(min-width\:520px\)\]\:px-\[20px\]
 justjared.com##.banner-spacer-top {max-height: 50px !important;}
 temp-mail.io##.fixed.bottom-0.\[\@media\(max-width\:1350px\)\]\:hidden
 complex.com##.lg\:top-\[var\(--sticky-top\)\]
-pastpapers.co##[href="https://papafy.com"]
 justjared.com##[role="banner"] {top:0 !important}
 deliveroo.*#?#a[role="button"]:has(p:has-text(Sponsored))
 deliveroo.*#?#div[class^="HomeFeedScrollTracker-"]:has(span[class^="HomeFeedUILines-"]:has-text(Sponsored))

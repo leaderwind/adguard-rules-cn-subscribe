@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Network
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202608120241
-! Last modified: 2026-08-12T02:41:53Z
+! Version: 202608120459
+! Last modified: 2026-08-12T04:59:08Z
 ! Layers: network
 ! Mode: standard
-! Rules: 47662
+! Rules: 47656
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -6024,7 +6024,7 @@ meijutt.*/js/pcjs/
 ||ifeng.com/relateshare?
 ||lancdn.com/public/images/view/Tencent-
 ||5dm.*/ggjpg/
-||cdxyspa.com/js/e
+||yuntu68.com/imgcimo/
 ||layuion.com/get/showcase/
 ||xxir.com/static/images/ad.
 ||7wzx9.com/tbad.
@@ -7131,7 +7131,6 @@ wss://*.*.top/$third-party
 /themes/default/wap/images/douyin.gif
 .com/config/v7.js
 .org/config/v7.js
-||wanmeisxs.cc/js/m.
 ||biqugie.com/js/wap.
 ||qingxinwx.*/static/xbiquge/js/wap.
 /static/fushuba/js/wap.js
@@ -10730,7 +10729,6 @@ $script,redirect-rule=noopjs,domain=vidmoly.biz|vidmoly.me|vidmoly.net|vidmoly.t
 @@||camhub.world/player/player_ads.html
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=classicalradio.com|di.fm|jazzradio.com|radiotunes.com|rockradio.com|zenradio.com
 @@||newser.com/javascript/*/adblock.js
-@@||rulu.co/*.php$generichide
 ||pubads.g.doubleclick.net/gampad/live/ads?correlator=$replace=/(<VAST[\s\S]*?>)[\s\S]*<\/VAST>/\$1<\/VAST>/
 @@||gvt1.com/videoplayback/id/*/source/gfp_video_ads/*/file.mp4$domain=rx.iscdn.net
 @@||pubads.g.doubleclick.net/gampad/live/ads?correlator=$domain=rx.iscdn.net
@@ -10836,8 +10834,6 @@ $script,redirect-rule=noopjs,domain=vidmoly.biz|vidmoly.me|vidmoly.net|vidmoly.t
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=theappstore.org
 @@||porkyfap.org^$generichide
 @@||webcache.googleusercontent.com^$generichide
-@@||mx-sh.net/advertisements.js
-@@||mx-sh.net^$generichide
 @@||lingolex.com^$generichide
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=thelibertydaily.com
 @@||geoguessr.com/_ads/
@@ -20483,7 +20479,7 @@ $csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: www.googletagma
 @@.m3u8$xmlhttprequest,stealth=referrer,domain=roxiestreams.*
 @@.js$xmlhttprequest,stealth=referrer,domain=roxiestreams.*
 @@||ataide0.pingbash.com/$stealth=referrer,domain=roxiestreams.su
-@@/^https:\/\/imgbb.zip\/ib\/[a-z0-9]{15}_[0-9]{10}\.jpg$/$image,third-party,stealth=referrer,domain=rogmovies.*|xprimehub.*|vegamovies.*|vegamovies.catering|rogmovies.cv|xprimehub.bond
+@@/^https:\/\/imgbb.zip\/ib\/[a-z0-9]{15}_[0-9]{10}\.jpg$/$image,third-party,stealth=referrer,domain=rogmovies.*|xprimehub.*|vegamovies.*|1vegamovies.cc|rogmovies.cv|xprimehub.bond
 @@||account.deezer.com/$stealth=flash
 @@.jpg|$third-party,xmlhttprequest,stealth=referrer,domain=embdmstrplayer.com
 @@.m3u8|$stealth=referrer,domain=embdmstrplayer.com
@@ -22702,7 +22698,6 @@ cdn.braun634.com^$third-party
 @@||sgpics.net^$generichide
 @@||tsd.mdn.world^$generichide
 @@||ontools.net^$generichide
-@@||miauscan.com^$generichide
 @@||netcine.*^$generichide
 @@||cheaterboss.com^$generichide
 @@||cryptorotator.website^$generichide
@@ -23375,7 +23370,6 @@ cdn.braun634.com^$third-party
 @@||projetomotog.blogspot.com^$generichide
 @@||promotionbasis.de^$generichide
 @@||radiotormentamx.com^$generichide
-@@||rulu.co^$generichide
 @@||sacheats.com^$generichide
 @@||satoshilabs.net^$generichide
 @@||softmaroc.org^$generichide

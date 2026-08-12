@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - DNS
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202608120838
-! Last modified: 2026-08-12T08:38:48Z
+! Version: 202608121019
+! Last modified: 2026-08-12T10:19:15Z
 ! Layers: dns
 ! Mode: standard
-! Rules: 218469
+! Rules: 218500
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -179359,6 +179359,7 @@
 ||zzy1.quyaoya.com^
 ||zzycj.com^
 ||zzz.onion.pet^
+||bickiron84.com^
 ||piguiqproxy.com^$badfilter
 /wp-content/plugins/gplinks-flow/assets/js/flow.js|$replace=/var shown = false;/return;/
 /^https:\/\/[0-9a-z]+\.xyz\/rinku\/land/$document,~third-party,match-case,replace=/const proxyStatus = "Y";/const proxyStatus = "N";/
@@ -179387,6 +179388,23 @@
 ||freeadultcomix.com^$badfilter
 ||imgshare.info^$badfilter
 @@||connectivitycheck.gstatic.com^$important
+||b9pp2klnk46jly5.rest^
+||behymnendings.cyou^
+||chievegambian.cyou^
+||fugmotts.cyou^
+||giltenmacram.cfd^
+||hippenlucre.shop^
+||hoodedhokumsmealier.cyou^
+||huggingmixhill.qpon^
+||ikoxmfjaxqbox.com^
+||jonglemmerbaby.cfd^
+||knaveryclithe.com^
+||moxgokgaqemwp.online^
+||mthnulmutizgj.site^
+||surpassjaypiet.com^
+||telembiiranism.cfd^
+||vftf7wvelt2mcjt9wew1kb.cfd^
+||xorxfgokyiygg.online^
 /(https?:\/\/)104\.154\..{100,}/
 /(https?:\/\/)104\.197\..{100,}/
 /(https?:\/\/)104\.198\..{100,}/
@@ -181894,6 +181912,19 @@
 ||zysuvysaj.pro^
 ||zzux.com^
 ||sobot.com^
+||azolesoutleap.cfd^
+||bpqanwlgtaajm.site^
+||cumbersomeassistance.com^
+||dauntonrocklet.shop^
+||dvandvamesivta.qpon^
+||jpdciphmbk.com^
+||loquatsbilker.cfd^
+||quetschanise.qpon^
+||sacrifystereid.cyou^
+||sudarypease.cfd^
+||ullabequest.cfd^
+||xsqltdwuccamf.space^
+||ywjpthwoddmos.space^
 ||fp-upload.dun.163.com^
 ||gia.jd.com^
 ||mvconf.f.360.cn^

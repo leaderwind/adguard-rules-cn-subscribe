@@ -1,8 +1,8 @@
 ! Title: AdGuard Rules CN - Android
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202608120459
-! Last modified: 2026-08-12T04:59:08Z
+! Version: 202608120640
+! Last modified: 2026-08-12T06:40:37Z
 ! Layers: network,content,scriptlet
 ! Mode: standard
 ! Rules: 18198
@@ -7638,7 +7638,6 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###content_left > .r
 ##body[onresize="stopDebugger()"][onbeforecopy="return!1"] > div#root div:has(> img[src$=".gif"])
 ##body[onresize="stopDebugger()"][onbeforecopy="return!1"] > div#root div.m0auto > div > div.grid + div > div:empty
 applealmond.com##.gam-frame
-twword.com##.gadBlock
 housefeel.com.tw#$#body { overflow: auto !important; }
 housefeel.com.tw#$#.retentionModal { display: none !important; }
 housefeel.com.tw##a.cursor-pointer:has(img[src^="https://console.images.stockfeelgroup.com/ads/"])
@@ -10363,6 +10362,7 @@ docin.com##.mini-series-container
 manhuapica.com##a[href^="/ad/"]
 nodeseek.com##.promotation-item
 gx.cn###html-box-AD
+twword.com##.gadBlock
 mydrivers.com##.jdong1div_double
 mydrivers.com##._bg
 mydrivers.com#?#li:has(>.titl+:contains(/好\s*物/))

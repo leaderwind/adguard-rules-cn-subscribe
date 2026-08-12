@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Network
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202608121019
-! Last modified: 2026-08-12T10:19:15Z
+! Version: 202608121157
+! Last modified: 2026-08-12T11:57:30Z
 ! Layers: network
 ! Mode: standard
-! Rules: 47657
+! Rules: 47659
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -8342,6 +8342,7 @@ $cookie=__adblocker,domain=slate.com|thehindubusinessline.com
 ||claimfey.com/cryptonews/wp-content/uploads/bqanwcfp.js
 @@||static.trafficjunky.com/ab/ads_test.js$domain=bztube.com|hotovs.com|insuredhome.org|nudegista.com|pornluck.com|vidd.se|redtube.*|youpornru.com|tube8.com|tube8.es|tube8.fr|tube8.net|pornhub.com|pornhub.org|pornhub.net
 @@://www.exoclick.com/ads.js|
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=tvbanywherena.com
 @@^probe=$script,domain=coinadster.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=temp-mail.africa
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=aflamicose.com
@@ -14057,6 +14058,7 @@ _ad_content.
 /getStartPageAds
 /getads?
 /tghr.js$script
+/btag.min.js
 /wp-content/plugins/1shortlink/*
 /link.php?cat=&idzone=$all
 /embed/*?c=object_container*&psid=

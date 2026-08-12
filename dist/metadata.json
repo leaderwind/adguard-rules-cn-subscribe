@@ -1,6 +1,6 @@
 {
-  "version": "202608121711",
-  "generated_at_utc": "2026-08-12T17:11:05Z",
+  "version": "202608121807",
+  "generated_at_utc": "2026-08-12T18:07:09Z",
   "outputs": [
     {
       "id": "dns",
@@ -10,14 +10,14 @@
         "dns"
       ],
       "mode": "standard",
-      "rules": 218598,
+      "rules": 218630,
       "selected_upstreams": 16,
       "successful_upstreams": 15,
       "preserved_previous": false,
       "cross_layer_removed_pure_domains": 0,
       "compression": {
-        "dns_before_compression": 289261,
-        "dns_after_compression": 218598,
+        "dns_before_compression": 289293,
+        "dns_after_compression": 218630,
         "dns_removed_by_parent_domain": 55305,
         "dns_removed_by_allow": 7078,
         "dns_allow_rules": 8280
@@ -123,13 +123,13 @@
           "name": "AdGuard Base filter",
           "url": "https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_2_Base/filter.txt",
           "ok": true,
-          "input_lines": 158384,
-          "kept": 2632,
-          "duplicates": 50759,
-          "ignored": 104993,
+          "input_lines": 158407,
+          "kept": 2646,
+          "duplicates": 50763,
+          "ignored": 104998,
           "routed_to_dns": 0,
           "classified": {
-            "dns": 53037,
+            "dns": 53055,
             "network": 0,
             "content": 0,
             "scriptlet": 0
@@ -251,13 +251,13 @@
           "name": "EasyList",
           "url": "https://easylist-downloads.adblockplus.org/easylist.txt",
           "ok": true,
-          "input_lines": 77982,
-          "kept": 3,
-          "duplicates": 44024,
+          "input_lines": 78014,
+          "kept": 21,
+          "duplicates": 44038,
           "ignored": 33955,
           "routed_to_dns": 0,
           "classified": {
-            "dns": 44026,
+            "dns": 44058,
             "network": 0,
             "content": 0,
             "scriptlet": 0
@@ -341,14 +341,14 @@
         "dns"
       ],
       "mode": "standard",
-      "rules": 218598,
+      "rules": 218630,
       "selected_upstreams": 16,
       "successful_upstreams": 15,
       "preserved_previous": false,
       "cross_layer_removed_pure_domains": 0,
       "compression": {
-        "dns_before_compression": 289261,
-        "dns_after_compression": 218598,
+        "dns_before_compression": 289293,
+        "dns_after_compression": 218630,
         "dns_removed_by_parent_domain": 55305,
         "dns_removed_by_allow": 7078,
         "dns_allow_rules": 8280
@@ -454,13 +454,13 @@
           "name": "AdGuard Base filter",
           "url": "https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_2_Base/filter.txt",
           "ok": true,
-          "input_lines": 158384,
-          "kept": 2632,
-          "duplicates": 50759,
-          "ignored": 104993,
+          "input_lines": 158407,
+          "kept": 2646,
+          "duplicates": 50763,
+          "ignored": 104998,
           "routed_to_dns": 0,
           "classified": {
-            "dns": 53037,
+            "dns": 53055,
             "network": 0,
             "content": 0,
             "scriptlet": 0
@@ -582,13 +582,13 @@
           "name": "EasyList",
           "url": "https://easylist-downloads.adblockplus.org/easylist.txt",
           "ok": true,
-          "input_lines": 77982,
-          "kept": 3,
-          "duplicates": 44024,
+          "input_lines": 78014,
+          "kept": 21,
+          "duplicates": 44038,
           "ignored": 33955,
           "routed_to_dns": 0,
           "classified": {
-            "dns": 44026,
+            "dns": 44058,
             "network": 0,
             "content": 0,
             "scriptlet": 0
@@ -741,16 +741,16 @@
           "name": "AdGuard Base filter",
           "url": "https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_2_Base/filter.txt",
           "ok": true,
-          "input_lines": 158384,
+          "input_lines": 158407,
           "kept": 52176,
           "duplicates": 762,
-          "ignored": 21026,
-          "routed_to_dns": 53037,
+          "ignored": 21029,
+          "routed_to_dns": 53055,
           "classified": {
-            "dns": 53037,
-            "network": 26163,
+            "dns": 53055,
+            "network": 26164,
             "content": 52182,
-            "scriptlet": 5220
+            "scriptlet": 5221
           },
           "cross_layer_removed": 0,
           "error": null
@@ -836,13 +836,13 @@
           "name": "EasyList",
           "url": "https://easylist-downloads.adblockplus.org/easylist.txt",
           "ok": true,
-          "input_lines": 77982,
+          "input_lines": 78014,
           "kept": 324,
           "duplicates": 24097,
           "ignored": 249,
-          "routed_to_dns": 44026,
+          "routed_to_dns": 44058,
           "classified": {
-            "dns": 44026,
+            "dns": 44058,
             "network": 9286,
             "content": 24420,
             "scriptlet": 0
@@ -888,7 +888,7 @@
         "network"
       ],
       "mode": "standard",
-      "rules": 47663,
+      "rules": 47664,
       "selected_upstreams": 10,
       "successful_upstreams": 10,
       "preserved_previous": false,
@@ -957,16 +957,16 @@
           "name": "AdGuard Base filter",
           "url": "https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_2_Base/filter.txt",
           "ok": true,
-          "input_lines": 158384,
-          "kept": 26144,
+          "input_lines": 158407,
+          "kept": 26145,
           "duplicates": 775,
-          "ignored": 21026,
-          "routed_to_dns": 53037,
+          "ignored": 21029,
+          "routed_to_dns": 53055,
           "classified": {
-            "dns": 53037,
-            "network": 26163,
+            "dns": 53055,
+            "network": 26164,
             "content": 52182,
-            "scriptlet": 5220
+            "scriptlet": 5221
           },
           "cross_layer_removed": 0,
           "error": null
@@ -1052,13 +1052,13 @@
           "name": "EasyList",
           "url": "https://easylist-downloads.adblockplus.org/easylist.txt",
           "ok": true,
-          "input_lines": 77982,
+          "input_lines": 78014,
           "kept": 21,
           "duplicates": 9266,
           "ignored": 249,
-          "routed_to_dns": 44026,
+          "routed_to_dns": 44058,
           "classified": {
-            "dns": 44026,
+            "dns": 44058,
             "network": 9286,
             "content": 24420,
             "scriptlet": 0
@@ -1104,7 +1104,7 @@
         "scriptlet"
       ],
       "mode": "standard",
-      "rules": 5518,
+      "rules": 5519,
       "selected_upstreams": 10,
       "successful_upstreams": 10,
       "preserved_previous": false,
@@ -1173,16 +1173,16 @@
           "name": "AdGuard Base filter",
           "url": "https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_2_Base/filter.txt",
           "ok": true,
-          "input_lines": 158384,
-          "kept": 5219,
+          "input_lines": 158407,
+          "kept": 5220,
           "duplicates": 757,
-          "ignored": 21026,
-          "routed_to_dns": 53037,
+          "ignored": 21029,
+          "routed_to_dns": 53055,
           "classified": {
-            "dns": 53037,
-            "network": 26163,
+            "dns": 53055,
+            "network": 26164,
             "content": 52182,
-            "scriptlet": 5220
+            "scriptlet": 5221
           },
           "cross_layer_removed": 0,
           "error": null
@@ -1268,13 +1268,13 @@
           "name": "EasyList",
           "url": "https://easylist-downloads.adblockplus.org/easylist.txt",
           "ok": true,
-          "input_lines": 77982,
+          "input_lines": 78014,
           "kept": 0,
           "duplicates": 1,
           "ignored": 249,
-          "routed_to_dns": 44026,
+          "routed_to_dns": 44058,
           "classified": {
-            "dns": 44026,
+            "dns": 44058,
             "network": 9286,
             "content": 24420,
             "scriptlet": 0
@@ -1464,7 +1464,7 @@
         "scriptlet"
       ],
       "mode": "standard",
-      "rules": 116491,
+      "rules": 116493,
       "selected_upstreams": 9,
       "successful_upstreams": 9,
       "preserved_previous": false,
@@ -1533,16 +1533,16 @@
           "name": "AdGuard Base filter",
           "url": "https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_2_Base/filter.txt",
           "ok": true,
-          "input_lines": 158384,
-          "kept": 83539,
+          "input_lines": 158407,
+          "kept": 83541,
           "duplicates": 782,
-          "ignored": 21026,
-          "routed_to_dns": 53037,
+          "ignored": 21029,
+          "routed_to_dns": 53055,
           "classified": {
-            "dns": 53037,
-            "network": 26163,
+            "dns": 53055,
+            "network": 26164,
             "content": 52182,
-            "scriptlet": 5220
+            "scriptlet": 5221
           },
           "cross_layer_removed": 0,
           "error": null
@@ -1609,13 +1609,13 @@
           "name": "EasyList",
           "url": "https://easylist-downloads.adblockplus.org/easylist.txt",
           "ok": true,
-          "input_lines": 77982,
+          "input_lines": 78014,
           "kept": 345,
           "duplicates": 33362,
           "ignored": 249,
-          "routed_to_dns": 44026,
+          "routed_to_dns": 44058,
           "classified": {
-            "dns": 44026,
+            "dns": 44058,
             "network": 9286,
             "content": 24420,
             "scriptlet": 0
@@ -1663,7 +1663,7 @@
         "scriptlet"
       ],
       "mode": "standard",
-      "rules": 116491,
+      "rules": 116493,
       "selected_upstreams": 9,
       "successful_upstreams": 9,
       "preserved_previous": false,
@@ -1732,16 +1732,16 @@
           "name": "AdGuard Base filter",
           "url": "https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_2_Base/filter.txt",
           "ok": true,
-          "input_lines": 158384,
-          "kept": 83539,
+          "input_lines": 158407,
+          "kept": 83541,
           "duplicates": 782,
-          "ignored": 21026,
-          "routed_to_dns": 53037,
+          "ignored": 21029,
+          "routed_to_dns": 53055,
           "classified": {
-            "dns": 53037,
-            "network": 26163,
+            "dns": 53055,
+            "network": 26164,
             "content": 52182,
-            "scriptlet": 5220
+            "scriptlet": 5221
           },
           "cross_layer_removed": 0,
           "error": null
@@ -1808,13 +1808,13 @@
           "name": "EasyList",
           "url": "https://easylist-downloads.adblockplus.org/easylist.txt",
           "ok": true,
-          "input_lines": 77982,
+          "input_lines": 78014,
           "kept": 345,
           "duplicates": 33362,
           "ignored": 249,
-          "routed_to_dns": 44026,
+          "routed_to_dns": 44058,
           "classified": {
-            "dns": 44026,
+            "dns": 44058,
             "network": 9286,
             "content": 24420,
             "scriptlet": 0
@@ -1862,7 +1862,7 @@
         "scriptlet"
       ],
       "mode": "conservative",
-      "rules": 108518,
+      "rules": 108519,
       "selected_upstreams": 10,
       "successful_upstreams": 10,
       "preserved_previous": false,
@@ -1931,16 +1931,16 @@
           "name": "AdGuard Base filter",
           "url": "https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_2_Base/filter.txt",
           "ok": true,
-          "input_lines": 158384,
-          "kept": 75836,
+          "input_lines": 158407,
+          "kept": 75837,
           "duplicates": 781,
-          "ignored": 28730,
-          "routed_to_dns": 53037,
+          "ignored": 28734,
+          "routed_to_dns": 53055,
           "classified": {
-            "dns": 53037,
-            "network": 26163,
+            "dns": 53055,
+            "network": 26164,
             "content": 52182,
-            "scriptlet": 5220
+            "scriptlet": 5221
           },
           "cross_layer_removed": 0,
           "error": null
@@ -2026,13 +2026,13 @@
           "name": "EasyList",
           "url": "https://easylist-downloads.adblockplus.org/easylist.txt",
           "ok": true,
-          "input_lines": 77982,
+          "input_lines": 78014,
           "kept": 345,
           "duplicates": 33359,
           "ignored": 252,
-          "routed_to_dns": 44026,
+          "routed_to_dns": 44058,
           "classified": {
-            "dns": 44026,
+            "dns": 44058,
             "network": 9286,
             "content": 24420,
             "scriptlet": 0
@@ -2080,7 +2080,7 @@
         "scriptlet"
       ],
       "mode": "aggressive",
-      "rules": 116580,
+      "rules": 116582,
       "selected_upstreams": 10,
       "successful_upstreams": 10,
       "preserved_previous": false,
@@ -2149,16 +2149,16 @@
           "name": "AdGuard Base filter",
           "url": "https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_2_Base/filter.txt",
           "ok": true,
-          "input_lines": 158384,
-          "kept": 83539,
+          "input_lines": 158407,
+          "kept": 83541,
           "duplicates": 782,
-          "ignored": 21026,
-          "routed_to_dns": 53037,
+          "ignored": 21029,
+          "routed_to_dns": 53055,
           "classified": {
-            "dns": 53037,
-            "network": 26163,
+            "dns": 53055,
+            "network": 26164,
             "content": 52182,
-            "scriptlet": 5220
+            "scriptlet": 5221
           },
           "cross_layer_removed": 0,
           "error": null
@@ -2244,13 +2244,13 @@
           "name": "EasyList",
           "url": "https://easylist-downloads.adblockplus.org/easylist.txt",
           "ok": true,
-          "input_lines": 77982,
+          "input_lines": 78014,
           "kept": 345,
           "duplicates": 33362,
           "ignored": 249,
-          "routed_to_dns": 44026,
+          "routed_to_dns": 44058,
           "classified": {
-            "dns": 44026,
+            "dns": 44058,
             "network": 9286,
             "content": 24420,
             "scriptlet": 0
@@ -2290,15 +2290,15 @@
     }
   ],
   "sha256": {
-    "dist/adguard-dns.txt": "0c6f902a56ac7b760ae456b8ff68dfb3fa2c4752d045b64203e46454cf224ce8",
-    "dist/adguard-pending-review.txt": "ac910061f92af172a30a807f52579f5691302909b75ffd0a759b90778f83cac2",
-    "dist/adguard-content.txt": "68ba596669350b7ec159ce1950856409b3c42f176549115e17f333a2b31f2c25",
-    "dist/adguard-network.txt": "5d3ee651e063ef9f6b152446d536a590a54aab1de15c58f635804bdf36b6e0a6",
-    "dist/adguard-scriptlet.txt": "a5479e9c0329cc6681dab188458a941646b28f2f1a2f6547689366b71732746a",
-    "dist/adguard-android.txt": "cddd7a3eec9fbaf0f75cd02a75a6b095f1906fb5cd0fdb5e9e5eb5c5d1701572",
-    "dist/adguard-browser.txt": "bdfdf2c01b157601a38b771105c092ceb0a795aa815c3b97bfe93670ed42f5ee",
-    "dist/adguard-windows.txt": "05e5523fd38f9e829c101f3bfb2014a7d5c37ee116aa04bbe2c961b8a9463f9b",
-    "dist/adguard-conservative.txt": "cf0b8f6a9f77c7d7916e007f7427e30d814b0220b803e1aa3f1dd47d1adf61b6",
-    "dist/adguard-aggressive.txt": "b04d9f14a9797240fb299ee0c756edef769f6281d3c6445d2980ecf0211a447d"
+    "dist/adguard-dns.txt": "75cda8cef6046d75def515cd840624998d90ad244a815e1622e2f624e88a96d4",
+    "dist/adguard-pending-review.txt": "436eb6ba3a2085b65a5eca13252f34a72fee671cff4c42b48fa1d157a38167d7",
+    "dist/adguard-content.txt": "adf327797cf8db96c5065dddc37b4ef34a84867e16e6a578ed2f65b8783d7129",
+    "dist/adguard-network.txt": "97256505ca09ab7ffb09e50b89bd1ba7e6ea7b272cea880464bb82af916c3b65",
+    "dist/adguard-scriptlet.txt": "d3ece5ad22e339a800ed1e25434a84cf9e296e8d9d36fe94e18bd0fbd8ade1cb",
+    "dist/adguard-android.txt": "807d3f7a3c6a5c7aed168bff276238108588f2b05b223eefbb87e58405f7716f",
+    "dist/adguard-browser.txt": "29cad6977cc61dee8e65a68c1afa406c22243fea2c924868c5c3cf1af92c0ee7",
+    "dist/adguard-windows.txt": "cb4fe75f35bc7b9384bf95b304c2bad24fc31ca063d34344fa4f2141e27dbd8b",
+    "dist/adguard-conservative.txt": "3e4b3e67d0b12969ee74ab6e61790ba9cc4429615d7c8c5190a9cdabcb613c64",
+    "dist/adguard-aggressive.txt": "44aa4903a7b3f38a0194264f4781bb99dc3ef407262b352bb35f1ae902101d0c"
   }
 }

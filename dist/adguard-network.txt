@@ -1,8 +1,8 @@
 ! Title: AdGuard Rules CN - Network
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202608130642
-! Last modified: 2026-08-13T06:42:50Z
+! Version: 202608130842
+! Last modified: 2026-08-13T08:42:40Z
 ! Layers: network
 ! Mode: standard
 ! Rules: 47663
@@ -8347,7 +8347,7 @@ $cookie=__adblocker,domain=slate.com|thehindubusinessline.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=tvbanywherena.com
 @@^probe=$script,domain=coinadster.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=temp-mail.africa
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=aflamicose.com
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=aflamicose.com|aflamicose.xyz
 @@||a.pemsrv.com/popunder1000.js$domain=unicorn.edu.eu.org
 ||pearos.xyz/assets/adblock-detector.js
 @@||adligature.com^$xmlhttprequest,domain=upload18.org|njav.com

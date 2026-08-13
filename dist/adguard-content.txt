@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Content
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202608130642
-! Last modified: 2026-08-13T06:42:50Z
+! Version: 202608130842
+! Last modified: 2026-08-13T08:42:40Z
 ! Layers: content
 ! Mode: standard
-! Rules: 63401
+! Rules: 63402
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -9118,7 +9118,7 @@ carensureplan.com##footer + div[style*="z-index:"][style*="background:"][style*=
 3xyaoi.com##.body-wrap > .site-content + div[id][class*=" "]
 urtech.ca##body > div[id][class*=" "]
 elimucentre.co.ke##body > .back-top + div[id][class*=" "]
-selfhostt.com,hostzteam.com,bestensuree.com,tophostdeal.com,hostserverz.com,cloudhostingz.com##.search-popup + div[id][class*=" "]
+ssdhostting.com,selfhostt.com,hostzteam.com,bestensuree.com,tophostdeal.com,hostserverz.com,cloudhostingz.com##.search-popup + div[id][class*=" "]
 nysino.com##body > div.qodef-wrapper + div[id][class*=" "]
 ensuretips.com,tioeroge.com,pngcut.com##body > #page ~ div[id][class*=" "]
 topchineseanime.xyz##body[class*=" "] #footer ~ div[class*=" "][id]:not([id*=" "])
@@ -9369,8 +9369,8 @@ sirtv.fit###mw-adblock-overlay
 jobfound.org##.inset-0.fixed.backdrop-blur-sm
 temp-mail.africa#@##ad-wrapper
 temp-mail.africa#@#.ad-unit:not(.textads)
-aflamicose.com#@#.top-ad
-aflamicose.com#@#.bottom-ad
+aflamicose.xyz,aflamicose.com#@#.top-ad
+aflamicose.xyz,aflamicose.com#@#.bottom-ad
 masrawytrend.com#@#.ad-unit:not(.textads)
 osmhelper.com#@#.google-ad
 math-aids.com###catch_message_window
@@ -18890,6 +18890,7 @@ animecorner.me,zarabiajprzez24.pl,watchhentai.xxx,app-how-to-use-it.com,linuxcap
 pawastreams.*,nflbite.to,footybite.to,sportschamp.fun,afly.pro,topsporter.net,soccerstreams.football,mysocceraustralia.com,rayinfosports.com,hesgoals.top,sequencecard.xyz,totalsportek.soccer,metaporky.site,nbabite.to,cyfostreams.com,gamerarcades.com,bestreamsports.org,footy.to,mcrypto.club,greaterkashmir.com###id-custom_banner
 pawastreams.*,groundedtechs.com,rayinfosports.com,sequencecard.xyz,matchtime.co,sportspellz.com,bestreamsports.org,silverspoon.site###dismiss-btn
 vi-control.net,nullforums.net,landyzone.co.uk,nullcave.pro,woxmax.com,waskucity.com,babia.to,technofino.in,reef2reef.com,minebbs.com,craxpro.io,affiliatefix.com,myiptvforum.com,hifivision.com,worldofiptv.com,altenen.is,beermoneyforum.com,germancarforum.com,cracking.org##.samBannerUnit
+rd.com##article.article-content > div.post-footer:has(> div#ads-container-single)
 cums.net##a[data-adv]
 hentai-moon.com##.item:has(> a[rel="sponsored"])
 hentai-moon.com##ul.primary > li:has(> a[rel="sponsored"])

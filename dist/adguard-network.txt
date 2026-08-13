@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Network
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202608131157
-! Last modified: 2026-08-13T11:57:37Z
+! Version: 202608131342
+! Last modified: 2026-08-13T13:42:37Z
 ! Layers: network
 ! Mode: standard
-! Rules: 47663
+! Rules: 47664
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -42821,6 +42821,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||live-tv.top/js/k.min.js
 ||live.mrf.io/statics/marfeel/gardac-sync.js
 ||live2support.com^*/js_lstrk.
+||liveblog.pro/api/analytics/hit
 ||livechatinc.com^*/control.cgi?
 ||livefyre.com/libs/tracker/
 ||livefyre.com/tracking/

@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - DNS
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202608130842
-! Last modified: 2026-08-13T08:42:40Z
+! Version: 202608131021
+! Last modified: 2026-08-13T10:21:09Z
 ! Layers: dns
 ! Mode: standard
-! Rules: 218842
+! Rules: 218874
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -179732,6 +179732,9 @@
 ||zzy1.quyaoya.com^
 ||zzycj.com^
 ||zzz.onion.pet^
+||s6ujh3ynv.com^
+||8spjnme44.com^
+||0lai5bvkg.com^
 ||piguiqproxy.com^$badfilter
 /wp-content/plugins/gplinks-flow/assets/js/flow.js|$replace=/var shown = false;/return;/
 /^https:\/\/[0-9a-z]+\.xyz\/rinku\/land/$document,~third-party,match-case,replace=/const proxyStatus = "Y";/const proxyStatus = "N";/
@@ -179760,6 +179763,22 @@
 ||freeadultcomix.com^$badfilter
 ||imgshare.info^$badfilter
 @@||connectivitycheck.gstatic.com^$important
+||57k95numqjpbg8qbrx.rest^
+||892qownplzgvfkcwzlvtb8ez.cfd^
+||caulkedwhys.shop^
+||compotevirificyellows.qpon^
+||edgygout.cyou^
+||evelinavendage.cyou^
+||nadltwwjgbldm.com^
+||oecicorking.cyou^
+||outgotinsy.qpon^
+||rontgencoories.cyou^
+||stimiesgipsies.cyou^
+||talipatinmeats.qpon^
+||tmzlztsgixqky.online^
+||uqcpxcaxzbexa.space^
+||vulturkipskin.cfd^
+||wichescheaply.shop^
 /(https?:\/\/)104\.154\..{100,}/
 /(https?:\/\/)104\.197\..{100,}/
 /(https?:\/\/)104\.198\..{100,}/
@@ -182267,6 +182286,19 @@
 ||zysuvysaj.pro^
 ||zzux.com^
 ||sobot.com^
+||chaiserhyme.com^
+||cusksmondain.cfd^
+||dsjdyv.com^
+||folilyroving.shop^
+||ijkipazxsmzgc.website^
+||nvmrtixasylwt.online^
+||pereirahiro.shop^
+||subringwarsaws.cyou^
+||terretharmer.com^
+||tonnfrilal.qpon^
+||xaqcfzooxeuzd.space^
+||xfsyuigochwnt.space^
+||xywfuornohygr.site^
 ||fp-upload.dun.163.com^
 ||gia.jd.com^
 ||mvconf.f.360.cn^

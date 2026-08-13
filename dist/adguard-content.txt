@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Content
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202608130244
-! Last modified: 2026-08-13T02:44:58Z
+! Version: 202608130502
+! Last modified: 2026-08-13T05:02:46Z
 ! Layers: content
 ! Mode: standard
-! Rules: 63401
+! Rules: 63400
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -10719,7 +10719,6 @@ msguides.com###an-Modal[style*="z-index: 999999"]
 msguides.com###an-Modal + .reveal-modal-bg[style*="z-index: 999999"]
 thurrott.com#$#body { overflow: visible!important; }
 thurrott.com#$##adBlock.blocker-interstitial { display: none!important; }
-ebook3000.biz##.swal2-fade
 pcmag.com#@#iframe[title="3rd party ad content"]
 pngtosvg.com#@##banner-advert-container
 pngtosvg.com#@#.chitika-ad
@@ -10851,7 +10850,6 @@ liberallogic101.com#@##text-37
 cultofmac.com##.adblock-notification-wrapper
 marketwatch.com#@#div[id="ad_DisplayAd"]
 marketwatch.com#@#.advertisement
-apkdot.com##.downloadCountdown
 cleodesktop.com#$#div[id="myTestAd"] { height: 1px!important; }
 pornhub.com,pornhub.org,pornhub.net###abAlert
 pixiz.com###adblock-detected
@@ -18892,6 +18890,8 @@ animecorner.me,zarabiajprzez24.pl,watchhentai.xxx,app-how-to-use-it.com,linuxcap
 pawastreams.*,nflbite.to,footybite.to,sportschamp.fun,afly.pro,topsporter.net,soccerstreams.football,mysocceraustralia.com,rayinfosports.com,hesgoals.top,sequencecard.xyz,totalsportek.soccer,metaporky.site,nbabite.to,cyfostreams.com,gamerarcades.com,bestreamsports.org,footy.to,mcrypto.club,greaterkashmir.com###id-custom_banner
 pawastreams.*,groundedtechs.com,rayinfosports.com,sequencecard.xyz,matchtime.co,sportspellz.com,bestreamsports.org,silverspoon.site###dismiss-btn
 vi-control.net,nullforums.net,landyzone.co.uk,nullcave.pro,woxmax.com,waskucity.com,babia.to,technofino.in,reef2reef.com,minebbs.com,craxpro.io,affiliatefix.com,myiptvforum.com,hifivision.com,worldofiptv.com,altenen.is,beermoneyforum.com,germancarforum.com,cracking.org##.samBannerUnit
+hentai-moon.com##.item:has(> a[rel="sponsored"])
+hentai-moon.com##ul.primary > li:has(> a[rel="sponsored"])
 orangeville.com##div[data-lpos="more-from-orangeville-com-partners"]
 ourwindsor.ca##div[data-lpos="more-from-ourwindsor-ca-partners"]
 northumberlandnews.com##div[id^="primis"]
@@ -19602,7 +19602,6 @@ pcgamesn.com##a[title="Fanatical bundle ad"]
 fapnow.xxx##a[href^="https://go.gsrv.dev/"]
 fapnado.xxx##.fluid_start_container
 fapnado.xxx##.fluid_html_on_pause_container
-faptor.com,fapnow.xxx,fapnado.xxx##.footer-margin
 fapnado.xxx,fapnado.com##.text_link_holder
 fapnow.xxx,fapnado.xxx,fapnado.com##a[href^="https://t.javhd-trk.com/"]
 faptor.com,fapnow.xxx,fapnado.xxx,fapnado.com###list_videos_related_videos_items > div[class]:has(a[href^="https://www.tckcandy.com/"])
@@ -29702,7 +29701,7 @@ xdlab.ru##.row > .five.columns > div[align="center"] > p[style="text-align:cente
 antdm.forumactif.com###main-content > div[class][style="overflow:visible"] > .inner > div[style="position:relative;height:90px; min-width: 728px px;"]
 empressleak.biz###wnb-bar
 empressleak.biz###wpfront-notification-bar
-severeporn.com,fpoxxx1.com,pornditt.com,hentaigem.com,pornify.tv,dafreeporn.com,pornolovers.net,hdporner.tv,transvids.tv,vipporns.com,thetranny.com,shemalesin.com,stileproject.com,pornbimbo.com,faptube.com,amateur8.com,maturetubehere.com,lesbian8.com,sortporn.com,bigtitslust.com,18pussy.porn,pornrabbit.com,love4porn.com,fpo.xxx,keekass.com##.footer-margin
+hentai-moon.com,faptor.com,fapnow.xxx,fapnado.xxx,severeporn.com,fpoxxx1.com,pornditt.com,hentaigem.com,pornify.tv,dafreeporn.com,pornolovers.net,hdporner.tv,transvids.tv,vipporns.com,thetranny.com,shemalesin.com,stileproject.com,pornbimbo.com,faptube.com,amateur8.com,maturetubehere.com,lesbian8.com,sortporn.com,bigtitslust.com,18pussy.porn,pornrabbit.com,love4porn.com,fpo.xxx,keekass.com##.footer-margin
 bellesa.co##img[alt="Deeper Pause Ad"]
 bellesa.co##div[class*="Notifications__Wrapper-"]
 bellesa.co##div[data-label="Sponsor"]
@@ -29845,7 +29844,7 @@ primarygames.com###overlay-hideme
 primarygames.com##.below-gameinfo > .AD300x250-wrapper
 primarygames.com##.outer_gamecat_wrap > .gamecat_wrap300x250
 friv.land##.banner-advertisement
-megatube.xxx,dropstab.com,stremio-addons.net,pornoreino.com,okporn.xxx,productreview.com.au,videohelp.com,techinferno.com,boyfriendtv.com##a[rel="sponsored"]
+hentai-moon.com,megatube.xxx,dropstab.com,stremio-addons.net,pornoreino.com,okporn.xxx,productreview.com.au,videohelp.com,techinferno.com,boyfriendtv.com##a[rel="sponsored"]
 letmejerk.com##.wrapper > div.container + div[class]
 xxxvogue.net###embed-parrot
 xxxvogue.net###embed-embed-overlay

@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Network
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202608141015
-! Last modified: 2026-08-14T10:15:43Z
+! Version: 202608141155
+! Last modified: 2026-08-14T11:55:15Z
 ! Layers: network
 ! Mode: standard
-! Rules: 47660
+! Rules: 47663
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -14007,6 +14007,7 @@ _clickunder&pb=$popup
 /cb/cb.ta.js?v=
 /cb/cb.xb.js?v=
 /ab/thejsfile.js
+.cyou/1clkn/
 .xyz/1clkn/
 .club/1clkn/
 /\/[0-9][0-9][0-9][0-9][0-9]\?version_name=[a-z]$/$xmlhttprequest
@@ -14407,6 +14408,7 @@ $subdocument,third-party,denyallow=disqus.com,domain=love4u.net
 $third-party,script,domain=klto9.com|f2movies.to|hacamchicac.com|yourporngod.com|zinchanmanga.com|yaoimangaonline.com|tututweak.app|mangaraw.ac|eromanga-show.com|hentai-one.com|hentaipaw.com|nukibooks.com|paipancon.com|jgvdata.com|youtubevanced.com|pandamtl.com|mangaplus.shueisha.tv|shueisharaw.tv
 ||linksconsole.com/ad-system/
 ||misc-api.feathermc.com/*/ads/ad_units?
+||d26yk4zpyhjeeq.cloudfront.net/tm/*/asset_*.ts$media,xmlhttprequest,redirect=noopmp4-1s,domain=kick.com
 ||cdn.cums.net/templates/cumsnew/js/nav-restore.js
 ||cloudnet.hentai-moon.com/candyai/
 ||api.jerkmotion.com/*^placement=
@@ -20479,7 +20481,7 @@ $csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: www.googletagma
 @@.m3u8$xmlhttprequest,stealth=referrer,domain=roxiestreams.*
 @@.js$xmlhttprequest,stealth=referrer,domain=roxiestreams.*
 @@||ataide0.pingbash.com/$stealth=referrer,domain=roxiestreams.su
-@@/^https:\/\/imgbb.zip\/ib\/[a-z0-9]{15}_[0-9]{10}\.jpg$/$image,third-party,stealth=referrer,domain=rogmovies.*|xprimehub.*|vegamovies.*|1vegamovies.cc|rogmovies.cv|xprimehub.bond
+@@/^https:\/\/imgbb.zip\/ib\/[a-z0-9]{15}_[0-9]{10}\.jpg$/$image,third-party,stealth=referrer,domain=rogmovies.*|xprimehub.*|vegamovies.*|new1.vegamovies.futbol|rogmovies.cv|xprimehub.bond
 @@||account.deezer.com/$stealth=flash
 @@.jpg|$third-party,xmlhttprequest,stealth=referrer,domain=embdmstrplayer.com
 @@.m3u8|$stealth=referrer,domain=embdmstrplayer.com
@@ -44331,6 +44333,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||aljazeera.com/thirdparty/nr.js
 ||allaboutberlin.com/whoisthere.js
 ||allbbwcams.com/api/metrics
+||allenai.org/v5/event
 ||allevents.in/actracker/
 ||alljapanesepass.com/ascripts/gcu.js
 ||alljapanesepass.com/rstat

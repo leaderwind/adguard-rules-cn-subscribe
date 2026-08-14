@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - DNS
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202608140836
-! Last modified: 2026-08-14T08:36:30Z
+! Version: 202608141015
+! Last modified: 2026-08-14T10:15:43Z
 ! Layers: dns
 ! Mode: standard
-! Rules: 229221
+! Rules: 229247
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -147682,6 +147682,7 @@
 ||hbnygj.com^
 ||https-filtering-check.adtidy.org^
 ||unpkg.com^$badfilter
+||cg38hrusov.com^
 /pa.dajiahao*.top/
 /^.+stat\.kugou\.com/
 /^admarvel\./
@@ -178410,6 +178411,24 @@
 ||freeadultcomix.com^$badfilter
 ||imgshare.info^$badfilter
 @@||connectivitycheck.gstatic.com^$important
+||avantioptima.cyou^
+||cmqboftaamszw.site^
+||cubtjccmkpulx.site^
+||edictfarther.shop^
+||flowersprost.cyou^
+||grovelhameil.cyou^
+||hoopoemisken.cfd^
+||lautercompile.shop^
+||pcw9gozuxercxc.rest^
+||placersfettler.shop^
+||r8m5843c9nx5ynm.cfd^
+||skiffwooledpenni.cfd^
+||sowftoxic.cyou^
+||tyylnyqyi.com^
+||upsideshoeboy.qpon^
+||xenonhieder.cfd^
+||yllkvetehwuxg.online^
+||zilaarunta.shop^
 /(https?:\/\/)104\.154\..{100,}/
 /(https?:\/\/)104\.197\..{100,}/
 /(https?:\/\/)104\.198\..{100,}/
@@ -194981,6 +195000,13 @@
 ||zysuvysaj.pro^
 ||zzux.com^
 ||sobot.com^
+||bardesswaxbill.cfd^
+||enllobrqphori.online^
+||eoojhxzrnpqmj.site^
+||huchnomapout.cyou^
+||pretpikakes.cyou^
+||rcvriqufiwtct.site^
+||spacklepeached.cyou^
 ||mobile.pipe.aria.microsoft.com^
 ||cu-cn-north00001.gala.convection.cn^
 ||cu-cn-north00002.gala.convection.cn^

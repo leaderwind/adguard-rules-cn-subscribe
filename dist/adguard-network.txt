@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Network
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202608140836
-! Last modified: 2026-08-14T08:36:30Z
+! Version: 202608141015
+! Last modified: 2026-08-14T10:15:43Z
 ! Layers: network
 ! Mode: standard
-! Rules: 47665
+! Rules: 47660
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -9968,7 +9968,6 @@ $xmlhttprequest,third-party,redirect-rule=noopjs,domain=bizjournals.com
 @@||ojaivalleynews.com^$generichide
 @@||linuxuprising.com^$generichide
 @@||wataugademocrat.com^$generichide
-@@||mmacore.tv^$generichide
 ||coubassistant.com/js/adbd.js
 ||wcostream.com/inc/js/adblock-detector-hardened.js
 ||platform.pubadx.one/pubadx-ad.js$script,redirect=noopjs,domain=embed.wcostream.com
@@ -9985,7 +9984,6 @@ $xmlhttprequest,third-party,redirect-rule=noopjs,domain=bizjournals.com
 @@||embed.wcostream.com/assets/ads/advertisement.js
 @@||platform.pubadx.one/pubadx-ad.js$domain=embed.wcostream.com
 @@||static.stands4.com/app_common/js/prebid-ads.js
-@@||mgnet.xyz/default/public/assets/*.js
 @@||magicvalley.com^$generichide
 @@||ad.doubleclick.net/ddm/ad/$image,domain=paramountplus.com
 @@||adservice.google.*/adsid/integrator.js$domain=paramountplus.com
@@ -10657,7 +10655,6 @@ $script,redirect-rule=noopjs,domain=vidmoly.biz|vidmoly.me|vidmoly.net|vidmoly.t
 @@||bagi.co.in/*/js/advertisement.js
 @@||receivesms.co/js/fuckadblock.js
 @@||radio.securenetsystems.net/cwa/scripts/ads/prebid.js
-@@||popads.net/pop.js$domain=videobin.co,important
 @@||keran.co/*/js/advertisement.js
 @@||megaup.net/ads.js
 @@||paraphrasing-tool.com/js/wp-banners.js
@@ -10807,7 +10804,6 @@ $script,redirect-rule=noopjs,domain=vidmoly.biz|vidmoly.me|vidmoly.net|vidmoly.t
 @@||getlec.blogspot.com^$generichide
 @@.png#$domain=getlec.blogspot.com
 @@||slink.bid^$generichide
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=mmacore.tv
 @@||colorspire.com^$generichide
 @@||rangdhanu.live^$generichide
 @@||venipa.net^$generichide
@@ -15190,7 +15186,6 @@ $script,third-party,denyallow=cloudflare.net|jquery.com|jsdelivr.net|lulucdn.com
 ||usgas.ca/images/side_panel_af_bb.png
 ||usgas.ca/images/amazon_prime_video.jpg
 ||usgas.ca/images/road_trip_must_haves_400.jpg
-||cloudfront.net/images/banners/original/$domain=mmacore.tv
 ||cdn.cuty.io/fps.js
 ||zshorte.net/js/full-page.js
 ||pks.raenonx.cc/scripts/newRelicEumProd.js

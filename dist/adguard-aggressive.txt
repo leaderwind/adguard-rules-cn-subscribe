@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Aggressive
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202608141709
-! Last modified: 2026-08-14T17:09:27Z
+! Version: 202608141805
+! Last modified: 2026-08-14T18:05:18Z
 ! Layers: network,content,scriptlet
 ! Mode: aggressive
-! Rules: 116619
+! Rules: 116644
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -38006,6 +38006,7 @@ _800x80_
 ||kirujh.com^$popup
 ||kitchiepreppie.com^$popup
 ||kllpelaa.net^$popup
+||klrtspet.net^$popup
 ||kolkwi4tzicraamabilis.com^$popup
 ||koogreep.com^$popup
 ||korexo.com^$popup
@@ -52801,8 +52802,8 @@ hentai-moon.com##.item:has(> a[rel="sponsored"])
 hentai-moon.com##ul.primary > li:has(> a[rel="sponsored"])
 orangeville.com##div[data-lpos="more-from-orangeville-com-partners"]
 ourwindsor.ca##div[data-lpos="more-from-ourwindsor-ca-partners"]
-northumberlandnews.com##div[id^="primis"]
-northumberlandnews.com##div[data-lpos="more-from-northumberlandnews-com-partners"]
+simcoe.com,toronto.com,northumberlandnews.com##div[id^="primis"]
+toronto.com,northumberlandnews.com##div[data-lpos^="more-from-"][data-lpos*="-com-partners"]
 arcadepunks.com##a[rel="noopener nofollow sponsored"]
 entireweb.com##.topbar-ad
 entireweb.com##div[class^="ad-"]
@@ -52811,8 +52812,6 @@ opentrackers.org###widgetarea-one > .widget_custom_html
 timesofkarachi.pk##.cs-sidebar__inner > .block-widget
 miningweekly.com#$##headerAdvertContainer { display: none !important; }
 miningweekly.com#$##headerAdvertContainerHeightHide { height: 100px !important; }
-toronto.com##div[id^="primis"]
-toronto.com##div[data-lpos="more-from-toronto-com-partners"]
 drtuber.desi,drtuber.com,drtuber.*###vb_rvt_2
 drtuber.desi,drtuber.com,drtuber.*##.wrapper_frame
 drtuber.desi,drtuber.com,drtuber.*##a[href*="drtuber.com/linkout/"]
@@ -92242,6 +92241,7 @@ deliveroo.*##div[class^="HomeFeedScrollTracker-"]:has(div[data-testid="sponsored
 deliveroo.*##div[class^="HomeFeedScrollTracker-"]:has(p[data-testid="sponsored-rating-distance"] > span[data-testid="label-prefix"])
 skyscanner.*##div[class^="InlineAd_container_"]
 zoohit.*,zooplus.*##div[class^="SearchSuggestion-module_suggestionItem_"]:has(.z-sponsored-tag)
+poshmark.*##div[class^="col-"]:has(> [data-et-prop-promoted_listing_tracking_info])
 walmart.*##div[data-automation^="HookLogicCarouses"]
 skyscanner.*##div[data-backpack-ds-component]:has(#inline-ad-button)
 tripadvisor.*##div[data-curated-shelf-id]:has(a[rel="sponsored"])
@@ -93356,6 +93356,8 @@ checkfelix.com,kayak.*,swoodoo.com##div[id^="inline-"]
 acmemarkets.com,albertsons.com,andronicos.com,carrsqc.com,haggen.com,jewelosco.com,kingsfoodmarkets.com,pavilions.com,randalls.com,safeway.com,shaws.com,starmarket.com,tomthumb.com,vons.com#?#.product-card-col:contains(Sponsored)
 agoda.com#?#.PropertyCardItem:has(div:contains(Promoted))
 alibaba.com#?#.J-offer-wrapper:contains(Top sponsor listing)
+alibaba.com#?#.no-divider[style*="margin-bottom"]:has([data-state="closed"]:contains(Ad))
+alibaba.com#?#div[data-search-floor] [data-supplier-card]:contains(Ad)
 amusingplanet.com#?#.blockTitle:contains(Advertisement)
 androidauthority.com#?#div[class="e_Qi"]:contains(Trending Tech Deals)
 androidauthority.com#?#div[class="e_Rc e_d"]:contains(Affiliate links on Android Authority may earn us a commission)
@@ -93398,6 +93400,8 @@ businessday.co.za,sowetan.co.za,timeslive.co.za#?#.content-list-block:contains(N
 capwages.com#?#.gap-1.items-center.flex-col.flex:contains(Remove Ads)
 aliexpress.com#?##card-list > .search-item-card-wrapper-gallery:has(a.search-card-item[href*="&aem_p4p_detail="] div[class*="cards--image--"] > div[class*="multi--ax--"]:contains(/^(?:AD|An[uú]ncio|광고|広告)$/)):has(+ .search-item-card-wrapper-gallery a.search-card-item:not([href*="&aem_p4p_detail="]))
 chatgpt.com#?#.opacity-100.transition-opacity.ease-out:contains(Sponsored options)
+chatgpt.com#?#[class^="border-"]:contains(Ad)
+chatgpt.com#?#[class^="border-"]:contains(Sponsored)
 china.ahk.de#?#.b-main__section:has(h2.homepage-headline:contains(Advertisement))
 cleantechnica.com#?#.zox-side-widget:contains(/^Advertis/)
 coincarp.com#?#.border-bottom:contains(Sponsored)
@@ -94154,6 +94158,7 @@ freeuseporn.com##.featured-links-bar
 sss.xxx##.fel-item
 javfor.tv##.fel-playclose
 boyfriend.tv,boyfriendtv.com,camwhores.*,txxx.com##.fh-line
+theyarehuge.com##.fh-wrapper
 hotmovs.com,thegay.com##.fiioed
 homemoviestube.com##.film-item:not(#showpop)
 sexyandfunny.com##.firstblock
@@ -94395,6 +94400,7 @@ katestube.com##.player-aside
 vivud.com##.player-aside-banners
 sexu.site##.player-block__line
 ok.xxx,pornhat.com,xxxonxxx.com##.player-bn
+theyarehuge.com##.player-cams-button
 sexvid.xxx##.player-cs
 videosection.com##.player-detail__banners
 7mmtv.sx##.player-overlay
@@ -94515,6 +94521,7 @@ katestube.com##.spot-holder
 shooshtime.com##.spot-horizontal
 tsmodelstube.com##.spot-regular
 fuqer.com##.spot-thumbs > .right
+fapcat.com##.spot-underplayer
 porn4fans.com##.spot-wrap
 homo.xxx##.spot.column
 drtuber.com##.spot_button_m
@@ -94545,6 +94552,7 @@ tnapics.com##.sy_top_wide
 boundhub.com##.t2op
 boundhub.com##.tab7le
 18porn.sex,18teensex.tv,429men.com,4kporn.xxx,4wank.com,alotporn.com,amateur8.com,amateurporn.co,amateurporn.me,bigtitslust.com,camwhores.tv,danude.com,daporn.com,epicgfs.com,fapnow.xxx,fpo.xxx,freeporn8.com,fuqer.com,gayck.com,hentai-moon.com,hentai0day.com,heroero.com,hoes.tube,intporn.com,japaneseporn.xxx,javwind.com,jizzberry.com,mmshub.online,multi.xxx,onlyhentaistuff.com,porndr.com,sexjav.tv,sextubespot.com,sortporn.com,tabootube.xxx,trueamateurporn.org,vilevideos.com,watchmygf.xxx,watchporn.to,xcavy.com,xgroovy.com,xmateur.com,xxxshake.com##.table
+theyarehuge.com##.tah-desktop-spot
 sxyprn.com##.tbd
 amateurvoyeurforum.com##.tborder[width="99%"][cellpadding="6"]
 camwhores.tv##.tdn
@@ -94563,7 +94571,7 @@ pornpictureshq.com##.thumb__iframe
 yeswegays.com##.thumb_spots
 tallermaintenancar.com##.thumbs
 drtuber.com##.title-sponsored
-4wank.com,daporn.com,epicgfs.com,fpo.xxx,hentai-moon.com,scatxxxporn.com,xmateur.com##.top
+4wank.com,daporn.com,epicgfs.com,fapcat.com,fpo.xxx,hentai-moon.com,scatxxxporn.com,xmateur.com##.top
 sexvid.xxx##.top-cube
 porn4fans.com##.top-links-wrap
 vikiporn.com##.top-list > .content-aside
@@ -94816,7 +94824,7 @@ agedbeauty.net,imgdrive.net,pornpics.com,pornpics.de,vipergirls.to##a[href*="/go
 pornlib.com##a[href*="/linkout/"]
 mansurfer.com##a[href*="/out/"]
 4tube.com,fux.com,pornerbros.com,porntube.com##a[href*="/redirect-channel/"]
-analdin.com,cockdude.com,coomer.st,gelbooru.com,kemono.cr,official.coomer.com.co##a[href*="/tsyndicate.com/"]
+analdin.com,cockdude.com,coomer.st,fapcat.com,gelbooru.com,kemono.cr,official.coomer.com.co##a[href*="/tsyndicate.com/"]
 youpornzz.com##a[href*="/videoads.php?"]
 pornhub.com,pornhubpremium.com,spankbang.com,sxyprn.com,tube8.com,tube8vip.com,xozilla.com,xxxymovies.com##a[href*="?ats="]
 adultdvdempire.com##a[href*="?partner_id="][href*="&utm_"]
@@ -103485,6 +103493,7 @@ le.com##+js(set, isAdLoaded, true)
 cctv.com,douyin.com,douyu.com##+js(aeld,/visibilitychange|pagehide/)
 yatu.tv,yhdm7.com,yhdm95.com,xdm530.com##+js(aopw,document.oncontextmenu)
 .php?zoneid=$script
+://ads.$~image,~xmlhttprequest,domain=~abendblatt.de|~ads.8designers.com|~ads.ac.uk|~ads.adstream.com.ro|~ads.allegro.pl|~ads.am|~ads.amazon|~ads.apple.com|~ads.atmosphere.copernicus.eu|~ads.axon.ai|~ads.band|~ads.bestprints.biz|~ads.bikepump.com|~ads.brave.com|~ads.buscaempresas.co|~ads.business.bell.ca|~ads.cafebazaar.ir|~ads.chewy.com|~ads.colombiaonline.com|~ads.comeon.com|~ads.cvut.cz|~ads.doordash.com|~ads.dosocial.ge|~ads.dosocial.me|~ads.elevateplatform.co.uk|~ads.ferrarichat.com|~ads.finance|~ads.flytant.com|~ads.fund|~ads.google.cn|~ads.google.com|~ads.gree.net|~ads.gurkerl.at|~ads.harvard.edu|~ads.instacart.com|~ads.jiosaavn.com|~ads.kaipoke.biz|~ads.kifli.hu|~ads.knuspr.de|~ads.listonic.com|~ads.luarmor.net|~ads.magalu.com|~ads.mark8iq.io|~ads.mercadolibre.com.ar|~ads.mercadolibre.com.cl|~ads.mercadolibre.com.co|~ads.mercadolibre.com.ec|~ads.mercadolibre.com.mx|~ads.mercadolibre.com.pe|~ads.mercadolibre.com.ve|~ads.mercadolivre.com.br|~ads.mgid.com|~ads.microsoft.com|~ads.midwayusa.com|~ads.misskey.io|~ads.mobilebet.com|~ads.mojagazetka.com|~ads.msstate.edu|~ads.mst.dk|~ads.mt|~ads.naver.com|~ads.nc|~ads.nipr.ac.jp|~ads.olx.pl|~ads.openai.com|~ads.palmettostatearmory.com|~ads.pandauth.com|~ads.pinterest.com|~ads.privacy.qq.com|~ads.realizeperformance.com|~ads.remix.es|~ads.rohlik.cz|~ads.rohlik.group|~ads.route.cc|~ads.safi-gmbh.ch|~ads.scotiabank.com|~ads.selfip.com|~ads.shopee.cn|~ads.shopee.co.th|~ads.shopee.com.br|~ads.shopee.com.mx|~ads.shopee.com.my|~ads.shopee.kr|~ads.shopee.ph|~ads.shopee.pl|~ads.shopee.sg|~ads.shopee.tw|~ads.shopee.vn|~ads.siriusxmmedia.com|~ads.smartnews.com|~ads.snapchat.com|~ads.socialtheater.com|~ads.sociogram.com|~ads.spotify.com|~ads.studyplus.co.jp|~ads.taboola.com|~ads.tiktok.com|~ads.tuver.ru|~ads.twitter.com|~ads.typepad.jp|~ads.umd.edu|~ads.us.tiktok.com|~ads.viksaffiliates.com|~ads.vk.com|~ads.vk.ru|~ads.watson.ch|~ads.wildberries.ru|~ads.woori.team|~ads.x.com|~ads.yandex|~cremonaoggi.it|~reempresa.org
 ://ads.$popup,domain=~ad.olx.pl|~ads.mercadolibre.com.ar|~ads.mercadolibre.com.cl|~ads.mercadolibre.com.co|~ads.mercadolibre.com.ec|~ads.mercadolibre.com.mx|~ads.mercadolibre.com.pe|~ads.mercadolibre.com.ve|~ads.mercadolivre.com.br|~ads.openai.com|~ads.pandauth.com|~ads.umd.edu|~axon.ai|~kakaku.com|~reddit.com|~smartnews.com
 ://adv.$popup,domain=~adv.kompas.id|~adv.lack-girl.com
 ||lockerdome.com^$third-party
@@ -103496,6 +103505,7 @@ yatu.tv,yhdm7.com,yhdm95.com,xdm530.com##+js(aopw,document.oncontextmenu)
 ||216.21.13.$popup,domain=~in-addr.arpa
 ||35.227.234.222^$popup
 ||35.232.188.118^$popup
+||trustkiwi.com/zn/$document
 ||2mdn.net/videoplayback/$rewrite=abp-resource:blank-mp4,domain=laurelberninteriors.com|safeframe.googlesyndication.com
 ||googlevideo.com/videoplayback?$rewrite=abp-resource:blank-mp4,domain=laurelberninteriors.com|safeframe.googlesyndication.com
 ||innovid.com/media/encoded/*.mp4$rewrite=abp-resource:blank-mp4,domain=ktla.com
@@ -103515,7 +103525,6 @@ complex.com##.lg\:top-\[var\(--sticky-top\)\]
 justjared.com##[role="banner"] {top:0 !important}
 deliveroo.*#?#a[role="button"]:has(p:has-text(Sponsored))
 deliveroo.*#?#div[class^="HomeFeedScrollTracker-"]:has(span[class^="HomeFeedUILines-"]:has-text(Sponsored))
-poshmark.*##div[class^="col-"]:has(> [data-et-prop-promoted_listing_tracking_info])
 advocate.com,out.com,pride.com#?#.component.module-headline:has-text(FROM OUR SPONSORS)
 character.ai#?#.space-y-4 > .w-full:has-text(Advertisement)
 cjleo.com#?#.alt-widget-title:has-text(advertisement)
@@ -103812,6 +103821,20 @@ w3schools.com###tryitLeaderboard ~ #container {top:48px;}
 w3schools.com##.trytopnav {top:0;}
 wunderground.com##.content-wrap #inner-wrap {height:100vh;}
 yourdictionary.com##.header {top:0;}
+empflix.com##._nativeAd
+wankoz.com##.aside-holder
+abxxx.com##.banner__container
+abxxx.com##.close-play__container
+pornwhite.com,sleazyneasy.com,wankoz.com##.container-aside
+videosection.com##.faphouse-adv
+porntrex.video,txxx.video,xepn.com##.link-sponsor
+gamcore.com##.native
+empflix.com,tnaflix.com##.nav-livesex
+empflix.com,tnaflix.com##.pause-overlay
+momvids.com##.spot_panel
+wankoz.com##a[href^="https://as.fontheader.com/"]
+tporn.xxx##a[href^="https://www.juicyads.in/"]
+momvids.com##a[href^="https://z0000g.yvmads.com/"]
 4wank.com#?#.video-holder > center > :has-text(/^Advertisement$/)
 redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com##:-abp-properties(*data:image*)
 redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com##:-abp-properties(base64)
@@ -105141,6 +105164,7 @@ otomi-games.com##.clean-grid-grid-post:has(> [id^="otomi-"] + .clean-grid-grid-p
 /jquery.google-analytics.js
 /jquery.iframetracker-
 /jquery.trackstar.js
+/js-cdn/scstats.js
 /js-responsive/minimal-analytics-$script
 /js-sdk-event.min.js
 /js/_analytics.js
@@ -105921,6 +105945,7 @@ otomi-games.com##.clean-grid-grid-post:has(> [id^="otomi-"] + .clean-grid-grid-p
 /scroll-analytics-
 /scroll-track.js
 /scroll-tracker.js
+/scstats/api/stat/*
 /SdaAnalytics.js
 /sdc.js|
 /sdc1.js

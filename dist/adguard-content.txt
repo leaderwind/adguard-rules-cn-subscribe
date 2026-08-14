@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Content
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202608141911
-! Last modified: 2026-08-14T19:11:21Z
+! Version: 202608141956
+! Last modified: 2026-08-14T19:56:44Z
 ! Layers: content
 ! Mode: standard
-! Rules: 63446
+! Rules: 63445
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -55215,7 +55215,7 @@ phpbb.com##.mini-panel:not(.sections)
 kitco.com##.mining-banner-container
 ar15.com##.minis
 247sports.com##.minutely-wrapper
-revolutionsoccer.net##.mls-o-adv-container
+mlssoccer.com,revolutionsoccer.net##.mls-o-adv-container
 allrecipes.com##.mm-ads-leaderboard-space
 mmegi.bw##.mmegi-web-banner
 news.ssbcrack.com##.mmt-flight
@@ -63190,7 +63190,6 @@ businessday.co.za,sowetan.co.za,timeslive.co.za#?#.content-list-block:has-text(N
 capwages.com#?#.gap-1.items-center.flex-col.flex:has-text(Remove Ads)
 aliexpress.com#?##card-list > .search-item-card-wrapper-gallery:has(a.search-card-item[href*="&aem_p4p_detail="] div[class*="cards--image--"] > div[class*="multi--ax--"]:has-text(/^(?:AD|An[uú]ncio|광고|広告)$/)):has(+ .search-item-card-wrapper-gallery a.search-card-item:not([href*="&aem_p4p_detail="]))
 chatgpt.com#?#.opacity-100.transition-opacity.ease-out:has-text(Sponsored options)
-chatgpt.com#?#[class^="border-"]:has-text(Ad)
 chatgpt.com#?#[class^="border-"]:has-text(Sponsored)
 china.ahk.de#?#.b-main__section:has(h2.homepage-headline:has-text(Advertisement))
 cleantechnica.com#?#.zox-side-widget:has-text(/^Advertis/)

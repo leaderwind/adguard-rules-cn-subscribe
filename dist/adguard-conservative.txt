@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Conservative
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202608141911
-! Last modified: 2026-08-14T19:11:21Z
+! Version: 202608141956
+! Last modified: 2026-08-14T19:56:44Z
 ! Layers: network,content,scriptlet
 ! Mode: conservative
-! Rules: 108581
+! Rules: 108580
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -38104,6 +38104,7 @@ _800x80_
 ||widget.faphouse.com^$third-party
 ||widgets.guppy.live^$third-party
 ||wp-script.com/img/banners/
+||xgx.mobi/go/$document
 ||xlgirls.com/banner/$third-party
 ||xnxx.army/click/
 ||xtrasize.pl/banner/
@@ -86274,7 +86275,7 @@ phpbb.com##.mini-panel:not(.sections)
 kitco.com##.mining-banner-container
 ar15.com##.minis
 247sports.com##.minutely-wrapper
-revolutionsoccer.net##.mls-o-adv-container
+mlssoccer.com,revolutionsoccer.net##.mls-o-adv-container
 allrecipes.com##.mm-ads-leaderboard-space
 mmegi.bw##.mmegi-web-banner
 news.ssbcrack.com##.mmt-flight
@@ -95458,7 +95459,6 @@ yatu.tv##.dplayer-web-fullscreen-fix #tburl,#loadtop,[id^=myas],#myds1,#daohang
 ||216.21.13.$popup,domain=~in-addr.arpa
 ||35.227.234.222^$popup
 ||35.232.188.118^$popup
-||xgx.mobi/go/$document
 ||2mdn.net/videoplayback/$rewrite=abp-resource:blank-mp4,domain=laurelberninteriors.com|safeframe.googlesyndication.com
 ||googlevideo.com/videoplayback?$rewrite=abp-resource:blank-mp4,domain=laurelberninteriors.com|safeframe.googlesyndication.com
 ||innovid.com/media/encoded/*.mp4$rewrite=abp-resource:blank-mp4,domain=ktla.com
@@ -95532,7 +95532,6 @@ businessday.co.za,sowetan.co.za,timeslive.co.za#?#.content-list-block:has-text(N
 capwages.com#?#.gap-1.items-center.flex-col.flex:has-text(Remove Ads)
 aliexpress.com#?##card-list > .search-item-card-wrapper-gallery:has(a.search-card-item[href*="&aem_p4p_detail="] div[class*="cards--image--"] > div[class*="multi--ax--"]:has-text(/^(?:AD|An[uú]ncio|광고|広告)$/)):has(+ .search-item-card-wrapper-gallery a.search-card-item:not([href*="&aem_p4p_detail="]))
 chatgpt.com#?#.opacity-100.transition-opacity.ease-out:has-text(Sponsored options)
-chatgpt.com#?#[class^="border-"]:has-text(Ad)
 chatgpt.com#?#[class^="border-"]:has-text(Sponsored)
 china.ahk.de#?#.b-main__section:has(h2.homepage-headline:has-text(Advertisement))
 cleantechnica.com#?#.zox-side-widget:has-text(/^Advertis/)

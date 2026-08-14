@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Network
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202608140459
-! Last modified: 2026-08-14T04:59:55Z
+! Version: 202608140640
+! Last modified: 2026-08-14T06:40:47Z
 ! Layers: network
 ! Mode: standard
-! Rules: 47664
+! Rules: 47665
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -11355,7 +11355,6 @@ $script,redirect-rule=noopjs,domain=vidmoly.biz|vidmoly.me|vidmoly.net|vidmoly.t
 @@||gymhuntr.com^$generichide
 @@||destyy.com^$generichide
 @@||muchfriends.com^$generichide
-@@||smsreceiveonline.com^$generichide
 @@||getfreesmsnumber.com/js/advertisement.js^
 @@||realclearpolitics.com/asset/section/ad-blocker.js
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=receive-sms-online.info
@@ -14286,7 +14285,7 @@ $document,replace=/<script(?: data-cfasync="false")?(?: nowprocket)?(?: type="[a
 ||html-load.com^$script,xmlhttprequest,domain=buienalarm.nl|meteoradar.co.uk|meteox.com|niederschlagsradar.de|sat24.com|weerslag.nl|weerplaza.nl|buienalarm.be
 ||html-load.com^$script,xmlhttprequest,domain=fmradiofree.com|internetradio-horen.de|radio-norge.org|radio-danmark.dk|radio-hrvatska.com|radio-australia.org|radio-osterreich.at
 /adblock.js$domain=anisnatch.top|anisnatch.to
-/api/rum|$domain=mapple.*|mapplee.com|mapple.rip
+/api/rum|$domain=mapple.*|mapplee.com|mapple.rip|lightflix.app|mappl.tv
 ||helpers.publisherdesk.com/main.js
 ||soulauth.com/img/advertisements/
 ||porntb.com/cdn/cdn_check.js
@@ -20413,6 +20412,7 @@ $csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: www.googletagma
 @@||beinconnect.com.tr^$stealth
 @@||account.adobe.com^$document,domain=services.adobe.com,stealth=useragent
 @@||adguard.com^$stealth
+@@||workers.dev/media-proxy?$xmlhttprequest,stealth=referrer,domain=cinemove.cc
 @@||callistanise.com^$stealth=referrer
 @@||listeamed.net^$stealth=referrer
 @@||content-push.googleapis.com/upload/$xmlhttprequest,stealth=3p-auth
@@ -32045,6 +32045,7 @@ $third-party,xmlhttprequest,domain=mega4upload.net
 ||star-history.com/assets/sponsors/
 ||stardb.gg/lootbar_v2.png
 ||startpage.com^*/afs/
+||startuphub.ai/api/promotions
 ||static.fastpic.org^$subdocument
 ||steamanalyst.com/steeem/delivery/
 ||stirr.com/api/ads/

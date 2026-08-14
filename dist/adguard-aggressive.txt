@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Aggressive
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202608142238
-! Last modified: 2026-08-14T22:38:42Z
+! Version: 202608142334
+! Last modified: 2026-08-14T23:34:53Z
 ! Layers: network,content,scriptlet
 ! Mode: aggressive
-! Rules: 116652
+! Rules: 116653
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -93409,7 +93409,8 @@ businessday.co.za,sowetan.co.za,timeslive.co.za#?#.content-list-block:contains(N
 capwages.com#?#.gap-1.items-center.flex-col.flex:contains(Remove Ads)
 aliexpress.com#?##card-list > .search-item-card-wrapper-gallery:has(a.search-card-item[href*="&aem_p4p_detail="] div[class*="cards--image--"] > div[class*="multi--ax--"]:contains(/^(?:AD|An[uú]ncio|광고|広告)$/)):has(+ .search-item-card-wrapper-gallery a.search-card-item:not([href*="&aem_p4p_detail="]))
 chatgpt.com#?#.opacity-100.transition-opacity.ease-out:contains(Sponsored options)
-chatgpt.com#?#[class^="border-"]:contains(Sponsored)
+chatgpt.com#?#[class^="border-"]:not([class*="sidebar"]):contains(Ad)
+chatgpt.com#?#[class^="border-"]:not([class*="sidebar"]):contains(Sponsored)
 china.ahk.de#?#.b-main__section:has(h2.homepage-headline:contains(Advertisement))
 cleantechnica.com#?#.zox-side-widget:contains(/^Advertis/)
 coincarp.com#?#.border-bottom:contains(Sponsored)

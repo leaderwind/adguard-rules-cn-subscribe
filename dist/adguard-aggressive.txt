@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Aggressive
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202608141956
-! Last modified: 2026-08-14T19:56:44Z
+! Version: 202608142043
+! Last modified: 2026-08-14T20:43:29Z
 ! Layers: network,content,scriptlet
 ! Mode: aggressive
-! Rules: 116650
+! Rules: 116651
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -70233,6 +70233,8 @@ youtube.com#@#body > ytd-app > #content.ytd-app.style-scope > tp-yt-app-drawer#g
 javcrave.com#@#.widget_custom_html
 nybooks.com#@#.top-ad-wrapper
 nybooks.com##.ad-spacing
+chatgpt.com#@?#[class^="border-"]:contains(Ad)
+chatgpt.com#@?#[class^="border-"]:contains(Sponsored)
 deltaforcetools.gg#@#.ad-sidebar
 lichess.org#@#div.rendered[id][class*=" "]:not([id*="captcha"]):not(.cell-container)
 theanalyst.com#@#iframe[width="100%"][height="120"]:not([src*="bandcamp.com"], [src*="player-widget.mixcloud.com"])
@@ -93407,7 +93409,6 @@ businessday.co.za,sowetan.co.za,timeslive.co.za#?#.content-list-block:contains(N
 capwages.com#?#.gap-1.items-center.flex-col.flex:contains(Remove Ads)
 aliexpress.com#?##card-list > .search-item-card-wrapper-gallery:has(a.search-card-item[href*="&aem_p4p_detail="] div[class*="cards--image--"] > div[class*="multi--ax--"]:contains(/^(?:AD|An[uú]ncio|광고|広告)$/)):has(+ .search-item-card-wrapper-gallery a.search-card-item:not([href*="&aem_p4p_detail="]))
 chatgpt.com#?#.opacity-100.transition-opacity.ease-out:contains(Sponsored options)
-chatgpt.com#?#[class^="border-"]:contains(Ad)
 chatgpt.com#?#[class^="border-"]:contains(Sponsored)
 china.ahk.de#?#.b-main__section:has(h2.homepage-headline:contains(Advertisement))
 cleantechnica.com#?#.zox-side-widget:contains(/^Advertis/)

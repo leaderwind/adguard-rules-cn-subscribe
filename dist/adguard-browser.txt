@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Browser
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202608140640
-! Last modified: 2026-08-14T06:40:47Z
+! Version: 202608140836
+! Last modified: 2026-08-14T08:36:30Z
 ! Layers: network,content,scriptlet
 ! Mode: standard
-! Rules: 116515
+! Rules: 116521
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -52768,6 +52768,12 @@ animecorner.me,zarabiajprzez24.pl,watchhentai.xxx,app-how-to-use-it.com,linuxcap
 pawastreams.*,nflbite.to,footybite.to,sportschamp.fun,afly.pro,topsporter.net,soccerstreams.football,mysocceraustralia.com,rayinfosports.com,hesgoals.top,sequencecard.xyz,totalsportek.soccer,metaporky.site,nbabite.to,cyfostreams.com,gamerarcades.com,bestreamsports.org,footy.to,mcrypto.club,greaterkashmir.com###id-custom_banner
 pawastreams.*,groundedtechs.com,rayinfosports.com,sequencecard.xyz,matchtime.co,sportspellz.com,bestreamsports.org,silverspoon.site###dismiss-btn
 vi-control.net,nullforums.net,landyzone.co.uk,nullcave.pro,woxmax.com,waskucity.com,babia.to,technofino.in,reef2reef.com,minebbs.com,craxpro.io,affiliatefix.com,myiptvforum.com,hifivision.com,worldofiptv.com,altenen.is,beermoneyforum.com,germancarforum.com,cracking.org##.samBannerUnit
+healthtechmagazine.net#$#.hdr-btm { display: none !important; }
+healthtechmagazine.net#$#.hdr-btm ~ .main-nav { top: auto !important; }
+healthtechmagazine.net#$#body.sticky .hdr-btm ~ .main-nav { top: 0 !important; }
+healthtechmagazine.net#$#header.hdr-top[role="banner"] { display: none !important; }
+healthtechmagazine.net##article .paragraph--type--linked-image:has(> a[target="_blank"] > img)
+healthtechmagazine.net##article > .content > div > p > a.paragraphCTA[target="_blank"]:has(> em > strong)
 netflav.com##.ads_video_overlay_iframe
 rule34video.com##.spot_under
 vyla.qzz.io,vyla.cc##.promotion-container

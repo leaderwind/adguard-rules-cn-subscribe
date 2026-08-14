@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Content
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202608141338
-! Last modified: 2026-08-14T13:38:01Z
+! Version: 202608141505
+! Last modified: 2026-08-14T15:05:53Z
 ! Layers: content
 ! Mode: standard
-! Rules: 63414
+! Rules: 63415
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -2929,7 +2929,7 @@ vmlib.com##.elementor-widget > .elementor-widget-container > a[href^="http"]:not
 mydrivers.com##div[style="margin: auto;width: 580px;padding: 10px 0;"]
 docin.com##.mini-series-container
 5dm.dev##div[id^="player_p"]
-1lou.info,1lou.icu,1lou.me,1lou.one,1lou.pro###advert > :not(.card)
+1lou.vip,1lou.info,1lou.icu,1lou.me,1lou.one,1lou.pro###advert > :not(.card)
 manhuapica.com##a[href^="/ad/"]
 nodeseek.com##.promotation-item
 gx.cn###html-box-AD
@@ -9365,6 +9365,7 @@ youporn.com$$script:contains(/window\.[\s\S]*?_zone_[\s\S]*?{"zone_id":/)
 #@#.ads_banner
 ##.stickyads:not([style^="width: 32px"], [style^="width: 33px"], [style*="left: -43px"], [style*="-3"][style*="important"][style*="display: block;"], [style*="position: fixed"][style*="-188"], [style*="!important;"][style*="width:"][style*="height:"][style*="position"][style*="left:"][style*="top:"][style*="display"], [data-freestar-ad="123"]):not(:empty)
 ##.ads_banner:not([style^="width: 32px"], [style^="width: 33px"], [style*="left: -43px"], [style*="-3"][style*="important"][style*="display: block;"], [style*="position: fixed"][style*="-188"], [style*="!important;"][style*="width:"][style*="height:"][style*="position"][style*="left:"][style*="top:"][style*="display"]):not(:empty)
+coinfalo.com#@#.header-ad
 opentibiaserver.com#@#.google-ad
 opentibiaserver.com#@#.ad-banner-wrapper
 sirtv.fit###mw-adblock-overlay

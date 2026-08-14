@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Network
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202608141604
-! Last modified: 2026-08-14T16:04:00Z
+! Version: 202608141709
+! Last modified: 2026-08-14T17:09:27Z
 ! Layers: network
 ! Mode: standard
-! Rules: 47671
+! Rules: 47674
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -8342,6 +8342,8 @@ $cookie=__adblocker,domain=slate.com|thehindubusinessline.com
 ||claimfey.com/cryptonews/wp-content/uploads/bqanwcfp.js
 @@||static.trafficjunky.com/ab/ads_test.js$domain=bztube.com|hotovs.com|insuredhome.org|nudegista.com|pornluck.com|vidd.se|redtube.*|youpornru.com|tube8.com|tube8.es|tube8.fr|tube8.net|pornhub.com|pornhub.org|pornhub.net
 @@://www.exoclick.com/ads.js|
+@@||tempmail.ninja^$generichide
+@@||pagead2.googlesyndication.com/pagead/$domain=tempmail.ninja
 ||coinfalo.com/assets/js/ad.js
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=coinfalo.com
 @@||googleads.g.doubleclick.net/pagead/id$domain=coinfalo.com
@@ -20417,6 +20419,8 @@ $csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: www.googletagma
 @@||beinconnect.com.tr^$stealth
 @@||account.adobe.com^$document,domain=services.adobe.com,stealth=useragent
 @@||adguard.com^$stealth
+@@||fakitonye.shop/player/$stealth=referrer,domain=hdabla.net
+@@$media,stealth=referrer,domain=fakitonye.shop
 @@||fritz.com/*/apps/knowledge-base/$xmlhttprequest,elemhide,jsinject,extension
 @@||workers.dev/media-proxy?$xmlhttprequest,stealth=referrer,domain=cinemove.cc
 @@||callistanise.com^$stealth=referrer
@@ -23085,7 +23089,6 @@ cdn.braun634.com^$third-party
 @@||herexxx.com^$generichide
 @@||go-links.net^$generichide
 @@||turkdown.com^$generichide
-@@||tempmail.ninja^$generichide
 @@||chile-forum.ru^$generichide
 @@||todotech20.com^$generichide
 @@||dostats.info^$generichide

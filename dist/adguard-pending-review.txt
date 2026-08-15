@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Pending Review (Not AI-reviewed)
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202608150444
-! Last modified: 2026-08-15T04:44:50Z
+! Version: 202608150538
+! Last modified: 2026-08-15T05:38:26Z
 ! Layers: dns
 ! Mode: standard
-! Rules: 229579
+! Rules: 229586
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -147905,6 +147905,7 @@
 ||hbnygj.com^
 ||https-filtering-check.adtidy.org^
 ||unpkg.com^$badfilter
+||hdo0zseqy.com^
 /pa.dajiahao*.top/
 /^.+stat\.kugou\.com/
 /^admarvel\./
@@ -178610,7 +178611,6 @@
 ||zzy1.quyaoya.com^
 ||zzycj.com^
 ||zzz.onion.pet^
-||hdo0zseqy.com^
 ||piguiqproxy.com^$badfilter
 /wp-content/plugins/gplinks-flow/assets/js/flow.js|$replace=/var shown = false;/return;/
 /^https:\/\/[0-9a-z]+\.xyz\/rinku\/land/$document,~third-party,match-case,replace=/const proxyStatus = "Y";/const proxyStatus = "N";/
@@ -178639,6 +178639,10 @@
 ||freeadultcomix.com^$badfilter
 ||imgshare.info^$badfilter
 @@||connectivitycheck.gstatic.com^$important
+||corojohusband.com^
+||s99s.net^
+||sarkinekelter.shop^
+||yymupayhgc.com^
 /(https?:\/\/)104\.154\..{100,}/
 /(https?:\/\/)104\.197\..{100,}/
 /(https?:\/\/)104\.198\..{100,}/
@@ -195305,9 +195309,12 @@
 ||zysuvysaj.pro^
 ||zzux.com^
 ||sobot.com^
-||corojohusband.com^
-||s99s.net^
-||sarkinekelter.shop^
+||bebasteshogs.shop^
+||brimmedsclereyemen.qpon^
+||culmchidden.shop^
+||honouredphrasemildly.com^
+||leggieruncrest.qpon^
+||yappingptoses.cyou^
 ||mobile.pipe.aria.microsoft.com^
 ||cu-cn-north00001.gala.convection.cn^
 ||cu-cn-north00002.gala.convection.cn^

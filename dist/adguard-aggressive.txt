@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Aggressive
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202608160156
-! Last modified: 2026-08-16T01:56:34Z
+! Version: 202608160312
+! Last modified: 2026-08-16T03:12:26Z
 ! Layers: network,content,scriptlet
 ! Mode: aggressive
-! Rules: 116659
+! Rules: 116658
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -113625,12 +113625,10 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||duolingo.com/2017-06-30/tracking-status
 ||e.used.ca/event
 ||e2ma.net/track/
+||ebay.com/4xvLYt8n2y2Icbf2jCP_k_JP/
 ||ebay.com/delstats/
 ||ebay.com^*/customer_image_service?
 ||ebay.com^*/madrona_loadscripts.js
-||ebaystatic.com/cr/v/c01/c54e60e1-996e-4a53-a314-f44a6b151b40.min.js
-||ebaystatic.com/cr/v/c01/nh24082119176031f8a0afcb42d.js
-||ebaystatic.com/cr/v/c01/ubt241024192c097b9ddc0a81e0a.js
 ||ebaystatic.com^*tracking/configuration.js
 ||edisound.com/api/p/stats
 ||eharmony.ca/fd/
@@ -114406,6 +114404,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||support.github.com/session/event
 ||support.github.com/session/user
 ||support.google.com/apis/logjourney
+||svcs.ebay.com/ufeservice/v1/metrics
 ||swarm.video/stats/
 ||t-mobile.com/self-service-commerce/v1/logging
 ||t.lataco.com/collect

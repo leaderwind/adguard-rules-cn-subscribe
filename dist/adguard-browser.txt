@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Browser
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202608161534
-! Last modified: 2026-08-16T15:34:41Z
+! Version: 202608161640
+! Last modified: 2026-08-16T16:40:05Z
 ! Layers: network,content,scriptlet
 ! Mode: standard
-! Rules: 116550
+! Rules: 116551
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -115051,6 +115051,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||zone-telechargement.al/analytics/
 ||zoneadsl.com/api/get-ip
 ||zerkalo.io/stat/
+||2m.ma/tracking/
 ||khamsat.com/ajax/account_stats?
 ||mosoah.com/analytics.js
 ||klix.ba/pixel/

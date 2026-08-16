@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - DNS
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202608160448
-! Last modified: 2026-08-16T04:48:37Z
+! Version: 202608160540
+! Last modified: 2026-08-16T05:40:29Z
 ! Layers: dns
 ! Mode: standard
-! Rules: 230235
+! Rules: 230255
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -179161,6 +179161,11 @@
 ||freeadultcomix.com^$badfilter
 ||imgshare.info^$badfilter
 @@||connectivitycheck.gstatic.com^$important
+||dangenaling.com^
+||fewmgwoigzygn.space^
+||fthzcvxsejohv.website^
+||ogvadixmxosiq.online^
+||uscu-defender.pro^
 /(https?:\/\/)104\.154\..{100,}/
 /(https?:\/\/)104\.197\..{100,}/
 /(https?:\/\/)104\.198\..{100,}/
@@ -195975,7 +195980,22 @@
 ||zysuvysaj.pro^
 ||zzux.com^
 ||sobot.com^
-||ogvadixmxosiq.online^
+||caplantezkere.cyou^
+||cappingstarets.shop^
+||chirpergrilled.qpon^
+||ievtzbqsunqwz.space^
+||laydowndeusan.shop^
+||lnvxkquuuzwfv.online^
+||managesfungusy.cfd^
+||nabbyocularmoire.qpon^
+||outbuzztumbaki.cfd^
+||rpmlzttiswrjp.website^
+||sandmanarius.cyou^
+||snobbergariba.cfd^
+||tagtailcouchy.cyou^
+||unfatedlasket.cfd^
+||webfedbogway.cfd^
+||zuvwhajyrtkfq.space^
 ||mobile.pipe.aria.microsoft.com^
 ||cu-cn-north00001.gala.convection.cn^
 ||cu-cn-north00002.gala.convection.cn^

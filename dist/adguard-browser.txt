@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Browser
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202608161436
-! Last modified: 2026-08-16T14:36:51Z
+! Version: 202608161534
+! Last modified: 2026-08-16T15:34:41Z
 ! Layers: network,content,scriptlet
 ! Mode: standard
-! Rules: 116548
+! Rules: 116550
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -70235,6 +70235,8 @@ nybooks.com#@#.top-ad-wrapper
 nybooks.com##.ad-spacing
 chatgpt.com#@?#[class^="border-"]:contains(Ad)
 chatgpt.com#@?#[class^="border-"]:contains(Sponsored)
+chatgpt.com#@?#[class^="border-"]:not([class*="sidebar"]):contains(Ad)
+chatgpt.com#@?#[class^="border-"]:not([class*="sidebar"]):contains(Sponsored)
 deltaforcetools.gg#@#.ad-sidebar
 lichess.org#@#div.rendered[id][class*=" "]:not([id*="captcha"]):not(.cell-container)
 theanalyst.com#@#iframe[width="100%"][height="120"]:not([src*="bandcamp.com"], [src*="player-widget.mixcloud.com"])
@@ -88686,6 +88688,7 @@ dermstore.com,lookfantastic.com##.integration-sponsored-ads-pdp-container
 coincarp.com##.interact-mobileBox
 monochrome-watches.com##.interscroll
 mrctv.org,newsbusters.org##.intranet-mid-size
+whatismyip.com##.ip-leaderboard-ad
 allnurses.com##.ipsAreaBackground
 briskoda.net##.ipsData__item--advertisement
 uk420.com##.ipsLayout_container > div[align="center"]
@@ -93412,8 +93415,6 @@ businessday.co.za,sowetan.co.za,timeslive.co.za#?#.content-list-block:contains(N
 capwages.com#?#.gap-1.items-center.flex-col.flex:contains(Remove Ads)
 aliexpress.com#?##card-list > .search-item-card-wrapper-gallery:has(a.search-card-item[href*="&aem_p4p_detail="] div[class*="cards--image--"] > div[class*="multi--ax--"]:contains(/^(?:AD|An[uú]ncio|광고|広告)$/)):has(+ .search-item-card-wrapper-gallery a.search-card-item:not([href*="&aem_p4p_detail="]))
 chatgpt.com#?#.opacity-100.transition-opacity.ease-out:contains(Sponsored options)
-chatgpt.com#?#[class^="border-"]:not([class*="sidebar"]):contains(Ad)
-chatgpt.com#?#[class^="border-"]:not([class*="sidebar"]):contains(Sponsored)
 china.ahk.de#?#.b-main__section:has(h2.homepage-headline:contains(Advertisement))
 cleantechnica.com#?#.zox-side-widget:contains(/^Advertis/)
 coincarp.com#?#.border-bottom:contains(Sponsored)
@@ -93588,6 +93589,7 @@ temu.com#?#.goods-container:contains(AD)
 temu.com#?#.splide__slide:contains(AD)
 thedailywtf.com#?#.article-body > div:contains([Advertisement])
 thingiverse.com#?#.item-card-container:contains(/^Ad$/)
+chatgpt.com#?##thread [class^="border-"]:not([class*="sidebar"]):contains(/Ad|Sponsored/)
 timesofindia.indiatimes.com#?#div[data-type="in_view"]:has(> div > span:contains(Tired of too many ads?))
 tlgrm.eu#?#.cfeed-card:contains(Promoted post)
 tossinggames.com#?#tbody:contains(Please visit our below advertisers)
@@ -94456,6 +94458,7 @@ porngameshub.com##.prwrp
 tnaflix.com##.pspBanner
 javneon.tv##.pt-45 > .pb-3.pb-e-lg-40.text-center
 freemovies.tv##.publis-bottom
+xerotica.com##.pv-shelf
 pornpics.com##.r2-frame
 tokyonightstyle.com##.random-banner
 ice-gay.com##.random-block
@@ -103516,8 +103519,6 @@ businessday.co.za,sowetan.co.za,timeslive.co.za#?#.content-list-block:has-text(N
 capwages.com#?#.gap-1.items-center.flex-col.flex:has-text(Remove Ads)
 aliexpress.com#?##card-list > .search-item-card-wrapper-gallery:has(a.search-card-item[href*="&aem_p4p_detail="] div[class*="cards--image--"] > div[class*="multi--ax--"]:has-text(/^(?:AD|An[uú]ncio|광고|広告)$/)):has(+ .search-item-card-wrapper-gallery a.search-card-item:not([href*="&aem_p4p_detail="]))
 chatgpt.com#?#.opacity-100.transition-opacity.ease-out:has-text(Sponsored options)
-chatgpt.com#?#[class^="border-"]:not([class*="sidebar"]):has-text(Ad)
-chatgpt.com#?#[class^="border-"]:not([class*="sidebar"]):has-text(Sponsored)
 china.ahk.de#?#.b-main__section:has(h2.homepage-headline:has-text(Advertisement))
 cleantechnica.com#?#.zox-side-widget:has-text(/^Advertis/)
 coincarp.com#?#.border-bottom:has-text(Sponsored)
@@ -103689,6 +103690,7 @@ temu.com#?#.splide__slide:has-text(AD)
 theblock.co#?#.py-4.my-6:has-text(Advertisement)
 thedailywtf.com#?#.article-body > div:has-text([Advertisement])
 thingiverse.com#?#.item-card-container:has-text(/^Ad$/)
+chatgpt.com#?##thread [class^="border-"]:not([class*="sidebar"]):has-text(/Ad|Sponsored/)
 timesofindia.indiatimes.com#?#div[data-type="in_view"]:has(> div > span:has-text(Tired of too many ads?))
 tlgrm.eu#?#.cfeed-card:has-text(Promoted post)
 tossinggames.com#?#tbody:has-text(Please visit our below advertisers)

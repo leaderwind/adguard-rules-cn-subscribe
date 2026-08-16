@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Aggressive
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202608160359
-! Last modified: 2026-08-16T03:59:54Z
+! Version: 202608160448
+! Last modified: 2026-08-16T04:48:37Z
 ! Layers: network,content,scriptlet
 ! Mode: aggressive
-! Rules: 116658
+! Rules: 116635
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -109912,12 +109912,9 @@ omni.soundestlink.com$image
 ||heroesdom.com^$third-party
 ||hrbpark.bid^$third-party
 ||jeeng.com^$third-party
-||kattepush.com^$third-party
 ||letreach.com^$third-party
 ||lifterpopup.com^$third-party
 ||master-push.com^$third-party
-||master-push.net^$third-party
-||misrepush.com^$third-party
 ||moengage.com^$third-party
 ||mypush.online^$third-party
 ||najva.com^$third-party
@@ -110927,7 +110924,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ad.mail.ru/*.gif?rnd=$third-party
 ||adbr.io/log?
 ||addtoany.com/menu/transparent.gif
-||adimo.co/api/tracking/
 ||adnz.co/api/ws-events-sink/
 ||adnz.co/dmp/publisher.js
 ||adnz.co/header.js
@@ -111367,7 +111363,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||crowdskout.com^*/page-view
 ||crowdtwist.com/trck/$script
 ||ct.itbusinessedge.com^$third-party
-||ct.thegear-box.com^$third-party
 ||cts.businesswire.com^$third-party
 ||cts.vresp.com^$third-party
 ||custom.search.yahoo.co.jp/images/window/*.gif
@@ -111375,7 +111370,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||d.rcmd.jp^$image
 ||dadi.technology^$third-party
 ||dashboard.nowdialogue.com/api/events/
-||data.armexdef.uk/api/visit/
 ||data.debugbear.com^$third-party
 ||data.pendo.io/data/errorlog?
 ||data.pendo.io/data/guide.gif/
@@ -111651,7 +111645,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||hqq.tv/js/counters.js
 ||hrzn-nxt.com/pxl?
 ||hsforms.com/embed/v3/counters.gif
-||hub.reacti.co/index.js
 ||hubspot.com/analytics/
 ||hubspot.com/cs/loader-v2.js
 ||hubspot.com/img/trackers/
@@ -111673,9 +111666,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||id.verticalhealth.net/script.js?partnerid=
 ||iheart.com/events
 ||imageshack.us^*/thpix.gif
-||imgfarm.com/images/nocache/tr/*.gif?$image
-||imgfarm.com/images/trk/myexcitetr.gif?
-||imgfarm.com^*/mw.gif?$third-party
 ||imp.constantcontact.com^$third-party
 ||impdesk.com/smartpix/
 ||impel.io/releases/analytics/
@@ -111724,10 +111714,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||isitelab.io/ite_sitecomV1ANA.min.js
 ||iterable.com/analytics.js
 ||itmwpb.com/wp-content/plugins/advertise/modules/stats/assets/track.js
-||iturl.in/analytics?
 ||iubenda.com/write?
 ||iyisayfa.net/inc.php?
-||jailbaitchan.com/tp/
 ||jangomail.com^*?UID$third-party
 ||jennifersoft.com^$third-party
 ||jobvite.com/analytics.js
@@ -111784,7 +111772,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||letv.com/env/
 ||levelaccess.net/analytics/
 ||lhinsights.com/collect?
-||libcdnjs.com/api/event
 ||libs.platform.californiatimes.com/meteringjs/
 ||licdn.com/*.gif?rnd=
 ||licensing.bitmovin.com/impression
@@ -111808,7 +111795,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||listrakbi.com/activity/
 ||listrakbi.com/api/ActivityEvents/
 ||listrakbi.com/ModalImpression.ashx?
-||live-partner.com/tags?
 ||live-tv.top/js/k.min.js
 ||live.mrf.io/statics/marfeel/gardac-sync.js
 ||live2support.com^*/js_lstrk.
@@ -111897,7 +111883,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ml.com/enterprisetagging/
 ||mmcdn.com/events/
 ||mochiads.com/clk/
-||moco.yukata.dev/get/$image,third-party
 ||moderate.cleantalk.org/ct-bot-detector-wrapper.js
 ||modules.ooyala.com^*/analytics-
 ||movementventures.com/_uid.gif
@@ -112227,10 +112212,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||secure.ifbyphone.com^$third-party
 ||secureprovide1.com/*=tracking$image
 ||secureserver.net/t/
-||security.giokko.ru/cookie.php
 ||segmentapis.com/v1/t
 ||segments.adap.tv^$third-party
-||sempra.pro/stat/
 ||sendtonews.com/stn_trk.gif?
 ||sermoncloud.com/logger/
 ||sexhd.pics/x/x.js
@@ -112436,7 +112419,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||twitter.com/oct.js
 ||twitter.com/scribe/
 ||typeform.com/*/insights/events^
-||uadblocker.com/pixel1.php?$third-party
 ||uc.cn/collect?
 ||uc.shiprocket.in/v1/track/
 ||ucoz.net/stat/
@@ -112558,7 +112540,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||wn.com/count.js
 ||wogaa.sg/scripts/wogaa.js
 ||wondershare.es/jslibs/track.js
-||wordmonetize.com^$third-party
 ||wordpress.com/geo/
 ||workers.dev/api/event
 ||workers.dev/js/script.js
@@ -115003,7 +114984,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||mengelke.de/Pub/img/ads/werbebanner/adserv.gif
 ||moviepilot.de/assets/autotrack-
 ||mtb-news.de/metric/
-||muenchener-stadtplan.com/t.gif
 ||mydirtyhobby.de/tracker
 ||netzwelt.de/log?
 ||news.de/track.php
@@ -115264,7 +115244,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||uuu9.com/s.php?
 ||v.blog.sohu.com/dostat.do?
 ||vipstatic.com/mars/
-||visitorapi.pixplug.in^$domain=pixnet.net
 ||wanmei.com/public/js/stat.js
 ||weather.com.cn/a1.js
 ||weibo.cn/h5logs/
@@ -115443,7 +115422,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||servizi.unionesarda.it/controlli/
 ||smsaffari.it/count_new.php?
 ||spaziogames.it/ajax/player_impression.ashx?
-||tantifilm.top^*/ping
 ||timinternet.it/timmobilestatic/img/*.gif?
 ||timinternet.it/timmobilestatic/jsPrivacy/gdl_function_cookie.js
 ||tio.ch/ext/u.php?
@@ -115707,7 +115685,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||hh.ru/stat?
 ||interfax.ru/cnt/
 ||irecommend.ru/collect/
-||jetvis.ru/stat/
 ||kommersant.ru/a.asp?p=
 ||kommersant.uk/banner_stats
 ||kontur.ru/abtests/

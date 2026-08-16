@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Conservative
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202608160540
-! Last modified: 2026-08-16T05:40:29Z
+! Version: 202608160657
+! Last modified: 2026-08-16T06:57:34Z
 ! Layers: network,content,scriptlet
 ! Mode: conservative
-! Rules: 108563
+! Rules: 108565
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -85329,6 +85329,8 @@ theblock.co##.fixedUnit
 cgdirector.com##.fixed_ad_container_420
 2conv.com##.fixed_banner
 fixya.com##.fixya_primis_container
+forkast.news##.fk-ad
+forkast.news##.fk-cta
 whatismyipaddress.com##.fl-module-wipa-concerns
 whatismyipaddress.com##.fl-photo
 flightconnections.com##.flc-text-blocked-route

@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - DNS
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202608172238
-! Last modified: 2026-08-17T22:38:01Z
+! Version: 202608172335
+! Last modified: 2026-08-17T23:35:10Z
 ! Layers: dns
 ! Mode: standard
-! Rules: 254835
+! Rules: 254831
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -4036,7 +4036,6 @@
 ||cpm.convergeselect.com^
 ||cpm.degpeg.com^
 ||cpm.felixads.com^
-||cpm.geoadserver.com^
 ||cpm.gwmexchange.com^
 ||cpm.infinety.hu^
 ||cpm.infinityexplorers.com^
@@ -4161,7 +4160,6 @@
 ||filter.techdoor.com^
 ||filter.teriflicmedia.com^
 ||filter.thebidex.net^
-||filter.themediapoint.xyz^
 ||filter.thetrafficboss.com^
 ||filter.thing02.com^
 ||filter.torchbrowser.com^
@@ -4264,7 +4262,6 @@
 ||rtb-apac-v4.strongmetrics.io^
 ||rtb-apac-v4.techdoor.com^
 ||rtb-apac-v4.teriflicmedia.com^
-||rtb-apac-v4.themediapoint.net^
 ||rtb-apac-v4.visionpeakmedia.com^
 ||rtb-apac-v4.yieldoz.com^
 ||rtb-apac.adapace.com^
@@ -4303,8 +4300,6 @@
 ||rtb-eu-v4.strongmetrics.io^
 ||rtb-eu-v4.techdoor.com^
 ||rtb-eu-v4.teriflicmedia.com^
-||rtb-eu-v4.thebidex.com^
-||rtb-eu-v4.themediapoint.net^
 ||rtb-eu-v4.upremium.asia^
 ||rtb-eu-v4.visionpeakmedia.com^
 ||rtb-eu-v4.wecall-server.com^
@@ -4334,7 +4329,6 @@
 ||rtb-eu.santaads.com^
 ||rtb-eu.techdoor.com^
 ||rtb-eu.teriflicmedia.com^
-||rtb-eu.themediapoint.net^
 ||rtb-eu.visionpeakmedia.com^
 ||rtb-eu.wecall-server.com^
 ||rtb-eu.yieldoz.com^
@@ -4370,8 +4364,6 @@
 ||rtb-useast-v4.smartadexchange.net^
 ||rtb-useast-v4.strongmetrics.io^
 ||rtb-useast-v4.teriflicmedia.com^
-||rtb-useast-v4.thebidex.com^
-||rtb-useast-v4.themediapoint.net^
 ||rtb-useast-v4.tropintech.com^
 ||rtb-useast-v4.upremium.asia^
 ||rtb-useast-v4.visionpeakmedia.com^
@@ -4408,7 +4400,6 @@
 ||rtb-useast.santaads.com^
 ||rtb-useast.sonital.com^
 ||rtb-useast.stringads.com^
-||rtb-useast.themediapoint.net^
 ||rtb-useast.thetrafficboss.com^
 ||rtb-useast.thing02.com^
 ||rtb-useast.westcom.tv^
@@ -4594,10 +4585,6 @@
 ||win-rtb2-useast.webithr.com^
 ||win-rtb2-uswest.mobidick.xyz^
 ||win-rtb2-uswest.programmatics.net^
-||www.geoadserver.com^
-||www.thebidex.com^
-||www.themediapoint.net^
-||www.themediapoint.xyz^
 ||xml-eu-v4.aasedformed-b.online^
 ||xml-eu-v4.aasedformed-c.online^
 ||xml-eu-v4.aasedformed-d.online^
@@ -5014,7 +5001,6 @@
 ||xml-v4.techmintrain.online^
 ||xml-v4.teriflicmedia.com^
 ||xml-v4.thebidex.net^
-||xml-v4.themediapoint.xyz^
 ||xml-v4.tigerlab.online^
 ||xml-v4.trabinec.online^
 ||xml-v4.trackrelaypoint.com^
@@ -5242,7 +5228,6 @@
 ||xml.tatueoftheappyr.com^
 ||xml.techdoor.com^
 ||xml.techmintrain.online^
-||xml.themediapoint.xyz^
 ||xml.theotherwallows.org^
 ||xml.thetrafficboss.com^
 ||xml.thing02.com^
@@ -5311,7 +5296,6 @@
 ||static.shall-bid.com^
 ||static.strongkeyword.com^
 ||static.strongmetrics.io^
-||static.themediapoint.net^
 ||static.ultrads.net^
 ||static.vapa.co.in^
 ||static.vewith-bid.com^
@@ -202738,6 +202722,13 @@
 ||freeadultcomix.com^$badfilter
 ||imgshare.info^$badfilter
 @@||connectivitycheck.gstatic.com^$important
+||aiibwewvtdhkr.site^
+||arettrebletstation.cyou^
+||gwirammplkwzj.online^
+||hqhxfrcxxky.com^
+||jzklxzldskqok.online^
+||recountcalahan.cyou^
+||ywjzvgbtqtyjx.online^
 /(https?:\/\/)104\.154\..{100,}/
 /(https?:\/\/)104\.197\..{100,}/
 /(https?:\/\/)104\.198\..{100,}/
@@ -218762,6 +218753,7 @@
 ||angerfondnessspecified.com^
 ||anilibriaz.ru^
 ||animateddanglediary.com^
+||ankushaedna.com^
 ||anlqrktcwmasw.space^
 ||annexecamelot.com^
 ||annexere.top^
@@ -219417,6 +219409,7 @@
 ||geek-nerd-server.firebaseapp.com^
 ||geggeewrossle.com^
 ||geldedcubi.shop^
+||geoadserver.com^
 ||gestapostanza.shop^
 ||geumhuzzy.com^
 ||ghuzwaxlike.shop^
@@ -220344,6 +220337,9 @@
 ||theadultcompany.biz^
 ||thebestbetmakers.xyz^
 ||thebestbetmakers1.xyz^
+||thebidex.com^
+||themediapoint.net^
+||themediapoint.xyz^
 ||thewhizproducts.com^
 ||thighlemonadejell.com^
 ||threepi.de^
@@ -220596,9 +220592,9 @@
 ||zysuvysaj.pro^
 ||zzux.com^
 ||sobot.com^
-||arettrebletstation.cyou^
-||hqhxfrcxxky.com^
-||jzklxzldskqok.online^
+||sorbindoddlepottaro.qpon^
+||tionkghwvsomc.space^
+||xfyvaaphnojmw.site^
 ||mobile.pipe.aria.microsoft.com^
 ||cu-cn-north00001.gala.convection.cn^
 ||cu-cn-north00002.gala.convection.cn^

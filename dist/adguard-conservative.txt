@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Conservative
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202608170955
-! Last modified: 2026-08-17T09:55:47Z
+! Version: 202608171047
+! Last modified: 2026-08-17T10:47:27Z
 ! Layers: network,content,scriptlet
 ! Mode: conservative
-! Rules: 108589
+! Rules: 108591
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -49985,6 +49985,8 @@ animecorner.me,zarabiajprzez24.pl,watchhentai.xxx,app-how-to-use-it.com,linuxcap
 pawastreams.*,nflbite.to,footybite.to,sportschamp.fun,afly.pro,topsporter.net,soccerstreams.football,mysocceraustralia.com,rayinfosports.com,hesgoals.top,sequencecard.xyz,totalsportek.soccer,metaporky.site,nbabite.to,cyfostreams.com,gamerarcades.com,bestreamsports.org,footy.to,mcrypto.club,greaterkashmir.com###id-custom_banner
 pawastreams.*,groundedtechs.com,rayinfosports.com,sequencecard.xyz,matchtime.co,sportspellz.com,bestreamsports.org,silverspoon.site###dismiss-btn
 vi-control.net,nullforums.net,landyzone.co.uk,nullcave.pro,woxmax.com,waskucity.com,babia.to,technofino.in,reef2reef.com,minebbs.com,craxpro.io,affiliatefix.com,myiptvforum.com,hifivision.com,worldofiptv.com,altenen.is,beermoneyforum.com,germancarforum.com,cracking.org##.samBannerUnit
+wallscloud.net##.grid-row > figure:has(> div.item > div.wc-ad)
+wallscloud.net###res-com-block > div.visible-lg-block:has(> center > ins)
 sxyprn.com,sxyprn.net##.extlinkn
 sxyprn.com,sxyprn.net##a[aria-label="AI TAB"]
 rule34video.co##.posts > div[style^="text-align:center;"]:has(> script[src][referrerpolicy="no-referrer-when-downgrade"])

@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Network
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202608171304
-! Last modified: 2026-08-17T13:04:58Z
+! Version: 202608171351
+! Last modified: 2026-08-17T13:51:36Z
 ! Layers: network
 ! Mode: standard
-! Rules: 47666
+! Rules: 47668
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -45100,6 +45100,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||npa.thetimes.com/stats
 ||nslookup.io/pl.js
 ||ntvid.online/cdn-cgi/trace
+||nvidia.com/api/client-logger
 ||nyt.com/ads/tpc-check.html$domain=nytimes.com
 ||nytimes.com/v1/purr-cache
 ||nzherald.co.nz/pf/resources/scripts/tracking/data-ref.js
@@ -45480,6 +45481,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tiplink.io/fp-agent.js
 ||tms.delta.com/privacy/$image
 ||tnaflix.com/stats.php
+||together.ai/otel/v1/traces
 ||toms.com/*/FacebookCAPI-Event
 ||toms.com/*/PinterestCAPI-Event
 ||top.gg/api/auctions/i

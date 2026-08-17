@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - DNS
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202608170858
-! Last modified: 2026-08-17T08:58:59Z
+! Version: 202608170955
+! Last modified: 2026-08-17T09:55:47Z
 ! Layers: dns
 ! Mode: standard
-! Rules: 230305
+! Rules: 230327
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -147362,6 +147362,7 @@
 ||hbnygj.com^
 ||https-filtering-check.adtidy.org^
 ||unpkg.com^$badfilter
+||rmt827wgr.com^
 /pa.dajiahao*.top/
 /^.+stat\.kugou\.com/
 /^admarvel\./
@@ -178110,7 +178111,6 @@
 ||zzy1.quyaoya.com^
 ||zzycj.com^
 ||zzz.onion.pet^
-||rmt827wgr.com^
 ||piguiqproxy.com^$badfilter
 /wp-content/plugins/gplinks-flow/assets/js/flow.js|$replace=/var shown = false;/return;/
 /^https:\/\/[0-9a-z]+\.xyz\/rinku\/land/$document,~third-party,match-case,replace=/const proxyStatus = "Y";/const proxyStatus = "N";/
@@ -178139,6 +178139,10 @@
 ||freeadultcomix.com^$badfilter
 ||imgshare.info^$badfilter
 @@||connectivitycheck.gstatic.com^$important
+||cctblmittniqn.space^
+||ioiyenusljpgq.site^
+||lean-negative.pro^
+||smallanywhere.com^
 /(https?:\/\/)104\.154\..{100,}/
 /(https?:\/\/)104\.197\..{100,}/
 /(https?:\/\/)104\.198\..{100,}/
@@ -196039,8 +196043,26 @@
 ||zysuvysaj.pro^
 ||zzux.com^
 ||sobot.com^
-||cctblmittniqn.space^
-||smallanywhere.com^
+||dullstowards.shop^
+||eytrijnihxqnx.online^
+||flathecananga.shop^
+||formingnitta.cfd^
+||hareliplablab.cyou^
+||ignefkiypvogx.site^
+||kiesterriginal.cfd^
+||lcju23g62w72vt.rest^
+||mpzcpexsezuzp.space^
+||nibbleaquabib.qpon^
+||nqz6wor4.xyz^
+||ovwfv6f7bz664kt3e9u.cfd^
+||pullerycozed.cfd^
+||ragerpelikaivoltes.cyou^
+||slangsjoisted.shop^
+||slewthhotness.cfd^
+||sweetenochone.cyou^
+||taryardconsume.cyou^
+||tishriembain.cyou^
+||upasesrehung.cyou^
 ||mobile.pipe.aria.microsoft.com^
 ||cu-cn-north00001.gala.convection.cn^
 ||cu-cn-north00002.gala.convection.cn^

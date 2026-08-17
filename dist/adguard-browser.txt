@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Browser
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202608170456
-! Last modified: 2026-08-17T04:56:31Z
+! Version: 202608170548
+! Last modified: 2026-08-17T05:48:43Z
 ! Layers: network,content,scriptlet
 ! Mode: standard
-! Rules: 116567
+! Rules: 116563
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -23288,6 +23288,7 @@ _ad_content.
 /getStartPageAds
 /getads?
 /tghr.js$script
+/wp-content/plugins/bw-newstack-addon-monetization/*
 /btag.min.js
 /wp-content/plugins/1shortlink/*
 /link.php?cat=&idzone=$all
@@ -23642,6 +23643,7 @@ $subdocument,third-party,denyallow=disqus.com,domain=love4u.net
 $third-party,script,domain=klto9.com|f2movies.to|hacamchicac.com|yourporngod.com|zinchanmanga.com|yaoimangaonline.com|tututweak.app|mangaraw.ac|eromanga-show.com|hentai-one.com|hentaipaw.com|nukibooks.com|paipancon.com|jgvdata.com|youtubevanced.com|pandamtl.com|mangaplus.shueisha.tv|shueisharaw.tv
 ||linksconsole.com/ad-system/
 ||misc-api.feathermc.com/*/ads/ad_units?
+||pexels.com/*/api/v3/getty-media/
 ||api.redgifs.com/v*/adv/
 /^https:\/\/engine\.[a-z]+\.com\/\?[0-9]+$/$xmlhttprequest,third-party
 ||kick.com/datazoom/*/datazoom.js
@@ -35034,7 +35036,6 @@ _800x80_
 ||cashgzb.com^$document
 ||casinobonusdeals.io^$document
 ||cauditcommernal.com^$document
-||cautommityring.com^$document
 ||cawsg.com^$document
 ||cddtsecure.com^$document
 ||ceramicturtleremnant.com^$document
@@ -35054,7 +35055,6 @@ _800x80_
 ||cm65.com^$document
 ||cntrealize.com^$document
 ||coastalbloom.xyz^$document
-||conestreshow.com^$document
 ||consultflow.click^$document
 ||coolserving.com^$document
 ||coosync.com^$document
@@ -35119,7 +35119,6 @@ _800x80_
 ||gamazi.com^$document
 ||gamdom.com/?utm_source=$document
 ||gamerhit.co^$document
-||gamonalsmadevel.com^$document
 ||gb1aff.com^$document
 ||gensonal.com^$document
 ||get-gx.co/*sub2=$document
@@ -35226,7 +35225,6 @@ _800x80_
 ||mediahell.world^$document
 ||meetflirtmatch.com^$document
 ||meetwebclub.com^$document
-||metabatted.com^$document
 ||metatrckpixel.com^$document
 ||mettend-hamous.xyz^$document
 ||mgid.com^$document
@@ -35466,7 +35464,6 @@ _800x80_
 ||unlocky.org^$document
 ||unlocky.xyz^$document
 ||upodaitie.net^$document
-||usedownloads.com^$document
 ||utm-campaign.com^$document
 ||validcombine.com^$document
 ||vasstycom.com^$document
@@ -35488,7 +35485,6 @@ _800x80_
 ||voluumtrk.com^$document
 ||vulnerableimmigrateaboveaverage.com^$document
 ||w0we.com^$document
-||want-some-psh.com^$document
 ||wbidder.online^$document
 ||wbidder3.com^$document
 ||we-offer.com^$document
@@ -36448,7 +36444,6 @@ _800x80_
 ||pubgenius.io^$third-party
 ||pubguru.com^$third-party
 ||publicidad.net^$third-party
-||publicityclerks.com^$third-party
 ||publift.com^$third-party
 ||publir.com^$third-party
 ||publisher1st.com^$third-party
@@ -52786,6 +52781,7 @@ animecorner.me,zarabiajprzez24.pl,watchhentai.xxx,app-how-to-use-it.com,linuxcap
 pawastreams.*,nflbite.to,footybite.to,sportschamp.fun,afly.pro,topsporter.net,soccerstreams.football,mysocceraustralia.com,rayinfosports.com,hesgoals.top,sequencecard.xyz,totalsportek.soccer,metaporky.site,nbabite.to,cyfostreams.com,gamerarcades.com,bestreamsports.org,footy.to,mcrypto.club,greaterkashmir.com###id-custom_banner
 pawastreams.*,groundedtechs.com,rayinfosports.com,sequencecard.xyz,matchtime.co,sportspellz.com,bestreamsports.org,silverspoon.site###dismiss-btn
 vi-control.net,nullforums.net,landyzone.co.uk,nullcave.pro,woxmax.com,waskucity.com,babia.to,technofino.in,reef2reef.com,minebbs.com,craxpro.io,affiliatefix.com,myiptvforum.com,hifivision.com,worldofiptv.com,altenen.is,beermoneyforum.com,germancarforum.com,cracking.org##.samBannerUnit
+pexels.com##div[data-testid="column"] > div[data-testid="item"]:has(> div[class^="AIGCShared_container"])
 gsmarena.com###all-opinions > div[style="padding-bottom: 24px; min-height: 144px; margin-top: 22px;"]
 redgifs.com##.AnnouncementBar
 redgifs.com##.topNav-wrap button.aTab

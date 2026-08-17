@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Windows
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202608170548
-! Last modified: 2026-08-17T05:48:43Z
+! Version: 202608170714
+! Last modified: 2026-08-17T07:14:30Z
 ! Layers: network,content,scriptlet
 ! Mode: standard
-! Rules: 116563
+! Rules: 116564
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -48243,6 +48243,7 @@ bieganie.pl#?#.biega-nb-paris > DIV[style^="text-align:"]:contains(Reklama)
 gospodarkamorska.pl##.Home_categories_box > div.polecamy-slider > div[class*="poster-dnone-"]
 onet.pl##a[href^="https://milionymonet.onet.pl/"]
 pograne.eu###custom_html-8
+eprzasnysz.pl#@#[class*="box-advert"]
 warzywa.pl,jagodowe.pl,wrp.pl,sad24.pl#@#[class$="-ads"]
 warzywa.pl,jagodowe.pl,wrp.pl,sad24.pl##.item__side > a > img
 warzywa.pl,jagodowe.pl,wrp.pl,sad24.pl##div[class^="position_"]:not(:has(> *))

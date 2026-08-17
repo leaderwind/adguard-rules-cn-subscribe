@@ -1,16 +1,21 @@
 ! Title: AdGuard Rules CN - Network
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202608171537
-! Last modified: 2026-08-17T15:37:40Z
+! Version: 202608171644
+! Last modified: 2026-08-17T16:44:08Z
 ! Layers: network
 ! Mode: standard
-! Rules: 47574
+! Rules: 47668
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
 ! DNS outputs are normalized and safely compressed by parent-domain coverage.
 !
+*-ad.sm.cn*
+*-ad.video.yximgs.com*
+*-ad.wtzw.com*
+*-be-pack-sign.pglstatp-toutiao.com*
+*-normal.zijieapi.com*
 ||aa67678156.com^$third-party
 ||onemob.mobi^$third-party
 ||tw-726620180914.*.run.app^
@@ -33606,6 +33611,97 @@ $popup,third-party,domain=hentai2read.com|porn-tube-club.com
 @@||xhwide5.com^$script,~third-party
 @@://xhamster.$script,~third-party
 @@||milfzr.com^$generichide
+||*.libaishuo.com^$third-party
+||m.yap.yahoo.com^$domain=~not.dns
+||adv0*.msa.cdn.mediaset.net^
+/adunion/*
+||54.222.186.106^
+||adapi*.boomplaymusic.com^
+||get*bannerads-6egeg2u34q-du.a.run.app^
+||nelonenmedia-pmd-ads-*.nm-stream.nelonenmedia.fi^
+||23.224.199.96^
+||23.224.199.74^
+||ads*-normal*.zijieapi.com^
+||ad*.zonaplus.tv^
+||api16-access-ttp*.tiktokpangle-b.us^
+||pavoshare.com
+||global-staticplat.cdn.bcebos.com
+||creative*.bidease.com^
+||ads*-normal-*.zijieapi.com^
+-adx-*.rayjump.com^
+||kiesta.net^$third-party
+||ads*.textra.me^
+||ads-*-nfl.yinzcam.com^
+||aan.amazon.*^
+||ads*.production-public.tubi.io^
+||mob*.novanewsapp.com^
+||ad-*.amazonaws.com^
+||ads*-normal-lq.zijieapi.com^
+||v*-ad.video.yximgs.com^
+||ads*.bojijulebu.com^
+||ir-new-cdn-eu-west-*-hb.rayjump.com^
+||tnc16-*.byteoversea.com^
+||adcs-*.myappsget.com^
+||prebid-cache*.ifunny.co^
+||mobiadvert*.livesportmedia.eu^
+||jtbo*.nqxvevk.cn^
+||adx-*.dbankcloud.
+||ad-*.appacc.dbankedge.cn^
+||adx-*.dbankedge.cn^
+||adx-*.op.dbankcloud.com.edgekey.net^
+||api-ad-callback.mobiuspace.net
+||marketplace-*.hyprmx.com^
+||events-*.op.hicloud.com^
+||iad-*.braze.com^
+||painsko.com^$third-party
+||ad.mail.ru^$domain=~e.mail.ru|~octavius.mail.ru
+||ms*.applvn.com^
+||api*.bidmachine.io^
+||adsmobila.com^$third-party
+||ts166.net^$third-party
+||banner.*.tccapis.com^
+||cdn-adn-*.rayjump.com^
+||postut.cn^$third-party
+||adplex.co.kr^$third-party
+||deliveryengine.adswizz.com
+||tnkfactory.com^$third-party
+||iqzone.com^$third-party
+||postitial.com^$third-party
+||amazonaws.com/cp4pox^
+||dsp.batmobil.net/ads-dsp^
+||api*.batmobi.net^
+||api*.batmobil.net^
+||mobilebanner.ru^$third-party
+||jssdk.rayjump.com^$third-party
+||adtheorent.com^$third-party
+||api.cloudmobi.net
+||tongqing2015.com^$third-party
+||adserver.*.yahoodns.net^
+||config.appjolt.com
+://o0e.ru^$third-party
+||31.14.252.148^$third-party
+||ad*.nexage.com^
+||ad.admitad.com^$third-party
+||applift.com^$redirect=nooptext
+||brokerbabe.com^$third-party
+||i-mobile.co.jp^$third-party
+||iad-*.appboy.com^
+||imwx.com/mobile/adconfig/
+||keydot.net^$third-party
+||ma-code.ru^$third-party
+||mediate-ios-*.hyprmx.com^
+||pagead46.l.doubleclick.net^$third-party
+||partnerad.l.doubleclick.net^$third-party
+||plugin.mediavoice.com^$third-party
+||pos.baidu.com^$third-party
+||production-adserver-*.amazonaws.com^
+||rtbimp-loadbalancer-*.amazonaws.com^
+||tapstat.ru^$third-party
+||track.cpatool.net^$popup,third-party
+||vidout.net^$third-party
+||yuhuads.com^$third-party
+||deloton.com$popup,important
+||oclasrv.com$popup,important
 ||molpmh.xyz|
 ||wdadad.cn
 ||121.43.235.135^
@@ -41495,7 +41591,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||h-cast.jp^$third-party
 ||hebiichigo.com^$third-party
 ||hitgraph.jp^$third-party
-||i-mobile.co.jp^$third-party
 ||i2ad.jp^$third-party
 ||i2i.jp^$third-party
 ||iid-network.jp^$third-party
@@ -42641,7 +42736,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ippen.space/idat
 ||ipstatp.com/growth/fe_sdk/reportsdk/$third-party
 ||ipstatp.com/static_magic/pgc/tech/collect/$third-party
-||iqzone.com^$third-party
 ||iraiser.eu/analytics.js
 ||isacglobal.com/sa.js
 ||isitelab.io/ite_sitecomV1ANA.min.js

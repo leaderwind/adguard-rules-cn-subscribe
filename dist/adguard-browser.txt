@@ -1,16 +1,21 @@
 ! Title: AdGuard Rules CN - Browser
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202608171537
-! Last modified: 2026-08-17T15:37:40Z
+! Version: 202608171644
+! Last modified: 2026-08-17T16:44:08Z
 ! Layers: network,content,scriptlet
 ! Mode: standard
-! Rules: 116584
+! Rules: 116589
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
 ! DNS outputs are normalized and safely compressed by parent-domain coverage.
 !
+*-ad.sm.cn*
+*-ad.video.yximgs.com*
+*-ad.wtzw.com*
+*-be-pack-sign.pglstatp-toutiao.com*
+*-normal.zijieapi.com*
 ||aa67678156.com^$third-party
 ||onemob.mobi^$third-party
 ||tw-726620180914.*.run.app^

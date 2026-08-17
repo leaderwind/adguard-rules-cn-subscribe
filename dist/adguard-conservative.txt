@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Conservative
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202608170154
-! Last modified: 2026-08-17T01:54:17Z
+! Version: 202608170311
+! Last modified: 2026-08-17T03:11:23Z
 ! Layers: network,content,scriptlet
 ! Mode: conservative
-! Rules: 108572
+! Rules: 108577
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -22960,6 +22960,7 @@ $subdocument,third-party,denyallow=disqus.com,domain=love4u.net
 $third-party,script,domain=klto9.com|f2movies.to|hacamchicac.com|yourporngod.com|zinchanmanga.com|yaoimangaonline.com|tututweak.app|mangaraw.ac|eromanga-show.com|hentai-one.com|hentaipaw.com|nukibooks.com|paipancon.com|jgvdata.com|youtubevanced.com|pandamtl.com|mangaplus.shueisha.tv|shueisharaw.tv
 ||linksconsole.com/ad-system/
 ||misc-api.feathermc.com/*/ads/ad_units?
+/^https:\/\/engine\.[a-z]+\.com\/\?[0-9]+$/$xmlhttprequest,third-party
 ||kick.com/datazoom/*/datazoom.js
 ||d26yk4zpyhjeeq.cloudfront.net/tm/*/asset_*.ts$media,xmlhttprequest,redirect=noopmp4-1s,domain=kick.com
 ||cdn.cums.net/templates/cumsnew/js/nav-restore.js
@@ -50160,7 +50161,6 @@ greatandhra.com##.shp-layer
 uindex.org##body > [id][class*=" "]:has(> a[target="_blank"])
 moviebite.cc##.site-ad-banner
 drtuber.desi,drtuber.com,drtuber.*,nuvid.tv##.header_roulette_button
-nuvid.tv##.ID_live_cam_inner
 nuvid.tv##.footer-live-cam
 sdc.com##a[href^="https://mysteryvibe.com/"]
 football.london##div[data-tmdatatrack-type="commercial"]
@@ -50933,8 +50933,8 @@ myhentaigallery.com#$#.featured-comic { min-height: auto !important; }
 myhentaigallery.com#$#.pagination-image { min-height: auto !important; }
 pornoflix.com###onPauseAdContainer
 porn4fans.com###spot_player_start
-porn4fans.com##a.ID_live_cam_inner
 porn4fans.com##.desc-animated-banner3-wrap
+nuvid.tv,porn4fans.me,porn4fans.com##.ID_live_cam_inner
 hdporncomics.com##div[data-ad-injected]
 hdporncomics.com###menu-menu > li.menu-item:has(> a[href][target="_blank"][rel="nofollow noopener sponsored"])
 modporn.com##a[href^="https://landing.candynetwork.ai/"]
@@ -62367,7 +62367,7 @@ youjizz.com##a[href^="//"][target="_blank"]:not([href*="https://www.youjizz.com"
 proporn.com,drtuber.com##.abtext
 bobs-tube.com##a[onclick*="_gaq.push(['_trackEvent',"]
 bobs-tube.com##.social-bookmarks
-fyxxr.to,hihentaiporn.com,watchporn.to,camwhores.tv,japan-whores.com,thothub.vip,3dporndude.com,xcadr.tv,fapnow.xxx,bobs-tube.com##.fp-brand
+porn4fans.me,porn4fans.com,fyxxr.to,hihentaiporn.com,watchporn.to,camwhores.tv,japan-whores.com,thothub.vip,3dporndude.com,xcadr.tv,fapnow.xxx,bobs-tube.com##.fp-brand
 popsugar.com,popsugar.co.uk###pubexchange_below_content
 weightlossgroove.com##.adsense_wrapper
 bleachernation.com##.row > .post-list > [class^="code-block code-block-"][style="margin: 8px auto; text-align: center; clear: both;"]
@@ -86415,6 +86415,7 @@ seura.fi##.nativead:not(.list)
 vice.com##.nav-bar__article-spacer
 foobar2000.org##.navad
 ford-trucks.com##.navbar_notice
+notebookcheck.net##.nbc-r-float
 notebookcheck.net##.nbc-right-float
 vocm.com##.nccBigBox
 aceshowbiz.com,cmr24.net##.ne-banner-layout1
@@ -105352,6 +105353,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||biosolutions.tv/audience-proxy/
 ||bis.org/metrics/web.gif?
 ||bitchute.com/data/script.js
+||bitdefender.com/geoip
 ||bitwarden.com/plsbl/
 ||blockworks.co/_vercel/insights/
 ||bmoharris.com/www/assets/analytics/loader.js
@@ -106992,6 +106994,9 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||batiactu.com/cap_
 ||bellesdemeures.com/Content/dist/js/libs/thor.js
 ||boingtv.fr/track_view
+||cdn.lesnumeriques.com/assets/*/js/eventsTracker-
+||cdn.lesnumeriques.com/assets/*/js/offer-tracking-
+||cdn.lesnumeriques.com/assets/*/js/tracking-
 ||centerblog.net/a/in
 ||cesu.urssaf.fr/clm10
 ||clubic.com/tview

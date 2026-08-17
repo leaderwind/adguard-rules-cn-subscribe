@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Network
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202608170154
-! Last modified: 2026-08-17T01:54:17Z
+! Version: 202608170311
+! Last modified: 2026-08-17T03:11:23Z
 ! Layers: network
 ! Mode: standard
-! Rules: 47663
+! Rules: 47668
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -14416,6 +14416,7 @@ $subdocument,third-party,denyallow=disqus.com,domain=love4u.net
 $third-party,script,domain=klto9.com|f2movies.to|hacamchicac.com|yourporngod.com|zinchanmanga.com|yaoimangaonline.com|tututweak.app|mangaraw.ac|eromanga-show.com|hentai-one.com|hentaipaw.com|nukibooks.com|paipancon.com|jgvdata.com|youtubevanced.com|pandamtl.com|mangaplus.shueisha.tv|shueisharaw.tv
 ||linksconsole.com/ad-system/
 ||misc-api.feathermc.com/*/ads/ad_units?
+/^https:\/\/engine\.[a-z]+\.com\/\?[0-9]+$/$xmlhttprequest,third-party
 ||kick.com/datazoom/*/datazoom.js
 ||d26yk4zpyhjeeq.cloudfront.net/tm/*/asset_*.ts$media,xmlhttprequest,redirect=noopmp4-1s,domain=kick.com
 ||cdn.cums.net/templates/cumsnew/js/nav-restore.js
@@ -44443,6 +44444,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||biosolutions.tv/audience-proxy/
 ||bis.org/metrics/web.gif?
 ||bitchute.com/data/script.js
+||bitdefender.com/geoip
 ||bitwarden.com/plsbl/
 ||blockworks.co/_vercel/insights/
 ||bmoharris.com/www/assets/analytics/loader.js
@@ -46085,6 +46087,9 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||batiactu.com/cap_
 ||bellesdemeures.com/Content/dist/js/libs/thor.js
 ||boingtv.fr/track_view
+||cdn.lesnumeriques.com/assets/*/js/eventsTracker-
+||cdn.lesnumeriques.com/assets/*/js/offer-tracking-
+||cdn.lesnumeriques.com/assets/*/js/tracking-
 ||centerblog.net/a/in
 ||cesu.urssaf.fr/clm10
 ||clubic.com/tview

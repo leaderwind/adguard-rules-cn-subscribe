@@ -1,8 +1,8 @@
 ! Title: AdGuard Rules CN - Content
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202608170154
-! Last modified: 2026-08-17T01:54:17Z
+! Version: 202608170311
+! Last modified: 2026-08-17T03:11:23Z
 ! Layers: content
 ! Mode: standard
 ! Rules: 63454
@@ -19071,7 +19071,6 @@ greatandhra.com##.shp-layer
 uindex.org##body > [id][class*=" "]:has(> a[target="_blank"])
 moviebite.cc##.site-ad-banner
 drtuber.desi,drtuber.com,drtuber.*,nuvid.tv##.header_roulette_button
-nuvid.tv##.ID_live_cam_inner
 nuvid.tv##.footer-live-cam
 sdc.com##a[href^="https://mysteryvibe.com/"]
 football.london##div[data-tmdatatrack-type="commercial"]
@@ -19845,8 +19844,8 @@ myhentaigallery.com#$#.featured-comic { min-height: auto !important; }
 myhentaigallery.com#$#.pagination-image { min-height: auto !important; }
 pornoflix.com###onPauseAdContainer
 porn4fans.com###spot_player_start
-porn4fans.com##a.ID_live_cam_inner
 porn4fans.com##.desc-animated-banner3-wrap
+nuvid.tv,porn4fans.me,porn4fans.com##.ID_live_cam_inner
 hdporncomics.com##div[data-ad-injected]
 hdporncomics.com###menu-menu > li.menu-item:has(> a[href][target="_blank"][rel="nofollow noopener sponsored"])
 modporn.com##a[href^="https://landing.candynetwork.ai/"]
@@ -31298,7 +31297,7 @@ youjizz.com##a[href^="//"][target="_blank"]:not([href*="https://www.youjizz.com"
 proporn.com,drtuber.com##.abtext
 bobs-tube.com##a[onclick*="_gaq.push(['_trackEvent',"]
 bobs-tube.com##.social-bookmarks
-fyxxr.to,hihentaiporn.com,watchporn.to,camwhores.tv,japan-whores.com,thothub.vip,3dporndude.com,xcadr.tv,fapnow.xxx,bobs-tube.com##.fp-brand
+porn4fans.me,porn4fans.com,fyxxr.to,hihentaiporn.com,watchporn.to,camwhores.tv,japan-whores.com,thothub.vip,3dporndude.com,xcadr.tv,fapnow.xxx,bobs-tube.com##.fp-brand
 popsugar.com,popsugar.co.uk###pubexchange_below_content
 weightlossgroove.com##.adsense_wrapper
 bleachernation.com##.row > .post-list > [class^="code-block code-block-"][style="margin: 8px auto; text-align: center; clear: both;"]
@@ -55355,6 +55354,7 @@ seura.fi##.nativead:not(.list)
 vice.com##.nav-bar__article-spacer
 foobar2000.org##.navad
 ford-trucks.com##.navbar_notice
+notebookcheck.net##.nbc-r-float
 notebookcheck.net##.nbc-right-float
 vocm.com##.nccBigBox
 aceshowbiz.com,cmr24.net##.ne-banner-layout1

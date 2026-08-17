@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Conservative
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202608162332
-! Last modified: 2026-08-16T23:32:50Z
+! Version: 202608170154
+! Last modified: 2026-08-17T01:54:17Z
 ! Layers: network,content,scriptlet
 ! Mode: conservative
-! Rules: 108568
+! Rules: 108572
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -85859,6 +85859,7 @@ dermstore.com,lookfantastic.com##.integration-sponsored-ads-pdp-container
 coincarp.com##.interact-mobileBox
 monochrome-watches.com##.interscroll
 mrctv.org,newsbusters.org##.intranet-mid-size
+carsales.com.au##.iompba0.iompba3:has(> .iompba0.iompba3[style="min-height: 90px;"] > div[data-targeting-pos="multibanner_1"])
 whatismyip.com##.ip-leaderboard-ad
 allnurses.com##.ipsAreaBackground
 briskoda.net##.ipsData__item--advertisement
@@ -96483,6 +96484,8 @@ otomi-games.com##.clean-grid-grid-post:has(> [id^="otomi-"] + .clean-grid-grid-p
 /collectsysteminfo?
 /com.snowplowanalytics.snowplow/*$domain=~7plus.com.au
 /com_joomlawatch/img.php
+/com_jrealtimeanalytics/js/heatmap.js
+/com_jrealtimeanalytics/js/stream.js
 /commerce-events-listener.js
 /common/analytics.js
 /common/ga.js
@@ -106051,6 +106054,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||pdffiller.com/funnel.php?
 ||pdffiller.com/mpages/track/
 ||pdfforge.org/api/kd-gdpr-cc
+||pearos.xyz/track.php
 ||pelisfree.site/cdn-cgi/trace
 ||pendo.scopus.com/data/ptm.gif
 ||perplexity.ai/rest/event/analytics

@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - DNS
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202608180449
-! Last modified: 2026-08-18T04:49:46Z
+! Version: 202608180543
+! Last modified: 2026-08-18T05:43:34Z
 ! Layers: dns
 ! Mode: standard
-! Rules: 250891
+! Rules: 250917
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -168790,6 +168790,8 @@
 ||hbnygj.com^
 ||https-filtering-check.adtidy.org^
 ||unpkg.com^$badfilter
+||i16vlgqdhh.com^
+||jnes2uutqu.com^
 /pa.dajiahao*.top/
 /^.+stat\.kugou\.com/
 /^admarvel\./
@@ -198406,6 +198408,7 @@
 ||zzy1.quyaoya.com^
 ||zzycj.com^
 ||zzz.onion.pet^
+||tva4k92u14.com^
 ||piguiqproxy.com^$badfilter
 /wp-content/plugins/gplinks-flow/assets/js/flow.js|$replace=/var shown = false;/return;/
 /^https:\/\/[0-9a-z]+\.xyz\/rinku\/land/$document,~third-party,match-case,replace=/const proxyStatus = "Y";/const proxyStatus = "N";/
@@ -198434,6 +198437,10 @@
 ||freeadultcomix.com^$badfilter
 ||imgshare.info^$badfilter
 @@||connectivitycheck.gstatic.com^$important
+||cyclistburiels.qpon^
+||gckwyppspvqce.space^
+||jqlumeiprhdpd.space^
+||vmyhrogasgxkq.online^
 /(https?:\/\/)104\.154\..{100,}/
 /(https?:\/\/)104\.197\..{100,}/
 /(https?:\/\/)104\.198\..{100,}/
@@ -216314,7 +216321,26 @@
 ||zz.shat1.com^
 ||zzux.com^
 ||sobot.com^
-||vmyhrogasgxkq.online^
+||aplysiasenage.com^
+||clgcrfvpphnul.site^
+||dsxwbg.com^
+||educeconines.qpon^
+||fordeddinged.qpon^
+||franklybudlet.shop^
+||freshedsteele.cfd^
+||gunfireleafit.shop^
+||hookumokika.cfd^
+||incanwurmal.cfd^
+||jgqpcqzywugbh.website^
+||kkqrrwhyrkher.online^
+||llcjvpltyotdi.site^
+||potmeninfused.cfd^
+||rikishatasajo.qpon^
+||shotsisatic.shop^
+||shrunkcakes.shop^
+||stuffcluniac.qpon^
+||sunkdetail.shop^
+||upcuttatoo.cyou^
 ||mobile.pipe.aria.microsoft.com^
 ||cu-cn-north00001.gala.convection.cn^
 ||cu-cn-north00002.gala.convection.cn^

@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Content
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202608180852
-! Last modified: 2026-08-18T08:52:04Z
+! Version: 202608180947
+! Last modified: 2026-08-18T09:47:23Z
 ! Layers: content
 ! Mode: standard
-! Rules: 63490
+! Rules: 63491
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -21873,7 +21873,7 @@ ultrahqporn.com##div[class]:has(> div > div > div[class^="netloop-ad-banner-"])
 ultrahqporn.com##div[class]:has(> a[href="https://pq.hosting/"])
 ultrahqporn.com##.grid-cols-1 > a.group ~ a[href="https://ultrahqporn.com"]
 ultrahqporn.com##footer div.flex:has(> div.border > div > script[src^="https://a.magsrv.com/"])
-ogfap.com##.ad-placement
+fandango.com,ogfap.com##.ad-placement
 ososedki.com###masonry > div.thumbs:has(> center > noindex > div[style^="min-height:"])
 ososedki.com##.grid-more > div.thumbs-more:has(> center > noindex > div[style^="min-height:"])
 classace.io##div[class^="GoogleInArticleAdsenseContainer"]
@@ -63184,6 +63184,7 @@ deliveroo.*#?#div[class^="HomeFeedScrollTracker-"]:has(span[class^="HomeFeedUILi
 advocate.com,out.com,pride.com#?#.component.module-headline:has-text(FROM OUR SPONSORS)
 character.ai#?#.space-y-4 > .w-full:has-text(Advertisement)
 cjleo.com#?#.alt-widget-title:has-text(advertisement)
+getyarn.io#?#.pt3p > div > div:has-text(Advertisement)
 theregister.com#?#article.large-12:has-text(SPONSORED FEATURE)
 2fa.live#?#p:has-text(Advertising)
 404media.co#?#.post__content > p:has-text(This segment is a paid ad)

@@ -1,8 +1,8 @@
 ! Title: AdGuard Rules CN - Content
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202608180543
-! Last modified: 2026-08-18T05:43:34Z
+! Version: 202608180701
+! Last modified: 2026-08-18T07:01:53Z
 ! Layers: content
 ! Mode: standard
 ! Rules: 63490
@@ -20781,7 +20781,7 @@ h-donghua.xyz##body > div[id][style*="position:fixed;"][style*=";z-index:"]
 h-donghua.xyz##.video-content > div[id][style*="position:absolute;"][style*=";z-index:"]
 5v5world.co,burgerpixel.net,summonersky.com,homepander.com,aov-news.com#$?#.ads_reader { remove: true; }
 5v5world.co,burgerpixel.net,summonersky.com,homepander.com,aov-news.com#$?#.carousel-item.recommend:not(:has(>*)) { remove: true; }
-animekai.*,animekai.la,animekai.gs,animekai.fo,animekai.fi,comix.to,anikai.to##body > a[target="_blank"][style^="position:"][style*="z-index:"]
+comix.*,comix.ws,animekai.*,animekai.la,animekai.gs,animekai.fo,animekai.fi,comix.to,anikai.to##body > a[target="_blank"][style^="position:"][style*="z-index:"]
 player4u.xyz,2embed.*,vidapi.xyz###gate
 neoseeker.com##div[style*="background: rgb(239, 239, 239);"][style*="min-height: 355px;"]
 tvpassport.com#$#.divide-nav { height: auto !important; }

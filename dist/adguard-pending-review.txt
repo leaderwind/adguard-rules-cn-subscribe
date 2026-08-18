@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Pending Review (Not AI-reviewed)
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202608181045
-! Last modified: 2026-08-18T10:45:00Z
+! Version: 202608181138
+! Last modified: 2026-08-18T11:38:07Z
 ! Layers: dns
 ! Mode: standard
-! Rules: 251547
+! Rules: 251552
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -168857,6 +168857,8 @@
 ||hbnygj.com^
 ||https-filtering-check.adtidy.org^
 ||unpkg.com^$badfilter
+||qdqf7syrx0.com^
+||massivesalad.com^
 /pa.dajiahao*.top/
 /^.+stat\.kugou\.com/
 /^admarvel\./
@@ -198492,7 +198494,6 @@
 ||zzy1.quyaoya.com^
 ||zzycj.com^
 ||zzz.onion.pet^
-||qdqf7syrx0.com^
 ||piguiqproxy.com^$badfilter
 /wp-content/plugins/gplinks-flow/assets/js/flow.js|$replace=/var shown = false;/return;/
 /^https:\/\/[0-9a-z]+\.xyz\/rinku\/land/$document,~third-party,match-case,replace=/const proxyStatus = "Y";/const proxyStatus = "N";/
@@ -198521,6 +198522,10 @@
 ||freeadultcomix.com^$badfilter
 ||imgshare.info^$badfilter
 @@||connectivitycheck.gstatic.com^$important
+||hungerworktroubles.com^
+||lfynfgsubtjhl.space^
+||lottosamuguis.cfd^
+||ruswxgftoqkcq.space^
 /(https?:\/\/)104\.154\..{100,}/
 /(https?:\/\/)104\.197\..{100,}/
 /(https?:\/\/)104\.198\..{100,}/
@@ -210427,7 +210432,6 @@
 ||masqueradethousand.com^
 ||mass-analytics.com^
 ||massainsoalelsy.net^
-||massivesalad.com^
 ||masterfornews.com^
 ||masterpiecevex.com^
 ||mastershik.com^
@@ -216945,9 +216949,10 @@
 ||zysuvysaj.pro^
 ||zzux.com^
 ||sobot.com^
-||hungerworktroubles.com^
-||lfynfgsubtjhl.space^
-||ruswxgftoqkcq.space^
+||guaolassikyshachly.qpon^
+||gxxbifvsjhseu.space^
+||ujnxyvtxtbpcc.site^
+||whvzonhdonaqo.website^
 ||mobile.pipe.aria.microsoft.com^
 ||cu-cn-north00001.gala.convection.cn^
 ||cu-cn-north00002.gala.convection.cn^

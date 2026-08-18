@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Scriptlet
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202608180751
-! Last modified: 2026-08-18T07:51:40Z
+! Version: 202608180852
+! Last modified: 2026-08-18T08:52:04Z
 ! Layers: scriptlet
 ! Mode: standard
-! Rules: 5536
+! Rules: 5537
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -3715,6 +3715,7 @@ igg-games.com#%#//scriptlet("set-constant", "advanced_ads_ready", "noopFunc")
 footybite.to,givemenbastreams.com#%#//scriptlet("abort-current-inline-script", "setTimeout", "admc")
 netflix.com#%#//scriptlet('json-prune', 'result.adverts')
 netflix.com#%#(()=>{const replaceMap={adBreaks:[],adState:null,currentAdBreak:"undefined"};Object.defineProperty=new Proxy(Object.defineProperty,{apply:(target,thisArg,ArgsList)=>{const original=Reflect.apply(target,thisArg,ArgsList);if("getAdBreaks"===ArgsList[1]||"getAdsDisplayStringParams"===ArgsList[1]||"_refreshAds"===ArgsList[1])return original[ArgsList[1]]=function(){};if("adBreaks"===ArgsList[1]||"currentAdBreak"===ArgsList[1]||void 0!==original.adBreaks){for(var[key,value]of Object.entries(original))void 0!==replaceMap[key]&&"undefined"!==replaceMap[key]?original[key]=replaceMap[key]:void 0!==replaceMap[key]&&"undefined"===replaceMap[key]&&(original[key]=void 0);return original}return original}})})();
+netflix.com#%#//scriptlet('trusted-create-element', 'head', 'script', '', '(()=>{const replaceMap={adBreaks:[],adState:null,currentAdBreak:"undefined"};Object.defineProperty=new Proxy(Object.defineProperty,{apply:(target,thisArg,ArgsList)=>{const original=Reflect.apply(target,thisArg,ArgsList);if("getAdBreaks"===ArgsList[1]||"getAdsDisplayStringParams"===ArgsList[1]||"_refreshAds"===ArgsList[1])return original[ArgsList[1]]=function(){};if("adBreaks"===ArgsList[1]||"currentAdBreak"===ArgsList[1]||void 0!==original.adBreaks){for(var[key,value]of Object.entries(original))void 0!==replaceMap[key]&&"undefined"!==replaceMap[key]?original[key]=replaceMap[key]:void 0!==replaceMap[key]&&"undefined"===replaceMap[key]&&(original[key]=void 0);return original}return original}})})();')
 netflix.com#%#//scriptlet('json-prune', 'data.pinotPausedPlaybackPage')
 eroti.ga#%#//scriptlet("abort-current-inline-script", "eval", "popunder")
 uploadgig.com#%#//scriptlet('prevent-window-open')
@@ -4753,7 +4754,7 @@ www.youtube.com#%#//scriptlet('set-constant', 'ytcfg.data_.EXPERIMENT_FLAGS.web_
 www.youtube.com#%#//scriptlet('prevent-setTimeout', '(),a,b)', '5000')
 m.youtube.com#%#//scriptlet('json-prune', 'playerResponse.messages.[].youThereRenderer')
 m.youtube.com#%#(()=>{const t={apply:(t,e,n)=>{if(location.href.includes("/shorts/")||location.href.includes("youtube.com/tv")||location.href.includes("youtube.com/embed/"))return Reflect.apply(t,e,n);try{const a=n[0];if(!a?.context?.client)return Reflect.apply(t,e,n);const o=String(Date.now());a.playbackContext&&void 0===a.playbackContext.adPlaybackContext&&(a.playbackContext.contentPlaybackContext.lactMilliseconds=o),a.playerRequest&&void 0===a.playerRequest.playbackContext?.adPlaybackContext&&(a.playerRequest.playbackContext.contentPlaybackContext.lactMilliseconds=o),n[0]=a}catch(t){}return Reflect.apply(t,e,n)}};window.JSON.stringify=new Proxy(window.JSON.stringify,t)})();
-vercomicporno.com#%#//scriptlet('prevent-window-open', '_blank')
+hentaicomics.biz,vercomicporno.com#%#//scriptlet('prevent-window-open', '_blank')
 nhdapi.com#%#//scriptlet('prevent-window-open')
 primewire.*,primewire.pw#%#//scriptlet('remove-attr', 'href', 'div.embed-player > a[href][target*="blank"]')
 rule34video.co#%#//scriptlet('prevent-window-open')

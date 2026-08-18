@@ -1,8 +1,8 @@
 ! Title: AdGuard Rules CN - Network
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202608181306
-! Last modified: 2026-08-18T13:06:34Z
+! Version: 202608181355
+! Last modified: 2026-08-18T13:55:47Z
 ! Layers: network
 ! Mode: standard
 ! Rules: 47677
@@ -9625,8 +9625,8 @@ $image,third-party,denyallow=cdn77.org|globalcdn.co|others-cdn.com|rncdn7.com|sb
 @@||googletagmanager.com/gtm.js$domain=motorsport.com
 @@||mstm.motorsport.com/mstm.js
 @@||api.production.k8s.y3o.tv/*/video-ads/$domain=yallo.tv
-||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima3,domain=yallo.tv,important
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=yallo.tv
+||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=noopjs,domain=yallo.tv,important
 ||yallo.tv^$referrerpolicy=origin
 ||media.lajornadafilipina.com/bheyjmz.js
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=calibercorner.com

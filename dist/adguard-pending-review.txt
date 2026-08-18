@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Pending Review (Not AI-reviewed)
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202608181306
-! Last modified: 2026-08-18T13:06:34Z
+! Version: 202608181355
+! Last modified: 2026-08-18T13:55:47Z
 ! Layers: dns
 ! Mode: standard
-! Rules: 251572
+! Rules: 251593
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -168878,6 +168878,8 @@
 ||hbnygj.com^
 ||https-filtering-check.adtidy.org^
 ||unpkg.com^$badfilter
+||xtjgtbzugy.com^
+||tcyudzjp.com^
 /pa.dajiahao*.top/
 /^.+stat\.kugou\.com/
 /^admarvel\./
@@ -198515,8 +198517,7 @@
 ||zzy1.quyaoya.com^
 ||zzycj.com^
 ||zzz.onion.pet^
-||xtjgtbzugy.com^
-||tcyudzjp.com^
+||syb8jon4zb.com^
 ||piguiqproxy.com^$badfilter
 /wp-content/plugins/gplinks-flow/assets/js/flow.js|$replace=/var shown = false;/return;/
 /^https:\/\/[0-9a-z]+\.xyz\/rinku\/land/$document,~third-party,match-case,replace=/const proxyStatus = "Y";/const proxyStatus = "N";/
@@ -198545,6 +198546,10 @@
 ||freeadultcomix.com^$badfilter
 ||imgshare.info^$badfilter
 @@||connectivitycheck.gstatic.com^$important
+||dsazfk.com^
+||fgxxdehrmyrro.online^
+||prizeconsideration.pro^
+||rqagtrdebfbpp.site^
 /(https?:\/\/)104\.154\..{100,}/
 /(https?:\/\/)104\.197\..{100,}/
 /(https?:\/\/)104\.198\..{100,}/
@@ -216969,8 +216974,24 @@
 ||zysuvysaj.pro^
 ||zzux.com^
 ||sobot.com^
-||fgxxdehrmyrro.online^
-||prizeconsideration.pro^
+||corslethalfman.cfd^
+||crozingcurtail.shop^
+||duffleplevin.cyou^
+||dupebrimmer.cfd^
+||endymalquiles.cyou^
+||ghostylecker.cfd^
+||italiseth.cyou^
+||latherydrogher.cyou^
+||mhosrnmgjnqrr.site^
+||molossetankka.cfd^
+||morrowssuine.qpon^
+||myfqfigvkceny.space^
+||omendiazine.qpon^
+||ouvimymvxqhkp.site^
+||pooliakonge.cyou^
+||raceocker.qpon^
+||stenoupwellhiant.qpon^
+||uticksnotter.cyou^
 ||mobile.pipe.aria.microsoft.com^
 ||cu-cn-north00001.gala.convection.cn^
 ||cu-cn-north00002.gala.convection.cn^

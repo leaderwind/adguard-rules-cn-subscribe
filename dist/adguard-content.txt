@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Content
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202608180356
-! Last modified: 2026-08-18T03:56:29Z
+! Version: 202608180449
+! Last modified: 2026-08-18T04:49:46Z
 ! Layers: content
 ! Mode: standard
-! Rules: 63483
+! Rules: 63490
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -9366,6 +9366,12 @@ youporn.com$$script:contains(/window\.[\s\S]*?_zone_[\s\S]*?{"zone_id":/)
 #@#.ads_banner
 ##.stickyads:not([style^="width: 32px"], [style^="width: 33px"], [style*="left: -43px"], [style*="-3"][style*="important"][style*="display: block;"], [style*="position: fixed"][style*="-188"], [style*="!important;"][style*="width:"][style*="height:"][style*="position"][style*="left:"][style*="top:"][style*="display"], [data-freestar-ad="123"]):not(:empty)
 ##.ads_banner:not([style^="width: 32px"], [style^="width: 33px"], [style*="left: -43px"], [style*="-3"][style*="important"][style*="display: block;"], [style*="position: fixed"][style*="-188"], [style*="!important;"][style*="width:"][style*="height:"][style*="position"][style*="left:"][style*="top:"][style*="display"]):not(:empty)
+moviesdl.cc#$#.vb-adblock-wall { display: none !important; }
+moviesdl.cc#$#html.native-ads-blocked { overflow: auto !important; }
+moviesdl.cc#@#.ad-box:not(#ad-banner):not(:empty)
+moviesdl.cc#@#.display-ad
+moviesdl.cc#@#.box-ad
+moviesdl.cc#@#.ad-wrapper
 coinfalo.com#@#.header-ad
 opentibiaserver.com#@#.google-ad
 opentibiaserver.com#@#.ad-banner-wrapper
@@ -56988,6 +56994,7 @@ gamereactor.asia,gamereactor.cn,gamereactor.com.tr,gamereactor.cz,gamereactor.de
 desmoinesregister.com##.ymHyVK__ymHyVK
 shockwave.com##.ympb_target_banner
 saltwire.com##.youtube_article_ad
+yucatanmagazine.com##.yucat-entity-placement
 readneverland.com##.z-0
 buzzly.art##.z-10.w-max
 character.ai##.z-40.max-w-\[970px\]

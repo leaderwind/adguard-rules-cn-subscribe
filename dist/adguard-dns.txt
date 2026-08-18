@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - DNS
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202608182239
-! Last modified: 2026-08-18T22:39:41Z
+! Version: 202608182334
+! Last modified: 2026-08-18T23:34:55Z
 ! Layers: dns
 ! Mode: standard
-! Rules: 250001
+! Rules: 250025
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -198615,6 +198615,8 @@
 ||zzy1.quyaoya.com^
 ||zzycj.com^
 ||zzz.onion.pet^
+||rkdyj4usf.com^
+||b11yn56zn.com^
 ||piguiqproxy.com^$badfilter
 /wp-content/plugins/gplinks-flow/assets/js/flow.js|$replace=/var shown = false;/return;/
 /^https:\/\/[0-9a-z]+\.xyz\/rinku\/land/$document,~third-party,match-case,replace=/const proxyStatus = "Y";/const proxyStatus = "N";/
@@ -198644,9 +198646,13 @@
 ||imgshare.info^$badfilter
 @@||connectivitycheck.gstatic.com^$important
 ||anyylbcfxtswu.site^
+||bfyaqriuvwrqo.site^
 ||blunkerakmite.cyou^
 ||bn1zelzjjntwb84q44zz.cfd^
+||bpynjsjeuvgiy.site^
+||crooked-contest.pro^
 ||demiramhuffywoodlet.qpon^
+||enterdonateslieu.cfd^
 ||goldcupunkist.cfd^
 ||nipstoop.cyou^
 ||nwpscbqnemvho.space^
@@ -198661,12 +198667,15 @@
 ||redwaredeleing.com^
 ||respacedinks.cyou^
 ||rtqmefanrppja.site^
+||rubbingcovido.cyou^
 ||sarlakestamp.qpon^
 ||scapplebarit.cfd^
 ||scaupcroaks.cyou^
 ||swervedenflame.cfd^
+||udvwvbrrywvkx.site^
 ||ulvalesparityhousty.qpon^
 ||vdmlaukvbhruc.space^
+||wcwqnqwulxxsl.site^
 ||wekauairing.shop^
 ||widowerforst.qpon^
 ||wyysdgkmxskrf.site^
@@ -215354,6 +215363,7 @@
 ||agriculturalhollow.com^
 ||agudistinsnare.cyou^
 ||ahimsaslatrate.com^
+||aholtashler.com^
 ||aigletfriuli.com^
 ||aigoesclever.com^
 ||aimextractpunk.com^
@@ -215448,6 +215458,7 @@
 ||annonce.lequipement.fr^
 ||announcenutshell.com^
 ||anothertuesdaypattern.com^
+||antdomsajou.com^
 ||antennamarsh.com^
 ||antiquarianjenny.com^
 ||antiqueunhinge.com^
@@ -215559,9 +215570,11 @@
 ||b6cb78mf.cfd^
 ||ba.copainsdavant.com^
 ||ba.journaldesfemmes.com^
+||baalmorbleu.com^
 ||baarspo.ru^
 ||babblelessenairline.com^
 ||babefocus.com^
+||bacaoroller.com^
 ||backforward.bid^
 ||bacugo.xyz^
 ||badgerjeff.com^
@@ -215628,6 +215641,7 @@
 ||bijophomsorsig.com^
 ||bindingtimetablejosie.com^
 ||binibeetfly.com^
+||bipolarcyc.qpon^
 ||birchflarechurch.com^
 ||bitterstrawberry.com^
 ||bladdersvictimbleak.com^
@@ -215820,6 +215834,7 @@
 ||cpokulack.com^
 ||crawledgoblet.com^
 ||crimpedrodmen.com^
+||crmared.com^
 ||crophysi.ru^
 ||crottaldrudged.com^
 ||cryjun.com^
@@ -215958,6 +215973,7 @@
 ||evermoto.xyz^
 ||evidencecleanergold.com^
 ||ewebcounter.com^
+||exaltedlucy.com^
 ||exasrv.com^
 ||exchange.pbem.fr^
 ||exclplatmain.com^
@@ -216129,12 +216145,14 @@
 ||hokerhawses.com^
 ||hollandbusinessadvertising.nl^
 ||homyanus.com^
+||honkinggaut.com^
 ||hooligapps.com^
 ||hormeswizzle.com^
 ||hosenmesitae.com^
 ||hotboys.biz^
 ||hotkeys.com^
 ||hotodoar.net^
+||houndropers.com^
 ||houseofpubs.com^
 ||houyi.baofeng.net^
 ||howtosimplified.com^
@@ -216515,6 +216533,7 @@
 ||phognult.com^
 ||phonelookup7da087ib.cfd^
 ||photo-ads.co.uk^
+||physesboyd.qpon^
 ||physicallysuddenassail.com^
 ||picadmedia.com^
 ||pichost24.click^
@@ -216599,6 +216618,7 @@
 ||pub2.webmanagercenter.com^
 ||publinker.com^
 ||puertojambs.com^
+||pullmetepa.qpon^
 ||pulquesfarinas.guru^
 ||pupelojokiest.top^
 ||purdasseer.com^
@@ -216623,6 +216643,7 @@
 ||quickwriter.com^
 ||quillswartier.shop^
 ||r7designllc.com^
+||racemicsnaw.com^
 ||rafflisle.com^
 ||raggedbijou.com^
 ||raggerdough.com^
@@ -216780,6 +216801,7 @@
 ||specefeaster.help^
 ||specificationfingertip.com^
 ||spitfulcapelet.com^
+||spoofssnugs.com^
 ||spreement.com^
 ||spruegibbles.com^
 ||spulyiecooboo.website^
@@ -216833,6 +216855,7 @@
 ||sweeperpiltock.com^
 ||sweetpacks.com^
 ||swyvermont.qpon^
+||sykesbasils.com^
 ||sylmyar.pw^
 ||sylviapettah.com^
 ||t.fileplaneta.com^
@@ -217095,10 +217118,11 @@
 ||zysuvysaj.pro^
 ||zzux.com^
 ||sobot.com^
-||crooked-contest.pro^
-||rubbingcovido.cyou^
-||udvwvbrrywvkx.site^
-||wcwqnqwulxxsl.site^
+||enodalmamry.qpon^
+||mpdmdpodqylvq.online^
+||niwbfegywzijk.space^
+||rusheslowserwindle.qpon^
+||tulipaupdates.shop^
 ||mobile.pipe.aria.microsoft.com^
 ||cu-cn-north00001.gala.convection.cn^
 ||cu-cn-north00002.gala.convection.cn^

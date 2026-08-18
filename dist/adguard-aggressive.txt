@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Aggressive
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202608180947
-! Last modified: 2026-08-18T09:47:23Z
+! Version: 202608181045
+! Last modified: 2026-08-18T10:45:00Z
 ! Layers: network,content,scriptlet
 ! Mode: aggressive
-! Rules: 116705
+! Rules: 116706
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -89688,7 +89688,6 @@ cricket365.com,football365.com,golf365.com,loverugbyleague.com,planetf1.com,plan
 indiabusinessjournal.com##.pt--20
 kathmandupost.com##.pt-0
 steamladder.com##.pt-large
-getyarn.io##.pt3p > div
 1980-games.com,coleka.com,gameslol.net,theportugalnews.com,tolonews.com##.pub
 starsinsider.com##.pub-container
 yabiladi.com##.pub2
@@ -92747,6 +92746,7 @@ dribbble.com##drb-infinite-scroll .service-result:has(drb-tooltip[data-featured-
 dribbble.com##drb-infinite-scroll div[data-username]:has(drb-tooltip[data-featured-badge])
 90min.com##figure:has(> div > #mm-player-placeholder-large-screen)
 unsplash.com##figure[itemprop="image"]:has(div[class*="sponsorLabelContainer-"])
+getyarn.io#?#.pt3p > div > div:contains(Advertisement)
 5dariyanews.com##h2:has(a[href*="sponsored-ads"])
 streeteasy.com##li [class^="ListingCard-module"]:has([class*="sponsoredTag"])
 ulta.com##li.ProductListingResults__productCard:has(.pal-c-ProductCardFooter__sponsored)
@@ -103593,6 +103593,7 @@ yatu.tv,yhdm7.com,yhdm95.com,xdm530.com##+js(aopw,document.oncontextmenu)
 ||35.227.234.222^$popup
 ||35.232.188.118^$popup
 ||2mdn.net/videoplayback/$rewrite=abp-resource:blank-mp4,domain=laurelberninteriors.com|safeframe.googlesyndication.com
+||api.coinmarketcap.com/content/*/ad-banner/
 ||googlevideo.com/videoplayback?$rewrite=abp-resource:blank-mp4,domain=laurelberninteriors.com|safeframe.googlesyndication.com
 ||innovid.com/media/encoded/*.mp4$rewrite=abp-resource:blank-mp4,domain=ktla.com
 ||aucdn.net/library/*.mp4$rewrite=abp-resource:blank-mp4,domain=txnhh.com|xnxx.com|xvideos.com|xvv1deos.com

@@ -1,8 +1,8 @@
 ! Title: AdGuard Rules CN - Content
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202608180947
-! Last modified: 2026-08-18T09:47:23Z
+! Version: 202608181045
+! Last modified: 2026-08-18T10:45:00Z
 ! Layers: content
 ! Mode: standard
 ! Rules: 63491
@@ -55793,7 +55793,6 @@ cricket365.com,football365.com,golf365.com,loverugbyleague.com,planetf1.com,plan
 indiabusinessjournal.com##.pt--20
 kathmandupost.com##.pt-0
 steamladder.com##.pt-large
-getyarn.io##.pt3p > div
 1980-games.com,coleka.com,gameslol.net,theportugalnews.com,tolonews.com##.pub
 starsinsider.com##.pub-container
 yabiladi.com##.pub2
@@ -58852,6 +58851,7 @@ dribbble.com##drb-infinite-scroll .service-result:has(drb-tooltip[data-featured-
 dribbble.com##drb-infinite-scroll div[data-username]:has(drb-tooltip[data-featured-badge])
 90min.com##figure:has(> div > #mm-player-placeholder-large-screen)
 unsplash.com##figure[itemprop="image"]:has(div[class*="sponsorLabelContainer-"])
+getyarn.io#?#.pt3p > div > div:contains(Advertisement)
 5dariyanews.com##h2:has(a[href*="sponsored-ads"])
 streeteasy.com##li [class^="ListingCard-module"]:has([class*="sponsoredTag"])
 ulta.com##li.ProductListingResults__productCard:has(.pal-c-ProductCardFooter__sponsored)

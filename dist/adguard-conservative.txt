@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Conservative
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202608180308
-! Last modified: 2026-08-18T03:08:01Z
+! Version: 202608180356
+! Last modified: 2026-08-18T03:56:29Z
 ! Layers: network,content,scriptlet
 ! Mode: conservative
-! Rules: 108606
+! Rules: 108607
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -28878,6 +28878,7 @@ $image,script,stylesheet,subdocument,third-party,xmlhttprequest,domain=animepahe
 @@||tous-sports.fr/js/advertisement-AdBlock.js
 @@||tous-sports.tv/js/advertisement-AdBlock.js
 @@||account.adobe.com^$document,domain=services.adobe.com,stealth=useragent
+@@||farfarout.org/farfarout-api/$xmlhttprequest,stealth=referrer
 @@$media,stealth=referrer,domain=fakitonye.shop
 @@||fritz.com/*/apps/knowledge-base/$xmlhttprequest,elemhide,jsinject,extension
 @@||workers.dev/media-proxy?$xmlhttprequest,stealth=referrer,domain=cinemove.cc
@@ -28931,7 +28932,7 @@ $image,script,stylesheet,subdocument,third-party,xmlhttprequest,domain=animepahe
 @@/hls/*$xmlhttprequest,stealth=referrer,domain=cinesrc.st
 @@||henread.xyz^$image,xmlhttprequest,stealth=referrer,domain=hentairead.com
 @@||letsgocdn*.shop/*.png$xmlhttprequest,stealth=referrer
-@@/bt/*.mp4?sign=$media,stealth=referrer,domain=themoviebox.org|movieboxonline.net|123moviesfree.club|netnaija.film
+@@.mp4?sign=$media,stealth=referrer,domain=themoviebox.org|movieboxonline.net|123moviesfree.club|netnaija.film|m2box.org|netfilm.world
 @@||like.mgread.io/manga/$image,stealth=referrer
 @@||cinewave2.site^$xmlhttprequest,stealth=referrer
 @@/stream$xmlhttprequest,stealth=referrer,domain=kwik.cx

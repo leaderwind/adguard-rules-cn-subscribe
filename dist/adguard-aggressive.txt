@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Aggressive
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202608172335
-! Last modified: 2026-08-17T23:35:10Z
+! Version: 202608180149
+! Last modified: 2026-08-18T01:49:21Z
 ! Layers: network,content,scriptlet
 ! Mode: aggressive
-! Rules: 116679
+! Rules: 116680
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -91338,6 +91338,7 @@ ldoceonline.com##[id^="ad_contentslot"]
 eloshapes.com##[id^="ads-"]
 bestbuy.ca,bestbuy.com##[id^="atwb-ninja-carousel"]
 beforeitsnews.com##[id^="banners_"]
+embedsun.cc##[id^="bg_wrap_"]
 pluggedingolf.com##[id^="black-studio-tinymce-"]
 shipt.com##[id^="cms-ad_banner"]
 dictionary.com##[id^="dco"]

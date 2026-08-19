@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - DNS
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202608190309
-! Last modified: 2026-08-19T03:09:57Z
+! Version: 202608190358
+! Last modified: 2026-08-19T03:58:04Z
 ! Layers: dns
 ! Mode: standard
-! Rules: 250063
+! Rules: 250073
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -198727,6 +198727,10 @@
 ||freeadultcomix.com^$badfilter
 ||imgshare.info^$badfilter
 @@||connectivitycheck.gstatic.com^$important
+||bvnuaylhqmvcy.online^
+||fiddledtragion.com^
+||fwbuftcunyfgw.space^
+||ozovwqhhhbalk.space^
 /(https?:\/\/)104\.154\..{100,}/
 /(https?:\/\/)104\.197\..{100,}/
 /(https?:\/\/)104\.198\..{100,}/
@@ -217160,8 +217164,14 @@
 ||zysuvysaj.pro^
 ||zzux.com^
 ||sobot.com^
-||bvnuaylhqmvcy.online^
-||fwbuftcunyfgw.space^
+||14k6z61kqkmtcb3u1.cfd^
+||clammeddurra.qpon^
+||cmdgblcprtmzu.site^
+||dqxfqjjrfgxlb.online^
+||elatedpassatashiv.qpon^
+||nktgcqkvombbp.space^
+||pushesvuggy.shop^
+||z9enj9mcxh4iccq.rest^
 ||mobile.pipe.aria.microsoft.com^
 ||cu-cn-north00001.gala.convection.cn^
 ||cu-cn-north00002.gala.convection.cn^

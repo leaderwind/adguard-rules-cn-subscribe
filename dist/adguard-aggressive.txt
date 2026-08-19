@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Aggressive
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202608190853
-! Last modified: 2026-08-19T08:53:31Z
+! Version: 202608190947
+! Last modified: 2026-08-19T09:47:50Z
 ! Layers: network,content,scriptlet
 ! Mode: aggressive
-! Rules: 116737
+! Rules: 116730
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -52815,6 +52815,8 @@ animecorner.me,zarabiajprzez24.pl,watchhentai.xxx,app-how-to-use-it.com,linuxcap
 pawastreams.*,nflbite.to,footybite.to,sportschamp.fun,afly.pro,topsporter.net,soccerstreams.football,mysocceraustralia.com,rayinfosports.com,hesgoals.top,sequencecard.xyz,totalsportek.soccer,metaporky.site,nbabite.to,cyfostreams.com,gamerarcades.com,bestreamsports.org,footy.to,mcrypto.club,greaterkashmir.com###id-custom_banner
 pawastreams.*,groundedtechs.com,rayinfosports.com,sequencecard.xyz,matchtime.co,sportspellz.com,bestreamsports.org,silverspoon.site###dismiss-btn
 vi-control.net,nullforums.net,landyzone.co.uk,nullcave.pro,woxmax.com,waskucity.com,babia.to,technofino.in,reef2reef.com,minebbs.com,craxpro.io,affiliatefix.com,myiptvforum.com,hifivision.com,worldofiptv.com,altenen.is,beermoneyforum.com,germancarforum.com,cracking.org##.samBannerUnit
+sabcsport.com##.sbac_header_top
+sabcsport.com#$#.sabc_ad_web_section { visibility: hidden !important; }
 tap4porn.cc##.vp-sidebar
 curiouspatch.com##div[data-id="related_links_container"]
 curiouspatch.com##div[data-id="content_rsoc_container"]
@@ -86679,7 +86681,7 @@ kcra.com,kmbc.com,koat.com,koco.com,ksbw.com,mynbc5.com,wapt.com,wbaltv.com,wdsu
 forbes.com,newrepublic.com,sdxcentral.com,windowscentral.com##.ad-unit
 sofascore.com##.ad-unit-container
 ndtvprofit.com##.ad-with-placeholder-m__place-holder-wrapper__--JIw
-dailyboulder.com,news.ssbcrack.com,trueachievements.com##.ad-wrap
+dailyboulder.com,how2shout.com,news.ssbcrack.com,trueachievements.com##.ad-wrap
 intechopen.com##.ad-wraper
 gbnews.com,smithsonianmag.com,tasty.co##.ad-wrapper
 uncrate.com##.ad-wrapper-970
@@ -87125,6 +87127,7 @@ scmp.com##.article--sponsor
 thelocal.at,thelocal.ch,thelocal.de,thelocal.es,thelocal.fr,thelocal.it,thelocal.no##.article--sponsored
 thehindu.com##.article-ad
 19thnews.org##.article-ad-default-top
+evtech.news##.article-ad-widget
 vt.co##.article-ad-wrapper
 straitstimes.com##.article-ads-wrapper
 phys.org##.article-banner
@@ -87147,6 +87150,7 @@ newmobility.com##.article-sidebar--sponsored
 iai.tv##.article-sidebar-adimage
 phillyvoice.com##.article-sponsor-sticky
 thelocal.com,thelocal.dk,thelocal.se##.article-sponsored
+evtech.news##.article-top-hero-ad
 people.com##.articleContainer__rail
 audizine.com##.articleIMG
 onlyinyourstate.com##.articleText-space-body-marginBottom-sm
@@ -88594,7 +88598,9 @@ pcgamingwiki.com##.home-gamesplanet-promo
 ctbids.com##.home-header-ad
 ctbids.com##.home-incontent-ad
 ctbids.com##.home-incontent-ad-2
+evtech.news##.home-intel-ad-stack
 freespoke.com##.home-page-message
+evtech.news##.home-rail-banners
 merriam-webster.com##.home-redesign-ad
 israelnationalnews.com##.home-subsections-banner
 christianpost.com##.home-videoplayer
@@ -99584,7 +99590,7 @@ www.youtube.com#%#//scriptlet('set-constant', 'ytcfg.data_.EXPERIMENT_FLAGS.web_
 www.youtube.com#%#//scriptlet('prevent-setTimeout', '(),a,b)', '5000')
 m.youtube.com#%#//scriptlet('json-prune', 'playerResponse.messages.[].youThereRenderer')
 m.youtube.com#%#(()=>{const t={apply:(t,e,n)=>{if(location.href.includes("/shorts/")||location.href.includes("youtube.com/tv")||location.href.includes("youtube.com/embed/"))return Reflect.apply(t,e,n);try{const a=n[0];if(!a?.context?.client)return Reflect.apply(t,e,n);const o=String(Date.now());a.playbackContext&&void 0===a.playbackContext.adPlaybackContext&&(a.playbackContext.contentPlaybackContext.lactMilliseconds=o),a.playerRequest&&void 0===a.playerRequest.playbackContext?.adPlaybackContext&&(a.playerRequest.playbackContext.contentPlaybackContext.lactMilliseconds=o),n[0]=a}catch(t){}return Reflect.apply(t,e,n)}};window.JSON.stringify=new Proxy(window.JSON.stringify,t)})();
-67movies.net#%#//scriptlet('set-local-storage-item', 'sitePrefs', 'false')
+phantomflix.net,ravenflix.net,shows.st,67movies.nl,67movies.net,67movies.*#%#//scriptlet('set-local-storage-item', 'sitePrefs', 'false')
 vidneo.cc#%#//scriptlet('abort-on-stack-trace', 'document.createElement', 'onClick')
 vidneo.cc#%#//scriptlet('json-prune', 'playerHeadScriptSnippets adsMonetizationEnabled')
 hentaicomics.biz,vercomicporno.com#%#//scriptlet('prevent-window-open', '_blank')
@@ -103631,14 +103637,10 @@ yatu.tv,yhdm7.com,yhdm95.com,xdm530.com##+js(aopw,document.oncontextmenu)
 ##[class^="div-gpt-ad"]
 cyberchef.org###workspace-wrapper > [id][style*="height"] {height: 100% !important}
 complex.com##.\[\@media\(min-width\:520px\)\]\:px-\[20px\]
-dailyboulder.com,how2shout.com,news.ssbcrack.com,trueachievements.com##.ad-wrap
-evtech.news##.article-ad-widget
-evtech.news##.article-top-hero-ad
 justjared.com##.banner-spacer-top {max-height: 50px !important;}
 temp-mail.io##.fixed.bottom-0.\[\@media\(max-width\:1350px\)\]\:hidden
-evtech.news##.home-intel-ad-stack
-evtech.news##.home-rail-banners
 complex.com##.lg\:top-\[var\(--sticky-top\)\]
+fortnitetracker.com##.love-container__content
 justjared.com##[role="banner"] {top:0 !important}
 deliveroo.*#?#a[role="button"]:has(p:has-text(Sponsored))
 deliveroo.*#?#div[class^="HomeFeedScrollTracker-"]:has(span[class^="HomeFeedUILines-"]:has-text(Sponsored))
@@ -103938,6 +103940,7 @@ w3schools.com###tryitLeaderboard ~ #container {top:48px;}
 w3schools.com##.trytopnav {top:0;}
 wunderground.com##.content-wrap #inner-wrap {height:100vh;}
 yourdictionary.com##.header {top:0;}
+gay.bingo##div[data-title="Advertisement"]
 4wank.com#?#.video-holder > center > :has-text(/^Advertisement$/)
 redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com##:-abp-properties(*data:image*)
 redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com##:-abp-properties(base64)
@@ -115427,20 +115430,10 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||hs.fi/stats
 ||huuto.net/js/analytic/
 ||ilcdn.fi^*/Bootstrap.js
-||io-tech.fi/io/www/delvr/lokiz.php
 ||is.fi/stats/
-||mha.fi/simple.gif?
-||mtv3.fi/remarketing.js
 ||nelonenmedia.fi/hitcounter$image
-||omataloyhtio.fi/ffsw-pushcrew.js
-||omataloyhtio.fi/kuvat/pi.gif$image
-||omataloyhtio.fi/statb.asp
-||puutarha.net/ffsw-pushcrew.js
-||puutarha.net/statb.asp
-||rakentaja.fi/kuvat/pi.gif$image
 ||rantapallo.fi/s/redirect/tracking?
 ||teamtailor.com/pageview
-||tori.fi/img/none.gif$image
 ||ts.fi/Statistics/Log$image
 ||ts.fi^*/spring.js
 ||skroutz.gr/analytics/

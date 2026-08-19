@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Content
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202608191044
-! Last modified: 2026-08-19T10:44:50Z
+! Version: 202608191136
+! Last modified: 2026-08-19T11:36:56Z
 ! Layers: content
 ! Mode: standard
-! Rules: 63516
+! Rules: 63518
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -208,6 +208,8 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###content_left > .r
 ##body[onresize="stopDebugger()"][onbeforecopy="return!1"] > div#root div[id^="notice_modal"]
 ##body[onresize="stopDebugger()"][onbeforecopy="return!1"] > div#root div:has(> img[src$=".gif"])
 ##body[onresize="stopDebugger()"][onbeforecopy="return!1"] > div#root div.m0auto > div > div.grid + div > div:empty
+flyert.com.cn##div[style^="width:950px;height:90px;"]
+flyert.com.cn##div[style^="width:300px;height:90px;"]
 91porny.com#$#body.modal-open { overflow: auto !important; }
 91porny.com#$#.modal-backdrop { display: none !important; }
 91porny.com#$##warningModal { display: none !important; }

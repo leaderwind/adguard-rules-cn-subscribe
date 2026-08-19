@@ -1,8 +1,8 @@
 ! Title: AdGuard Rules CN - Scriptlet
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202608191044
-! Last modified: 2026-08-19T10:44:50Z
+! Version: 202608191136
+! Last modified: 2026-08-19T11:36:56Z
 ! Layers: scriptlet
 ! Mode: standard
 ! Rules: 5543
@@ -4991,7 +4991,7 @@ embedseek.online#%#//scriptlet('prevent-addEventListener', 'click', 'popunder')
 brighteon.com#%#//scriptlet('json-prune', 'props.pageProps.adVideo')
 katfile.ws,katfile.vip,katfile.online#%#//scriptlet('adjust-setTimeout', 'tick', '*', '0.001')
 aagmaal.com#%#//scriptlet('prevent-window-open')
-calyro.biz,movienig.ht,vidmatrixa.com,vidchampions.com,vidavaca.cc,xheti.net,verhentai.io,krx18.com,sht-link.com,viduro.top,vindaz.shop,xca.cymru,uiil.ink,pornwex.tv,manhuarmtl.com,vidara.to,vidara.so,krakenfiles.com,streamix.so,livecamrips.*#%#//scriptlet('prevent-addEventListener', 'click', 'window.open')
+cdn.4animo.xyz,calyro.biz,movienig.ht,vidmatrixa.com,vidchampions.com,vidavaca.cc,xheti.net,verhentai.io,krx18.com,sht-link.com,viduro.top,vindaz.shop,xca.cymru,uiil.ink,pornwex.tv,manhuarmtl.com,vidara.to,vidara.so,krakenfiles.com,streamix.so,livecamrips.*#%#//scriptlet('prevent-addEventListener', 'click', 'window.open')
 link.snipcash.com#%#//scriptlet('remove-node-text', 'script', 'urlPC')
 link.snipcash.com#%#//scriptlet('prevent-addEventListener', 'click', 'openOnce')
 newegg.com#%#//scriptlet('set-constant', '__initialState__.SponsoredBrand', 'emptyObj')

@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Network
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202608191645
-! Last modified: 2026-08-19T16:45:50Z
+! Version: 202608191738
+! Last modified: 2026-08-19T17:38:34Z
 ! Layers: network
 ! Mode: standard
-! Rules: 47675
+! Rules: 47673
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -2490,8 +2490,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||8d8d.me/images/dealer.gif
 ||8h93.com^*.gif
 ||8maple.ru/dzcm$redirect=1x1-transparent.gif,domain=8maple.ru
-||8mg050.n3cdn1.secureserver.net^*.gif
-||8mg050.n3cdn1.secureserver.net^*/960
 ||8s8s.com/data/banner/
 ||8ziyuan.com/images/infolinksad.jpg
 ||900.la/imgs/1bb725da-974f-43da-9eb9-dfdebc224949/2015-12-18/zg3wwaug.gif

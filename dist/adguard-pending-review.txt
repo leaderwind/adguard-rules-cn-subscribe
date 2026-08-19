@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Pending Review (Not AI-reviewed)
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202608191307
-! Last modified: 2026-08-19T13:07:31Z
+! Version: 202608191356
+! Last modified: 2026-08-19T13:56:13Z
 ! Layers: dns
 ! Mode: standard
-! Rules: 250044
+! Rules: 250065
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -198746,6 +198746,8 @@
 ||zzy1.quyaoya.com^
 ||zzycj.com^
 ||zzz.onion.pet^
+||29ruu0q5p.com^
+||qirgzaosm.in^
 ||piguiqproxy.com^$badfilter
 /wp-content/plugins/gplinks-flow/assets/js/flow.js|$replace=/var shown = false;/return;/
 /^https:\/\/[0-9a-z]+\.xyz\/rinku\/land/$document,~third-party,match-case,replace=/const proxyStatus = "Y";/const proxyStatus = "N";/
@@ -198774,6 +198776,15 @@
 ||freeadultcomix.com^$badfilter
 ||imgshare.info^$badfilter
 @@||connectivitycheck.gstatic.com^$important
+||8girie4xi9h7j1o82y5re7bp22.cfd^
+||cwlnrlnmalwof.site^
+||gpnpcumptjlun.site^
+||gzastugagqpu.in^
+||hermoclarifytrips.qpon^
+||leveelikens.qpon^
+||vsftuxqhmhuax.space^
+||wofdhlndeogsp.space^
+||z35q4llb83puht2ypoekp32jhok4bt6z.rest^
 /(https?:\/\/)104\.154\..{100,}/
 /(https?:\/\/)104\.197\..{100,}/
 /(https?:\/\/)104\.198\..{100,}/
@@ -217079,14 +217090,24 @@
 ||zysuvysaj.pro^
 ||zzux.com^
 ||sobot.com^
-||8girie4xi9h7j1o82y5re7bp22.cfd^
-||cwlnrlnmalwof.site^
-||gpnpcumptjlun.site^
-||gzastugagqpu.in^
-||hermoclarifytrips.qpon^
-||leveelikens.qpon^
-||vsftuxqhmhuax.space^
-||z35q4llb83puht2ypoekp32jhok4bt6z.rest^
+||apterpastel.shop^
+||capaxbelamy.qpon^
+||contributionhobblenewlywed.com^
+||euskaraharedukulele.cyou^
+||foreleguni.qpon^
+||hlaukhywawaqi.site^
+||humiriabiallyl.cyou^
+||kjsqgprasylcw.website^
+||mobileslakin.shop^
+||pagingsanjaks.cfd^
+||poditessinian.cfd^
+||qerichicote.qpon^
+||rhinalbrevity.shop^
+||satedoting.cfd^
+||skempgiterne.cfd^
+||splintoutsize.qpon^
+||unleavemudroom.cfd^
+||yamplinins.cfd^
 ||mobile.pipe.aria.microsoft.com^
 ||cu-cn-north00001.gala.convection.cn^
 ||cu-cn-north00002.gala.convection.cn^

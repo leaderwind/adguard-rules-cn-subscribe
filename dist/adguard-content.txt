@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Content
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202608191307
-! Last modified: 2026-08-19T13:07:31Z
+! Version: 202608191356
+! Last modified: 2026-08-19T13:56:13Z
 ! Layers: content
 ! Mode: standard
-! Rules: 63520
+! Rules: 63523
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -56017,6 +56017,8 @@ rocket-league.com##.rlg-footer-ads-container
 rocket-league.com##.rlg-trading-ad
 rocket-league.com##.rlg-trading-spacer
 costco.com##.rm-grid-product
+therealmediang.com##.rm-header-billboard
+therealmediang.com##.rm-inset-ad-band
 rawstory.com##.rm-sticky-parent
 chemistwarehouse.com.au##.rm__campaign-product__slider-item
 windowsreport.com##.rmdcb
@@ -63205,8 +63207,6 @@ complex.com##.\[\@media\(min-width\:520px\)\]\:px-\[20px\]
 justjared.com##.banner-spacer-top {max-height: 50px !important;}
 temp-mail.io##.fixed.bottom-0.\[\@media\(max-width\:1350px\)\]\:hidden
 complex.com##.lg\:top-\[var\(--sticky-top\)\]
-therealmediang.com##.rm-header-billboard
-therealmediang.com##.rm-inset-ad-band
 justjared.com##[role="banner"] {top:0 !important}
 deliveroo.*#?#a[role="button"]:has(p:has-text(Sponsored))
 deliveroo.*#?#div[class^="HomeFeedScrollTracker-"]:has(span[class^="HomeFeedUILines-"]:has-text(Sponsored))
@@ -63506,6 +63506,9 @@ w3schools.com###tryitLeaderboard ~ #container {top:48px;}
 w3schools.com##.trytopnav {top:0;}
 wunderground.com##.content-wrap #inner-wrap {height:100vh;}
 yourdictionary.com##.header {top:0;}
+javplayer.com###jsVideoOverlay
+javplayer.com##.ad-box
+123av.com,javplayer.cc##a[href="#"][style="position: fixed;top: 0;left: 0;width: 100%;height: 100%;display: block;z-index: 9999999;cursor: auto"]
 4wank.com#?#.video-holder > center > :has-text(/^Advertisement$/)
 redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com##:-abp-properties(*data:image*)
 redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com##:-abp-properties(base64)

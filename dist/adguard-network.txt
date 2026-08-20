@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Network
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202608200949
-! Last modified: 2026-08-20T09:49:12Z
+! Version: 202608201046
+! Last modified: 2026-08-20T10:46:01Z
 ! Layers: network
 ! Mode: standard
-! Rules: 47678
+! Rules: 47680
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -8497,6 +8497,7 @@ $cookie=__adblocker,domain=slate.com|thehindubusinessline.com
 @@/favicon.ico$domain=cricket365.com|football365.com|golf365.com|loverugbyleague.com|planetf1.com|planetfootball.com|planetrugby.com|teamtalk.com|tennis365.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=ftuapps.farlad.com
 ||cloudfam.io^$replace=/if\s*\(!blocked\)/if(!0)/,document
+@@||securepubads.g.doubleclick.net/tag/js/gpt.js$domain=cloudfam.io
 @@||cloudfam.io^$generichide
 @@||cloudfam.io/assets/ads/adsense.js
 @@||cloudfam.io/assets/ads/gpt-publisher.js
@@ -44584,6 +44585,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||cursor.com/analytics/
 ||cvs.com/tnadstlinj.js
 ||cxgpt1.goindigo.in/forward/v2/track
+||cybernews.com/clientfpid/
 ||dailymail.co.uk/geo/
 ||dailymail.co.uk/rta2/
 ||dailymotion.com/logger/

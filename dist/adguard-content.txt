@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Content
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202608200949
-! Last modified: 2026-08-20T09:49:12Z
+! Version: 202608201046
+! Last modified: 2026-08-20T10:46:01Z
 ! Layers: content
 ! Mode: standard
-! Rules: 63531
+! Rules: 63532
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -18921,7 +18921,6 @@ vi-control.net,nullforums.net,landyzone.co.uk,nullcave.pro,woxmax.com,waskucity.
 sporcle.com###homepage-container > div.row-unit-container
 impulsegamer.com###omc-top-banner
 impulsegamer.com###omc-sidebar > ul > li.omc-widget:has(> .textwidget > a[target="_blank"] > img)
-vipbox.fm,vipbox.*,vipleague.vg,vipleague.*##.card-body > [data-openuri*="https://"][data-open="_blank"]
 webook.com##.grid > div.mx-auto:has(> iframe[id^="google_ads_"])
 anidl.org##iframe[title^="ad-slot-"]
 sabcsport.com##.sbac_header_top
@@ -21544,7 +21543,6 @@ stuff.tv##body .c-ad
 unknowncheats.me##hr + div[style]:has(> a[rel="sponsored noopener"])
 unknowncheats.me##hr + div[style]:has(> a[rel="sponsored noopener"]) + div[style]
 unknowncheats.me##tbody[id^="threadbits_forum_"] > tr:has(> td.alt2 > span[style="float:right"] > img[alt^="advert"])
-worldsports.st,buffsports.io,viprow.nu,olympicstreams.*,vipstand.*,viprow.*##button[data-openuri*="https://"][data-open="_blank"]
 comicsporn.net###portfolio-items > div:has(> div.tac > i.xxx-banner)
 animal-hentai.com##a[href^="/out.cgi?"]
 thehentai.net##div[id^="Ad"]
@@ -30238,7 +30236,7 @@ ohentai.org##div[id*="detailad"]
 ohentai.org##.detailleftadcontainer
 multiup.org##.content-body > .alert-info
 disboards.com##.js-notices
-fbstreams.pm,socceronline.me,strikeout.*##button[data-open="_blank"]
+fbstreams.pm,strikeout.*##button[data-open="_blank"]
 acefile.co###btmx
 acefile.co###kelik
 analyticsindiamag.com##img[src="https://www.analyticsindiamag.com/wp-content/uploads/2019/02/Blue_03.jpg"]
@@ -35407,9 +35405,10 @@ instagram.com#$?#main > div div[style*="flex-direction: column;"] > article > di
 instagram.com#$?#main > div > div > div[style*="flex-direction: column;"] > div:has(span:contains(/(Sponsored|Gesponsert|Sponsorlu|Sponsorowane|Ispoonsara godhameera|Geborg|Bersponsor|Ditaja|Disponsori|Giisponsoran|Sponzorováno|Sponsoreret|Publicidad|May Sponsor|Sponsorisée|Oipytyvôva|Ɗaukar Nayin|Sponzorirano|Uterwa inkunga|Sponsorizzato|Imedhaminiwa|Hirdetés|Misy Mpiantoka|Gesponsord|Sponset|Patrocinado|Patrocinado|Sponsorizat|Sponzorované|Sponsoroitu|Sponsrat|Được tài trợ|Χορηγούμενη|Спонсорирано|Спонзорирано|Ивээн тэтгэсэн|Реклама|Спонзорисано|במימון|سپانسرڈ|دارای پشتیبانی مالی|ስፖንሰር የተደረገ|प्रायोजित|ተደረገ|प|प्रायोजित|স্পনসর্ড|ਪ੍ਰਯੋਜਿਤ|પ્રાયોજિત|ପ୍ରାୟୋଜିତ|செய்யப்பட்ட செய்யப்பட்ட|చేయబడినది చేయబడినది|ಪ್ರಾಯೋಜಿಸಲಾಗಿದೆ|ചെയ്‌തത് ചെയ്‌തത്|ලද ලද ලද|สนับสนุน สนับสนุน รับ สนับสนุน สนับสนุน|ကြော်ငြာ ကြော်ငြာ|ឧបត្ថម្ភ ឧបត្ថម្ភ ឧបត្ថម្ភ|광고|贊助|内容 内容|贊助|告 告|広告|സ്‌പോൺസർ ചെയ്‌തത്)/)) { visibility: hidden !important; }
 instagram.com#$?#article:has(> div[style*="display: none !important;"]:only-child) { padding-bottom: 0px !important; border-bottom: none !important; border: none !important; }
 fullassia.com,assia23.com,assia.*##body > div[class^="ban"]
-f1box.me,mlbbox.me,mmastreams.me,nbabox.me,nflbox.me,nhlbox.me,tennisonline.me,dartsstreams.com,vipboxtv.*,dartsstream.me,golfstreams.me,motogpstream.me,rugbystreams.me,socceronline.me,tennisstreams.me,boxingstreams.me,ufcstream.me,mlbstream.me,nbastream.nu,cricstreams.re##.m-1.fw-bold.btn-danger.btn
-f1box.me,golfstreams.me,mlbbox.me,mmastreams.me,motogpstream.me,nbabox.me,nflbox.me,nhlbox.me,rugbystreams.me,socceronline.me,tennisonline.me,cricstreams.re##.position-absolute.bg-opacity-50
-dartsstreams.com,vipboxtv.*,dartsstream.me,golfstreams.me,motogpstream.me,rugbystreams.me,socceronline.me,tennisstreams.me,boxingstreams.me,ufcstream.me,mlbstream.me,nbastream.nu,live.crackstreams.se##.position-absolute.bg-opacity-50
+soccerbox.me,soccerbox.*,vipbox.fm,vipbox.*,vipleague.vg,vipleague.*##a[data-openuri*="https://"][data-open="_blank"]
+soccerbox.me,soccerbox.*,worldsports.st,buffsports.io,viprow.nu,olympicstreams.*,vipbox.fm,vipbox.*,vipstand.*,viprow.*##button[data-openuri*="https://"][data-open="_blank"]
+f1box.me,mlbbox.me,mmastreams.me,nbabox.me,nflbox.me,nhlbox.me,tennisonline.me,dartsstreams.com,vipboxtv.*,dartsstream.me,golfstreams.me,motogpstream.me,rugbystreams.me,tennisstreams.me,boxingstreams.me,ufcstream.me,mlbstream.me,nbastream.nu,cricstreams.re##.m-1.fw-bold.btn-danger.btn
+soccerbox.me,soccerbox.*,vipbox.fm,vipbox.*,vipleague.vg,vipleague.*,f1box.me,mlbbox.me,mmastreams.me,nbabox.me,nflbox.me,nhlbox.me,rugbystreams.me,tennisonline.me,cricstreams.re,dartsstreams.com,vipboxtv.*,dartsstream.me,golfstreams.me,motogpstream.me,tennisstreams.me,boxingstreams.me,ufcstream.me,mlbstream.me,nbastream.nu##.position-absolute.text-white
 myabandonware.com###content > .abox
 myabandonware.com###content + div[id] > div[class="menu"]
 myabandonware.com##.items.games > div:not([class*="itemListGame"]):not([class*="filler"])
@@ -55599,7 +55598,9 @@ mail.com##.partner-container
 globalwaterintel.com,mavin.io##.partner-content
 cybernews.com##.partner-content-block
 globalwaterintel.com##.partner-content-carousel
+cybernews.com##.partner-content-editorial
 nrl.com##.partner-groups
+cybernews.com##.partner-of-the-month
 cyberscore.live##.partner-rb
 cyberscore.live##.partner-rb-full-page
 dzone.com##.partner-resources-block

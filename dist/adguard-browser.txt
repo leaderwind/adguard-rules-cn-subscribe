@@ -1,8 +1,8 @@
 ! Title: AdGuard Rules CN - Browser
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202608200855
-! Last modified: 2026-08-20T08:55:05Z
+! Version: 202608200949
+! Last modified: 2026-08-20T09:49:12Z
 ! Layers: network,content,scriptlet
 ! Mode: standard
 ! Rules: 116666
@@ -52826,7 +52826,7 @@ vi-control.net,nullforums.net,landyzone.co.uk,nullcave.pro,woxmax.com,waskucity.
 sporcle.com###homepage-container > div.row-unit-container
 impulsegamer.com###omc-top-banner
 impulsegamer.com###omc-sidebar > ul > li.omc-widget:has(> .textwidget > a[target="_blank"] > img)
-vipleague.vg,vipleague.*##.card-body > [data-open="_blank"]
+vipbox.fm,vipbox.*,vipleague.vg,vipleague.*##.card-body > [data-openuri*="https://"][data-open="_blank"]
 webook.com##.grid > div.mx-auto:has(> iframe[id^="google_ads_"])
 anidl.org##iframe[title^="ad-slot-"]
 sabcsport.com##.sbac_header_top
@@ -55449,7 +55449,7 @@ stuff.tv##body .c-ad
 unknowncheats.me##hr + div[style]:has(> a[rel="sponsored noopener"])
 unknowncheats.me##hr + div[style]:has(> a[rel="sponsored noopener"]) + div[style]
 unknowncheats.me##tbody[id^="threadbits_forum_"] > tr:has(> td.alt2 > span[style="float:right"] > img[alt^="advert"])
-worldsports.st,buffsports.io,viprow.nu,olympicstreams.*,vipbox.lc,vipstand.*,viprow.*##button[data-openuri*="https://"][data-open="_blank"]
+worldsports.st,buffsports.io,viprow.nu,olympicstreams.*,vipstand.*,viprow.*##button[data-openuri*="https://"][data-open="_blank"]
 comicsporn.net###portfolio-items > div:has(> div.tac > i.xxx-banner)
 animal-hentai.com##a[href^="/out.cgi?"]
 thehentai.net##div[id^="Ad"]
@@ -64143,7 +64143,7 @@ ohentai.org##div[id*="detailad"]
 ohentai.org##.detailleftadcontainer
 multiup.org##.content-body > .alert-info
 disboards.com##.js-notices
-fbstreams.pm,socceronline.me,vipbox.*,strikeout.*##button[data-open="_blank"]
+fbstreams.pm,socceronline.me,strikeout.*##button[data-open="_blank"]
 acefile.co###btmx
 acefile.co###kelik
 analyticsindiamag.com##img[src="https://www.analyticsindiamag.com/wp-content/uploads/2019/02/Blue_03.jpg"]
@@ -85049,6 +85049,7 @@ assamtribune.com###async_body_tags
 addictivetips.com###at_popup_modal
 timesnownews.com###atf103388570
 cityandstateny.com###atlas-module
+slashdot.org###auth0-sd
 adverts.ie###av_detail_side
 teamfortress.tv###aw
 gulte.com###awt_landing
@@ -86468,6 +86469,7 @@ this.org##.Wrap-leaderboard
 tumblr.com##.XJ7bf
 tumblr.com##.Yc2Sp
 desmoinesregister.com##.ZJBvMP__ZJBvMP
+stocktwits.com##.\!min-h-\[250px\]
 natlawreview.com##.\#div\.block-native_bf
 greatandhra.com##._201223_
 greatandhra.com##._201223_2
@@ -89164,6 +89166,7 @@ uwufufu.com##.min-h-\[253px\]
 dexerto.com##.min-h-\[278px\]
 fansided.com,thenewdaily.com.au##.min-h-\[280px\]
 uwufufu.com##.min-h-\[300px\]
+stocktwits.com##.min-h-\[320px\]
 mumsnet.com##.min-h-\[360px\]
 inc.com##.min-h-\[4000px\].second-scroll-container
 dexerto.com,republicworld.com##.min-h-\[400px\]
@@ -92746,6 +92749,7 @@ birminghammail.co.uk,bristolpost.co.uk,dailyrecord.co.uk,irishstar.com,liverpool
 staples.com##div[class^="sku-configurator__banner"]:has([aria-label="Sponsored Products"])
 wikiwand.com##div[class^="wrapper_wrapper"]:has(> div[class^="wrapper_cta"])
 wikiwand.com##div[class^="wrapper_wrapper"]:has(> div[id^="ezoic-pub-ad"])
+flipkart.com##div[data-id]:has(a > [data-tkid^="ADVIEW"])
 bjs.com##div[data-index]:has(.sponsored-badge)
 chatgpt.com##div[data-message-supplement]:has(aside[data-partial-island="assistant-ads"])
 etherscan.io##div[data-nosnippet]:has(> ins[id])
@@ -103563,21 +103567,17 @@ yatu.tv,yhdm7.com,yhdm95.com,xdm530.com##+js(aopw,document.oncontextmenu)
 @@||discord.com^$generichide
 ##.ad-unit
 ##[class^="div-gpt-ad"]
-slashdot.org###auth0-sd
 cyberchef.org###workspace-wrapper > [id][style*="height"] {height: 100% !important}
-stocktwits.com##.\!min-h-\[250px\]
 complex.com##.\[\@media\(min-width\:520px\)\]\:px-\[20px\]
 justjared.com##.banner-spacer-top {max-height: 50px !important;}
 temp-mail.io##.fixed.bottom-0.\[\@media\(max-width\:1350px\)\]\:hidden
 complex.com##.lg\:top-\[var\(--sticky-top\)\]
-stocktwits.com##.min-h-\[320px\]
 justjared.com##[role="banner"] {top:0 !important}
 deliveroo.*#?#a[role="button"]:has(p:has-text(Sponsored))
 deliveroo.*#?#div[class^="HomeFeedScrollTracker-"]:has(span[class^="HomeFeedUILines-"]:has-text(Sponsored))
 advocate.com,out.com,pride.com#?#.component.module-headline:has-text(FROM OUR SPONSORS)
 character.ai#?#.space-y-4 > .w-full:has-text(Advertisement)
 cjleo.com#?#.alt-widget-title:has-text(advertisement)
-flipkart.com##div[data-id]:has(a > [data-tkid^="ADVIEW"])
 getyarn.io#?#.pt3p > div > div:has-text(Advertisement)
 theregister.com#?#article.large-12:has-text(SPONSORED FEATURE)
 2fa.live#?#p:has-text(Advertising)

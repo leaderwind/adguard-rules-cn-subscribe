@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Network
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202608201310
-! Last modified: 2026-08-20T13:10:29Z
+! Version: 202608201358
+! Last modified: 2026-08-20T13:58:39Z
 ! Layers: network
 ! Mode: standard
-! Rules: 47680
+! Rules: 47684
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -7456,6 +7456,7 @@ $script,third-party,domain=torkitty.net|torkitty.com|torrentkitty.app|torrentkit
 @@||criteo.com/delivery/ajs.php?zoneid=$script,domain=gaus.ee
 @@||jd.com/adclick?$popup,~third-party
 ||wnacg.com/game/$image,rewrite=abp-resource:1x1-transparent-gif,domain=wnacg.com
+||degreeeruptionpredator.com^$all
 ||go.mobisla.com^$third-party
 ||go.mobtrks.com^$third-party
 ||tri-table.com^$third-party
@@ -14426,6 +14427,7 @@ $subdocument,third-party,denyallow=disqus.com,domain=love4u.net
 $third-party,script,domain=klto9.com|f2movies.to|hacamchicac.com|yourporngod.com|zinchanmanga.com|yaoimangaonline.com|tututweak.app|mangaraw.ac|eromanga-show.com|hentai-one.com|hentaipaw.com|nukibooks.com|paipancon.com|jgvdata.com|youtubevanced.com|pandamtl.com|mangaplus.shueisha.tv|shueisharaw.tv
 ||linksconsole.com/ad-system/
 ||misc-api.feathermc.com/*/ads/ad_units?
+||rft.gg/images/sponsors/
 ||player.vidlove.cc/rt.js
 ||curiouspatch.com/static/rsoc.js
 ||pexels.com/*/api/v3/getty-media/
@@ -43335,6 +43337,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||stats.sender.net/ping
 ||stats.webstarts.com^$third-party
 ||statsadv.dadapro.com^$third-party
+||statuspage.io/embed/frame
 ||stg.truvidplayer.com/*/v.php?st=
 ||stileproject.com/vhtk/
 ||storage.eko.com/efu/ekoanalytics/
@@ -44586,6 +44589,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||cvs.com/tnadstlinj.js
 ||cxgpt1.goindigo.in/forward/v2/track
 ||cybernews.com/clientfpid/
+||dailydevstatus.com/embed/script.js
 ||dailymail.co.uk/geo/
 ||dailymail.co.uk/rta2/
 ||dailymotion.com/logger/

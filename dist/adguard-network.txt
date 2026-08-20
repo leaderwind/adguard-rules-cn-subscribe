@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Network
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202608201452
-! Last modified: 2026-08-20T14:52:56Z
+! Version: 202608201548
+! Last modified: 2026-08-20T15:48:57Z
 ! Layers: network
 ! Mode: standard
-! Rules: 47685
+! Rules: 47692
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -43982,8 +43982,12 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||vine.eu/track/
 ||glami.gr/js/compiled/pt.js
 ||kwikmotion.com^*/videojs-kwikstat.min.js
+||api.whtvr.ai/api/sdk/analytics/
 ||callindex.co.il/campaign/send_analytics.js
+||colbass.com/Service/Analytics.asmx/
+||dxmcdn.com/dta/content-targeting.js
 ||selectika.com/selectika-pixel.min.js
+||vi-serve.com/tagLoader.js
 ||walla.co.il/stats/
 ||gpr.hu/pr.pr?
 ||api.tblcontent.com*/log/
@@ -46395,6 +46399,9 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||skroutz.gr/analytics/
 ||skroutza.skroutz.gr/skroutza.min.js
 ||vidads.gr/imp/
+||0404.co.il^$ping
+||bhol.co.il/system/js/analytics.js
+||ext.bhol.co.il^$ping
 ||inn.co.il/Controls/HPJS.ashx?act=log
 ||services.haaretz.co.il^$ping
 ||walla.co.il/CountsHP.asp?

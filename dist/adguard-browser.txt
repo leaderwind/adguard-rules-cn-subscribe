@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Browser
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202608201452
-! Last modified: 2026-08-20T14:52:56Z
+! Version: 202608201548
+! Last modified: 2026-08-20T15:48:57Z
 ! Layers: network,content,scriptlet
 ! Mode: standard
-! Rules: 116684
+! Rules: 116692
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -52827,6 +52827,7 @@ animecorner.me,zarabiajprzez24.pl,watchhentai.xxx,app-how-to-use-it.com,linuxcap
 pawastreams.*,nflbite.to,footybite.to,sportschamp.fun,afly.pro,topsporter.net,soccerstreams.football,mysocceraustralia.com,rayinfosports.com,hesgoals.top,sequencecard.xyz,totalsportek.soccer,metaporky.site,nbabite.to,cyfostreams.com,gamerarcades.com,bestreamsports.org,footy.to,mcrypto.club,greaterkashmir.com###id-custom_banner
 pawastreams.*,groundedtechs.com,rayinfosports.com,sequencecard.xyz,matchtime.co,sportspellz.com,bestreamsports.org,silverspoon.site###dismiss-btn
 vi-control.net,nullforums.net,landyzone.co.uk,nullcave.pro,woxmax.com,waskucity.com,babia.to,technofino.in,reef2reef.com,minebbs.com,craxpro.io,affiliatefix.com,myiptvforum.com,hifivision.com,worldofiptv.com,altenen.is,beermoneyforum.com,germancarforum.com,cracking.org##.samBannerUnit
+bing.com##.top-ads-separator-enabled
 poro.gg##main > div[class]:has(div.ad-wrapper)
 egamersworld.com###w_banner
 rft.gg##.pointer-events-auto:has(> a[target="_blank"] > img)
@@ -112979,8 +112980,12 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||vine.eu/track/
 ||glami.gr/js/compiled/pt.js
 ||kwikmotion.com^*/videojs-kwikstat.min.js
+||api.whtvr.ai/api/sdk/analytics/
 ||callindex.co.il/campaign/send_analytics.js
+||colbass.com/Service/Analytics.asmx/
+||dxmcdn.com/dta/content-targeting.js
 ||selectika.com/selectika-pixel.min.js
+||vi-serve.com/tagLoader.js
 ||walla.co.il/stats/
 ||gpr.hu/pr.pr?
 ||api.tblcontent.com*/log/
@@ -115392,6 +115397,9 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||skroutz.gr/analytics/
 ||skroutza.skroutz.gr/skroutza.min.js
 ||vidads.gr/imp/
+||0404.co.il^$ping
+||bhol.co.il/system/js/analytics.js
+||ext.bhol.co.il^$ping
 ||inn.co.il/Controls/HPJS.ashx?act=log
 ||services.haaretz.co.il^$ping
 ||walla.co.il/CountsHP.asp?

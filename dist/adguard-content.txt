@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Content
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202608211045
-! Last modified: 2026-08-21T10:45:35Z
+! Version: 202608211138
+! Last modified: 2026-08-21T11:38:58Z
 ! Layers: content
 ! Mode: standard
-! Rules: 63545
+! Rules: 63548
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -18919,6 +18919,7 @@ animecorner.me,zarabiajprzez24.pl,watchhentai.xxx,app-how-to-use-it.com,linuxcap
 pawastreams.*,nflbite.to,footybite.to,sportschamp.fun,afly.pro,topsporter.net,soccerstreams.football,mysocceraustralia.com,rayinfosports.com,hesgoals.top,sequencecard.xyz,totalsportek.soccer,metaporky.site,nbabite.to,cyfostreams.com,gamerarcades.com,bestreamsports.org,footy.to,mcrypto.club,greaterkashmir.com###id-custom_banner
 pawastreams.*,groundedtechs.com,rayinfosports.com,sequencecard.xyz,matchtime.co,sportspellz.com,bestreamsports.org,silverspoon.site###dismiss-btn
 vi-control.net,nullforums.net,landyzone.co.uk,nullcave.pro,woxmax.com,waskucity.com,babia.to,technofino.in,reef2reef.com,minebbs.com,craxpro.io,affiliatefix.com,myiptvforum.com,hifivision.com,worldofiptv.com,altenen.is,beermoneyforum.com,germancarforum.com,cracking.org##.samBannerUnit
+mail.yahoo.com##div[data-test-id="virtual-list"] > ul > li > div > a[rel="noreferrer"]
 adultswim.com##.tui-ad-slate
 bizjournals.com##div[data-dev="MovableAd"]
 up-4ever.net##.u4dl-spotcol
@@ -35414,9 +35415,9 @@ instagram.com#$?#main > div > div > div[style*="flex-direction: column;"] > div:
 instagram.com#$?#article:has(> div[style*="display: none !important;"]:only-child) { padding-bottom: 0px !important; border-bottom: none !important; border: none !important; }
 fullassia.com,assia23.com,assia.*##body > div[class^="ban"]
 soccerbox.me,soccerbox.*,www.vipbox.fm,vipbox.*,vipleague.vg,vipleague.*##a[data-openuri*="https://"][data-open="_blank"]
-soccerbox.me,soccerbox.*,worldsports.st,buffsports.io,viprow.nu,olympicstreams.*,www.vipbox.fm,vipbox.*,vipstand.*,viprow.*##button[data-openuri*="https://"][data-open="_blank"]
-f1box.me,mlbbox.me,mmastreams.me,nbabox.me,nflbox.me,nhlbox.me,tennisonline.me,dartsstreams.com,vipboxtv.*,dartsstream.me,golfstreams.me,motogpstream.me,rugbystreams.me,tennisstreams.me,boxingstreams.me,ufcstream.me,mlbstream.me,nbastream.nu,cricstreams.re##.m-1.fw-bold.btn-danger.btn
-soccerbox.me,soccerbox.*,www.vipbox.fm,vipbox.*,vipleague.vg,vipleague.*,f1box.me,mlbbox.me,mmastreams.me,nbabox.me,nflbox.me,nhlbox.me,rugbystreams.me,tennisonline.me,cricstreams.re,dartsstreams.com,vipboxtv.*,dartsstream.me,golfstreams.me,motogpstream.me,tennisstreams.me,boxingstreams.me,ufcstream.me,mlbstream.me,nbastream.nu##.position-absolute.text-white
+nbabox.*,nbabox.co,soccerbox.me,soccerbox.*,worldsports.st,buffsports.io,viprow.nu,olympicstreams.*,www.vipbox.fm,vipbox.*,vipstand.*,viprow.*##button[data-openuri*="https://"][data-open="_blank"]
+f1box.me,mlbbox.me,mmastreams.me,nflbox.me,nhlbox.me,tennisonline.me,dartsstreams.com,vipboxtv.*,dartsstream.me,golfstreams.me,motogpstream.me,rugbystreams.me,tennisstreams.me,boxingstreams.me,ufcstream.me,mlbstream.me,nbastream.nu,cricstreams.re##.m-1.fw-bold.btn-danger.btn
+soccerbox.me,soccerbox.*,www.vipbox.fm,vipbox.*,vipleague.vg,vipleague.*,f1box.me,mlbbox.me,mmastreams.me,nbabox.*,nbabox.co,nflbox.me,nhlbox.me,rugbystreams.me,tennisonline.me,cricstreams.re,dartsstreams.com,vipboxtv.*,dartsstream.me,golfstreams.me,motogpstream.me,tennisstreams.me,boxingstreams.me,ufcstream.me,mlbstream.me,nbastream.nu##.position-absolute.text-white
 myabandonware.com###content > .abox
 myabandonware.com###content + div[id] > div[class="menu"]
 myabandonware.com##.items.games > div:not([class*="itemListGame"]):not([class*="filler"])
@@ -63230,6 +63231,8 @@ complex.com##.\[\@media\(min-width\:520px\)\]\:px-\[20px\]
 justjared.com##.banner-spacer-top {max-height: 50px !important;}
 temp-mail.io##.fixed.bottom-0.\[\@media\(max-width\:1350px\)\]\:hidden
 complex.com##.lg\:top-\[var\(--sticky-top\)\]
+percentagecalculator.net##.pc-incontent
+aha-music.com##.vms-ad-wrap
 justjared.com##[role="banner"] {top:0 !important}
 deliveroo.*#?#a[role="button"]:has(p:has-text(Sponsored))
 deliveroo.*#?#div[class^="HomeFeedScrollTracker-"]:has(span[class^="HomeFeedUILines-"]:has-text(Sponsored))

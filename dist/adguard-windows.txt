@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Windows
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202608211650
-! Last modified: 2026-08-21T16:50:05Z
+! Version: 202608211742
+! Last modified: 2026-08-21T17:42:50Z
 ! Layers: network,content,scriptlet
 ! Mode: standard
-! Rules: 116725
+! Rules: 116727
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -87763,6 +87763,7 @@ mydramalist.com##.col-lg-4 > .clear
 roseindia.net##.col-md-4
 disqus.com##.col-promoted
 lapa.ninja##.col-sm-1
+turtlecute.org##.collab_wrap
 tineye.com##.collection.match-row
 iamgujarat.com,indiatimes.com,samayam.com,vijaykarnataka.com##.colombia
 i24news.tv##.column-ads
@@ -92112,6 +92113,7 @@ wikibrief.org##div[style="text-align:center;height:302px;width:auto;"]
 m.koreatimes.co.kr##div[style="width: 300px; height:250px; overflow: hidden; margin: 0 auto;"]
 ultimatespecs.com##div[style="width:100%;display:block;height:290px;overflow:hidden"]
 elevenforum.com##div[style="width:300px;padding-bottom:10px;text-align:center;height:612px;margin-bottom:15px;"]
+bleepingcomputer.com##div[style="width:98%; margin:0 auto; padding:5px; text-align:center; background:#f0f0f0; border:1px solid #ccc; border-radius:6px;"]
 bleepingcomputer.com##div[style="width:98%; margin:0 auto; text-align:center; padding:4px; background:#f0f0f0; border:1px solid #ccc; border-radius:6px;"]
 bleepingcomputer.com##div[style="width:98%; margin:0 auto; text-align:center; padding:5px; background:#f0f0f0; border:1px solid #ccc; border-radius:6px;"]
 constative.com##div[style]:not([class])
@@ -93517,6 +93519,8 @@ bestbuy.com#?#div[data-testid="Row_testID"]:has(span:contains(Sponsored))
 bitchute.com#?#.row.justify-center:contains(Advertisement)
 bitcoinsensus.com#?#.e-con-inner:contains(Our Favourite Trading Platforms)
 bjs.com#?#[data-cnstrc-recommendations]:contains(Sponsored Products)
+bleepingcomputer.com#?#.bc-heading:contains(ponsor Posts)
+bleepingcomputer.com#?#.bc-heading:contains(ponsor Posts) + ul
 bleepingcomputer.com#?#.cz-line-heading:contains(Sponsor Posts)
 bleepingcomputer.com#?#.cz-line-heading:contains(Sponsor Posts) + ul
 bleepingcomputer.com#?#.post_wrap:contains(AdBot)
@@ -94098,6 +94102,7 @@ gayfuckporn.tv,goldgay.tv,justustrannies.com##.b-random-column
 icetranny.com,machogaytube.com,machotube.tv,shemaleporntube.tv##.b-randoms-col
 trannytube.tv##.b-secondary-column__banners
 icegay.tv##.b-secondary-column__randoms
+24porn.com,boy18tube.com,gayfuckporn.tv,gaymaletube.name,gayporno.fm,gogaytube.tv,goldgay.tv,hdpornvideo.tv,ice-gay.com,icegay.tv,icegaytube.tv,icetranny.com,justustrannies.com,machogaytube.com,machotube.tv,madgaysex.com,onlydudes.tv,ourshemales.com,shemaleporntube.tv,trannytube.tv,ts-tube.net,xgaytube.tv##.b-secondary-column__rnd
 onlydudes.tv##.b-side-col
 japan-whores.com##.b-sidebar
 rat.xxx##.b-spot
@@ -94757,6 +94762,7 @@ thegay.com##.underplayer__info > div:not([class])
 videojav.com##.underplayer_banner
 vjav.com,vjav.tube##.undp
 redtube.com,tube8.com,you-porn.com,youporn.com##.upgradeButtonContainer
+24porn.com,boy18tube.com,gayfuckporn.tv,gaymaletube.name,gayporno.fm,gogaytube.tv,goldgay.tv,hdpornvideo.tv,ice-gay.com,icegay.tv,icegaytube.tv,icetranny.com,justustrannies.com,machogaytube.com,machotube.tv,madgaysex.com,onlydudes.tv,ourshemales.com,shemaleporntube.tv,trannytube.tv,ts-tube.net,xgaytube.tv##.uvb-random
 tryindianporn.com##.uvk
 hmanga.world##.v-alert--variant-outlined
 hentaiprn.com##.v-overlay
@@ -103610,11 +103616,9 @@ yatu.tv,yhdm7.com,yhdm95.com,xdm530.com##+js(aopw,document.oncontextmenu)
 cyberchef.org###workspace-wrapper > [id][style*="height"] {height: 100% !important}
 complex.com##.\[\@media\(min-width\:520px\)\]\:px-\[20px\]
 justjared.com##.banner-spacer-top {max-height: 50px !important;}
-turtlecute.org##.collab_wrap
 temp-mail.io##.fixed.bottom-0.\[\@media\(max-width\:1350px\)\]\:hidden
 complex.com##.lg\:top-\[var\(--sticky-top\)\]
 justjared.com##[role="banner"] {top:0 !important}
-bleepingcomputer.com##div[style="width:98%; margin:0 auto; padding:5px; text-align:center; background:#f0f0f0; border:1px solid #ccc; border-radius:6px;"]
 deliveroo.*#?#a[role="button"]:has(p:has-text(Sponsored))
 deliveroo.*#?#div[class^="HomeFeedScrollTracker-"]:has(span[class^="HomeFeedUILines-"]:has-text(Sponsored))
 advocate.com,out.com,pride.com#?#.component.module-headline:has-text(FROM OUR SPONSORS)
@@ -103917,8 +103921,6 @@ w3schools.com###tryitLeaderboard ~ #container {top:48px;}
 w3schools.com##.trytopnav {top:0;}
 wunderground.com##.content-wrap #inner-wrap {height:100vh;}
 yourdictionary.com##.header {top:0;}
-24porn.com,boy18tube.com,gayfuckporn.tv,gaymaletube.name,gayporno.fm,gogaytube.tv,goldgay.tv,hdpornvideo.tv,ice-gay.com,icegay.tv,icegaytube.tv,icetranny.com,justustrannies.com,machogaytube.com,machotube.tv,madgaysex.com,onlydudes.tv,ourshemales.com,shemaleporntube.tv,trannytube.tv,ts-tube.net,xgaytube.tv##.b-secondary-column__rnd
-24porn.com,boy18tube.com,gayfuckporn.tv,gaymaletube.name,gayporno.fm,gogaytube.tv,goldgay.tv,hdpornvideo.tv,ice-gay.com,icegay.tv,icegaytube.tv,icetranny.com,justustrannies.com,machogaytube.com,machotube.tv,madgaysex.com,onlydudes.tv,ourshemales.com,shemaleporntube.tv,trannytube.tv,ts-tube.net,xgaytube.tv##.uvb-random
 4wank.com#?#.video-holder > center > :has-text(/^Advertisement$/)
 redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com##:-abp-properties(*data:image*)
 redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com##:-abp-properties(base64)

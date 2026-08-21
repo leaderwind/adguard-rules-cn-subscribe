@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Network
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202608210314
-! Last modified: 2026-08-21T03:14:58Z
+! Version: 202608210451
+! Last modified: 2026-08-21T04:51:59Z
 ! Layers: network
 ! Mode: standard
-! Rules: 47694
+! Rules: 47696
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -9939,6 +9939,7 @@ $xmlhttprequest,third-party,redirect-rule=noopjs,domain=bizjournals.com
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=noopjs,domain=bizjournals.com
 @@||cdn.cxense.com/cx.cce.js$xmlhttprequest,domain=bizjournals.com
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$xmlhttprequest,domain=bizjournals.com
+@@||pub.doubleverify.com/dvtag/*/pub.js$xmlhttprequest,domain=bizjournals.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=examsnet.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=askpaccosi.com
 ||f362.nola.com/script.js
@@ -45706,6 +45707,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||yahoo.com/beacon/
 ||yahoo.com/beacon?
 ||yahoo.com/pageview?
+||yahoo.com/xhr/beacon/batch/
 ||yahoo.net/pixel.gif
 ||yandex.*/clck/$~ping
 ||yandex.*/count/

@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Windows
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202608210314
-! Last modified: 2026-08-21T03:14:58Z
+! Version: 202608210451
+! Last modified: 2026-08-21T04:51:59Z
 ! Layers: network,content,scriptlet
 ! Mode: standard
-! Rules: 116694
+! Rules: 116700
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -19173,6 +19173,7 @@ $xmlhttprequest,third-party,redirect-rule=noopjs,domain=bizjournals.com
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=noopjs,domain=bizjournals.com
 @@||cdn.cxense.com/cx.cce.js$xmlhttprequest,domain=bizjournals.com
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$xmlhttprequest,domain=bizjournals.com
+@@||pub.doubleverify.com/dvtag/*/pub.js$xmlhttprequest,domain=bizjournals.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=examsnet.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=askpaccosi.com
 ||f362.nola.com/script.js
@@ -44292,6 +44293,7 @@ sgxnifty.org###aub_cover
 faucethero.com#$#.pub_728x90.text-ad.textAd.text_ad.text_ads.text-ads.text-ad-links { display: block !important; }
 faucethero.com#@#.adSense
 faucethero.com#@#.adContent
+bizjournals.com#@#.ad-slot
 justwatch.com#$#.pub_300x250.pub_300x250m.pub_728x90.text-ad.textAd.text_ad.text_ads.text-ads.text-ad-links { display:block!important; }
 justwatch.com#@#.adSense
 justwatch.com#@#.adContent
@@ -52827,6 +52829,8 @@ animecorner.me,zarabiajprzez24.pl,watchhentai.xxx,app-how-to-use-it.com,linuxcap
 pawastreams.*,nflbite.to,footybite.to,sportschamp.fun,afly.pro,topsporter.net,soccerstreams.football,mysocceraustralia.com,rayinfosports.com,hesgoals.top,sequencecard.xyz,totalsportek.soccer,metaporky.site,nbabite.to,cyfostreams.com,gamerarcades.com,bestreamsports.org,footy.to,mcrypto.club,greaterkashmir.com###id-custom_banner
 pawastreams.*,groundedtechs.com,rayinfosports.com,sequencecard.xyz,matchtime.co,sportspellz.com,bestreamsports.org,silverspoon.site###dismiss-btn
 vi-control.net,nullforums.net,landyzone.co.uk,nullcave.pro,woxmax.com,waskucity.com,babia.to,technofino.in,reef2reef.com,minebbs.com,craxpro.io,affiliatefix.com,myiptvforum.com,hifivision.com,worldofiptv.com,altenen.is,beermoneyforum.com,germancarforum.com,cracking.org##.samBannerUnit
+bizjournals.com##div[data-dev="MovableAd"]
+up-4ever.net##.u4dl-spotcol
 bing.com##.top-ads-separator-enabled
 poro.gg##main > div[class]:has(div.ad-wrapper)
 egamersworld.com###w_banner
@@ -96662,6 +96666,7 @@ apkandroidhub.in#%#//scriptlet('prevent-fetch', 'pagead2.googlesyndication.com')
 freecoursesite.com#%#//scriptlet("prevent-setTimeout", "()=>this.display()")
 quizack.com#%#//scriptlet("prevent-setTimeout", "blocker")
 toeflmocks.com#%#//scriptlet('prevent-fetch', 'pagead2.googlesyndication.com')
+bizjournals.com#%#//scriptlet('prevent-fetch', 'method:HEAD')
 bizjournals.com#%#//scriptlet('prevent-fetch', '/pagead2\.googlesyndication\.com|cdn\.cxense\.com|securepubads\.g\.doubleclick\.net/')
 examsnet.com#%#//scriptlet("abort-on-property-read", "adsblocked")
 askpaccosi.com#%#//scriptlet('prevent-fetch', 'pagead2.googlesyndication.com')
@@ -114704,6 +114709,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||yahoo.com/beacon/
 ||yahoo.com/beacon?
 ||yahoo.com/pageview?
+||yahoo.com/xhr/beacon/batch/
 ||yahoo.net/pixel.gif
 ||yandex.*/clck/$~ping
 ||yandex.*/count/

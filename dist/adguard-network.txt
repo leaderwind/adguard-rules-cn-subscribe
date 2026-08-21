@@ -1,8 +1,8 @@
 ! Title: AdGuard Rules CN - Network
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202608210755
-! Last modified: 2026-08-21T07:55:40Z
+! Version: 202608210856
+! Last modified: 2026-08-21T08:56:18Z
 ! Layers: network
 ! Mode: standard
 ! Rules: 47698
@@ -14859,7 +14859,6 @@ $script,third-party,denyallow=jsdelivr.net|cloudflare.com|unpkg.com|vikingfile.c
 ||surfshark.com/alert/data-leak-checker-iframe?partner_url=$subdocument,domain=cybernews.com
 ||a.orbsrv.com/ad-provider.js$domain=xv-ru.com|xvideos.com,redirect=noopjs
 ||pornone.com/js/combined.js
-/publishers/$domain=softonic.com|softonic-ar.com|softonic-id.com|softonic-id.com|softonic.jp|softonic.kr|softonic.nl|softonic.pl|softonic.com.br|softonic.ru|softonic.se|softonic-th.com|softonic.com.tr|softonic.cn
 ||manage.whtop.com/*.gif?/review/$image
 ||javhub.net/av/img/pbanner*.jpg
 /\/js\/\d{2,3}eka\d{2,3}\.js$/$script,~third-party,domain=club|com|one|pro
@@ -18067,6 +18066,7 @@ xxxadd.com/eureka
 ||zevera.com/*.swf$third-party
 ||novelhall.com/statics/default/js/position.js
 ||circleofcricket.com/assets/adv/
+||rv-assets.softonic*/publishers/
 /^https:\/\/cine\.su\/[a-z0-9]{16}\.js$/$script,match-case,domain=cine.su
 /^https:\/\/cine\.su\/[a-z0-9][a-z0-9][a-z0-9][a-z0-9][a-z0-9][a-z0-9][a-z0-9][a-z0-9][a-z0-9][a-z0-9][a-z0-9][a-z0-9][a-z0-9][a-z0-9][a-z0-9][a-z0-9]\.js$/$script,match-case
 ||chatgpt.com/backend-api/bazaar/conversation/*/ads|$xmlhttprequest

@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - DNS
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202608210705
-! Last modified: 2026-08-21T07:05:33Z
+! Version: 202608210755
+! Last modified: 2026-08-21T07:55:40Z
 ! Layers: dns
 ! Mode: standard
-! Rules: 249460
+! Rules: 249470
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -199308,6 +199308,9 @@
 ||zzy1.quyaoya.com^
 ||zzycj.com^
 ||zzz.onion.pet^
+||n2m8u4ae9.com^
+||tkvfayv59.com^
+||ksks2.sportsonline.top^
 ||piguiqproxy.com^$badfilter
 /wp-content/plugins/gplinks-flow/assets/js/flow.js|$replace=/var shown = false;/return;/
 /^https:\/\/[0-9a-z]+\.xyz\/rinku\/land/$document,~third-party,match-case,replace=/const proxyStatus = "Y";/const proxyStatus = "N";/
@@ -199336,6 +199339,12 @@
 ||freeadultcomix.com^$badfilter
 ||imgshare.info^$badfilter
 @@||connectivitycheck.gstatic.com^$important
+||fchgkvsqusran.site^
+||hfcxgnrjhudkg.site^
+||jakobcia.qpon^
+||ogzwxfqdketms.site^
+||wirrasparks.qpon^
+||xrnvpmqajqcme.online^
 /(https?:\/\/)104\.154\..{100,}/
 /(https?:\/\/)104\.197\..{100,}/
 /(https?:\/\/)104\.198\..{100,}/
@@ -217594,10 +217603,11 @@
 ||zysuvysaj.pro^
 ||zzux.com^
 ||sobot.com^
-||fchgkvsqusran.site^
-||hfcxgnrjhudkg.site^
-||jakobcia.qpon^
-||ogzwxfqdketms.site^
+||abslakpdotzst.site^
+||icuvzogomwarh.site^
+||legal-special.pro^
+||swamieslationfetidly.qpon^
+||upvuwkflkzrpx.website^
 ||mobile.pipe.aria.microsoft.com^
 ||cu-cn-north00001.gala.convection.cn^
 ||cu-cn-north00002.gala.convection.cn^

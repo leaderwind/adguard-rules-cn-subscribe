@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Network
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202608210705
-! Last modified: 2026-08-21T07:05:33Z
+! Version: 202608210755
+! Last modified: 2026-08-21T07:55:40Z
 ! Layers: network
 ! Mode: standard
-! Rules: 47697
+! Rules: 47698
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -14534,7 +14534,6 @@ $third-party,script,domain=klto9.com|f2movies.to|hacamchicac.com|yourporngod.com
 ||player.videasy.*/scripts/ab.js
 ||cdn.autoevolution.com/_js/prebid*.js
 ||adultvideocdn.com/assets/aigf/
-||greatandhra.com/wp-content/plugins/sortd-homepage-promo/
 ||subtitlecat.com/assets/images/gomakego_ad_*.webp
 ||camhub.*/static/js/cc-kvs.js
 ||orangepix.is/istrp/*.gif
@@ -18232,6 +18231,7 @@ jquery-1.8.3.min.js$domain=straemplay.*|stemplay.*|steamplay.*|steanplay.*|strea
 /\.net\/[a-z-]+\.html$/$subdocument,~third-party,domain=imgdrive.net
 /\.com\/[0-9a-f]+\.js$/$script,~third-party,domain=imgadult.com|imgtaxi.com
 /\.net\/[0-9a-f]+\.js$/$script,~third-party,domain=imgdrive.net
+||greatandhra.com/wp-content/plugins/sortd-homepage-promo/
 ||media-elmtree.com/pu_script.js
 ||m.media-amazon.com/images/S/al-*.mp4$media,domain=imdb.com
 ||m-hentai.net/img/Native%20Ads/
@@ -20442,6 +20442,7 @@ $csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: www.googletagma
 @@||beinconnect.com.tr^$stealth
 @@||account.adobe.com^$document,domain=services.adobe.com,stealth=useragent
 @@||adguard.com^$stealth
+@@||dynaccent.net^$subdocument,stealth=referrer,domain=sportsonlinee.*|sportsonline.*
 @@||workers.dev^$xmlhttprequest,stealth=referrer,domain=embed.st
 @@||api.authsignal.com^$stealth=3p-auth
 @@||login.sydneywater.com.au^$stealth=referrer,domain=sydneywater.com.au

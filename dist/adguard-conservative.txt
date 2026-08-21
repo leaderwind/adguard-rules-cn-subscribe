@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Conservative
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202608211309
-! Last modified: 2026-08-21T13:09:05Z
+! Version: 202608211357
+! Last modified: 2026-08-21T13:57:21Z
 ! Layers: network,content,scriptlet
 ! Mode: conservative
-! Rules: 108707
+! Rules: 108705
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -28906,6 +28906,7 @@ $image,script,stylesheet,subdocument,third-party,xmlhttprequest,domain=animepahe
 @@||account.adobe.com^$document,domain=services.adobe.com,stealth=useragent
 @@||dynaccent.net^$subdocument,stealth=referrer,domain=sportsonlinee.*|sportsonline.*
 @@||workers.dev^$xmlhttprequest,stealth=referrer,domain=embed.st
+@@&ssid=$third-party,xmlhttprequest,stealth=referrer,domain=ninguno.cc
 @@||farfarout.org/farfarout-api/$xmlhttprequest,stealth=referrer
 @@$media,stealth=referrer,domain=fakitonye.shop
 @@||fritz.com/*/apps/knowledge-base/$xmlhttprequest,elemhide,jsinject,extension
@@ -63226,8 +63227,6 @@ you-porn.com,youporngay.com##.playWrapper > #videoWrapper + aside.clearfix
 you-porn.com,youporngay.com,youpornru.com,youporn.*##.ad-bottom-text
 you-porn.com,youporngay.com###videoContainer > #pb_template
 bdsmstreak.com##.onvideo
-olympicstreams.me##a[href^="http://streamsign.me/"]
-olympicstreams.me##a[href^="http://www.top-games.me/"]
 mlbstream.me,olympicstreams.me##.embed-responsive > div[id][style="display: block;"]
 dailypress.com##section.trb_outfit[data-role="adloader"] > section.trb_outfit_sections > div[data-frame-height="100%"][data-frame-class="trb_em_b_if"]
 timeanddate.com,ratemyprofessors.com###ad300
@@ -66508,9 +66507,9 @@ instagram.com#$?#main > div > div > div[style*="flex-direction: column;"] > div:
 instagram.com#$?#article:has(> div[style*="display: none !important;"]:only-child) { padding-bottom: 0px !important; border-bottom: none !important; border: none !important; }
 fullassia.com,assia23.com,assia.*##body > div[class^="ban"]
 soccerbox.me,soccerbox.*,www.vipbox.fm,vipbox.*,vipleague.vg,vipleague.*##a[data-openuri*="https://"][data-open="_blank"]
-nbabox.*,nbabox.co,soccerbox.me,soccerbox.*,worldsports.st,buffsports.io,viprow.nu,olympicstreams.*,www.vipbox.fm,vipbox.*,vipstand.*,viprow.*##button[data-openuri*="https://"][data-open="_blank"]
-f1box.me,mlbbox.me,mmastreams.me,nflbox.me,nhlbox.me,tennisonline.me,dartsstreams.com,vipboxtv.*,dartsstream.me,golfstreams.me,motogpstream.me,rugbystreams.me,tennisstreams.me,boxingstreams.me,ufcstream.me,mlbstream.me,nbastream.nu,cricstreams.re##.m-1.fw-bold.btn-danger.btn
-soccerbox.me,soccerbox.*,www.vipbox.fm,vipbox.*,vipleague.vg,vipleague.*,f1box.me,mlbbox.me,mmastreams.me,nbabox.*,nbabox.co,nflbox.me,nhlbox.me,rugbystreams.me,tennisonline.me,cricstreams.re,dartsstreams.com,vipboxtv.*,dartsstream.me,golfstreams.me,motogpstream.me,tennisstreams.me,boxingstreams.me,ufcstream.me,mlbstream.me,nbastream.nu##.position-absolute.text-white
+mmabox.me,mmabox.*,nbabox.*,nbabox.co,soccerbox.me,soccerbox.*,worldsports.st,buffsports.io,olympicweb.me,olympicweb.*,www.vipbox.fm,vipbox.*,vipstand.*,viprow.is,viprow.*##button[data-openuri*="https://"][data-open="_blank"]
+f1box.me,mlbbox.me,nbabox.*,nbabox.co,nflbox.me,nhlbox.me,tennisonline.me,dartsstreams.com,vipboxtv.*,dartsstream.me,golfstreams.me,motogpstream.me,rugbystreams.me,tennisstreams.me,boxingstreams.me,ufcstream.me,nbastream.nu,cricstreams.re##.m-1.fw-bold.btn-danger.btn
+olympicweb.me,olympicweb.*,www.viprow.is,viprow.*,soccerbox.me,soccerbox.*,www.vipbox.fm,vipbox.*,vipleague.vg,vipleague.*,f1box.me,mlbbox.me,mmabox.me,mmabox.*,nbabox.*,nbabox.co,nflbox.me,nhlbox.me,rugbystreams.me,tennisonline.me,cricstreams.re,dartsstreams.com,vipboxtv.*,dartsstream.me,golfstreams.me,motogpstream.me,tennisstreams.me,boxingstreams.me,ufcstream.me,nbastream.nu##div[class*="position-absolute"][class*="bg-opacity-"]
 myabandonware.com###content > .abox
 myabandonware.com###content + div[id] > div[class="menu"]
 myabandonware.com##.items.games > div:not([class*="itemListGame"]):not([class*="filler"])
@@ -83773,7 +83772,7 @@ deccanherald.com##.ad-background
 britannica.com,canadiantire.ca,courthousenews.com,cryptobriefing.com,diabetesjournals.org,infobel.com,kuioo.com,linkedin.com,pilot007.org,radiotimes.com,soundguys.com,topperlearning.com##.ad-banner
 radiopaedia.org##.ad-banner-desktop-row
 wikiwand.com##.ad-between-sections
-home-designing.com,inc.com,trustpilot.com##.ad-block
+cpu-benchmark.org,home-designing.com,inc.com,trustpilot.com##.ad-block
 issuu.com##.ad-block--wide
 sciencenews.org##.ad-block__mq-wrapper
 slashdot.org##.ad-blocked-newsletter
@@ -84659,6 +84658,7 @@ bmwblog.com##.bmwbl-after-content
 azscore.com,bescore.com##.bn
 firstpost.com##.bn-add
 savefree.in,surattimes.com##.bn-content
+cpu-benchmark.org##.bn-hero
 nilechronicles.com##.bn-lg-sidebar
 snow-forecast.com,weather-forecast.com##.bn-placeholder
 flaticon.com##.bn-space-gads
@@ -89243,6 +89243,7 @@ pixiv.net##div[style="font-size: 0px;"] a[target="premium_noads"]
 distractify.com,greenmatters.com,inquisitr.com,okmagazine.com,radaronline.com##div[style="font-size:x-small;text-align:center;padding-top:10px"]
 beta.riftkit.net##div[style="height: 300px; width: 400px;"]
 pixiv.net##div[style="height: 540px; opacity: 1;"]
+cpu-benchmark.org##div[style="height:100px"]
 paraphraser.io##div[style="height:128px;overflow: hidden !important;"]
 wikibrief.org##div[style="height:302px;width:auto;text-align:center;"]
 comics.org##div[style="height:90px"]
@@ -95598,13 +95599,10 @@ yatu.tv##.dplayer-web-fullscreen-fix #tburl,#loadtop,[id^=myas],#myds1,#daohang
 ##[class^="div-gpt-ad"]
 cyberchef.org###workspace-wrapper > [id][style*="height"] {height: 100% !important}
 complex.com##.\[\@media\(min-width\:520px\)\]\:px-\[20px\]
-cpu-benchmark.org,home-designing.com,inc.com,trustpilot.com##.ad-block
 justjared.com##.banner-spacer-top {max-height: 50px !important;}
-cpu-benchmark.org##.bn-hero
 temp-mail.io##.fixed.bottom-0.\[\@media\(max-width\:1350px\)\]\:hidden
 complex.com##.lg\:top-\[var\(--sticky-top\)\]
 justjared.com##[role="banner"] {top:0 !important}
-cpu-benchmark.org##div[style="height:100px"]
 deliveroo.*#?#a[role="button"]:has(p:has-text(Sponsored))
 deliveroo.*#?#div[class^="HomeFeedScrollTracker-"]:has(span[class^="HomeFeedUILines-"]:has-text(Sponsored))
 advocate.com,out.com,pride.com#?#.component.module-headline:has-text(FROM OUR SPONSORS)

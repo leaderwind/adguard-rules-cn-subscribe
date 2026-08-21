@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Network
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202608211309
-! Last modified: 2026-08-21T13:09:05Z
+! Version: 202608211357
+! Last modified: 2026-08-21T13:57:21Z
 ! Layers: network
 ! Mode: standard
-! Rules: 47700
+! Rules: 47701
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -20447,6 +20447,7 @@ $csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: www.googletagma
 @@||dynaccent.net^$subdocument,stealth=referrer,domain=sportsonlinee.*|sportsonline.*
 @@||workers.dev^$xmlhttprequest,stealth=referrer,domain=embed.st
 @@||api.authsignal.com^$stealth=3p-auth
+@@&ssid=$third-party,xmlhttprequest,stealth=referrer,domain=ninguno.cc
 @@||login.sydneywater.com.au^$stealth=referrer,domain=sydneywater.com.au
 @@||farfarout.org/farfarout-api/$xmlhttprequest,stealth=referrer
 @@||fakitonye.shop/player/$stealth=referrer,domain=hdabla.net

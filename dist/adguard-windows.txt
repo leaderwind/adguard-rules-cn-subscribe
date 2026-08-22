@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Windows
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202608221436
-! Last modified: 2026-08-22T14:36:49Z
+! Version: 202608221534
+! Last modified: 2026-08-22T15:34:42Z
 ! Layers: network,content,scriptlet
 ! Mode: standard
-! Rules: 116715
+! Rules: 116718
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -17567,6 +17567,7 @@ $cookie=__adblocker,domain=slate.com|thehindubusinessline.com
 ||claimfey.com/cryptonews/wp-content/uploads/bqanwcfp.js
 @@||static.trafficjunky.com/ab/ads_test.js$domain=bztube.com|hotovs.com|insuredhome.org|nudegista.com|pornluck.com|vidd.se|redtube.*|youpornru.com|tube8.com|tube8.es|tube8.fr|tube8.net|pornhub.com|pornhub.org|pornhub.net
 @@://www.exoclick.com/ads.js|
+@@||claimlite.club/static/js/noadblock.js$domain=claimlite.club
 @@||ssl.p.jwpcdn.com/player/v/8.36.2/googima.js$domain=kavero.biz
 @@||googleads.g.doubleclick.net/pagead/ads$xmlhttprequest,domain=moviesdl.cc
 @@||static.ads-twitter.com/ads.js$xmlhttprequest,domain=moviesdl.cc
@@ -63774,7 +63775,7 @@ podu.me##.adv-contanier
 zazzybabes.com##body > div[id="pbOverlay"] + div[style]
 voyeurhit.com##.header > ul.nav > li > a[target="_blank"]
 niketalk.com##.p-body-sidebar > div.p-sidebar-inner > div[id^="spacer"]
-earnbitmoon.club,multiclaim.net,claimbits.net,coinadster.com###wcfloatDiv4
+claimlite.club,earnbitmoon.club,multiclaim.net,claimbits.net,coinadster.com###wcfloatDiv4
 perezhilton.com##.single-spot.shown
 marketscreener.com,zonebourse.com##div[style="width: 100%;"] > #zppMiddle2
 ultrahorny.com##.cont li[class^="menu-item"] > a[target="_blank"]
@@ -103909,6 +103910,8 @@ w3schools.com###tryitLeaderboard ~ #container {top:48px;}
 w3schools.com##.trytopnav {top:0;}
 wunderground.com##.content-wrap #inner-wrap {height:100vh;}
 yourdictionary.com##.header {top:0;}
+njavtv.com##.fixed.right-2.bottom-2
+missav.*,missav123.com,missav888.com,njavtv.com##.lg\:block
 4wank.com#?#.video-holder > center > :has-text(/^Advertisement$/)
 redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com##:-abp-properties(*data:image*)
 redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com##:-abp-properties(base64)

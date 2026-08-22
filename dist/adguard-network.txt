@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Network
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202608220306
-! Last modified: 2026-08-22T03:06:30Z
+! Version: 202608220354
+! Last modified: 2026-08-22T03:54:25Z
 ! Layers: network
 ! Mode: standard
-! Rules: 47700
+! Rules: 47693
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -1760,7 +1760,6 @@ wss://*/api/wss/GetNotReadCount$third-party
 ||szlite.cn^$third-party
 ||zhangyuyidong.cn^$third-party
 ||imjtv.cc^$third-party
-||zooj.cn^$third-party
 ||1133.cc^$third-party
 ||1188.com^$third-party
 ||2529.com^$third-party
@@ -1785,7 +1784,6 @@ wss://*/api/wss/GetNotReadCount$third-party
 ||dian500.com^$third-party
 ||duomai.com^$third-party
 ||easou.com^$third-party
-||eeyy.com^$third-party
 ||fenxi.com^$third-party
 ||gameone.com^$third-party
 ||i3z.cn^$third-party
@@ -3587,11 +3585,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||eepw.com.cn/event/action/rightbd/microchip*.js
 ||eepw.com.cn/pub/js/TopFullScreen.js
 ||eeyy.cc/style/yxj.js
-||eeyy.com/otherhtml/js/ad650.js
-||eeyy.com/otherhtml/poster_js/
-||eeyy.com/templates/js/other/yxj
-||eeyy.com/templates/js/popback.js
-||eeyy.com/uploadfile/img/beitou
 ||elecfans.com/images/*/675x90.
 ||elecfans.com/skin-*/images/banner_ad
 ||elecfans.com/skin-*ad_
@@ -42021,7 +42014,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||amazonaws.com/ki.js/
 ||amazonaws.com/lp/js/tag.js?
 ||amazonaws.com/new.cetrk.com/
-||amazonaws.com/prod/entities
 ||amazonaws.com/prod/main?ref=$image,third-party
 ||amazonaws.com/prod/nobot
 ||amazonaws.com/prod/report-only
@@ -44147,6 +44139,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ukw.jp/taglog/
 ||userdive.com^$third-party
 ||x.t-idr.com/api/v1/identify
+||xn--pckua2a7gp15o89zb.com/api/am/v1/t
 ||yahoo.co.jp/js/retargeting.js
 ||cafe24.com/cfa.js
 ||cafe24.com/weblog.js

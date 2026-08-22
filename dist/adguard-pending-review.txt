@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Pending Review (Not AI-reviewed)
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202608220658
-! Last modified: 2026-08-22T06:58:06Z
+! Version: 202608220744
+! Last modified: 2026-08-22T07:44:16Z
 ! Layers: dns
 ! Mode: standard
-! Rules: 249848
+! Rules: 249854
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -199801,6 +199801,7 @@
 ||zzy1.quyaoya.com^
 ||zzycj.com^
 ||zzz.onion.pet^
+||4hf2saujov.com^
 ||piguiqproxy.com^$badfilter
 /wp-content/plugins/gplinks-flow/assets/js/flow.js|$replace=/var shown = false;/return;/
 /^https:\/\/[0-9a-z]+\.xyz\/rinku\/land/$document,~third-party,match-case,replace=/const proxyStatus = "Y";/const proxyStatus = "N";/
@@ -199829,6 +199830,10 @@
 ||freeadultcomix.com^$badfilter
 ||imgshare.info^$badfilter
 @@||connectivitycheck.gstatic.com^$important
+||hqugajjuh.com^
+||jordangazed.shop^
+||lfjrojdsqcrne.com^
+||refriesfossule.cyou^
 /(https?:\/\/)104\.154\..{100,}/
 /(https?:\/\/)104\.197\..{100,}/
 /(https?:\/\/)104\.198\..{100,}/
@@ -217876,7 +217881,8 @@
 ||zysuvysaj.pro^
 ||zzux.com^
 ||sobot.com^
-||refriesfossule.cyou^
+||santirssalsolajazzing.qpon^
+||skypipehookahs.com^
 ||mvconf.f.360.cn^
 ||mobile.pipe.aria.microsoft.com^
 ||cu-cn-north00001.gala.convection.cn^

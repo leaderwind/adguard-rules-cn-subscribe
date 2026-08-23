@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Content
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202608231438
-! Last modified: 2026-08-23T14:38:15Z
+! Version: 202608231535
+! Last modified: 2026-08-23T15:35:50Z
 ! Layers: content
 ! Mode: standard
-! Rules: 63567
+! Rules: 63568
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -9584,6 +9584,7 @@ mytemp-mail.com#$#body { overflow: auto !important; }
 mytemp-mail.com#$#body > div[style^="position: fixed;"][style*="backdrop-filter: blur"][style*="z-index:"] { display: none !important; }
 goonchan.org#@#ins.adsbygoogle[data-ad-slot]
 goonchan.org#@#ins.adsbygoogle[data-ad-client]
+hornyhill.st###adblock-dialog
 ajdown.space#$##adblock-overlay { display: none !important; }
 ajdown.space#$#body { overflow: auto !important; }
 fortnitetracker.com##body > div[style^="background:"][style*="position: fixed; display: flex;"][style*="z-index:"]

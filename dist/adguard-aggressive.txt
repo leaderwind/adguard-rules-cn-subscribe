@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Aggressive
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202608231438
-! Last modified: 2026-08-23T14:38:15Z
+! Version: 202608231535
+! Last modified: 2026-08-23T15:35:50Z
 ! Layers: network,content,scriptlet
 ! Mode: aggressive
-! Rules: 116815
+! Rules: 116816
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -43491,6 +43491,7 @@ mytemp-mail.com#$#body { overflow: auto !important; }
 mytemp-mail.com#$#body > div[style^="position: fixed;"][style*="backdrop-filter: blur"][style*="z-index:"] { display: none !important; }
 goonchan.org#@#ins.adsbygoogle[data-ad-slot]
 goonchan.org#@#ins.adsbygoogle[data-ad-client]
+hornyhill.st###adblock-dialog
 ajdown.space#$##adblock-overlay { display: none !important; }
 ajdown.space#$#body { overflow: auto !important; }
 fortnitetracker.com##body > div[style^="background:"][style*="position: fixed; display: flex;"][style*="z-index:"]
@@ -100021,7 +100022,7 @@ transtxxx.com#%#//scriptlet('json-prune', 'video.channel')
 pornslash.com#%#//scriptlet('prevent-window-open')
 themezon.net#%#//scriptlet('trusted-replace-node-text', 'script', 'window.open(', '/window\.open\(/g', '//window.open(')
 cricfy.net#%#//scriptlet('abort-current-inline-script', 'googletag', '')
-animefire.io,kavero.biz,flixcdn.cyou,kicknosub.com,555fap.com,vixcloud.co,vidmatrixa.com,vidchampions.com,vidavaca.cc,8kporner.com,filester.me,goonbox.cr,luottruyen12.com,vidavaca.net,hentainexus.com,xfans.st,mangakakalot.gg,26img.com,javbee.co,vindaz.shop,xca.cymru,shavetape.cash,vidsonic.net,bigshare.io,herexxx.com,avdbapi.com,rule34vault.com,speedporn.net,taboodude.com,pornxp.ph,cdn.loadvid.com,vidara.so,vidara.to,pornwatch.ws,rpmplay.online,embedseek.online,pandamovies.org,hepidrive.online,hentaicop.com,livecamrips.*,asianporn.li,vik1ngfile.site,mangago.me,klmanga.ec,chochox.com,comick.art,qmh.sex,cap3.sex,hindilinks4u.*,doujindesu.tv,easyvidplayer.com,camwhores.*,player4me.*,faselhds.biz,severeporn.com,rule34video.com,niyaniya.moe,pornxp.net,upns.online,seekplayer.vip#%#//scriptlet('abort-current-inline-script', 'WebAssembly', 'atob')
+hornyhill.st,animefire.io,kavero.biz,flixcdn.cyou,kicknosub.com,555fap.com,vixcloud.co,vidmatrixa.com,vidchampions.com,vidavaca.cc,8kporner.com,filester.me,goonbox.cr,luottruyen12.com,vidavaca.net,hentainexus.com,xfans.st,mangakakalot.gg,26img.com,javbee.co,vindaz.shop,xca.cymru,shavetape.cash,vidsonic.net,bigshare.io,herexxx.com,avdbapi.com,rule34vault.com,speedporn.net,taboodude.com,pornxp.ph,cdn.loadvid.com,vidara.so,vidara.to,pornwatch.ws,rpmplay.online,embedseek.online,pandamovies.org,hepidrive.online,hentaicop.com,livecamrips.*,asianporn.li,vik1ngfile.site,mangago.me,klmanga.ec,chochox.com,comick.art,qmh.sex,cap3.sex,hindilinks4u.*,doujindesu.tv,easyvidplayer.com,camwhores.*,player4me.*,faselhds.biz,severeporn.com,rule34video.com,niyaniya.moe,pornxp.net,upns.online,seekplayer.vip#%#//scriptlet('abort-current-inline-script', 'WebAssembly', 'atob')
 hqporner.com#%#//scriptlet('set-cookie', 'BetterJsPop_pop_0', '1')
 mirrored.to#%#//scriptlet('prevent-addEventListener', 'click', 'window.open')
 mirrored.to#%#//scriptlet('prevent-window-open')

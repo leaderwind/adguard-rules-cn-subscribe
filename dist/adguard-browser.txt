@@ -1,8 +1,8 @@
 ! Title: AdGuard Rules CN - Browser
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202608230314
-! Last modified: 2026-08-23T03:14:42Z
+! Version: 202608230451
+! Last modified: 2026-08-23T04:51:11Z
 ! Layers: network,content,scriptlet
 ! Mode: standard
 ! Rules: 116724
@@ -39965,6 +39965,7 @@ _800x80_
 ||cas.*.criteo.com^
 ||cdn-academy.akamaized.net/letras/ads/
 ||cdn.b2.ai^$third-party
+||cdn.headlinesplus.com/tcm-widget.js
 ||cdn.makemula.ai/js/mula.js
 ||cdn.neighbourly.co.nz/widget/$subdocument
 ||cdn.statically.io/gh/ad-shield/
@@ -88656,6 +88657,7 @@ aarp.org##.hot-deals
 makemytrip.com##.hotDeals
 dailyrecord.co.uk##.hotjobs
 comparitech.com##.how_test
+headlinesplus.com##.hp-ad
 kdnuggets.com##.hp-main-content-2
 darkreader.org##.hr
 adweek.com##.htl-ad-wrapper
@@ -90644,6 +90646,8 @@ euronews.com##.tp-outbrain
 utahgunexchange.com##.tp-revslider-mainul
 steamanalyst.com##.tpbcontainerr
 boundingintocomics.com,thegrio.com##.tpd-incontent-ad-container
+justjared.com##.tpd-ob-reserve
+justjared.com##.tpd-tcm-widget
 totalprosports.com##.tps-top-leaderboard
 techreen.com##.tr-block-header-ad
 techreen.com##.tr-block-label
@@ -103593,7 +103597,6 @@ yatu.tv,yhdm7.com,yhdm95.com,xdm530.com##+js(aopw,document.oncontextmenu)
 ||216.21.13.$popup,domain=~in-addr.arpa
 ||35.227.234.222^$popup
 ||35.232.188.118^$popup
-||cdn.headlinesplus.com/tcm-widget.js
 ||2mdn.net/videoplayback/$rewrite=abp-resource:blank-mp4,domain=laurelberninteriors.com|safeframe.googlesyndication.com
 ||googlevideo.com/videoplayback?$rewrite=abp-resource:blank-mp4,domain=laurelberninteriors.com|safeframe.googlesyndication.com
 ||innovid.com/media/encoded/*.mp4$rewrite=abp-resource:blank-mp4,domain=ktla.com
@@ -103609,10 +103612,7 @@ cyberchef.org###workspace-wrapper > [id][style*="height"] {height: 100% !importa
 complex.com##.\[\@media\(min-width\:520px\)\]\:px-\[20px\]
 justjared.com##.banner-spacer-top {max-height: 50px !important;}
 temp-mail.io##.fixed.bottom-0.\[\@media\(max-width\:1350px\)\]\:hidden
-headlinesplus.com##.hp-ad
 complex.com##.lg\:top-\[var\(--sticky-top\)\]
-justjared.com##.tpd-ob-reserve
-justjared.com##.tpd-tcm-widget
 justjared.com##[role="banner"] {top:0 !important}
 deliveroo.*#?#a[role="button"]:has(p:has-text(Sponsored))
 deliveroo.*#?#div[class^="HomeFeedScrollTracker-"]:has(span[class^="HomeFeedUILines-"]:has-text(Sponsored))

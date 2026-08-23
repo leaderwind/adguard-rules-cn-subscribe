@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Browser
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202608222334
-! Last modified: 2026-08-22T23:34:59Z
+! Version: 202608230158
+! Last modified: 2026-08-23T01:58:42Z
 ! Layers: network,content,scriptlet
 ! Mode: standard
-! Rules: 116717
+! Rules: 116719
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -86589,6 +86589,7 @@ ip-address.org##.ad-5-300
 thestreamable.com##.ad-728x90-min-height
 geotastic.net##.ad-970x250
 advrider.com##.ad-align
+computer.org##.ad-area
 ndtvgames.com##.ad-art_dsk
 buzzfeed.com##.ad-awareness
 kurocore.com##.ad-b1
@@ -111376,6 +111377,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||cnpapers.com/scripts/library/
 ||cnstrc.com/behavior?
 ||cnzz.com/stat.
+||codedrink.com/api/inbound
 ||coefficy.com/ip/
 ||coherentpath.com/tracker/
 ||collection.e-satisfaction.com^$third-party

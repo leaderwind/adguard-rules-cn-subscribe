@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Network
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202608231847
-! Last modified: 2026-08-23T18:47:42Z
+! Version: 202608231933
+! Last modified: 2026-08-23T19:33:43Z
 ! Layers: network
 ! Mode: standard
-! Rules: 47697
+! Rules: 47703
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -8335,6 +8335,12 @@ $cookie=__adblocker,domain=slate.com|thehindubusinessline.com
 ||claimfey.com/cryptonews/wp-content/uploads/bqanwcfp.js
 @@||static.trafficjunky.com/ab/ads_test.js$domain=bztube.com|hotovs.com|insuredhome.org|nudegista.com|pornluck.com|vidd.se|redtube.*|youpornru.com|tube8.com|tube8.es|tube8.fr|tube8.net|pornhub.com|pornhub.org|pornhub.net
 @@://www.exoclick.com/ads.js|
+@@||tradingref.com^$generichide
+@@||prebid.smilewanted.com^$domain=tradingref.com
+@@||googleads.g.doubleclick.net/pagead/html/zrt_lookup.html$domain=tradingref.com
+@@||adservice.google.com/adsid/integrator.js$domain=tradingref.com
+@@||static.ads-twitter.com/uwt.js$domain=tradingref.com
+@@||connect.facebook.net/en_US/fbevents.js$domain=tradingref.com
 @@||claimlite.club/static/js/noadblock.js$domain=claimlite.club
 @@||ssl.p.jwpcdn.com/player/v/8.36.2/googima.js$domain=kavero.biz
 @@||googleads.g.doubleclick.net/pagead/ads$xmlhttprequest,domain=moviesdl.cc

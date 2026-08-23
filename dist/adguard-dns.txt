@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - DNS
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202608231300
-! Last modified: 2026-08-23T13:00:38Z
+! Version: 202608231344
+! Last modified: 2026-08-23T13:44:29Z
 ! Layers: dns
 ! Mode: standard
-! Rules: 249735
+! Rules: 249752
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -200160,6 +200160,7 @@
 ||zzy1.quyaoya.com^
 ||zzycj.com^
 ||zzz.onion.pet^
+||cdvnogrvt.com^
 ||piguiqproxy.com^$badfilter
 /wp-content/plugins/gplinks-flow/assets/js/flow.js|$replace=/var shown = false;/return;/
 /^https:\/\/[0-9a-z]+\.xyz\/rinku\/land/$document,~third-party,match-case,replace=/const proxyStatus = "Y";/const proxyStatus = "N";/
@@ -200188,6 +200189,10 @@
 ||freeadultcomix.com^$badfilter
 ||imgshare.info^$badfilter
 @@||connectivitycheck.gstatic.com^$important
+||ehsaxkwmtzvlm.space^
+||jgnprdljkpexm.online^
+||jxloluxdvnmet.online^
+||ssmemwsactbto.space^
 /(https?:\/\/)104\.154\..{100,}/
 /(https?:\/\/)104\.197\..{100,}/
 /(https?:\/\/)104\.198\..{100,}/
@@ -217798,8 +217803,20 @@
 ||zysuvysaj.pro^
 ||zzux.com^
 ||sobot.com^
-||jgnprdljkpexm.online^
-||jxloluxdvnmet.online^
+||aeratorassman.cyou^
+||airwavetrouss.cfd^
+||clkfinick.cyou^
+||fluidatter.cyou^
+||gaudsfervour.qpon^
+||hvuuvjdlqdtwo.space^
+||lamaswatfiv.qpon^
+||obelisklousier.cfd^
+||remwukymdcakx.space^
+||vermeilnoughtygentian.qpon^
+||wiltingbiotics.qpon^
+||winpetard.cyou^
+||yokemeros.shop^
+||zakuskananda.cyou^
 ||mvconf.f.360.cn^
 ||mobile.pipe.aria.microsoft.com^
 ||cu-cn-north00001.gala.convection.cn^

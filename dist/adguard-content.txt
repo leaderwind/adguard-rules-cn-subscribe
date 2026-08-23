@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Content
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202608230158
-! Last modified: 2026-08-23T01:58:42Z
+! Version: 202608230314
+! Last modified: 2026-08-23T03:14:42Z
 ! Layers: content
 ! Mode: standard
-! Rules: 63561
+! Rules: 63564
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -63243,7 +63243,10 @@ cyberchef.org###workspace-wrapper > [id][style*="height"] {height: 100% !importa
 complex.com##.\[\@media\(min-width\:520px\)\]\:px-\[20px\]
 justjared.com##.banner-spacer-top {max-height: 50px !important;}
 temp-mail.io##.fixed.bottom-0.\[\@media\(max-width\:1350px\)\]\:hidden
+headlinesplus.com##.hp-ad
 complex.com##.lg\:top-\[var\(--sticky-top\)\]
+justjared.com##.tpd-ob-reserve
+justjared.com##.tpd-tcm-widget
 justjared.com##[role="banner"] {top:0 !important}
 deliveroo.*#?#a[role="button"]:has(p:has-text(Sponsored))
 deliveroo.*#?#div[class^="HomeFeedScrollTracker-"]:has(span[class^="HomeFeedUILines-"]:has-text(Sponsored))

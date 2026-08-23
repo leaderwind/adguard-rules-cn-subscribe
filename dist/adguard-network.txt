@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Network
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202608230158
-! Last modified: 2026-08-23T01:58:42Z
+! Version: 202608230314
+! Last modified: 2026-08-23T03:14:42Z
 ! Layers: network
 ! Mode: standard
-! Rules: 47695
+! Rules: 47697
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -34906,6 +34906,7 @@ template/m1938pc/ads/*.js
 ||216.21.13.$popup,domain=~in-addr.arpa
 ||35.227.234.222^$popup
 ||35.232.188.118^$popup
+||cdn.headlinesplus.com/tcm-widget.js
 ||2mdn.net/videoplayback/$rewrite=abp-resource:blank-mp4,domain=laurelberninteriors.com|safeframe.googlesyndication.com
 ||googlevideo.com/videoplayback?$rewrite=abp-resource:blank-mp4,domain=laurelberninteriors.com|safeframe.googlesyndication.com
 ||innovid.com/media/encoded/*.mp4$rewrite=abp-resource:blank-mp4,domain=ktla.com
@@ -43422,6 +43423,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||touchcommerce.com/tagserver/logging/
 ||tourradar.com/def/partner?$third-party
 ||tout.com/tracker.js
+||tpembars.com/collect
 ||tra.scds.pmdstatic.net/sourcepoint/
 ||track.atgstores.com^$third-party
 ||trackdesk.com/tracking.js

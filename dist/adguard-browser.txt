@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Browser
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202608230941
-! Last modified: 2026-08-23T09:41:16Z
+! Version: 202608231038
+! Last modified: 2026-08-23T10:38:27Z
 ! Layers: network,content,scriptlet
 ! Mode: standard
-! Rules: 116724
+! Rules: 116726
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -91598,6 +91598,7 @@ androidauthority.com##a[data-sel="db-link-el"]
 sashares.co.za##a[data-wpel-link="external"]
 klarna.com##a[href*="&clickarea=sponsored&"]
 pinterest.com##a[href*="&epik="]
+getaiperks.com##a[href*="&utm_"]
 imgpile.com,linuxjournal.com,threatpost.com##a[href*="&utm_campaign="]
 hitbullseye.com##a[href*="&utm_medium="]
 useragents.me##a[href*=".pxf.io"]
@@ -114085,6 +114086,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||mi.dickssportinggoods.com/p/js/1.js
 ||miao.baidu.com/abdr?$image
 ||microsoft.com/echo/etc.clientlibs/microsoft/clientlibs/exp-analytics/
+||micstatic.com/common/js/business/global/sensors_track.js$script,domain=made-in-china.com
 ||military1st.com/datalayer/index/events?
 ||mis.ig.com/tracking/
 ||mistral.ai/api/trpc/event.sendEventToDatalake?

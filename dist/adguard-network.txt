@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Network
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202608230941
-! Last modified: 2026-08-23T09:41:16Z
+! Version: 202608231038
+! Last modified: 2026-08-23T10:38:27Z
 ! Layers: network
 ! Mode: standard
-! Rules: 47697
+! Rules: 47698
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -45060,6 +45060,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||mi.dickssportinggoods.com/p/js/1.js
 ||miao.baidu.com/abdr?$image
 ||microsoft.com/echo/etc.clientlibs/microsoft/clientlibs/exp-analytics/
+||micstatic.com/common/js/business/global/sensors_track.js$script,domain=made-in-china.com
 ||military1st.com/datalayer/index/events?
 ||mis.ig.com/tracking/
 ||mistral.ai/api/trpc/event.sendEventToDatalake?

@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Scriptlet
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202608241744
-! Last modified: 2026-08-24T17:44:56Z
+! Version: 202608241858
+! Last modified: 2026-08-24T18:58:12Z
 ! Layers: scriptlet
 ! Mode: standard
-! Rules: 5554
+! Rules: 5556
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -4614,6 +4614,8 @@ ilive.to#%#function setOverlayHTML() {};
 ilive.to#%#function setOverlayHTML_new() {};
 ilive.to#%#setTimeout(removeOverlayHTML, 2000);
 tvtropes.org#%#//scriptlet('prevent-setTimeout', '/googletagmanager|offsetHeight|\(\);/')
+sms24.me#%#//scriptlet('remove-node-text', 'script', ').join(String.fromCharCode')
+sms24.me#%#//scriptlet('remove-attr', 'onerror', 'script[id][onerror]')
 index.hr#%#//scriptlet('set-constant', 'as_loader_version', '1')
 gamingbible.com,ladbible.com,sportbible.com,thecontentbible.com,tyla.com,unilad.com#%#//scriptlet('remove-node-text', 'script', '"nowprocket"')
 mandiner.hu#%#//scriptlet('set-constant', 'Object.prototype.htmlLoadScriptService.loadScript', 'noopFunc')

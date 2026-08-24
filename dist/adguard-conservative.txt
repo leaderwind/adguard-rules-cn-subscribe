@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Conservative
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202608240459
-! Last modified: 2026-08-24T04:59:29Z
+! Version: 202608240552
+! Last modified: 2026-08-24T05:52:07Z
 ! Layers: network,content,scriptlet
 ! Mode: conservative
-! Rules: 108721
+! Rules: 108617
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -22379,6 +22379,7 @@ $script,third-party,denyallow=ckeditor.com|fastly.net|statically.io|sharecast.ws
 ||storage.fshare.vn/images/congtruongit.com_960x128.gif
 ||jav22.net/mads/
 ||magsrv.com^$script,redirect=noopjs,domain=pornoleon.com|pornojenny.net|pornhub-sexfilme.net
+||api.leakgallery.com/r/
 ||gayxnow.com/bn/
 /static/*/froload.js?v=$script
 104.155.51.226:443$network
@@ -22976,6 +22977,7 @@ $subdocument,third-party,denyallow=disqus.com,domain=love4u.net
 $third-party,script,domain=klto9.com|f2movies.to|hacamchicac.com|yourporngod.com|zinchanmanga.com|yaoimangaonline.com|tututweak.app|mangaraw.ac|eromanga-show.com|hentai-one.com|hentaipaw.com|nukibooks.com|paipancon.com|jgvdata.com|youtubevanced.com|pandamtl.com|mangaplus.shueisha.tv|shueisharaw.tv
 ||linksconsole.com/ad-system/
 ||misc-api.feathermc.com/*/ads/ad_units?
+||api.leakgallery.com/affiliate/
 ||ngtv.io/v2/media$xmlhttprequest,removeparam=ssaiProfile,domain=adultswim.com
 ||rft.gg/images/sponsors/
 ||player.vidlove.cc/rt.js
@@ -32497,7 +32499,6 @@ _800x80_
 ||blehcourt.com^$document
 ||block-ad.com^$document
 ||blockadsnot.com^$document
-||bluodpa-a.online^$document
 ||blurbreimbursetrombone.com^$document
 ||bmmads.com^$document
 ||bngtrak.com^$document
@@ -32713,7 +32714,6 @@ _800x80_
 ||metatrckpixel.com^$document
 ||mettend-hamous.xyz^$document
 ||mgid.com^$document
-||mirfakpersei.top^$document
 ||mistysteel.co^$document
 ||mnaspm.com^$document
 ||mndlvr.com^$document
@@ -32781,7 +32781,6 @@ _800x80_
 ||pisism.com^$document
 ||playafterdark.com^$document
 ||playmmogames.com^$document
-||playonlinegames.space^$document
 ||playstretch.host^$document
 ||plinksplanet.com^$document
 ||plorexdry.com^$document
@@ -32934,7 +32933,6 @@ _800x80_
 ||trasupr.com^$document
 ||trckqq.com^$document
 ||trentbereal.com^$document
-||trkfomedia.eu^$document
 ||trknovi.com^$document
 ||trkpostback.com^$document
 ||trksmorestreacking.com^$document
@@ -33526,7 +33524,6 @@ _800x80_
 ||cryptoecom.care^$third-party
 ||cryptotrials.care^$third-party
 ||ctrhub.com^$third-party
-||ctrmanager.com^$third-party
 ||ctxtfl.com^$third-party
 ||cuelinks.com^$third-party
 ||currentlyobsessed.me^$third-party
@@ -33945,7 +33942,6 @@ _800x80_
 ||quantumads.com^$third-party
 ||quantumdex.io^$third-party
 ||questus.com^$third-party
-||qwertize.com^$third-party
 ||r2b2.cz^$third-party
 ||r2b2.io^$third-party
 ||rakutenadvertising.io^$third-party
@@ -34448,7 +34444,6 @@ _800x80_
 ||adtng.com^$popup
 ||adtrace.org^$popup
 ||adtraction.com^$popup
-||adult.xyz^$popup
 ||advancedadblocker.pro^$popup
 ||advertiserurl.com^$popup
 ||advertserve.com^$popup
@@ -34495,7 +34490,6 @@ _800x80_
 ||ahadsply.com^$popup
 ||ahbdsply.com^$popup
 ||ahscdn.com^$popup
-||aifolr.com^$popup
 ||aigeno.com^$popup
 ||aimging.com^$popup
 ||aimukreegee.net^$popup
@@ -34515,7 +34509,6 @@ _800x80_
 ||alexatracker.com^$popup
 ||algocashmaster.com^$popup
 ||alibabatraffic.com^$popup
-||alightbornbell.com^$popup
 ||alitems.co^$popup
 ||alitems.site^$popup
 ||alleviatepracticableaddicted.com^$popup
@@ -34537,18 +34530,15 @@ _800x80_
 ||ambiliarcarwin.com^$popup
 ||amelatrina.com^$popup
 ||amesgraduatel.xyz^$popup
-||anadistil.com^$popup
 ||anamuel-careslie.com^$popup
 ||angege.com^$popup
 ||aniltramps.top^$popup
 ||animeloundry.com^$popup
 ||animemeat.com^$popup
-||ankdoier.com^$popup
 ||anmdr.link^$popup
 ||annihilativefaltermillion.com^$popup
 ||annual-gamers-choice.com^$popup
 ||annulmentequitycereals.com^$popup
-||antcixn.com^$popup
 ||antiadblocksystems.com^$popup
 ||antjgr.com^$popup
 ||apapuacauthong.com^$popup
@@ -34556,7 +34546,6 @@ _800x80_
 ||applstr.com^$popup
 ||appoineditardwide.com^$popup
 ||appointeeivyspongy.com^$popup
-||apprefaculty.pro^$popup
 ||appslime.com^$popup
 ||apptjmp.com^$popup
 ||aquete.com^$popup
@@ -34568,7 +34557,6 @@ _800x80_
 ||arrogancedanderuntruth.com^$popup
 ||articlepawn.com^$popup
 ||arwobaton.com^$popup
-||asce.xyz^$popup
 ||asdasdad.net^$popup
 ||asensoithecb.com^$popup
 ||asgclickpp.com^$popup
@@ -34592,7 +34580,6 @@ _800x80_
 ||augailou.com^$popup
 ||august15download.com^$popup
 ||aungudie.com^$popup
-||ausoafab.net^$popup
 ||austeemsa.com^$popup
 ||authognu.com^$popup
 ||avlmy.com^$popup
@@ -34635,7 +34622,6 @@ _800x80_
 ||benumelan.com^$popup
 ||berapt-medii.com^$popup
 ||best-offer-for-you.com^$popup
-||best-u.vip^$popup
 ||best-vpn-app.com^$popup
 ||best4fuck.com^$popup
 ||bestadsforyou.com^$popup
@@ -34655,7 +34641,6 @@ _800x80_
 ||betpupitarr.com^$popup
 ||betshucklean.com^$popup
 ||bettentacruela.com^$popup
-||better-u.vip^$popup
 ||betteradsystem.com^$popup
 ||betterdomino.com^$popup
 ||bettraff.com^$popup
@@ -34693,7 +34678,6 @@ _800x80_
 ||blockadsnot.com^$popup
 ||blockchaintop.nl^$popup
 ||blogostock.com^$popup
-||blubberspoiled.com^$popup
 ||blueistheneworanges.com^$popup
 ||bluelinknow.com^$popup
 ||blueparrot.media^$popup
@@ -34720,7 +34704,6 @@ _800x80_
 ||bouhoagy.net^$popup
 ||bounceads.net^$popup
 ||boustahe.com^$popup
-||braidsmbalolo.top^$popup
 ||brainberries.co^$popup
 ||brandreachsys.com^$popup
 ||brationalfilarded.com^$popup
@@ -34756,13 +34739,11 @@ _800x80_
 ||bwredir.com^$popup
 ||byvngx98ssphwzkrrtsjhnbyz5zss81dxygxvlqd05.com^$popup
 ||byvue.com^$popup
-||c0me-get-s0me.net^$popup
 ||c0nect.com^$popup
 ||c3j7rk-rtbix.top^$popup
 ||c43a3cd8f99413891.com^$popup
 ||cabbagereporterpayroll.com^$popup
 ||cactusheadroomscaling.com^$popup
-||cagothie.net^$popup
 ||callyourinformer.com^$popup
 ||calvali.com^$popup
 ||camliveshow.xyz^$popup
@@ -34777,7 +34758,6 @@ _800x80_
 ||casumoaffiliates.com^$popup
 ||catchtheclick.com^$popup
 ||catsnbootsncats2020.com^$popup
-||cautommityring.com^$popup
 ||cbdedibles.site^$popup
 ||cddtsecure.com^$popup
 ||cdn4ads.com^$popup
@@ -34798,13 +34778,11 @@ _800x80_
 ||chestgoingpunch.com^$popup
 ||chetchoa.com^$popup
 ||chicks4date.com^$popup
-||chiglees.com^$popup
 ||chl7rysobc3ol6xla.com^$popup
 ||choseing.com^$popup
 ||chpadblock.com^$popup
 ||chrantary-vocking.com^$popup
 ||chrysostrck.com^$popup
-||chultoux.com^$popup
 ||cijoorsairgusa.com^$popup
 ||cjewz.com^$popup
 ||ckre.net^$popup
@@ -34867,16 +34845,12 @@ _800x80_
 ||codeonclick.com^$popup
 ||coffee2play.com^$popup
 ||coldflownews.com^$popup
-||colleem.com^$popup
 ||colonistnobilityheroic.com^$popup
 ||colossalanswer.com^$popup
-||come-get-s0me.com^$popup
-||come-get-s0me.net^$popup
 ||comfortablepossibilitycarlos.com^$popup
 ||concealmentmimic.com^$popup
 ||concedederaserskyline.com^$popup
 ||condles-temark.com^$popup
-||conestreshow.com^$popup
 ||connexity.net^$popup
 ||conqueredallrightswell.com^$popup
 ||constructpreachystopper.com^$popup
@@ -34920,8 +34894,6 @@ _800x80_
 ||cruel-love.com^$popup
 ||crummydevioussucculent.com^$popup
 ||cruzswim.org^$popup
-||cryingforanyth.com^$popup
-||cryorganichash.com^$popup
 ||cryptopuffs.io^$popup
 ||cryptowheel.net^$popup
 ||crystal-blocker.com^$popup
@@ -34937,7 +34909,6 @@ _800x80_
 ||cvastico.com^$popup
 ||cwn0drtrk.com^$popup
 ||cyan92010.com^$popup
-||cyber-guard.me^$popup
 ||cyberlink.pro^$popup
 ||cybkit.com^$popup
 ||czh5aa.xyz^$popup
@@ -34950,7 +34921,6 @@ _800x80_
 ||data-px.services^$popup
 ||datatechdrift.com^$popup
 ||datatechone.com^$popup
-||date-4-fuck.com^$popup
 ||date-till-late.us^$popup
 ||date2024.com^$popup
 ||date4sex.pro^$popup
@@ -34973,7 +34943,6 @@ _800x80_
 ||demowebcode.online^$popup
 ||dendrito.name^$popup
 ||denza.pro^$popup
-||depreciatorybollocksupkitchen.com^$popup
 ||derevya2sh8ka09.com^$popup
 ||desertsutilizetopless.com^$popup
 ||devaluequalmrelative.com^$popup
@@ -35013,15 +34982,12 @@ _800x80_
 ||doublepimp.com^$popup
 ||douglasjamestraining.com^$popup
 ||down-paradise.com^$popup
-||download-adblockgenius.com^$popup
 ||download-file.org^$popup
 ||download-performance.com^$popup
 ||downloadboutique.com^$popup
-||downloads-windows-pc.com^$popup
 ||downlon.com^$popup
 ||dpuppers.com^$popup
 ||dradvice.in^$popup
-||drctcldff.com^$popup
 ||dreamteamaffiliates.com^$popup
 ||drsmediaexchange.com^$popup
 ||dsb68d.com^$popup
@@ -35189,7 +35155,6 @@ _800x80_
 ||gadlt.nl^$popup
 ||gadssystems.com^$popup
 ||gagheroinintact.com^$popup
-||galaxyearningsfly.com^$popup
 ||galaxypush.com^$popup
 ||galotop1.com^$popup
 ||gamdom.com/?utm_source=$popup
@@ -35198,21 +35163,15 @@ _800x80_
 ||gaming-adult.com^$popup
 ||gamingadlt.com^$popup
 ||gammamkt.com^$popup
-||gamonalsmadevel.com^$popup
-||gandmotivatin.info^$popup
 ||gangwaynumberprivacy.com^$popup
 ||ganja.com^$popup,third-party
 ||gb1aff.com^$popup
-||gbengene.com^$popup
-||gdecordingholo.info^$popup
 ||gdeigri.com^$popup
 ||gdmconvtrck.com^$popup
-||geejetag.com^$popup
 ||geniusdexchange.com^$popup
 ||gensonal.com^$popup
 ||geotrkclknow.com^$popup
 ||get-gx.net^$popup
-||get-link.xyz^$popup
 ||get.stoplocker.com^$popup
 ||getdirectbonus.com^$popup
 ||getgx.net^$popup
@@ -35229,7 +35188,6 @@ _800x80_
 ||glamorous-mail.com^$popup
 ||glassmilheart.com^$popup
 ||gleagainedam.info^$popup
-||glersakr.com^$popup
 ||glimpsemankind.com^$popup
 ||gliraimsofu.net^$popup
 ||glizauvo.net^$popup
@@ -35240,13 +35198,11 @@ _800x80_
 ||gloogruk.com^$popup
 ||glowingnews.com^$popup
 ||glsfreeads.com^$popup
-||glugherg.net^$popup
 ||gml-grp.com^$popup
 ||gmxvmvptfm.com^$popup
 ||go-srv.com^$popup
 ||go-to-website.com^$popup
 ||go.aff.betplays.com^$popup
-||go.betobet.net^$popup
 ||go.playlg.com^$popup
 ||go.roobet.com^$popup
 ||go2affise.com^$popup
@@ -35269,7 +35225,6 @@ _800x80_
 ||goosebomb.com^$popup
 ||gophykopta.com^$popup
 ||gositego.live^$popup
-||got-to-be.com^$popup
 ||gotibetho.pro^$popup
 ||gotohouse1.club^$popup
 ||gotoplaymillion.com^$popup
@@ -35288,11 +35243,9 @@ _800x80_
 ||grtya.com^$popup
 ||grtyj.com^$popup
 ||grunoaph.net^$popup
-||grupif.com^$popup
 ||gtbdhr.com^$popup
 ||guesswhatnews.com^$popup
 ||gvcaffiliates.com^$popup
-||h0w-t0-watch.net^$popup
 ||h74v6kerf.com^$popup
 ||hai8g.com^$popup
 ||hauchiwu.com^$popup
@@ -35319,7 +35272,6 @@ _800x80_
 ||hicpm10.com^$popup
 ||hiend.xyz^$popup
 ||highcpmgate.com^$popup
-||highercldfrev.com^$popup
 ||highmaidfhr.com^$popup
 ||highperformancecpm.com^$popup
 ||highperformancecpmgate.com^$popup
@@ -35342,10 +35294,8 @@ _800x80_
 ||hisurnhuh.com^$popup
 ||hitcpm.com^$popup
 ||hnrgmc.com^$popup
-||hoa44trk.com^$popup
 ||hoadaphagoar.net^$popup
 ||hoctor-pharity.xyz^$popup
-||hoglinsu.com^$popup
 ||hoktrips.com^$popup
 ||holahupa.com^$popup
 ||hollysocialspuse.com^$popup
@@ -35373,7 +35323,6 @@ _800x80_
 ||huluads.info^$popup
 ||hungryrise.com^$popup
 ||hurlmedia.design^$popup
-||hxmanga.com^$popup
 ||hyenadata.com^$popup
 ||ibeeckaidse.net^$popup
 ||icodstatus.shop^$popup
@@ -35382,7 +35331,6 @@ _800x80_
 ||ifdnzact.com^$popup
 ||ifigent.com^$popup
 ||ignals.com^$popup
-||ikengoti.com^$popup
 ||ilaterdeallyig.info^$popup
 ||imaxcash.com^$popup
 ||imghst-de.com^$popup
@@ -35403,7 +35351,6 @@ _800x80_
 ||install-check.com^$popup
 ||installupdate.online^$popup
 ||instancesflushedslander.com^$popup
-||instant-adblock.xyz^$popup
 ||instantpaydaynetwork.com^$popup
 ||intab.fun^$popup
 ||intellipopup.com^$popup
@@ -35432,7 +35379,6 @@ _800x80_
 ||itskiddien.club^$popup
 ||itstuffnews.com^$popup
 ||ittontrinevengre.info^$popup
-||ittorchicer.com^$popup
 ||iwanttodeliver.com^$popup
 ||iwantusingle.com^$popup
 ||iyfnz.com^$popup
@@ -35441,7 +35387,6 @@ _800x80_
 ||ja2n2u30a6rgyd.com^$popup
 ||jaavnacsdw.com^$popup
 ||jads.co^$popup
-||jambosmodesty.com^$popup
 ||jashautchord.com^$popup
 ||java8.xyz^$popup
 ||jegiopad.top^$popup
@@ -35453,7 +35398,6 @@ _800x80_
 ||joinpropeller.com^$popup
 ||joohugreene.net^$popup
 ||joudauhee.com^$popup
-||jpgtrk.com^$popup
 ||jrpkizae.com^$popup
 ||js-check.com^$popup
 ||jsmentry.com^$popup
@@ -35505,7 +35449,6 @@ _800x80_
 ||land.pixelsee.app^$popup
 ||landerhq.com^$popup
 ||lanesusanne.com^$popup
-||lassampy.com^$popup
 ||lavatorydownybasket.com^$popup
 ||lavender64369.com^$popup
 ||lby2kd27c.com^$popup
@@ -35513,7 +35456,6 @@ _800x80_
 ||leapretrieval.com^$popup
 ||lechosabode.shop^$popup
 ||leesaushoah.net^$popup
-||lementwrencespri.info^$popup
 ||lenkmio.com^$popup
 ||leonbetvouum.com^$popup
 ||leoyard.com^$popup
@@ -35561,8 +35503,6 @@ _800x80_
 ||loosebelt.com^$popup
 ||losingoldfry.com^$popup
 ||loverevenue.com^$popup
-||lowrihouston.pro^$popup
-||lowseedotr.com^$popup
 ||lp247p.com^$popup
 ||lplimjxiyx.com^$popup
 ||lpmediastorage.com^$popup
@@ -35640,7 +35580,6 @@ _800x80_
 ||mesqwrte.net^$popup
 ||messagereceiver.com^$popup
 ||messenger-notify.xyz^$popup
-||metabatted.com^$popup
 ||metatrckpixel.com^$popup
 ||metrica-yandex.com^$popup
 ||mghkpg.com^$popup
@@ -35649,7 +35588,6 @@ _800x80_
 ||millustry.top^$popup
 ||mimosaavior.top
 ||mimosaavior.top^$popup
-||mirfakpersei.top^$popup
 ||miserly-phone.com^$popup
 ||misspkl.com^$popup
 ||mistysteel.co^$popup
@@ -35686,7 +35624,6 @@ _800x80_
 ||movingfwd.co^$popup
 ||mplayeranyd.info^$popup
 ||mqdownload.com^$popup
-||mrdzuibek.com^$popup
 ||mtypitea.net^$popup
 ||muvflix.com^$popup
 ||mvmbs.com^$popup
@@ -35714,7 +35651,6 @@ _800x80_
 ||nanoadexchange.com^$popup
 ||nasosettoourm.com^$popup
 ||nasssmedia.com^$popup
-||nathanaeldan.pro^$popup
 ||natregs.com^$popup
 ||navigatingnautical.xyz^$popup
 ||naxadrug.com^$popup
@@ -35742,7 +35678,6 @@ _800x80_
 ||newstemptation.com^$popup
 ||newsyour.net^$popup
 ||newtab-media.com^$popup
-||next-lust.cfd^$popup
 ||nextoptim.com^$popup
 ||nextyourcontent.com^$popup
 ||ngfruitiesmatc.info^$popup
@@ -35756,7 +35691,6 @@ _800x80_
 ||noavoahevugrib.com^$popup
 ||nomadsbrand.com^$popup
 ||nomadsfit.com^$popup
-||nonculifus.com^$popup
 ||noohapou.com^$popup
 ||noolt.com^$popup
 ||north-verification.com^$popup
@@ -35858,7 +35792,6 @@ _800x80_
 ||opparasecton.com^$popup
 ||opportunitysearch.net^$popup
 ||opptmzpops.com^$popup
-||opskln.com^$popup
 ||optimizesrv.com^$popup
 ||optnx.com^$popup
 ||optvz.com^$popup
@@ -35871,7 +35804,6 @@ _800x80_
 ||orlowedonhisdhilt.info^$popup
 ||osarmapa.net^$popup
 ||osfultrbriolenai.info^$popup
-||ossmightyenar.net^$popup
 ||ossshucklean.com^$popup
 ||ostlon.com^$popup
 ||otnolatrnup.com^$popup
@@ -35916,7 +35848,6 @@ _800x80_
 ||pclk.name^$popup
 ||pcmclks.com^$popup
 ||pctsrv.com^$popup
-||pecialukizeias.info^$popup
 ||peethach.com^$popup
 ||peezette-intial.com^$popup
 ||pejzeexukxo.com^$popup
@@ -35951,7 +35882,6 @@ _800x80_
 ||playafterdark.com^$popup
 ||playamopartners.com^$popup
 ||playerswhisper.com^$popup
-||playonlinegames.space^$popup
 ||playrainbet.com^$popup
 ||playstretch.host^$popup
 ||playvideoclub.com^$popup
@@ -35985,7 +35915,6 @@ _800x80_
 ||pornhb.me^$popup
 ||postaffiliatepro.com^$popup,third-party
 ||postback1win.com^$popup
-||postlnk.com^$popup
 ||potawe.com^$popup
 ||potsaglu.net^$popup
 ||potskolu.net^$popup
@@ -36009,7 +35938,6 @@ _800x80_
 ||pretrackings.com^$popup
 ||prfwhite.com^$popup
 ||prime-vpnet.com^$popup
-||prizefrenzy.top^$popup
 ||prmtracking.com^$popup
 ||pro-adblocker.com^$popup
 ||proceedflow.com^$popup
@@ -36042,23 +35970,19 @@ _800x80_
 ||psaussasta.net^$popup
 ||psauwaun.com^$popup
 ||psegeevalrat.net^$popup
-||psilaurgi.net^$popup
 ||psma02.com^$popup
 ||psoabojaksou.net^$popup
 ||psockapa.net^$popup
 ||pssy.xyz^$popup
-||ptaupsom.com^$popup
 ||pteemsolrirgegi.com^$popup
 ||ptistyvymi.com^$popup
 ||ptoakrok.net^$popup
 ||ptongouh.net^$popup
 ||pttraffic.online^$popup
-||ptugnins.net^$popup
 ||ptwmcd.com^$popup
 ||ptwmjmp.com^$popup
 ||ptyalinbrattie.com^$popup
 ||pubdirecte.com^$popup
-||publisherads.click^$popup
 ||pubtrky.com^$popup
 ||puldhukelpmet.com^$popup
 ||pulseonclick.com^$popup
@@ -36081,10 +36005,8 @@ _800x80_
 ||q8ntfhfngm.com^$popup
 ||qertewrt.com^$popup
 ||qnp16tstw.com^$popup
-||qr-captcha.com^$popup
 ||qualiclicks.com^$popup
 ||qualitydating.top^$popup
-||quickwittedfeedback.pro^$popup
 ||quilladot.org^$popup
 ||quixoticzest.com^$popup
 ||qwikln.com^$popup
@@ -36097,7 +36019,6 @@ _800x80_
 ||raosmeac.net^$popup
 ||rapidhits.net^$popup
 ||rapolok.com^$popup
-||raunooligais.net^$popup
 ||rbtfit.com^$popup
 ||rbxtrk.com^$popup
 ||rcdn-web.com^$popup
@@ -36134,7 +36055,6 @@ _800x80_
 ||refpasrasw.world^$popup
 ||refundsreisner.life^$popup
 ||rehvbghwe.cc^$popup
-||rekipion.com^$popup
 ||rel-s.com^$popup
 ||relationshipcourseably.com^$popup
 ||reliablemore.com^$popup
@@ -36142,19 +36062,15 @@ _800x80_
 ||reminews.com^$popup
 ||remv43-rtbix.top^$popup
 ||rencessedessations.com^$popup
-||rentingimmoderatereflecting.com^$popup
 ||reopenshelly.cfd^$popup
-||reroplittrewheck.pro^$popup
 ||resentreaccotia.com^$popup
 ||resterent.com^$popup
 ||restorationbowelsunflower.com^$popup
 ||retgspondingco.com^$popup
-||retrosowenian.shop^$popup
 ||revenuenetwork.com^$popup
 ||revimedia.com^$popup
 ||revmasters.com^$popup,third-party
 ||rewardtk.com^$popup
-||rewqpqa.net^$popup
 ||rexsrv.com^$popup
 ||rhinoaffiliates.com^$popup
 ||rhudsplm.com^$popup
@@ -36175,7 +36091,6 @@ _800x80_
 ||rocoads.com^$popup
 ||rolltrk4.com^$popup
 ||rolltrk9.com^$popup
-||romil-jdd.com^$popup
 ||roobetaffiliates.com^$popup
 ||roots.baby^$popup
 ||rootzaffiliates.com^$popup
@@ -36187,7 +36102,6 @@ _800x80_
 ||rovno.xyz^$popup
 ||royalcactus.com^$popup
 ||rozamimo9za10.com^$popup
-||rsaltsjt.com^$popup
 ||rsppartners.com^$popup
 ||rtbbhub.com^$popup
 ||rtbbpowaq.com^$popup
@@ -36201,14 +36115,12 @@ _800x80_
 ||rudderwebmy.com^$popup
 ||runtnc.net^$popup
 ||rvetreyu.net^$popup
-||rvrpushserv.com^$popup
 ||s.id^$popup
 ||s0cool.net^$popup
 ||s20dh7e9dh.com^$popup
 ||s3g6.com^$popup
 ||safe-connection21.com^$popup
 ||samage-bility.icu^$popup
-||sarcasmadvisor.com^$popup
 ||sasontnwc.net^$popup
 ||savinist.com^$popup
 ||scaredframe.com^$popup
@@ -36256,7 +36168,6 @@ _800x80_
 ||showcasead.com^$popup
 ||shuanshu.com.com^$popup
 ||shuffle.com/*&clickID=$popup
-||shulugoo.net^$popup
 ||signamentswithd.com^$popup
 ||simple-isl.com^$popup
 ||singledatetime.com^$popup
@@ -36292,7 +36203,6 @@ _800x80_
 ||sobakenchmaphk.com^$popup
 ||sodefender.pro^$popup
 ||sofinpushpile.com^$popup
-||softonixs.xyz^$popup
 ||solaranalytics.org^$popup
 ||soldierreproduceadmiration.com^$popup
 ||solispartner.com^$popup
@@ -36325,7 +36235,6 @@ _800x80_
 ||spygenix.xyz^$popup
 ||sr7pv7n5x.com^$popup
 ||srtrak.com^$popup
-||srv2trking.com^$popup
 ||srvpcn.com^$popup
 ||srvqck27.com^$popup
 ||srvqck3.com^$popup
@@ -36362,7 +36271,6 @@ _800x80_
 ||stuffedbeforehand.com^$popup
 ||stvbiopr.net^$popup
 ||stvkr.com^$popup
-||stvwell.online^$popup
 ||sudukrirga.net^$popup
 ||sunflowerbright106.io^$popup
 ||superadexchange.com^$popup
@@ -36372,7 +36280,6 @@ _800x80_
 ||supremeadblocker.com^$popup
 ||suptraf.com^$popup
 ||surge.systems^$popup
-||surrogateausteritywhence.com^$popup
 ||surveyspaid.com^$popup
 ||swinity.com^$popup
 ||sxlflt.com^$popup
@@ -36387,8 +36294,6 @@ _800x80_
 ||taginova.xyz^$popup
 ||tagsd.com^$popup
 ||takecareproduct.com^$popup
-||takelnk.com^$popup
-||takeyouforward.co^$popup
 ||tapdb.net^$popup
 ||targeta41.net^$popup
 ||targetmatch.co^$popup
@@ -36409,7 +36314,6 @@ _800x80_
 ||tenlets.com^$popup
 ||terbit2.com^$popup
 ||terpenwordman.top^$popup
-||tfaln.com^$popup
 ||thairoob.com^$popup
 ||thanosofcos5.com^$popup
 ||thaudray.com^$popup
@@ -36443,7 +36347,6 @@ _800x80_
 ||tmtrck.com^$popup
 ||tnctrx.com^$popup
 ||tnkexchange.com^$popup
-||toequiet.website^$popup
 ||toiletpaper.life^$popup
 ||tomatoqqamber.click^$popup
 ||tomladvert.com^$popup
@@ -36569,7 +36472,6 @@ _800x80_
 ||txzaazmdhtw.com^$popup
 ||tychon.bid^$popup
 ||typical-hub.com^$popup
-||tyqwjh23d.com^$popup
 ||tyrotation.com^$popup
 ||tyserving.com^$popup
 ||tzaqkp.com^$popup
@@ -36583,7 +36485,6 @@ _800x80_
 ||uitopadxdy.com^$popup
 ||ukoffzeh.com^$popup
 ||ultimate-captcha.com^$popup
-||ultracdn.top^$popup
 ||ultrapartners.com^$popup
 ||unblockedapi.com^$popup
 ||uncernedasesiumw.org^$popup
@@ -36635,16 +36536,13 @@ _800x80_
 ||viatepigan.com^$popup
 ||victoryslam.com^$popup
 ||videocampaign.co^$popup
-||viewlnk.com^$popup
 ||vigorouslymicrophone.com^$popup
 ||viiadaof.com^$popup
 ||viiczfvm.com^$popup
 ||viidsyej.com^$popup
 ||viijxyqp.com^$popup
-||viikuhhs.com^$popup
 ||viiyxefb.com^$popup
 ||vilytaku.com^$popup
-||vinstigo.com^$popup
 ||viralnewsbd.xyz^$popup
 ||virelon.com^$popup
 ||visit-website.com^$popup
@@ -36661,7 +36559,6 @@ _800x80_
 ||voluumtrk3.com^$popup
 ||voruftuiov.com^$popup
 ||vpn-offers.org^$popup
-||vpnoffers.cc^$popup
 ||vprtrfc.com^$popup
 ||vq4b0q.fun^$popup
 ||vs3.com^$popup
@@ -36687,7 +36584,6 @@ _800x80_
 ||we-offer.com^$popup
 ||weaveradrenaline.com^$popup
 ||web-adblocker.com^$popup
-||web-guardian.xyz^$popup
 ||webatam.com^$popup
 ||webgains.com^$popup
 ||webmedrtb.com^$popup
@@ -36701,14 +36597,12 @@ _800x80_
 ||westcoa.com^$popup
 ||wetrackgames.com^$popup
 ||wewearegogogo.com^$popup
-||wfredir.net^$popup
 ||wg-aff.com^$popup
 ||wgpartner.com^$popup
 ||whairtoa.com^$popup
 ||whatisuptodaynow.com^$popup
 ||wheceelt.net^$popup
 ||wheebsadree.com^$popup
-||whensewing.com^$popup
 ||wherevertogo.com^$popup
 ||whirlwindofnews.com^$popup
 ||whitenoisenews.com^$popup
@@ -36785,7 +36679,6 @@ _800x80_
 ||zeroredirect1.com^$popup
 ||zetaframes.com^$popup
 ||zikroarg.com^$popup
-||zirdough.net^$popup
 ||zlink1.com^$popup
 ||zlink2.com^$popup
 ||zlink6.com^$popup
@@ -50025,6 +49918,9 @@ animecorner.me,zarabiajprzez24.pl,watchhentai.xxx,app-how-to-use-it.com,linuxcap
 pawastreams.*,nflbite.to,footybite.to,sportschamp.fun,afly.pro,topsporter.net,soccerstreams.football,mysocceraustralia.com,rayinfosports.com,hesgoals.top,sequencecard.xyz,totalsportek.soccer,metaporky.site,nbabite.to,cyfostreams.com,gamerarcades.com,bestreamsports.org,footy.to,mcrypto.club,greaterkashmir.com###id-custom_banner
 pawastreams.*,groundedtechs.com,rayinfosports.com,sequencecard.xyz,matchtime.co,sportspellz.com,bestreamsports.org,silverspoon.site###dismiss-btn
 vi-control.net,nullforums.net,landyzone.co.uk,nullcave.pro,woxmax.com,waskucity.com,babia.to,technofino.in,reef2reef.com,minebbs.com,craxpro.io,affiliatefix.com,myiptvforum.com,hifivision.com,worldofiptv.com,altenen.is,beermoneyforum.com,germancarforum.com,cracking.org##.samBannerUnit
+leakgallery.com##.affiliate-grid
+leakgallery.com##.partners-title
+leakgallery.com##a[rel="sponsored nofollow noopener"]
 tradingref.com##div.sidebar:has(> div.ad-unit)
 tradingref.com##div[style^="display: flex; justify-content: center;"]:has(> div[data-rtb-tag-id])
 tradingref.com##div[style^="display: flex; justify-content: center;"]:has(> div[id^="div-gpt-ad"])

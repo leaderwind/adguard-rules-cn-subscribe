@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Pending Review (Not AI-reviewed)
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202608240459
-! Last modified: 2026-08-24T04:59:29Z
+! Version: 202608240552
+! Last modified: 2026-08-24T05:52:07Z
 ! Layers: dns
 ! Mode: standard
-! Rules: 244493
+! Rules: 244513
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -170657,6 +170657,7 @@
 ||hbnygj.com^
 ||https-filtering-check.adtidy.org^
 ||unpkg.com^$badfilter
+||5knltyfcfy.com^
 /pa.dajiahao*.top/
 /^.+stat\.kugou\.com/
 /^admarvel\./
@@ -200359,7 +200360,6 @@
 ||zzy1.quyaoya.com^
 ||zzycj.com^
 ||zzz.onion.pet^
-||5knltyfcfy.com^
 ||a.pur.agency^
 ||piguiqproxy.com^$badfilter
 /wp-content/plugins/gplinks-flow/assets/js/flow.js|$replace=/var shown = false;/return;/
@@ -200389,6 +200389,13 @@
 ||freeadultcomix.com^$badfilter
 ||imgshare.info^$badfilter
 @@||connectivitycheck.gstatic.com^$important
+||iarerraqzv.com^
+||inexperiencedfloor.pro^
+||muraenagayety.qpon^
+||rqahnvtzojeas.site^
+||twinepaliliafils.cfd^
+||zhyhadnrqzpcd.site^
+||zxszquilqhwci.site^
 /(https?:\/\/)104\.154\..{100,}/
 /(https?:\/\/)104\.197\..{100,}/
 /(https?:\/\/)104\.198\..{100,}/
@@ -217998,9 +218005,22 @@
 ||zysuvysaj.pro^
 ||zzux.com^
 ||sobot.com^
-||rqahnvtzojeas.site^
-||twinepaliliafils.cfd^
-||zhyhadnrqzpcd.site^
+||concedesamshoo.qpon^
+||eniacveskitmangoes.cyou^
+||erosenowder.cfd^
+||fundalragbags.cyou^
+||moocherouch.shop^
+||navaidseams.cfd^
+||neuroneabel.cyou^
+||nikfkzdckuklb.site^
+||porettstaged.cfd^
+||seralbeleap.qpon^
+||spaviesbalanta.qpon^
+||tainnoix.shop^
+||velureskythed.shop^
+||wagedomschlep.qpon^
+||xzgkarpqxpybo.site^
+||zomueulqbfpre.space^
 ||bcdn-16c9d93d.bankofscotland.co.uk^
 ||check2.bankofscotland.co.uk^
 ||mvconf.f.360.cn^

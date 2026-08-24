@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Network
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202608240156
-! Last modified: 2026-08-24T01:56:51Z
+! Version: 202608240315
+! Last modified: 2026-08-24T03:15:41Z
 ! Layers: network
 ! Mode: standard
-! Rules: 47705
+! Rules: 47696
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -27070,6 +27070,7 @@ _800x80_
 ||loopaautomate.com^$third-party
 ||love-banner.com^$third-party
 ||lustre.ai^$script,third-party
+||lwadm.com^$third-party
 ||magetic.com^$third-party
 ||magnetisemedia.com^$third-party
 ||mahimeta.com^$third-party
@@ -30316,7 +30317,6 @@ _800x80_
 ||fncnet1.com^$third-party
 ||freakads.com^$third-party
 ||freeadultcomix.com^$third-party
-||freewebfonts.org^$third-party
 ||frestacero.com^$third-party
 ||frivol-ads.com^$third-party
 ||frtyh.com^$third-party
@@ -30466,7 +30466,6 @@ _800x80_
 ||promowebstar.com^$third-party
 ||propbn.com^$third-party
 ||protect-x.com^$third-party
-||protizer.ru^$third-party
 ||prscripts.com^$third-party
 ||psma01.com^$third-party
 ||psma03.com^$third-party
@@ -30476,7 +30475,6 @@ _800x80_
 ||pussyeatingclub.com^$third-party
 ||quantumws.net^$third-party
 ||qwerty24.net^$third-party
-||rack-media.com^$third-party
 ||ragazzeinvendita.com^$third-party
 ||rareru.ru^$third-party
 ||rdiul.com^$third-party
@@ -30544,7 +30542,6 @@ _800x80_
 ||topsexcams.club^$third-party
 ||tossoffads.com^$third-party
 ||traffbiz.ru^$third-party
-||traffic.ru^$third-party
 ||trafficholder.com^$third-party
 ||trafficmagnates.com^$third-party
 ||trafficman.io^$third-party
@@ -30552,7 +30549,6 @@ _800x80_
 ||trafficstars.com^$third-party
 ||trafficundercontrol.com^$third-party
 ||trfpump.com^$third-party
-||trickyseduction.com^$third-party
 ||trunblock.com^$third-party
 ||trw12.com^$third-party
 ||tubeadnetwork.com^$third-party
@@ -30568,7 +30564,6 @@ _800x80_
 ||virtuagirlhd.com^$third-party
 ||vividcash.com^$third-party
 ||vlexokrako.com^$third-party
-||vlogexpert.com^$third-party
 ||vod-cash.com^$third-party
 ||vogozae.ru^$third-party
 ||voyeurhit.com^$third-party
@@ -30595,7 +30590,6 @@ _800x80_
 ||adextrem.com^$popup
 ||banners.cams.com^$popup
 ||c4tracking01.com^$popup
-||chokertraffic.com^$popup
 ||cityofsin3d.com^$popup
 ||ckrf1.com^$popup
 ||cooch.tv^$popup,third-party
@@ -30619,9 +30613,7 @@ _800x80_
 ||friendfinder.com^$popup
 ||frtyi.com^$popup
 ||funkydaters.com^$popup
-||get-partner.life^$popup
 ||girls.xyz^$popup
-||global-trk.com^$popup
 ||go.nsfwlivechat.com^$popup
 ||grtyv.com^$popup
 ||hkl4h1trk.com^$popup
@@ -30634,7 +30626,6 @@ _800x80_
 ||mptentry.com^$popup
 ||needlive.com^$popup
 ||notimoti.com^$popup
-||nyetm2mkch.com^$popup
 ||otieu.com^$popup
 ||passtechusa.com^$popup
 ||playgirl.com^$popup
@@ -30643,7 +30634,6 @@ _800x80_
 ||quadrinhoseroticos.net^$popup
 ||rdvinfidele.club^$popup
 ||reporo.net^$popup
-||restions-planted.com^$popup
 ||reviewdollars.com^$popup
 ||setravieso.com^$popup
 ||sexad.net^$popup
@@ -30740,6 +30730,7 @@ _800x80_
 ||cdn-academy.akamaized.net/letras/ads/
 ||cdn.b2.ai^$third-party
 ||cdn.headlinesplus.com/tcm-widget.js
+||cdn.jsdelivr.net/npm/@get-advantage/advantage$script
 ||cdn.makemula.ai/js/mula.js
 ||cdn.neighbourly.co.nz/widget/$subdocument
 ||cdn.statically.io/gh/ad-shield/
@@ -34903,7 +34894,6 @@ template/m1938pc/ads/*.js
 ://ads.$popup,domain=~ad.olx.pl|~ads.mercadolibre.com.ar|~ads.mercadolibre.com.cl|~ads.mercadolibre.com.co|~ads.mercadolibre.com.ec|~ads.mercadolibre.com.mx|~ads.mercadolibre.com.pe|~ads.mercadolibre.com.ve|~ads.mercadolivre.com.br|~ads.openai.com|~ads.pandauth.com|~ads.umd.edu|~axon.ai|~kakaku.com|~reddit.com|~smartnews.com
 ://adv.$popup,domain=~adv.kompas.id|~adv.lack-girl.com
 ||lockerdome.com^$third-party
-||lwadm.com^$third-party
 ||35.227.234.222^
 ||35.232.188.118^
 ||betvictor.com*&utm_campaign=$popup
@@ -34912,7 +34902,6 @@ template/m1938pc/ads/*.js
 ||216.21.13.$popup,domain=~in-addr.arpa
 ||35.227.234.222^$popup
 ||35.232.188.118^$popup
-||cdn.jsdelivr.net/npm/@get-advantage/advantage$script
 ||2mdn.net/videoplayback/$rewrite=abp-resource:blank-mp4,domain=laurelberninteriors.com|safeframe.googlesyndication.com
 ||googlevideo.com/videoplayback?$rewrite=abp-resource:blank-mp4,domain=laurelberninteriors.com|safeframe.googlesyndication.com
 ||innovid.com/media/encoded/*.mp4$rewrite=abp-resource:blank-mp4,domain=ktla.com
@@ -37768,6 +37757,7 @@ template/m1938pc/ads/*.js
 /ws-tracking.js
 /wstat.pl
 /wstats.php?
+/wt-connect-pixel/carts/init?
 /wt_capi.js
 /wtbase.js
 /wtd.gif?
@@ -40256,6 +40246,7 @@ omni.soundestlink.com$image
 ||shoplytics.com^$third-party
 ||shoptimally.com^$third-party
 ||showheroes.com^$third-party
+||shrinetheme.com^$third-party
 ||sift.com^$third-party
 ||siftscience.com^$third-party
 ||signalfx.com^$third-party

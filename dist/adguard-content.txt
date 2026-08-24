@@ -1,8 +1,8 @@
 ! Title: AdGuard Rules CN - Content
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202608241402
-! Last modified: 2026-08-24T14:02:56Z
+! Version: 202608241457
+! Last modified: 2026-08-24T14:57:58Z
 ! Layers: content
 ! Mode: standard
 ! Rules: 63580
@@ -51240,6 +51240,7 @@ fitbook-magazine.com,myhomebook-magazine.com,petbook-magazine.com,techbook-magaz
 gumtree.com###bing-text-ad-1
 gumtree.com###bing-text-ad-2
 gumtree.com###bing-text-ad-3
+f95zone.to###bisnre09
 afro.com###block-10
 hawaiisbesttravel.com###block-103
 raspberrytips.com###block-11
@@ -58639,6 +58640,10 @@ motortrend.com##.min-h-\[120px\]
 opensubtitles.org##.msg > div > fieldset:has(> [style="text-align:center;"])
 manomano.*##.mt-s.block:has([data-testid="sprbrd-logo-link"])
 tvguide.co.uk##.mx-auto:has(> [id^="ad-content"])
+f95zone.to##.node--link:has([href^="/explore/"])
+f95zone.to##.node--link:has([href^="/link-forums/build-your-dream-fucktoy"])
+f95zone.to##.node--link:has([href^="/link-forums/camsoda-ai"])
+f95zone.to##.node--link:has([href^="/link-forums/more-than-just-a-flirt"])
 boots.com##.oct-listers-hits__item:has(.oct-teaser__listerCriteoAds)
 officedepot.com##.od-col:has(.od-product-card-region-colors-sponsored)
 justwatch.com##.offer-container:has(.offer__footnote)
@@ -63253,7 +63258,6 @@ dandanzan.*,nnyy.in,nunuyy5.com##video:style(max-height:100%!important)
 yatu.tv##.dplayer-web-fullscreen-fix #tburl,#loadtop,[id^=myas],#myds1,#daohang
 ##.ad-unit
 ##[class^="div-gpt-ad"]
-f95zone.to###bisnre09
 cyberchef.org###workspace-wrapper > [id][style*="height"] {height: 100% !important}
 complex.com##.\[\@media\(min-width\:520px\)\]\:px-\[20px\]
 justjared.com##.banner-spacer-top {max-height: 50px !important;}
@@ -63262,10 +63266,6 @@ complex.com##.lg\:top-\[var\(--sticky-top\)\]
 justjared.com##[role="banner"] {top:0 !important}
 deliveroo.*#?#a[role="button"]:has(p:has-text(Sponsored))
 deliveroo.*#?#div[class^="HomeFeedScrollTracker-"]:has(span[class^="HomeFeedUILines-"]:has-text(Sponsored))
-f95zone.to##.node--link:has([href^="/explore/"])
-f95zone.to##.node--link:has([href^="/link-forums/build-your-dream-fucktoy"])
-f95zone.to##.node--link:has([href^="/link-forums/camsoda-ai"])
-f95zone.to##.node--link:has([href^="/link-forums/more-than-just-a-flirt"])
 advocate.com,out.com,pride.com#?#.component.module-headline:has-text(FROM OUR SPONSORS)
 character.ai#?#.space-y-4 > .w-full:has-text(Advertisement)
 cjleo.com#?#.alt-widget-title:has-text(advertisement)

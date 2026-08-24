@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Network
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202608241311
-! Last modified: 2026-08-24T13:11:26Z
+! Version: 202608241402
+! Last modified: 2026-08-24T14:02:56Z
 ! Layers: network
 ! Mode: standard
-! Rules: 47605
+! Rules: 47609
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -20447,6 +20447,9 @@ $csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: www.googletagma
 @@||beinconnect.com.tr^$stealth
 @@||account.adobe.com^$document,domain=services.adobe.com,stealth=useragent
 @@||adguard.com^$stealth
+@@||qa.nicovideo.jp^$stealth=dpi
+@@||fhlsport*.*.json?_ver=*&_ctump=$third-party,xmlhttprequest,stealth=referrer
+@@||streamas*.*.json?_ver=*&_ctump=$third-party,xmlhttprequest,stealth=referrer
 @@||twitchcdn.net^$stealth=useragent
 @@||gold.cdx-*.website/embed/$stealth=referrer,domain=foxtrend.gd
 @@||volder.timst.cfd/*.m3u8$stealth=referrer
@@ -24985,6 +24988,7 @@ cdn.braun634.com^$third-party
 /publicidade.$~xmlhttprequest
 /publicidade/*$~xmlhttprequest
 /publicidades/*$~xmlhttprequest
+/publishers/softonic.js?
 /push/p.js?$third-party
 /rad_singlepageapp.js$script
 /rb/agent2.php?spot=

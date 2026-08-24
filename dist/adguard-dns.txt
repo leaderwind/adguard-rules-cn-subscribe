@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - DNS
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202608241311
-! Last modified: 2026-08-24T13:11:26Z
+! Version: 202608241402
+! Last modified: 2026-08-24T14:02:56Z
 ! Layers: dns
 ! Mode: standard
-! Rules: 243596
+! Rules: 243613
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -169708,6 +169708,8 @@
 ||hbnygj.com^
 ||https-filtering-check.adtidy.org^
 ||unpkg.com^$badfilter
+||opg4g472vl.com^
+||fileh.xyz^
 /pa.dajiahao*.top/
 /^.+stat\.kugou\.com/
 /^admarvel\./
@@ -199447,8 +199449,8 @@
 ||zzy1.quyaoya.com^
 ||zzycj.com^
 ||zzz.onion.pet^
-||opg4g472vl.com^
-||fileh.xyz^
+||rectangular10.com^
+||uxb030ku4s.com^
 ||piguiqproxy.com^$badfilter
 /wp-content/plugins/gplinks-flow/assets/js/flow.js|$replace=/var shown = false;/return;/
 /^https:\/\/[0-9a-z]+\.xyz\/rinku\/land/$document,~third-party,match-case,replace=/const proxyStatus = "Y";/const proxyStatus = "N";/
@@ -199477,6 +199479,15 @@
 ||freeadultcomix.com^$badfilter
 ||imgshare.info^$badfilter
 @@||connectivitycheck.gstatic.com^$important
+||actifyctrltorn.cyou^
+||castsrandom.shop^
+||cgarrcofpmpxp.site^
+||egaqgnwwapaqi.site^
+||guttateelance.qpon^
+||lhhbgjyimoxkh.space^
+||qwgghbdehc.com^
+||suburban-deposit.pro^
+||wtbhopinrcyex.site^
 /(https?:\/\/)104\.154\..{100,}/
 /(https?:\/\/)104\.197\..{100,}/
 /(https?:\/\/)104\.198\..{100,}/
@@ -217070,10 +217081,16 @@
 ||zyxbltkkgkmon.site^
 ||zzux.com^
 ||sobot.com^
-||egaqgnwwapaqi.site^
-||lhhbgjyimoxkh.space^
-||qwgghbdehc.com^
-||wtbhopinrcyex.site^
+||casavaangakok.cyou^
+||compedoarlike.cyou^
+||echimysneorama.cyou^
+||hasinaimallets.cfd^
+||pinnategourd.cyou^
+||rehoodthy.cfd^
+||reusesocuby.cfd^
+||spleenaits.qpon^
+||terrhonkie.cfd^
+||truncallobi.shop^
 ||mvconf.f.360.cn^
 ||mobile.pipe.aria.microsoft.com^
 ||cu-cn-north00001.gala.convection.cn^

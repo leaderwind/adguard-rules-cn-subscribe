@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Network
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202608240902
-! Last modified: 2026-08-24T09:02:56Z
+! Version: 202608241001
+! Last modified: 2026-08-24T10:01:55Z
 ! Layers: network
 ! Mode: standard
-! Rules: 47595
+! Rules: 47602
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -20446,6 +20446,8 @@ $csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: www.googletagma
 @@||beinconnect.com.tr^$stealth
 @@||account.adobe.com^$document,domain=services.adobe.com,stealth=useragent
 @@||adguard.com^$stealth
+@@||gold.cdx-*.website/embed/$stealth=referrer,domain=foxtrend.gd
+@@||volder.timst.cfd/*.m3u8$stealth=referrer
 @@||manread.xyz/*.jpg$stealth=referrer,domain=manhwaread.com
 @@||ipaudio*.*/wp-content/uploads/*.mp3$media,stealth=referrer
 @@||dynaccent.net^$subdocument,stealth=referrer,domain=sportsonlinee.*|sportsonline.*
@@ -36628,6 +36630,7 @@ template/m1938pc/ads/*.js
 /pixel?tag=
 /pixel_identifier.js
 /pixel_iframe.php
+/pixel_taboola_events.js
 /pixel_tracking.js
 /pixel_tracking?
 /pixel_V2.js
@@ -36922,6 +36925,7 @@ template/m1938pc/ads/*.js
 /sensor/statistic?
 /sensorsdata-
 /sensorsdata.$domain=~sensorsdata.cn
+/sentinel-events-tracker.
 /sentry-browser.min.js
 /sentry-browser.tracing.es5.min.js
 /sentry-logger.js
@@ -41251,6 +41255,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||stats.fr^$third-party
 ||sync.tv^$third-party
 ||tget.me^$third-party
+||time1.me^$third-party
 ||tinyclues.com^$third-party
 ||titag.com^$third-party
 ||toc.io^$third-party
@@ -45702,6 +45707,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ebaystatic.com/rs/v/dxtuvtkk2q3hpkc1xveeo13iaek.js
 ||ebaystatic.com/rs/v/klminxoj1uyzvo0p0qu4nhpg0qo.js
 ||ebaystatic.com/rs/v/s0hteylevy4bpkd12dvkd4yi5ms.js
+||kaspersky.com/assets/logSender.
 ||mfasa.chase.com/auth/js/jpmc_bb_check.js
 ||olacontent.schwab.com^$script
 ||src.ebay-us.com/*=usllpic$script,domain=ebay.com
@@ -46106,6 +46112,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||2m.ma/tracking/
 ||khamsat.com/ajax/account_stats?
 ||mosoah.com/analytics.js
+||strema.top/ping/?
 ||klix.ba/pixel/
 ||104.com.tw/log/
 ||17173.com/ping.js

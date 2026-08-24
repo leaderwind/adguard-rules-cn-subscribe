@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Windows
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202608241141
-! Last modified: 2026-08-24T11:41:51Z
+! Version: 202608241311
+! Last modified: 2026-08-24T13:11:26Z
 ! Layers: network,content,scriptlet
 ! Mode: standard
-! Rules: 116646
+! Rules: 116647
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -29678,6 +29678,7 @@ $csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: www.googletagma
 @@||beinconnect.com.tr^$stealth
 @@||account.adobe.com^$document,domain=services.adobe.com,stealth=useragent
 @@||adguard.com^$stealth
+@@||twitchcdn.net^$stealth=useragent
 @@||gold.cdx-*.website/embed/$stealth=referrer,domain=foxtrend.gd
 @@||volder.timst.cfd/*.m3u8$stealth=referrer
 @@||manread.xyz/*.jpg$stealth=referrer,domain=manhwaread.com
@@ -44494,7 +44495,6 @@ appnee.com#$?#body[style*="visibility"] { visibility: visible !important; }
 fstore.biz#@##bannerad
 freevpn4you.net#$##adbanner { display: block !important; }
 gamekit.com#$#.ad.ads.adBanner { display: block!important; }
-namemc.com$$script[tag-content="Object.defineProperties?Object.defineProperty:function"][max-length="120000"]
 hanime.tv#@#.ad-content-area
 hanime.tv#@#.vertical-ad
 hanime.tv#$#.htv-video-player > iframe { display:block!important; }
@@ -52730,9 +52730,11 @@ animecorner.me,zarabiajprzez24.pl,watchhentai.xxx,app-how-to-use-it.com,linuxcap
 pawastreams.*,nflbite.to,footybite.to,sportschamp.fun,afly.pro,topsporter.net,soccerstreams.football,mysocceraustralia.com,rayinfosports.com,hesgoals.top,sequencecard.xyz,totalsportek.soccer,metaporky.site,nbabite.to,cyfostreams.com,gamerarcades.com,bestreamsports.org,footy.to,mcrypto.club,greaterkashmir.com###id-custom_banner
 pawastreams.*,groundedtechs.com,rayinfosports.com,sequencecard.xyz,matchtime.co,sportspellz.com,bestreamsports.org,silverspoon.site###dismiss-btn
 vi-control.net,nullforums.net,landyzone.co.uk,nullcave.pro,woxmax.com,waskucity.com,babia.to,technofino.in,reef2reef.com,minebbs.com,craxpro.io,affiliatefix.com,myiptvforum.com,hifivision.com,worldofiptv.com,altenen.is,beermoneyforum.com,germancarforum.com,cracking.org##.samBannerUnit
-streamed.st##body > div[style] > div[data-sveltekit-reload] > header + div.w-full
+hltv.org##.colCon > div > aside > a[href^="/out2/"]
+streamed.pk,streamed.st##body > div[style] > div[data-sveltekit-reload] > header + div.w-full
 imgur.com##.Grid-column > div[id^="Col-Child-"]:has(> div.fast-grid-ad)
 euronews.com#$?#div[data-ad-name] { remove: true; }
+nrl.com##.ladder__item--sportsbet-cell
 xcandid.vip,xcandid.top##.g1-row:has(#g1-secondary-nav)
 leakgallery.com##.affiliate-grid
 leakgallery.com##.partners-title
@@ -97025,7 +97027,6 @@ undeniable.info#%#//scriptlet("abort-current-inline-script", "document.getElemen
 win10.vn#%#//scriptlet("abort-current-inline-script", "document.addEventListener", "|kcolbdakcolb|")
 satellite-calculations.com#%#//scriptlet("set-constant", "blck_enabled", "false")
 yepi.com#%#//scriptlet("set-constant", "evitca_kcolbda", "false")
-namemc.com#%#//scriptlet("abort-current-inline-script", "navigator", "Object.defineProperties?Object.defineProperty:function")
 123link.biz#%#//scriptlet("abort-on-property-read", "showAdsBlock")
 worder.cat#%#//scriptlet("set-constant", "aben", "false")
 ratemyteachers.com#%#//scriptlet("abort-current-inline-script", "document.getElementById", "whitelist")

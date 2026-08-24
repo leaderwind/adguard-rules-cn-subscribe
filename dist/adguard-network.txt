@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Network
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202608241141
-! Last modified: 2026-08-24T11:41:51Z
+! Version: 202608241311
+! Last modified: 2026-08-24T13:11:26Z
 ! Layers: network
 ! Mode: standard
-! Rules: 47604
+! Rules: 47605
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -20447,6 +20447,7 @@ $csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: www.googletagma
 @@||beinconnect.com.tr^$stealth
 @@||account.adobe.com^$document,domain=services.adobe.com,stealth=useragent
 @@||adguard.com^$stealth
+@@||twitchcdn.net^$stealth=useragent
 @@||gold.cdx-*.website/embed/$stealth=referrer,domain=foxtrend.gd
 @@||volder.timst.cfd/*.m3u8$stealth=referrer
 @@||manread.xyz/*.jpg$stealth=referrer,domain=manhwaread.com

@@ -1,8 +1,8 @@
 ! Title: AdGuard Rules CN - Content
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202608240315
-! Last modified: 2026-08-24T03:15:41Z
+! Version: 202608240459
+! Last modified: 2026-08-24T04:59:29Z
 ! Layers: content
 ! Mode: standard
 ! Rules: 63573
@@ -2799,6 +2799,7 @@ newduba.cn###jq_youxi
 ##a[href*="/122.51.121.126:"]
 ##a[href*="/137.220.194.105:"]
 ##a[href*="/137.220.194.123:"]
+##a[href*=".holesg.xyz"]
 ##a[href*=".6666ai.top"]
 ##a[href*="/vv88.life"]
 ##a[href*="/lesi151.cc"]
@@ -8797,7 +8798,6 @@ ali213.net#@#.subscribe-container
 5dm.link#@#.tm-share-this
 laohu8.com#@#.tweet-article
 fqsousou.com,kengso.com#@#.user-share
-##a[href*=".holesg.xyz"]
 cngold.org#?#.w310:-abp-has(>.swiper-company)
 hanime1.me#?#div[style*="text-align:"]:-abp-has(>div[style*="color: white"])
 weibo.com#?#.vue-recycle-scroller__item-view:-abp-has(img[src="https://d.sinaimg.cn/prd/1005/891/2025/03/21/icon_auth_white.png"])

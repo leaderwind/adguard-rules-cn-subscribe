@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Conservative
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202608240315
-! Last modified: 2026-08-24T03:15:41Z
+! Version: 202608240459
+! Last modified: 2026-08-24T04:59:29Z
 ! Layers: network,content,scriptlet
 ! Mode: conservative
-! Rules: 108720
+! Rules: 108721
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -10164,6 +10164,7 @@ newduba.cn###jq_youxi
 ##a[href*="/122.51.121.126:"]
 ##a[href*="/137.220.194.105:"]
 ##a[href*="/137.220.194.123:"]
+##a[href*=".holesg.xyz"]
 ##a[href*=".6666ai.top"]
 ##a[href*="/vv88.life"]
 ##a[href*="/lesi151.cc"]
@@ -16176,7 +16177,6 @@ fqsousou.com,kengso.com#@#.user-share
 @@||criteo.com/delivery/ajs.php?zoneid=$script,domain=gaus.ee
 @@||jd.com/adclick?$popup,~third-party
 ||wnacg.com/game/$image,rewrite=abp-resource:1x1-transparent-gif,domain=wnacg.com
-##a[href*=".holesg.xyz"]
 cngold.org#?#.w310:-abp-has(>.swiper-company)
 hanime1.me#?#div[style*="text-align:"]:-abp-has(>div[style*="color: white"])
 weibo.com#?#.vue-recycle-scroller__item-view:-abp-has(img[src="https://d.sinaimg.cn/prd/1005/891/2025/03/21/icon_auth_white.png"])
@@ -28899,6 +28899,7 @@ $image,script,stylesheet,subdocument,third-party,xmlhttprequest,domain=animepahe
 @@||tous-sports.fr/js/advertisement-AdBlock.js
 @@||tous-sports.tv/js/advertisement-AdBlock.js
 @@||account.adobe.com^$document,domain=services.adobe.com,stealth=useragent
+@@||ipaudio*.*/wp-content/uploads/*.mp3$media,stealth=referrer
 @@||dynaccent.net^$subdocument,stealth=referrer,domain=sportsonlinee.*|sportsonline.*
 @@||workers.dev^$xmlhttprequest,stealth=referrer,domain=embed.st
 @@&ssid=$third-party,xmlhttprequest,stealth=referrer,domain=ninguno.cc

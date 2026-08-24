@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Network
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202608241001
-! Last modified: 2026-08-24T10:01:55Z
+! Version: 202608241051
+! Last modified: 2026-08-24T10:51:34Z
 ! Layers: network
 ! Mode: standard
-! Rules: 47602
+! Rules: 47604
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -9207,6 +9207,7 @@ $subdocument,redirect-rule=noopframe,domain=ytlarge.com
 ||dvdgayporn.com/wp-content/plugins/POit-*.js
 ||hostmath.com/Js/PromptShowAD.js
 ||urlcut.ninja/static/nab.js
+$script,third-party,redirect=noopjs,domain=exeygo.com
 @@||cuttlinks.com^$generichide
 @@||cuttty.com^$generichide
 @@||ads.pubmatic.com^|$xmlhttprequest,domain=cuttlinks.com|exe-links.com|cuttty.com|cuttyy.com|cutynow.com|exnion.com|cutyion.com|jixo.online|exe-urls.com|evernia.site|ijvam.com|mrgec.com|emxaw.com|cety.app|cutnet.net
@@ -43153,6 +43154,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||sdiapi.com/reporter/
 ||sdk-service.nsureapi.com/events
 ||sdk.51.la^$third-party
+||sdk.getlimy.ai/p/limy-analytics.min.js
 ||sdk.mrf.io/statics/marfeel-sdk.js
 ||searchcompletion.com/BannerHandler.ashx
 ||searchrys.com/dot.php

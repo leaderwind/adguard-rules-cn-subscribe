@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Scriptlet
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202608250311
-! Last modified: 2026-08-25T03:11:43Z
+! Version: 202608250359
+! Last modified: 2026-08-25T03:59:18Z
 ! Layers: scriptlet
 ! Mode: standard
-! Rules: 5556
+! Rules: 5559
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -3104,6 +3104,9 @@ cap3.sbs,cap3.monster#%#//scriptlet('prevent-setTimeout', '("",!1)', '100')
 nhutgg.com#%#//scriptlet('set-constant', 'CheckAdsBlocked', 'noopFunc')
 nhutgg.com#%#//scriptlet('set-constant', 'checkDomain', 'noopFunc')
 animevietsub.*#%#//scriptlet('set-cookie', 'popupOpened', 'true')
+nangcuc.cv,nangcuc.*#%#//scriptlet('prevent-window-open')
+nangcuc.cv,nangcuc.*#%#//scriptlet('prevent-addEventListener', '', '/popunder|popup/i')
+nangcuc.cv,nangcuc.*#%#//scriptlet('trusted-replace-node-text', 'script', 'skipTvcAd', 'function skipTvcAd()', 'skipTvcAd();function skipTvcAd()')
 motphimr.io#%#//scriptlet('prevent-addEventListener', 'click', 'document.createElement')
 motphimr.io#%#//scriptlet('trusted-set-session-storage-item', 'popup-ads-last-shown', '$now$')
 truyenqq.com.vn#%#//scriptlet('prevent-setTimeout', 'popup()')

@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Content
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202608250311
-! Last modified: 2026-08-25T03:11:43Z
+! Version: 202608250359
+! Last modified: 2026-08-25T03:59:18Z
 ! Layers: content
 ! Mode: standard
-! Rules: 63580
+! Rules: 63586
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -17174,6 +17174,12 @@ thuvienphapluat.vn##div[class^="viewAds-"]
 giavang.org###gv_sponsor
 animevietsub.*##.video-ad-layer
 animevietsub.*##center > a[target="_blank"] > img
+nangcuc.cv,nangcuc.*##div[id^="nc-"][id*="-ad"]
+nangcuc.cv,nangcuc.*##.nc-ad-container
+nangcuc.cv,nangcuc.*###nc-tvc-player
+nangcuc.cv,nangcuc.*###nc-tvc-overlay
+nangcuc.cv,nangcuc.*###nc-tvc-countdown
+nangcuc.cv,nangcuc.*#$##nc-tvc-skip-btn { display: block !important; }
 xnhau.pics,xnhau.*##.spot
 holitv.org##div[class^="catfish-"]
 holitv.org###top-banner

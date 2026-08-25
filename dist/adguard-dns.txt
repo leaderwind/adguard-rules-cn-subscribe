@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - DNS
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202608250707
-! Last modified: 2026-08-25T07:07:23Z
+! Version: 202608250756
+! Last modified: 2026-08-25T07:56:56Z
 ! Layers: dns
 ! Mode: standard
-! Rules: 243758
+! Rules: 243764
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -199700,6 +199700,7 @@
 ||zzy1.quyaoya.com^
 ||zzycj.com^
 ||zzz.onion.pet^
+||seminarycentral.org^
 ||piguiqproxy.com^$badfilter
 /wp-content/plugins/gplinks-flow/assets/js/flow.js|$replace=/var shown = false;/return;/
 /^https:\/\/[0-9a-z]+\.xyz\/rinku\/land/$document,~third-party,match-case,replace=/const proxyStatus = "Y";/const proxyStatus = "N";/
@@ -199728,6 +199729,15 @@
 ||freeadultcomix.com^$badfilter
 ||imgshare.info^$badfilter
 @@||connectivitycheck.gstatic.com^$important
+||adfffltgiwzre.online^
+||agymxoan.com^
+||dulcosefreeing.qpon^
+||exiniteamanous.shop^
+||eyjwalpeqgabo.site^
+||loyalwahehe.cyou^
+||sawmanvaporrustle.qpon^
+||unlacedyeara.qpon^
+||vfuipmpwqztws.online^
 /(https?:\/\/)104\.154\..{100,}/
 /(https?:\/\/)104\.197\..{100,}/
 /(https?:\/\/)104\.198\..{100,}/
@@ -215295,7 +215305,6 @@
 ||addresseerosebud.com^
 ||adeptoksuspicion.com^
 ||adevbom.com^
-||adfffltgiwzre.online^
 ||adglobal.tech^
 ||adgoto.com^
 ||adheretalk.com^
@@ -215465,7 +215474,6 @@
 ||agreementunfinished.com^
 ||agriculturalhollow.com^
 ||agudistinsnare.cyou^
-||agymxoan.com^
 ||ahimsaslatrate.com^
 ||aholtashler.com^
 ||aigletfriuli.com^
@@ -216020,7 +216028,6 @@
 ||duhboga.ru^
 ||duiionogen.com^
 ||dukadabrar.com^
-||dulcosefreeing.qpon^
 ||dustymural.com^
 ||dvdgayonline.com^
 ||dynsrvtbg.com^
@@ -216081,7 +216088,6 @@
 ||exclplatmain.com^
 ||exdirectopl.com^
 ||exhaustedprobation.com^
-||exiniteamanous.shop^
 ||exmainclck.com^
 ||exmainclckback.com^
 ||exotrck.com^
@@ -216091,7 +216097,6 @@
 ||expplatdirect.com^
 ||extractorandburner.com^
 ||exypnes-idees.gr^
-||eyjwalpeqgabo.site^
 ||f.xyu.tv^
 ||f07a0277a7.com^
 ||f4f0e4093e.com^
@@ -216408,7 +216413,6 @@
 ||lousoozi.net^
 ||loveiswe.net^
 ||lowdurantom.com^
-||loyalwahehe.cyou^
 ||lpmotortest.com^
 ||lreprx-server.anyclip.com^
 ||ltbgirights.xyz^
@@ -217093,7 +217097,6 @@
 ||unfamliliardate.net^
 ||unifiedads.magellanotech.it^
 ||union.macoms.la^
-||unlacedyeara.qpon^
 ||unlockads.com^
 ||unltdentertainment.co^
 ||unrebelasterin.com^
@@ -217235,6 +217238,9 @@
 ||zysuvysaj.pro^
 ||zzux.com^
 ||sobot.com^
+||eeznnevrfnvrl.online^
+||ybrezugusyxdm.site^
+||yxcxfseivgvaw.online^
 ||mvconf.f.360.cn^
 ||mobile.pipe.aria.microsoft.com^
 ||cu-cn-north00001.gala.convection.cn^

@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Content
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202608250707
-! Last modified: 2026-08-25T07:07:23Z
+! Version: 202608250756
+! Last modified: 2026-08-25T07:56:56Z
 ! Layers: content
 ! Mode: standard
-! Rules: 63587
+! Rules: 63591
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -208,6 +208,8 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###content_left > .r
 ##body[onresize="stopDebugger()"][onbeforecopy="return!1"] > div#root div[id^="notice_modal"]
 ##body[onresize="stopDebugger()"][onbeforecopy="return!1"] > div#root div:has(> img[src$=".gif"])
 ##body[onresize="stopDebugger()"][onbeforecopy="return!1"] > div#root div.m0auto > div > div.grid + div > div:empty
+ping0.cc##.xceles
+ping0.cc###adhright
 17173.com##.webgame .pn-bd
 flyert.com.cn##div[style^="width:950px;height:90px;"]
 flyert.com.cn##div[style^="width:300px;height:90px;"]
@@ -9371,6 +9373,7 @@ youporn.com$$script:contains(/window\.[\s\S]*?_zone_[\s\S]*?{"zone_id":/)
 #@#.ads_banner
 ##.stickyads:not([style^="width: 32px"], [style^="width: 33px"], [style*="left: -43px"], [style*="-3"][style*="important"][style*="display: block;"], [style*="position: fixed"][style*="-188"], [style*="!important;"][style*="width:"][style*="height:"][style*="position"][style*="left:"][style*="top:"][style*="display"], [data-freestar-ad="123"]):not(:empty)
 ##.ads_banner:not([style^="width: 32px"], [style^="width: 33px"], [style*="left: -43px"], [style*="-3"][style*="important"][style*="display: block;"], [style*="position: fixed"][style*="-188"], [style*="!important;"][style*="width:"][style*="height:"][style*="position"][style*="left:"][style*="top:"][style*="display"]):not(:empty)
+pitube.net#@#.ad-unit:not(.textads)
 genelify.com###adblock-detector-wrapper
 streamcash.to#@#.Footer_1-ad-holder
 streamcash.to###ab-wall
@@ -19068,7 +19071,7 @@ speedof.me#$?#ins.adsbygoogle { remove: true; }
 speedof.me##body > div.background-container ~ div.history_tooltip ~ [class]
 pornditt.com##.top_nav_menu
 startpage.com###main > div[data-bvs][data-identifier]
-taboodaddy.com##.nina-final-layer
+taboohome.net,taboodaddy.com##.nina-final-layer
 hooporn.com###right1_ad
 app.airtalk.live##aside.tc-ad-rail
 flixnet.*##.banner_wrapper
@@ -28506,7 +28509,7 @@ c4ddownload.com##.posts > div.grid-sizer:empty
 investing.com##.boxItemAdd
 freepik.com##.spr
 hobokengirl.com##.g-single
-mylinks.ws,nuvexus.com,tw-calc.net##.top-banner
+tabooporn.to,mylinks.ws,nuvexus.com,tw-calc.net##.top-banner
 tw-calc.net##.right > .container.vertical
 tw-calc.net##.left-menu > .container.vertical_large
 tw-calc.net##.main-content > .container.horizontal_small
@@ -63271,6 +63274,7 @@ justjared.com##.banner-spacer-top {max-height: 50px !important;}
 temp-mail.io##.fixed.bottom-0.\[\@media\(max-width\:1350px\)\]\:hidden
 complex.com##.lg\:top-\[var\(--sticky-top\)\]
 justjared.com##[role="banner"] {top:0 !important}
+downforeveryoneorjustme.com,eupersonalfinance.eu,useragents.me##a[rel="sponsored"]
 deliveroo.*#?#a[role="button"]:has(p:has-text(Sponsored))
 deliveroo.*#?#div[class^="HomeFeedScrollTracker-"]:has(span[class^="HomeFeedUILines-"]:has-text(Sponsored))
 advocate.com,out.com,pride.com#?#.component.module-headline:has-text(FROM OUR SPONSORS)

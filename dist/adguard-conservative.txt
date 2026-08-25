@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Conservative
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202608251403
-! Last modified: 2026-08-25T14:03:12Z
+! Version: 202608251502
+! Last modified: 2026-08-25T15:02:27Z
 ! Layers: network,content,scriptlet
 ! Mode: conservative
-! Rules: 108663
+! Rules: 108662
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -10229,8 +10229,6 @@ iplark.com##div[style="position: relative;"]
 cngold.org#?#.w310:has(>.swiper-company)
 cngold.org##.headCompanys
 cngold.org##.mainRight > .border_top:first-child
-ping0.cc##.xbeles
-ping0.cc###adgright
 cngold.org##.foot_megagame
 cngold.org##.fixed_jt
 hanime1.me#?#div[style*="text-align:"]:has(>div[style*="color: white"])
@@ -55745,6 +55743,7 @@ businessinsider.in##section > div.md\:h-\[435px\]
 ultrabookreview.com##div[id^="zzif"]
 ultrabookreview.com##.sumright
 ultrabookreview.com##div[class^="postzzif"]
+nanoreview.net##div[class^="rtx_"]
 nanoreview.net##div[class^="nad"]
 nanoreview.net##div[id^="float-sb-"]
 dev.miuiflash.com##div[id^="div-gpt-ad"]

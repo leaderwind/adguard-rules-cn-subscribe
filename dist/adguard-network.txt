@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Network
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202608251048
-! Last modified: 2026-08-25T10:48:04Z
+! Version: 202608251141
+! Last modified: 2026-08-25T11:41:02Z
 ! Layers: network
 ! Mode: standard
-! Rules: 47626
+! Rules: 47625
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -18079,7 +18079,6 @@ xxxadd.com/eureka
 ||zevera.com/*.swf$third-party
 ||novelhall.com/statics/default/js/position.js
 ||circleofcricket.com/assets/adv/
-||rv-assets.softonic*/publishers/
 /^https:\/\/cine\.su\/[a-z0-9]{16}\.js$/$script,match-case,domain=cine.su
 /^https:\/\/cine\.su\/[a-z0-9][a-z0-9][a-z0-9][a-z0-9][a-z0-9][a-z0-9][a-z0-9][a-z0-9][a-z0-9][a-z0-9][a-z0-9][a-z0-9][a-z0-9][a-z0-9][a-z0-9][a-z0-9]\.js$/$script,match-case
 ||chatgpt.com/backend-api/bazaar/conversation/*/ads|$xmlhttprequest

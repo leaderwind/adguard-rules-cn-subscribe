@@ -1,8 +1,8 @@
 ! Title: AdGuard Rules CN - Browser
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202608251309
-! Last modified: 2026-08-25T13:09:46Z
+! Version: 202608251403
+! Last modified: 2026-08-25T14:03:12Z
 ! Layers: network,content,scriptlet
 ! Mode: standard
 ! Rules: 116689
@@ -89628,6 +89628,7 @@ computerweekly.com##.pro-downloads-home
 prosettings.net##.pro-placement
 kompass.com##.prodListBanner
 ecosia.org##.product-ads-carousel
+sysadminsage.com##.product-banner
 junosearch.net##.product-connexity-slideshow
 indiatimes.com##.product-cont
 g2.com##.product-head__leads
@@ -103562,7 +103563,6 @@ complex.com##.\[\@media\(min-width\:520px\)\]\:px-\[20px\]
 justjared.com##.banner-spacer-top {max-height: 50px !important;}
 temp-mail.io##.fixed.bottom-0.\[\@media\(max-width\:1350px\)\]\:hidden
 complex.com##.lg\:top-\[var\(--sticky-top\)\]
-sysadminsage.com##.product-banner
 justjared.com##[role="banner"] {top:0 !important}
 deliveroo.*#?#a[role="button"]:has(p:has-text(Sponsored))
 deliveroo.*#?#div[class^="HomeFeedScrollTracker-"]:has(span[class^="HomeFeedUILines-"]:has-text(Sponsored))

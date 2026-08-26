@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - DNS
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202608260900
-! Last modified: 2026-08-26T09:00:35Z
+! Version: 202608260956
+! Last modified: 2026-08-26T09:56:05Z
 ! Layers: dns
 ! Mode: standard
-! Rules: 243658
+! Rules: 243674
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -200009,6 +200009,7 @@
 ||zzy1.quyaoya.com^
 ||zzycj.com^
 ||zzz.onion.pet^
+||hi6uqvisz9.com^
 ||piguiqproxy.com^$badfilter
 /wp-content/plugins/gplinks-flow/assets/js/flow.js|$replace=/var shown = false;/return;/
 /^https:\/\/[0-9a-z]+\.xyz\/rinku\/land/$document,~third-party,match-case,replace=/const proxyStatus = "Y";/const proxyStatus = "N";/
@@ -217700,6 +217701,21 @@
 ||zysuvysaj.pro^
 ||zzux.com^
 ||sobot.com^
+||2bh38bi5nuh9qh4j5m4n.cfd^
+||4vquwe6gjri9kej3i.rest^
+||absistjib.cfd^
+||aneareddossmen.qpon^
+||chairermomma.shop^
+||cloineskulls.cyou^
+||copraswhist.cfd^
+||fenbanktoffees.cyou^
+||forweanlappets.shop^
+||haversalgieba.qpon^
+||marasdisple.shop^
+||pertusecoshes.cfd^
+||pointelpunniercopped.cyou^
+||thunderous-cause.com^
+||wlleboaomjvvm.top^
 ||mvconf.f.360.cn^
 ||mobile.pipe.aria.microsoft.com^
 ||cu-cn-north00001.gala.convection.cn^

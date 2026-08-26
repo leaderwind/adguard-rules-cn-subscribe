@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Aggressive
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202608260549
-! Last modified: 2026-08-26T05:49:10Z
+! Version: 202608260707
+! Last modified: 2026-08-26T07:07:11Z
 ! Layers: network,content,scriptlet
 ! Mode: aggressive
-! Rules: 116790
+! Rules: 116792
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -7630,8 +7630,6 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###content_left > .r
 ##body[onresize="stopDebugger()"][onbeforecopy="return!1"] > div#root div[id^="notice_modal"]
 ##body[onresize="stopDebugger()"][onbeforecopy="return!1"] > div#root div:has(> img[src$=".gif"])
 ##body[onresize="stopDebugger()"][onbeforecopy="return!1"] > div#root div.m0auto > div > div.grid + div > div:empty
-ping0.cc##.xceles
-ping0.cc###adhright
 17173.com##.webgame .pn-bd
 flyert.com.cn##div[style^="width:950px;height:90px;"]
 flyert.com.cn##div[style^="width:300px;height:90px;"]
@@ -10285,6 +10283,8 @@ iplark.com##div[style="position: relative;"]
 cngold.org#?#.w310:has(>.swiper-company)
 cngold.org##.headCompanys
 cngold.org##.mainRight > .border_top:first-child
+ping0.cc###adhright
+ping0.cc##.xceles
 cngold.org##.foot_megagame
 cngold.org##.fixed_jt
 hanime1.me#?#div[style*="text-align:"]:has(>div[style*="color: white"])
@@ -27433,6 +27433,7 @@ jquery-1.8.3.min.js$domain=straemplay.*|stemplay.*|steamplay.*|steanplay.*|strea
 /custom_code/*.js$domain=torbobit.net
 /files/news/image/offer$domain=torbobit.net|trubobit.com
 /^https:\/\/[a-z-]{5,13}\.[a-z]{2,7}\/[a-z0-9]{1,20}\?[A-Za-z0-9]{15,26}=(?=.*[A-Z])[A-Za-z0-9%]{35,2000}$/$xmlhttprequest,third-party,match-case
+/^https:\/\/www\.locopelis\.com\/[a-z0-9][a-z0-9][a-z0-9][a-z0-9][a-z0-9][a-z0-9]\.js$/$script,match-case
 /^https:\/\/vidzy\.org\/[a-z0-9][a-z0-9][a-z0-9][a-z0-9][a-z0-9][a-z0-9][a-z0-9][a-z0-9]\.js$/$script,match-case
 /^https:\/\/anime\.uniquestream\.net\/[a-z0-9][a-z0-9][a-z0-9][a-z0-9][a-z0-9][a-z0-9][a-z0-9][a-z0-9]\.js$/$script,match-case
 /embed/*.js?_=$script,domain=cloudorchestranova.com
@@ -103642,6 +103643,7 @@ yatu.tv,yhdm7.com,yhdm95.com,xdm530.com##+js(aopw,document.oncontextmenu)
 ://ads.$popup,domain=~ad.olx.pl|~ads.mercadolibre.com.ar|~ads.mercadolibre.com.cl|~ads.mercadolibre.com.co|~ads.mercadolibre.com.ec|~ads.mercadolibre.com.mx|~ads.mercadolibre.com.pe|~ads.mercadolibre.com.ve|~ads.mercadolivre.com.br|~ads.openai.com|~ads.pandauth.com|~ads.umd.edu|~axon.ai|~kakaku.com|~reddit.com|~smartnews.com
 ://adv.$popup,domain=~adv.kompas.id|~adv.lack-girl.com
 ||lockerdome.com^$third-party
+||upliftengine.io^$third-party
 ||35.227.234.222^
 ||35.232.188.118^
 ||betvictor.com*&utm_campaign=$popup

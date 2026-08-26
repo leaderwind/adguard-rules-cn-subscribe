@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Network
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202608252336
-! Last modified: 2026-08-25T23:36:42Z
+! Version: 202608260157
+! Last modified: 2026-08-26T01:57:31Z
 ! Layers: network
 ! Mode: standard
-! Rules: 47628
+! Rules: 47629
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -31169,6 +31169,7 @@ _800x80_
 ||bangdom.com^$third-party
 ||blacksonblondes.com/banners/
 ||bongacams.com/promo.php
+||bongacams.com^$subdocument,third-party
 ||bongacash.com/tools/promo.php
 ||brazzers.com/ads/
 ||bullz-eye.com/blog_ads/

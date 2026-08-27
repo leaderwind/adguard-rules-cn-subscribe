@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Network
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202608262330
-! Last modified: 2026-08-26T23:30:06Z
+! Version: 202608270938
+! Last modified: 2026-08-27T09:38:40Z
 ! Layers: network
 ! Mode: standard
-! Rules: 47638
+! Rules: 47633
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -9397,7 +9397,6 @@ $xmlhttprequest,redirect-rule=nooptext,domain=kbjfree.com
 @@||ad.a-ads.com/*?size=320x50$domain=phineypet.com
 @@||static.doubleclick.net/instream/ad_status.js$domain=youtube.com
 @@||g.adspeed.net/ad.php?do=detectadblocker$domain=btcbunch.com
-@@/js/fuckadb.js$~third-party,domain=megaurl.in
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=incredibox.com
 @@||imasdk.googleapis.com^$xmlhttprequest,domain=uservideo.xyz
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=maxcheaters.com
@@ -10812,7 +10811,6 @@ $script,redirect-rule=noopjs,domain=vidmoly.biz|vidmoly.me|vidmoly.net|vidmoly.t
 ||d33wubrfki0l68.cloudfront.net/js/*/js/ad-payment.js$domain=duellinksmeta.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=dausel.co
 @@||pagead2.googlesyndication.com/pagead/js/r*/show_ads_impl.js$domain=dausel.co
-@@||megaurl.in^$generichide
 @@||sportsplays.com/ads/ad.html$~third-party
 @@||dropapk.com^$generichide
 @@||elecgate.com^$generichide
@@ -11142,7 +11140,6 @@ $script,redirect-rule=noopjs,domain=vidmoly.biz|vidmoly.me|vidmoly.net|vidmoly.t
 @@||gardenista.com/assets/scripts/advert.js
 @@/js/advertisement.$domain=blogs.sapib.ca
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=blogs.sapib.ca
-@@||bagusdl.pro^$generichide
 @@||donnaglamour.it^$generichide
 @@||onvasortir.com^$generichide
 @@||hgtv.ca^$generichide
@@ -11460,7 +11457,6 @@ $script,redirect-rule=noopjs,domain=vidmoly.biz|vidmoly.me|vidmoly.net|vidmoly.t
 @@||pagead2.googlesyndication.com/pagead/js/lidar.js$domain=freewarefiles.com
 @@||ad.doubleclick.net/favicon.ico$domain=freewarefiles.com
 @@/pop.js|$domain=pornve.com
-||connect.cointent.com^$domain=allaboutjazz.com
 @@||multiup.org/pop.js
 @@||myadcash.com/video_landing/js/jquery.inview.min.js$domain=multiup.org
 @@||rapidrar.com^$generichide
@@ -11473,7 +11469,6 @@ $script,redirect-rule=noopjs,domain=vidmoly.biz|vidmoly.me|vidmoly.net|vidmoly.t
 @@||v.fwmrm.net/ad/p/1?$domain=cdn.watch.aetnd.com
 @@||ad.doubleclick.net/ddm/ad/*$domain=fyi.tv
 @@||xbox-store-checker.com/assets/js/*ads*.js
-||connect.cointent.com^$domain=pwinsider.com
 @@||yandex.ru/ads/system/context.js$domain=investing.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=investing.com
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=googlesyndication-adsbygoogle,important,domain=investing.com
@@ -13794,7 +13789,6 @@ $script,third-party,denyallow=ckeditor.com|fastly.net|statically.io|sharecast.ws
 @@||kphim.tv^$generichide
 @@||tvhay.org/playergk/fingerprint2.min.js
 @@||game24h.vn/js/ads_v*.js?v=$domain=game24h.vn
-@@||megaurl.in/adi/advertisement.js
 @@||ad.a-ads.com/*?size=300x250$domain=linkneverdie.com
 @@||static.doubleclick.net/instream/ad_status.js$domain=linkneverdie.com
 ||linkneverdie.com/Ads/Micro/?size=$redirect=nooptext,important,domain=linkneverdie.com
@@ -14313,7 +14307,6 @@ $document,replace=/<script(?: data-cfasync="false")?(?: nowprocket)?(?: type="[a
 ||html-load.com^$script,xmlhttprequest,domain=buienalarm.nl|meteoradar.co.uk|meteox.com|niederschlagsradar.de|sat24.com|weerslag.nl|weerplaza.nl|buienalarm.be
 ||html-load.com^$script,xmlhttprequest,domain=fmradiofree.com|internetradio-horen.de|radio-norge.org|radio-danmark.dk|radio-hrvatska.com|radio-australia.org|radio-osterreich.at
 /adblock.js$domain=anisnatch.top|anisnatch.to
-/api/rum|$domain=mapple.*|mapplee.com|mapple.rip|lightflix.app|mappl.tv
 ||helpers.publisherdesk.com/main.js
 ||soulauth.com/img/advertisements/
 ||porntb.com/cdn/cdn_check.js
@@ -16893,7 +16886,6 @@ stun:34.70.28.179^$domain=yts.lt
 ||exe.io/files/avenhunt.js
 ||bstatic.com^$script,domain=abril.com.br
 ||pervertslut.com/contents/other/player/embed/*.gif
-||megaurl.in/sw.js
 ||aii.sh/sw_*.js
 ||lnk.news/links/flash-ad?u_id=
 ||embed.dramaz.se/jwplayer-*/vast.js
@@ -18203,6 +18195,7 @@ jquery-1.8.3.min.js$domain=straemplay.*|stemplay.*|steamplay.*|steanplay.*|strea
 /custom_code/*.js$domain=torbobit.net
 /files/news/image/offer$domain=torbobit.net|trubobit.com
 /^https:\/\/[a-z-]{5,13}\.[a-z]{2,7}\/[a-z0-9]{1,20}\?[A-Za-z0-9]{15,26}=(?=.*[A-Z])[A-Za-z0-9%]{35,2000}$/$xmlhttprequest,third-party,match-case
+/api/*$script,~third-party,domain=mapple.*|mapplee.com|mapple.rip|lightflix.app|mappl.tv
 /^https:\/\/www\.locopelis\.com\/[a-z0-9][a-z0-9][a-z0-9][a-z0-9][a-z0-9][a-z0-9]\.js$/$script,match-case
 /^https:\/\/vidzy\.org\/[a-z0-9][a-z0-9][a-z0-9][a-z0-9][a-z0-9][a-z0-9][a-z0-9][a-z0-9]\.js$/$script,match-case
 /^https:\/\/anime\.uniquestream\.net\/[a-z0-9][a-z0-9][a-z0-9][a-z0-9][a-z0-9][a-z0-9][a-z0-9][a-z0-9]\.js$/$script,match-case
@@ -20459,6 +20452,8 @@ $csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: www.googletagma
 @@||beinconnect.com.tr^$stealth
 @@||account.adobe.com^$document,domain=services.adobe.com,stealth=useragent
 @@||adguard.com^$stealth
+@@/embed/*.jpg$subdocument,stealth=referrer,domain=hollymoviehd.cc
+@@/embed/*$third-party,subdocument,stealth=referrer,domain=sportsbite.*
 @@||iplayer.is^$subdocument,stealth=referrer,domain=strims24.pl
 @@||workers.dev/p/$xmlhttprequest,stealth=referrer,domain=embedindia.st
 @@||cdnlivetv.is/api/v1/channels/player/?name=$third-party,subdocument,stealth=referrer
@@ -20471,7 +20466,7 @@ $csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: www.googletagma
 @@||volder.timst.cfd/*.m3u8$stealth=referrer
 @@||manread.xyz/*.jpg$stealth=referrer,domain=manhwaread.com
 @@||ipaudio*.*/wp-content/uploads/*.mp3$media,stealth=referrer
-@@||dynaccent.net^$subdocument,stealth=referrer,domain=sportsonlinee.*|sportsonline.*
+@@/e/*$subdocument,stealth=referrer,domain=sportsonlinee.*|sportsonline.*|wikisport.info
 @@||workers.dev^$xmlhttprequest,stealth=referrer,domain=embed.st
 @@||api.authsignal.com^$stealth=3p-auth
 @@&ssid=$third-party,xmlhttprequest,stealth=referrer,domain=ninguno.cc
@@ -20484,6 +20479,7 @@ $csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: www.googletagma
 @@||callistanise.com^$stealth=referrer
 @@||listeamed.net^$stealth=referrer
 @@||content-push.googleapis.com/upload/$xmlhttprequest,stealth=3p-auth
+@@/seg/*.m4s|$xmlhttprequest,stealth=referrer,domain=cinezo.live
 @@?id=$xmlhttprequest,stealth=referrer,domain=cinezo.live
 @@?url=$xmlhttprequest,media,stealth=referrer,domain=cinezo.live
 @@/subtitles/*$xmlhttprequest,stealth=referrer,domain=cinezo.live
@@ -20496,7 +20492,7 @@ $csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: www.googletagma
 @@/stream/*.m3u8$stealth=referrer,domain=livosports30.live
 @@||phncdn.com/$media,stealth=referrer,domain=pornhub.com
 @@||api.viduki.net/embed_providers?$stealth=referrer
-@@||workers.dev^$xmlhttprequest,third-party,stealth=referrer,domain=cinelove.live|netplayz.top
+@@||workers.dev^$xmlhttprequest,third-party,stealth=referrer,domain=cinelove.live|netplayz.*
 @@/master.m3u8|$xmlhttprequest,third-party,stealth=referrer,domain=nxsha.app
 @@||web.zmaps-api.com/maps_loader$stealth=3p-auth,domain=seven-eleven.areamarker.com
 @@||nabu.casa^$stealth=dpi
@@ -20573,6 +20569,7 @@ $csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: www.googletagma
 @@/sacdn/dash/*?host=$xmlhttprequest,stealth=referrer,domain=vidlink.pro
 @@.mp4?$media,stealth=referrer,domain=vidlink.pro
 @@||ksdpictures.site/embed/$subdocument,stealth=referrer
+@@.jpg$stealth=referrer,domain=streamingnow.mov
 @@.m3u8|$stealth=referrer,domain=streamingnow.mov
 @@||hsnstore.*^$stealth=flash|java
 @@?seg=$xmlhttprequest,stealth=referrer,domain=cinesrc.st
@@ -20916,8 +20913,6 @@ $csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: www.googletagma
 @@||cdn.dotstream.buzz^$stealth=referrer,domain=megaplay.*
 @@||irdeto.com/widevine/$stealth=3p-auth,domain=paramountplus.com|cbs.com
 @@||c.2ace.ru*/VOD/$stealth=referrer
-@@.m3u8$domain=rapid-cloud.co,xmlhttprequest,stealth=referrer
-@@seg-*.*$domain=rapid-cloud.co,xmlhttprequest,stealth=referrer
 @@||eu-tools.dmarcmanager.app/js/widgetry.js$stealth=referrer
 @@||eu-tools.dmarcmanager.app/widgets/$stealth=referrer
 @@||assortedia-as.allarknow.online^$stealth=ip

@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Network
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202608280522
-! Last modified: 2026-08-28T05:22:29Z
+! Version: 202608281839
+! Last modified: 2026-08-28T18:39:01Z
 ! Layers: network
 ! Mode: standard
-! Rules: 47640
+! Rules: 47646
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -8336,6 +8336,7 @@ $cookie=__adblocker,domain=slate.com|thehindubusinessline.com
 ||claimfey.com/cryptonews/wp-content/uploads/bqanwcfp.js
 @@||static.trafficjunky.com/ab/ads_test.js$domain=bztube.com|hotovs.com|insuredhome.org|nudegista.com|pornluck.com|vidd.se|redtube.*|youpornru.com|tube8.com|tube8.es|tube8.fr|tube8.net|pornhub.com|pornhub.org|pornhub.net
 @@://www.exoclick.com/ads.js|
+||intercelestial.com/_ac/
 ||youtubetoolkit.com/js/adblock-
 ||jwpcdn.com/player/*/googima.js$redirect=noopjs,domain=weekendletters.store
 @@||jwpcdn.com/player/*/googima.js$domain=weekendletters.store|xcandid.vip|xcandid.top
@@ -13368,6 +13369,8 @@ $script,third-party,denyallow=ckeditor.com|fastly.net|statically.io|sharecast.ws
 @@||tvn.adocean.pl/ad.xml$domain=miniminiplus.pl
 @@||tvn.adocean.pl^*/ad.xml$domain=miniminiplus.pl
 @@||miniminiplus.pl$generichide
+||crm.spidersweb.pl/public/products
+||onnetwork.tv^$domain=spidersweb.pl
 @@||spolecznosci.net/js/reklama/advertisement.js
 @@||fotka.pl/js/advertisement.js
 ||services.*.pl/belka/$domain=teletoonplus.pl
@@ -18316,6 +18319,7 @@ $script,third-party,denyallow=doodcdn.io|doodcdn.io|fastly.net|statically.io|sha
 ||adxpansion.com/ads.php$redirect=nooptext,important
 ||pornhd.com/connect/stat^$redirect=nooptext,important
 ||syndication.exoclick.com/splash.php$redirect=nooptext,important,domain=pornhd.com
+@@||euroauto.ru^$extension='AdGuard Popup Blocker'|'AdGuard Popup Blocker (Beta)'
 @@||bet365.com^$extension='AdGuard Popup Blocker'|'AdGuard Popup Blocker (Beta)'
 @@||bigcommerce.com^$domain=plazajapan.com
 ||bmtmicro.com^$popup,badfilter
@@ -20454,6 +20458,7 @@ $csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: www.googletagma
 @@||beinconnect.com.tr^$stealth
 @@||account.adobe.com^$document,domain=services.adobe.com,stealth=useragent
 @@||adguard.com^$stealth
+@@||githubusercontent.com^$stealth=referrer,domain=github.com
 @@||topics.smt.docomo.ne.jp^$stealth=useragent
 @@&autoPlay=$subdocument,stealth=referrer,domain=aniwaves.ru|hianimes.ru|guts.to
 @@/embed/*.jpg$subdocument,stealth=referrer,domain=hollymoviehd.cc
@@ -34832,6 +34837,7 @@ template/m1938pc/ads/*.js
 ||216.21.13.$popup,domain=~in-addr.arpa
 ||35.227.234.222^$popup
 ||35.232.188.118^$popup
+/advanced_placement/new-in-article/?type=placement^$domain=androidauthority.com
 ||2mdn.net/videoplayback/$rewrite=abp-resource:blank-mp4,domain=laurelberninteriors.com|safeframe.googlesyndication.com
 ||googlevideo.com/videoplayback?$rewrite=abp-resource:blank-mp4,domain=laurelberninteriors.com|safeframe.googlesyndication.com
 ||innovid.com/media/encoded/*.mp4$rewrite=abp-resource:blank-mp4,domain=ktla.com

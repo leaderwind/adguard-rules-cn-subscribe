@@ -1,8 +1,8 @@
 ! Title: AdGuard Rules CN - Network
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202608281839
-! Last modified: 2026-08-28T18:39:01Z
+! Version: 202608290210
+! Last modified: 2026-08-29T02:10:13Z
 ! Layers: network
 ! Mode: standard
 ! Rules: 47646
@@ -26108,6 +26108,7 @@ _800x80_
 ||offergate-software6.com^$document
 ||ojrq.net^$document
 ||olopruy.com^$document
+||omaaz.com^$document
 ||omegaadblock.net^$document
 ||omg10.com^$document
 ||omgt3.com^$document
@@ -31418,6 +31419,7 @@ _800x80_
 ||track.cam4tracking.com^$popup
 ||zillastream.com/api/$popup
 $third-party,xmlhttprequest,domain=mega4upload.net
+/advanced_placement/new-in-article/?type=placement^$domain=androidauthority.com
 /pmc-adm-v2/build/setup-ads.js$domain=bgr.com|deadline.com|rollingstone.com
 /resolver/api/resolve/v3/config/?expType=AppConfig&expInstance=default&apptype=weather&$domain=msn.com
 ||123movies.ai/sab_
@@ -32104,7 +32106,6 @@ $third-party,xmlhttprequest,domain=mega4upload.net
 ||worthplaying.com/ad_left.html
 ||wowroms.com/images/Banner336x280.gif
 ||wowroms.com/images/Banner970x250.gif
-||wpengine.com/wp-json/api/advanced_placement/new-in-article/?type=placement^$domain=androidauthority.com
 ||wqah.com/images/banners/
 ||wsj.com/asset/ace/ace.min.js
 ||www.google.*/adsense/search/ads.js
@@ -34837,7 +34838,6 @@ template/m1938pc/ads/*.js
 ||216.21.13.$popup,domain=~in-addr.arpa
 ||35.227.234.222^$popup
 ||35.232.188.118^$popup
-/advanced_placement/new-in-article/?type=placement^$domain=androidauthority.com
 ||2mdn.net/videoplayback/$rewrite=abp-resource:blank-mp4,domain=laurelberninteriors.com|safeframe.googlesyndication.com
 ||googlevideo.com/videoplayback?$rewrite=abp-resource:blank-mp4,domain=laurelberninteriors.com|safeframe.googlesyndication.com
 ||innovid.com/media/encoded/*.mp4$rewrite=abp-resource:blank-mp4,domain=ktla.com

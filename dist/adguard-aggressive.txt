@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Aggressive
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202608301251
-! Last modified: 2026-08-30T12:51:42Z
+! Version: 202608301727
+! Last modified: 2026-08-30T17:27:20Z
 ! Layers: network,content,scriptlet
 ! Mode: aggressive
-! Rules: 116840
+! Rules: 116843
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -90616,9 +90616,9 @@ towleroad.com##.towletarget
 euronews.com##.tp-outbrain
 utahgunexchange.com##.tp-revslider-mainul
 steamanalyst.com##.tpbcontainerr
-boundingintocomics.com,thegrio.com##.tpd-incontent-ad-container
+boundingintocomics.com,theblast.com,thegrio.com##.tpd-incontent-ad-container
 justjared.com##.tpd-ob-reserve
-justjared.com##.tpd-tcm-widget
+justjared.com,theblast.com##.tpd-tcm-widget
 totalprosports.com##.tps-top-leaderboard
 techreen.com##.tr-block-header-ad
 techreen.com##.tr-block-label
@@ -90836,7 +90836,7 @@ permanentstyle.com##.widget_sow-advertisements
 androidpctv.com,brigantinenow.com,downbeachbuzz.com,thecatholictravelguide.com##.widget_sp_image
 gamertweak.com##.widget_srlzycxh
 captainaltcoin.com,freedesignresources.net,utahgunexchange.com,webkinznewz.ganzworld.com,webpokie.com##.widget_text
-dreadcentral.com,justjared.com##.widget_tpd_ad_widget
+dreadcentral.com,justjared.com,theblast.com##.widget_tpd_ad_widget
 pacenewsonline.com##.widget_webads_displayads_widget
 carpeludum.com##.widget_widget_catchevolution_adwidget
 cryptoreporter.info##.widget_wpstealthads_widget
@@ -111198,6 +111198,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||api.sardine.ai/assets/loader.min.js$third-party
 ||api.sovendus.com/js/landing.js
 ||api.tally.so/forms/*/events
+||api.transtore.app/api/v2/storefront/tracking
 ||api.usestoryteller.com/api/app/activity/recordActivity?
 ||api.visitorapi.com^$third-party
 ||apibaza.com/pixel/
@@ -113475,6 +113476,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||advertisertape.com/stat/
 ||advertising.amazon.dev/v1/ad-events/
 ||adweek.com/wp-content/plugins/adw-parsley/
+||aeis.alicdn.com/awsc/fireyejs/$script,domain=alibaba.com
 ||aerlingus.com/ahktqsewxjhguuxe.js
 ||agbi.com/kqmp6?
 ||agoda.net/v2/track
@@ -113537,6 +113539,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||api.x.com/live_pipeline/events?
 ||apigw.scmp.com/metrics/monitoring
 ||apigw.scmp.com/pwa-v2-unleash-proxy/proxy/client/metrics
+||aplus.aliexpress.$image,ping,~third-party
 ||aplus.qwen.ai/aplus.monitor.load_cna_success?
 ||aplus.qwen.ai/aplus.monitor.log_arrival_rate
 ||app-bnkr.b-cdn.net/js/lv.js
@@ -113907,7 +113910,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||futureparty.com/nectar_analytics
 ||futureparty.com/page_view
 ||g-scale.org/scripts/EventLog.js
-||g.alicdn.com/AWSC/fireyejs/
 ||gadgets360.com/analytics.js
 ||gaiaonline.com/internal/mkt_t.php?
 ||galaxus.ch/api/public/sbm/v1/fp
@@ -114162,6 +114164,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||mapcarta.com/logs
 ||mapquest.com/logger
 ||market.samm.com/0/sendeventv2
+||marriott.com/mi/api/shop-renderer/logger
 ||massivecams.com/api/metrics
 ||mat6tube.com/api/stats?
 ||maximise.nyc3.cdn.digitaloceanspaces.com/mxmse.min.js$domain=essentiallysports.com

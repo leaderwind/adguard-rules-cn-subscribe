@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Content
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202608300637
-! Last modified: 2026-08-30T06:37:57Z
+! Version: 202608301251
+! Last modified: 2026-08-30T12:51:42Z
 ! Layers: content
 ! Mode: standard
-! Rules: 63611
+! Rules: 63615
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -18937,6 +18937,7 @@ animecorner.me,zarabiajprzez24.pl,watchhentai.xxx,app-how-to-use-it.com,linuxcap
 pawastreams.*,nflbite.to,footybite.to,sportschamp.fun,afly.pro,topsporter.net,soccerstreams.football,mysocceraustralia.com,rayinfosports.com,hesgoals.top,sequencecard.xyz,totalsportek.soccer,metaporky.site,nbabite.to,cyfostreams.com,gamerarcades.com,bestreamsports.org,footy.to,mcrypto.club,greaterkashmir.com###id-custom_banner
 pawastreams.*,groundedtechs.com,rayinfosports.com,sequencecard.xyz,matchtime.co,sportspellz.com,bestreamsports.org,silverspoon.site###dismiss-btn
 vi-control.net,nullforums.net,landyzone.co.uk,nullcave.pro,woxmax.com,waskucity.com,babia.to,technofino.in,reef2reef.com,minebbs.com,craxpro.io,affiliatefix.com,myiptvforum.com,hifivision.com,worldofiptv.com,altenen.is,beermoneyforum.com,germancarforum.com,cracking.org##.samBannerUnit
+jpopsingles.eu##div[align="center"] > a[href*="?key="][target="_blank"]
 pixhost.cc##a[href^="/resource-session/?go="][rel*="sponsored"]
 techradar.com##aside.ecom-root
 streamgoblin.cc#?#.px-4 > .mx-auto:has(> div.text-center:contains(Advertisement))
@@ -52033,6 +52034,7 @@ my.juno.com###scienceTile
 coinarbitragebot.com###screener
 walgreens.com###searchSponsoredProductContainer
 adverts.ie###search_results_leaderboard
+passfab.com###seasonal-banner-new
 nagpurtoday.in###secondary aside.widget_custom_html
 pao.gr###section--sponsors
 hometheaterreview.com###section-20297-191992
@@ -52731,6 +52733,7 @@ kurocore.com##.ad-b1
 deccanherald.com##.ad-background
 britannica.com,canadiantire.ca,courthousenews.com,cryptobriefing.com,diabetesjournals.org,infobel.com,kuioo.com,linkedin.com,pilot007.org,radiotimes.com,soundguys.com,topperlearning.com##.ad-banner
 radiopaedia.org##.ad-banner-desktop-row
+brawlinsights.com##.ad-banner-wrap
 wikiwand.com##.ad-between-sections
 cpu-benchmark.org,home-designing.com,inc.com,trustpilot.com##.ad-block
 issuu.com##.ad-block--wide
@@ -53641,7 +53644,7 @@ thedailymash.co.uk##.border-brand
 yaledailynews.com##.border-gray-200
 standardmedia.co.ke##.border-thick-branding
 myanimelist.net##.border_top
-appleinsider.com##.bottom
+appleinsider.com,passfab.com##.bottom
 capwages.com,downforeveryoneorjustme.com,health.clevelandclinic.org,technomusicworld.com##.bottom-0.fixed
 theblock.co##.bottom-5
 vpntierlists.com##.bottom-6
@@ -58056,6 +58059,7 @@ lightnovelworld.co##div[data-mobid]
 thisismoney.co.uk##div[data-mol-fe-xpmodule-tim-affiliate]
 yandex.com##div[data-name="adWrapper"]
 uefa.com##div[data-name="sponsors-slot"]
+trackinsight.com##div[data-nosnippet="true"]:has([id^="div-gpt-ad-"])
 nogomania.com##div[data-ocm-ad]
 thebay.com##div[data-piq-toggle="true"]
 opentable.*##div[data-promoted="true"]

@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Network
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202608302329
-! Last modified: 2026-08-30T23:29:12Z
+! Version: 202608310528
+! Last modified: 2026-08-31T05:28:41Z
 ! Layers: network
 ! Mode: standard
-! Rules: 47654
+! Rules: 47657
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -7447,6 +7447,7 @@ $script,third-party,domain=torkitty.net|torkitty.com|torrentkitty.app|torrentkit
 @@||criteo.com/delivery/ajs.php?zoneid=$script,domain=gaus.ee
 @@||jd.com/adclick?$popup,~third-party
 ||wnacg.com/game/$image,rewrite=abp-resource:1x1-transparent-gif,domain=wnacg.com
+||greekexternal.com^$popup
 ||emgthroposit.org^$all
 ||degreeeruptionpredator.com^$all
 ||go.mobisla.com^$third-party
@@ -14439,6 +14440,8 @@ $subdocument,third-party,denyallow=disqus.com,domain=love4u.net
 $third-party,script,domain=klto9.com|f2movies.to|hacamchicac.com|yourporngod.com|zinchanmanga.com|yaoimangaonline.com|tututweak.app|mangaraw.ac|eromanga-show.com|hentai-one.com|hentaipaw.com|nukibooks.com|paipancon.com|jgvdata.com|youtubevanced.com|pandamtl.com|mangaplus.shueisha.tv|shueisharaw.tv
 ||linksconsole.com/ad-system/
 ||misc-api.feathermc.com/*/ads/ad_units?
+||hentaihaven.*/api/ads/?placement=
+||7reels.cc/promo/
 ||redscores.com/images/bns/
 ||redscores.com/slot/render/
 ||api.leakgallery.com/affiliate/
@@ -18202,6 +18205,7 @@ jquery-1.8.3.min.js$domain=straemplay.*|stemplay.*|steamplay.*|steanplay.*|strea
 /custom_code/*.js$domain=torbobit.net
 /files/news/image/offer$domain=torbobit.net|trubobit.com
 /^https:\/\/[a-z-]{5,13}\.[a-z]{2,7}\/[a-z0-9]{1,20}\?[A-Za-z0-9]{15,26}=(?=.*[A-Z])[A-Za-z0-9%]{35,2000}$/$xmlhttprequest,third-party,match-case
+||trend48.st/adcash-auto.js
 /api/*$script,~third-party,domain=mapple.*|mapplee.com|mapple.rip|lightflix.app|mappl.tv
 /^https:\/\/www\.locopelis\.com\/[a-z0-9][a-z0-9][a-z0-9][a-z0-9][a-z0-9][a-z0-9]\.js$/$script,match-case
 /^https:\/\/vidzy\.org\/[a-z0-9][a-z0-9][a-z0-9][a-z0-9][a-z0-9][a-z0-9][a-z0-9][a-z0-9]\.js$/$script,match-case
@@ -20460,6 +20464,9 @@ $csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: www.googletagma
 @@||beinconnect.com.tr^$stealth
 @@||account.adobe.com^$document,domain=services.adobe.com,stealth=useragent
 @@||adguard.com^$stealth
+@@/embed/*$subdocument,stealth=referrer,domain=trend48.st
+@@||epiembeds.online^$subdocument,stealth=referrer,domain=trendy48.site
+@@/seg-$xmlhttprequest,stealth=referrer,domain=flixcloud.cc
 @@||githubusercontent.com^$stealth=referrer,domain=github.com
 @@||topics.smt.docomo.ne.jp^$stealth=useragent
 @@&autoPlay=$subdocument,stealth=referrer,domain=aniwaves.ru|hianimes.ru|guts.to
@@ -25913,7 +25920,6 @@ _800x80_
 ||dateyou2024.com^$document
 ||degreedistance.cfd^$document
 ||demowebcode.online^$document
-||di7stero.com^$document
 ||diagramjawlineunhappy.com^$document
 ||dianomi.com^$document
 ||directdexchange.com^$document
@@ -26315,7 +26321,6 @@ _800x80_
 ||viiyutty.com^$document
 ||viiyxefb.com^$document
 ||vilytaku.com^$document
-||vinstigo.com^$document
 ||viralnewsbd.xyz^$document
 ||viralvideoclip.info^$document
 ||virelon.com^$document
@@ -26420,7 +26425,6 @@ _800x80_
 ||adflyer.media^$third-party
 ||adforgames.com^$third-party
 ||adforge.io^$third-party
-||adfrika.com^$third-party
 ||adgage.es^$third-party
 ||adgatemedia.com^$third-party
 ||adgear.com^$third-party
@@ -26718,7 +26722,6 @@ _800x80_
 ||bannersnack.net^$third-party,domain=~bannersnack.dev
 ||bannerweb.com^$third-party
 ||bannieres-a-gogo.com^$third-party
-||baronsoffers.com^$third-party
 ||bbelements.com^$third-party
 ||bbuni.com^$third-party
 ||beaconadnetwork.com^$third-party

@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Conservative
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202608302329
-! Last modified: 2026-08-30T23:29:12Z
+! Version: 202608310528
+! Last modified: 2026-08-31T05:28:41Z
 ! Layers: network,content,scriptlet
 ! Mode: conservative
-! Rules: 108711
+! Rules: 108719
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -16334,6 +16334,7 @@ rvlev.com,t66y.com#?#[class]:-abp-has(>a[onmouseover="this.style.background='#DE
 rvlev.com,t66y.com#?#[class]:-abp-has(>a[onmouseover="this.style.background='#DEF5CD';"]:nth-child(n+180):-abp-contains(/赌|娱|澳/)) > :nth-child(-n+188)
 rvlev.com,t66y.com#?#[class]:-abp-has(>a[onmouseover="this.style.background='#DEF5CD';"]:nth-child(n+190):-abp-contains(/赌|娱|澳/)) > :nth-child(-n+195)
 69xx.one,69xx487.xyz,8mav.cc,av411.xyz,cable2055.cc,theav.xyz,thep178.com,theporn.cc,weav.xyz#?#[class]:-abp-has(>a>.q-responsive)
+||greekexternal.com^$popup
 ||emgthroposit.org^$all
 ||degreeeruptionpredator.com^$all
 ||go.mobisla.com^$third-party
@@ -22988,6 +22989,8 @@ $subdocument,third-party,denyallow=disqus.com,domain=love4u.net
 $third-party,script,domain=klto9.com|f2movies.to|hacamchicac.com|yourporngod.com|zinchanmanga.com|yaoimangaonline.com|tututweak.app|mangaraw.ac|eromanga-show.com|hentai-one.com|hentaipaw.com|nukibooks.com|paipancon.com|jgvdata.com|youtubevanced.com|pandamtl.com|mangaplus.shueisha.tv|shueisharaw.tv
 ||linksconsole.com/ad-system/
 ||misc-api.feathermc.com/*/ads/ad_units?
+||hentaihaven.*/api/ads/?placement=
+||7reels.cc/promo/
 ||redscores.com/images/bns/
 ||redscores.com/slot/render/
 ||api.leakgallery.com/affiliate/
@@ -26702,6 +26705,7 @@ jquery-1.8.3.min.js$domain=straemplay.*|stemplay.*|steamplay.*|steanplay.*|strea
 /custom_code/*.js$domain=torbobit.net
 /files/news/image/offer$domain=torbobit.net|trubobit.com
 /^https:\/\/[a-z-]{5,13}\.[a-z]{2,7}\/[a-z0-9]{1,20}\?[A-Za-z0-9]{15,26}=(?=.*[A-Z])[A-Za-z0-9%]{35,2000}$/$xmlhttprequest,third-party,match-case
+||trend48.st/adcash-auto.js
 /api/*$script,~third-party,domain=mapple.*|mapplee.com|mapple.rip|lightflix.app|mappl.tv
 /^https:\/\/www\.locopelis\.com\/[a-z0-9][a-z0-9][a-z0-9][a-z0-9][a-z0-9][a-z0-9]\.js$/$script,match-case
 /^https:\/\/vidzy\.org\/[a-z0-9][a-z0-9][a-z0-9][a-z0-9][a-z0-9][a-z0-9][a-z0-9][a-z0-9]\.js$/$script,match-case
@@ -28916,6 +28920,9 @@ $image,script,stylesheet,subdocument,third-party,xmlhttprequest,domain=animepahe
 @@||tous-sports.fr/js/advertisement-AdBlock.js
 @@||tous-sports.tv/js/advertisement-AdBlock.js
 @@||account.adobe.com^$document,domain=services.adobe.com,stealth=useragent
+@@/embed/*$subdocument,stealth=referrer,domain=trend48.st
+@@||epiembeds.online^$subdocument,stealth=referrer,domain=trendy48.site
+@@/seg-$xmlhttprequest,stealth=referrer,domain=flixcloud.cc
 @@&autoPlay=$subdocument,stealth=referrer,domain=aniwaves.ru|hianimes.ru|guts.to
 @@/embed/*.jpg$subdocument,stealth=referrer,domain=hollymoviehd.cc
 @@/embed/*$third-party,subdocument,stealth=referrer,domain=sportsbite.*
@@ -32587,7 +32594,6 @@ _800x80_
 ||dateyou2024.com^$document
 ||degreedistance.cfd^$document
 ||demowebcode.online^$document
-||di7stero.com^$document
 ||diagramjawlineunhappy.com^$document
 ||dianomi.com^$document
 ||directdexchange.com^$document
@@ -32989,7 +32995,6 @@ _800x80_
 ||viiyutty.com^$document
 ||viiyxefb.com^$document
 ||vilytaku.com^$document
-||vinstigo.com^$document
 ||viralnewsbd.xyz^$document
 ||viralvideoclip.info^$document
 ||virelon.com^$document
@@ -33094,7 +33099,6 @@ _800x80_
 ||adflyer.media^$third-party
 ||adforgames.com^$third-party
 ||adforge.io^$third-party
-||adfrika.com^$third-party
 ||adgage.es^$third-party
 ||adgatemedia.com^$third-party
 ||adgear.com^$third-party
@@ -33392,7 +33396,6 @@ _800x80_
 ||bannersnack.net^$third-party,domain=~bannersnack.dev
 ||bannerweb.com^$third-party
 ||bannieres-a-gogo.com^$third-party
-||baronsoffers.com^$third-party
 ||bbelements.com^$third-party
 ||bbuni.com^$third-party
 ||beaconadnetwork.com^$third-party
@@ -40347,6 +40350,7 @@ audiocircuit.dk,topmanhuas.org,kinotehnik.net,gamekazi.com,donghuaworld.com,nxbr
 ##div.fadeInDown[id$="____equal"][class$="____equal"]
 ###chp_branding
 ##a[id][href="https://chpadblock.com/"][rel="noopener noreferrer"]
+rank1st.in##footer#colophon + div[id][class*=" "]
 paradoxscans.com##body > div[id][class*="_"]
 paradoxscans.com##body > footer ~ h4[class*="_"] + div[class*="_"] + div[class=""] + div[class*="_"]
 paradoxscans.com##body > footer ~ h4[class*="_"] + div[class*="_"] + div[class=""]
@@ -41667,6 +41671,7 @@ maxstream.video#$#div[id][style*="display"] div[id]:not(#play_limit_box,[class*=
 classicreload.com###main-dialog-window
 techbrij.com###adblockerDialog
 beatsnoop.com###levelmaxblock
+hentaihaven.xxx#@#.ad-unit:not(.textads)
 sms24.me,sms24.info##body > div[style^="position: fixed; z-index: 1000"]
 gamemodsbase.com,mc-plugin.com,joymaxtr.net,nullsto.com,gamcka.com,ebookdz.com,lewdcorner.com,scriptzhub.com,iptvapps.net,nabzclan.vip,galaxyos.net,blackhatworld.com,vuinsider.com,secuhex.com,null-scripts.net,aroratr.club,forum.admiregirls.com,worldofiptv.com,mobilkulup.com,vsro.org,crazydl.net,spigotunlocked.com,iptvkalite.com,coldfrm.org,htforum.net,nullscripts.net,onlytech.com,defense-arab.com,metin2hub.com,spigotunlocked.org,crackturkey.com,dpkghub.com,eurocccam.net,forum.shoppingtelly.com,hostingunlock.com,iptvsat-forum.com,isgfrm.com,playstationhaber.com,tamilbrahmins.com,tattle.life,turkishaudiocenter.com##body > div[class*=" "][style^="background"][style*="display: block;"]
 javcl.com#$##ads1 { height: 1px !important; }
@@ -49967,9 +49972,11 @@ animecorner.me,zarabiajprzez24.pl,watchhentai.xxx,app-how-to-use-it.com,linuxcap
 pawastreams.*,nflbite.to,footybite.to,sportschamp.fun,afly.pro,topsporter.net,soccerstreams.football,mysocceraustralia.com,rayinfosports.com,hesgoals.top,sequencecard.xyz,totalsportek.soccer,metaporky.site,nbabite.to,cyfostreams.com,gamerarcades.com,bestreamsports.org,footy.to,mcrypto.club,greaterkashmir.com###id-custom_banner
 pawastreams.*,groundedtechs.com,rayinfosports.com,sequencecard.xyz,matchtime.co,sportspellz.com,bestreamsports.org,silverspoon.site###dismiss-btn
 vi-control.net,nullforums.net,landyzone.co.uk,nullcave.pro,woxmax.com,waskucity.com,babia.to,technofino.in,reef2reef.com,minebbs.com,craxpro.io,affiliatefix.com,myiptvforum.com,hifivision.com,worldofiptv.com,altenen.is,beermoneyforum.com,germancarforum.com,cracking.org##.samBannerUnit
+7reels.cc##.my-3:has(> div.mx-auto > div.rounded-md > button[aria-label="Sponsored"])
 jpopsingles.eu##div[align="center"] > a[href*="?key="][target="_blank"]
 pixhost.cc##a[href^="/resource-session/?go="][rel*="sponsored"]
 techradar.com##aside.ecom-root
+animelok.live##button[aria-label="Play video and view sponsor"]
 streamgoblin.cc#?#.px-4 > .mx-auto:has(> div.text-center:contains(Advertisement))
 kenoshacountyeye.com##.elementor-element > .elementor-widget-container:has(> a[href][target="_blank"] img)
 kenoshacountyeye.com##.kenos-entity-placement:has(> div.kenos-adlabel)
@@ -50101,7 +50108,7 @@ masrawytrend.com###adx-interstitial
 underhentai.net#?#.row > article.post-card:has(> a[href] > div.img-wrapper > div.badge:contains(/^AD$/g))
 underhentai.net##menu > li:has(> a[href="/games/"])
 openinbox.io#?#.overflow-hidden.w-full:has(> div.text-center:contains(Advertisement))
-jerkmotion.com##a[rel="sponsored noopener noreferrer"]
+hentaihaven.xxx,jerkmotion.com##a[rel~="sponsored"]
 jerkmotion.com##div[style="min-height: 90px;"]
 babastream.top##a[href^="https://omg10.com/"]
 hunkypinoy.com##.a-wrap-base
@@ -50127,6 +50134,7 @@ omgubuntu.co.uk##div[style="display: block; min-height: 250px;"]
 deepai.org##div[data-adtype]
 petersenshunting.com##.adpos_rightD
 speedof.me#$?#ins.adsbygoogle { remove: true; }
+speedof.me##.background-container > :is(div,section)[class]:not([class*="-"],[class*="progress"],[class*="cookie"],[class*="footer"])
 speedof.me##body > div.background-container ~ div.history_tooltip ~ [class]
 pornditt.com##.top_nav_menu
 startpage.com###main > div[data-bvs][data-identifier]

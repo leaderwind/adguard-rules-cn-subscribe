@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Content
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202608310528
-! Last modified: 2026-08-31T05:28:41Z
+! Version: 202608311340
+! Last modified: 2026-08-31T13:40:41Z
 ! Layers: content
 ! Mode: standard
-! Rules: 63620
+! Rules: 63632
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -14110,6 +14110,9 @@ skmedix.pl,interia.pl,trojmiasto.pl,js.iplsc.com,pomponik.pl,posty.pl,zalajkowan
 skmedix.pl,interia.pl,trojmiasto.pl,js.iplsc.com,pomponik.pl,posty.pl,zalajkowane.pl,kulinarnapolska.org,wroclawskiejedzenie.pl,innpoland.pl,mywrestling.com.pl,andek.com.pl,smartage.pl,joemonster.org,tajemnice-swiata.pl,naszraciborz.pl,natemat.pl,stadionowioprawcy.net,fortnitepolska.pl,sadistic.pl,napisy24.pl,mamadu.pl,towideo.pl,forsal.pl,kresy.pl,mambiznes.pl,prnews.pl,weszlo.com,dziwneobrazki.pl#@#.text_ad
 skmedix.pl,interia.pl,trojmiasto.pl,js.iplsc.com,pomponik.pl,posty.pl,zalajkowane.pl,kulinarnapolska.org,wroclawskiejedzenie.pl,innpoland.pl,mywrestling.com.pl,andek.com.pl,smartage.pl,joemonster.org,tajemnice-swiata.pl,naszraciborz.pl,natemat.pl,stadionowioprawcy.net,fortnitepolska.pl,sadistic.pl,napisy24.pl,mamadu.pl,towideo.pl,forsal.pl,kresy.pl,mambiznes.pl,prnews.pl,weszlo.com,dziwneobrazki.pl#@#.text_ads
 roweroweporady.pl#@#.ad_container
+newsmed.pl##.page-layout > div.page-box:has(> div.wrapper > aside.ad-aside)
+newsmed.pl##.ad-aside
+newsmed.pl##.bli-ad
 gs24.pl##.componentsPromotionsVideo
 nbi.com.pl##div[data-ads]
 quizowa.pl##div[class^="main-box"]:has(> .adsbygoogle)
@@ -14234,7 +14237,8 @@ crystal-launcher.pl##.content > .ssw:has(> center:only-child > .adsbygoogle)
 crystal-launcher.pl###host > div[data-nosnippet]:has(> center:only-child > script[src*="/invoke.js"])
 blaskonline.pl##.banner-wrapper
 blaskonline.pl##.sponsor-banner
-blaskonline.pl##div[id^="optad_"]
+tysol.pl,blaskonline.pl##div[id^="optad_"]
+tysol.pl#$#.edito-banner { display: none !important; }
 forbot.pl##.targetDivClass > a[target="_blank"] > img
 forbot.pl##div[style*="margin: 0 auto; text-align: center; position: relative;"]:has(> .targetDivClass:only-child > a[target="_blank"] > img)
 chip.pl##.fc-Card14:has(> a[href="https://www.plus.pl/5g"])
@@ -14250,8 +14254,6 @@ wszczecinie.pl##.external-info-wrap
 zabrze24.info##.header__banner
 nano.komputronik.pl##div[id^="nano-"]
 pixelnerd.pl##.article-content > .extra-link:has(> p > a[href^="https://www.amazon.pl/wyprobujprime"])
-cdaction.pl##.start-prm
-cdaction.pl##.article-prm
 vod.naekranie.pl##.wrapper > div[style^="text-align:"]:has(> .ad-label)
 mgsm.pl##a[rel="sponsored"]
 moja-ostroleka.pl###otwarty_artykul > div[style]:has(> div#taboola-below-article-thumbnails)
@@ -14363,8 +14365,6 @@ lublin112.pl##.page_wrap > .container[style^="min-height:"]:has(> ins[data-reviv
 dobreprogramy.pl##div[data-container="true"] > div:has(> div > div > img:not([alt]))
 wiadomoscihandlowe.pl##.container--break-00
 fanipogody.pl##div[id^="oa_placeholder"]
-mjakmalopolska.pl##div.text-center:has(> div.d-inline-block-not-important > small)
-mjakmalopolska.pl##.widget-advert_centralplacement
 primemovies.pl##center > a[target="_blank"] > img
 primemovies.pl##div[data-insertion-position]
 magazif.com##.div-coffebreak-header
@@ -14390,6 +14390,8 @@ bieganie.pl#?#.biega-nb-paris > DIV[style^="text-align:"]:contains(Reklama)
 gospodarkamorska.pl##.Home_categories_box > div.polecamy-slider > div[class*="poster-dnone-"]
 onet.pl##a[href^="https://milionymonet.onet.pl/"]
 pograne.eu###custom_html-8
+cdaction.pl##.start-prm
+cdaction.pl##.article-prm
 gazetki.pl#@#[class$="-ads"]
 eprzasnysz.pl#@#[class*="box-advert"]
 warzywa.pl,jagodowe.pl,wrp.pl,sad24.pl#@#[class$="-ads"]
@@ -15258,7 +15260,7 @@ xgp.pl###hdrbnr
 xgp.pl##div[id^="xgppl-"] > a[target="_blank"] > img
 xgp.pl##div[class^="adslot_"]
 xgp.pl##.entry-content > div[class$="-target"][style^="margin-left: auto; margin-right: auto; text-align: center;"]
-donald.pl##ins[class^="staticpubads"]
+gosc.pl,donald.pl##ins[class^="staticpubads"]
 player.polskieradio.pl##div[class$="__advertisement"]
 player.polskieradio.pl##.app > .antena ~ div[style^="position: absolute; width: 100vw; height: 100vh;"]
 ceneo.pl##.js_promotedItems
@@ -15402,11 +15404,9 @@ pl.ign.com##a[href^="https://bit.ly/"][target="_blank"] > img
 mojaolesnica.pl#?#body > div[style*="min-width: 100%;"][style*="float:"]:has(> div[style] > div[style] > div[style]:contains(reklama))
 filmomaniak.pl##.baner-inner2
 sportowebeskidy.pl##a[href^="https://www.betters.pl/"] > img
-wpolityce.pl##div[class^="adunit-constant-"]
+wpolityce.pl##.fratria-content
 wpolityce.pl#@#.adunit
 wpolityce.pl##.adunit:not(#widget_playlist)
-wpolityce.pl##div[class*="tile--ad"]
-wpolityce.pl##[class^="publication_"][class*="ad-"]
 kryptonotowania.pl##.losowanko
 czasdzieci.pl##div[data-slot="allAds"]
 browsehappy.pl##a[href^="https://brave.com/"][target="_blank"] > img
@@ -16271,9 +16271,11 @@ spottedskarzysko.pl##p[style="text-align: center;"] > a[rel="noopener noreferrer
 spottedskarzysko.pl##p[align="center"] > a[target="_blank"][rel="noopener noreferrer"] > img
 skapiec.pl#?##content > .content-wrapper > h2.before-popularshops:has(> .advertisement)
 skapiec.pl#?##content > .content-wrapper > h2.before-popularshops:has(> .advertisement) + div[class="slider-module-container slim no-background"]
-krosno112.pl,zawszepomorze.pl,raportwarszawski.pl,nowinypolnocne.pl,cozadzien.pl,telewizjagorzow.pl,krosno112.pl,tvswietokrzyska.pl,przegladpiaseczynski.pl##.tipad_tag
-krosno112.pl,zawszepomorze.pl,raportwarszawski.pl,nowinypolnocne.pl,cozadzien.pl,telewizjagorzow.pl,krosno112.pl,tvswietokrzyska.pl,przegladpiaseczynski.pl##div[class*="widget-advert_"]
-krosno112.pl,zawszepomorze.pl,raportwarszawski.pl,nowinypolnocne.pl,cozadzien.pl,telewizjagorzow.pl,krosno112.pl,tvswietokrzyska.pl,przegladpiaseczynski.pl###main-content > .text-center:has(> [class*="d-inline-block"] > .tipad_tag)
+mjakmalopolska.pl,krosno112.pl,zawszepomorze.pl,raportwarszawski.pl,nowinypolnocne.pl,cozadzien.pl,telewizjagorzow.pl,krosno112.pl,tvswietokrzyska.pl,przegladpiaseczynski.pl##.tipad_tag
+mjakmalopolska.pl,krosno112.pl,zawszepomorze.pl,raportwarszawski.pl,nowinypolnocne.pl,cozadzien.pl,telewizjagorzow.pl,krosno112.pl,tvswietokrzyska.pl,przegladpiaseczynski.pl###toplayer:has(.tipad_tag)
+mjakmalopolska.pl,krosno112.pl,zawszepomorze.pl,raportwarszawski.pl,nowinypolnocne.pl,cozadzien.pl,telewizjagorzow.pl,krosno112.pl,tvswietokrzyska.pl,przegladpiaseczynski.pl##div[class*="widget-advert_"]
+mjakmalopolska.pl,krosno112.pl,zawszepomorze.pl,raportwarszawski.pl,nowinypolnocne.pl,cozadzien.pl,telewizjagorzow.pl,krosno112.pl,tvswietokrzyska.pl,przegladpiaseczynski.pl###main-content > .text-center:has(> [class*="d-inline-block"] > .tipad_tag)
+mjakmalopolska.pl,krosno112.pl,zawszepomorze.pl,raportwarszawski.pl,nowinypolnocne.pl,cozadzien.pl,telewizjagorzow.pl,krosno112.pl,tvswietokrzyska.pl,przegladpiaseczynski.pl###main-content > .text-center:has(> span > [class*="d-inline-block"] > .tipad_tag)
 przegladpiaseczynski.pl#$#html[class].wppas-model-open { overflow: visible!important; }
 budujemydom.pl##.magazyn-label
 budujemydom.pl##.byebye
@@ -18939,6 +18941,9 @@ animecorner.me,zarabiajprzez24.pl,watchhentai.xxx,app-how-to-use-it.com,linuxcap
 pawastreams.*,nflbite.to,footybite.to,sportschamp.fun,afly.pro,topsporter.net,soccerstreams.football,mysocceraustralia.com,rayinfosports.com,hesgoals.top,sequencecard.xyz,totalsportek.soccer,metaporky.site,nbabite.to,cyfostreams.com,gamerarcades.com,bestreamsports.org,footy.to,mcrypto.club,greaterkashmir.com###id-custom_banner
 pawastreams.*,groundedtechs.com,rayinfosports.com,sequencecard.xyz,matchtime.co,sportspellz.com,bestreamsports.org,silverspoon.site###dismiss-btn
 vi-control.net,nullforums.net,landyzone.co.uk,nullcave.pro,woxmax.com,waskucity.com,babia.to,technofino.in,reef2reef.com,minebbs.com,craxpro.io,affiliatefix.com,myiptvforum.com,hifivision.com,worldofiptv.com,altenen.is,beermoneyforum.com,germancarforum.com,cracking.org##.samBannerUnit
+golinuxcloud.com##.video-ad-slot
+tech.co##.cta[data-eventcategory="banner-cta-rhs"]
+teamrankings.com##main > div[style]:has(> div[data-stn-player])
 7reels.cc##.my-3:has(> div.mx-auto > div.rounded-md > button[aria-label="Sponsored"])
 jpopsingles.eu##div[align="center"] > a[href*="?key="][target="_blank"]
 pixhost.cc##a[href^="/resource-session/?go="][rel*="sponsored"]
@@ -18959,6 +18964,7 @@ sarkarijobcorner.com,phras.in##.blockcont
 sarkarijobcorner.com,phras.in##.contntblock
 sarkarijobcorner.com,phras.in###ggd-container
 sarkarijobcorner.com,phras.in###blocks-code
+opstream.fun##a[href="/advertise#placements"]
 opstream.fun##aside.sticky:has(> a[href="/advertise#placements"])
 hitsportshdd.xyz###sticky-728x90-ad
 hitsportshdd.xyz##.penci-container__content > .widget-area:has(> .theiaStickySidebar)
@@ -19221,7 +19227,7 @@ heatworld.com##div[class*="_adContainer_"]
 celebtattler.com##.banner1
 celebtattler.com##div[style="width:300px;min-height:250px;"]
 cinehub.one##.watch-sidebar > div.overflow-hidden:has(> div.shrink-0.flex)
-pepper.com##div[data-t="bannerAd"]
+pepperdeals.se,preisjaeger.at,mydealz.de,dealabs.com,promodescuentos.com,pepper.pl,pepper.com##div[data-t="bannerAd"]
 biblestudytools.com##a[target="_blank"] > img
 biblestudytools.com##div:has(> a[target="_blank"]:only-child > img:only-child)
 linkshash.com##div[class^="ad-box"]
@@ -19994,6 +20000,7 @@ psa.wf##a[href^="https://fileserve.com/"]
 uploadg.com##div.backdrop-blur-sm > div.relative > div.flex.rounded-xl
 uploadg.com##.ad-host
 cloudfam.io##.cf-ad-box
+cloudfam.io##.cf-ad-slot
 fapnado.com##.fluid_html_on_pause_container
 fapnado.com##div[style="height: 400px; width: 1240px; margin: 0 auto; text-align: center;"]
 fapnado.com##a[href^="https://www.tckcandy.com/"]
@@ -54317,6 +54324,7 @@ infoq.com##.f_spbox_top_1
 infoq.com##.f_spbox_top_2
 evite.com##.fabric-free-banner-ad__wrapper
 tvtropes.org##.fad
+mgtow.tv##.fads-placment
 slideshare.net##.fallback-ad-container
 guessthe.game,guessthe.house,guesstheangle.wtf,guesstheaudio.com,guessthebook.app,guessthegrid.xyz,guessthelogo.wtf,guessthemovie.name,guessthephrase.xyz##.fallback-footer-ad-shell
 guessthe.game,guessthe.house,guesstheangle.wtf,guesstheaudio.com,guessthebook.app,guessthegrid.xyz,guessthelogo.wtf,guessthemovie.name,guessthephrase.xyz##.fallback-side-ad
@@ -55169,6 +55177,7 @@ lovepanky.com##.lp-inline-inhouse-ad
 greatbritishlife.co.uk##.lp_track_vertical2
 foodandwine.com##.lrs__wrapper
 androidmagazine.eu,samsungmagazine.eu##.lsads-banner
+file.io##.lw_ad
 lowes.com##.lws_pdp_recommendations_southdeep
 phpbb.com##.lynkorama
 songlyrics.com##.lyrics-inner-ad-wrap
@@ -56830,6 +56839,7 @@ jakartaglobe.id##.underlay-ad
 maltatoday.com.mt##.underlay_container
 maltatoday.com.mt##.underlay_spacer
 allclassical.org##.underwriting-container
+ungeek.ph##.ungee-entity-placement
 inquinte.ca##.unit-block
 bobvila.com##.unit-header-container
 sciencedaily.com##.unit1
@@ -57083,6 +57093,7 @@ yandex.com##.yandex-sticky-adv-banner__desktop-disable-ad-button-wrapper
 yardbarker.com##.yb-card-ad
 yardbarker.com##.yb-card-leaderboard
 yardbarker.com##.yb-card-out
+yugatech.com##.ygt-ad-slot
 gamereactor.asia,gamereactor.cn,gamereactor.com.tr,gamereactor.cz,gamereactor.de,gamereactor.dk,gamereactor.es,gamereactor.eu,gamereactor.fi,gamereactor.fr,gamereactor.gr,gamereactor.it,gamereactor.jp,gamereactor.kr,gamereactor.me,gamereactor.nl,gamereactor.no,gamereactor.pl,gamereactor.pt,gamereactor.se,gamereactor.vn##.yks300
 desmoinesregister.com##.ymHyVK__ymHyVK
 shockwave.com##.ympb_target_banner
@@ -57585,7 +57596,7 @@ survivopedia.com##[onclick="recordClick("]
 timesofindia.indiatimes.com##[onclick="stpPgtn(event)"]
 qvc.com##[onclick^="cmCreateManualLinkClickTag"]
 filecrypt.cc,filecrypt.co##[onclick^="var lj"]
-haxmac.cc##[onclick^="window.open"]
+haxmac.cc,haxnode.net##[onclick^="window.open"]
 transfermarkt.co.uk##[referrerpolicy]
 appleinsider.com,dappradar.com,euroweeklynews.com,metro.co.uk,tld-list.com,twitch-tools.rootonline.de,wccftech.com##[rel*="sponsored"]
 warecracks.com,websiteoutlook.com##[rel="nofollow"]
@@ -61023,6 +61034,7 @@ faptor.com##.zpot-horizontal-img
 fapnado.com,fapnado.xxx##.zpot-vertical
 jizzbunker2.com,xxxdan.com,xxxdan3.com##.zx1p
 tnaflix.com##.zzMeBploz
+modelsearcher.com##[aria-label="ms_ads"]
 cheemsporno.com##[class^="Banner_"]
 cheemsporno.com##[class^="PostCard_post-card__adContainer_"]
 rabbitsreviews.com##[class^="_hero-banner-promo_"]

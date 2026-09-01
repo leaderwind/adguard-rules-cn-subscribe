@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Conservative
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202609011452
-! Last modified: 2026-09-01T14:52:19Z
+! Version: 202609011828
+! Last modified: 2026-09-01T18:28:57Z
 ! Layers: network,content,scriptlet
 ! Mode: conservative
-! Rules: 108757
+! Rules: 108763
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -17218,6 +17218,7 @@ rvlev.com,t66y.com#?#[class]:-abp-has(>a[onmouseover="this.style.background='#DE
 ||claimfey.com/cryptonews/wp-content/uploads/bqanwcfp.js
 @@||static.trafficjunky.com/ab/ads_test.js$domain=bztube.com|hotovs.com|insuredhome.org|nudegista.com|pornluck.com|vidd.se|redtube.*|youpornru.com|tube8.com|tube8.es|tube8.fr|tube8.net|pornhub.com|pornhub.org|pornhub.net
 @@://www.exoclick.com/ads.js|
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=1shortlink.com
 ||app.diagnoseo.com/tools/common-js/dsn.js
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=adslink.pw
 ||intercelestial.com/_ac/
@@ -19360,7 +19361,6 @@ $script,redirect-rule=noopjs,domain=vidmoly.biz|vidmoly.me|vidmoly.net|vidmoly.t
 ||cdn.rawgit.com/hasrul11/mass/a68bd824/script.min.js
 @@||cdn.reignn.com/Products/Reignn/DataPixels/AdBlockerCheck/ads.js
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=noopjs,important,domain=1shortlink.com
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=1shortlink.com
 @@||notebookchat.com/ads.js
 ||akunssh.net/assets/js/extra.min.js
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=noopjs,domain=akunssh.net
@@ -21337,6 +21337,7 @@ $script,redirect-rule=noopjs,domain=173.249.8.3
 ||beppegrillo.it/js/cadetect.js
 @@||aranzulla.it^*ads$domain=aranzulla.it
 /img/b/*$domain=khboxhd.com
+||files.maplescouter.com/next/ads^
 ||vesti.lv/www/imgget/imgjs.php?
 ||cdn.tiesraides.lv/app/viblast/*/videojs.vast.js
 ||cdn.tiesraides.lv/app/viblast/*/lib/vast-client.js
@@ -49987,10 +49988,12 @@ animecorner.me,zarabiajprzez24.pl,watchhentai.xxx,app-how-to-use-it.com,linuxcap
 pawastreams.*,nflbite.to,footybite.to,sportschamp.fun,afly.pro,topsporter.net,soccerstreams.football,mysocceraustralia.com,rayinfosports.com,hesgoals.top,sequencecard.xyz,totalsportek.soccer,metaporky.site,nbabite.to,cyfostreams.com,gamerarcades.com,bestreamsports.org,footy.to,mcrypto.club,greaterkashmir.com###id-custom_banner
 pawastreams.*,groundedtechs.com,rayinfosports.com,sequencecard.xyz,matchtime.co,sportspellz.com,bestreamsports.org,silverspoon.site###dismiss-btn
 vi-control.net,nullforums.net,landyzone.co.uk,nullcave.pro,woxmax.com,waskucity.com,babia.to,technofino.in,reef2reef.com,minebbs.com,craxpro.io,affiliatefix.com,myiptvforum.com,hifivision.com,worldofiptv.com,altenen.is,beermoneyforum.com,germancarforum.com,cracking.org##.samBannerUnit
+pornuse.com##.video__info > section:has(> div > div.direct-abnner)
 pornxbit.com##iframe[src^="data:text/html;base64,"]
 telegramchannels.me##.column > div[data-id]:has(> a:only-child)
 magma.com##div[style="width: 728px; height: 90px;"]
 animeschedule.net###page-partner
+katitube.com##.aicreat-wrapper
 katitube.com###vz_im_ad
 astro-seek.com##.vyska-sense
 astro-seek.com##div[style^="height:"]:has(> div.vyska-sense)
@@ -89068,10 +89071,12 @@ unmineablesbest.com##div[class^="uk-visible@"]
 gamingdeputy.com##div[class^="vb-"]
 whatsondisneyplus.com##div[class^="whats-"]
 podchaser.com##div[data-aa-adunit]
+bestbuy.com##div[data-action-name="ad_hp_sbb"]
 csrep.gg##div[data-ad-placement]
 nine.com.au##div[data-ad-target^="header-ad"]
 unsplash.com##div[data-ad="true"]
 deeplol.gg##div[data-ad]
+bestbuy.com##div[data-adfoundry-placement]
 tennews.in##div[data-adid]
 3addedminutes.com,anguscountyworld.co.uk,banburyguardian.co.uk,bedfordtoday.co.uk,biggleswadetoday.co.uk,blackpoolgazette.co.uk,bucksherald.co.uk,burnleyexpress.net,buxtonadvertiser.co.uk,chad.co.uk,daventryexpress.co.uk,derbyshiretimes.co.uk,derbyworld.co.uk,derryjournal.com,dewsburyreporter.co.uk,doncasterfreepress.co.uk,falkirkherald.co.uk,fifetoday.co.uk,glasgowworld.com,halifaxcourier.co.uk,harboroughmail.co.uk,harrogateadvertiser.co.uk,hartlepoolmail.co.uk,hemeltoday.co.uk,hucknalldispatch.co.uk,lancasterguardian.co.uk,leightonbuzzardonline.co.uk,lep.co.uk,lincolnshireworld.com,liverpoolworld.uk,londonworld.com,lutontoday.co.uk,manchesterworld.uk,meltontimes.co.uk,miltonkeynes.co.uk,newcastleworld.com,newryreporter.com,newsletter.co.uk,northamptonchron.co.uk,northantstelegraph.co.uk,northernirelandworld.com,northumberlandgazette.co.uk,nottinghamworld.com,peterboroughtoday.co.uk,portsmouth.co.uk,rotherhamadvertiser.co.uk,scotsman.com,shieldsgazette.com,stornowaygazette.co.uk,sunderlandecho.com,surreyworld.co.uk,thescarboroughnews.co.uk,thesouthernreporter.co.uk,thestar.co.uk,totallysnookered.com,wakefieldexpress.co.uk,warwickshireworld.com,wigantoday.net,worksopguardian.co.uk,yorkshireeveningpost.co.uk,yorkshirepost.co.uk##div[data-ads-params]
 spiegel.de##div[data-advertisement$=":mobile"]
@@ -89497,6 +89502,7 @@ flashscore.*##.section__prematchOdds
 vinted.*##.slot-container--leaderboard
 kaufland.*##.spads-recommender
 deliveroo.*##.splide__slide:has(p[data-testid="sponsored-label"])
+kaufland.*##.sponsored-brand-ads
 kaufland.*##.sponsored-brand-products-container
 douglas.*##.swiper-slide:has(button[data-testid="sponsored-button"])
 kaufland.*##.teaser-orchestration__wrapper--online

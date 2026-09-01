@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Network
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202609011452
-! Last modified: 2026-09-01T14:52:19Z
+! Version: 202609011828
+! Last modified: 2026-09-01T18:28:57Z
 ! Layers: network
 ! Mode: standard
-! Rules: 47674
+! Rules: 47675
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -8340,6 +8340,7 @@ $cookie=__adblocker,domain=slate.com|thehindubusinessline.com
 ||claimfey.com/cryptonews/wp-content/uploads/bqanwcfp.js
 @@||static.trafficjunky.com/ab/ads_test.js$domain=bztube.com|hotovs.com|insuredhome.org|nudegista.com|pornluck.com|vidd.se|redtube.*|youpornru.com|tube8.com|tube8.es|tube8.fr|tube8.net|pornhub.com|pornhub.org|pornhub.net
 @@://www.exoclick.com/ads.js|
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=1shortlink.com
 ||app.diagnoseo.com/tools/common-js/dsn.js
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=adslink.pw
 ||intercelestial.com/_ac/
@@ -10544,7 +10545,6 @@ $script,redirect-rule=noopjs,domain=vidmoly.biz|vidmoly.me|vidmoly.net|vidmoly.t
 ||cdn.rawgit.com/hasrul11/mass/a68bd824/script.min.js
 @@||cdn.reignn.com/Products/Reignn/DataPixels/AdBlockerCheck/ads.js
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=noopjs,important,domain=1shortlink.com
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=1shortlink.com
 @@||notebookchat.com/ads.js
 ||akunssh.net/assets/js/extra.min.js
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=noopjs,domain=akunssh.net
@@ -12587,6 +12587,7 @@ $script,redirect-rule=noopjs,domain=173.249.8.3
 ||beppegrillo.it/js/cadetect.js
 @@||aranzulla.it^*ads$domain=aranzulla.it
 /img/b/*$domain=khboxhd.com
+||files.maplescouter.com/next/ads^
 ||vesti.lv/www/imgget/imgjs.php?
 ||cdn.tiesraides.lv/app/viblast/*/videojs.vast.js
 ||cdn.tiesraides.lv/app/viblast/*/lib/vast-client.js

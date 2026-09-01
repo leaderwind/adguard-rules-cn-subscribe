@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Scriptlet
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202609011828
-! Last modified: 2026-09-01T18:28:57Z
+! Version: 202609012147
+! Last modified: 2026-09-01T21:47:21Z
 ! Layers: scriptlet
 ! Mode: standard
-! Rules: 5579
+! Rules: 5581
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -196,6 +196,8 @@ ggjav.com,porn87.com#%#//scriptlet('abort-current-inline-script', '$', 'popunder
 bde4.com#%#//scriptlet("adjust-setInterval", "timerAdCountdown", "", "0.02")
 5278.cc#%#//scriptlet("prevent-window-open", "88p2p.com")
 theav.xyz,69xx.one,theporn.cc#%#//scriptlet("set-constant", "is_show", "false")
+peachring.com#%#//scriptlet('remove-class', 'hv-pending', 'html')
+peachring.com#%#//scriptlet('prevent-navigation', '/popunder')
 xgcartoon.com#%#//scriptlet('abort-on-stack-trace', 'document.createElement', 'mount_adsqrt_ad')
 hanjuk.com#%#//scriptlet('abort-current-inline-script', 'document.createElement', 'new Function')
 jptt.tv#%#//scriptlet('set-constant', 'player.adList', 'emptyObj')

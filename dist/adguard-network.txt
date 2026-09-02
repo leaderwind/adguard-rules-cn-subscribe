@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Network
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202609021427
-! Last modified: 2026-09-02T14:27:59Z
+! Version: 202609021840
+! Last modified: 2026-09-02T18:40:13Z
 ! Layers: network
 ! Mode: standard
-! Rules: 47680
+! Rules: 47682
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -7450,6 +7450,7 @@ $script,third-party,domain=torkitty.net|torkitty.com|torrentkitty.app|torrentkit
 @@||criteo.com/delivery/ajs.php?zoneid=$script,domain=gaus.ee
 @@||jd.com/adclick?$popup,~third-party
 ||wnacg.com/game/$image,rewrite=abp-resource:1x1-transparent-gif,domain=wnacg.com
+||brightline.tv^$third-party,xmlhttprequest,redirect-rule=noopjson
 ||greekexternal.com^$popup
 ||emgthroposit.org^$all
 ||degreeeruptionpredator.com^$all
@@ -14274,6 +14275,7 @@ http://www.ads.$third-party
 ||react-spring.dev/assets/components-*.js$replace=/throw Error\(.\(418\)\);/null;/,domain=react-spring.dev
 ||appcms-gxr.asset.viewlift.com/build/*/client.*.js$replace=/throw Error\(.\(418\)\);/null;/,domain=gxr.world
 ||cdn.weilf.cn/Templates/*/js/esplugin.js$replace=/type: "Json"\,//,domain=jingxuanyoucheng.com
+||phewcutlet.com^$domain=pembrokeobserver.com
 ||mopo.de/view-resources/dachser2/public/mopo/adshield.js
 /script/www.sparkchess.com.js$domain=sparkchess.com
 ||chzbgr.com/s/release*/js-bundle/moist.js$domain=cheezburger.com

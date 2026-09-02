@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Android
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202609020426
-! Last modified: 2026-09-02T04:26:29Z
+! Version: 202609020935
+! Last modified: 2026-09-02T09:35:15Z
 ! Layers: network,content,scriptlet
 ! Mode: standard
-! Rules: 18207
+! Rules: 18210
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -7560,6 +7560,8 @@ popbee.com##.adblocker
 ##.main-container ~ div[class^="z"][class$="-root"]
 ##.main-container ~ div.z-gate-mask
 icu##.banner-layout-box
+##html[lang="zh-cn"] > body  > header.Mobile-Header + main > div[id][class]
+##.videoPlayContainer > div#video-play + div[data-nosnippet]
 ##.row > div.colVideoList:has(> div.video-elem > a[target="_blank"])
 yfsp.tv,aiyifan.tv,iyf.tv#$#.bg-overlayer { pointer-events: unset !important; }
 baidu.com#$#.ec_wise_ad { position: absolute !important; left: -3000px !important; }
@@ -7639,7 +7641,6 @@ flyert.com.cn##div[style^="width:300px;height:90px;"]
 91porny.com#$#body.modal-open { overflow: auto !important; }
 91porny.com#$#.modal-backdrop { display: none !important; }
 91porny.com#$##warningModal { display: none !important; }
-91porny.com###video-play + div[data-nosnippet]
 techbang.com##.content-top
 digvps.com##aside[data-slot="right"][aria-label] > div > a[target="_blank"]
 applealmond.com##.gam-frame
@@ -10219,7 +10220,7 @@ newduba.cn###jq_youxi
 ##.newsAD
 ##.art-layer-ad
 ##._v_ad_container
-###__nuxt > div > .footer
+###__nuxt > div > .footer > .floatWindow + div:not([class]):not([id])
 ##.kkb-href
 ##.kkm-href
 ##a[href*="/122.51.121.126:"]
@@ -10246,6 +10247,8 @@ newduba.cn###jq_youxi
 ##a[href*=".xacg.info/"]
 ##button[onclick*=".xacg.info/"]
 169bbs.com##.a_f
+kanju.ai##.movie-player-info-ad-grid
+kanju.ai##.movie-player-info-ad-heading
 fuliba2023.net,fuliba2025.net,fuliba.net##.article-topbanner
 techbang.com##.ads-reserve
 json.cn##.show-hide-adv

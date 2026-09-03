@@ -1,6 +1,6 @@
 {
-  "version": "202609030012",
-  "generated_at_utc": "2026-09-03T00:12:41Z",
+  "version": "202609030434",
+  "generated_at_utc": "2026-09-03T04:34:21Z",
   "outputs": [
     {
       "id": "dns",
@@ -10,14 +10,14 @@
         "dns"
       ],
       "mode": "standard",
-      "rules": 243396,
+      "rules": 243430,
       "selected_upstreams": 16,
       "successful_upstreams": 16,
       "preserved_previous": false,
       "cross_layer_removed_pure_domains": 0,
       "compression": {
-        "dns_before_compression": 313433,
-        "dns_after_compression": 243396,
+        "dns_before_compression": 313467,
+        "dns_after_compression": 243430,
         "dns_removed_by_parent_domain": 54255,
         "dns_removed_by_allow": 7502,
         "dns_allow_rules": 8280
@@ -28,13 +28,13 @@
           "name": "AdGuard DNS filter",
           "url": "https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt",
           "ok": true,
-          "input_lines": 181168,
-          "kept": 178649,
+          "input_lines": 181198,
+          "kept": 178679,
           "duplicates": 0,
           "ignored": 2519,
           "routed_to_dns": 0,
           "classified": {
-            "dns": 178649,
+            "dns": 178679,
             "network": 0,
             "content": 0,
             "scriptlet": 0
@@ -85,13 +85,13 @@
           "name": "AdRules DNS List",
           "url": "https://raw.githubusercontent.com/Cats-Team/AdRules/main/dns.txt",
           "ok": true,
-          "input_lines": 198627,
-          "kept": 32928,
-          "duplicates": 165266,
+          "input_lines": 198629,
+          "kept": 32929,
+          "duplicates": 165267,
           "ignored": 433,
           "routed_to_dns": 0,
           "classified": {
-            "dns": 198194,
+            "dns": 198196,
             "network": 0,
             "content": 0,
             "scriptlet": 0
@@ -181,8 +181,8 @@
           "url": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/light.txt",
           "ok": true,
           "input_lines": 41700,
-          "kept": 19884,
-          "duplicates": 21797,
+          "kept": 19885,
+          "duplicates": 21796,
           "ignored": 19,
           "routed_to_dns": 0,
           "classified": {
@@ -295,8 +295,8 @@
           "url": "https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts",
           "ok": true,
           "input_lines": 85427,
-          "kept": 60308,
-          "duplicates": 18294,
+          "kept": 60309,
+          "duplicates": 18293,
           "ignored": 6825,
           "routed_to_dns": 0,
           "classified": {
@@ -313,13 +313,13 @@
           "name": "Pollock hosts",
           "url": "https://someonewhocares.org/hosts/hosts",
           "ok": true,
-          "input_lines": 13379,
-          "kept": 3,
+          "input_lines": 13380,
+          "kept": 4,
           "duplicates": 13049,
           "ignored": 327,
           "routed_to_dns": 0,
           "classified": {
-            "dns": 13052,
+            "dns": 13053,
             "network": 0,
             "content": 0,
             "scriptlet": 0
@@ -346,14 +346,14 @@
         "dns"
       ],
       "mode": "standard",
-      "rules": 243396,
+      "rules": 243430,
       "selected_upstreams": 16,
       "successful_upstreams": 16,
       "preserved_previous": false,
       "cross_layer_removed_pure_domains": 0,
       "compression": {
-        "dns_before_compression": 313433,
-        "dns_after_compression": 243396,
+        "dns_before_compression": 313467,
+        "dns_after_compression": 243430,
         "dns_removed_by_parent_domain": 54255,
         "dns_removed_by_allow": 7502,
         "dns_allow_rules": 8280
@@ -364,13 +364,13 @@
           "name": "AdGuard DNS filter",
           "url": "https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt",
           "ok": true,
-          "input_lines": 181168,
-          "kept": 178649,
+          "input_lines": 181198,
+          "kept": 178679,
           "duplicates": 0,
           "ignored": 2519,
           "routed_to_dns": 0,
           "classified": {
-            "dns": 178649,
+            "dns": 178679,
             "network": 0,
             "content": 0,
             "scriptlet": 0
@@ -421,13 +421,13 @@
           "name": "AdRules DNS List",
           "url": "https://raw.githubusercontent.com/Cats-Team/AdRules/main/dns.txt",
           "ok": true,
-          "input_lines": 198627,
-          "kept": 32928,
-          "duplicates": 165266,
+          "input_lines": 198629,
+          "kept": 32929,
+          "duplicates": 165267,
           "ignored": 433,
           "routed_to_dns": 0,
           "classified": {
-            "dns": 198194,
+            "dns": 198196,
             "network": 0,
             "content": 0,
             "scriptlet": 0
@@ -517,8 +517,8 @@
           "url": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/light.txt",
           "ok": true,
           "input_lines": 41700,
-          "kept": 19884,
-          "duplicates": 21797,
+          "kept": 19885,
+          "duplicates": 21796,
           "ignored": 19,
           "routed_to_dns": 0,
           "classified": {
@@ -631,8 +631,8 @@
           "url": "https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts",
           "ok": true,
           "input_lines": 85427,
-          "kept": 60308,
-          "duplicates": 18294,
+          "kept": 60309,
+          "duplicates": 18293,
           "ignored": 6825,
           "routed_to_dns": 0,
           "classified": {
@@ -649,13 +649,13 @@
           "name": "Pollock hosts",
           "url": "https://someonewhocares.org/hosts/hosts",
           "ok": true,
-          "input_lines": 13379,
-          "kept": 3,
+          "input_lines": 13380,
+          "kept": 4,
           "duplicates": 13049,
           "ignored": 327,
           "routed_to_dns": 0,
           "classified": {
-            "dns": 13052,
+            "dns": 13053,
             "network": 0,
             "content": 0,
             "scriptlet": 0
@@ -2300,15 +2300,15 @@
     }
   ],
   "sha256": {
-    "dist/adguard-dns.txt": "97168204f284bdb2b10585ae0403ee1cc147248df640abc97a3407c0e4fd9a40",
-    "dist/adguard-pending-review.txt": "d008625f03b90278942a7fb7d7d7fda59aa9012aa52243c860b648aa06217e30",
-    "dist/adguard-content.txt": "303f26a332dfbd3a9e8218594ac4352c8d12b0a7887bf02e59e4b6d3917b7d32",
-    "dist/adguard-network.txt": "52e4febb41a8e022b3394287374a1b3b1b5c96d928893559d2aa7281b20ffc06",
-    "dist/adguard-scriptlet.txt": "c16dc571d5ffa7ed2bbe249dcd4aa0b26adc92d1b82b624027123053ab9b0610",
-    "dist/adguard-android.txt": "e5147b20c9da6984c128768d7c12657c2cb0ad43a3955b54a8c2269e55c88c55",
-    "dist/adguard-browser.txt": "acd3a77d81298ede03ba50d824414aff823ab9087654b586288340dfae398f5e",
-    "dist/adguard-windows.txt": "bee6b37045e0baaf4e1e65ce22072a2146adbe25cfecb41ad1b74d5d58d65912",
-    "dist/adguard-conservative.txt": "4392492af3c8691f5efe8157c6899eb9f73bd0437c60df2e6c321c68cb698c99",
-    "dist/adguard-aggressive.txt": "2eb6ebd5655feefe271e2b0a251dbee0d6a0a473354a7f53962b22c7d2256216"
+    "dist/adguard-dns.txt": "a87064f25f61ddf976141166389c758291453de07ebc5aaeb370b943df60fb8e",
+    "dist/adguard-pending-review.txt": "7fb5f183a8c6a17094d5e5168c9002a8be2a030d1baab2c7764a2c231c62dff8",
+    "dist/adguard-content.txt": "7f7c931f4c4f42ae45fed07e5d285e624ee83144a71e154969f24848e007b473",
+    "dist/adguard-network.txt": "5b9aa6ea3b672818a727e5b798c3f42b07209eacc084b83c60ecbcc217a41bb2",
+    "dist/adguard-scriptlet.txt": "6d644d37f0abccb4dabac53d250cade2634fc92adf4a8ca4b15ae00e5007028c",
+    "dist/adguard-android.txt": "6002abcdf281154a2a9162094eb974ab500912555dea48af1e628ed7c31a9893",
+    "dist/adguard-browser.txt": "40abb3ee7c4c551d5361f26874aa5984fdc30c2a816fa5ab29f90a63f99b58ff",
+    "dist/adguard-windows.txt": "6abd8f5c6ebfe9d0a5ac67fefd4513fe87f25b14a8a903bc9265b8b8a58fe27f",
+    "dist/adguard-conservative.txt": "c2bbdcc10c717cd4448c1a0625f84a1259a7a9ada9c9bdbd003dc10745c5a960",
+    "dist/adguard-aggressive.txt": "bd3f09084261d6e5831d3f0d2f6692adab7ee03eae5cdc4aecf9e91669802418"
   }
 }

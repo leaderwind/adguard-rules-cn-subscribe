@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Network
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202609030945
-! Last modified: 2026-09-03T09:45:13Z
+! Version: 202609031432
+! Last modified: 2026-09-03T14:32:05Z
 ! Layers: network
 ! Mode: standard
-! Rules: 47696
+! Rules: 47693
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -1005,7 +1005,6 @@ $script,third-party,denyallow=myqcloud.com|bytecdntp.com|pddpic.com|googletagman
 .com/java/zuoxia.js
 .com/js/a_d/
 .com/js/ad_
-.com/js/addp.js
 .com/js/alls_foot.js
 .com/js/alls_top.js
 .com/js/bnnr_
@@ -1096,7 +1095,6 @@ $script,third-party,denyallow=myqcloud.com|bytecdntp.com|pddpic.com|googletagman
 .xyz/*=$object,third-party
 .xyz/99x/
 .xyz/ad/
-.xyz/js/addp.js
 .xyz/js/ads/
 .xyz/o.js$script,third-party
 .xyz/upload/ad/
@@ -1174,7 +1172,6 @@ $script,third-party,denyallow=myqcloud.com|bytecdntp.com|pddpic.com|googletagman
 /api/Video/GetAdsDataList?
 /app/pcBanner/getBannerConfig/v2
 /app_ad/slade.js
-/Appapi/jjlist.php
 /appnei-huodong.oss-
 /apps/misc.php?action=advert&
 /AShow.aspx?AID=
@@ -1694,7 +1691,6 @@ $script,third-party,denyallow=myqcloud.com|bytecdntp.com|pddpic.com|googletagman
 :818/nowscore/
 :88/999pc/
 :88/lighttpd/default/
-:8888/js/cctv.js
 :8888/mb1/pc_
 :8888/mb1/wap_
 :8888/zhu/pc_
@@ -2037,7 +2033,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||0575bbs.com/updateimeags/
 ||0579.cn/SHow/Showplacenew.aspx
 ||0598yu.com/api.php?mod=ad&
-||0606kk.com/js/index/index.js
 ||07073.com/api/getKfList?
 ||07073.com/pc/js/right-ad.
 ||0722fc.com/index/index.php?/ajax/get_adv/
@@ -5969,7 +5964,6 @@ meijutt.*/js/pcjs/
 ||zt.chuanke.com/?mod=
 ||ztjal.info/wp-content/plugins/kill-adblock/
 ||zuiacg.com/images/client/
-||zuofang05.com/template/mytheme/statics/image/1/
 ||zzsky.com/images/a_d_
 ||zztongyun.com/static/js/sh.
 ||zzz4.com/JS_AD/
@@ -6786,6 +6780,7 @@ meijutt.*/js/pcjs/
 ||17ce.com^*_$image
 /exads-adblock-$image
 ||18comic.*/media/albums/*?$media
+||cszpra.com^*.gif
 ||69t49.com/floating/layer.js
 ||alicdn.com/img/ibank/*_!!2210231227621-0-cib.
 ||alicdn.com/img/ibank/*_!!3820217494-0-cib.
@@ -20485,6 +20480,7 @@ $csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: www.googletagma
 @@||beinconnect.com.tr^$stealth
 @@||account.adobe.com^$document,domain=services.adobe.com,stealth=useragent
 @@||adguard.com^$stealth
+@@||vide.karavid.top^$stealth=referrer
 @@||mwa.co.th^$stealth=dpi
 @@||bdebooks.com/*/book-download/?$stealth=referrer
 @@/embed/*$subdocument,stealth=referrer,domain=trend48.st
@@ -46898,6 +46894,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||adobedtm.com^*/s-code-$script
 @@||adobedtm.com^*/satellite-$script
 @@||aeries.net^*/require/analytics/views/$script,~third-party
+@@||agoda.net/cdn-supply-iam/static/js/webanalytics.$domain=agoda.com
 @@||ajio.com/static/assets/vendors~static/chunk/common/libraries/fingerprintjs2.$script,~third-party
 @@||akamaihd.net/nbad/player/*/appmeasurement.js$domain=watch.nba.com
 @@||akamaihd.net/nbad/player/*/visitorapi.js$domain=watch.nba.com

@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Network
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202609030434
-! Last modified: 2026-09-03T04:34:21Z
+! Version: 202609030945
+! Last modified: 2026-09-03T09:45:13Z
 ! Layers: network
 ! Mode: standard
-! Rules: 47683
+! Rules: 47696
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -7219,6 +7219,9 @@ $script,third-party,domain=colamanga.com
 @@.com/logo/ad.$domain=colamanga.com
 @@||cloudflare.net^$script,domain=colamanga.com
 ||colamanga.com/sw.js
+||kelv47.xyz^*.gif
+||towm85.xyz^*.gif
+/_next/static/chunks/00zo5_naxp4vi.
 ||22588888.com^$popup
 ||2481e.com^$popup
 ||693836.com^$popup
@@ -7450,6 +7453,7 @@ $script,third-party,domain=torkitty.net|torkitty.com|torrentkitty.app|torrentkit
 @@||criteo.com/delivery/ajs.php?zoneid=$script,domain=gaus.ee
 @@||jd.com/adclick?$popup,~third-party
 ||wnacg.com/game/$image,rewrite=abp-resource:1x1-transparent-gif,domain=wnacg.com
+||waytogrow.com^$third-party
 ||brightline.tv^$third-party,xmlhttprequest,redirect-rule=noopjson
 ||greekexternal.com^$popup
 ||emgthroposit.org^$all
@@ -9382,9 +9386,12 @@ fag/js/lol.js$~third-party,domain=privatenudes.com|bin.sx
 @@||cdn.fuseplatform.net/publift/tags/*/fuse.js$domain=quackr.io
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=tempumail.com
 @@||ads.host-cdn.net/ads2.js
+/s/*.js|$script,domain=pahe.plus|aii.sh
 ||fakcb.tpi.li/
-$xmlhttprequest,redirect-rule=nooptext,domain=oko.sh|tii.la
+$xmlhttprequest,redirect-rule=nooptext,domain=oko.sh|tii.la|pahe.plus|aii.sh
 $script,redirect-rule=noopjs,domain=oko.sh|tii.la
+@@.js|$xmlhttprequest,domain=pahe.plus|aii.sh
+@@||pahe.plus^$generichide
 @@||aii.sh^$generichide
 @@||tii.la^$generichide
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=aii.sh|tii.la|oko.sh|tpi.li|oii.la
@@ -12684,6 +12691,7 @@ $script,redirect-rule=noopjs,domain=173.249.8.3
 ||weszlo.com/wp-content/themes/weszlo/questpass.js
 ||lib.wtg-ads.com/prebid/prebid_*.js$xmlhttprequest,redirect=nooptext
 @@||lib.wtg-ads.com/prebid/prebid_*.js$domain=tvn.pl
+||debica24.pl/static/files/inline_images/*/inline__
 ||nbi.com.pl/*/v*/ads
 ||docchi.pl/api/addon/
 ||e-katalog.pl/*.php?idb_=$subdocument,~third-party
@@ -13168,6 +13176,7 @@ wykop.pl$badfilter
 @@||shareinfo.pl^$generichide
 @@||skmedix.pl^$generichide
 ||cache.splashandroll.com/handler.js?pub=
+||onnetwork.tv^$domain=mistrzowie.org|kwejk.pl
 @@||kwejk.pl^$generichide
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=swipeto.pl
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,redirect=noopjs,domain=tvp.pl|swipeto.pl|tvp.info|tvpparlament.pl
@@ -14092,7 +14101,7 @@ _ad_content.
 /getStartPageAds
 /getads?
 /tghr.js$script
-/services/?ix=*&rt=$third-party,script
+/services/*^ix=*&rt=$third-party,script
 /wp-content/plugins/bw-newstack-addon-monetization/*
 /btag.min.js
 /wp-content/plugins/1shortlink/*
@@ -44667,6 +44676,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||etfstream.com/api/proxy/get-search-sponsor
 ||etsy.com/bcn/beacon
 ||etsy.com/clientlog
+||eventbrite.com/metrics/
 ||eventhub.au01.miro.com/api/stream
 ||eventhub.eu01.miro.com/api/stream
 ||eventhub.us01.miro.com/api/stream
@@ -44906,6 +44916,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||jockey.com/scripts/omt-base.js
 ||joggo.run/api/events
 ||johnlewis.com/browser-performance/
+||joomag.com/collect-bulk?
 ||js.monitor.azure.com/scripts/c/ms.analytics-web-4.min.js$domain=microsoft.com
 ||js.monitor.azure.com/scripts/c/ms.shared.analytics.$domain=microsoft.com
 ||julius.ai/monitoring
@@ -45561,6 +45572,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ultimate-guitar.com/components/ab/event?
 ||ultimedia.com/deliver/statistiques/
 ||unity3d.com/v1/events
+||unleash.zenchef.com/api/frontend/client/metrics
 ||unsplash.com/nmetrics
 ||untappd.com/profile/impression?
 ||up4stream.com/js/anti.js
@@ -46594,6 +46606,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||shipping.jp/raa/rd.js
 ||shopch.jp/com/js/analytics.js
 ||shueisha.online/op/analytics.js
+||sidecar.unext.jp/track/
 ||so-zou.jp/js/ga.js
 ||socialxup.com/api/sale-accounts
 ||softonic.jp/web-stats

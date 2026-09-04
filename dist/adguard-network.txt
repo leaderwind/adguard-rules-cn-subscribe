@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Network
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202609040426
-! Last modified: 2026-09-04T04:26:45Z
+! Version: 202609040936
+! Last modified: 2026-09-04T09:36:29Z
 ! Layers: network
 ! Mode: standard
-! Rules: 47693
+! Rules: 47704
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -8413,6 +8413,8 @@ $cookie=__adblocker,domain=slate.com|thehindubusinessline.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=firestream.to
 ||leeapk.com/wp-content/plugins/leeapk-adblock-detector/
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=leeapk.com
+@@||leeapk.com^$generichide
+@@||googleads.g.doubleclick.net/pagead/id?r=$domain=leeapk.com
 @@||static.doubleclick.net/instream/ad_status.js$domain=flacdownloader.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=flacdownloader.com
 ||magesy.net/juan.js
@@ -12825,6 +12827,7 @@ $script,redirect-rule=noopjs,domain=173.249.8.3
 /kasynos_online.png
 /1unibet.png
 ||polskiprzemysl.com.pl/wp-content/themes/wp_polskiprzemysl/js/fullscreen-ad.js
+||onnetwork.tv^$domain=niezalezna.pl
 ||polskieradio.pl/_images/baner/
 @@||senda.pl/ads/*.js$~third-party
 ||googletagmanager.com/gtag/js?id=$script,redirect=noopjs,domain=senda.pl
@@ -14454,6 +14457,14 @@ $subdocument,third-party,denyallow=disqus.com,domain=love4u.net
 $third-party,script,domain=klto9.com|f2movies.to|hacamchicac.com|yourporngod.com|zinchanmanga.com|yaoimangaonline.com|tututweak.app|mangaraw.ac|eromanga-show.com|hentai-one.com|hentaipaw.com|nukibooks.com|paipancon.com|jgvdata.com|youtubevanced.com|pandamtl.com|mangaplus.shueisha.tv|shueisharaw.tv
 ||linksconsole.com/ad-system/
 ||misc-api.feathermc.com/*/ads/ad_units?
+||1rpc.io^$domain=webrick.com
+||rpc.ankr.com^$domain=webrick.com
+||polygon.drpc.org^$domain=webrick.com
+||polygon-public.nodies.app^$domain=webrick.com
+||polygon.gateway.tenderly.co^$domain=webrick.com
+||rpc-mainnet.matic.quiknode.pro^$domain=webrick.com
+||polygon-bor-rpc.publicnode.com^$domain=webrick.com
+||polygon-mainnet.public.blastapi.io^$domain=webrick.com
 ||lowendtalk.com/uploads/editor/*.gif
 ||magma.com/assets/brand/magma/components/*/horizontal/$image
 ||katitube.com/includes/instantmessage/iframvideoai.php

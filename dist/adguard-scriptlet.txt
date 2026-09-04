@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Scriptlet
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202609040426
-! Last modified: 2026-09-04T04:26:45Z
+! Version: 202609040936
+! Last modified: 2026-09-04T09:36:29Z
 ! Layers: scriptlet
 ! Mode: standard
-! Rules: 5588
+! Rules: 5590
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -508,8 +508,8 @@ firestream.to#%#//scriptlet('prevent-element-src-loading', 'script', 'googleapis
 sportsbite.org,sportsbite.*,sportsbite.lol#%#//scriptlet('prevent-fetch', '/adsbygoogle|divorceabetpiano\.com/')
 unicorn.asso.eu.org#%#//scriptlet('prevent-fetch', 'method:HEAD')
 unicorn.asso.eu.org#%#//scriptlet('set-constant', 'document.hidden', 'true')
+leeapk.com#%#//scriptlet('remove-node-text', 'script', 'baitCheck')
 leeapk.com#%#//scriptlet('prevent-element-src-loading', 'script', 'adsbygoogle')
-leeapk.com#%#//scriptlet('prevent-setTimeout', 'bait')
 flacdownloader.com#%#//scriptlet('remove-node-text', 'script', 'baits')
 pornhex.com#%#//scriptlet('prevent-setTimeout', 'Adblock')
 kodibeginner.com#%#//scriptlet('prevent-setTimeout', 'ai_adb_detected')
@@ -2599,6 +2599,7 @@ port.hu#%#//scriptlet("prevent-setTimeout", "/\.offsetHeight === 0[\s\S]*?\.appe
 embed.indavideo.hu#%#//scriptlet("set-constant", "AdHandler.adblocked", "0")
 embed.indavideo.hu#%#//scriptlet("set-constant", "videodata.adBlockEnabled", "0")
 airtelxstream.in#%#//scriptlet('google-ima3-dai')
+123telugu.com#%#//scriptlet('adjust-setTimeout', 'window.location.href = HOME', '15000', '0.001')
 123telugu.com#%#//scriptlet('trusted-click-element', 'a[aria-label="Return to 123telugu home page"]')
 digit.in#%#//scriptlet("set-constant", "textAdsList", "emptyObj")
 dinamalar.com#%#//scriptlet("abort-current-inline-script", "$", ".style.display=")
@@ -4778,6 +4779,7 @@ www.youtube.com#%#//scriptlet('set-constant', 'ytcfg.data_.EXPERIMENT_FLAGS.web_
 www.youtube.com#%#//scriptlet('prevent-setTimeout', '(),a,b)', '5000')
 m.youtube.com#%#//scriptlet('json-prune', 'playerResponse.messages.[].youThereRenderer')
 m.youtube.com#%#(()=>{const t={apply:(t,e,n)=>{if(location.href.includes("/shorts/")||location.href.includes("youtube.com/tv")||location.href.includes("youtube.com/embed/"))return Reflect.apply(t,e,n);try{const a=n[0];if(!a?.context?.client)return Reflect.apply(t,e,n);const o=String(Date.now());a.playbackContext&&void 0===a.playbackContext.adPlaybackContext&&(a.playbackContext.contentPlaybackContext.lactMilliseconds=o),a.playerRequest&&void 0===a.playerRequest.playbackContext?.adPlaybackContext&&(a.playerRequest.playbackContext.contentPlaybackContext.lactMilliseconds=o),n[0]=a}catch(t){}return Reflect.apply(t,e,n)}};window.JSON.stringify=new Proxy(window.JSON.stringify,t)})();
+webrick.com#%#//scriptlet('abort-current-inline-script', 'atob', 'new Uint8Array(_0x')
 seturl.in#%#//scriptlet('prevent-navigation', 'ey43.com')
 xdabo.com#%#//scriptlet('prevent-window-open')
 cnn.com#%#//scriptlet('prevent-xhr', 'brightline.tv')

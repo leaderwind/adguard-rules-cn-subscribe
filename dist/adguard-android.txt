@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Android
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202609040426
-! Last modified: 2026-09-04T04:26:45Z
+! Version: 202609040936
+! Last modified: 2026-09-04T09:36:29Z
 ! Layers: network,content,scriptlet
 ! Mode: standard
-! Rules: 18185
+! Rules: 18186
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -9237,6 +9237,7 @@ adguard.info,adguard.com,adguard.app##.hello_from_adguard_chinese
 adguard.info,adguard.com,adguard.app##.hello_from_adguard_apps
 adguard.info,adguard.com,adguard.app##.hello_from_adguard_ext
 adguard.info,adguard.com,adguard.app#$#.hello_from_adguard_advanced_protection_ios { display: none !important; }
+forums.digitalspy.com#@#body .has-ad
 chicagoreader.com#@#.ad-above-footer
 thebaynet.com#@#.ad-above-footer
 mnya.tw#@##advertise

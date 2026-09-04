@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Content
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202609040004
-! Last modified: 2026-09-04T00:04:05Z
+! Version: 202609040426
+! Last modified: 2026-09-04T04:26:45Z
 ! Layers: content
 ! Mode: standard
-! Rules: 63659
+! Rules: 63661
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -2741,8 +2741,6 @@ newduba.cn###jq_youxi
 ###index_banner[src*=".imgdd.com"]
 ###ad-float.kyty
 ##.banner-adv-new
-##.m0auto > div:not([class]):not([id]) > div > .swiper-initialized
-##.grid > .m0auto > div > .grid + div:not([class]):not([id])
 ##a[href^="/archives/"] > .post-card > .blog-background[style*="gif;base64"]
 ###banner_links.banner-container
 ##.a-media.ex-728-90
@@ -8470,6 +8468,7 @@ jm18c-oec.club,18comic.org,18comic.vip,18comic.ink#?#:has(>script+ins)
 jm18c-oec.club,18comic.org,18comic.vip,18comic.ink#?#:not(body):has(>script[src*=".realsrv.com"])
 jm18c-oec.club,18comic.org,18comic.vip,18comic.ink#?#div[data-group]:has(>.group-notice)
 ##body > #__nuxt:first-child > div > .container > .top-menu + div[class]
+##body > #__nuxt:first-child > div > .footer > .floatWindow + div[data-tag]
 ##.kkb-href
 ##.kkm-href
 58.com###rightRetui
@@ -8631,6 +8630,9 @@ hpjav.tv##body > div[style^="position: fixed;"]
 ##a[onclick^="gtag"] > .add
 ##style + .topd
 ##style + .topd + .bottomd
+##body > noscript + #root > div > div > .grid + div[role] + div + div
+##body > noscript + #root > div > div > .grid + div[role] + div
+##body > noscript + #root > div > div > .grid > .m0auto > div > div:last-child
 googleads.g.doubleclick.net###mys-wrapper
 bamxs.com###inglestore
 bamxs.com##body > a
@@ -8911,7 +8913,6 @@ jm18c-oec.club,18comic.org,18comic.vip,18comic.ink#?#:-abp-has(>ins+style)
 jm18c-oec.club,18comic.org,18comic.vip,18comic.ink#?#:-abp-has(>script+ins)
 jm18c-oec.club,18comic.org,18comic.vip,18comic.ink#?#:not(body):-abp-has(>script[src*=".realsrv.com"])
 jm18c-oec.club,18comic.org,18comic.vip,18comic.ink#?#div[data-group]:-abp-has(>.group-notice)
-##body > #__nuxt:first-child > div > .footer > .floatWindow + div[data-tag]
 58.com#?#.ac_item:-abp-has(.jingpin)
 58.com#?#.business_main:-abp-has(> .business_desc > .left > .ding_icon)
 58.com#?#.zzinfo:-abp-has(.zhiding_icon)
@@ -35383,7 +35384,7 @@ elektroda.de,elektroda.com,elektroda.pl##.JWzeW7p9as
 elektroda.de,elektroda.com,elektroda.pl##div[style="min-height: 265px;"]
 elektroda.de,elektroda.com,elektroda.pl##.VNByCMZS9T
 xmilf.com,xjav.tube,manysex.tube,manysex.com##.videoplayer + section
-xjav.tube,gaytxxx.com,transtxxx.com,txxxporn.tube,txxx.*,hotmovs.*##.videos-tube-friends
+voyeurhit.com,xjav.tube,gaytxxx.com,transtxxx.com,txxxporn.tube,txxx.*,hotmovs.*##.videos-tube-friends
 01tube.com#?#.wrapper > section:matches-attr(/data-v/)
 vjav.com##.headline--da
 vjav.com##.nativ-vjav
@@ -54079,6 +54080,7 @@ the-sun.com,thescottishsun.co.uk,thesun.co.uk,thesun.ie##.customiser-v2-layout-1
 the-sun.com,thescottishsun.co.uk,thesun.co.uk,thesun.ie##.customiser-v2-layout-three-native-ad-container
 f150lightningforum.com##.customizedBox
 coincarp.com##.customspon
+stuff.co.nz##.cw-hp-top-banner-container
 citywire.com##.cw-top-advert
 futurecurrencyforecast.com##.cwc-tor-widget
 marketwatch.com##.cxense-loading

@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Android
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202609040004
-! Last modified: 2026-09-04T00:04:05Z
+! Version: 202609040426
+! Last modified: 2026-09-04T04:26:45Z
 ! Layers: network,content,scriptlet
 ! Mode: standard
-! Rules: 18186
+! Rules: 18185
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -5418,8 +5418,6 @@ meijutt.*/js/pcjs/
 ||sxeimg.com/u/20191108/13082210.gif
 ||syseen.com/content/uploadfile/*/hongbao.png
 ||sysin.org/img/promotion-
-||szaction.cc/public/*/plugins/
-||szaction.cc/public/*/assets/js/custom/tt.
 ||szfcol.com/images/wxright240.jpg
 ||szfcol.com/js/siteAd.js
 ||szgpmy.com/js/
@@ -10164,8 +10162,6 @@ newduba.cn###jq_youxi
 ###index_banner[src*=".imgdd.com"]
 ###ad-float.kyty
 ##.banner-adv-new
-##.m0auto > div:not([class]):not([id]) > div > .swiper-initialized
-##.grid > .m0auto > div > .grid + div:not([class]):not([id])
 ##a[href^="/archives/"] > .post-card > .blog-background[style*="gif;base64"]
 ###banner_links.banner-container
 ##.a-media.ex-728-90
@@ -15893,6 +15889,7 @@ jm18c-oec.club,18comic.org,18comic.vip,18comic.ink#?#:has(>script+ins)
 jm18c-oec.club,18comic.org,18comic.vip,18comic.ink#?#:not(body):has(>script[src*=".realsrv.com"])
 jm18c-oec.club,18comic.org,18comic.vip,18comic.ink#?#div[data-group]:has(>.group-notice)
 ##body > #__nuxt:first-child > div > .container > .top-menu + div[class]
+##body > #__nuxt:first-child > div > .footer > .floatWindow + div[data-tag]
 ##.kkb-href
 ##.kkm-href
 58.com###rightRetui
@@ -16054,6 +16051,9 @@ hpjav.tv##body > div[style^="position: fixed;"]
 ##a[onclick^="gtag"] > .add
 ##style + .topd
 ##style + .topd + .bottomd
+##body > noscript + #root > div > div > .grid + div[role] + div + div
+##body > noscript + #root > div > div > .grid + div[role] + div
+##body > noscript + #root > div > div > .grid > .m0auto > div > div:last-child
 googleads.g.doubleclick.net###mys-wrapper
 bamxs.com###inglestore
 bamxs.com##body > a
@@ -16638,7 +16638,6 @@ jm18c-oec.club,18comic.org,18comic.vip,18comic.ink#?#:-abp-has(>ins+style)
 jm18c-oec.club,18comic.org,18comic.vip,18comic.ink#?#:-abp-has(>script+ins)
 jm18c-oec.club,18comic.org,18comic.vip,18comic.ink#?#:not(body):-abp-has(>script[src*=".realsrv.com"])
 jm18c-oec.club,18comic.org,18comic.vip,18comic.ink#?#div[data-group]:-abp-has(>.group-notice)
-##body > #__nuxt:first-child > div > .footer > .floatWindow + div[data-tag]
 58.com#?#.ac_item:-abp-has(.jingpin)
 58.com#?#.business_main:-abp-has(> .business_desc > .left > .ding_icon)
 58.com#?#.zzinfo:-abp-has(.zhiding_icon)

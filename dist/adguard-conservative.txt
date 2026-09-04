@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Conservative
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202609040004
-! Last modified: 2026-09-04T00:04:05Z
+! Version: 202609040426
+! Last modified: 2026-09-04T04:26:45Z
 ! Layers: network,content,scriptlet
 ! Mode: conservative
-! Rules: 108790
+! Rules: 108792
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -5389,8 +5389,6 @@ meijutt.*/js/pcjs/
 ||sxeimg.com/u/20191108/13082210.gif
 ||syseen.com/content/uploadfile/*/hongbao.png
 ||sysin.org/img/promotion-
-||szaction.cc/public/*/plugins/
-||szaction.cc/public/*/assets/js/custom/tt.
 ||szfcol.com/images/wxright240.jpg
 ||szfcol.com/js/siteAd.js
 ||szgpmy.com/js/
@@ -10108,8 +10106,6 @@ newduba.cn###jq_youxi
 ###index_banner[src*=".imgdd.com"]
 ###ad-float.kyty
 ##.banner-adv-new
-##.m0auto > div:not([class]):not([id]) > div > .swiper-initialized
-##.grid > .m0auto > div > .grid + div:not([class]):not([id])
 ##a[href^="/archives/"] > .post-card > .blog-background[style*="gif;base64"]
 ###banner_links.banner-container
 ##.a-media.ex-728-90
@@ -15837,6 +15833,7 @@ jm18c-oec.club,18comic.org,18comic.vip,18comic.ink#?#:has(>script+ins)
 jm18c-oec.club,18comic.org,18comic.vip,18comic.ink#?#:not(body):has(>script[src*=".realsrv.com"])
 jm18c-oec.club,18comic.org,18comic.vip,18comic.ink#?#div[data-group]:has(>.group-notice)
 ##body > #__nuxt:first-child > div > .container > .top-menu + div[class]
+##body > #__nuxt:first-child > div > .footer > .floatWindow + div[data-tag]
 ##.kkb-href
 ##.kkm-href
 58.com###rightRetui
@@ -15998,6 +15995,9 @@ hpjav.tv##body > div[style^="position: fixed;"]
 ##a[onclick^="gtag"] > .add
 ##style + .topd
 ##style + .topd + .bottomd
+##body > noscript + #root > div > div > .grid + div[role] + div + div
+##body > noscript + #root > div > div > .grid + div[role] + div
+##body > noscript + #root > div > div > .grid > .m0auto > div > div:last-child
 googleads.g.doubleclick.net###mys-wrapper
 bamxs.com###inglestore
 bamxs.com##body > a
@@ -16292,7 +16292,6 @@ jm18c-oec.club,18comic.org,18comic.vip,18comic.ink#?#:-abp-has(>ins+style)
 jm18c-oec.club,18comic.org,18comic.vip,18comic.ink#?#:-abp-has(>script+ins)
 jm18c-oec.club,18comic.org,18comic.vip,18comic.ink#?#:not(body):-abp-has(>script[src*=".realsrv.com"])
 jm18c-oec.club,18comic.org,18comic.vip,18comic.ink#?#div[data-group]:-abp-has(>.group-notice)
-##body > #__nuxt:first-child > div > .footer > .floatWindow + div[data-tag]
 58.com#?#.ac_item:-abp-has(.jingpin)
 58.com#?#.business_main:-abp-has(> .business_desc > .left > .ding_icon)
 58.com#?#.zzinfo:-abp-has(.zhiding_icon)
@@ -22849,6 +22848,8 @@ http://www.ads.$third-party
 ||hk01.com^$document,replace=/"enableShieldScript":true/"enableShieldScript":false/
 /loader.min.js$important,domain=neoseeker.com|gutefrage.net|motorradfrage.net|sportlerfrage.net|finanzfrage.net|reisefrage.net|gesundheitsfrage.net|computerfrage.net|autofrage.net
 /lib.js|$important,domain=petbook.de
+.com/legacy/*.js|$script,third-party,domain=intelligencer.ca
+.com/store/*.js|$script,third-party,domain=standard-freeholder.com
 .com/script/*.js|$script,third-party,domain=jmty.jp|dolldivine.com|knowt.com|thefreebieguy.com|blogmura.com|gruene-zitate.de|myforecast.com|jawapos.com|picks.my|motor-talk.de|worldhistory.org|kr-weathernews.com|newser.com|zerogpt.com|smithsonianmag.com|slickdeals.net|signupgenius.com|saabcentral.com|reneweconomy.com.au|newser.com|laposte.net|deckshop.pro|auone.jp|emojipedia.org|nicovideo.jp|cpu-monkey.com|dic.pixiv.net|ameblo.jp
 ://www.*.xyz/script/$script,third-party,domain=jmty.jp|dolldivine.com|knowt.com|thefreebieguy.com|blogmura.com|gruene-zitate.de|myforecast.com|jawapos.com|picks.my|motor-talk.de|worldhistory.org|kr-weathernews.com|newser.com|zerogpt.com|smithsonianmag.com|slickdeals.net|signupgenius.com|saabcentral.com|reneweconomy.com.au|newser.com|laposte.net|deckshop.pro|auone.jp|emojipedia.org|cpu-monkey.com|dic.pixiv.net|ameblo.jp
 ||19706903.xyz^$domain=pravda.com.ua|jutarnji.hr|sporx.com|ap7am.com
@@ -29247,8 +29248,8 @@ $image,script,stylesheet,subdocument,third-party,xmlhttprequest,domain=animepahe
 @@||grimoireoss-pa.clients6.google.com^$domain=source.chromium.org,stealth=referrer
 @@||api.athom.com^$domain=my.homey.app,stealth=3p-auth
 @@/wiki.php?player=$third-party,subdocument,stealth=referrer,domain=wikisport.info
-@@/e/*$third-party,subdocument,stealth=referrer,domain=dlstreams.st
-@@.php?id=$third-party,subdocument,stealth=referrer,domain=dlstreams.st
+@@/e/*$third-party,subdocument,stealth=referrer,domain=dlive.sx
+@@.php?id=$third-party,subdocument,stealth=referrer,domain=dlive.sx
 @@/embed/*$subdocument,stealth=referrer,domain=strims.*|daddyhd.com|daddylive.*
 @@||cloudfront.net^$domain=postype.com,stealth=referrer,image
 @@||v.shoosh.co^$media,stealth=referrer
@@ -66410,7 +66411,7 @@ elektroda.de,elektroda.com,elektroda.pl##.JWzeW7p9as
 elektroda.de,elektroda.com,elektroda.pl##div[style="min-height: 265px;"]
 elektroda.de,elektroda.com,elektroda.pl##.VNByCMZS9T
 xmilf.com,xjav.tube,manysex.tube,manysex.com##.videoplayer + section
-xjav.tube,gaytxxx.com,transtxxx.com,txxxporn.tube,txxx.*,hotmovs.*##.videos-tube-friends
+voyeurhit.com,xjav.tube,gaytxxx.com,transtxxx.com,txxxporn.tube,txxx.*,hotmovs.*##.videos-tube-friends
 01tube.com#?#.wrapper > section:matches-attr(/data-v/)
 vjav.com##.headline--da
 vjav.com##.nativ-vjav
@@ -85098,6 +85099,7 @@ the-sun.com,thescottishsun.co.uk,thesun.co.uk,thesun.ie##.customiser-v2-layout-1
 the-sun.com,thescottishsun.co.uk,thesun.co.uk,thesun.ie##.customiser-v2-layout-three-native-ad-container
 f150lightningforum.com##.customizedBox
 coincarp.com##.customspon
+stuff.co.nz##.cw-hp-top-banner-container
 citywire.com##.cw-top-advert
 futurecurrencyforecast.com##.cwc-tor-widget
 marketwatch.com##.cxense-loading

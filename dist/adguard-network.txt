@@ -1,8 +1,8 @@
 ! Title: AdGuard Rules CN - Network
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202609040004
-! Last modified: 2026-09-04T00:04:05Z
+! Version: 202609040426
+! Last modified: 2026-09-04T04:26:45Z
 ! Layers: network
 ! Mode: standard
 ! Rules: 47693
@@ -5418,8 +5418,6 @@ meijutt.*/js/pcjs/
 ||sxeimg.com/u/20191108/13082210.gif
 ||syseen.com/content/uploadfile/*/hongbao.png
 ||sysin.org/img/promotion-
-||szaction.cc/public/*/plugins/
-||szaction.cc/public/*/assets/js/custom/tt.
 ||szfcol.com/images/wxright240.jpg
 ||szfcol.com/js/siteAd.js
 ||szgpmy.com/js/
@@ -14305,6 +14303,8 @@ http://www.ads.$third-party
 ||hk01.com^$document,replace=/"enableShieldScript":true/"enableShieldScript":false/
 /loader.min.js$important,domain=neoseeker.com|gutefrage.net|motorradfrage.net|sportlerfrage.net|finanzfrage.net|reisefrage.net|gesundheitsfrage.net|computerfrage.net|autofrage.net
 /lib.js|$important,domain=petbook.de
+.com/legacy/*.js|$script,third-party,domain=intelligencer.ca
+.com/store/*.js|$script,third-party,domain=standard-freeholder.com
 .com/script/*.js|$script,third-party,domain=jmty.jp|dolldivine.com|knowt.com|thefreebieguy.com|blogmura.com|gruene-zitate.de|myforecast.com|jawapos.com|picks.my|motor-talk.de|worldhistory.org|kr-weathernews.com|newser.com|zerogpt.com|smithsonianmag.com|slickdeals.net|signupgenius.com|saabcentral.com|reneweconomy.com.au|newser.com|laposte.net|deckshop.pro|auone.jp|emojipedia.org|nicovideo.jp|cpu-monkey.com|dic.pixiv.net|ameblo.jp
 ://www.*.xyz/script/$script,third-party,domain=jmty.jp|dolldivine.com|knowt.com|thefreebieguy.com|blogmura.com|gruene-zitate.de|myforecast.com|jawapos.com|picks.my|motor-talk.de|worldhistory.org|kr-weathernews.com|newser.com|zerogpt.com|smithsonianmag.com|slickdeals.net|signupgenius.com|saabcentral.com|reneweconomy.com.au|newser.com|laposte.net|deckshop.pro|auone.jp|emojipedia.org|cpu-monkey.com|dic.pixiv.net|ameblo.jp
 ||19706903.xyz^$domain=pravda.com.ua|jutarnji.hr|sporx.com|ap7am.com
@@ -21863,8 +21863,8 @@ $csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: www.googletagma
 @@||api.cafeyn.co/users/$stealth=referrer
 @@||hotmo.org^$stealth=ip
 @@/wiki.php?player=$third-party,subdocument,stealth=referrer,domain=wikisport.info
-@@/e/*$third-party,subdocument,stealth=referrer,domain=dlstreams.st
-@@.php?id=$third-party,subdocument,stealth=referrer,domain=dlstreams.st
+@@/e/*$third-party,subdocument,stealth=referrer,domain=dlive.sx
+@@.php?id=$third-party,subdocument,stealth=referrer,domain=dlive.sx
 @@/embed/*$subdocument,stealth=referrer,domain=strims.*|daddyhd.com|daddylive.*
 @@||cloudfront.net^$domain=postype.com,stealth=referrer,image
 @@||sinaimg.cn^$stealth=referrer,domain=weibo.com

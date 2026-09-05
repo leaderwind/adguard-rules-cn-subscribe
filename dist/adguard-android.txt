@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Android
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202609050002
-! Last modified: 2026-09-05T00:02:19Z
+! Version: 202609050422
+! Last modified: 2026-09-05T04:22:26Z
 ! Layers: network,content,scriptlet
 ! Mode: standard
-! Rules: 18186
+! Rules: 18187
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -6049,6 +6049,7 @@ meijutt.*/js/pcjs/
 ||xwcm.net/caches/ahm.
 ||teacher.php.cn/php/
 ||right.com.cn/forum/data/attachment/common/template/boardimg_20260602yahb3wsd.
+||ping0.cc/images/fx/*.gif
 ||mydrivers.com/img/2005/202112011849.png
 @@.adserver.$domain=litv.tv
 @@||holmesmind.com/js/drawV2.$domain=bingfong.com
@@ -10223,6 +10224,7 @@ newduba.cn###jq_youxi
 ##a[href*=".erodatalabs.com/"]
 ##a[href*=".xacg.info/"]
 ##button[onclick*=".xacg.info/"]
+ping0.cc#?#div:has(>a>.tipbd)
 169bbs.com##.a_f
 kanju.ai##.movie-player-info-ad-grid
 kanju.ai##.movie-player-info-ad-heading
@@ -10269,8 +10271,6 @@ iplark.com##div[style="position: relative;"]
 cngold.org#?#.w310:has(>.swiper-company)
 cngold.org##.headCompanys
 cngold.org##.mainRight > .border_top:first-child
-ping0.cc##.xdeles
-ping0.cc###adiright
 cngold.org##.foot_megagame
 cngold.org##.fixed_jt
 hanime1.me#?#div[style*="text-align:"]:has(>div[style*="color: white"])
@@ -16508,6 +16508,7 @@ sudokugame.org#%#//scriptlet('trusted-replace-node-text', 'script', 'adjump', 'f
 @@||criteo.com/delivery/ajs.php?zoneid=$script,domain=gaus.ee
 @@||jd.com/adclick?$popup,~third-party
 ||wnacg.com/game/$image,rewrite=abp-resource:1x1-transparent-gif,domain=wnacg.com
+ping0.cc#?#div:-abp-has(>a>.tipbd)
 cngold.org#?#.w310:-abp-has(>.swiper-company)
 hanime1.me#?#div[style*="text-align:"]:-abp-has(>div[style*="color: white"])
 weibo.com#?#.vue-recycle-scroller__item-view:-abp-has(img[src="https://d.sinaimg.cn/prd/1005/891/2025/03/21/icon_auth_white.png"])

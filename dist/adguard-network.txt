@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Network
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202609050002
-! Last modified: 2026-09-05T00:02:19Z
+! Version: 202609050422
+! Last modified: 2026-09-05T04:22:26Z
 ! Layers: network
 ! Mode: standard
-! Rules: 47720
+! Rules: 47722
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -6049,6 +6049,7 @@ meijutt.*/js/pcjs/
 ||xwcm.net/caches/ahm.
 ||teacher.php.cn/php/
 ||right.com.cn/forum/data/attachment/common/template/boardimg_20260602yahb3wsd.
+||ping0.cc/images/fx/*.gif
 ||mydrivers.com/img/2005/202112011849.png
 @@.adserver.$domain=litv.tv
 @@||holmesmind.com/js/drawV2.$domain=bingfong.com
@@ -44599,6 +44600,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||cvs.com/tnadstlinj.js
 ||cxgpt1.goindigo.in/forward/v2/track
 ||cybernews.com/clientfpid/
+||cybernews.com/fxq4/
 ||dailydevstatus.com/embed/script.js
 ||dailymail.co.uk/geo/
 ||dailymail.co.uk/rta2/

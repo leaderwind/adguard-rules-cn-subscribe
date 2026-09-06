@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Conservative
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202609061409
-! Last modified: 2026-09-06T14:09:46Z
+! Version: 202609061701
+! Last modified: 2026-09-06T17:01:34Z
 ! Layers: network,content,scriptlet
 ! Mode: conservative
-! Rules: 108861
+! Rules: 108859
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -6020,7 +6020,7 @@ meijutt.*/js/pcjs/
 ||xwcm.net/caches/ahm.
 ||teacher.php.cn/php/
 ||right.com.cn/forum/data/attachment/common/template/boardimg_20260602yahb3wsd.
-||ping0.cc/images/fx/*.gif
+||ping0.cc/images/gx/*.gif
 ||mydrivers.com/img/2005/202112011849.png
 @@.adserver.$domain=litv.tv
 @@||holmesmind.com/js/drawV2.$domain=bingfong.com
@@ -10170,7 +10170,8 @@ newduba.cn###jq_youxi
 ##a[href*=".erodatalabs.com/"]
 ##a[href*=".xacg.info/"]
 ##button[onclick*=".xacg.info/"]
-ping0.cc#?#div:has(>a>.tipbd)
+ping0.cc##.xeeles
+ping0.cc###adjright
 169bbs.com##.a_f
 kanju.ai##.movie-player-info-ad-grid
 kanju.ai##.movie-player-info-ad-heading
@@ -16160,13 +16161,10 @@ fqsousou.com,kengso.com#@#.user-share
 ||hellocenter.xyz^*.mp4$rewrite=abp-resource:blank-mp4,domain=localmv1.com
 ||huya.com/leaf/*=vodadv&$rewrite=abp-resource:blank-mp3,domain=huya.com
 ||yitongkan.com/splash.xml$rewrite=abp-resource:blank-js,domain=yitongkan.com
-||ping0.cc/images/gx/*.gif
 @@/adguard.$domain=llq.dml.ink
 @@||criteo.com/delivery/ajs.php?zoneid=$script,domain=gaus.ee
 @@||jd.com/adclick?$popup,~third-party
 ||wnacg.com/game/$image,rewrite=abp-resource:1x1-transparent-gif,domain=wnacg.com
-ping0.cc##.xeeles
-ping0.cc###adjright
 cngold.org#?#.w310:-abp-has(>.swiper-company)
 hanime1.me#?#div[style*="text-align:"]:-abp-has(>div[style*="color: white"])
 weibo.com#?#.vue-recycle-scroller__item-view:-abp-has(img[src="https://d.sinaimg.cn/prd/1005/891/2025/03/21/icon_auth_white.png"])

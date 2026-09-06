@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Android
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202609060556
-! Last modified: 2026-09-06T05:56:08Z
+! Version: 202609061052
+! Last modified: 2026-09-06T10:52:39Z
 ! Layers: network,content,scriptlet
 ! Mode: standard
-! Rules: 18187
+! Rules: 18189
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -844,6 +844,8 @@ $script,third-party,denyallow=myqcloud.com|bytecdntp.com|pddpic.com|googletagman
 ||aiyifan.tv/app/*.js$replace=/this\.shouldSkipAds\|\|/!0||/
 ||101.qq.com/js/base.js$replace=/(el\.getAttribute\("type"\) === "text\/javascript")/\(\$1 && !el\.getAttribute\("nonce"\)\)/
 ||acs.youku.com/*/mtop.youku.play.ups.appinfo.get/*/?jsv=$replace=/("ad":\{)[\s\S]*?(\}\,"playlog")/\$1\$2/,important
+@@||cdn.staticfile.org^$domain=aoi.hugemaker.com.cn
+@@||cdn.bootcdn.net/ajax/libs/$domain=aoi.hugemaker.com.cn
 @@||2ipcore.com^$domain=2ip.ru
 @@/vast.php?idzone=$domain=jptt.tv
 @@||vast.livejasmin.com^$domain=jptt.tv

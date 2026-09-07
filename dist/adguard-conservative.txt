@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Conservative
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202609062352
-! Last modified: 2026-09-06T23:52:47Z
+! Version: 202609070433
+! Last modified: 2026-09-07T04:33:13Z
 ! Layers: network,content,scriptlet
 ! Mode: conservative
-! Rules: 108859
+! Rules: 108861
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -17207,10 +17207,11 @@ rvlev.com,t66y.com#?#[class]:-abp-has(>a[onmouseover="this.style.background='#DE
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=1shortlink.com
 ||app.diagnoseo.com/tools/common-js/dsn.js
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=adslink.pw
-/s/*.js|$script,domain=pahe.plus|aii.sh|intercelestial.com|tpi.li
-$xmlhttprequest,redirect-rule=nooptext,domain=pahe.plus|intercelestial.com
+/s/*.js|$script,domain=pahe.plus|aii.sh|intercelestial.com|tpi.li|linegee.net
+$xmlhttprequest,redirect-rule=nooptext,domain=pahe.plus|intercelestial.com|linegee.net
+@@||linegee.net^$generichide
 @@||intercelestial.com^$generichide
-@@.js|$xmlhttprequest,domain=pahe.plus|aii.sh|intercelestial.com|tpi.li
+@@.js|$xmlhttprequest,domain=pahe.plus|aii.sh|intercelestial.com|tpi.li|linegee.net
 @@||pahe.plus^$generichide
 ||youtubetoolkit.com/js/adblock-
 @@||jwpcdn.com/player/*/googima.js$domain=weekendletters.store|xcandid.vip|xcandid.top
@@ -50024,6 +50025,7 @@ vi-control.net,nullforums.net,landyzone.co.uk,nullcave.pro,woxmax.com,waskucity.
 hentaiocean.com##body > div#fx0
 forbes.com##fbs-video[ad-unit-path]
 forbes.com##.article-body-container > div[class]> div[class]:has(> div[class]:only-child > fbs-video[ad-unit-path]:only-child)
+linegee.net##.entry-content > center > center:has(> a[href] > img)
 unicodeplus.com##.g-top
 torrentinvites.net##.focus-ad
 dulo.gd#?##root > div[class] > .fixed.inset-x-3:has(h2:contains(ads))

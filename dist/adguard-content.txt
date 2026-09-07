@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Content
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202609062352
-! Last modified: 2026-09-06T23:52:47Z
+! Version: 202609070433
+! Last modified: 2026-09-07T04:33:13Z
 ! Layers: content
 ! Mode: standard
-! Rules: 63686
+! Rules: 63687
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -18947,6 +18947,7 @@ vi-control.net,nullforums.net,landyzone.co.uk,nullcave.pro,woxmax.com,waskucity.
 hentaiocean.com##body > div#fx0
 forbes.com##fbs-video[ad-unit-path]
 forbes.com##.article-body-container > div[class]> div[class]:has(> div[class]:only-child > fbs-video[ad-unit-path]:only-child)
+linegee.net##.entry-content > center > center:has(> a[href] > img)
 unicodeplus.com##.g-top
 torrentinvites.net##.focus-ad
 dulo.gd#?##root > div[class] > .fixed.inset-x-3:has(h2:contains(ads))

@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Network
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202609072330
-! Last modified: 2026-09-07T23:30:16Z
+! Version: 202609080430
+! Last modified: 2026-09-08T04:30:47Z
 ! Layers: network
 ! Mode: standard
-! Rules: 47723
+! Rules: 47724
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -20509,6 +20509,7 @@ $csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: www.googletagma
 @@||beinconnect.com.tr^$stealth
 @@||account.adobe.com^$document,domain=services.adobe.com,stealth=useragent
 @@||adguard.com^$stealth
+@@||jlr.scene7.com/is/image/jlr/$image,stealth=referrer
 @@||bharat-connect.com^$stealth=location
 @@||vide.karavid.top^$stealth=referrer
 @@||mwa.co.th^$stealth=dpi
@@ -22151,7 +22152,7 @@ $csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: www.googletagma
 @@||cloud.typography.com/*/css/fonts.css$stealth=referrer
 @@||vider.info^$stealth
 @@||cdn.bg/live/$stealth=referrer
-@@||google.com/maps/embed/v*/place?key=$stealth=referrer
+@@||google.com/maps/embed/v*/place*^key=$stealth=referrer
 @@||lhscanlation.club/images/$stealth=referrer
 @@||jawcloud.co/embed$stealth=referrer
 @@||bing.com/secure/Passport.aspx$stealth=referrer,important

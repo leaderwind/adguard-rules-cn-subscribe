@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Network
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202609090441
-! Last modified: 2026-09-09T04:41:45Z
+! Version: 202609090942
+! Last modified: 2026-09-09T09:42:08Z
 ! Layers: network
 ! Mode: standard
-! Rules: 47729
+! Rules: 47731
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -14673,6 +14673,7 @@ $third-party,script,domain=klto9.com|f2movies.to|hacamchicac.com|yourporngod.com
 ||exporntoons.net/static/players/*/vast.js
 ||xmoviescdn.online/ads/ads_1.gif
 ||veck.io/ads/
+||uqload.*/js2/u.js
 ||bestsexpositions.com/pictures/2022/07/bigger-dick-*.gif
 ||ogfap.com/ad/
 ||ogfap.com/_astro/AdContainer
@@ -20513,7 +20514,9 @@ $csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: www.googletagma
 @@||beinconnect.com.tr^$stealth
 @@||account.adobe.com^$document,domain=services.adobe.com,stealth=useragent
 @@||adguard.com^$stealth
+@@||login.tohotheater.jp/js/$subdocument,stealth=referrer,domain=tohotheater.jp
 @@||login.oci.oraclecloud.com/*/cloudAccount$stealth=referrer,domain=oracle.com
+@@||jlr.scene7.com/is/content/jlr/$media,stealth=referrer
 @@||jlr.scene7.com/is/image/jlr/$image,stealth=referrer
 @@||bharat-connect.com^$stealth=location
 @@||vide.karavid.top^$stealth=referrer
@@ -20804,7 +20807,7 @@ $csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: www.googletagma
 @@$stealth=useragent,app=top.rootu.lampa
 @@||jgvcdn.com^$stealth=referrer
 @@||xzfile.aliyuncs.com^$image,stealth=referrer,domain=xz.aliyun.com
-@@||zirvedesin120.cfd/yayinzirve.m3u8$stealth=referrer
+@@||zirvedesin*.*/*.m3u8$stealth=referrer
 @@||video.twimg.com/amplify_video/$xmlhttprequest,stealth=referrer,domain=x.com
 @@||inphic.oss-cn-shenzhen.aliyuncs.com/download/$stealth=referrer
 @@||apiv2.jofogas.hu/v2/account/login$stealth=ip
@@ -20857,7 +20860,6 @@ $csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: www.googletagma
 @@||embed.nana2play.com^$subdocument,stealth=referrer
 @@||useast-*.ordercloud.io^$stealth=3p-auth
 @@||t-j.ru^$stealth=useragent
-@@||cp.zirvedesin34.sbs/*.m3u8$stealth=referrer
 @@||aki-h.stream/v/$stealth=referrer
 @@||dplayer82.site^$stealth=referrer
 @@||aisandbox-pa.googleapis.com^$stealth=3p-auth|referrer

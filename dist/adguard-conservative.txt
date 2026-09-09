@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Conservative
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202609090441
-! Last modified: 2026-09-09T04:41:45Z
+! Version: 202609090942
+! Last modified: 2026-09-09T09:42:08Z
 ! Layers: network,content,scriptlet
 ! Mode: conservative
-! Rules: 108901
+! Rules: 108908
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -23212,6 +23212,7 @@ $third-party,script,domain=klto9.com|f2movies.to|hacamchicac.com|yourporngod.com
 ||exporntoons.net/static/players/*/vast.js
 ||xmoviescdn.online/ads/ads_1.gif
 ||veck.io/ads/
+||uqload.*/js2/u.js
 ||bestsexpositions.com/pictures/2022/07/bigger-dick-*.gif
 ||ogfap.com/ad/
 ||ogfap.com/_astro/AdContainer
@@ -28960,6 +28961,8 @@ $image,script,stylesheet,subdocument,third-party,xmlhttprequest,domain=animepahe
 @@||tous-sports.fr/js/advertisement-AdBlock.js
 @@||tous-sports.tv/js/advertisement-AdBlock.js
 @@||account.adobe.com^$document,domain=services.adobe.com,stealth=useragent
+@@||login.tohotheater.jp/js/$subdocument,stealth=referrer,domain=tohotheater.jp
+@@||jlr.scene7.com/is/content/jlr/$media,stealth=referrer
 @@||jlr.scene7.com/is/image/jlr/$image,stealth=referrer
 @@/embed/*$subdocument,stealth=referrer,domain=trend48.st
 @@||epiembeds.online^$subdocument,third-party,stealth=referrer
@@ -50052,6 +50055,9 @@ animecorner.me,zarabiajprzez24.pl,watchhentai.xxx,app-how-to-use-it.com,linuxcap
 pawastreams.*,nflbite.to,footybite.to,sportschamp.fun,afly.pro,topsporter.net,soccerstreams.football,mysocceraustralia.com,rayinfosports.com,hesgoals.top,sequencecard.xyz,totalsportek.soccer,metaporky.site,nbabite.to,cyfostreams.com,gamerarcades.com,bestreamsports.org,footy.to,mcrypto.club,greaterkashmir.com###id-custom_banner
 pawastreams.*,groundedtechs.com,rayinfosports.com,sequencecard.xyz,matchtime.co,sportspellz.com,bestreamsports.org,silverspoon.site###dismiss-btn
 vi-control.net,nullforums.net,landyzone.co.uk,nullcave.pro,woxmax.com,waskucity.com,babia.to,technofino.in,reef2reef.com,minebbs.com,craxpro.io,affiliatefix.com,myiptvforum.com,hifivision.com,worldofiptv.com,altenen.is,beermoneyforum.com,germancarforum.com,cracking.org##.samBannerUnit
+cxtvlive.com##.ad-titulo
+geekwire.com###category-banner-desktop
+geekwire.com###category-banner-desktop ~ #category-header[data-campaign]
 exchange-rates.org##.google-wrap
 pvstory.com##.w-full.flex > div.flex.items-center.my-2:has(> div > div > pubtag)
 linkedprofileviewer.com##nav + div.mx-auto:has(> div[data-testid^="banner-"])
@@ -81353,6 +81359,7 @@ kliuki.bg###container > div[style="float:left;"] > div[style]
 ###hgiks-top
 ##.boxOverContent__banner
 ##.zone.zone--loaded
+##.zone.zone--skeletonEnabled
 ##.happy-under-player
 ##.mntl-leaderboard-header
 ##.mntl-leaderboard-spacer
@@ -86375,7 +86382,7 @@ news18.com##.mc-ad
 ctinsider.com##.md\:block.y100
 op.gg##.md\:max-w-\[1080px\]:not(.h-\[205px\])
 82-0.com##.md\:max-w-\[480px\]
-bmj.com##.md\:min-h-\[250px\]
+bmj.com,mediaweek.com.au##.md\:min-h-\[250px\]
 medibang.com##.mdbnAdBlock
 global.morningstar.com##.mdc-top-ad__container__mdc
 online-translator.com##.mddlAdvBlock

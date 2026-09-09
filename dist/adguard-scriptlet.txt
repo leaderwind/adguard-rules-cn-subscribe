@@ -1,8 +1,8 @@
 ! Title: AdGuard Rules CN - Scriptlet
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202609091433
-! Last modified: 2026-09-09T14:33:46Z
+! Version: 202609091834
+! Last modified: 2026-09-09T18:34:16Z
 ! Layers: scriptlet
 ! Mode: standard
 ! Rules: 5608
@@ -4374,7 +4374,7 @@ mentalfloss.com#%#//scriptlet("set-constant", "countClicks", "0")
 mentalfloss.com#%#//scriptlet('remove-class', 'af-ad-loaded', '.afg-section.af-ad-loaded')
 watchpornx.com#%#//scriptlet("prevent-window-open")
 xxxparodyhd.net#%#//scriptlet("abort-on-property-read", "popunder")
-xvideos.com#%#//scriptlet('remove-class', 'has-banner', '#page > #main > #profile-title')
+xvideos2.com,xvideos.com#%#//scriptlet('remove-class', 'has-banner', '#page > #main > #profile-title')
 fc.lc#%#//scriptlet("prevent-window-open")
 opensubtitles.org#%#//scriptlet("set-constant", "hide_ads3", "1")
 opensubtitles.com#%#//scriptlet("set-constant", "extInstalled", "true")
@@ -5307,7 +5307,7 @@ jav.sb#%#//scriptlet('abort-current-inline-script', 'document.write', 'insertAd'
 usatoday.com#%#//scriptlet('inject-css-in-shadow-dom', '.ad-container { display: none !important; }')
 kuyhaa.me#%#//scriptlet('abort-current-inline-script', 'document.querySelectorAll', 'newHref')
 pixai.art#%#//scriptlet('json-prune', 'data.publicDynamicConfig.campaign.feed.*.[-].isAd.[=].true')
-xpxp.eu,mashentai.com,xfeed.com,hqfap.com,telugusexkathalu.com,pornjav.tv,xv-ru.com,xvideos.com,xnxx.com,pmvhaven.com#%#//scriptlet('abort-on-property-read', 'exoJsPop101')
+xvideos2.com,xpxp.eu,mashentai.com,xfeed.com,hqfap.com,telugusexkathalu.com,pornjav.tv,xv-ru.com,xvideos.com,xnxx.com,pmvhaven.com#%#//scriptlet('abort-on-property-read', 'exoJsPop101')
 read.amazon.*#%#//scriptlet('trusted-click-element', '.kw-ads-pagination-button:first-child, .kw-ads-pagination-button:first-child', '', '1000')
 foxtel.com.au#%#//scriptlet('xml-prune', 'xpath(//*[name()="MPD"]/@mediaPresentationDuration | //*[name()="Period"]/@start | //*[name()="Period"][.//*[name()="BaseURL" and contains(text(),"/adease/")]])', '', '.mpd')
 foxtel.com.au#%#//scriptlet('json-prune', 'adease adeaseBlob vmap')

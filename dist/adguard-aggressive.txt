@@ -1,8 +1,8 @@
 ! Title: AdGuard Rules CN - Aggressive
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202609091834
-! Last modified: 2026-09-09T18:34:16Z
+! Version: 202609092141
+! Last modified: 2026-09-09T21:41:47Z
 ! Layers: network,content,scriptlet
 ! Mode: aggressive
 ! Rules: 117108
@@ -52971,7 +52971,7 @@ supercarblondie.com##.inarticle-ad
 vidara.to,vidara.so##div.mx-auto > div.relative:has(> span.tracking-wide)
 msn.com##div[id^="rightRailAds"]
 hltv.org##.colCon > div > aside > a[href^="/out2/"]
-streamed.pk,streamed.st##body > div[style] > div[data-sveltekit-reload] > header + div.w-full
+streamed.pk,streamed.st##body > div[style] > div[data-sveltekit-reload] > header + div.w-full:has(> div.border > button[aria-label="Close banner"])
 imgur.com##.Grid-column > div[id^="Col-Child-"]:has(> div.fast-grid-ad)
 euronews.com#$?#div[data-ad-name] { remove: true; }
 nrl.com##.ladder__item--sportsbet-cell

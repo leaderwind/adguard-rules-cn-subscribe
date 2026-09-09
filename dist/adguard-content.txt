@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Content
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202609090942
-! Last modified: 2026-09-09T09:42:08Z
+! Version: 202609091433
+! Last modified: 2026-09-09T14:33:46Z
 ! Layers: content
 ! Mode: standard
-! Rules: 63739
+! Rules: 63757
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -14115,6 +14115,10 @@ skmedix.pl,interia.pl,trojmiasto.pl,js.iplsc.com,pomponik.pl,posty.pl,zalajkowan
 skmedix.pl,interia.pl,trojmiasto.pl,js.iplsc.com,pomponik.pl,posty.pl,zalajkowane.pl,kulinarnapolska.org,wroclawskiejedzenie.pl,innpoland.pl,mywrestling.com.pl,andek.com.pl,smartage.pl,joemonster.org,tajemnice-swiata.pl,naszraciborz.pl,natemat.pl,stadionowioprawcy.net,fortnitepolska.pl,sadistic.pl,napisy24.pl,mamadu.pl,towideo.pl,forsal.pl,kresy.pl,mambiznes.pl,prnews.pl,weszlo.com,dziwneobrazki.pl#@#.text_ad
 skmedix.pl,interia.pl,trojmiasto.pl,js.iplsc.com,pomponik.pl,posty.pl,zalajkowane.pl,kulinarnapolska.org,wroclawskiejedzenie.pl,innpoland.pl,mywrestling.com.pl,andek.com.pl,smartage.pl,joemonster.org,tajemnice-swiata.pl,naszraciborz.pl,natemat.pl,stadionowioprawcy.net,fortnitepolska.pl,sadistic.pl,napisy24.pl,mamadu.pl,towideo.pl,forsal.pl,kresy.pl,mambiznes.pl,prnews.pl,weszlo.com,dziwneobrazki.pl#@#.text_ads
 roweroweporady.pl#@#.ad_container
+krakowportal.pl##div[style="margin: 20px 0; text-align: center;"] > a[target="_blank"]
+krknews.pl##.header-banner
+krknews.pl##div[data-ad-slot]
+krknews.pl##div[class*="-section"][class*="__banner"]
 swiadomaoc.org##div[data-element_type="container"]:has(> div[data-widget_type="cs-banner.default"])
 swiadomaoc.org##.cs-banner-entry
 dziennikzwiazkowy.com,radiozamosc.pl,dziennikwschodni.pl##.tipad_tag
@@ -16196,6 +16200,7 @@ sportowefakty.wp.pl##a[href="https://kswshop.com/pl/"][target="_blank"] > img
 sportowefakty.wp.pl##.globox__menu .globox__partner
 sportowefakty.wp.pl##aside.grid-wx1 > a[href^="https://www.efortuna.pl/"] > img
 sportowefakty.wp.pl##div[class*=" "][class*="___"]:has(> div[class]:only-child:empty)
+sportowefakty.wp.pl##div[class*=" "][class*="___"]:has(> div:first-child:empty + img[src^="https://v.wpimg.pl/"]:last-child)
 sportowefakty.wp.pl##div[class*=" "][class*="___"]:has(> div[class]:first-child:empty + img[src*="://std.wpcdn.pl/images/adv/placeholder"]:last-child)
 sportowefakty.wp.pl##article > div[class*=" "]:has(> div:only-child:empty)
 sportowefakty.wp.pl##article > div[class] > #bookmaker-ranking-widget
@@ -17528,6 +17533,7 @@ nhaccuatui.com###eventBannerTop
 nhaccuatui.com##div[class^="adv_"]
 truyenqqhot.com##div[id^="ad_"]:not([id*="_poster"])
 truyenqqhot.com##div[id^="ads_"]
+##.ad-pos-top
 ##.pm-ad
 ##.adthrive-placeholder-content
 ##.addbanner
@@ -18970,6 +18976,13 @@ animecorner.me,zarabiajprzez24.pl,watchhentai.xxx,app-how-to-use-it.com,linuxcap
 pawastreams.*,nflbite.to,footybite.to,sportschamp.fun,afly.pro,topsporter.net,soccerstreams.football,mysocceraustralia.com,rayinfosports.com,hesgoals.top,sequencecard.xyz,totalsportek.soccer,metaporky.site,nbabite.to,cyfostreams.com,gamerarcades.com,bestreamsports.org,footy.to,mcrypto.club,greaterkashmir.com###id-custom_banner
 pawastreams.*,groundedtechs.com,rayinfosports.com,sequencecard.xyz,matchtime.co,sportspellz.com,bestreamsports.org,silverspoon.site###dismiss-btn
 vi-control.net,nullforums.net,landyzone.co.uk,nullcave.pro,woxmax.com,waskucity.com,babia.to,technofino.in,reef2reef.com,minebbs.com,craxpro.io,affiliatefix.com,myiptvforum.com,hifivision.com,worldofiptv.com,altenen.is,beermoneyforum.com,germancarforum.com,cracking.org##.samBannerUnit
+xbitlabs.com##.flex.items-center.justify-center:has(> span:first-child + div[data-fuse]:last-child)
+friendquiz.me##.RelationalApp
+uploadvr.com##.poseidon-container
+abc7.com##div[data-testid="prism-static-embed"]
+abc7.com##.ScrollSpy_container > div[data-container="band"]:has(> div[class] > div[class] > div[class="placeholderWrapper"])
+abc7.com#$#.StickyTopOuter { display: none !important; }
+abc7.com#$#.nav.sticky { top: 0 !important; }
 cxtvlive.com##.ad-titulo
 geekwire.com###category-banner-desktop
 geekwire.com###category-banner-desktop ~ #category-header[data-campaign]
@@ -26561,6 +26574,7 @@ icoholder.com##.bottom-fixed-banner
 icoholder.com##.right-baner
 icoholder.com##[class$="-img-banner"]
 analyticsindiamag.com##.elementor-widget-spacer
+neowin.net###sidebar .code-widget > .advent:has(> div > a[href^="https://amzn.to/"])
 neowin.net##div[style^="float:left"]
 neowin.net##.widget-software + div.widget-community
 neowin.net##.widget-ad + div.widget-header
@@ -42408,7 +42422,6 @@ kliuki.bg###container > div[style="float:left;"] > div[style]
 ##.ad-pos-7
 ##.ad-pos-8
 ##.ad-pos-middle
-##.ad-pos-top
 ##.ad-position
 ##.ad-position-1
 ##.ad-position-2
@@ -53939,6 +53952,7 @@ hannaford.com##.citrus_ad_banner
 apps.jeurissen.co##.cja-landing__content > .cja-sqrimage
 hodinky-365.com##.cl-ban
 gunsamerica.com##.cl_ga
+hellobanker.in##.clearfix.entry > p:has(.adsbygoogle)
 kissanime.com.ru##.close_ad_button
 computerweekly.com,techtarget.com,theserverside.com##.cls-hlb-wrapper-desktop
 lcpdfr.com##.clsReductionBlockHeight
@@ -54475,6 +54489,7 @@ fitbook-magazine.com,myhomebook-magazine.com,petbook-magazine.com,techbook-magaz
 idropnews.com##.floatfixAd
 bdnews24.com##.floating-ad-bottom
 chaseyoursport.com##.floating-adv
+wantmymtv.org##.floating-coffee-btn
 click2houston.com,clickondetroit.com,clickorlando.com,ksat.com,local10.com,news4jax.com,wsls.com##.floatingWrapper
 thehindu.com##.flooting-ad
 airlinegeeks.com,avweb.com,flyingmag.com,planeandpilotmag.com##.flyin-article-above-headline
@@ -56614,6 +56629,7 @@ hardwaretimes.com##.stream-item-size
 how2electronics.com##.stream-item-top
 siasat.com##.stream-item-widget
 news365.co.za##.stream-item-widget-content
+hellobanker.in##.stream-item:has(.adsbygoogle)
 coinpedia.org,elhayat-life.com##.stream-title
 open3dlab.com##.stream[style="align-items:center; justify-content:center;"]
 missav78.top##.streamer-container2
@@ -56890,6 +56906,7 @@ savefrom.net##.tz-quality-link
 theroar.com.au##.u-d-block
 seattletimes.com##.u-df.revcontent__recommended-wrapper
 gulfnews.com##.uUS3S
+sportsinjuryclinic.net##.uagb-container-inner-blocks-wrap:has(> p.has-cyan-bluish-gray-color)
 ubergizmo.com##.ubergizmo-dfp-ad
 unlockboot.com##.ubhome-banner
 darko.audio##.ubm_widget
@@ -57059,7 +57076,7 @@ adexchanger.com##.widget_ai_ad_widget
 gsmserver.com##.widget_banner-container_three-horizontal
 discussingfilm.net,goonhammer.com,joemygod.com,ryxy.online,shtfplan.com,thestrongtraveller.com,topcartoons.tv,usmagazine.com,wiki-topia.com##.widget_block
 wplift.com##.widget_bsa
-4sysops.com,activistpost.com,aftvnews.com,arcadepunks.com,autotalk.co.nz,bmmagazine.co.uk,corrosionhour.com,corvetteblogger.com,dcrainmaker.com,discover.is,earlyretirementnow.com,elhayat-life.com,gamingonphone.com,girgitnews.com,gizmochina.com,guides.wp-bullet.com,macsources.com,manhuatop.org,mediachomp.com,metalsucks.net,mmoculture.com,monstersandcritics.com,motoringfile.com,nasaspaceflight.com,newsbtc.com,openloading.com,patriotfetch.com,planetofreviews.com,precinctreporter.com,prepperwebsite.com,rugbylad.ie,sashares.co.za,scienceandliteracy.org,seganerds.com,sixteen-nine.net,snipercentral.com,spokesman-recorder.com,survivopedia.com,techdows.com,techiecorner.com,techjuice.pk,theblueoceansgroup.com,thecinemaholic.com,tooxclusive.com,torrentfreak.com,torrentmac.net,trackalerts.com,trendingpoliticsnews.com,wabetainfo.com,windowslatest.com##.widget_custom_html
+4sysops.com,activistpost.com,aftvnews.com,arcadepunks.com,autotalk.co.nz,bmmagazine.co.uk,corrosionhour.com,corvetteblogger.com,dcrainmaker.com,discover.is,earlyretirementnow.com,elhayat-life.com,gamingonphone.com,girgitnews.com,gizmochina.com,guides.wp-bullet.com,hellobanker.in,macsources.com,manhuatop.org,mediachomp.com,metalsucks.net,mmoculture.com,monstersandcritics.com,motoringfile.com,nasaspaceflight.com,newsbtc.com,openloading.com,patriotfetch.com,planetofreviews.com,precinctreporter.com,prepperwebsite.com,rugbylad.ie,sashares.co.za,scienceandliteracy.org,seganerds.com,sixteen-nine.net,snipercentral.com,spokesman-recorder.com,survivopedia.com,techdows.com,techiecorner.com,techjuice.pk,theblueoceansgroup.com,thecinemaholic.com,tooxclusive.com,torrentfreak.com,torrentmac.net,trackalerts.com,trendingpoliticsnews.com,wabetainfo.com,windowslatest.com##.widget_custom_html
 insidehpc.com##.widget_download_manager_widget
 domaingang.com##.widget_execphp
 bitcoinist.com##.widget_featured_companies
@@ -57923,6 +57940,7 @@ piratebay.live##a[href^="https://thesurferprotector.com/"]
 accesswdun.com##a[href^="https://tinyurl.com"] > img
 scrolller.com##a[href^="https://trk.scrolller.com/"]
 primewire.link##a[href^="https://url.rw/"]
+battlemetrics.com##a[href^="https://us.ovhcloud.com"]
 vnkb.com##a[href^="https://vnkb.com/e/"]
 1280wnam.com##a[href^="https://wistatefair.com/fair/tickets/"]
 ancient-origins.net,anisearch.com,catholicculture.org,lewrockwell.com,ssbcrack.com##a[href^="https://www.amazon."][href*="tag="]

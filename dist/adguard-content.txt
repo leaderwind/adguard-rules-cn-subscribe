@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Content
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202609100012
-! Last modified: 2026-09-10T00:12:29Z
+! Version: 202609100443
+! Last modified: 2026-09-10T04:43:25Z
 ! Layers: content
 ! Mode: standard
-! Rules: 63763
+! Rules: 63764
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -18977,6 +18977,7 @@ animecorner.me,zarabiajprzez24.pl,watchhentai.xxx,app-how-to-use-it.com,linuxcap
 pawastreams.*,nflbite.to,footybite.to,sportschamp.fun,afly.pro,topsporter.net,soccerstreams.football,mysocceraustralia.com,rayinfosports.com,hesgoals.top,sequencecard.xyz,totalsportek.soccer,metaporky.site,nbabite.to,cyfostreams.com,gamerarcades.com,bestreamsports.org,footy.to,mcrypto.club,greaterkashmir.com###id-custom_banner
 pawastreams.*,groundedtechs.com,rayinfosports.com,sequencecard.xyz,matchtime.co,sportspellz.com,bestreamsports.org,silverspoon.site###dismiss-btn
 vi-control.net,nullforums.net,landyzone.co.uk,nullcave.pro,woxmax.com,waskucity.com,babia.to,technofino.in,reef2reef.com,minebbs.com,craxpro.io,affiliatefix.com,myiptvforum.com,hifivision.com,worldofiptv.com,altenen.is,beermoneyforum.com,germancarforum.com,cracking.org##.samBannerUnit
+earlygame.com##.header__topbar
 xvideos2.com###content > div.exo-ad-ins-container + div[class]:has(> a[href^="https://s.zline0.com/"][target="_blank"])
 vknsorgula.net##.adsense-container
 xbitlabs.com##.flex.items-center.justify-center:has(> span:first-child + div[data-fuse]:last-child)
@@ -53984,6 +53985,7 @@ mydramalist.com##.col-lg-4 > .clear
 roseindia.net##.col-md-4
 disqus.com##.col-promoted
 lapa.ninja##.col-sm-1
+alternativeto.net##.col-start-1:has([data-testid])
 turtlecute.org##.collab_wrap
 tineye.com##.collection.match-row
 iamgujarat.com,indiatimes.com,samayam.com,vijaykarnataka.com##.colombia
@@ -55407,6 +55409,7 @@ fruitnet.com##.midpageAdvert
 golfdigest.com##.midslot
 gizmodo.com##.min-h-\[1000px\]
 op.gg,thenewdaily.com.au##.min-h-\[100px\]
+alternativeto.net##.min-h-\[100vw\]
 charlieintel.com,dexerto.com##.min-h-\[114px\]
 stomp.sg##.min-h-\[120px\]
 stuff.co.nz##.min-h-\[133px\]
@@ -63436,10 +63439,8 @@ yatu.tv##.dplayer-web-fullscreen-fix #tburl,#loadtop,[id^=myas],#myds1,#daohang
 cyberchef.org###workspace-wrapper > [id][style*="height"] {height: 100% !important}
 complex.com##.\[\@media\(min-width\:520px\)\]\:px-\[20px\]
 justjared.com##.banner-spacer-top {max-height: 50px !important;}
-alternativeto.net##.col-start-1:has([data-testid])
 temp-mail.io##.fixed.bottom-0.\[\@media\(max-width\:1350px\)\]\:hidden
 complex.com##.lg\:top-\[var\(--sticky-top\)\]
-alternativeto.net##.min-h-\[100vw\]
 justjared.com##[role="banner"] {top:0 !important}
 gamedev.net#?#.dark\:border-gray-700:has-text(Advertisement)
 deliveroo.*#?#a[role="button"]:has(p:has-text(Sponsored))

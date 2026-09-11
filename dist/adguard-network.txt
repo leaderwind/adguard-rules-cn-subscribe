@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Network
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202609111424
-! Last modified: 2026-09-11T14:24:54Z
+! Version: 202609111829
+! Last modified: 2026-09-11T18:29:57Z
 ! Layers: network
 ! Mode: standard
-! Rules: 47746
+! Rules: 47752
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -21645,6 +21645,9 @@ $csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: www.googletagma
 @@||vudeo.io/embed-$stealth=referrer
 @@||alucard.stream/playlist/$stealth=referrer
 @@/image/*$xmlhttprequest,stealth=referrer,domain=turkanime.co
+@@://m1.*.*/v/*/*.css$xmlhttprequest,stealth=referrer
+@@://m1.*.*/v/*/*/*-*.$xmlhttprequest,stealth=referrer
+@@.cfd/hls/*.jpg$stealth=referrer
 @@/mono.m3u8$stealth=referrer
 @@/index.m3u8$stealth=referrer|webrtc
 @@.ru.com/*/tracks-$xmlhttprequest,stealth=referrer
@@ -31069,6 +31072,7 @@ _800x80_
 ||turb.cc/fd1/img/promo/
 ||typicalstudent.org^$third-party
 ||ubm-us.net/oas/nativead/js/nativead.js
+||unlimplay.com/vast-resolve.php
 ||uploaded.net/img/public/$third-party
 ||utility.rogersmedia.com/wrapper.js
 ||vhanime.com/js/bnanime.js
@@ -31656,7 +31660,7 @@ $third-party,xmlhttprequest,domain=mega4upload.net
 ||discover.hubpages.com/runtime/webads.js
 ||djpunjab.*/ads/
 ||dlhd.*/rs4k-adbanner.html
-||dlhd.st/rs4k-adbanner.html
+||dlive.sx/rs4k-adbanner.html
 ||dnslytics.com/images/ads/
 ||domaintyper.com/Images/dotsitehead.png
 ||dominicantoday.com/wp-content/themes/dominicantoday/banners/
@@ -41722,6 +41726,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||way2traffic.com^$third-party
 ||ad5track.com^$third-party
 ||afilio.com.br^$third-party
+||atendimen.to^$third-party
 ||bob-recs.com^$third-party
 ||btg360.com.br^$third-party
 ||clearsale.com.br^$third-party
@@ -44191,6 +44196,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||melhorplano.net/scripts/tracker/
 ||ndmais.com.br/tracking-parceiros-ndmais/
 ||netdeal.com.br/open/event/
+||osuper.com.br/beta/bundles/analytics/analytics-$script
 ||statig.com.br/pub/setCookie.js?
 ||sycamore.com.br/pixel/
 ||terra.com.br/metrics/

@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Content
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202609110008
-! Last modified: 2026-09-11T00:08:08Z
+! Version: 202609110434
+! Last modified: 2026-09-11T04:34:09Z
 ! Layers: content
 ! Mode: standard
-! Rules: 63771
+! Rules: 63774
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -2786,6 +2786,7 @@ newduba.cn###jq_youxi
 ##a[href*="/122.51.121.126:"]
 ##a[href*="/137.220.194.105:"]
 ##a[href*="/137.220.194.123:"]
+##a[href*=".1699ai.top"]
 ##a[href*=".holesg.xyz"]
 ##a[href*=".6666ai.top"]
 ##a[href*="/vv88.life"]
@@ -2808,6 +2809,7 @@ newduba.cn###jq_youxi
 ##button[onclick*=".xacg.info/"]
 ping0.cc##.xeeles
 ping0.cc###adjright
+hsex.tv###Austin + a
 xifanacg.com##.head-more-a ~ .swiper-slide
 169bbs.com##.a_f
 kanju.ai##.movie-player-info-ad-grid
@@ -8789,7 +8791,6 @@ ali213.net#@#.subscribe-container
 5dm.link#@#.tm-share-this
 laohu8.com#@#.tweet-article
 fqsousou.com,kengso.com#@#.user-share
-##a[href*=".1699ai.top"]
 cngold.org#?#.w310:-abp-has(>.swiper-company)
 hanime1.me#?#div[style*="text-align:"]:-abp-has(>div[style*="color: white"])
 weibo.com#?#.vue-recycle-scroller__item-view:-abp-has(img[src="https://d.sinaimg.cn/prd/1005/891/2025/03/21/icon_auth_white.png"])
@@ -11558,6 +11559,8 @@ njuskalo.hr#$#.pub_300x250.pub_300x250m.pub_728x90.text-ad.textAd.text_ad.text_a
 mob.hr##.noa-banner > a
 mob.hr###billboard_ad_container
 mob.hr##.side_banner
+svetserialu.to##.alert_premiumExpired
+svetserialu.to##body > div[class][style^="z-index:"]
 infotbal.cz##div[data-elementor-type="wp-page"] > .elementor-section[data-settings*="background_background"]:has(.reklama-wrapper)
 hnonline.sk##.container div[class]:has(> div.ad--align)
 kosicak.sk##div[style^="width:100%;min-height:"]

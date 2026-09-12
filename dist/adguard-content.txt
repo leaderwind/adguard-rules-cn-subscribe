@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Content
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202609120546
-! Last modified: 2026-09-12T05:46:54Z
+! Version: 202609121042
+! Last modified: 2026-09-12T10:42:38Z
 ! Layers: content
 ! Mode: standard
-! Rules: 63789
+! Rules: 63791
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -16371,6 +16371,7 @@ wykop.pl#?#aside.tag-top > .hits-slider:matches-css(before, content: /^reklama$/
 wykop.pl##.lisek-app
 wykop.pl##.lidl-polska
 wykop.pl##body .pub-slot-wrapper
+wykop.pl#?#.main-content .content > [class] ~ *:not([class]):matches-property("__vue__./^\$vnode$/.key"=/^dynamic-slot-stream-/)
 wykop.pl##section[class]:has(> .wrapper > img:first-child + a[target="_blank"]:last-child)
 wykop.pl##section[class]:has(> .wrapper > a:is([href*="clk.tradedoubler.com"], [href*="&landingPageId="][href*="&partner_id="]))
 wykop.pl#?#section[class]> .wrapper:matches-css(before, content: /^reklama$/):has(> img + a[target="_blank"])
@@ -22699,7 +22700,6 @@ nmac.to##.it-ad:not(:has(form.form-search))
 parkers.co.uk##.grid-list > li.grid-list__cell:has(> div.grid-list__cell__content > div.advert)
 parkers.co.uk##.grid-list > li.grid-list__cell:has(> div.grid-list__cell__content div.advert-container)
 workupload.com##.row > .text-center.col-md-6
-workupload.com#$#.row > .col-md-6 { width: 100% !important; }
 vite.dev##.VPDocAsideCarbonAds
 xnxx.com###video-content > div[class]:has(a[href^="https://cams.xnxx.com/"])
 sourceforge.net##.main-nav-link
@@ -63470,11 +63470,13 @@ justjared.com##[role="banner"] {top:0 !important}
 gamedev.net#?#.dark\:border-gray-700:has-text(Advertisement)
 deliveroo.*#?#a[role="button"]:has(p:has-text(Sponsored))
 deliveroo.*#?#div[class^="HomeFeedScrollTracker-"]:has(span[class^="HomeFeedUILines-"]:has-text(Sponsored))
+openalternative.co##.relative.rounded-lg:has(img[src*="cdn.revinel.com"])
 advocate.com,out.com,pride.com#?#.component.module-headline:has-text(FROM OUR SPONSORS)
 character.ai#?#.space-y-4 > .w-full:has-text(Advertisement)
 cjleo.com#?#.alt-widget-title:has-text(advertisement)
 getyarn.io#?#.pt3p > div > div:has-text(Advertisement)
 theregister.com#?#article.large-12:has-text(SPONSORED FEATURE)
+chatgpt.com##[data-message-role="assistant"] > section[class]:has(> aside[aria-label] > div[role="list"] a[rel][target="_blank"] + [class] > button[aria-haspopup])
 2fa.live#?#p:has-text(Advertising)
 404media.co#?#.post__content > p:has-text(This segment is a paid ad)
 acmemarkets.com,albertsons.com,andronicos.com,carrsqc.com,haggen.com,jewelosco.com,kingsfoodmarkets.com,pavilions.com,randalls.com,safeway.com,shaws.com,starmarket.com,tomthumb.com,vons.com#?#.product-card-col:has-text(Sponsored)

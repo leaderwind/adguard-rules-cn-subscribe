@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Network
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202609130606
-! Last modified: 2026-09-13T06:06:36Z
+! Version: 202609131146
+! Last modified: 2026-09-13T11:46:58Z
 ! Layers: network
 ! Mode: standard
-! Rules: 47761
+! Rules: 47766
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -12966,6 +12966,8 @@ $script,redirect-rule=noopjs,domain=173.249.8.3
 @@||marketplace.ofeminin.pl/static/$domain=lamoda.pl
 ||assuredwhoa.com^$domain=gry-online.pl
 ||whoinasmuch.com^$domain=gry-online.pl
+||contentyet.com^$domain=gry-online.pl
+$script,third-party,denyallow=gracza.pl|dailymotion.com|googleapis.com|google.com,domain=gry-online.pl
 @@||skmedix.pl/*/*.js$~third-party
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=skmedix.pl
 @@||pagead2.googlesyndication.com/pagead/js/r*/show_ads_impl_with_ama_fy2019.js$domain=skmedix.pl
@@ -13885,6 +13887,8 @@ $replace=/openNewTab\(".*?".{0\,10}\)/null/,document,subdocument,to=turbovidhls.
 /asset/angular.min.js?t=$xmlhttprequest,~third-party
 /asset/jquery/slim-3.2.min.js?*&t=$xmlhttprequest,~third-party
 /vast?spot=*xh_spot_id
+/sdk/v1/dd.interstitial.ts.js
+/sdk/v1/dd.master.spot.js
 /^https:\/\/[0-9a-z]{6,12}\.in(?:\/[a-z]{2,10}){1,3}$/$script,third-party,match-case
 /l/DMP_picture_captcha?$document,popup
 .tech/c/$script,third-party
@@ -14478,8 +14482,6 @@ $image,third-party,denyallow=googleapis.com,domain=vipbox1.org
 $third-party,script,domain=klto9.com|f2movies.to|hacamchicac.com|yourporngod.com|zinchanmanga.com|yaoimangaonline.com|tututweak.app|mangaraw.ac|eromanga-show.com|hentai-one.com|hentaipaw.com|nukibooks.com|paipancon.com|jgvdata.com|youtubevanced.com|pandamtl.com|mangaplus.shueisha.tv|shueisharaw.tv
 ||linksconsole.com/ad-system/
 ||misc-api.feathermc.com/*/ads/ad_units?
-interstitial.ts.js$domain=xhamster.com
-dd.master.spot.js$domain=xhamster.com
 ||glomex.cloud/v*/bid-slots?
 ||drumkits.site/shared/ad-handler.js
 ||friendquiz.me/images/SunQad.png
@@ -18424,6 +18426,8 @@ $popup,third-party,domain=fembed-hd.com,badfilter
 $popup,third-party,domain=sbplay2.com,badfilter
 $popup,third-party,domain=dood.ws,badfilter
 @@||download.ros.org/*.xsd$document
+@@||editmysite.com/js/wsnbn/snowday262.js$domain=checkout.square.site
+@@||editmysite.com/app/website/static/js/wsnbn/snowday262.js$domain=checkout.square.site
 @@||api.taboola.com/*/json/$domain=speedy-links.com
 ||offer.alibaba.com/cps/*rc=$popup,badfilter
 @@||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$script,domain=airtelxstream.in
@@ -33558,6 +33562,7 @@ $popup,third-party,domain=hentai2read.com|porn-tube-club.com
 @@||esko.cloud^*_300x600_$~third-party
 @@||government-and-constitution.org/images/presidential-seal-300-250.gif$image,~third-party
 @@||hiveworkscomics.com/frontboxes/300x250_$image,~third-party
+@@||img.cf.47news.jp/static/*/300x250$~third-party
 @@||img.tile.expert/*/*_300x600_$image,~third-party
 @@||keibana.com/wp-content/uploads/*/300x250_$~third-party
 @@||leerolymp.com/_nuxt/300-250.$script,~third-party

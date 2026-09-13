@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Aggressive
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202609122215
-! Last modified: 2026-09-12T22:15:58Z
+! Version: 202609130058
+! Last modified: 2026-09-13T00:58:47Z
 ! Layers: network,content,scriptlet
 ! Mode: aggressive
-! Rules: 117157
+! Rules: 117163
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -113341,6 +113341,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||csdn.net^*/counter.js
 ||etwun.com:8080/counter.php?
 ||gias.jd.com/js/td.js
+||h5speed.m.jd.com/event/log
 ||hudong.com/flux.js
 ||ifengimg.com/sta_collection.*.js
 ||iqiyi.com/pixel?
@@ -113820,6 +113821,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||api.ffm.to/sl/e/$image
 ||api.headliner.link/api/v1/b/receive
 ||api.ig.com/statistics/
+||api.inboxburn.com/api/events
 ||api.invideo.io/v3/send_analytics_event
 ||api.lightyear.com/v1/web-visit/pixel.png
 ||api.meetup.com/pico/v4/web-events
@@ -115635,6 +115637,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||shemsfm.net/fr/setStats/
 ||sncf-connect.com/apm
 ||sncf-connect.com/bff/api/v1/t/events
+||sofoot.com/home/stats
 ||space-blogs.net/include/counter/
 ||sta.wawacity.
 ||sta.zone-telechargement.
@@ -115675,13 +115678,16 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||baidu.com/api/bidder/
 ||baidu.com/kan/api/ipLocation
 ||baidu.com^*/ps_default.gif?
+||base.imdada.cn/rum/spa.js
 ||clewm.net/public/cli_analytics.js$domain=cli.im
 ||ctrmi.cn/t/
 ||dcard.tw/v1/events
 ||douyucdn.cn/fish3/1.gif
 ||eastmoney.com/usercollect/
 ||eastmoney.com/web/prd/jump_tracker.js
+||fe.imdada.cn/meridian/unify.min.js
 ||forum.zuvio.com.tw/api/article/finish
+||gias.jd.com/js/pc-tk.js
 ||hisense.com/ta.js
 ||hktvmall.com/api/event
 ||hoyoverse.com/device-fp/
@@ -115771,7 +115777,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||weiyun.com/cgi-bin/tianshu_report
 ||weiyun.com/proxy/domain/boss.qzone.qq.com/fcg-bin/fcg_rep_strategy?
 ||wenku.baidu.com/tongji/
-||wl.jd.com^$third-party
 ||work.3dmgame.com/js/statistics.js
 ||wumii.com/images/pixel.png
 ||xcar.com.cn/exp/
@@ -116839,6 +116844,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||dd.blackhawknetwork.com.first-party-js.datadome.co^$domain=redeem.rewardlink.com
 @@||dd.jaycar.com.au.first-party-js.datadome.co^$script,third-party,domain=jaycar.com.au
 @@||dd.qa.moneygram.com.first-party-js.datadome.co^$script,xmlhttprequest,domain=moneygram.com
+@@||dd.qwant.com.first-party-js.datadome.co^$domain=qwant.com
 @@||dd.thetrainline.com.first-party-js.datadome.co^$domain=thetrainline.com
 @@||dd.wizzair.com.first-party-js.datadome.co^$domain=wizzair.com
 @@||dwt.soundcloud.com.first-party-js.datadome.co^$script,xmlhttprequest,domain=soundcloud.com

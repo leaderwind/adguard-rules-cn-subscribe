@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Windows
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202609130058
-! Last modified: 2026-09-13T00:58:47Z
+! Version: 202609130606
+! Last modified: 2026-09-13T06:06:36Z
 ! Layers: network,content,scriptlet
 ! Mode: standard
-! Rules: 117074
+! Rules: 117076
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -36582,6 +36582,7 @@ _800x80_
 ||publift.com^$third-party
 ||publir.com^$third-party
 ||publisher1st.com^$third-party
+||publisherdesk.com^$third-party
 ||pubscale.com^$third-party
 ||pubwise.io^$third-party
 ||puffnetwork.com^$third-party
@@ -115365,6 +115366,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||chefkoch.de/search/tracking/
 ||chefkoch.de/tracking/
 ||cinestar.de/collect/
+||comdirect.de/cp/log/
 ||comparis.ch/comparis/Tracking/
 ||computerbase.de/analytics
 ||computerbase.de/api2/$ping,xmlhttprequest

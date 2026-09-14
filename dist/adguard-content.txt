@@ -1,8 +1,8 @@
 ! Title: AdGuard Rules CN - Content
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202609140101
-! Last modified: 2026-09-14T01:01:54Z
+! Version: 202609140614
+! Last modified: 2026-09-14T06:14:53Z
 ! Layers: content
 ! Mode: standard
 ! Rules: 63796
@@ -11561,7 +11561,7 @@ mob.hr##.noa-banner > a
 mob.hr###billboard_ad_container
 mob.hr##.side_banner
 svetserialu.to##.alert_premiumExpired
-svetserialu.to##body > div[class][style^="z-index:"]
+svetserialu.to##body > .loader ~ div[class][style*="z-index"]:not([id])
 infotbal.cz##div[data-elementor-type="wp-page"] > .elementor-section[data-settings*="background_background"]:has(.reklama-wrapper)
 hnonline.sk##.container div[class]:has(> div.ad--align)
 kosicak.sk##div[style^="width:100%;min-height:"]

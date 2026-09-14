@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Conservative
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202609141400
-! Last modified: 2026-09-14T14:00:38Z
+! Version: 202609141920
+! Last modified: 2026-09-14T19:20:59Z
 ! Layers: network,content,scriptlet
 ! Mode: conservative
-! Rules: 109018
+! Rules: 109019
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -43512,7 +43512,7 @@ filathlos.gr##article.h-entry > div.mx-auto:has(> #taboola-alternating-below-art
 filathlos.gr##.col-span-1:has(> div.flex > div[data-ocm-ad])
 filathlos.gr##img[alt="ad banner"]
 enikonomia.gr##.inner-sidebar-ad-widget
-enikos.gr,real.gr##.advertisement
+thecars.gr,enikos.gr,real.gr##.advertisement
 alfavita.gr###ocm_inread
 alfavita.gr##.ocm-outbrain-wrapper
 athensvoice.gr##.banner
@@ -47679,7 +47679,7 @@ money.pl#$#body { overflow: visible!important; }
 www.wp.pl#$#body > #root { opacity: 1 !important; }
 www.wp.pl##.grid > div:not([class]):has(> div[class*=" "]:only-child > div[class*=" "]:first-child + div[class*=" "]:last-child > div:empty:first-child + img[src*="://v.wpimg.pl/"][alt][role="presentation"]:last-child)
 www.wp.pl##div[class*=" "]:not(.wp-image-placeholder):has(> img[src^="https://v.wpimg.pl/"]:first-child + div:last-child:empty:not(.wp-badge-wrapper))
-www.wp.pl##.wp-live-main > .wp-inner-content > div[class*=" "]:has(> img[src^="https://v.wpimg.pl/"]:first-child + div + script:last-child)
+www.wp.pl##.wp-inner-content > div[class*=" "]:has(> img[src^="https://v.wpimg.pl/"]:first-child + div + script:last-child)
 wp.pl##[class^="_"]:has(> img[src*=".wp.pl"])
 sportowefakty.wp.pl,open.fm,dom.wp.pl,facet.wp.pl,film.wp.pl,finanse.wp.pl,gry.wp.pl,gwiazdy.wp.pl,kobieta.wp.pl,ksiazki.wp.pl,kuchnia.wp.pl,moto.wp.pl,opinie.wp.pl,tech.wp.pl,teleshow.wp.pl,turystyka.wp.pl,wawalove.wp.pl,wiadomosci.wp.pl,wroclaw.wp.pl##div[class*=" "]:has(> div[class]:first-child:empty + img[src*="://v.wpimg.pl/"][alt]:empty)
 pilot.wp.pl##div[style*="min-height:"] > div[class*=" "] > section[class*=" "] > div[class*=" "]:has(> img[src="https://std.wpcdn.pl/images/adv/placeholder_wp.svg"])
@@ -50045,7 +50045,7 @@ content-loader.com,css-load.com,html-load.com,img-load.com#$?#html:not(:has(> he
 ##img[src*="html-load.com/"][style^="position: absolute; left: 0px;"]
 ##img[src*="html-load.com/"][width="100%"][alt=""][style="display: block;"]
 ##ins[class^="img_"][style^="display:inline-block;"]
-##ins[data-adsbygoogle-status]
+##ins[data-adsbygoogle-status]:not(.adsbygoogle)
 ##ins[id][data-anchor-status]
 ##link + div[class^="img_"][style="width: 300px; height: 250px;"]
 ##link + style + script + a[href*="html-load.com/"]
@@ -105823,6 +105823,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||chat.groq.com/global_stats
 ||chatfuel.com/cf-analytics/
 ||chatgpt.com/backend-api/sentinel/ping
+||chatgpt.com/ces/v1/telemetry/
 ||chatroll.com/t.gif
 ||chewy.com/api/event/
 ||chickadvisor.com/js/detect.min.js

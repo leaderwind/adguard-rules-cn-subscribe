@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Network
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202609150742
-! Last modified: 2026-09-15T07:42:04Z
+! Version: 202609151331
+! Last modified: 2026-09-15T13:31:00Z
 ! Layers: network
 ! Mode: standard
-! Rules: 47781
+! Rules: 47780
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -11151,7 +11151,6 @@ $script,redirect-rule=noopjs,domain=vidmoly.biz|vidmoly.me|vidmoly.net|vidmoly.t
 @@||phoenixnewtimes.com/js_cache/ads.js^
 @@||kodi-tutorials.uk^$generichide
 @@||wallpaperenginefree.com^$generichide
-@@||hdbox.ws^$generichide
 @@||satoshihero.com^$generichide
 @@||satoshimonster.com^$generichide
 @@||cdn-surfline.com/quiver/*/scripts/$domain=surfline.com
@@ -11210,7 +11209,6 @@ $script,redirect-rule=noopjs,domain=vidmoly.biz|vidmoly.me|vidmoly.net|vidmoly.t
 @@||majesy.com^$generichide
 @@||magesy.blog^$generichide
 @@.png#$domain=majesy.com|magesy.blog
-@@||minecraft-forum.net/v/adblock-detection-master/advert.js
 @@||img.tfd.com/ads.js
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=freethesaurus.com
 ||thefreedictionary.com/_/tr.ashx?
@@ -11256,7 +11254,6 @@ $script,redirect-rule=noopjs,domain=vidmoly.biz|vidmoly.me|vidmoly.net|vidmoly.t
 ||www.multiup.*/js/compiled_js_
 @@||c.amazon-adsystem.com/aax2/apstag.js$domain=player.watch.aetnd.com
 @@||player.watch.aetnd.com^$generichide
-@@||dickpritchettrealestate.com^$generichide
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=vidyome.com
 @@||download.hr/module/detector/adsbygoogle.js
 @@||map.poketrack.xyz/js/ads-min.js
@@ -11839,7 +11836,6 @@ $third-party,xmlhttprequest,domain=faselhd.cafe|faselhd-watch.shop,badfilter
 ||pcchip.hr/wp-content/uploads*BANNER
 ||mob.hr/blog/wp-content/uploads/noviupload/NOA-E1-BANNER
 ||mob.hr^*-300x250.
-||svetserialu.to/assets/js/ads.js
 ||sector.sk/default-*.aspx
 ||sector.sk/scripts/trixam.min.js
 ||cdn.telekomunikace.cz/banners
@@ -11848,6 +11844,8 @@ $third-party,xmlhttprequest,domain=faselhd.cafe|faselhd-watch.shop,badfilter
 ||1gr.cz/u/idn4/reklama
 @@||vlm-ads.aimatch.com/vlm/jserver/$domain=titulky.com
 ||titulky.com/mybanalter/
+||svetserialu.to/assets/js/popads.js
+||svetserialu.to/assets/js/ads.js
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima3,domain=cnews.cz
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=cnews.cz
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=ewrc.cz
@@ -17346,7 +17344,7 @@ $domain=adserver.juicyads.com
 ||hotpornfile.org/*/b_l.php
 ||celebrity-leaks.net/*.php$script
 ||thefrappening.so/sproject/sproject.php
-.com/ads/$domain=hdbraze.com
+.com/ads/$domain=hdbraze.com|livelive24.com
 ||static.nitropay.com/nads^
 ||anysex.com/assets/script.js
 /^https?:\/\/anysex\.com\/[a-zA-Z]{1,4}\/[a-zA-Z]+\.php$/$image,script,domain=anysex.com
@@ -20537,6 +20535,7 @@ $csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: www.googletagma
 @@||beinconnect.com.tr^$stealth
 @@||account.adobe.com^$document,domain=services.adobe.com,stealth=useragent
 @@||adguard.com^$stealth
+@@/e/*?sub.info=https://svetserialu.to$stealth=referrer
 @@/stream/*.m3u8$stealth=referrer,domain=sampiyontv2.xyz
 @@||f7b44cfafd5c52223d5498196c8a2e7b.biz/stream/*.m3u8$stealth=referrer
 @@/stream/*.m3u8$stealth=referrer,domain=/betanotv\d+\.site$/
@@ -26896,7 +26895,6 @@ _800x80_
 ||caroda.io^$third-party
 ||cdn.mcnn.pl^$third-party
 ||cdnreference.com^$third-party
-||charltonmedia.com^$third-party
 ||chitika.com^$third-party
 ||cibleclick.com^$third-party
 ||cinarra.com^$third-party
@@ -37867,7 +37865,7 @@ template/m1938pc/ads/*.js
 ://dwh-prod.*/de.npg/
 ://elqtrk.
 ://fallback.*/collector
-://fathom.$domain=~fathom.care|~fathom.co.za|~fathom.fm|~fathom.info|~fathom.io|~fathom.lib.uchicago.edu|~fathom.news|~fathom.org|~fathom.video|~fathom.world|~fathomdelivers.com|~fathomseo.com|~usesfathom.com
+://fathom.$domain=~fathom.care|~fathom.co.za|~fathom.fm|~fathom.info|~fathom.io|~fathom.lib.uchicago.edu|~fathom.news|~fathom.org|~fathom.services|~fathom.video|~fathom.world|~fathomdelivers.com|~fathomseo.com|~usesfathom.com
 ://gtrack.*/dye
 ://insights-collector.
 ://internal-matomo.
@@ -46746,6 +46744,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||ss.lv/counter/
 ||tanks.lv/top/stats.php
 ||15min.lt/cached/tgif$~third-party
+||api.lrt.lt/pagd/sirens
 ||g.delfi.lt/g.js
 ||lrytas.lt/counter/
 ||propertyguru.com.my/api/consumer/vast-media/impression?

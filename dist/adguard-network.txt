@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Network
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202609142308
-! Last modified: 2026-09-14T23:08:28Z
+! Version: 202609150127
+! Last modified: 2026-09-15T01:27:31Z
 ! Layers: network
 ! Mode: standard
-! Rules: 47782
+! Rules: 47783
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -14487,6 +14487,7 @@ $image,third-party,denyallow=googleapis.com,domain=vipbox1.org
 $third-party,script,domain=klto9.com|f2movies.to|hacamchicac.com|yourporngod.com|zinchanmanga.com|yaoimangaonline.com|tututweak.app|mangaraw.ac|eromanga-show.com|hentai-one.com|hentaipaw.com|nukibooks.com|paipancon.com|jgvdata.com|youtubevanced.com|pandamtl.com|mangaplus.shueisha.tv|shueisharaw.tv
 ||linksconsole.com/ad-system/
 ||misc-api.feathermc.com/*/ads/ad_units?
+||streamex.hn/pop.js
 ||tikfap.app/wp-content/plugins/tikfap-popunder/
 ||tikfap.click/click?key=$document
 ||proceedflow.info/click?key=$document

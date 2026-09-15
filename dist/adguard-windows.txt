@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Windows
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202609142308
-! Last modified: 2026-09-14T23:08:28Z
+! Version: 202609150127
+! Last modified: 2026-09-15T01:27:31Z
 ! Layers: network,content,scriptlet
 ! Mode: standard
-! Rules: 117121
+! Rules: 117128
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -23714,6 +23714,7 @@ $image,third-party,denyallow=googleapis.com,domain=vipbox1.org
 $third-party,script,domain=klto9.com|f2movies.to|hacamchicac.com|yourporngod.com|zinchanmanga.com|yaoimangaonline.com|tututweak.app|mangaraw.ac|eromanga-show.com|hentai-one.com|hentaipaw.com|nukibooks.com|paipancon.com|jgvdata.com|youtubevanced.com|pandamtl.com|mangaplus.shueisha.tv|shueisharaw.tv
 ||linksconsole.com/ad-system/
 ||misc-api.feathermc.com/*/ads/ad_units?
+||streamex.hn/pop.js
 ||tikfap.app/wp-content/plugins/tikfap-popunder/
 ||tikfap.click/click?key=$document
 ||proceedflow.info/click?key=$document
@@ -52934,6 +52935,11 @@ animecorner.me,zarabiajprzez24.pl,watchhentai.xxx,app-how-to-use-it.com,linuxcap
 pawastreams.*,nflbite.to,footybite.to,sportschamp.fun,afly.pro,topsporter.net,soccerstreams.football,mysocceraustralia.com,rayinfosports.com,hesgoals.top,sequencecard.xyz,totalsportek.soccer,metaporky.site,nbabite.to,cyfostreams.com,gamerarcades.com,bestreamsports.org,footy.to,mcrypto.club,greaterkashmir.com###id-custom_banner
 pawastreams.*,groundedtechs.com,rayinfosports.com,sequencecard.xyz,matchtime.co,sportspellz.com,bestreamsports.org,silverspoon.site###dismiss-btn
 vi-control.net,nullforums.net,landyzone.co.uk,nullcave.pro,woxmax.com,waskucity.com,babia.to,technofino.in,reef2reef.com,minebbs.com,craxpro.io,affiliatefix.com,myiptvforum.com,hifivision.com,worldofiptv.com,altenen.is,beermoneyforum.com,germancarforum.com,cracking.org##.samBannerUnit
+isitcracked.com##div.flex.justify-center:has(> div[class] > p.tracking-widest)
+isitcracked.com##div.min-h-screen > div.mx-auto:has(div.ad-banner)
+isitcracked.com##.ad-banner
+isitcracked.com##a[rel^="nofollow sponsored"]
+isitcracked.com##aside.hidden > div.sticky > div.rounded-xl:has(> p.tracking-widest)
 magesy.blog##.mi-nube-tags:has(> a:is([href^="https://clickfi.re/"], [href^="https://golove-golove-prelands-reforged.vercel.app/"]))
 tikfap.app##a[href^="https://tikfap.click/click?key="]
 proceedflow.info##a[href^="https://proceedflow.info/click?key="]
@@ -89024,6 +89030,7 @@ jambase.com##.jb-homev3-sense-sidebar-wrap
 techstory.in##.jeg_blocklink
 psypost.org##.jeg_midbar
 sabcnews.com##.jeg_topbar
+law.justia.com##.jlead-v2
 dot.la##.job-wrapper
 marketingweek.com##.jobs-lists
 johncodeos.com##.johnc-widget
@@ -95826,7 +95833,7 @@ lockr.so#%#//scriptlet('prevent-fetch', 'adskeeper.com')
 faucetcrypto.com#%#//scriptlet('prevent-fetch', '/cdn\.bmcdn3\.com|appsha-pnd\.ctengine\.io/')
 tryigit.dev#%#//scriptlet('abort-on-stack-trace', 'console.log', 'checkAdBlockers')
 bigshare.io#%#//scriptlet('prevent-addEventListener', 'DOMContentLoaded', 'detectAdBlock')
-q8y5z.com,rupertisdivingintoocean.com,398fitus.com,f75s.com,f16px.com#%#//scriptlet('prevent-setTimeout', 'readyWait')
+f7hyg4q.org,q8y5z.com,rupertisdivingintoocean.com,398fitus.com,f75s.com,f16px.com#%#//scriptlet('prevent-setTimeout', 'readyWait')
 rez.jbnews.it.com#%#//scriptlet('prevent-addEventListener', 'load', 'location.reload')
 rpmplay.online#%#//scriptlet('google-ima3')
 lootup.me#%#//scriptlet("abort-current-inline-script", "document.getElementById", ".style.display='block")

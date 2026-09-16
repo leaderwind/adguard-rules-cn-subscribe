@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Network
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202609152120
-! Last modified: 2026-09-15T21:20:06Z
+! Version: 202609160018
+! Last modified: 2026-09-16T00:18:52Z
 ! Layers: network
 ! Mode: standard
-! Rules: 47784
+! Rules: 47788
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -34928,7 +34928,11 @@ template/m1938pc/ads/*.js
 ||lockerdome.com^$third-party
 ||35.227.234.222^
 ||35.232.188.118^
+||3xyy.com^$popup
 ||betvictor.com*&utm_campaign=$popup
+||blendfencingprune.com^$popup
+||record.royalreelspartners.com^$popup
+||treesmajestic.com^$popup
 ||wizslots.com*&utm_campaign=$popup
 ||130.211.$popup,third-party,domain=~in-addr.arpa
 ||216.21.13.$popup,domain=~in-addr.arpa

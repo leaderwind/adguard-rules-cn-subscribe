@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Conservative
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202609152120
-! Last modified: 2026-09-15T21:20:06Z
+! Version: 202609160018
+! Last modified: 2026-09-16T00:18:52Z
 ! Layers: network,content,scriptlet
 ! Mode: conservative
-! Rules: 109049
+! Rules: 109054
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -95854,7 +95854,11 @@ yatu.tv##.dplayer-web-fullscreen-fix #tburl,#loadtop,[id^=myas],#myds1,#daohang
 ||lockerdome.com^$third-party
 ||35.227.234.222^
 ||35.232.188.118^
+||3xyy.com^$popup
 ||betvictor.com*&utm_campaign=$popup
+||blendfencingprune.com^$popup
+||record.royalreelspartners.com^$popup
+||treesmajestic.com^$popup
 ||wizslots.com*&utm_campaign=$popup
 ||130.211.$popup,third-party,domain=~in-addr.arpa
 ||216.21.13.$popup,domain=~in-addr.arpa
@@ -95885,6 +95889,7 @@ character.ai#?#.space-y-4 > .w-full:has-text(Advertisement)
 cjleo.com#?#.alt-widget-title:has-text(advertisement)
 getyarn.io#?#.pt3p > div > div:has-text(Advertisement)
 theregister.com#?#article.large-12:has-text(SPONSORED FEATURE)
+chatgpt.com##[data-message-role="assistant"] > section[class]:has(> aside[aria-label] > div[role="list"] a[rel][target="_blank"][href*="&oppref="])
 2fa.live#?#p:has-text(Advertising)
 404media.co#?#.post__content > p:has-text(This segment is a paid ad)
 acmemarkets.com,albertsons.com,andronicos.com,carrsqc.com,haggen.com,jewelosco.com,kingsfoodmarkets.com,pavilions.com,randalls.com,safeway.com,shaws.com,starmarket.com,tomthumb.com,vons.com#?#.product-card-col:has-text(Sponsored)

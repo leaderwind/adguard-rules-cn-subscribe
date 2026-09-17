@@ -1,8 +1,8 @@
 ! Title: AdGuard Rules CN - Browser
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202609162256
-! Last modified: 2026-09-16T22:56:09Z
+! Version: 202609170123
+! Last modified: 2026-09-17T01:23:09Z
 ! Layers: network,content,scriptlet
 ! Mode: standard
 ! Rules: 117105
@@ -104338,6 +104338,7 @@ otomi-games.com##.clean-grid-grid-post:has(> [id^="otomi-"] + .clean-grid-grid-p
 /2x2.gif?$image
 /3.gif?
 /500b-bench.jpg?
+/?compression=*&ip=
 /?dm=*&blogid=$script
 /?essb_counter_
 /?livehit=
@@ -115067,7 +115068,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||x.com/i/api/1.1/graphql/app_context.json
 ||x.com/i/api/1.1/graphql/error_log.json
 ||x.com/i/api/1.1/graphql/user_flow.json
-||x.com/i/api/1.1/graphql/viewer_context.json
 ||x.com/i/api/1.1/jot
 ||x.com/i/csp_report
 ||x.com/i/jot

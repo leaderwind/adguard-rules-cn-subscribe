@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Content
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202609181110
-! Last modified: 2026-09-18T11:10:14Z
+! Version: 202609181459
+! Last modified: 2026-09-18T14:59:48Z
 ! Layers: content
 ! Mode: standard
-! Rules: 63834
+! Rules: 63836
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -2762,6 +2762,7 @@ newduba.cn###jq_youxi
 ##.art-layer-ad
 ##._v_ad_container
 ##.component-advertises
+##.hg-ssp-slot
 ##a[href*="/122.51.121.126:"]
 ##a[href*="/137.220.194.105:"]
 ##a[href*="/137.220.194.123:"]
@@ -18987,6 +18988,7 @@ mp1st.com#?#.kevinsingle-content > p:contains(/^\u00A0+$/)
 analyticsindiamag.com##.group[href="/advertise"]
 xmoviesforyou.top#?#div.row > div.col:has(> div.card.overflow-hidden > span.position-absolute:contains(AD))
 xmoviesforyou.top##.d-flex[style="min-height: 250px;"]:has(> div[data-cl-spot])
+troypoint.com##.sidebar-main > aside.widget:has(> div.textwidget > p[style] > a[target="_blank"])
 pornhub.com,pornhub.org,pornhub.net##div.uploadBtnContentSpicevids
 dailypost.ng##.dp-global-leaderboard
 onedio.co###mansetAlti-container
@@ -19005,7 +19007,7 @@ utatime.com##div[class^="responsive"]
 saveinta.com#$##dlModal { display: none !important; }
 saveinta.com#$#body.modal-open { overflow: auto !important; }
 magma.com##div.ng-star-inserted[style="padding-top: 0px;"]
-aussieaudiomart.com##.precontent
+aussieaudiomart.com##a[href="#register_modal"].btn
 streamsports99.cx,streamsports99.tv,streamsports99.su,streamsports99.ru,streamsports99.*###main-content > div.container > div.grid div.border.bg-gradient-card:has(> div.flex > a[href^="https://billing.rocketstreams4k.com/"])
 streamsports99.cx,streamsports99.tv,streamsports99.su,streamsports99.ru,streamsports99.*##a[data-no-ad]
 streamsports99.cx,streamsports99.tv,streamsports99.su,streamsports99.ru,streamsports99.*##.musiqly-ad
@@ -20696,7 +20698,7 @@ vidnest.fun,vidnest.live,vidnest.io##a[href="https://candai.online/"]
 vidnest.fun,vidnest.live,vidnest.io##.main_container center p a[target="_blank"][rel="noopener"]
 si.com##.viewablity-block > figure[data-mm-id]:has(div.mplayer-video)
 roundtable.io##div[style*="min-height"][style*="min-width"]
-usaudiomart.com##.precontent[style*="height:"][style*="90px;"]
+aussieaudiomart.com,usaudiomart.com##.precontent[style*="height:"][style*="90px;"]
 usaudiomart.com##.adverttable > tbody > tr.ad ~ tr:not([class])
 usaudiomart.com##.cfbox > div[style="float:right;padding:6px;background:white;"]
 edywerder.ch##.kadence-element-wrap
@@ -20790,7 +20792,7 @@ allpornstream.com##.grid > div.h-full:has(> div.ad-thumbnail-container)
 vite.dev##.vt-banner-text
 usconcealedcarry.com##div[class^="simplePayloadBanner_container"]
 time.com###sponsorshiplogo1
-neoseeker.com###page_top_content
+aussieaudiomart.com,neoseeker.com###page_top_content
 neoseeker.com###column_right_top_content
 emojipedia.org#$#main > div[class^="Container_container-wrapper"] div.block.sticky:has(> div[class^="AdContainer"]) { display: none !important; }
 emojipedia.org#$#body > .h-screen > .pt-16 { padding-top: 0 !important; }
@@ -26678,8 +26680,8 @@ pdf2go.com##.advertising-wrapper
 onebitco.com##div[style^="height: 250px; width: 300px; position: fixed;"]
 pdfdrive.com,onebitco.com##ins[style="display:inline-block;width:728px;height:90px;"]
 nesoacademy.org##.right-section > section.right-subject > div[class*=" jss"]:first-child
-canuckaudiomart.com##div[id^="replacement-position-"]
-canuckaudiomart.com##div[style^="min-width:300px;min-height:250px;"]
+aussieaudiomart.com,canuckaudiomart.com##div[id^="replacement-position-"]
+aussieaudiomart.com,canuckaudiomart.com##div[style^="min-width:300px;min-height:250px;"]
 insiderintelligence.com##.cb-widget-toc_section-ad
 insiderintelligence.com##div[class^="TopAd__"]
 insiderintelligence.com##div[class^="topic__AdTopWrapper-"] > div[class^="sc-"]

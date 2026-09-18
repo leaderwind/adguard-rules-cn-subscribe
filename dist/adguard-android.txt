@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Android
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202609180555
-! Last modified: 2026-09-18T05:55:36Z
+! Version: 202609181110
+! Last modified: 2026-09-18T11:10:14Z
 ! Layers: network,content,scriptlet
 ! Mode: standard
-! Rules: 18121
+! Rules: 18124
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -9161,6 +9161,9 @@ netfly.*,netfly.tv##.player-box > div.player-tt-rmm
 netfly.*,netfly.tv##.module-tg-box
 netfly.*,netfly.tv##div[class*="tt-"] > a[target="_blank"] > img
 netfly.*,netfly.tv##div[class*="tt-"] > a[target="_blank"] + span.tt-icon-close
+huavod.cc,huavod.top,huavod.net,huavod.com,huaren.live##.weixin
+huavod.cc,huavod.top,huavod.net,huavod.com,huaren.live##.slide-nav-list a[target="_blank"]:not(a[href^="/"])
+huavod.cc,huavod.top,huavod.net,huavod.com,huaren.live##.swiper-wrapper > div.swiper-slide:has(a[target="_blank"]:not(a[href^="/"]))
 bilibili.com##.container > .bili-feed-card:has(> div.bili-video-card div.bili-video-card__info--no-interest + h3 > a[target="_blank"]:not([href^="https://www.bilibili.com/"]))
 bilibili.com#?#.recommended-container_floor-aside .container > div[class$="feed-card"]:has(div[style$="56.25%;"] > div[class]:matches-css(before, content: /AdGuard/))
 bilibili.com##.container > div.feed-card:empty

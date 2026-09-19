@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Conservative
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202609182139
-! Last modified: 2026-09-18T21:39:59Z
+! Version: 202609190018
+! Last modified: 2026-09-19T00:18:07Z
 ! Layers: network,content,scriptlet
 ! Mode: conservative
-! Rules: 109035
+! Rules: 109030
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -87619,6 +87619,7 @@ dallasinnovates.com##.sponsor-footer
 wralsportsfan.com##.sponsor-label
 jquery.com##.sponsor-line
 newsroom.co.nz##.sponsor-logos2
+trace.moe##.sponsor-module__2LoZHG__sponsor
 fimfiction.net##.sponsor-reminder
 compellingtruth.org##.sponsor-sidebar
 cricketireland.ie##.sponsor-strip
@@ -90255,7 +90256,6 @@ opensubtitles.org##tr[style]:has([src*="php"])
 oneindia.com##ul > li:has(> div[class^="adg_"])
 etsy.com##ul[data-results-grid-container] li:has([id^="ad-listing-title-"])
 wolt.com##ul[data-test-id="VenueVerticalListGrid"] > li > div.cb-elevated:has(button[data-test-id="AdvertisingLabel"])
-wolt.com#?#div:has(> div > div > div > div > div > div > p:contains(Sponsored))
 nme.com###taboola-below-article
 oneindia.com###taboola-mid-article-thumbnails
 the-independent.com###taboola-mid-article-thumbnails-ii
@@ -91125,8 +91125,6 @@ vpforums.org#?#.ipsSideBlock.clearfix:contains(Affiliates)
 weather.com#?#.bg-gray-100:contains(Advertisement)
 wings.io#?#.form-group center:contains(Advertisement)
 wltreport.com#?#.code-block:contains(ADVERTISEMENT)
-wolt.com#?#button:has(> div > div > div > span:contains(Sponsored))
-wolt.com#?#div:has(> div > div > div > div > div > p:contains(Sponsored))
 woolworths.com.au#?#div[class^="recipe-card_component_recipe-card-container-"]:contains(Sponsored)
 woot.com#?#[dir="auto"]:contains(ADVERTISEMENT)
 www.yahoo.com#?#.uppercase.text-xs:contains(Advertisement)
@@ -95866,7 +95864,6 @@ character.ai#?#.space-y-4 > .w-full:has-text(Advertisement)
 cjleo.com#?#.alt-widget-title:has-text(advertisement)
 getyarn.io#?#.pt3p > div > div:has-text(Advertisement)
 theregister.com#?#article.large-12:has-text(SPONSORED FEATURE)
-wolt.com#?#div:has(> div > div > div > div > div > div > p:has-text(Sponsored))
 2fa.live#?#p:has-text(Advertising)
 404media.co#?#.post__content > p:has-text(This segment is a paid ad)
 acmemarkets.com,albertsons.com,andronicos.com,carrsqc.com,haggen.com,jewelosco.com,kingsfoodmarkets.com,pavilions.com,randalls.com,safeway.com,shaws.com,starmarket.com,tomthumb.com,vons.com#?#.product-card-col:has-text(Sponsored)
@@ -96108,8 +96105,6 @@ vpforums.org#?#.ipsSideBlock.clearfix:has-text(Affiliates)
 weather.com#?#.bg-gray-100:has-text(Advertisement)
 wings.io#?#.form-group center:has-text(Advertisement)
 wltreport.com#?#.code-block:has-text(ADVERTISEMENT)
-wolt.com#?#button:has(> div > div > div > span:has-text(Sponsored))
-wolt.com#?#div:has(> div > div > div > div > div > p:has-text(Sponsored))
 woolworths.com.au#?#div[class^="recipe-card_component_recipe-card-container-"]:has-text(Sponsored)
 woot.com#?#[dir="auto"]:has-text(ADVERTISEMENT)
 www.yahoo.com#?#.uppercase.text-xs:has-text(Advertisement)

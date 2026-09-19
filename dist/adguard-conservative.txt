@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Conservative
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202609190551
-! Last modified: 2026-09-19T05:51:11Z
+! Version: 202609191055
+! Last modified: 2026-09-19T10:55:13Z
 ! Layers: network,content,scriptlet
 ! Mode: conservative
-! Rules: 109031
+! Rules: 109044
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -34048,6 +34048,7 @@ _800x80_
 ||slimspots.com^$third-party
 ||slopeaota.com^$third-party
 ||smac-ad.com^$third-party
+||smadex.com^$third-party
 ||smalk.ai^$third-party
 ||smartasset.com^$third-party
 ||smartclip.net^$third-party,domain=~toggo.de
@@ -89513,6 +89514,7 @@ malaysiakini.com##div[style^="height:600px"]
 whatmobile.com.pk##div[style^="height:610px"]
 point2homes.com,propertyshark.com##div[style^="margin-bottom: 10px;"]
 unionpedia.org##div[style^="margin-top: 15px; min-width: 300px"]
+twstalker.com##div[style^="max-width: 728px; width: 100%;"]
 gizbot.com,goodreturns.in,inc.com##div[style^="min-height: 250px"]
 point2homes.com,propertyshark.com##div[style^="min-height: 360px;"]
 online-calculator.org##div[style^="min-height:90px"]
@@ -95850,10 +95852,13 @@ yatu.tv##.dplayer-web-fullscreen-fix #tburl,#loadtop,[id^=myas],#myds1,#daohang
 @@||discord.com^$generichide
 ##.ad-unit
 ##[class^="div-gpt-ad"]
+sitepoint.com###takeover-content-1
+sitepoint.com###takeover-vertical
 cyberchef.org###workspace-wrapper > [id][style*="height"] {height: 100% !important}
 complex.com##.\[\@media\(min-width\:520px\)\]\:px-\[20px\]
 justjared.com##.banner-spacer-top {max-height: 50px !important;}
 temp-mail.io##.fixed.bottom-0.\[\@media\(max-width\:1350px\)\]\:hidden
+sitepoint.com##.inline-content
 complex.com##.lg\:top-\[var\(--sticky-top\)\]
 justjared.com##[role="banner"] {top:0 !important}
 gamedev.net#?#.dark\:border-gray-700:has-text(Advertisement)
@@ -105212,6 +105217,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ixigua.com/at/log/
 ||js.letvcdn.com/js/*/stats/
 ||js.static.m1905.cn/pingd.js
+||miao.baidu.com/abdr?
 ||netease.com/track/
 ||netease.com/web/performance?
 ||nos.netease.com/udc-web/*.log.js
@@ -105689,6 +105695,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||api.lightyear.com/v1/web-visit/pixel.png
 ||api.meetup.com/pico/v4/web-events
 ||api.narrativ.com/favicon.ico
+||api.oaistatsig.com/v1/sdk_exception^$xmlhttprequest,domain=chatgpt.com
 ||api.samsungfind.com/log-collector
 ||api.streamelements.com/science/
 ||api.takealot.com^$ping
@@ -105831,8 +105838,11 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||chase.com/apps/services/clientBeacon.html
 ||chat.groq.com/global_stats
 ||chatfuel.com/cf-analytics/
+||chatgpt.com/awe/api/v2/rum^$ping,xmlhttprequest
+||chatgpt.com/backend-api/codex/app-download-signal^$xmlhttprequest
 ||chatgpt.com/backend-api/sentinel/ping
-||chatgpt.com/ces/v1/telemetry/
+||chatgpt.com/ces/v1/telemetry/intake^$ping,xmlhttprequest
+||chatgpt.com/unauth-mweb/events/$ping,xmlhttprequest
 ||chatroll.com/t.gif
 ||chewy.com/api/event/
 ||chickadvisor.com/js/detect.min.js
@@ -107545,6 +107555,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||base.imdada.cn/rum/spa.js
 ||clewm.net/public/cli_analytics.js$domain=cli.im
 ||ctrmi.cn/t/
+||dap-cn.c.hihonor.com/dap/jssdk.js
 ||dcard.tw/v1/events
 ||douyucdn.cn/fish3/1.gif
 ||eastmoney.com/usercollect/
@@ -107569,6 +107580,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||le.com/op/
 ||m.diyibanzhu.buzz/17mb/script/tj.js
 ||m.diyibanzhu.buzz/17mb/script/wap.js
+||m1.lefile.cn/le_sdk/le-shop-track-sdk.js
 ||mail.qq.com/cgi-bin/getinvestigate?
 ||map.baidu.com/newmap_test/static/common/images/transparent.gif
 ||mi.com/stat/
@@ -107602,6 +107614,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||qzone.qq.com/iframe/report
 ||qzone.qq.com/wspeed.qq.com^
 ||qzonestyle.gtimg.cn/qzone/v8/ic/iframeReport.js
+||retail.hihonor.com/survey/base/analysis/
 ||reurl.cc/javascripts/tagtoo.js
 ||s.pixfs.net/js/pixlogger.min.js
 ||s.pixfs.net/visitor.pixplug.in/

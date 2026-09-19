@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Network
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202609190551
-! Last modified: 2026-09-19T05:51:11Z
+! Version: 202609191055
+! Last modified: 2026-09-19T10:55:13Z
 ! Layers: network
 ! Mode: standard
-! Rules: 47776
+! Rules: 47785
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -27434,6 +27434,7 @@ _800x80_
 ||slimspots.com^$third-party
 ||slopeaota.com^$third-party
 ||smac-ad.com^$third-party
+||smadex.com^$third-party
 ||smalk.ai^$third-party
 ||smartasset.com^$third-party
 ||smartclip.net^$third-party,domain=~toggo.de
@@ -43957,6 +43958,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ixigua.com/at/log/
 ||js.letvcdn.com/js/*/stats/
 ||js.static.m1905.cn/pingd.js
+||miao.baidu.com/abdr?
 ||netease.com/track/
 ||netease.com/web/performance?
 ||nos.netease.com/udc-web/*.log.js
@@ -44434,6 +44436,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||api.lightyear.com/v1/web-visit/pixel.png
 ||api.meetup.com/pico/v4/web-events
 ||api.narrativ.com/favicon.ico
+||api.oaistatsig.com/v1/sdk_exception^$xmlhttprequest,domain=chatgpt.com
 ||api.samsungfind.com/log-collector
 ||api.streamelements.com/science/
 ||api.takealot.com^$ping
@@ -44576,8 +44579,11 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||chase.com/apps/services/clientBeacon.html
 ||chat.groq.com/global_stats
 ||chatfuel.com/cf-analytics/
+||chatgpt.com/awe/api/v2/rum^$ping,xmlhttprequest
+||chatgpt.com/backend-api/codex/app-download-signal^$xmlhttprequest
 ||chatgpt.com/backend-api/sentinel/ping
-||chatgpt.com/ces/v1/telemetry/
+||chatgpt.com/ces/v1/telemetry/intake^$ping,xmlhttprequest
+||chatgpt.com/unauth-mweb/events/$ping,xmlhttprequest
 ||chatroll.com/t.gif
 ||chewy.com/api/event/
 ||chickadvisor.com/js/detect.min.js
@@ -46292,6 +46298,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||base.imdada.cn/rum/spa.js
 ||clewm.net/public/cli_analytics.js$domain=cli.im
 ||ctrmi.cn/t/
+||dap-cn.c.hihonor.com/dap/jssdk.js
 ||dcard.tw/v1/events
 ||douyucdn.cn/fish3/1.gif
 ||eastmoney.com/usercollect/
@@ -46316,6 +46323,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||le.com/op/
 ||m.diyibanzhu.buzz/17mb/script/tj.js
 ||m.diyibanzhu.buzz/17mb/script/wap.js
+||m1.lefile.cn/le_sdk/le-shop-track-sdk.js
 ||mail.qq.com/cgi-bin/getinvestigate?
 ||map.baidu.com/newmap_test/static/common/images/transparent.gif
 ||mi.com/stat/
@@ -46349,6 +46357,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||qzone.qq.com/iframe/report
 ||qzone.qq.com/wspeed.qq.com^
 ||qzonestyle.gtimg.cn/qzone/v8/ic/iframeReport.js
+||retail.hihonor.com/survey/base/analysis/
 ||reurl.cc/javascripts/tagtoo.js
 ||s.pixfs.net/js/pixlogger.min.js
 ||s.pixfs.net/visitor.pixplug.in/

@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Browser
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202609200612
-! Last modified: 2026-09-20T06:12:08Z
+! Version: 202609201123
+! Last modified: 2026-09-20T11:23:04Z
 ! Layers: network,content,scriptlet
 ! Mode: standard
-! Rules: 117157
+! Rules: 117159
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -35627,6 +35627,7 @@ _800x80_
 ||aanetwork.vn^$third-party
 ||abnad.net^$third-party
 ||aboutads.quantcast.com^$third-party
+||absentwhack.com^$third-party
 ||acebet.com^$third-party
 ||acronym.com^$third-party
 ||actiondesk.com^$third-party
@@ -52727,7 +52728,6 @@ content-loader.com,css-load.com,html-load.com,img-load.com#$?#html:not(:has(> he
 ##div[class][style^="min-width: 336px; min-height: 280px; color:#fff"]
 ##div[class][style^="width:300px; height:250px; color:#fff"]
 ##div[class][width="   300"][height="   600"]
-##div[data-google-av-itpl]
 ##div[id^="img_"] > div[id^="img_"][style="width: auto;"]
 ##div[id^="img_"] > div[style$="text-decoration:none;width:300px;"]
 ##div[id^="img_"] > div[style^="margin:0;padding:0;"]
@@ -103970,6 +103970,7 @@ justjared.com##.banner-spacer-top {max-height: 50px !important;}
 temp-mail.io##.fixed.bottom-0.\[\@media\(max-width\:1350px\)\]\:hidden
 complex.com##.lg\:top-\[var\(--sticky-top\)\]
 justjared.com##[role="banner"] {top:0 !important}
+geo.tv##div[style$="min-height: 280px;"]
 gamedev.net#?#.dark\:border-gray-700:has-text(Advertisement)
 deliveroo.*#?#a[role="button"]:has(p:has-text(Sponsored))
 deliveroo.*#?#div[class^="HomeFeedScrollTracker-"]:has(span[class^="HomeFeedUILines-"]:has-text(Sponsored))
@@ -114747,6 +114748,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||secure.teamtalk.com/tag/
 ||secure.tennis365.com/tag/
 ||seekingalpha.com/mone_event
+||seekingalpha.com/mone_v2
 ||seismic.com/playerservice/api/v1/log?
 ||services.haaretz.com/ds/impression
 ||services.haaretz.com/ms-gstat-campaign/

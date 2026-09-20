@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Network
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202609200612
-! Last modified: 2026-09-20T06:12:08Z
+! Version: 202609201123
+! Last modified: 2026-09-20T11:23:04Z
 ! Layers: network
 ! Mode: standard
-! Rules: 47789
+! Rules: 47791
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -26436,6 +26436,7 @@ _800x80_
 ||aanetwork.vn^$third-party
 ||abnad.net^$third-party
 ||aboutads.quantcast.com^$third-party
+||absentwhack.com^$third-party
 ||acebet.com^$third-party
 ||acronym.com^$third-party
 ||actiondesk.com^$third-party
@@ -45381,6 +45382,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||secure.teamtalk.com/tag/
 ||secure.tennis365.com/tag/
 ||seekingalpha.com/mone_event
+||seekingalpha.com/mone_v2
 ||seismic.com/playerservice/api/v1/log?
 ||services.haaretz.com/ds/impression
 ||services.haaretz.com/ms-gstat-campaign/

@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Scriptlet
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202609212316
-! Last modified: 2026-09-21T23:16:41Z
+! Version: 202609220450
+! Last modified: 2026-09-22T04:50:32Z
 ! Layers: scriptlet
 ! Mode: standard
-! Rules: 5628
+! Rules: 5627
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -5486,7 +5486,6 @@ tubitv.com#%#//scriptlet('trusted-json-set', 'Promise.resolve', '$.items[?(@.ad_
 nhentai.to#%#//scriptlet('prevent-addEventListener', 'DOMContentLoaded', 'adsbygoogle')
 financeguidz.com,srnky.com,clksz.com#%#//scriptlet('prevent-window-open')
 mxdrop.top,miixdrop.top,miiixdrop.net,miiixdrop.com,miixdrop.net,vinovo.to,xpornium.net,mdy48tn97.com#%#//scriptlet('prevent-window-open')
-chatgpt.com#%#//scriptlet('trusted-replace-outbound-text', 'TextDecoder.prototype.decode', '/<template data-assistant-ads-html=""><aside aria-label.+?<\/aside><\/template>/', '')
 chatgpt.com#%#//scriptlet('json-prune', 'messages.*.ads messages.*.renderedAdsHtml')
 chatgpt.com#%#//scriptlet('trusted-json-set', 'WeakMap.prototype.set', '$[?(@.ads_response_id)].*', '$remove$', '', 'arg:1')
 chatgpt.com#%#//scriptlet('trusted-replace-outbound-text', 'TextDecoder.prototype.decode', '/^{"type":\s*"ads",\s*"content":\s*{"ads_request_id":.*?"ads_response_id":.*}$|^{"type":\s*"ads",.*"ads_response_id":.*"ads_request_id":.*}$/', '{}')

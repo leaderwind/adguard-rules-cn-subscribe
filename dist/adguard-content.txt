@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Content
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202609212316
-! Last modified: 2026-09-21T23:16:41Z
+! Version: 202609220450
+! Last modified: 2026-09-22T04:50:32Z
 ! Layers: content
 ! Mode: standard
-! Rules: 63846
+! Rules: 63844
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -53888,7 +53888,6 @@ cricwaves.com##.btm728
 snaptik.app##.btn-download-hd[data-ad="true"]
 files.im##.btn-success
 sbenny.com##.btnDownload5
-vipleague.im##.btn[data-openuri*="/4/"][data-open="_blank"]
 pollunit.com##.btn[href$="?feature=ads"]
 youloveit.com##.btop
 lifestyleasia.com##.btt-top-add-section
@@ -59810,7 +59809,8 @@ bing.com##div[aria-label$="ProductAds"]
 bing.com##div[class="ins_exp tds"]
 bing.com##div[class="ins_exp vsp"]
 bing.com##li[data-idx]:has(#mm-ebad)
-chatgpt.com##[data-message-role="assistant"] > section[class]:has(> aside[aria-label] > div[role="list"] a[rel][target="_blank"][href*="&oppref="])
+chatgpt.com##[data-message-role="assistant"] > section[class]:has(> [aria-label] > div[role="list"] a[rel][target="_blank"][href*="&oppref="])
+chatgpt.com##a[rel][target="_blank"][href*="?utm_"][href*="&oppref="]
 checkfelix.com,kayak.*,swoodoo.com###resultWrapper > div > div > [role="button"][tabindex="0"] > .yuAt-pres-rounded
 checkfelix.com,kayak.*,swoodoo.com##.Dp1L
 checkfelix.com,kayak.*,swoodoo.com##.EvBR
@@ -63533,8 +63533,6 @@ character.ai#?#.space-y-4 > .w-full:has-text(Advertisement)
 cjleo.com#?#.alt-widget-title:has-text(advertisement)
 getyarn.io#?#.pt3p > div > div:has-text(Advertisement)
 theregister.com#?#article.large-12:has-text(SPONSORED FEATURE)
-chatgpt.com##[data-message-role="assistant"] > section[class]:has(> [aria-label] > div[role="list"] a[rel][target="_blank"][href*="&oppref="])
-chatgpt.com##a[rel][target="_blank"][href*="?utm_"][href*="&oppref="]
 2fa.live#?#p:has-text(Advertising)
 404media.co#?#.post__content > p:has-text(This segment is a paid ad)
 acmemarkets.com,albertsons.com,andronicos.com,carrsqc.com,haggen.com,jewelosco.com,kingsfoodmarkets.com,pavilions.com,randalls.com,safeway.com,shaws.com,starmarket.com,tomthumb.com,vons.com#?#.product-card-col:has-text(Sponsored)

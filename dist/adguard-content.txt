@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Content
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202609230557
-! Last modified: 2026-09-23T05:57:18Z
+! Version: 202609231130
+! Last modified: 2026-09-23T11:30:29Z
 ! Layers: content
 ! Mode: standard
-! Rules: 63867
+! Rules: 63880
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -12167,6 +12167,7 @@ mail.ee##.b-promo
 mail.ee##.b-text-ads
 posti.mail.ee##tbody#eml-list__tbody > tr[id^="row"] > td
 kava.ee##.kava_ad_chilli
+pakkotoisto.com##.notice-content:has(> a[target="_blank"])
 kaaoszine.fi##.adnm-html-topscroll-frame-wrapper
 huutokaupat.com##div[data-test="entry-list-container"] > article:not([data-test]):has(a[data-external="true"][variant="primary"])
 akaanseutu.fi##.kaupungin-tiedotteetsidebar
@@ -14109,6 +14110,7 @@ skmedix.pl,interia.pl,trojmiasto.pl,js.iplsc.com,pomponik.pl,posty.pl,zalajkowan
 skmedix.pl,interia.pl,trojmiasto.pl,js.iplsc.com,pomponik.pl,posty.pl,zalajkowane.pl,kulinarnapolska.org,wroclawskiejedzenie.pl,innpoland.pl,mywrestling.com.pl,andek.com.pl,smartage.pl,joemonster.org,tajemnice-swiata.pl,naszraciborz.pl,natemat.pl,stadionowioprawcy.net,fortnitepolska.pl,sadistic.pl,napisy24.pl,mamadu.pl,towideo.pl,forsal.pl,kresy.pl,mambiznes.pl,prnews.pl,weszlo.com,dziwneobrazki.pl#@#.text_ad
 skmedix.pl,interia.pl,trojmiasto.pl,js.iplsc.com,pomponik.pl,posty.pl,zalajkowane.pl,kulinarnapolska.org,wroclawskiejedzenie.pl,innpoland.pl,mywrestling.com.pl,andek.com.pl,smartage.pl,joemonster.org,tajemnice-swiata.pl,naszraciborz.pl,natemat.pl,stadionowioprawcy.net,fortnitepolska.pl,sadistic.pl,napisy24.pl,mamadu.pl,towideo.pl,forsal.pl,kresy.pl,mambiznes.pl,prnews.pl,weszlo.com,dziwneobrazki.pl#@#.text_ads
 roweroweporady.pl#@#.ad_container
+radiojura.pl##.moneybox
 oswiecimonline.pl##[data-alias^="reklama-"]
 oswiecimonline.pl##.after-post-widget-area > .widget > .textwidget > p:not(:first-child, [class]):has(~ [data-alias^="reklama-"])
 nowawarszawa.pl##.vc_single_image > a[target="_blank"]
@@ -14238,6 +14240,7 @@ zw.pl##.make-me-sticky
 zw.pl##.box-ra
 ewarszawa.pl##div[class]:has(> div[id^="div-gpt-ad"]:only-child)
 cashless.pl##body > div.container:has(> a[href^="https://www.cashless.pl/pliki/"])
+obserwatorgospodarczy.pl##div[data-obser-trackbid]
 obserwatorgospodarczy.pl###footer-widgets-container
 bithub.pl##body > .code-block:has(> #sticky-banner)
 bithub.pl##.entry-content > div.code-block:has(div[data-adid])
@@ -14415,8 +14418,10 @@ bieganie.pl#?#.biega-nb-paris > DIV[style^="text-align:"]:contains(Reklama)
 gospodarkamorska.pl##.Home_categories_box > div.polecamy-slider > div[class*="poster-dnone-"]
 onet.pl##a[href^="https://milionymonet.onet.pl/"]
 pograne.eu###custom_html-8
-walbrzyszek.com#@#.advertisement-box
-walbrzyszek.com#@#.ad-banner-300x250
+zlotascena.pl#@#.ads-banner
+zlotascena.pl#@#.ad-slot
+jelonka.com,walbrzyszek.com#@#.advertisement-box
+jelonka.com,walbrzyszek.com#@#.ad-banner-300x250
 cdaction.pl##.start-prm
 cdaction.pl##.article-prm
 gazetki.pl#@#[class$="-ads"]
@@ -14467,7 +14472,6 @@ szukampracy.pl#@#[class^="ad-"]
 odleglosci.pl#@##Banner728x90
 odleglosci.pl##[class*="aside-"][class*="-750"]:has(> .adsbygoogle)
 wiadomoscispozywcze.pl#@#[class^="ad-"]
-jelonka.com#@#.ad-banner-2
 mapy.meteo.pl#@#.project-title.control-wrapper
 vindecoder.pl##.adblock-overlay
 biznesradar.pl##.ac--rectangle
@@ -14774,7 +14778,7 @@ supernowosci24.pl###r-mid-page-wrapper
 supernowosci24.pl###r-above-menu-wrapper
 supernowosci24.pl#?#.pcfb-wrapper .penci-ercol-25:has(#r-footer)
 energetyka24.com##.ad-banner
-kk24.pl,gorzowskie.pl,olesnica24.com##.text-center > div[class^="d-inline-block"][data-ciid]
+przegladregionalny.pl,chojnice24.pl,kk24.pl,gorzowskie.pl,olesnica24.com##.text-center > div[class^="d-inline-block"][data-ciid]
 weranda.pl,werandacountry.pl###sg_slot
 weranda.pl,werandacountry.pl##.banner_flex
 limanowa.in##.ardContainer
@@ -15293,7 +15297,7 @@ xgp.pl###hdrbnr
 xgp.pl##div[id^="xgppl-"] > a[target="_blank"] > img
 xgp.pl##div[class^="adslot_"]
 xgp.pl##.entry-content > div[class$="-target"][style^="margin-left: auto; margin-right: auto; text-align: center;"]
-gosc.pl,donald.pl##ins[class^="staticpubads"]
+opoka.org.pl,gosc.pl,donald.pl##ins[class^="staticpubads"]
 player.polskieradio.pl##div[class$="__advertisement"]
 player.polskieradio.pl##.app > .antena ~ div[style^="position: absolute; width: 100vw; height: 100vh;"]
 ceneo.pl##.js_promotedItems
@@ -18967,6 +18971,7 @@ content-loader.com,css-load.com,html-load.com,img-load.com#$?#html:not(:has(> he
 ##style + title + script + div[id^="img_"]
 ##video[class^="img_"][playsinline]
 ##video[poster*="html-load.com/"]
+as-web.jp##div[id^="ASW_"]
 nikkansports.com###footerInner > script + style + div[id][class]
 kinmaweb.jp###overay-spbana
 natalie.mu##div[data-_get-element-size="{\"w\":400,\"h\":280}"]
@@ -19004,6 +19009,7 @@ animecorner.me,zarabiajprzez24.pl,watchhentai.xxx,app-how-to-use-it.com,linuxcap
 pawastreams.*,nflbite.to,footybite.to,sportschamp.fun,afly.pro,topsporter.net,soccerstreams.football,mysocceraustralia.com,rayinfosports.com,hesgoals.top,sequencecard.xyz,totalsportek.soccer,metaporky.site,nbabite.to,cyfostreams.com,gamerarcades.com,bestreamsports.org,footy.to,mcrypto.club,greaterkashmir.com###id-custom_banner
 pawastreams.*,groundedtechs.com,rayinfosports.com,sequencecard.xyz,matchtime.co,sportspellz.com,bestreamsports.org,silverspoon.site###dismiss-btn
 vi-control.net,nullforums.net,landyzone.co.uk,nullcave.pro,woxmax.com,waskucity.com,babia.to,technofino.in,reef2reef.com,minebbs.com,craxpro.io,affiliatefix.com,myiptvforum.com,hifivision.com,worldofiptv.com,altenen.is,beermoneyforum.com,germancarforum.com,cracking.org##.samBannerUnit
+thesundevils.com##.static-header__ads
 modsfire.com##mf-offer
 kshow123.tv###ads-top-player
 kshow123.tv##.ads-middle-fix
@@ -19574,6 +19580,7 @@ techmeme.com##.sp_post
 medibang.com##.picturelist-footer-ad
 medibang.com##.mdbnAdBlock__728x90
 streamcash.to###seek-banner
+streamcash.to##div[class^="player-"] > span[id][style^="position: absolute; inset: 0px; z-index:"]
 streamcash.to###player-wrap > span[id][style^="position: absolute; inset: 0px; z-index:"]
 naturallieplantbased.com##.slick-inline-search-panel
 moviemeter.com##.leaderboard-bar
@@ -30786,7 +30793,7 @@ sexu.com##.content__body > .content__top:has(> div:only-child > ins[data-zoneid]
 lookmovie.ag##.plr-ad-stripe
 lookmovie.ag##.bottom-message-container
 sexy-youtubers.com##a[href^="http://aj1070.online/"]
-amigosporn.com,01tube.com,onlyporn.tube,picazor.com,fapnado.com,sexy-youtubers.com##a[href="https://theporndude.com/"]
+fullvideosporn.com,inporn.com,amigosporn.com,01tube.com,onlyporn.tube,picazor.com,fapnado.com,sexy-youtubers.com##a[href="https://theporndude.com/"]
 sexy-youtubers.com##a[href="http://weknowporn.com"]
 htpcguides.com##.inside-right-sidebar > #text-18
 crystalmark.info##a[href^="https://suishoshizuku.com/"]
@@ -35513,6 +35520,7 @@ elektroda.de,elektroda.com,elektroda.pl##.post ~ li:not(.post):has(div[id^="div-
 elektroda.de,elektroda.com,elektroda.pl##.JWzeW7p9as
 elektroda.de,elektroda.com,elektroda.pl##div[style="min-height: 265px;"]
 elektroda.de,elektroda.com,elektroda.pl##.VNByCMZS9T
+blackporn.tube,bdsmx.tube,inporn.com##.video__wrapper > [data-nosnippet]
 mrgay.com,in-porn.com,sextu.com,mrgay.tube,xmilf.com,blackporn.tube,bdsmx.tube,inporn.com##.video__wrapper > div.wrapper.headline
 mrgay.com,in-porn.com,sextu.com,mrgay.tube,xmilf.com,blackporn.tube,bdsmx.tube,inporn.com##.wrapper > article
 mrgay.com,in-porn.com,sextu.com,mrgay.tube,xmilf.com,blackporn.tube,bdsmx.tube,inporn.com##section[is-footer-banners]
@@ -35524,7 +35532,7 @@ shemalez.tube,shemalez.com##.listing-item.item-video:has(> .listing-item__top)
 desi-porn.xyz,desi-porn.tube,shemalez.*##.content > div > .wrapper + div[class]
 transtxxx.com,gaytxxx.com##div[class^="suggest"]
 transtxxx.com,gaytxxx.com##.content > div[class]:has(> span.da-title)
-mrgay.com,11hentai.com,abebony.com,ablesbian.com,abbdsm.com,abjav.com,abgay.tube,abxxx.com,abmilf.com,abtranny.com,mrgay.tube##.header__nav > a[href][target="_blank"]
+blackporn.tube,mrgay.com,11hentai.com,abebony.com,ablesbian.com,abbdsm.com,abjav.com,abgay.tube,abxxx.com,abmilf.com,abtranny.com,mrgay.tube##[class^="header__"] > a[href][target="_blank"]
 01tube.com,boobse.com##.wrapper > div[class]:has(div[id^="suggestion"])
 vjav.tube,vjav.com##.headline:has(+ .video-videos-slider)
 tporn.xxx##a[href^="http://porntourist.com/"]
@@ -35553,10 +35561,10 @@ mrgay.com,gfthai.com,fuxxx.com,keporn.vip,keporn.com,peporn.com,teen21.com,uanal
 mrgay.com,mrgay.tube,xjav.tube,01tube.com,in-porn.com,boobse.com,onlyporn.tube,fullvideosporn.com,blackporn.tube,lesbigo.com,porn-latina.com,inporn.com,gettranny.com,xmilf.com,vxxx.com###fhvids
 01tube.com,gfthai.com,boobse.com,keporn.com,peporn.com,teen21.com,ourgay.tube,pornuse.com,uanal.com,pornl.tube,xshemale.tube,keporn.vip,fuxxx.com,pornl.com##.video-ntv-wrapper
 pornclassic.tube,hclips.com,tubepornclassic.com,upornia.*,privatehomeclips.com##.btn-hardlink
-inporn.com,mrgay.tube,mrgay.com,pornclassic.tube,upornia.*##div[class$="wrapper"] > section[style]
+blackporn.tube,inporn.com,mrgay.tube,mrgay.com,pornclassic.tube,upornia.*##div[class$="wrapper"] > section[style]
 pornclassic.tube,gaytxxx.com,vjav.tube,vjav.com,transtxxx.com,upornia.*,txxxporn.tube,txxx.*##.video-videos-slider
 transtxxx.com,shemalez.*,gaytxxx.com,thegay.com,thegay.tube,hdzog.com,vjav.*,hotmovs.*,privatehomeclips.com,txxxporn.tube,txxx.*##div[style="display:flex !important"] > div
-01tube.com,vjav.tube,hclips.com,upornia.com,in-porn.com,boobse.com,tubepornclassic.com,pornl.com,pornl.tube,vjav.com,ourgay.tube,pornclassic.tube,porn-latina.com,lesbigo.com,privatehomeclips.com,manysex.*,xmilf.com,inporn.com,xshemale.tube,ourgay.com,ooxxx.com##.tag__item:has(> a[target="_blank"][href])
+blackporn.tube,01tube.com,vjav.tube,hclips.com,upornia.com,in-porn.com,boobse.com,tubepornclassic.com,pornl.com,pornl.tube,vjav.com,ourgay.tube,pornclassic.tube,porn-latina.com,lesbigo.com,privatehomeclips.com,manysex.*,xmilf.com,inporn.com,xshemale.tube,ourgay.com,ooxxx.com##.tag__item:has(> a[target="_blank"][href])
 01tube.com,gfthai.com,boobse.com,keporn.vip,fuxxx.com,keporn.com,peporn.com,teen21.com,ourgay.tube,pornuse.com,uanal.com,pornl.tube,xshemale.tube,ourgay.com,lesbigo.com,porn-latina.com,pornl.com,ooxxx.com,privatehomeclips.com##section[style="padding: 20px;"]
 01tube.com,vjav.tube,boobse.com,ourgay.tube,pornclassic.tube,pornl.tube,upornia.*,hclips.com,privatehomeclips.com,ooxxx.com,pornl.com,xshemale.tube,ourgay.com,lesbigo.com,porn-latina.com,tubepornclassic.com##div[class^="underplayer"] > section
 txxxporn.tube,vjav.tube,vjav.com,voyeurhit.tube,ourgay.tube,pornclassic.tube,pornl.tube,txxx.*,hotmovs.*,upornia.*,hclips.com,privatehomeclips.com,ooxxx.com,manysex.*,pornl.com,xshemale.tube,ourgay.com,shemalez.*,voyeurhit.com,tubepornclassic.com##div[class*="review"] > a[href*="?ref="]
@@ -55586,6 +55594,7 @@ forbes.com##.monito-widget-wrapper
 miruro.bz,miruro.ru,miruro.to,miruro.tv##.monkey
 joindota.com##.monkey-container
 flickr.com##.moola-search-div.main
+flickr.com##.moola-wrapper
 hindustantimes.com##.moreFrom
 immoweb.be##.mortgage-bank-banner
 apptrigger.com,fansided.com,lastnighton.com,mlsmultiplex.com,netflixlife.com,playingfor90.com,winteriscoming.net##.mosaic-banner
@@ -55898,6 +55907,7 @@ post-gazette.com##.pgevoke-superpromo-innerwrapper
 online.pubhtml5.com##.ph5---banner---container
 timesofindia.com##.phShimmer
 trustedreviews.com##.phoenix-deals-block
+flickr.com##.photo-list-revenue-item-view
 drivespark.com,gizbot.com##.photos-add
 drivespark.com##.photos-left-ad
 cryptorank.io##.piRla
@@ -59251,10 +59261,12 @@ amazon.*###sc-rec-right
 amazon.*###similarities_feature_div:has(span.sponsored_label_tap_space)
 amazon.*###sponsoredProducts2_feature_div
 amazon.*###sponsoredProducts_feature_div
+amazon.*##.AdHolder
 amazon.*##.AdsCard_container__K6vmo
 amazon.*##.a-cardui[class*="_new-detail-faceout-box_"]:has(.dynamicSponsoredLabelClass)
 amazon.*##.ad-center
 amazon.*##.amzn-safe-frame-container
+amazon.*##.ape-placement
 amazon.*##.celwidget[data-ref_$="displayAds"]
 amazon.*##.dp-widget-card-deck:has([data-ad-placement-metadata])
 amazon.*##.s-result-item:has(.puis-sponsored-label-text)
@@ -63553,6 +63565,7 @@ deliveroo.*#?#div[class^="HomeFeedScrollTracker-"]:has(span[class^="HomeFeedUILi
 advocate.com,out.com,pride.com#?#.component.module-headline:has-text(FROM OUR SPONSORS)
 character.ai#?#.space-y-4 > .w-full:has-text(Advertisement)
 cjleo.com#?#.alt-widget-title:has-text(advertisement)
+alibaba.com##div[class] > .fy26-product-card:has(> div > span:only-child)
 getyarn.io#?#.pt3p > div > div:has-text(Advertisement)
 theregister.com#?#article.large-12:has-text(SPONSORED FEATURE)
 2fa.live#?#p:has-text(Advertising)

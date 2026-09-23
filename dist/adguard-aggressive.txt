@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Aggressive
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202609222206
-! Last modified: 2026-09-22T22:06:32Z
+! Version: 202609230028
+! Last modified: 2026-09-23T00:28:29Z
 ! Layers: network,content,scriptlet
 ! Mode: aggressive
-! Rules: 117330
+! Rules: 117331
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -107757,6 +107757,7 @@ _WebVitalsReporter_
 /gate.amnesty-international.*/open.php?
 /github.com/notifications/beacon=$image
 /global-cdm.net:443/sap/public/cuan/*/pixel.gif
+/go.email.fly.io/e/o/*$image
 /go.news.fly.io/e/o/*$image
 /gp/r.html?$image
 /gridinbound.blob.core.
@@ -108656,7 +108657,6 @@ omni.soundestlink.com$image
 ||find-ip-address.org^$third-party
 ||fireworkanalytics.com^$third-party
 ||firstpromoter.com^$third-party
-||fitanalytics.com^$third-party
 ||flagcounter.com^$third-party
 ||flaghit.com^$third-party
 ||flash-counter.com^$third-party
@@ -114975,6 +114975,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||southwest.com/di/swadc/beacon/
 ||spanishdict.com/page-view-metadata
 ||speed.cloudflare.com/__log
+||spin.bergfreunde.*/wt?$image
 ||sportsmansguide.com/scripts/vendor/at_
 ||spotifycdn.com/cdn/js/retargeting-pixels.
 ||squarespace.com/api/1/performance/

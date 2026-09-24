@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Windows
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202609232340
-! Last modified: 2026-09-23T23:40:52Z
+! Version: 202609240443
+! Last modified: 2026-09-24T04:43:32Z
 ! Layers: network,content,scriptlet
 ! Mode: standard
-! Rules: 117291
+! Rules: 117293
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -87986,6 +87986,7 @@ fmforums.com##.cWidgetContainer
 money.com##.ca-pcu-inline
 thecable.ng##.cableads_mid
 encycarpedia.com##.cac
+colnect.com##.cad-iframe
 cafonline.com##.caf-o-sponsors-nav
 merriam-webster.com##.cafemedia-ad-slot-top
 clutchpoints.com##.cafemedia-clutchpoints-header
@@ -92113,6 +92114,7 @@ pricehistoryapp.com##center[class^="min-h-"]
 builtbybit.com##center[style="margin-top: 20px"]
 hltv.org##csmoney-skins-widget
 cvs.com##cvs-shop-product-shelf-container[shelf-type*="criteoType"]
+discord.com#?#.wrapper__0d616:contains(Get Reward)
 weatherbug.com##display-ad-widget
 wings.io##div > [href="https://mechazilla.io"]
 readonepiece.com##div > b

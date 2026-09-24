@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Content
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202609241503
-! Last modified: 2026-09-24T15:03:07Z
+! Version: 202609241908
+! Last modified: 2026-09-24T19:08:14Z
 ! Layers: content
 ! Mode: standard
-! Rules: 63906
+! Rules: 63914
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -10914,6 +10914,8 @@ filma24.*##center > a[target="_blank"] > img
 filma24.*##.watch-movie > .widgets > .widget > h2
 filma24.*#?#.watch-movie > .movie-info[style]:has(> center > a[target="_blank"])
 gjirafa.com##div[id^="an-holder-"]
+shoffree.cc###shoffreePlusModal
+shoffree.cc###shoffreePlusModal ~ div#global-cover
 series4down.site###blc-wrap
 kora-sia.com##.albayalla-e3lan
 starcima.com#@#.ad-unit:not(.textads)
@@ -17221,6 +17223,7 @@ asilmedia.org##a[href^="http://yangi-kinolar.ru/"]
 asilmedia.org##a[href^="https://yourbonus.online/"]
 asilmedia.org#$#.site-wrap { margin-top: 0 !important; }
 asilmedia.org###banner
+cobephim.cfd##.sspp-area
 motchille.ws##div.fixed.inset-0
 vnjpclub.com##.vnjp-ad-slot
 rophim1.vip##a[href="https://colatv99.live"]
@@ -18706,9 +18709,9 @@ petbook-magazine.com,myhomebook-magazine.com,fitbook-magazine.com$$script[data-c
 toptenreviews.com,guitarplayer.com,goodto.com,techlearning.com,shortlist.com,realhomes.com,nexttv.com,musicradar.com,gardeningknowhow.com$$script[src*="html-load.com"]
 toptenreviews.com,guitarplayer.com,goodto.com,techlearning.com,shortlist.com,realhomes.com,nexttv.com,musicradar.com,gardeningknowhow.com$$script:contains(()=>eval)
 toptenreviews.com,guitarplayer.com,goodto.com,techlearning.com,shortlist.com,realhomes.com,nexttv.com,musicradar.com,gardeningknowhow.com$$script[data-cfasync="false"][nowprocket]
-buienalarm.be,weerplaza.nl,weerslag.nl,sat24.com,niederschlagsradar.de,meteox.com,meteoradar.co.uk,buienalarm.nl$$script[src*="html-load.com"]
-buienalarm.be,weerplaza.nl,weerslag.nl,sat24.com,niederschlagsradar.de,meteox.com,meteoradar.co.uk,buienalarm.nl$$script[data-cfasync="false"][nowprocket]
-buienalarm.be,weerplaza.nl,weerslag.nl,sat24.com,niederschlagsradar.de,meteox.com,meteoradar.co.uk,buienalarm.nl$$script:contains(').join(String.fromCharCode')
+buienalarm.nl,buienalarm.be,weerplaza.nl,weerslag.nl,sat24.com,niederschlagsradar.de,meteox.com,meteoradar.co.uk,buienalarm.nl$$script[src*="html-load.com"]
+buienalarm.nl,buienalarm.be,weerplaza.nl,weerslag.nl,sat24.com,niederschlagsradar.de,meteox.com,meteoradar.co.uk,buienalarm.nl$$script[data-cfasync="false"][nowprocket]
+buienalarm.nl,buienalarm.be,weerplaza.nl,weerslag.nl,sat24.com,niederschlagsradar.de,meteox.com,meteoradar.co.uk,buienalarm.nl$$script:contains(').join(String.fromCharCode')
 radio-osterreich.at,radio-australia.org,radio-hrvatska.com,radio-danmark.dk,radio-norge.org,internetradio-horen.de,fmradiofree.com$$script[src*="html-load.com"]
 radio-osterreich.at,radio-australia.org,radio-hrvatska.com,radio-danmark.dk,radio-norge.org,internetradio-horen.de,fmradiofree.com$$script[data-cfasync="false"][nowprocket]
 radio-osterreich.at,radio-australia.org,radio-hrvatska.com,radio-danmark.dk,radio-norge.org,internetradio-horen.de,fmradiofree.com$$script:has(/\)\.join\(String\.fromCharCode|html-load\.com/)
@@ -19016,6 +19019,11 @@ animecorner.me,zarabiajprzez24.pl,watchhentai.xxx,app-how-to-use-it.com,linuxcap
 pawastreams.*,nflbite.to,footybite.to,sportschamp.fun,afly.pro,topsporter.net,soccerstreams.football,mysocceraustralia.com,rayinfosports.com,hesgoals.top,sequencecard.xyz,totalsportek.soccer,metaporky.site,nbabite.to,cyfostreams.com,gamerarcades.com,bestreamsports.org,footy.to,mcrypto.club,greaterkashmir.com###id-custom_banner
 pawastreams.*,groundedtechs.com,rayinfosports.com,sequencecard.xyz,matchtime.co,sportspellz.com,bestreamsports.org,silverspoon.site###dismiss-btn
 vi-control.net,nullforums.net,landyzone.co.uk,nullcave.pro,woxmax.com,waskucity.com,babia.to,technofino.in,reef2reef.com,minebbs.com,craxpro.io,affiliatefix.com,myiptvforum.com,hifivision.com,worldofiptv.com,altenen.is,beermoneyforum.com,germancarforum.com,cracking.org##.samBannerUnit
+movie-box.tv,movie-box.*##.third-party-script-ad
+movie-box.tv,movie-box.*##.site-guide
+qz.com##.min-h-\[900px\]
+jalopnik.com##.under-art:has(> div.zergnet-widget)
+camel1.tv##.HomeRightBanner
 publicdnsserver.com###siteloader > a[target="_blank"] > img
 webcamjackers.com##.thumbs > div.thumb:has(> a[href^="https://chaturbate.com/in/?"])
 gaymes.net##.bottom-game-ad
@@ -58342,6 +58350,7 @@ g2a.com##div[data-testid="placement"]
 lowes.com##div[data-testid="playwright-gam-carousel-banner"]
 qwant.com##div[data-testid="productAdsMicrosoft.container"]
 samsclub.com##div[data-testid="sba-container"]
+samsclub.com##div[data-testid="search-video-in-grid"]
 freepik.com##div[data-testid="unicorn-banner"]
 birminghammail.co.uk,bristolpost.co.uk,dailyrecord.co.uk,hulldailymail.co.uk,irishstar.com,liverpoolecho.co.uk,manchestereveningnews.co.uk,stokesentinel.co.uk,walesonline.co.uk##div[data-testid^="commercial-"]
 forbes.com##div[data-testid^="fbs-ad"]
@@ -63586,7 +63595,6 @@ temp-mail.io##.fixed.bottom-0.\[\@media\(max-width\:1350px\)\]\:hidden
 complex.com##.lg\:top-\[var\(--sticky-top\)\]
 justjared.com##[role="banner"] {top:0 !important}
 discord.com#?#.wrapper__0d616:has-text(Get Reward)
-samsclub.com##div[data-testid="search-video-in-grid"]
 gamedev.net#?#.dark\:border-gray-700:has-text(Advertisement)
 deliveroo.*#?#a[role="button"]:has(p:has-text(Sponsored))
 deliveroo.*#?#div[class^="HomeFeedScrollTracker-"]:has(span[class^="HomeFeedUILines-"]:has-text(Sponsored))

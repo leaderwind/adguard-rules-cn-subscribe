@@ -1,8 +1,8 @@
 ! Title: AdGuard Rules CN - Content
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202609250128
-! Last modified: 2026-09-25T01:28:46Z
+! Version: 202609250745
+! Last modified: 2026-09-25T07:45:13Z
 ! Layers: content
 ! Mode: standard
 ! Rules: 63917
@@ -9323,6 +9323,10 @@ youporn.com$$script:contains(/window\.[\s\S]*?_zone_[\s\S]*?{"zone_id":/)
 #@#.ads_banner
 ##.stickyads:not([style^="width: 32px"], [style^="width: 33px"], [style*="left: -43px"], [style*="-3"][style*="important"][style*="display: block;"], [style*="position: fixed"][style*="-188"], [style*="!important;"][style*="width:"][style*="height:"][style*="position"][style*="left:"][style*="top:"][style*="display"], [data-freestar-ad="123"]):not(:empty)
 ##.ads_banner:not([style^="width: 32px"], [style^="width: 33px"], [style*="left: -43px"], [style*="-3"][style*="important"][style*="display: block;"], [style*="position: fixed"][style*="-188"], [style*="!important;"][style*="width:"][style*="height:"][style*="position"][style*="left:"][style*="top:"][style*="display"]):not(:empty)
+lineup11.net#@#.ad-unit:not(.textads)
+lineup11.net#@#.adsbygoogle-noablate
+lineup11.net#@#[id^="aswift_"]
+minecraft-heads.com#@#.ad-placeholder:not(#filter_ads_by_classname):not(#detect_ad_empire):not(#detect):not(.adsbox)
 ff14-tools.com$$script:contains(__ninjaAdMaxAbdLoaded)
 ff14-tools.com#@##adsbox
 ff14-tools.com#@#.ad-slot
@@ -12083,6 +12087,7 @@ forum.iphone.cz##[src^="http://forum.iphone.cz/julek/west-coast-2.jpg"]
 in-pocasi.cz##a[href^="http://go.cz.bbelements.com/"]
 rozzlobenimuzi.com##body > a
 cez.cz#$#body { background: #333!important; }
+bold.dk#@##ad_container
 proshop.dk##.site-campaignElement
 seoghoer.dk##main > div.bg-grey-200:has(> div[class] > div[data-type=ad])
 seoghoer.dk##div[class]:has(> div.text-\[\#323232\] + div[data-type=ad])
@@ -19019,6 +19024,7 @@ animecorner.me,zarabiajprzez24.pl,watchhentai.xxx,app-how-to-use-it.com,linuxcap
 pawastreams.*,nflbite.to,footybite.to,sportschamp.fun,afly.pro,topsporter.net,soccerstreams.football,mysocceraustralia.com,rayinfosports.com,hesgoals.top,sequencecard.xyz,totalsportek.soccer,metaporky.site,nbabite.to,cyfostreams.com,gamerarcades.com,bestreamsports.org,footy.to,mcrypto.club,greaterkashmir.com###id-custom_banner
 pawastreams.*,groundedtechs.com,rayinfosports.com,sequencecard.xyz,matchtime.co,sportspellz.com,bestreamsports.org,silverspoon.site###dismiss-btn
 vi-control.net,nullforums.net,landyzone.co.uk,nullcave.pro,woxmax.com,waskucity.com,babia.to,technofino.in,reef2reef.com,minebbs.com,craxpro.io,affiliatefix.com,myiptvforum.com,hifivision.com,worldofiptv.com,altenen.is,beermoneyforum.com,germancarforum.com,cracking.org##.samBannerUnit
+minecraft-heads.com##body [id^="ad-"]
 movie-box.tv,movie-box.*##.third-party-script-ad
 movie-box.tv,movie-box.*##.site-guide
 qz.com##.min-h-\[900px\]
@@ -19590,7 +19596,6 @@ skateboarding.com##.header-ad-slot
 justwatch.com##div[class*="sr-campaign"]
 justwatch.com##.offers.buybox-selector
 justwatch.com##.sponsored-recommendation
-justwatch.com##.buybox-selector > div[class="offer-container"]
 thesun.co.uk##.article-boxout
 androidexperto.com##div[class^="ym-p"][class*="-server-"]
 speedof.me##.mezgopv-zone
@@ -51514,15 +51519,10 @@ insidehighered.com###block-dfptagarticle-sidebar-top
 spine-health.com###block-dfptagbottomanchorads1
 gpone.com###block-gpone-advhome
 insidehighered.com###block-ihe-views-block-events-views-block-5
-mothership.sg###block-imu1
-mothership.sg###block-imu2
 kenyans.co.ke###block-keleaderboardmenu
 romania-insider.com###block-nodepagebelowfromourpartners
 romania-insider.com###block-nodepagebelowlatespress
 romania-insider.com###block-nodepagebelowtrendingcontent
-mothership.sg###block-outstream1
-mothership.sg###block-outstream2
-mothership.sg###block-outstream3
 encyclopedia.com###block-trustme-rightcolumntopad
 enca.com###block-views-block-sponsored-block-1
 mbauniverse.com###block-views-home-page-banner-block
@@ -57788,6 +57788,7 @@ bestbuy.ca,bestbuy.com##[id^="atwb-ninja-carousel"]
 beforeitsnews.com##[id^="banners_"]
 embedsun.cc##[id^="bg_wrap_"]
 pluggedingolf.com##[id^="black-studio-tinymce-"]
+mothership.sg##[id^="block-"]:has(> .advertisement__container)
 shipt.com##[id^="cms-ad_banner"]
 dictionary.com##[id^="dco"]
 hola.com##[id^="div-hola-slot-"]
@@ -60816,6 +60817,7 @@ boyfriendtv.com##.info-block-wrapper
 vivud.com##.inplayer_banners
 anyporn.com,bravotube.net##.inplb3x2
 cockdude.com##.inside-list-boxes-ver2
+animeidhentai.com##.intl
 videosection.com##.invideo-native-adv
 peekvids.com,playvids.com,pornflip.com##.invideoBlock
 amateur8.com##.is-av
@@ -60993,7 +60995,7 @@ recordbate.com##.preload
 japan-whores.com##.premium-thumb
 cam4.com##.presentation
 simpcity.cr##.prm-wrapper
-xnostars.com##.promo
+animeidhentai.com,xnostars.com##.promo
 xhamster.com##.promo-message
 viptube.com##.promotion
 nakedtube.com,pornmaki.com##.promotionbox
@@ -61551,6 +61553,7 @@ porn-w.org##.align-items-center.list-row:has(.col:empty)
 multporn.net##.block-block:has(> .content > ins[data-zoneid])
 picsporn.net##.box:has(> .dip-exms)
 javtiful.com##.col.pb-3:has(.badge.bg-danger)
+pimpbunny.com##.col:has([rel*="sponsored"])
 fetishshrine.com##.container > .heading:has(+ .bottom-content)
 porngames.com##.contentbox:has(a[href="javascript:void(0);"])
 porngames.com##.contentbox:has(iframe[src^="//"])
@@ -63897,9 +63900,6 @@ w3schools.com###tryitLeaderboard ~ #container {top:48px;}
 w3schools.com##.trytopnav {top:0;}
 wunderground.com##.content-wrap #inner-wrap {height:100vh;}
 yourdictionary.com##.header {top:0;}
-animeidhentai.com##.intl
-animeidhentai.com,xnostars.com##.promo
-pimpbunny.com##.col:has([rel*="sponsored"])
 4wank.com#?#.video-holder > center > :has-text(/^Advertisement$/)
 redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com##:-abp-properties(*data:image*)
 redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com##:-abp-properties(base64)

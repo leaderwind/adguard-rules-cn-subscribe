@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Android
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202609270806
-! Last modified: 2026-09-27T08:06:16Z
+! Version: 202609271356
+! Last modified: 2026-09-27T13:56:08Z
 ! Layers: network,content,scriptlet
 ! Mode: standard
-! Rules: 18129
+! Rules: 18128
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -1017,10 +1017,12 @@ $script,third-party,denyallow=myqcloud.com|bytecdntp.com|pddpic.com|googletagman
 .com/js/ad_
 .com/js/alls_foot.js
 .com/js/alls_top.js
-.com/js/bnnr_
-.com/js/bnr_
 .com/js/discor_list.js
 .com/js/LAD.js
+.com/img/bnnr1_
+.com/img/bnr1_*.gif
+.com/img/bnr2_*.gif
+.com/img/bnr3_*.gif
 .com/js/youlian.js
 .com/jsbjl/zhanqun
 .com/json/cctv.json?v=
@@ -1392,10 +1394,8 @@ $script,third-party,denyallow=myqcloud.com|bytecdntp.com|pddpic.com|googletagman
 /js/ggtop.js
 /js/guanggao_gg.js
 /js/home/ad/ad.
-/js/huath_2.js
 /js/index_adfloat.js
 /js/jsstyle-$third-party
-/js/mmdaohang_2.js
 /js/mob/cpc_bottom.js
 /js/pcbook.js?
 /js/showgg.js
@@ -1405,7 +1405,6 @@ $script,third-party,denyallow=myqcloud.com|bytecdntp.com|pddpic.com|googletagman
 /js/utils78.js
 /js/wahha/*
 /js/wlfloat.js
-/js/yueyupp_3.js
 /js/yzgg.js
 /js_php/ajsf.php?id=$third-party
 /jsadv/*

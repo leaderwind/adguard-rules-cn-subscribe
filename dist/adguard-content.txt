@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Content
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202609270124
-! Last modified: 2026-09-27T01:24:51Z
+! Version: 202609270806
+! Last modified: 2026-09-27T08:06:16Z
 ! Layers: content
 ! Mode: standard
-! Rules: 63893
+! Rules: 63895
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -56478,6 +56478,7 @@ hepper.com##.sidebar__placement
 abovethelaw.com,breakingdefense.com,medcitynews.com##.sidebar__top-sticky
 snopes.com##.sidebar_ad
 pcgamesn.com##.sidebar_affiliate_disclaimer
+lightspeedmagazine.com##.sidebar_box:has(.adtext)
 bxr.com##.sidebar_promo
 alternet.org##.sidebar_sticky_container
 macrumors.com##.sidebarblock2
@@ -57900,7 +57901,7 @@ myfitnesspal.com##[title*="Ad"]
 balls.ie##[type="doubleclick"]
 wordcount.im##[value="DIRECT DOWNLOAD"]
 kiryuu.id##[width="1280"]
-fansshare.com##[width="300"]
+fansshare.com,lightspeedmagazine.com##[width="300"]
 igg-games.co,igg-games.com,pcgamestorrents.com,pcgamestorrents.org##[width="300"][height^="25"]
 cdmediaworld.com,flashx.cc,flashx.co,forum.gsmhosting.com,gametarget.net,jeepforum.com,lnkworld.com,themediaonline.co.za,transdict.com##[width="468"]
 americanfreepress.net,namepros.com,readneverland.com##[width="600"]
@@ -59119,6 +59120,7 @@ tripadvisor.*##div:has(> div > div[class="ui_column ovNFo is-3"])
 tripadvisor.*##div:has(> div[class="ui_columns is-multiline "])
 heb.com##div:has(> div[id^="hrm-banner-shotgun"])
 news12.com##div[alignitems="normal"]:has(> div[sizes*="object"])
+myutils.me##div[aria-label="Advertisement"]
 webtools.fineaty.com##div[class*=" hidden-"]:has(.adsbygoogle)
 livejournal.com##div[class*="-close"]:has(a[href*="tired=ads"])
 qz.com##div[class*=":block"]:has(> .ay-ad-slot)

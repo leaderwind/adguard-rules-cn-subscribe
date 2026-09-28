@@ -1,8 +1,8 @@
 ! Title: AdGuard Rules CN - Network
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202609272207
-! Last modified: 2026-09-27T22:07:19Z
+! Version: 202609280042
+! Last modified: 2026-09-28T00:42:42Z
 ! Layers: network
 ! Mode: standard
 ! Rules: 47883
@@ -14322,7 +14322,6 @@ http://www.ads.$third-party
 ||fokstatic.nl/fp/global/*adshield.js
 ||ads.adthrive.com/abd/abd.js$xmlhttprequest,redirect=noopjs
 @@||ads.adthrive.com/abd/abd.js$xmlhttprequest
-||html-load.com^$script,redirect=noopjs,domain=lifehacker.jp
 /^https:\/\/(?:[a-z]{3,4}\.)?[0-9a-z-]{6,}\.com\/script\/(?=[0-9a-z]{0,29}[A-Z])[0-9A-Za-z]{10,30}\.js$/$script,third-party,match-case
 /^https:\/\/www\.[0-9a-z-]{6,}\.xyz\/script\/[-.0-9A-Za-z]+\.[A-Za-z-]{2,30}\.js$/$script,third-party,match-case
 ://www.*.xyz/script/*.de.js|$script,third-party
@@ -14365,6 +14364,7 @@ $document,replace=/<script(?: data-cfasync="false")?(?: nowprocket)?(?: type="[a
 ||html-load.com^$script,xmlhttprequest,domain=astrozop.com|criczop.com|feedzop.com|gamezop.io|gamezop.com|quizzop.com|umogames.com
 ||html-load.com^$script,xmlhttprequest,domain=buienalarm.nl|buienalarm.nl|meteoradar.co.uk|meteox.com|niederschlagsradar.de|sat24.com|weerslag.nl|weerplaza.nl|buienalarm.be
 ||html-load.com^$script,xmlhttprequest,domain=fmradiofree.com|internetradio-horen.de|radio-norge.org|radio-danmark.dk|radio-hrvatska.com|radio-australia.org|radio-osterreich.at
+||html-load.com^$script,domain=weatherzone.com
 ||ash.automobile-catalog.com/app.js
 /adblock.js$domain=anisnatch.top|anisnatch.to
 ||helpers.publisherdesk.com/main.js
@@ -14706,7 +14706,6 @@ $third-party,script,domain=klto9.com|f2movies.to|hacamchicac.com|yourporngod.com
 ||hqmediago.com^$media,domain=xfree.com
 ||yesporn*.*/herebyad
 ||namethatporn.com/assets/prod/fuf4g_*.js
-||tik.porn/popunder.js
 /themes/lite/js/mztn.js$domain=8kporner.com|avporner.com|4k69.com
 ||porntn.com/static/js/custom.js
 ||ero-labs.*/assets/js/appBanner.js
@@ -14824,6 +14823,7 @@ $third-party,script,domain=klto9.com|f2movies.to|hacamchicac.com|yourporngod.com
 ||sulasok.cz/00BANNER_UJDVNKOK3U.gif
 ||download.cnet.com/revamp.js
 ||interestingengineering.com/js/recovery.js
+||tik.porn/popunder.js
 $script,third-party,denyallow=gold-usergeneratedcontent.net,domain=hitomi.la
 ||yandex-pogoda.static-storage.net/*/*/*$script,replace=/adblock//
 ||streamfree.to/acebet-banner

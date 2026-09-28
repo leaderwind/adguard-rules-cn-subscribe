@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Conservative
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202609272207
-! Last modified: 2026-09-27T22:07:19Z
+! Version: 202609280042
+! Last modified: 2026-09-28T00:42:42Z
 ! Layers: network,content,scriptlet
 ! Mode: conservative
-! Rules: 109197
+! Rules: 109195
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -22831,7 +22831,6 @@ http://www.ads.$third-party
 ||fokstatic.nl/fp/global/*adshield.js
 ||ads.adthrive.com/abd/abd.js$xmlhttprequest,redirect=noopjs
 @@||ads.adthrive.com/abd/abd.js$xmlhttprequest
-||html-load.com^$script,redirect=noopjs,domain=lifehacker.jp
 /^https:\/\/(?:[a-z]{3,4}\.)?[0-9a-z-]{6,}\.com\/script\/(?=[0-9a-z]{0,29}[A-Z])[0-9A-Za-z]{10,30}\.js$/$script,third-party,match-case
 /^https:\/\/www\.[0-9a-z-]{6,}\.xyz\/script\/[-.0-9A-Za-z]+\.[A-Za-z-]{2,30}\.js$/$script,third-party,match-case
 ://www.*.xyz/script/*.de.js|$script,third-party
@@ -22872,6 +22871,7 @@ $document,replace=/<script(?: data-cfasync="false")?(?: nowprocket)?(?: type="[a
 ||html-load.com^$script,xmlhttprequest,domain=astrozop.com|criczop.com|feedzop.com|gamezop.io|gamezop.com|quizzop.com|umogames.com
 ||html-load.com^$script,xmlhttprequest,domain=buienalarm.nl|buienalarm.nl|meteoradar.co.uk|meteox.com|niederschlagsradar.de|sat24.com|weerslag.nl|weerplaza.nl|buienalarm.be
 ||html-load.com^$script,xmlhttprequest,domain=fmradiofree.com|internetradio-horen.de|radio-norge.org|radio-danmark.dk|radio-hrvatska.com|radio-australia.org|radio-osterreich.at
+||html-load.com^$script,domain=weatherzone.com
 ||ash.automobile-catalog.com/app.js
 /adblock.js$domain=anisnatch.top|anisnatch.to
 ||helpers.publisherdesk.com/main.js
@@ -23203,7 +23203,6 @@ $third-party,script,domain=klto9.com|f2movies.to|hacamchicac.com|yourporngod.com
 ||hqmediago.com^$media,domain=xfree.com
 ||yesporn*.*/herebyad
 ||namethatporn.com/assets/prod/fuf4g_*.js
-||tik.porn/popunder.js
 /themes/lite/js/mztn.js$domain=8kporner.com|avporner.com|4k69.com
 ||porntn.com/static/js/custom.js
 ||ero-labs.*/assets/js/appBanner.js
@@ -23321,6 +23320,7 @@ $third-party,script,domain=klto9.com|f2movies.to|hacamchicac.com|yourporngod.com
 ||sulasok.cz/00BANNER_UJDVNKOK3U.gif
 ||download.cnet.com/revamp.js
 ||interestingengineering.com/js/recovery.js
+||tik.porn/popunder.js
 $script,third-party,denyallow=gold-usergeneratedcontent.net,domain=hitomi.la
 ||yandex-pogoda.static-storage.net/*/*/*$script,replace=/adblock//
 ||streamfree.to/acebet-banner
@@ -40729,7 +40729,7 @@ unicorn.gt.tc#@#.ad-unit:not(.textads)
 smallseotools.co.uk###adBlockerOverlay
 seturl.in###blocker-overlay
 indexsubtitle.cc##body > div#app-runtime-cover
-srnky.com,lnbz.la,clksz.com,aii.sh#$#body > script + div { display: none !important; }
+srnky.com,lnbz.la,clksz.com,aii.sh#$#body > script + div:not([class]) { display: none !important; }
 srnky.com,lnbz.la,clksz.com,aii.sh#$#html { overflow: auto !important; }
 pitube.net#@#.ad-unit:not(.textads)
 genelify.com###adblock-detector-wrapper
@@ -49889,10 +49889,8 @@ hitomi.la#$#.top-content > div[class]:not([class*="-"]) { min-height: 40px !impo
 beermoneyforum.com###preloader
 triblive.com#?#.section.hex-sports + div:has(> div[data-type="float"])
 triblive.com###storyContent > div[data-type="float"][data-stn-player]
-weatherzone.com.au##div[class*=" "][height="270px"]
-weatherzone.com.au##div[class*=" "][height="74px"]
-weatherzone.com.au##section[class*=" "]:has(> div[class*="img_"])
-weatherzone.com.au##main > div[class*=" "]:has(> div[class*="img_"])
+weatherzone.com##div[class*=" "][height="270px"]
+weatherzone.com##div[class*=" "][height="74px"]
 inverse.com#@#.adWrapper
 pirate4x4.com,personalitycafe.com,jeepforum.com,e46fanatics.com,thetopflight.com,risingapple.com,gamesided.com,flicksided.com,can-amforum.com,cadillacforums.com,expatforum.com,hyundai-forums.com,overclock.net,hookemheadlines.com,fordescape.org,archerytalk.com,reptileforums.co.uk,corral.net,e46fanatics.com,jeepforum.com,ifish.net,frugalvillage.com,menstennisforums.com##.feedItem-list-container > div[class^="img_"]
 pirate4x4.com,personalitycafe.com,jeepforum.com,e46fanatics.com,thetopflight.com,risingapple.com,gamesided.com,flicksided.com,can-amforum.com,cadillacforums.com,expatforum.com,hyundai-forums.com,overclock.net,hookemheadlines.com,fordescape.org,archerytalk.com,reptileforums.co.uk,corral.net,e46fanatics.com,jeepforum.com,ifish.net,frugalvillage.com,menstennisforums.com##div[spottype]
@@ -51494,7 +51492,6 @@ sourceforge.net##[id][data-nosnippet]:not(#style_important):has(> button:is([cla
 sourceforge.net##[id*="-coding-bar"]
 sourceforge.net##body [id^="vibe-main-row"]:not(#style_important)
 sourceforge.net##.l-side-column .m-sidebar-widget:has(> .body > .standard > div[data-dest*="bannerid="])
-mbjremix.com###gads
 engadget.com##.items-start.flex > div.ml-0 > .flex-wrap > li.box-border:has(> div[data-test="streamad"])
 nelomanga.net##.js-banner-ai-home
 natomanga.com,nelomanga.net,mangakakalove.com,mangabats.com,manganato.gg##.ads-contain-v2
@@ -52727,7 +52724,6 @@ flightradar24.com###pb-slot-fr24-airport
 flightradar24.com##aside > div:has(> div.flex > div > div#pb-slot-fr24-map)
 itsfoss.com##.sidebar__section:has(> div[data-freestar-ad])
 rumble.com##.js-ads-container
-7mmtv.sx##.player_tv_pop
 mydramalist.com##.app-body > div[class]:not([data-component]):has(.htlad-header_top)
 kursiv.media##.menu-promo
 gq.com##div[data-testid="one-nav-row-grid"]:has(> div[data-testid="one-nav-row-content"] > div[data-testid="one-nav-area-container"] > div[component="sticky-hero-ad"])
@@ -54866,7 +54862,6 @@ efestivals.co.uk###adsideMPU
 efestivals.co.uk###largeTopAd
 glitched.online#?#.widgettitle:contains(SPONSORED):upward([id^="text-"])
 top3.financefirefly.com##div[id^="penci_"]:has(center > div[id^="div-gpt-ad"])
-bgr.com##.bgr-ad-leaderboard
 bgr.com##aside > section:has(> div.bgr-ad-right-rail-top)
 lazyadmin.nl##a[href="https://lazyadmin.etsy.com/"] > img
 news18.com,firstpost.com##.TABOOLA
@@ -55970,6 +55965,7 @@ smbc-comics.com###comicleft > a[href][style^="width:684px;"]
 smbc-comics.com###hw-jumpbar
 smbc-comics.com###hiveworks
 instructables.com##.promo-side
+bgr.com##.bgr-ad-leaderboard
 bgr.com##section[class*="250"]
 forum.release-apk.com##div[data-phpbb-ads-id]
 bigbrothernetwork.com###custom_html-2
@@ -56099,9 +56095,6 @@ storagereview.com##body .header-banner:not(#style_important)
 fansonlinehub.com,teralink.me,teraearn.com,terashare.me,hotmediahub.com###adsense > div[id^="ad-box-"]
 tomsguide.com###article-body > .hawk-nest
 businessinsider.in##section > div.md\:h-\[435px\]
-ultrabookreview.com##div[id^="zzif"]
-ultrabookreview.com##.sumright
-ultrabookreview.com##div[class^="postzzif"]
 nanoreview.net##div[class^="rtx_"]
 nanoreview.net##div[class^="nad"]
 nanoreview.net##div[id^="float-sb-"]
@@ -58221,7 +58214,7 @@ guru99.com##.sidebar-inner-wrap
 igay69.com,xmoviesforyou.com,pureleaks.net,theautopian.com,miraikyun.com,greekreporter.com,nintendoeverything.com,data-flair.training##div[class^="code-block code-block-"][style^="margin: 8px auto; text-align: center;"]
 icodrops.com##.pinned_ad
 phonearena.com##.widgetHeader__headingDeals
-seniorsdiscountclub.com.au,fiba.basketball,theparking.eu,miniwebtool.com,airhint.com,pokemon-project.com,reneweconomy.com.au,tenforums.com##div[data-fuse]
+weatherzone.com,seniorsdiscountclub.com.au,fiba.basketball,theparking.eu,miniwebtool.com,airhint.com,pokemon-project.com,reneweconomy.com.au,tenforums.com##div[data-fuse]
 skipser.com##.skipserad
 pinetools.com###carbon-ads-container-bg
 simkl.com##.blockplace
@@ -65242,7 +65235,6 @@ amazon.*#?#.s-search-results > div[data-asin]:has(> div[class] > div[cel_widget_
 amazon.*#?##similarities_feature_div span[id^="ad-feedback-text"]:upward(#similarities_feature_div)
 mumsnet.com#?#main > .relative > .bg-gray-200:has(> #ultimedia_wrapper)
 mumsnet.com#?#aside[class*="col-span-4"] > .my-20 > .relative:has(> div[id^="mn-mpu-"])
-weatherzone.com.au#?#main div[class^="sc-"] > div[class^="sc-"]:empty:has(+ .publift-ad-wrapper)
 bing.com#?##b_results > .b_algo:has(> .b_caption > .b_attribution:matches-css(before, content: /url\(data:image/))
 dir.indiamart.com#?##lay-lft > #m4tTOP:has(> div[id^="div-gpt-"])
 xn--tream2watch-i9d.com#?#.stream-box-sources-list-item[data-h="play"]:has(a[href="/frames/fp2/index.php"])
@@ -66160,7 +66152,6 @@ nzherald.co.nz#?#.recommended-articles__heading:contains(Paid Promoted Content)
 krebsonsecurity.com#?#.nobullet > li:has(> a[href^="https://www.amazon.com/"])
 osuskins.net#?#.vad-container:upward(div.skin-container)
 beinmatch.tv#$?##rufous-sandbox ~ div[style*="data:image/gif;base64"] { remove: true; }
-reuters.com#?##content > div[class]:has(> div[style="display: none;"])
 123unblock.*#$?#html { margin-top: 0 !important; }
 pornpics2u.com,porngifs2u.com#?#.elementor-section-wrap > section.elementor-section:has( div[align="center"] > a > img[src^="https://adultwebmasters.org"])
 hdpornmax.com#?#.container > h2:contains(Recommended)
@@ -66896,6 +66887,7 @@ missav.*,missav123.com,missav888.com##div[style^="display: flex;flex-wrap: wrap;
 missav.*,missav123.com,missav888.com##div[x-show^="recommendItems"] ~ div[class]:has(> div > div.mx-auto > div.flex > a[rel^="sponsored"])
 missav.*,missav123.com,missav888.com##.relative > div[x-init*="campaignId=under_player"]
 7mmtv.sx##.a-d-block
+7mmtv.sx##.player_tv_pop
 7mmtv.sx##body .set_height_250
 [$domain=/7tv\d+\.com$/]##.a-d-block
 [$domain=/7tv\d+\.com$/]##.player_tv_pop
@@ -66907,6 +66899,7 @@ charismanews.com###FrontpageFeatureRightColumn
 charismanews.com##div[style="min-width: 300px; min-height: 250px;"]
 charismanews.com###articles > article.article:has(> div.contentBoxWrap a[href^="https://servedby.aqua-adserver.com/"])
 charismanews.com#$##headerAreaWrap { height: 180px !important; }
+check-host.net##.article > div[class="mt-4 mb-4"]:has(> div.vrounded > div.cursor-pointer > a[href] > img)
 check-host.net##div[class]:has(> a[href$="?utm=checkhost"])
 check-host.net##div[id^="amdtveaytpuik"]
 check-host.net##div[class]:has(> [class^="alc"])
@@ -67248,6 +67241,7 @@ techrepublic.com##sticky-footer-ad
 techrepublic.com##.prose > div.has-data-empty\:hidden
 digitaltrends.com##[class*="--ads"]
 urbandictionary.com###ud-root > div[class*="print:hidden"]:has(> .justify-center > div[class*="leaderboard:"])
+mbjremix.com###gads
 happyroms.com,modcombo.com##.txt-ads
 olympics.com##[data-cy="adv-container"]
 zeroupload.com##a[onclick][href^="javascript"]
@@ -67483,6 +67477,7 @@ fortnitetracker.com##.fne-event-details__left > div[style="margin: 0px auto; hei
 dhakatribune.com###jw-popup
 appleinsider.com##body .ad
 appleinsider.com##body .ad + hr
+reuters.com#?##content > div[class]:has(> div[style="display: none;"])
 lifehacker.com,lifehacker-com.cdn.ampproject.org#?#article > div[class*=" "]:has(> div > p:contains(Advertisement))
 lifehacker.com,lifehacker-com.cdn.ampproject.org#?#article > aside:has(> div > div > a[data-amazonsin])
 yonlendir.whatsaero.com#?#body > center:contains(/^Advertisement$/)
@@ -67499,6 +67494,9 @@ videohelp.com#?#div[id] a[href^="https://www.dvdfab.cn/"] + a[href]:upward(1)
 videohelp.com#?#div[id] a[href]:contains(/^\n?Try (?:D.?V.?D.?F.?a.?b.?|StreamFab)|^StreamFab|^DVDFab$/) + a[href]:upward(1)
 thequint.com#?#.container div:has(> div > div > .adunitContainer)
 thelocal.ch#?#body > div > .section:has( > div[class]:contains(Sponsored))
+ultrabookreview.com##.sumright
+ultrabookreview.com##div[id^="zzif"]
+ultrabookreview.com##div[class^="postzzif"]
 spectrum.ieee.org##.top-leader-container
 yahoo.com##a[data-test-id="large-image-ad"]
 msn.com##.galleryPage_eoabNativeAd_new-DS-EntryPoint1-1

@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Scriptlet
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202609280042
-! Last modified: 2026-09-28T00:42:42Z
+! Version: 202609280650
+! Last modified: 2026-09-28T06:50:02Z
 ! Layers: scriptlet
 ! Mode: standard
-! Rules: 5642
+! Rules: 5647
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -443,6 +443,8 @@ youporn.com,bztube.com,hotovs.com,insuredhome.org,nudegista.com,pornluck.com,vid
 pornhub.com,pornhub.org,pornhub.net#%#//scriptlet('set-constant', 'page_params.holiday_promo_prem', 'true')
 pornhub.com,pornhub.org,pornhub.net#%#//scriptlet('prevent-setTimeout', '\x41\x64\x62\x6c\x6f\x63\x6b\x20\x66\x6f\x72\x20\x70\x6f\x72\x6e\x68\x75\x62')
 youporn.com#%#//scriptlet('remove-node-text', 'script', '/window\.[\s\S]*?_zone_[\s\S]*?{"zone_id":/')
+sexwebseries.com,nxxn.live#%#//scriptlet('prevent-setTimeout', '.clientHeight')
+sporteurope.tv#%#//scriptlet('google-ima3')
 uploadcloud.pro#%#//scriptlet('prevent-addEventListener', 'load', 'Monitoring started')
 up-4ever.net#%#//scriptlet('abort-on-property-write', '__u4AbInit')
 lineup11.net#%#//scriptlet('prevent-setTimeout', 'offsetHeight===0')
@@ -4710,6 +4712,7 @@ buienalarm.nl,buienalarm.be,weerplaza.nl,weerslag.nl,sat24.com,niederschlagsrada
 buienalarm.nl,buienalarm.be,weerplaza.nl,weerslag.nl,sat24.com,niederschlagsradar.de,meteox.com,meteoradar.co.uk,buienalarm.nl#%#//scriptlet('trusted-replace-argument', 'Element.prototype.setAttribute', '1', 'replace:/.+(error-report|new Promise|:window|&&window,|\|\|window,|void 0\]|html-load\.com[\s\S]*_onerror).+//g')
 buienalarm.nl,meteovista.be,weeronline.nl#%#//scriptlet('trusted-replace-argument', 'Range.prototype.createContextualFragment', '0', '<script></script>', 'html-load.com')
 buienalarm.nl,buienalarm.be,weerplaza.nl,weerslag.nl,sat24.com,niederschlagsradar.de,meteox.com,meteoradar.co.uk,buienalarm.nl#%#//scriptlet('remove-node-text', 'script', ').join(String.fromCharCode')
+radio-osterreich.at,radio-australia.org,radio-hrvatska.com,radio-danmark.dk,radio-norge.org,internetradio-horen.de,fmradiofree.com#%#//scriptlet('abort-on-stack-trace', 'document.getElementById', 'onerror')
 radio-osterreich.at,radio-australia.org,radio-hrvatska.com,radio-danmark.dk,radio-norge.org,internetradio-horen.de,fmradiofree.com#%#//scriptlet('trusted-replace-argument', 'Element.prototype.setAttribute', '1', '', '/error-report|new Promise|;await new|:\[?window|&&window,|void 0\]|location\.href|void 0\|\|window|,window,|void 0,window|\[0,window\]|\)\.join\(String\.fromCharCode/')
 radio-osterreich.at,radio-australia.org,radio-hrvatska.com,radio-danmark.dk,radio-norge.org,internetradio-horen.de,fmradiofree.com#%#//scriptlet('trusted-replace-argument', 'Element.prototype.setAttribute', '1', 'replace:/.+(error-report|new Promise|:window|&&window,|\|\|window,|void 0\]|html-load\.com[\s\S]*_onerror).+//g')
 radio-osterreich.at,radio-australia.org,radio-hrvatska.com,radio-danmark.dk,radio-norge.org,internetradio-horen.de,fmradiofree.com#%#//scriptlet('remove-node-text', 'script', '/\)\.join\(String\.fromCharCode|html-load\.com/')
@@ -4812,6 +4815,8 @@ www.youtube.com#%#//scriptlet('set-constant', 'ytcfg.data_.EXPERIMENT_FLAGS.web_
 www.youtube.com#%#//scriptlet('prevent-setTimeout', '(),a,b)', '5000')
 m.youtube.com#%#//scriptlet('json-prune', 'playerResponse.messages.[].youThereRenderer')
 m.youtube.com#%#(()=>{const t={apply:(t,e,n)=>{if(location.href.includes("/shorts/")||location.href.includes("youtube.com/tv")||location.href.includes("youtube.com/embed/"))return Reflect.apply(t,e,n);try{const a=n[0];if(!a?.context?.client)return Reflect.apply(t,e,n);const o=String(Date.now());a.playbackContext&&void 0===a.playbackContext.adPlaybackContext&&(a.playbackContext.contentPlaybackContext.lactMilliseconds=o),a.playerRequest&&void 0===a.playerRequest.playbackContext?.adPlaybackContext&&(a.playerRequest.playbackContext.contentPlaybackContext.lactMilliseconds=o),n[0]=a}catch(t){}return Reflect.apply(t,e,n)}};window.JSON.stringify=new Proxy(window.JSON.stringify,t)})();
+gayporntube.com#%#//scriptlet('set-constant', 'Object.prototype.findRoll', 'emptyArr', '', 'asFunction')
+sexwebseries.com,nxxn.live#%#//scriptlet('trusted-set-constant', 'vidorev_jav_plugin_video_ads_object.vid_ads_m_video_ads', '"no"')
 mangatrend.org#%#//scriptlet('remove-node-text', 'script', 'shown_at')
 69pedia.com#%#//scriptlet('abort-current-inline-script', 'document.addEventListener', 'loadAds')
 minefun.io#%#//scriptlet('set-constant', '__poki_no_ads', 'true')

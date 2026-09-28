@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Network
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202609280042
-! Last modified: 2026-09-28T00:42:42Z
+! Version: 202609280650
+! Last modified: 2026-09-28T06:50:02Z
 ! Layers: network
 ! Mode: standard
-! Rules: 47883
+! Rules: 47876
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -8326,6 +8326,7 @@ $cookie=__adblocker,domain=slate.com|thehindubusinessline.com
 ||claimfey.com/cryptonews/wp-content/uploads/bqanwcfp.js
 @@||static.trafficjunky.com/ab/ads_test.js$domain=bztube.com|hotovs.com|insuredhome.org|nudegista.com|pornluck.com|vidd.se|redtube.*|youpornru.com|tube8.com|tube8.es|tube8.fr|tube8.net|pornhub.com|pornhub.org|pornhub.net
 @@://www.exoclick.com/ads.js|
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=sporteurope.tv
 @@||cdn.adsbetnet.com/libs/$script,domain=naijavault.com
 ||up-4ever.net/js/dlcheck.js
 ||cdn.jsdelivr.net/gh/The-3Labs-Team/js-anti-adblock@main/dist/antiAdBlocker.min.ob.js
@@ -14547,6 +14548,7 @@ $third-party,script,domain=klto9.com|f2movies.to|hacamchicac.com|yourporngod.com
 ||curiouspatch.com/static/rsoc.js
 ||pexels.com/*/api/v3/getty-media/
 ||api.redgifs.com/v*/adv/
+/^https:\/\/engine\.[a-z]+\.live\/\?[0-9]+$/$xmlhttprequest,third-party
 /^https:\/\/engine\.[a-z]+\.com\/\?[0-9]+$/$xmlhttprequest,third-party
 ||kick.com/datazoom/*/datazoom.js
 ||d26yk4zpyhjeeq.cloudfront.net/tm/*/asset_*.ts$media,xmlhttprequest,redirect=noopmp4-1s,domain=kick.com
@@ -20560,6 +20562,8 @@ $csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: www.googletagma
 @@||beinconnect.com.tr^$stealth
 @@||account.adobe.com^$document,domain=services.adobe.com,stealth=useragent
 @@||adguard.com^$stealth
+@@||mux.com/*.m3u8$stealth=referrer
+@@||mux.com/*.ts?$stealth=referrer
 @@/playlist/*.m3u8|$third-party,xmlhttprequest,stealth=referrer,domain=xpass.top
 @@.html|$third-party,xmlhttprequest,stealth=referrer,domain=xpass.top
 @@||streetviewpixels-pa.clients6.google.com^$stealth=referrer
@@ -25985,7 +25989,6 @@ _800x80_
 ||bincatracs.com^$document
 ||blcdog.com^$document
 ||blehcourt.com^$document
-||block-ad.com^$document
 ||blockadsnot.com^$document
 ||blurbreimbursetrombone.com^$document
 ||bmmads.com^$document
@@ -26000,7 +26003,6 @@ _800x80_
 ||bucksmein.com^$document
 ||bunth.net^$document
 ||byethost41.net^$document
-||c3j7rk-rtbix.top^$document
 ||camads.workers.dev^$document
 ||camliveshow.xyz^$document
 ||candellume.shop^$document
@@ -26018,7 +26020,6 @@ _800x80_
 ||clearwatch.tv^$document
 ||click-for-preview.com^$document
 ||clickblitzo.com^$document
-||clickmintads.site^$document
 ||clickpunch.icu^$document
 ||cliphotbokep.xyz^$document
 ||clixwells.com^$document
@@ -26150,7 +26151,6 @@ _800x80_
 ||jiuwert.online^$document
 ||jnbhi.com^$document
 ||js-check.com^$document
-||junkyadexchange.com^$document
 ||jwalkin.com^$document
 ||k3on.com^$document
 ||kagonst.com^$document
@@ -26357,7 +26357,6 @@ _800x80_
 ||sexemulator.tube-sexs.com^$document
 ||sgben.com^$document
 ||shakingtacklingunpeeled.com^$document
-||shauladubhe.top^$document
 ||shoppinglifestyle.biz^$document
 ||shotgunchancecruel.com^$document
 ||signamentswithd.com^$document
@@ -26369,7 +26368,6 @@ _800x80_
 ||smrtmnk2.com^$document
 ||socialdate.me^$document
 ||souszhi.com^$document
-||sp03k.sbs^$document
 ||sparkpcgames.com^$document
 ||spin83qr.com^$document
 ||sprinlof.com^$document
@@ -26387,7 +26385,6 @@ _800x80_
 ||stsbih.com.ba^$document
 ||studiotrackmusic.com^$document
 ||superfasti.co^$document
-||suptraf.com^$document
 ||sxlflt.com^$document
 ||synccora.com^$document
 ||targeta41.net^$document
@@ -26418,7 +26415,6 @@ _800x80_
 ||tracking-aws-5.com^$document
 ||tracking-zy.com^$document
 ||trackingtraffo.com^$document
-||trasupr.com^$document
 ||trckqq.com^$document
 ||trentbereal.com^$document
 ||trknovi.com^$document
@@ -26482,7 +26478,6 @@ _800x80_
 ||2mdn.net^$~media,third-party
 ||33across.com^$third-party
 ||360ads.com^$third-party
-||360installer.com^$third-party
 ||4affiliate.net^$third-party
 ||4cinsights.com^$third-party
 ||4dsply.com^$third-party
@@ -26861,7 +26856,6 @@ _800x80_
 ||benfly.net^$third-party
 ||beop.io^$third-party
 ||beringmedia.com^$third-party
-||bestcasinopartner.com^$third-party
 ||bestcontentcompany.top^$third-party
 ||bestcontentsoftware.top^$third-party
 ||besthitsnow.com^$third-party
@@ -26887,7 +26881,6 @@ _800x80_
 ||bin-layer.de^$third-party
 ||binlayer.com^$third-party
 ||binlayer.de^$third-party
-||bitadx.one^$third-party
 ||bitcoadz.io^$third-party
 ||bitonclick.com^$third-party
 ||bitspush.io^$third-party

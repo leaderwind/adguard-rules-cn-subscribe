@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Content
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202609290155
-! Last modified: 2026-09-29T01:55:47Z
+! Version: 202609290826
+! Last modified: 2026-09-29T08:26:53Z
 ! Layers: content
 ! Mode: standard
-! Rules: 63911
+! Rules: 63918
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -9547,6 +9547,9 @@ apkgep.com,djbasskingg.com,gcamupdater.com,livebiz.in,tvserialnews.in,gadii.in,d
 primepropertynow.com,kdvqi.xyz#@#div[id^="div-gpt-"]
 primepropertynow.com,kdvqi.xyz#@#[id^="div-gpt-ad"]
 airlive.net#$##rb-checktag > .adsbygoogle { display: block !important; }
+airlive.net#@#[id^="google_ads_iframe_"]
+airlive.net#@#.ads-banner
+airlive.net#@#.ad-slot
 bandle.app##body > div[style^="background:"][style*="position: fixed; display: flex;"][style*="z-index:"]
 indexsubtitle.cc#@#.google_ads
 epic.hellosports.live##.popSc
@@ -10434,8 +10437,8 @@ javcl.com#@##ads1
 85tube.com#@#.ads-iframe
 pclicious.net###quads-myModal
 new.lewd.ninja#@#.stargate
-globaltv.com#@#.topAds
-globaltv.com#$#body .topAds { display: block !important; }
+stacktv.ca,globaltv.com#@#.topAds
+stacktv.ca,globaltv.com#$#body .topAds { display: block !important; }
 crosswordsolver.org#@#display-ad-component
 smallseo.tools#$#.adsense.banner_ad.pub_728x90.pub_300x250 { display: block !important; }
 homedecoratione.com#@#.advertiser
@@ -19031,6 +19034,8 @@ animecorner.me,zarabiajprzez24.pl,watchhentai.xxx,app-how-to-use-it.com,linuxcap
 pawastreams.*,nflbite.to,footybite.to,sportschamp.fun,afly.pro,topsporter.net,soccerstreams.football,mysocceraustralia.com,rayinfosports.com,hesgoals.top,sequencecard.xyz,totalsportek.soccer,metaporky.site,nbabite.to,cyfostreams.com,gamerarcades.com,bestreamsports.org,footy.to,mcrypto.club,greaterkashmir.com###id-custom_banner
 pawastreams.*,groundedtechs.com,rayinfosports.com,sequencecard.xyz,matchtime.co,sportspellz.com,bestreamsports.org,silverspoon.site###dismiss-btn
 vi-control.net,nullforums.net,landyzone.co.uk,nullcave.pro,woxmax.com,waskucity.com,babia.to,technofino.in,reef2reef.com,minebbs.com,craxpro.io,affiliatefix.com,myiptvforum.com,hifivision.com,worldofiptv.com,altenen.is,beermoneyforum.com,germancarforum.com,cracking.org##.samBannerUnit
+love4porn.com##.top-links
+letras.com##.an
 bristolworld.com,londonworld.com,blackpoolgazette.co.uk##.hero-pap
 bristolworld.com,clarelive.ie,londonworld.com,blackpoolgazette.co.uk##div[id^="leaderboard"]
 bristolworld.com,clarelive.ie,londonworld.com,blackpoolgazette.co.uk##div[class^="GalleryArticle__BottomFeed"]
@@ -19038,6 +19043,7 @@ makeitmeme.com##div[class^="_leftBanner_"]
 makeitmeme.com##div[class^="_rightBanner_"]
 itechguides.com##div[data-ym-phase]
 itechguides.com##.ym-p3-server-gate
+bestblackhatforum.com##img[title="Advertisement"]
 sortiraparis.com##div[class*="margin-"][style^="overflow: hidden; min-height:"]
 pluto.tv##.pause-panel-ad-container
 kaliscan.com##div[class][style="width: 100vw; height: 100dvh;"]:has(> div.notranslate > iframe[sandbox*="allow-popups"])
@@ -32107,7 +32113,7 @@ sporcle.com##div[id^="div-gpt-"]
 porn.com##div[class*="-zne"]
 androidcentral.com,imore.com,windowscentral.com##.adunit-wrap
 peekvids.com##.watch-page-banner
-peekvids.com##.add_href_jsclick
+pornoeggs.com,pornflip.com,peekvids.com##.add_href_jsclick
 cumlouder.com##.p-bottom
 cumlouder.com##.widget_bnrs
 sleazyneasy.com##.banner-aside
@@ -63589,6 +63595,7 @@ cyberchef.org###workspace-wrapper > [id][style*="height"] {height: 100% !importa
 complex.com##.\[\@media\(min-width\:520px\)\]\:px-\[20px\]
 justjared.com##.banner-spacer-top {max-height: 50px !important;}
 temp-mail.io##.fixed.bottom-0.\[\@media\(max-width\:1350px\)\]\:hidden
+gamedaily.com,meidasnews.com,olympics.com,scmp.com##.header-ad-slot
 complex.com##.lg\:top-\[var\(--sticky-top\)\]
 justjared.com##[role="banner"] {top:0 !important}
 discord.com#?#.wrapper__0d616:has-text(Get Reward)

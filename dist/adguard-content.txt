@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Content
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202609282157
-! Last modified: 2026-09-28T21:57:32Z
+! Version: 202609290155
+! Last modified: 2026-09-29T01:55:47Z
 ! Layers: content
 ! Mode: standard
-! Rules: 63909
+! Rules: 63911
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -50060,6 +50060,7 @@ kliuki.bg###container > div[style="float:left;"] > div[style]
 ##[id^="ad_sky"]
 ##[id^="ad_slider"]
 ##[id^="div-gpt-ad"]
+##[id^="google_ads_iframe_"]
 ##[id^="section-ad-banner"]
 ##[name^="google_ads_iframe"]
 ##a-ad
@@ -61569,6 +61570,7 @@ adultgamesworld.com##.rel:has(a[href^="https://access-the-website.com/"])
 kbjfree.com##.relative.w-full:has(> .video-card[target="_blank"])
 pornhub.com##.sectionWrapper:has(> #bottomVideos > .wrapVideoBlock)
 hentaicomics.pro##.single-portfolio:has(.xxx-banner)
+nochoice.app##.text-center:has(a[href^="https://www.lovense.com/"])
 xasiat.com##.top:has(> [data-zoneid])
 scrolller.com##.vertical-view__column > .vertical-view__item:has(> div[style$="overflow: hidden;"])
 povxl.com##.video-holder > div:has([id^="ts_ad_native_"])

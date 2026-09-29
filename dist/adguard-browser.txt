@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Browser
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202609282157
-! Last modified: 2026-09-28T21:57:32Z
+! Version: 202609290155
+! Last modified: 2026-09-29T01:55:47Z
 ! Layers: network,content,scriptlet
 ! Mode: standard
-! Rules: 117275
+! Rules: 117274
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -1018,10 +1018,7 @@ $script,third-party,denyallow=myqcloud.com|bytecdntp.com|pddpic.com|googletagman
 .com/js/alls_top.js
 .com/js/discor_list.js
 .com/js/LAD.js
-.com/img/bnnr1_
-.com/img/bnr1_*.gif
-.com/img/bnr2_*.gif
-.com/img/bnr3_*.gif
+.com/js/b3nr_
 .com/js/youlian.js
 .com/jsbjl/zhanqun
 .com/json/cctv.json?v=
@@ -84060,6 +84057,7 @@ kliuki.bg###container > div[style="float:left;"] > div[style]
 ##[id^="ad_sky"]
 ##[id^="ad_slider"]
 ##[id^="div-gpt-ad"]
+##[id^="google_ads_iframe_"]
 ##[id^="section-ad-banner"]
 ##[name^="google_ads_iframe"]
 ##a-ad
@@ -95569,6 +95567,7 @@ adultgamesworld.com##.rel:has(a[href^="https://access-the-website.com/"])
 kbjfree.com##.relative.w-full:has(> .video-card[target="_blank"])
 pornhub.com##.sectionWrapper:has(> #bottomVideos > .wrapVideoBlock)
 hentaicomics.pro##.single-portfolio:has(.xxx-banner)
+nochoice.app##.text-center:has(a[href^="https://www.lovense.com/"])
 xasiat.com##.top:has(> [data-zoneid])
 scrolller.com##.vertical-view__column > .vertical-view__item:has(> div[style$="overflow: hidden;"])
 povxl.com##.video-holder > div:has([id^="ts_ad_native_"])

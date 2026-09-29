@@ -1,8 +1,8 @@
 ! Title: AdGuard Rules CN - Network
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202609290826
-! Last modified: 2026-09-29T08:26:53Z
+! Version: 202609291547
+! Last modified: 2026-09-29T15:47:22Z
 ! Layers: network
 ! Mode: standard
 ! Rules: 47877
@@ -7134,8 +7134,6 @@ wss://*.*.top/$third-party
 .cn/Ao390sW2.js
 .cn/cS389.js
 ||uaa.com/js/dxj.
-wss://*.com:29*/$third-party
-wss://*.com:800*/$third-party,domain=~survev.io
 ||lzbao.net/syster.
 .cfd/$script,third-party,domain=twkan.com
 ||shuhaoxs.com/public/
@@ -11662,6 +11660,7 @@ $third-party,xmlhttprequest,domain=faselhd.cafe|faselhd-watch.shop,badfilter
 ||tiv1.am/gwd-banner/
 .az/banner/
 .az/reklamexport_
+||day.az/ads/
 ||qafqazinfo.az/public/site/js/reklam.js
 ||fed.az/upload/banners/$image
 ||investaz.az/uploads/img/valyuta/qizil-*.gif$third-party
@@ -20795,7 +20794,7 @@ $csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: www.googletagma
 @@/sources-with-title?title=*&mediaType=$third-party,xmlhttprequest,stealth=referrer
 @@/*/*=|$third-party,xmlhttprequest,media,stealth=referrer,domain=player.videasy.*|vidking.net
 @@.m3u8$third-party,xmlhttprequest,stealth=referrer,domain=player.videasy.*|vidfast.vc|vidking.net|vidup.to|movy.sx|vidcore.io|vidcore.*
-@@q=$xmlhttprequest,stealth=referrer,domain=player.videasy.*|vidup.to|vidfast.vc|vidking.net
+@@q=$xmlhttprequest,stealth=referrer,domain=player.videasy.*|vidup.to|vidfast.vc|vidking.net|movy.sx
 @@||setplay.shop/player/$subdocument,stealth=referrer,domain=hdfilmcehennemi.now
 @@||papagan.shop^$xmlhttprequest,stealth=referrer,domain=setplay.shop
 @@||twincdn.com/videos/$media,stealth=referrer,domain=pornmike.com
@@ -43886,6 +43885,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||hyvyd.com/count$image,domain=mobile.de
 ||info.elba.at^$third-party
 ||insene.de/tag/$third-party
+||ippen.space/api/metrics
 ||iqcontentplatform.de/tracking/
 ||liberty.schip.io/liberty-metrics/
 ||lr-port.de/tracker/

@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Conservative
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202609301339
-! Last modified: 2026-09-30T13:39:31Z
+! Version: 202609301915
+! Last modified: 2026-09-30T19:15:38Z
 ! Layers: network,content,scriptlet
 ! Mode: conservative
-! Rules: 109237
+! Rules: 109222
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -1241,7 +1241,6 @@ $script,third-party,denyallow=myqcloud.com|bytecdntp.com|pddpic.com|googletagman
 /dy_66jjss/*
 /dygg_
 /dzwww/ad_dzw_inner.js
-/e/ecmsshop/zhuanpan/js/*
 /eis/diy/ad/*
 /ettoday/gemini/*
 /ezprice_ad.js
@@ -1304,8 +1303,6 @@ $script,third-party,denyallow=myqcloud.com|bytecdntp.com|pddpic.com|googletagman
 /gwunggou/*
 /h/k.php?u=*&l=*&v=$third-party
 /hao123_api/api/cpc/*
-/haojio/images/KF-ZL.jpg
-/haojio/js/scoll_bg.js
 /heituad/*
 /heji/mei00*.js
 /hjstore/system/banner/*.txt
@@ -2628,15 +2625,12 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||alicdn.com/g/mm/afp-cdn/JS/
 ||alicdn.com/img/ibank/*_!!2200581616124-
 ||alicdn.com/img/ibank/*_!!2212029770429-
-||alicdn.com/img/ibank/*_!!4231779133-0-cib.
 ||alicdn.com/img/ibank/*_1082732848.
 ||alicdn.com/img/ibank/*_1085845541.
-||alicdn.com/img/ibank/*_1095372465.
 ||alicdn.com/img/ibank/*_1165462224.
 ||alicdn.com/img/ibank/*_1281922417.
 ||alicdn.com/img/ibank/*_1409595492.
 ||alicdn.com/img/ibank/*_1533190909.
-||alicdn.com/img/ibank/*_1545027917.
 ||alicdn.com/img/ibank/*_1591187313.
 ||alicdn.com/img/ibank/*_1746120392.$domain=~rmdown.com
 ||alicdn.com/img/ibank/*_1776866723.
@@ -2645,7 +2639,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||alicdn.com/img/ibank/*_1995781528.
 ||alicdn.com/img/ibank/*_2021817714.
 ||alicdn.com/img/ibank/*_2114606112.
-||alicdn.com/img/ibank/*_256401016.
 ||alicdn.com/img/ibank/*_330044705.
 ||alicdn.com/img/ibank/*_368737028.
 ||alicdn.com/img/ibank/*_392352300.
@@ -9935,7 +9928,6 @@ newduba.cn###jq_youxi
 ##a[href*="/Register?a="]
 ##a[href*="/ads/adscenter."]
 ##a[href*="/auth/register?code="] > img
-##a[href*="/entry/register"][href*="i_code"]
 ##a[href*="/register/?i_code="] > img
 ##a[href*="://2"] > img[src*=".qlogo.cn"]
 ##a[href*="://4"][href*="/vod."]
@@ -9950,11 +9942,8 @@ newduba.cn###jq_youxi
 ##a[href*="kdocs.cn"] > img[src*=".ax1x.com/"]
 ##a[href*="kdocs.cn"] > img[src*="sstv."]
 ##a[href*="xchina.click/prepare."]
-##a[href="/e/member/register/index.php?tobind=0&groupid=1"]
-##a[href="/gghtml/tyc.html"]
 ##a[href="/goto.php?url=hth"]
 ##a[href="/ht.html"]
-##A[href="javascript:;"][onclick^="lksdjfrefruise"]
 ##a[href="javascript:GoGd();"]
 ##a[href="javascript:GoTp();"]
 ##a[href="javascript:window.GoTp();"]
@@ -9979,18 +9968,13 @@ newduba.cn###jq_youxi
 ##a[target="_blank"] > img.king
 ##a[target="_blank"] > img[src*=".bitautoimg.com/"][src$=".gif"]
 ##a[target="_blank"] > img[src*=".ikstatic.cn"][style="width:100%;height:100%"]
-~mgtv.com##a[target="_blank"] > img[src*="hitv.com"]
-##a[target="_blank"][href^="https://js."][href$=".com/download/4122_0.html"]
 ##body .has-ad
 ##body.desktop[style^="-"] span[class*=" "] > a[href^="http"][rel="nofollow"][target="_blank"]
 ##body[onload*="u()"] > #x
-##center > a[target="_blank"] > img[style="padding- bottom:5px;width:960px;height:120px;"]
-##center > a[target="_blank"] > img[style="padding- bottom:5px;width:960px;height:60px;"]
 ##div#ad_id
 ##div#xinxi
 ~ix8.la##div[class^="ADTOPLB_"]
 ##div[class^="is_"] > a > img[referrerpolicy="no-referrer"]
-##div[class^="module-"] > a[href="/index/voddetail.html?id=1"]
 ##div[class^="ps_"][value="20"]
 ##div[id^="a-loading-"] > span
 ##div[id^="ad_thread"]
@@ -10007,7 +9991,6 @@ newduba.cn###jq_youxi
 ##div[style^="position"][onclick^="window.open"]
 ##img#GGADIMG
 ##img#adv1
-##A[onclick^="diensfeifwejwdsfwemio"]
 ##img[data-link][data-src*="/u/"]:not([data-link*="/i/"])
 ##img[data-src*=".alicdn.com/img/ibank/"][src="/static/images/loadingerror.gif"]
 ##img[onclick*=".qq.com/doc/"]
@@ -10020,7 +10003,6 @@ newduba.cn###jq_youxi
 ##img[src*=".c-ctrip.com"][style="width:100%;height:70px;"]
 ##img[src*=".jd.com"][style="width:100%;height:70px;"]
 ##img[src*=".meituan.net"][style="width:100%;height:70px;"]
-##img[src*=".meiyida.tv/"]
 ##IMG[onclick*="bucd.lol"]
 ##img[src*=".qpic.cn"][width="980"][height="80"]
 ##img[src*=".sinaimg."][style="width:1025px;height:80px"]
@@ -13166,7 +13148,6 @@ py.cn##.index-advert
 speedtest.cn##.index-advertising
 jianshen8.com##.index-banner
 1avlang.com,avavl4.com,avlang.com##.index-info > .tac
-kpd122.com,ssp28.pw##.index-owl-carousel
 bilibili.com##.index-promote
 pinggu.org##.index-somelinks
 nanfengyl.com##.index-top-ad1
@@ -20680,7 +20661,6 @@ $third-party,xmlhttprequest,domain=faselhd.cafe|faselhd-watch.shop,badfilter
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=svetandroida.cz
 ||1gr.cz/*/js/uni/paticka.js$domain=antiyoutuber.cz
 ||1gr.cz/*/js/uni/paticka.js$domain=expres.cz
-||1gr.cz/*/uni/paticka.js$domain=lidovky.cz
 ||1gr.cz/*/js/uni/paticka.js$domain=idnes.cz
 ||diit.cz/sites/default/files/_cdr_branding/branding.jpg
 ||cdr.cz/sites/default/files/_cdr_branding/branding.jpg
@@ -29069,7 +29049,7 @@ $image,script,stylesheet,subdocument,third-party,xmlhttprequest,domain=animepahe
 @@||fast*.vidplus.dev/file*/*?host=$xmlhttprequest,stealth=referrer
 @@/mp4/*$media,stealth=referrer,domain=player.videasy.*|vidking.net
 @@/r2/cdn2/*$xmlhttprequest,third-party,stealth=referrer,domain=vidfast.vc|vidup.to
-@@/vd/*/seg-*.jpg|$third-party,xmlhttprequest,stealth=referrer,domain=player.videasy.*|vidking.net|vidfast.vc
+@@/seg-*.$third-party,xmlhttprequest,stealth=referrer,domain=player.videasy.*|vidking.net|vidfast.vc
 @@||api.*/seed?mediaId=$third-party,xmlhttprequest,stealth=referrer
 @@/\/[a-z0-9]{8}\/[a-zA-Z0-9_-]{200,900}/$xmlhttprequest,third-party,match-case,stealth=referrer,domain=player.videasy.*|vidup.to|vidfast.vc|vidking.net|111movies.net|vidcore.io|vidcore.*
 @@/sources-with-title?title=*&mediaType=$third-party,xmlhttprequest,stealth=referrer
@@ -45215,6 +45195,7 @@ tech-cambodia.com###body_ads_0_0_3
 tech-cambodia.com###popup
 khboxhd.com##div[id$="-ad"]
 dap-news.com##.ads
+mobile.a-bly.com##div[class]:has(> div[tabindex] > div[class] > div[class]:only-child > img[src^="https://img.a-bly.com/retail_ad"])
 tvchak.live##.banner-box
 tvroom4.org##[class*="banner"]
 spoki.lv##.params > div.cnt_btn
@@ -50194,6 +50175,10 @@ animecorner.me,zarabiajprzez24.pl,watchhentai.xxx,app-how-to-use-it.com,linuxcap
 pawastreams.*,nflbite.to,footybite.to,sportschamp.fun,afly.pro,topsporter.net,soccerstreams.football,mysocceraustralia.com,rayinfosports.com,hesgoals.top,sequencecard.xyz,totalsportek.soccer,metaporky.site,nbabite.to,cyfostreams.com,gamerarcades.com,bestreamsports.org,footy.to,mcrypto.club,greaterkashmir.com###id-custom_banner
 pawastreams.*,groundedtechs.com,rayinfosports.com,sequencecard.xyz,matchtime.co,sportspellz.com,bestreamsports.org,silverspoon.site###dismiss-btn
 vi-control.net,nullforums.net,landyzone.co.uk,nullcave.pro,woxmax.com,waskucity.com,babia.to,technofino.in,reef2reef.com,minebbs.com,craxpro.io,affiliatefix.com,myiptvforum.com,hifivision.com,worldofiptv.com,altenen.is,beermoneyforum.com,germancarforum.com,cracking.org##.samBannerUnit
+m.sextvx.com###mobile_pause_ad_overlay
+m.sextvx.com###video > main.px-3 > div.video_block
+milfnut.com##.rtsc-sponsored-card
+namethatporn.com##div.a_ts.dt:last-child
 routinehub.co##.rh-ad-slot
 dotabuff.com##.footer-nav-right > nav > ul > li > a:is([href="https://www.deadfrag.com"], [href="https://www.speedrun.com"], .color-brand-statlocker)
 eboblack.com##.pp-pause-banner

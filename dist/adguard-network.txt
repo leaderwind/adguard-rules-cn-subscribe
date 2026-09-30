@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Network
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202609301339
-! Last modified: 2026-09-30T13:39:31Z
+! Version: 202609301915
+! Last modified: 2026-09-30T19:15:38Z
 ! Layers: network
 ! Mode: standard
-! Rules: 47881
+! Rules: 47873
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -1260,7 +1260,6 @@ $script,third-party,denyallow=myqcloud.com|bytecdntp.com|pddpic.com|googletagman
 /dy_66jjss/*
 /dygg_
 /dzwww/ad_dzw_inner.js
-/e/ecmsshop/zhuanpan/js/*
 /eis/diy/ad/*
 /ettoday/gemini/*
 /ezprice_ad.js
@@ -1323,8 +1322,6 @@ $script,third-party,denyallow=myqcloud.com|bytecdntp.com|pddpic.com|googletagman
 /gwunggou/*
 /h/k.php?u=*&l=*&v=$third-party
 /hao123_api/api/cpc/*
-/haojio/images/KF-ZL.jpg
-/haojio/js/scoll_bg.js
 /heituad/*
 /heji/mei00*.js
 /hjstore/system/banner/*.txt
@@ -2650,15 +2647,12 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||alicdn.com/g/mm/afp-cdn/JS/
 ||alicdn.com/img/ibank/*_!!2200581616124-
 ||alicdn.com/img/ibank/*_!!2212029770429-
-||alicdn.com/img/ibank/*_!!4231779133-0-cib.
 ||alicdn.com/img/ibank/*_1082732848.
 ||alicdn.com/img/ibank/*_1085845541.
-||alicdn.com/img/ibank/*_1095372465.
 ||alicdn.com/img/ibank/*_1165462224.
 ||alicdn.com/img/ibank/*_1281922417.
 ||alicdn.com/img/ibank/*_1409595492.
 ||alicdn.com/img/ibank/*_1533190909.
-||alicdn.com/img/ibank/*_1545027917.
 ||alicdn.com/img/ibank/*_1591187313.
 ||alicdn.com/img/ibank/*_1746120392.$domain=~rmdown.com
 ||alicdn.com/img/ibank/*_1776866723.
@@ -2667,7 +2661,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||alicdn.com/img/ibank/*_1995781528.
 ||alicdn.com/img/ibank/*_2021817714.
 ||alicdn.com/img/ibank/*_2114606112.
-||alicdn.com/img/ibank/*_256401016.
 ||alicdn.com/img/ibank/*_330044705.
 ||alicdn.com/img/ibank/*_368737028.
 ||alicdn.com/img/ibank/*_392352300.
@@ -11957,7 +11950,6 @@ $cookie=/^adb\$|adb\.key/,domain=iprima.cz
 ||1gr.cz/*/js/uni/paticka.js$domain=antiyoutuber.cz
 ||1gr.cz/*/js/uni/paticka.js$domain=expres.cz
 ||lidovky.cz^$cookie=kolbda
-||1gr.cz/*/uni/paticka.js$domain=lidovky.cz
 ||1gr.cz/*/js/uni/paticka.js$domain=idnes.cz
 $cookie=adb,domain=expres.cz|televizeseznam.cz|ahaonline.cz|extra.cz|mobilmania.cz|idnes.cz|aktuality.sk|aktualne.cz|blesk.cz|centrum.cz|cnews.cz|e15.cz|karaoketexty.cz|novinky.cz|sport.cz|super.cz|tiscali.cz|zive.cz|antiyoutuber.cz|fights.cz|metro.cz
 $cookie=/adb\.key/,domain=expres.cz|televizeseznam.cz|ahaonline.cz|extra.cz|mobilmania.cz|idnes.cz|aktuality.sk|aktualne.cz|blesk.cz|centrum.cz|cnews.cz|e15.cz|karaoketexty.cz|novinky.cz|sport.cz|super.cz|tiscali.cz|zive.cz|antiyoutuber.cz|fights.cz|metro.cz
@@ -20793,7 +20785,7 @@ $csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: www.googletagma
 @@||shutterstock.com^$stealth=useragent
 @@/mp4/*$media,stealth=referrer,domain=player.videasy.*|vidking.net
 @@/r2/cdn2/*$xmlhttprequest,third-party,stealth=referrer,domain=vidfast.vc|vidup.to
-@@/vd/*/seg-*.jpg|$third-party,xmlhttprequest,stealth=referrer,domain=player.videasy.*|vidking.net|vidfast.vc
+@@/seg-*.$third-party,xmlhttprequest,stealth=referrer,domain=player.videasy.*|vidking.net|vidfast.vc
 @@||api.*/seed?mediaId=$third-party,xmlhttprequest,stealth=referrer
 @@/\/[a-z0-9]{8}\/[a-zA-Z0-9_-]{200,900}/$xmlhttprequest,third-party,match-case,stealth=referrer,domain=player.videasy.*|vidup.to|vidfast.vc|vidking.net|111movies.net|vidcore.io|vidcore.*
 @@/sources-with-title?title=*&mediaType=$third-party,xmlhttprequest,stealth=referrer

@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Conservative
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202609300640
-! Last modified: 2026-09-30T06:40:30Z
+! Version: 202609301339
+! Last modified: 2026-09-30T13:39:31Z
 ! Layers: network,content,scriptlet
 ! Mode: conservative
-! Rules: 109219
+! Rules: 109237
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -22989,6 +22989,8 @@ $image,third-party,denyallow=googleapis.com,domain=vipbox1.org
 $third-party,script,domain=klto9.com|f2movies.to|hacamchicac.com|yourporngod.com|zinchanmanga.com|yaoimangaonline.com|tututweak.app|mangaraw.ac|eromanga-show.com|hentai-one.com|hentaipaw.com|nukibooks.com|paipancon.com|jgvdata.com|youtubevanced.com|pandamtl.com|mangaplus.shueisha.tv|shueisharaw.tv
 ||linksconsole.com/ad-system/
 ||misc-api.feathermc.com/*/ads/ad_units?
+||eboblack.com/ad
+||cloudfrant.net^$domain=eboblack.com
 *$script,third-party,domain=scnlog.me
 ||bestblackhatforum.com/images/ads/$image
 ||popcornmovies.ac/api/ads
@@ -50192,6 +50194,17 @@ animecorner.me,zarabiajprzez24.pl,watchhentai.xxx,app-how-to-use-it.com,linuxcap
 pawastreams.*,nflbite.to,footybite.to,sportschamp.fun,afly.pro,topsporter.net,soccerstreams.football,mysocceraustralia.com,rayinfosports.com,hesgoals.top,sequencecard.xyz,totalsportek.soccer,metaporky.site,nbabite.to,cyfostreams.com,gamerarcades.com,bestreamsports.org,footy.to,mcrypto.club,greaterkashmir.com###id-custom_banner
 pawastreams.*,groundedtechs.com,rayinfosports.com,sequencecard.xyz,matchtime.co,sportspellz.com,bestreamsports.org,silverspoon.site###dismiss-btn
 vi-control.net,nullforums.net,landyzone.co.uk,nullcave.pro,woxmax.com,waskucity.com,babia.to,technofino.in,reef2reef.com,minebbs.com,craxpro.io,affiliatefix.com,myiptvforum.com,hifivision.com,worldofiptv.com,altenen.is,beermoneyforum.com,germancarforum.com,cracking.org##.samBannerUnit
+routinehub.co##.rh-ad-slot
+dotabuff.com##.footer-nav-right > nav > ul > li > a:is([href="https://www.deadfrag.com"], [href="https://www.speedrun.com"], .color-brand-statlocker)
+eboblack.com##.pp-pause-banner
+eboblack.com##.un-ad-text-link
+eboblack.com##aside.l-gal-panel-native
+eboblack.com##.l-gal-banner
+eboblack.com##nav[aria-label="Promoted links"]
+eboblack.com##.u-ad-footer-layout
+komonews.com##div[class*="_taboolaDeeperDive"]
+komonews.com##div[class^="TaboolaVideoReel_"]
+komonews.com##div[data-slot-label^="DisplayAd"]
 cybernews.com##.home-page-partner-banner
 pockettactics.com##.nav-secondary > span.new_menu_item > a[rel^="sponsored"]
 pockettactics.com##.entry-content > div#nn_player
@@ -51499,10 +51512,13 @@ sourceforge.net##body > div[id^="mdb"]
 sourceforge.net##body > div[id^="mongo"]
 sourceforge.net##body > div[id^="at-bottom-"]
 sourceforge.net##body [id][data-banner-name]:not(#style_important)
+sourceforge.net##[id][data-mobile-slot]:not(#style_important):has(> span.close + .linkrow)
 sourceforge.net##body > [id][data-mobile-name]:not(#style_important):has(> span.close + .linkrow)
 sourceforge.net##body > [id][data-region-m]:not(#style_important):has(> span.close + .linkrow)
 sourceforge.net##[id][data-nosnippet]:not(#style_important):has(> .row > .input-card > .vibe-glow)
 sourceforge.net##[id][data-nosnippet]:not(#style_important):has(> button:is([class*="-close"], [id*="close"]) + div[class*="sticky"])
+sourceforge.net##[id][data-nosnippet]:not(#style_important):has(> .row > [class*="-row"] > [class*="-inner"] > button[data-url])
+sourceforge.net##[id][data-nosnippet]:not(#style_important):has(> div[class*="sticky"] + button:is([class*="-close"], [id*="close"], [class*="dismiss"]))
 sourceforge.net##[id*="-coding-bar"]
 sourceforge.net##body [id^="vibe-main-row"]:not(#style_important)
 sourceforge.net##.l-side-column .m-sidebar-widget:has(> .body > .standard > div[data-dest*="bannerid="])
@@ -52630,7 +52646,7 @@ genius.com###lyrics-root > div[data-exclude-from-selection="true"]:has(div[id^="
 genius.com###application > div[class^="sc-"]:has(div[id^="div-gpt-ad-"])
 xxbrits.com##.aside-spot
 xxbrits.com##.group-links > button.click-fun ~ button
-fpo.xxx,nikporn.com,fpoxxx1.com,xxbrits.com##.network
+femdomvc.com,fpo.xxx,nikporn.com,fpoxxx1.com,xxbrits.com##.network
 xxbrits.com##.top-header
 eporner.com###adstripe
 porn00.*##.member2link
@@ -61122,7 +61138,7 @@ xdlab.ru##.row > .five.columns > div[align="center"] > p[style="text-align:cente
 antdm.forumactif.com###main-content > div[class][style="overflow:visible"] > .inner > div[style="position:relative;height:90px; min-width: 728px px;"]
 empressleak.biz###wnb-bar
 empressleak.biz###wpfront-notification-bar
-hentai-moon.com,faptor.com,fapnow.xxx,fapnado.xxx,severeporn.com,fpoxxx1.com,pornditt.com,hentaigem.com,pornify.tv,dafreeporn.com,pornolovers.net,hdporner.tv,transvids.tv,vipporns.com,thetranny.com,shemalesin.com,stileproject.com,pornbimbo.com,faptube.com,amateur8.com,maturetubehere.com,lesbian8.com,sortporn.com,bigtitslust.com,18pussy.porn,pornrabbit.com,love4porn.com,fpo.xxx,keekass.com##.footer-margin
+femdomvc.com,hentai-moon.com,faptor.com,fapnow.xxx,fapnado.xxx,severeporn.com,fpoxxx1.com,pornditt.com,hentaigem.com,pornify.tv,dafreeporn.com,pornolovers.net,hdporner.tv,transvids.tv,vipporns.com,thetranny.com,shemalesin.com,stileproject.com,pornbimbo.com,faptube.com,amateur8.com,maturetubehere.com,lesbian8.com,sortporn.com,bigtitslust.com,18pussy.porn,pornrabbit.com,love4porn.com,fpo.xxx,keekass.com##.footer-margin
 bellesa.co##img[alt="Deeper Pause Ad"]
 bellesa.co##div[class*="Notifications__Wrapper-"]
 bellesa.co##div[data-label="Sponsor"]
@@ -81993,6 +82009,7 @@ wallpapers.com#@#.ad-enabled
 nolotiro.org#@#.ad-hero
 ogiharadevelopment.net#@#.ad-hint
 wallpapers.com#@#.ad-holder
+metronomeonline.com#@#.ad-homepage
 transparencyreport.google.com#@#.ad-icon
 flat-ads.com,lastpass.com#@#.ad-img
 docomo.ne.jp,hicbc.com#@#.ad-label
@@ -89820,6 +89837,7 @@ douglas.*##.cms-container:has([data-testid="CriteoAdFormatCategoryView"])
 douglas.*##.criteo-product-carousel
 kaufland.*##.exp-vision__ext-wrapper--spad
 yts.*##.home-content > div:has(.blue ~ a img[src*="/images/download"])
+makemytrip.*##.listingRowOuter:has(.pc__sponsored)
 streamsports99.*##.min-h-\[70px\]
 yandex.*##.mini-suggest__item[data-suggest-counter*="/yandex.ru/clck/safeclick/"]
 flashscore.*##.outrightWidget

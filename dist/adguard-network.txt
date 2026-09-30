@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Network
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202609300640
-! Last modified: 2026-09-30T06:40:30Z
+! Version: 202609301339
+! Last modified: 2026-09-30T13:39:31Z
 ! Layers: network
 ! Mode: standard
-! Rules: 47876
+! Rules: 47881
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -14489,6 +14489,8 @@ $image,third-party,denyallow=googleapis.com,domain=vipbox1.org
 $third-party,script,domain=klto9.com|f2movies.to|hacamchicac.com|yourporngod.com|zinchanmanga.com|yaoimangaonline.com|tututweak.app|mangaraw.ac|eromanga-show.com|hentai-one.com|hentaipaw.com|nukibooks.com|paipancon.com|jgvdata.com|youtubevanced.com|pandamtl.com|mangaplus.shueisha.tv|shueisharaw.tv
 ||linksconsole.com/ad-system/
 ||misc-api.feathermc.com/*/ads/ad_units?
+||eboblack.com/ad
+||cloudfrant.net^$domain=eboblack.com
 *$script,third-party,domain=scnlog.me
 ||bestblackhatforum.com/images/ads/$image
 ||popcornmovies.ac/api/ads
@@ -20559,6 +20561,9 @@ $csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: www.googletagma
 @@||beinconnect.com.tr^$stealth
 @@||account.adobe.com^$document,domain=services.adobe.com,stealth=useragent
 @@||adguard.com^$stealth
+@@||upshrink.com^$stealth=referrer
+@@||linkx.in/process$stealth=referrer
+@@||linkx.in/redirect$stealth=referrer
 @@||files.an1.net^$stealth=referrer,domain=an1.com
 @@||mux.com/*.m3u8$stealth=referrer
 @@||mux.com/*.ts?$stealth=referrer

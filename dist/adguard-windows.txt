@@ -1,8 +1,8 @@
 ! Title: AdGuard Rules CN - Windows
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202609292045
-! Last modified: 2026-09-29T20:45:42Z
+! Version: 202609300024
+! Last modified: 2026-09-30T00:24:52Z
 ! Layers: network,content,scriptlet
 ! Mode: standard
 ! Rules: 117293
@@ -93563,6 +93563,7 @@ bigthink.com##.wrapper-connatixPlayspace
 global.espreso.tv##.ym-video--wrapper
 play.usatoday.com##.zdFVI1__zdFVI1
 mashable.com##.ziff-video-container
+androidcentral.com,gamesradar.com,guitarworld.com,livescience.com,pcgamer.com,sltrib.com,space.com,techradar.com,tomsguide.com,tomshardware.com,windowscentral.com##[data-component-name="JwPlayer:Carousel"]
 canucksarmy.com##[data-injection="stn-video"]
 totalprosports.com##[data-stn-player="n2psbctm"]
 wired.com##[data-testid="cne-interlude-container"]
@@ -114642,7 +114643,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||mylocal.co.uk/api/trpc/analytics.
 ||myspace.com/beacon/
 ||naiz.eus/visits
-||namethatporn.com/assets/imgs/1x1.gif
 ||narkive.com/ajax/TelemV2?
 ||nature.com/platform/track/
 ||naukrigulf.com/ni/nibms/bms_display.php

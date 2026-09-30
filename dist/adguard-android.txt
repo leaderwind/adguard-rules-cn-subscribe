@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Android
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202609300024
-! Last modified: 2026-09-30T00:24:52Z
+! Version: 202609300640
+! Last modified: 2026-09-30T06:40:30Z
 ! Layers: network,content,scriptlet
 ! Mode: standard
-! Rules: 18122
+! Rules: 18123
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -10179,6 +10179,7 @@ newduba.cn###jq_youxi
 ##a[href*=".xacg.info/"]
 ##button[onclick*=".xacg.info/"]
 xc6b.com##.cHeadImg
+sohu.com##a[data-url*=".mediav.com"]
 hao123.com###float-ad-left
 ping0.cc##.xeeles
 ping0.cc###adjright

@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Network
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202610020214
-! Last modified: 2026-10-02T02:14:39Z
+! Version: 202610020941
+! Last modified: 2026-10-02T09:41:41Z
 ! Layers: network
 ! Mode: standard
-! Rules: 47882
+! Rules: 47885
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -8313,6 +8313,7 @@ $cookie=__adblocker,domain=slate.com|thehindubusinessline.com
 ||claimfey.com/cryptonews/wp-content/uploads/bqanwcfp.js
 @@||static.trafficjunky.com/ab/ads_test.js$domain=bztube.com|hotovs.com|insuredhome.org|nudegista.com|pornluck.com|vidd.se|redtube.*|youpornru.com|tube8.com|tube8.es|tube8.fr|tube8.net|pornhub.com|pornhub.org|pornhub.net
 @@://www.exoclick.com/ads.js|
+@@||coinpayz.xyz/*.js?probe=$script,~third-party
 @@||a.pemsrv.com/popunder1000.js$domain=uncrn.org
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=sporteurope.tv
 @@||cdn.adsbetnet.com/libs/$script,domain=naijavault.com
@@ -14483,14 +14484,16 @@ $image,third-party,denyallow=googleapis.com,domain=vipbox1.org
 $third-party,script,domain=klto9.com|f2movies.to|hacamchicac.com|yourporngod.com|zinchanmanga.com|yaoimangaonline.com|tututweak.app|mangaraw.ac|eromanga-show.com|hentai-one.com|hentaipaw.com|nukibooks.com|paipancon.com|jgvdata.com|youtubevanced.com|pandamtl.com|mangaplus.shueisha.tv|shueisharaw.tv
 ||linksconsole.com/ad-system/
 ||misc-api.feathermc.com/*/ads/ad_units?
+||callistanise.com/assets/jquery/ev-static.js
 ||eboblack.com/ad
-||cloudfrant.net^$domain=eboblack.com
 *$script,third-party,domain=scnlog.me
 ||bestblackhatforum.com/images/ads/$image
 ||popcornmovies.ac/api/ads
 ||qqqcdn.cloud/images/sprintcdn.png
 ||gaymes.net/wp-content/themes/gameking/js/porngaymes.js
 ||gaymes.net/wp-content/themes/gameking/js/gaymes.js
+||wallpapers.com/api/ads/
+||wallpapers.com/static/*/wpc_ads.
 ||futureplc.engineering/v1/get-user-campaigns
 ||red.lu-games.com/landing-$all
 ||cdn.18jav.tv/assets/ad/

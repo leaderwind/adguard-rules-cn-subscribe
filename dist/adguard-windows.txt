@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Windows
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202610030111
-! Last modified: 2026-10-03T01:11:19Z
+! Version: 202610030631
+! Last modified: 2026-10-03T06:31:59Z
 ! Layers: network,content,scriptlet
 ! Mode: standard
-! Rules: 117360
+! Rules: 117362
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -94840,6 +94840,7 @@ anysex.com##.headA
 xgroovy.com##.headP
 myhentaigallery.com##.header-image
 megatube.xxx##.header-panel-1
+watchhentai.net##.header-sponsors-inner
 cutegurlz.com##.header-widget
 hotmovs.com,hotmovs.tube##.header__controls--link
 videosection.com##.header__nav-item--adv-link
@@ -104445,7 +104446,6 @@ w3schools.com###tryitLeaderboard ~ #container {top:48px;}
 w3schools.com##.trytopnav {top:0;}
 wunderground.com##.content-wrap #inner-wrap {height:100vh;}
 yourdictionary.com##.header {top:0;}
-watchhentai.net##.header-sponsors-inner
 4wank.com#?#.video-holder > center > :has-text(/^Advertisement$/)
 redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com##:-abp-properties(*data:image*)
 redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com##:-abp-properties(base64)
@@ -108837,6 +108837,7 @@ omni.soundestlink.com$image
 ||hadronid.net^$third-party
 ||halldata.com^$third-party
 ||haloscan.com^$third-party
+||happierleads.com^$third-party
 ||havasedge.com^$third-party
 ||haveamint.com^$third-party
 ||heapanalytics.com^$third-party
@@ -109449,6 +109450,7 @@ omni.soundestlink.com$image
 ||pa-oa.com^$third-party
 ||pabidding.io^$third-party
 ||pagefair.com^$third-party
+||pagemetry.com^$third-party
 ||pages05.net^$third-party
 ||pagesense.io^$third-party
 ||pageview.click^$third-party

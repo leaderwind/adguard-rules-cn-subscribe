@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Content
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202610022120
-! Last modified: 2026-10-02T21:20:09Z
+! Version: 202610030111
+! Last modified: 2026-10-03T01:11:19Z
 ! Layers: content
 ! Mode: standard
-! Rules: 63974
+! Rules: 63975
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -63957,6 +63957,7 @@ w3schools.com###tryitLeaderboard ~ #container {top:48px;}
 w3schools.com##.trytopnav {top:0;}
 wunderground.com##.content-wrap #inner-wrap {height:100vh;}
 yourdictionary.com##.header {top:0;}
+watchhentai.net##.header-sponsors-inner
 4wank.com#?#.video-holder > center > :has-text(/^Advertisement$/)
 redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com##:-abp-properties(*data:image*)
 redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com##:-abp-properties(base64)

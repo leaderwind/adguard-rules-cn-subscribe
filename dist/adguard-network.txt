@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Network
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202610030631
-! Last modified: 2026-10-03T06:31:59Z
+! Version: 202610031230
+! Last modified: 2026-10-03T12:30:12Z
 ! Layers: network
 ! Mode: standard
-! Rules: 47889
+! Rules: 47890
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -8402,8 +8402,9 @@ $xmlhttprequest,redirect-rule=nooptext,domain=oko.sha|aii.sh|pahe.plus|intercele
 ||mcalts.fr/js/loader.js
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=mamadu.pl
 @@||kickbd.org/ads/ad.js$domain=kickbd.org
-@@||googleads.g.doubleclick.net/pagead/adview$domain=cinefreak.nl|cinecloud.site
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=cinefreak.nl|cinecloud.site
+@@*$image,third-party,domain=cinecloud.site
+@@||googleads.g.doubleclick.net/pagead/adview$domain=cinecloud.site
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=cinecloud.site
 @@||ssl.p.jwpcdn.com/player/v/8.36.2/googima.js$domain=playmate.to
 @@||flyfile.app^$generichide
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=flyfile.app

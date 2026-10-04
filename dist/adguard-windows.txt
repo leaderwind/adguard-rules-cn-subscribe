@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Windows
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202610032348
-! Last modified: 2026-10-03T23:48:32Z
+! Version: 202610040547
+! Last modified: 2026-10-04T05:47:49Z
 ! Layers: network,content,scriptlet
 ! Mode: standard
-! Rules: 117366
+! Rules: 117372
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -16423,6 +16423,7 @@ sudokugame.org#%#//scriptlet('trusted-replace-node-text', 'script', 'adjump', 'f
 @@/adguard.$domain=llq.dml.ink
 @@||criteo.com/delivery/ajs.php?zoneid=$script,domain=gaus.ee
 @@||jd.com/adclick?$popup,~third-party
+||rqr.cc/mm.
 ||wnacg.com/game/$image,rewrite=abp-resource:1x1-transparent-gif,domain=wnacg.com
 cngold.org#?#.w310:-abp-has(>.swiper-company)
 hanime1.me#?#div[style*="text-align:"]:-abp-has(>div[style*="color: white"])
@@ -88377,6 +88378,7 @@ coingape.com##.desktopds
 news18.com##.desktopflex
 ancient-origins.net##.desktops
 picnob.com##.desney
+digitalescapetools.com##.det-promo-float-host
 audio-database.com##.detail_ad_01
 audio-database.com##.detail_ad_02
 audio-database.com##.detail_ad_03
@@ -91904,6 +91906,7 @@ download.megaup.net##[style*="display: inline-flex; flex-wrap: wrap; justify-con
 kingmodapk.net,online-calculator.org##[style*="height:300px"]
 nintendolife.com,purexbox.com,pushsquare.com,timeextension.com,videogameschronicle.com##[style*="margin-left: auto; margin-right: auto;"]
 helpnetsecurity.com##[style*="max-height: 250"]
+whec.com##[style*="min-height: 250px;"]
 ford-trucks.com##[style*="min-height: 275px"]
 untapped.gg##[style*="min-height: 90px; box-sizing: content-box;"]
 nintendolife.com,purexbox.com,pushsquare.com,timeextension.com,videogameschronicle.com##[style*="min-height:250px;"]
@@ -104141,11 +104144,14 @@ yatu.tv,yhdm7.com,yhdm95.com,xdm530.com##+js(aopw,document.oncontextmenu)
 @@||discord.com^$generichide
 ##.ad-unit
 ##[class^="div-gpt-ad"]
+wgme.com###deeper-dive-container-0
 cyberchef.org###workspace-wrapper > [id][style*="height"] {height: 100% !important}
+wgme.com##.StoryPage_taboolaDeeperDive__WKVX7
 complex.com##.\[\@media\(min-width\:520px\)\]\:px-\[20px\]
 justjared.com##.banner-spacer-top {max-height: 50px !important;}
 temp-mail.io##.fixed.bottom-0.\[\@media\(max-width\:1350px\)\]\:hidden
 complex.com##.lg\:top-\[var\(--sticky-top\)\]
+wgme.com##[data-testid="viewport-buffered-slot"]
 justjared.com##[role="banner"] {top:0 !important}
 discord.com#?#.wrapper__0d616:has-text(Get Reward)
 gamedev.net#?#.dark\:border-gray-700:has-text(Advertisement)

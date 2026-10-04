@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Content
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202610041218
-! Last modified: 2026-10-04T12:18:14Z
+! Version: 202610041735
+! Last modified: 2026-10-04T17:35:27Z
 ! Layers: content
 ! Mode: standard
-! Rules: 63975
+! Rules: 63976
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -12227,6 +12227,7 @@ imovies.cc##iframe[src*=".myvideo.ge/delivery/"]
 livesport.ge###banner
 livesport.ge###footerbanner
 autopapa.ge##.top-rek
+gazzetta.gr##section.mb-0-mobile > div.mb-48 > div.is-hidden-touch:has(> a[href*="?utm_source"])
 techmaniacs.gr##.border-slate-200:has(> div.items-center > ins.adsbygoogle)
 enikos.gr##.flex-col.h-full:has(> h4.font-bold)
 enikos.gr##.sticky:has(> p.font-medium)

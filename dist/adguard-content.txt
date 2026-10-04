@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Content
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202610040547
-! Last modified: 2026-10-04T05:47:49Z
+! Version: 202610041218
+! Last modified: 2026-10-04T12:18:14Z
 ! Layers: content
 ! Mode: standard
-! Rules: 63980
+! Rules: 63975
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -2781,6 +2781,9 @@ newduba.cn###jq_youxi
 ##a[href*=".xacg.info/"]
 ##button[onclick*=".xacg.info/"]
 xc6b.com##.cHeadImg
+3dmgame.com##.Gmaeinfobtn_tab > .patchshow
+3dmgame.com##a[href*=".3dmgame.hk"]
+3dmgame.com##div[style^="width:274px;height:368px"]
 55188.com##.page-aside
 55188.com###bbslist
 sohu.com##a[data-url*=".mediav.com"]
@@ -4349,7 +4352,6 @@ ltn.com.tw##.C3.boxTitle
 zhihu.com##.Card.Banner
 3464.com##.CommonBody > .CommonListArea:nth-child(3)
 3464.com##.CommonBody > .CommonListArea:nth-child(3) + .CommonListArea
-3dmgame.com##.Content_L > p
 imeee.cn##.DA336
 91lai.com##.D_guanggaotu11
 91lai.com##.D_guanggaotu2
@@ -4361,10 +4363,6 @@ jinhua.com.cn##.FocusAD
 angelweb.cn##.GG960x90
 aiyuke.com##.GGad
 yahoo.com##.GeminiPortalStreamAd_handleViewport
-3dmgame.com##.Gmaeinfobtn + span
-3dmgame.com##.Gmaeinfobtn_tab > [class]:not(.tab)
-3dmgame.com##.Gmaeinfobtn_tab > [class][onclick]
-3dmgame.com##.Gmaeinfobtn_tab > span
 zhihu.com##.GoodsRecommendCard
 downg.com##.Gs_d[href$=".exe"]
 52fzwg.com,79tao.com,hqol.cn,icabbs.com,k7d.com,kxdao.net,sunwy.org,twunbbs.com,wnflb.com,wnflb2023.com,wnflb66.com,xkeba.com,zn524.cc##.GzList
@@ -5357,7 +5355,6 @@ dayanzai.me##.down_show_intro_first_box
 greenxiazai.com##.downbtn > a:last-child
 portablesoft.org##.downcenter
 51xiazai.cn##.downgs
-3dmgame.com##.downl_list + script + div
 duote.com##.download-box:first-child
 downkr.com##.download-btn > .text-right
 downg.com##.download-list:first-child
@@ -7269,7 +7266,6 @@ wdzzz.com##.zz_nr
 159i.com#?#div:has(> img+a)
 1point3acres.com#?#div[id^="portal_block"]:has(a[href*="fiverr.com"])
 2345.com#?#.pic:has(a[href^="http://g.wan."])
-3dmgame.com#?#.downl_list:has(style)
 3g.baidu.com,m.baidu.com,m5.baidu.com,www.baidu.com#?#div:has(>.openBox-container)
 3g.baidu.com,m.baidu.com,m5.baidu.com,www.baidu.com#?#div:has(>div[id$="_1"]+div[id$="_5"])
 423down.com#?#.post-related > ul > li:has(> a[href^="http"]:not([href*="423down."]))
@@ -8758,7 +8754,6 @@ douyin.com#?##videoSideBar:-abp-has(div:-abp-contains(/商品|商家|退款|店�
 159i.com#?#div:-abp-has(> img+a)
 1point3acres.com#?#div[id^="portal_block"]:-abp-has(a[href*="fiverr.com"])
 2345.com#?#.pic:-abp-has(a[href^="http://g.wan."])
-3dmgame.com#?#.downl_list:-abp-has(style)
 3g.baidu.com,m.baidu.com,m5.baidu.com,www.baidu.com#?#div:-abp-has(>.openBox-container)
 3g.baidu.com,m.baidu.com,m5.baidu.com,www.baidu.com#?#div:-abp-has(>div[id$="_1"]+div[id$="_5"])
 423down.com#?#.post-related > ul > li:-abp-has(> a[href^="http"]:not([href*="423down."]))
@@ -51706,6 +51701,7 @@ dailycaller.com###dailycaller_incontent_2
 dailycaller.com###dailycaller_incontent_3
 dailycaller.com###dailycaller_incontent_4
 laineygossip.com###date-banner
+wgme.com###deeper-dive-container-0
 helpwithwindows.com###desc
 eatwell101.com###desk1
 fastfoodnutrition.org###desk_leader_ad
@@ -52848,6 +52844,7 @@ thetimes.com##.Sticky-AdContainer
 coincarp.com,coincheckup.com,coincodex.com##.StickyBottom
 apartmenttherapy.com##.StickyFooter
 slideshare.net##.StickyVerticalInterstitialAd_root__f7Qki
+wgme.com##.StoryPage_taboolaDeeperDive__WKVX7
 slant.co##.SummaryPage-LustreEmbed
 westword.com##.SurveyLinkSlideModal
 smh.com.au##.TPT1c
@@ -57627,6 +57624,7 @@ freepik.com##[data-testid="sponsor-banner"]
 manomano.co.uk,manomano.de,manomano.es,manomano.fr,manomano.it##[data-testid="spr-brd-banner"]
 bonappetit.com##[data-testid="sticky-hero-ad"]
 therealdeal.com##[data-testid="test-div-id-for-pushdown"]
+wgme.com##[data-testid="viewport-buffered-slot"]
 duckduckgo.com##[data-testid=serp-popover-promo]
 costco.com##[data-testid^="CriteoAdSet_undefined"]
 nexusmods.com##[data-testid^="ad-"]
@@ -63651,14 +63649,11 @@ dandanzan.*,nnyy.in,nunuyy5.com##video:style(max-height:100%!important)
 yatu.tv##.dplayer-web-fullscreen-fix #tburl,#loadtop,[id^=myas],#myds1,#daohang
 ##.ad-unit
 ##[class^="div-gpt-ad"]
-wgme.com###deeper-dive-container-0
 cyberchef.org###workspace-wrapper > [id][style*="height"] {height: 100% !important}
-wgme.com##.StoryPage_taboolaDeeperDive__WKVX7
 complex.com##.\[\@media\(min-width\:520px\)\]\:px-\[20px\]
 justjared.com##.banner-spacer-top {max-height: 50px !important;}
 temp-mail.io##.fixed.bottom-0.\[\@media\(max-width\:1350px\)\]\:hidden
 complex.com##.lg\:top-\[var\(--sticky-top\)\]
-wgme.com##[data-testid="viewport-buffered-slot"]
 justjared.com##[role="banner"] {top:0 !important}
 discord.com#?#.wrapper__0d616:has-text(Get Reward)
 gamedev.net#?#.dark\:border-gray-700:has-text(Advertisement)

@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Android
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202610050659
-! Last modified: 2026-10-05T06:59:56Z
+! Version: 202610051559
+! Last modified: 2026-10-05T15:59:24Z
 ! Layers: network,content,scriptlet
 ! Mode: standard
-! Rules: 18101
+! Rules: 18103
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -944,7 +944,6 @@ $script,third-party,denyallow=myqcloud.com|bytecdntp.com|pddpic.com|googletagman
 ||googletagservices.com/tag/js/gpt.js$script,redirect=googletagservices-gpt,domain=gamer.com.tw,important
 @@||wkstatic.bdimg.com/static/wkcore/widget/commerce/fengchao/*$domain=wenku.baidu.com
 -*-*-*-*.alpha^$script,third-party
-/7755com-*00x*.gif
 /static/tb/kyqp.gif
 ://ads-img2026.
 :866/o.js$script,third-party
@@ -5960,7 +5959,6 @@ meijutt.*/js/pcjs/
 ||aizhan.com/images/img/apicn.
 ||xfvod.pro/images/ad/
 ||hupu.com^*/interfaceAd/
-||dyxs39.com/statics/js/jquery.
 ||yximgs.com/bs2/adcarsku/*.gif
 ||taozi.icu/asfile/m/js/guding.
 ||gtimg.cn/music/photo_new/T053XD001001BZyX50UcRRk.
@@ -7594,6 +7592,11 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###content_left > .r
 ##body[onresize="stopDebugger()"][onbeforecopy="return!1"] > div#root div[id^="notice_modal"]
 ##body[onresize="stopDebugger()"][onbeforecopy="return!1"] > div#root div:has(> img[src$=".gif"])
 ##body[onresize="stopDebugger()"][onbeforecopy="return!1"] > div#root div.m0auto > div > div.grid + div > div:empty
+global.hk01.com#$#div[class^="placeholder-ad-"] { min-height: 0 !important; }
+global.hk01.com##div[class*="_.js-ad-slot]"]
+global.hk01.com##.cmp-article-detail > .flex:has(> .lazyload-wrapper > div:is(.js-ad-slot, [data-id="lazyload-placeholder"]))
+global.hk01.com##.hidden[class*="col-span-4"] > div[class^="min-h-250px w-full"]:has(> .flex > .lazyload-wrapper > .js-ad-slot)
+global.hk01.com##.fixed[aria-labelledby="hot-news-dialog-title"] .items-stretch > .shrink-0:has(> .sticky > .flex > .lazyload-wrapper > .js-ad-slot)
 vikacg.com##.arco-carousel
 vikacg.com##.contents:has(> a[class="w-full"][href^="http"][target="_blank"] > img[src*="/assets/moonlight/"])
 lupanda.tw##div[style="min-width: 300px; min-height:400px;"]
@@ -8127,8 +8130,6 @@ hk01.com##div[class^="Box-v"] > .enterviewport__wrapper:has(> div[data-id="lazyl
 hk01.com##.article-grid__desktop-rhs-section > .items-center:has(> div[class^="sc-"] > div[data-id="lazyload-placeholder"])
 ipcelou.com##.MODBanana
 nodejs.cn###pagead
-3dmgame.com##.addownbox_gaosu
-3dmgame.com#?#.Gmaeinfobtn_tab > a.patchshow[style]:has(> span:contains(/^广告$/))
 gvm.com.tw##.promotion_ad
 gvm.com.tw##.promotion > .sp-txt
 huya.com##.room-sidebar #public-screen-ab
@@ -10165,6 +10166,7 @@ newduba.cn###jq_youxi
 ##a[href*=".xacg.info/"]
 ##button[onclick*=".xacg.info/"]
 xc6b.com##.cHeadImg
+3dmgame.com##.addownbox_gaosu
 3dmgame.com##.Gmaeinfobtn_tab > .patchshow
 3dmgame.com##a[href*=".3dmgame.hk"]
 3dmgame.com##div[style^="width:274px;height:368px"]

@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Conservative
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202610042121
-! Last modified: 2026-10-04T21:21:15Z
+! Version: 202610050053
+! Last modified: 2026-10-05T00:53:49Z
 ! Layers: network,content,scriptlet
 ! Mode: conservative
-! Rules: 109277
+! Rules: 109281
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -16201,6 +16201,8 @@ jm18c-oec.club,18comic.org,18comic.vip,18comic.ink#?#:-abp-has(>ins+style)
 jm18c-oec.club,18comic.org,18comic.vip,18comic.ink#?#:-abp-has(>script+ins)
 jm18c-oec.club,18comic.org,18comic.vip,18comic.ink#?#:not(body):-abp-has(>script[src*=".realsrv.com"])
 jm18c-oec.club,18comic.org,18comic.vip,18comic.ink#?#div[data-group]:-abp-has(>.group-notice)
+##body > #__nuxt:first-child ~ div[class] > div > div > button[aria-label] + div[class]
+##body > #__nuxt:first-child > div > .container > div[class^="pg-"] > div[style*="important"]
 58.com#?#.ac_item:-abp-has(.jingpin)
 58.com#?#.business_main:-abp-has(> .business_desc > .left > .ding_icon)
 58.com#?#.zzinfo:-abp-has(.zhiding_icon)
@@ -104252,6 +104254,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ippen.space/idat
 ||ipstatp.com/growth/fe_sdk/reportsdk/$third-party
 ||ipstatp.com/static_magic/pgc/tech/collect/$third-party
+||ipv4.art/claim
+||ipv4.games/claim
 ||iraiser.eu/analytics.js
 ||isacglobal.com/sa.js
 ||isitelab.io/ite_sitecomV1ANA.min.js

@@ -1,8 +1,8 @@
 ! Title: AdGuard Rules CN - Aggressive
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202610052236
-! Last modified: 2026-10-05T22:36:38Z
+! Version: 202610060257
+! Last modified: 2026-10-06T02:57:57Z
 ! Layers: network,content,scriptlet
 ! Mode: aggressive
 ! Rules: 117491
@@ -88157,7 +88157,6 @@ patriotnewsfeed.com##.code-block-4
 wltreport.com##.code-block-label
 coinmarketcap.com##.coin-ad-banner
 holyrood.com##.col--ad
-mydramalist.com##.col-lg-4 > .clear
 roseindia.net##.col-md-4
 disqus.com##.col-promoted
 lapa.ninja##.col-sm-1
@@ -89916,6 +89915,7 @@ developer.mozilla.org##.page-layout__banner
 realtytoday.com##.page-middle
 boxing-social.com##.page-takeover
 seeklogo.com##.pageAdsWp
+sportplus.watch##.page__aside-banner
 military.com##.page__top
 rateyourmusic.com##.page_creative_frame
 thefastmode.com##.page_skin_left
@@ -91196,6 +91196,7 @@ variety.com##.vip-banner
 kijiji.ca##.vipAdsList-3883764342
 pokernews.com##.virgutis
 coincheckup.com##.visible-xs > .ng-isolate-scope
+sportplus.watch##.visible[ngskiphydration]:has(> a[target="_blank"])
 visualcapitalist.com##.visua-target
 roosterteeth.com##.vjs-marker
 koreaboo.com##.vm-ads-dynamic
@@ -91842,6 +91843,7 @@ screenshot-media.com##[href^="https://www.tryamazonmusic.com/"]
 protrumpnews.com##[href^="https://www.twc.health/"]
 ultimate-guitar.com##[href^="https://www.ultimate-guitar.com/send?ug_from=redirect"]
 wakingtimes.com##[href^="https://www.wendymyersdetox.com/"]
+bleepingcomputer.com##[href^="https://www.wiz.io/"]
 babylonbee.com##[href^="https://www.yrxtrk.com/aff_c"]
 bleepingcomputer.com##[href^="https://www.ztw.com/"]
 musicbusinessworldwide.com##[href^="https://wynstarks.lnk.to/"]
@@ -91968,9 +91970,7 @@ calendar-uk.co.uk,theartnewspaper.com,utctime.net##[style="min-height:250px;"]
 theroar.com.au##[style="min-height:260px;max-height:260px;overflow:hidden;"]
 ntd.com##[style="min-height:266px"]
 ntd.com##[style="min-height:296px"]
-mydramalist.com##[style="min-height:327px;"]
 cnbctv18.com##[style="min-height:4000px"]
-mydramalist.com##[style="min-height:600px;"]
 jigsawplanet.com##[style="min-height:90px"]
 edgegamers.com##[style="padding-bottom:10px;height:90px;"]
 pahe.ink##[style="padding-top: 0; padding-bottom: 90px;"]
@@ -92330,6 +92330,7 @@ astro.com##div[class^="goad"]
 groovypost.com##div[class^="groov-adsense-"]
 imagetopdf.com,pdfkit.com,pdftoimage.com,topdf.com,webpconverter.com##div[class^="ha"]
 3addedminutes.com,anguscountyworld.co.uk,banburyguardian.co.uk,bedfordtoday.co.uk,biggleswadetoday.co.uk,blackpoolgazette.co.uk,bucksherald.co.uk,burnleyexpress.net,buxtonadvertiser.co.uk,chad.co.uk,daventryexpress.co.uk,derbyshiretimes.co.uk,derbyworld.co.uk,derryjournal.com,dewsburyreporter.co.uk,doncasterfreepress.co.uk,falkirkherald.co.uk,fifetoday.co.uk,glasgowworld.com,halifaxcourier.co.uk,harboroughmail.co.uk,harrogateadvertiser.co.uk,hartlepoolmail.co.uk,hemeltoday.co.uk,hucknalldispatch.co.uk,lancasterguardian.co.uk,leightonbuzzardonline.co.uk,lep.co.uk,lincolnshireworld.com,liverpoolworld.uk,londonworld.com,lutontoday.co.uk,manchesterworld.uk,meltontimes.co.uk,miltonkeynes.co.uk,newcastleworld.com,newryreporter.com,newsletter.co.uk,northamptonchron.co.uk,northantstelegraph.co.uk,northernirelandworld.com,northumberlandgazette.co.uk,nottinghamworld.com,peterboroughtoday.co.uk,portsmouth.co.uk,rotherhamadvertiser.co.uk,scotsman.com,shieldsgazette.com,stornowaygazette.co.uk,sunderlandecho.com,surreyworld.co.uk,thescarboroughnews.co.uk,thesouthernreporter.co.uk,thestar.co.uk,totallysnookered.com,wakefieldexpress.co.uk,warwickshireworld.com,wigantoday.net,worksopguardian.co.uk,yorkshireeveningpost.co.uk,yorkshirepost.co.uk##div[class^="helper__AdContainer"]
+mydramalist.com##div[class^="htlad-film_box_"]
 localjewishnews.com##div[class^="local-feed-banner-ads"]
 bloomberg.com##div[class^="media-ui-BaseAd"]
 bloomberg.com##div[class^="media-ui-FullWidthAd"]
@@ -104270,7 +104271,6 @@ temp-mail.io##.fixed.bottom-0.\[\@media\(max-width\:1350px\)\]\:hidden
 complex.com##.lg\:top-\[var\(--sticky-top\)\]
 justjared.com##[role="banner"] {top:0 !important}
 discord.com#?#.wrapper__0d616:has-text(Get Reward)
-mydramalist.com##div[class^="htlad-film_box_"]
 gamedev.net#?#.dark\:border-gray-700:has-text(Advertisement)
 deliveroo.*#?#a[role="button"]:has(p:has-text(Sponsored))
 deliveroo.*#?#div[class^="HomeFeedScrollTracker-"]:has(span[class^="HomeFeedUILines-"]:has-text(Sponsored))

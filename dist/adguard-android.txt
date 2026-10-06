@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Android
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202610061649
-! Last modified: 2026-10-06T16:49:28Z
+! Version: 202610062138
+! Last modified: 2026-10-06T21:38:26Z
 ! Layers: network,content,scriptlet
 ! Mode: standard
-! Rules: 18103
+! Rules: 18104
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -7592,6 +7592,7 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###content_left > .r
 ##body[onresize="stopDebugger()"][onbeforecopy="return!1"] > div#root div[id^="notice_modal"]
 ##body[onresize="stopDebugger()"][onbeforecopy="return!1"] > div#root div:has(> img[src$=".gif"])
 ##body[onresize="stopDebugger()"][onbeforecopy="return!1"] > div#root div.m0auto > div > div.grid + div > div:empty
+gh-proxy.com##section.z-10 > div.w-full:has(> a[rel*="sponsored"])
 global.hk01.com#$#div[class^="placeholder-ad-"] { min-height: 0 !important; }
 global.hk01.com##div[class*="_.js-ad-slot]"]
 global.hk01.com##.cmp-article-detail > .flex:has(> .lazyload-wrapper > div:is(.js-ad-slot, [data-id="lazyload-placeholder"]))

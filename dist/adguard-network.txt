@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Network
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202610062138
-! Last modified: 2026-10-06T21:38:26Z
+! Version: 202610070132
+! Last modified: 2026-10-07T01:32:11Z
 ! Layers: network
 ! Mode: standard
-! Rules: 47898
+! Rules: 47895
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -10506,7 +10506,6 @@ $script,redirect-rule=noopjs,domain=vidmoly.biz|vidmoly.me|vidmoly.net|vidmoly.t
 @@/prebid.min.js$~third-party,domain=tpead.net|advertape.net|tapepops.com|watchadsontape.com|advertisertape.com|tapeadvertisement.com|adblockplustape.xyz|tapelovesads.org|gettapeads.com|tapeadsenjoyer.com|noblocktape.com|antiadtape.com|tapewithadblock.org|streamadblocker.*|strtape.cloud|adblockeronstape.me|streamadblockplus.com|shavetape.*|adblockstrtape.link|adblockstrtech.link|adblockstreamtape.*|stape.fun|strcloud.link|streamtape.*|streamtape.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=key-hub.eu
 @@||key-hub.eu/js/prebid-ads.js
-||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=noopjs,domain=myviptuto.com
 ||zone.msn.com^$replace=/"preroll\\":true/"preroll\\":false/,document
 ||arkadium.com^$replace=/"adsFree\\":false/"adsFree\\":true/,document
 ||arkadium.com^$replace=/"preroll\\":true/"preroll\\":false/,document
@@ -23104,7 +23103,6 @@ cdn.braun634.com^$third-party
 @@||f1countdown.com^$generichide
 @@||famfonts.com^$generichide
 @@||getpczone.com^$generichide
-@@||myviptuto.com^$generichide
 @@||8tm.net^$generichide
 @@||androidtunado.com.br^$generichide
 @@||gpucheck.com^$generichide
@@ -23999,7 +23997,6 @@ cdn.braun634.com^$third-party
 @@||leakite.com^$generichide
 @@||contextual.media.net/dmedianet.js$domain=leakite.com
 @@||cdn.shortpixel.ai/*.leakite.com/wp-content/plugins/ad-inserter/images/ads.png$domain=leakite.com
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=myviptuto.com
 @@||hqq.tv/js/adv/ads.js
 @@||hqq.tv/js/adv/fuckadblock.js
 @@||musicradar.com^$generichide

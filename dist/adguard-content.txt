@@ -1,8 +1,8 @@
 ! Title: AdGuard Rules CN - Content
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202610071626
-! Last modified: 2026-10-07T16:26:38Z
+! Version: 202610072159
+! Last modified: 2026-10-07T21:59:46Z
 ! Layers: content
 ! Mode: standard
 ! Rules: 63999
@@ -19037,7 +19037,7 @@ dak.gg##div[id^="venatus-"][id*="banner"]
 dak.gg##div[class^="css-"]:has(> div[id^="div-gpt-ad"])
 dak.gg##.css-102lnj8
 uindex.org##nav.site-nav ~ [id][class*=" "]:has(> div[class] > a[href^="https://mybunny.tv/client/"])
-luluvido.com,luluvdo.com##body > div[style="position: fixed; inset: 0px; z-index: 2147483647; background: transparent; cursor: pointer;"]
+luluvdoo.com,luluvido.com,luluvdo.com##body > div[style="position: fixed; inset: 0px; z-index: 2147483647; background: transparent; cursor: pointer;"]
 feedzop.com##div[class*="displayAdWrapper"]
 tvtechnology.com##div[id^="Item"]:has(> a > figure > .sponsored-tag)
 tvtechnology.com#?#div[id^="Item"]:has(> a.category-link:contains(Sponsored))
@@ -55014,6 +55014,7 @@ seattlepi.com##.hnpad-Flex1
 seattlepi.com##.hnpad-Inline
 whatsmyip.com##.holidAds
 rvtrader.com##.home-ad-featured-dealer
+lycos.com##.home-advertiser-tiles
 radiocaroline.co.uk,wishesh.com##.home-banner
 ctbids.com##.home-bottom-ad-container
 manutd.com##.home-content-panel__sponsor
@@ -56467,6 +56468,7 @@ hypestat.com##.sem_banner
 jambase.com##.sense
 find-searcher.com,findresultshere.com,netresultshq.com,netsearchinstant.com,quickresultshq.com,realtimesearchresults.com,resultslandersearch.com,search-nowglobal.com,searchnowexpert.com##.serp-common-top
 find-searcher.com,findresultshere.com,netresultshq.com,netsearchinstant.com,quickresultshq.com,realtimesearchresults.com,resultslandersearch.com,search-nowglobal.com,searchnowexpert.com##.serp-head
+lycos.com##.serp-section-ads
 find-searcher.com,findresultshere.com,netresultshq.com,netsearchinstant.com,quickresultshq.com,realtimesearchresults.com,resultslandersearch.com,search-nowglobal.com,searchnowexpert.com##.serp-side-right
 searchencrypt.com##.serp__top-ads
 minecraftforum.net##.server-forum-after-comment-ad
@@ -63675,9 +63677,7 @@ cyberchef.org###workspace-wrapper > [id][style*="height"] {height: 100% !importa
 complex.com##.\[\@media\(min-width\:520px\)\]\:px-\[20px\]
 justjared.com##.banner-spacer-top {max-height: 50px !important;}
 temp-mail.io##.fixed.bottom-0.\[\@media\(max-width\:1350px\)\]\:hidden
-lycos.com##.home-advertiser-tiles
 complex.com##.lg\:top-\[var\(--sticky-top\)\]
-lycos.com##.serp-section-ads
 justjared.com##[role="banner"] {top:0 !important}
 discord.com#?#.wrapper__0d616:has-text(Get Reward)
 gamedev.net#?#.dark\:border-gray-700:has-text(Advertisement)

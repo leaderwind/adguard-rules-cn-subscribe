@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Conservative
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202610081628
-! Last modified: 2026-10-08T16:28:01Z
+! Version: 202610082204
+! Last modified: 2026-10-08T22:04:59Z
 ! Layers: network,content,scriptlet
 ! Mode: conservative
-! Rules: 109242
+! Rules: 109245
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -20425,6 +20425,8 @@ $third-party,xmlhttprequest,domain=faselhd.cafe|faselhd-watch.shop,badfilter
 /banner/*.gif$domain=ebdpratidin.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=klix.ba
 ||jagledam.com/js/ad-placement.js
+@@||balkantelevizija.net^$generichide
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=balkantelevizija.net
 @@||telegram.hr^$content
 ||adriamediacontent.com/js/pubjelly/main/pubjelly.js
 ||sultanovic.info/?*%$script
@@ -34384,6 +34386,7 @@ _800x80_
 ||adsbreak.com^$popup
 ||adsbtrk.com^$popup
 ||adsco.re^$popup
+||adscoreip.com^$popup
 ||adserverplus.com^$popup
 ||adserving.unibet.com^$popup
 ||adshostnet.com^$popup
@@ -37578,6 +37581,7 @@ _800x80_
 ||stay22.com/api/sponsors/
 ||sterra.web.id/stera1/
 ||sterra.web.id/stera2/
+||sterra.web.id/stera3/
 ||sterra.web.id/stera4/
 ||storage.googleapis.com/admaxvaluemedia/
 ||storage.googleapis.com/adtags/
@@ -96001,7 +96005,6 @@ yatu.tv##.dplayer-web-fullscreen-fix #tburl,#loadtop,[id^=myas],#myds1,#daohang
 ||216.21.13.$popup,domain=~in-addr.arpa
 ||35.227.234.222^$popup
 ||35.232.188.118^$popup
-||sterra.web.id/stera3/
 ||2mdn.net/videoplayback/$rewrite=abp-resource:blank-mp4,domain=laurelberninteriors.com|safeframe.googlesyndication.com
 ||googlevideo.com/videoplayback?$rewrite=abp-resource:blank-mp4,domain=laurelberninteriors.com|safeframe.googlesyndication.com
 ||innovid.com/media/encoded/*.mp4$rewrite=abp-resource:blank-mp4,domain=ktla.com

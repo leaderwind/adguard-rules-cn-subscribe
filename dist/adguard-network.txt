@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Network
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202610081628
-! Last modified: 2026-10-08T16:28:01Z
+! Version: 202610082204
+! Last modified: 2026-10-08T22:04:59Z
 ! Layers: network
 ! Mode: standard
-! Rules: 47863
+! Rules: 47868
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -11772,6 +11772,8 @@ $third-party,xmlhttprequest,domain=faselhd.cafe|faselhd-watch.shop,badfilter
 /banner/*.gif$domain=ebdpratidin.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=klix.ba
 ||jagledam.com/js/ad-placement.js
+@@||balkantelevizija.net^$generichide
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=balkantelevizija.net
 @@||telegram.hr^$content
 ||adriamediacontent.com/js/pubjelly/main/pubjelly.js
 ||sultanovic.info/?*%$script
@@ -20519,6 +20521,8 @@ $csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: www.googletagma
 @@||beinconnect.com.tr^$stealth
 @@||account.adobe.com^$document,domain=services.adobe.com,stealth=useragent
 @@||adguard.com^$stealth
+@@||cookielaw.emea.fcagroup.com/CookieLawProduct/resources/generatehtml$stealth=referrer
+@@||par.nsf.gov^$stealth=dpi
 @@||linksflys.com^$document,stealth=referrer
 @@$third-party,stealth=referrer,method=post,document,domain=aii.sh|srnky.com|clksz.com|lnbz.la
 @@||upshrink.com^$stealth=referrer
@@ -27869,6 +27873,7 @@ _800x80_
 ||adsbreak.com^$popup
 ||adsbtrk.com^$popup
 ||adsco.re^$popup
+||adscoreip.com^$popup
 ||adserverplus.com^$popup
 ||adserving.unibet.com^$popup
 ||adshostnet.com^$popup
@@ -31063,6 +31068,7 @@ _800x80_
 ||stay22.com/api/sponsors/
 ||sterra.web.id/stera1/
 ||sterra.web.id/stera2/
+||sterra.web.id/stera3/
 ||sterra.web.id/stera4/
 ||storage.googleapis.com/admaxvaluemedia/
 ||storage.googleapis.com/adtags/
@@ -34959,7 +34965,6 @@ template/m1938pc/ads/*.js
 ||216.21.13.$popup,domain=~in-addr.arpa
 ||35.227.234.222^$popup
 ||35.232.188.118^$popup
-||sterra.web.id/stera3/
 ||2mdn.net/videoplayback/$rewrite=abp-resource:blank-mp4,domain=laurelberninteriors.com|safeframe.googlesyndication.com
 ||googlevideo.com/videoplayback?$rewrite=abp-resource:blank-mp4,domain=laurelberninteriors.com|safeframe.googlesyndication.com
 ||innovid.com/media/encoded/*.mp4$rewrite=abp-resource:blank-mp4,domain=ktla.com

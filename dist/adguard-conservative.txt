@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Conservative
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202610082204
-! Last modified: 2026-10-08T22:04:59Z
+! Version: 202610090207
+! Last modified: 2026-10-09T02:07:09Z
 ! Layers: network,content,scriptlet
 ! Mode: conservative
-! Rules: 109245
+! Rules: 109250
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -5350,7 +5350,6 @@ meijutt.*/js/pcjs/
 ||tb58.net/plugin.php?id=tb58_
 ||tbcdn.cn/mm/tanxssp-custom/sina_
 ||tcmap.com.cn/js/b_
-||techritual.com/wp-content/uploads/*/HDcource_
 ||techug.com/aatb/
 ||tencent-cloud.com/s9m1/12f70718c866ea3e5f22c68e6a34c54f.
 ||tencent-cloud.com/s9m1/54cb71aff82cfd690619065f2e31c346.
@@ -11439,7 +11438,6 @@ pchome.com.tw###test2
 loldk.com###test_ad + #model
 tumutanzi.com###text-3
 vjmedia.com.hk###text-33
-stoneip.info###text-57
 zh141.com###text1
 firefoxchina.cn###theme-side-banner
 hupu.com###threadLeftAd
@@ -38515,6 +38513,7 @@ $third-party,xmlhttprequest,domain=mega4upload.net
 ||openalternative.co/_proxy/revinel/
 ||openalternative.co/advertise?
 ||openalternative.co^*/ads/
+||openapk.net/include/affiliate-units.js
 ||opencart.com/application/view/image/banner/
 ||openstack.org/api/public/v1/sponsored-projects?
 ||optics.org/banners/
@@ -103938,6 +103937,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||elpais.com/t.gif
 ||emarketeer.com/tracker/
 ||emrld.cc^$script
+||emrld.ltd/collect
 ||endorsal.io/check/
 ||engagelab.com/ma-report/
 ||engageplatform.com/api/trace/d/record?
@@ -104389,6 +104389,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||mkcms.com/stats.js
 ||ml.com/enterprisetagging/
 ||mmcdn.com/events/
+||mn-tz.com/adv_out.js
 ||mochiads.com/clk/
 ||moderate.cleantalk.org/ct-bot-detector-wrapper.js
 ||modules.ooyala.com^*/analytics-
@@ -105762,6 +105763,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||iyzipay.com/buyer-protection/assets/js/analytics.js
 ||izinal.com/log
 ||kolayik.com/gjyo/
+||sdk.mdznconnect.com/data-collector/
 ||web.tv/analytics/
 ||top.zp.ua/counter/
 ||accesstrade.vn/js/trackingtag/
@@ -106999,6 +107001,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||thehackernews.com/ga/c
 ||thehackernews.com/ga4/c
 ||thehealthsite.com/apstag.js
+||theinfatuation.com/api/logger
 ||theladders.com/api/user-tracking/
 ||thepoorswiss.com/tps/cfwa-collect
 ||thesun.co.uk/assets/client/analyticsListeners~
@@ -107133,6 +107136,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||vk.com/al_video.php?act=track_player_events
 ||vk.com/al_video.php?act=watch_stat
 ||vk.com/js/lib/px.js
+||voidemail.org/js/track.js
 ||voyeur-house.tv/js/track.js
 ||vpsbenchmarks.com/plausible.vpsb.js
 ||vrbo.com/edap/elo/v1/event/beacon
@@ -109246,6 +109250,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||static-cdn.hotjar.com^$script,domain=mercadopublico.cl
 @@||static.hotjar.com/c/hotjar-$script,domain=mercadopublico.cl
 @@||picsearch.com/js/comscore.js$domain=dn.se
+@@||canliradyodinle.fm/live/fm/gtag.min.js$~third-party
 @@||cdn.segmentify.com^$script,domain=gratis.com
 @@||merlincdn.net^*/common/images/spacer.gif$image,domain=turkcell.com.tr
 @@||gemius.pl/gplayer.js$domain=tsn.ua

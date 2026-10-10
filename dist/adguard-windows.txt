@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Windows
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202610100047
-! Last modified: 2026-10-10T00:47:59Z
+! Version: 202610100702
+! Last modified: 2026-10-10T07:02:49Z
 ! Layers: network,content,scriptlet
 ! Mode: standard
-! Rules: 116940
+! Rules: 116942
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -5770,7 +5770,6 @@ meijutt.*/js/pcjs/
 ||sphdigital.com.sg/_plat/$domain=zaobao.com.sg
 ||douyucdn.cn/adxdsp/
 ||711dm.com/color.
-||wnacg.com/game/
 ||bad.news/scripts?
 ||bad.news/images/ad/
 ||gliacloud.com^$domain=thisiscm.com|twword.com
@@ -6951,6 +6950,8 @@ $script,third-party,domain=torkitty.net|torkitty.com|torrentkitty.app|torrentkit
 ||webkaka.com/info/script/articleAd.js
 ||webkaka.com/script/cp.js
 ||webkaka.com^*x50.
+||wnacg.com/game/
+||wnimg2.cfd/data/t/*.gif
 ||wnacg.com/game/$image,redirect=1x1-transparent.gif,domain=wnacg.com
 @@-social-bar.$domain=mobi.yahoo.com
 @@/image/share_$domain=pan.baidu.com
@@ -15495,6 +15496,7 @@ webkaka.com##.pTopTextAd
 webkaka.com##a[href*=".simcentric."]
 webkaka.com##a[href*="/click/a_d_"]
 webkaka.com##td[id$="_SPONSOR"]
+##a[href^="/link-index-aid-"] > img[src*=".wnimg2.cfd"]
 wnacg.com#@#.pcgg
 wnacg.com#@##adsbox
 wnacg.com#@#.Flagrow-Ads-under-header

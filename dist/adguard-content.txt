@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Content
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202610100047
-! Last modified: 2026-10-10T00:47:59Z
+! Version: 202610100702
+! Last modified: 2026-10-10T07:02:49Z
 ! Layers: content
 ! Mode: standard
-! Rules: 63747
+! Rules: 63748
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -8368,6 +8368,7 @@ webkaka.com##.pTopTextAd
 webkaka.com##a[href*=".simcentric."]
 webkaka.com##a[href*="/click/a_d_"]
 webkaka.com##td[id$="_SPONSOR"]
+##a[href^="/link-index-aid-"] > img[src*=".wnimg2.cfd"]
 wnacg.com#@#.pcgg
 wnacg.com#@##adsbox
 wnacg.com#@#.Flagrow-Ads-under-header

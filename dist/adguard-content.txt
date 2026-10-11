@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Content
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202610110846
-! Last modified: 2026-10-11T08:46:20Z
+! Version: 202610111537
+! Last modified: 2026-10-11T15:37:51Z
 ! Layers: content
 ! Mode: standard
-! Rules: 63730
+! Rules: 63731
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -2748,6 +2748,7 @@ newduba.cn###jq_youxi
 ##a[href*=".xacg.info/"]
 ##button[onclick*=".xacg.info/"]
 xc6b.com##.cHeadImg
+mscw-guidebook.com##.qiyou-ad
 dzdu.com###mv_box
 redircdn.com##.al
 gh-proxy.com#?#.w-full:has(>a[rel$="sponsored"])

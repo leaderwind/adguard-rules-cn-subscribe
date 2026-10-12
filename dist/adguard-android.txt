@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Android
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202610120720
-! Last modified: 2026-10-12T07:20:48Z
+! Version: 202610121751
+! Last modified: 2026-10-12T17:51:58Z
 ! Layers: network,content,scriptlet
 ! Mode: standard
-! Rules: 17500
+! Rules: 17503
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -5769,6 +5769,7 @@ meijutt.*/js/pcjs/
 ||jinbaodm.com/public/system
 ||peachring.com/new-page/js/human-verify.
 ||peachring.com/popunder$popup
+||91porna.com/static/web/js/ad-sdk-
 @@.adserver.$domain=litv.tv
 @@||holmesmind.com/js/drawV2.$domain=bingfong.com
 @@||hkcards.com^$generichide
@@ -6925,6 +6926,7 @@ $script,third-party,domain=torkitty.net|torkitty.com|torrentkitty.app|torrentkit
 ||webkaka.com/info/script/articleAd.js
 ||webkaka.com/script/cp.js
 ||webkaka.com^*x50.
+.in^$domain=wnacg.com|wn001.cfd|wn002.cfd|wnacg.ru
 ||wnacg.com/game/
 ||wnimg2.cfd/data/t/*.gif
 ||wnacg.com/game/$image,redirect=1x1-transparent.gif,domain=wnacg.com
@@ -7315,8 +7317,6 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###content_left > .r
 ##body[onresize="stopDebugger()"][onbeforecopy="return!1"] > div#root div[id^="notice_modal"]
 ##body[onresize="stopDebugger()"][onbeforecopy="return!1"] > div#root div:has(> img[src$=".gif"])
 ##body[onresize="stopDebugger()"][onbeforecopy="return!1"] > div#root div.m0auto > div > div.grid + div > div:empty
-findprice.com.tw##.fsa__promo
-findprice.com.tw##.divAD2
 gh-proxy.com##section.z-10 > div.w-full:has(> a[rel*="sponsored"])
 global.hk01.com#$#div[class^="placeholder-ad-"] { min-height: 0 !important; }
 global.hk01.com##div[class*="_.js-ad-slot]"]
@@ -7334,7 +7334,6 @@ g655p8.com,d44t95.com,4hu.tv##div[class^="pg-v-sec-"]
 g655p8.com,d44t95.com,4hu.tv###__nuxt ~ div[data-tag]
 huangguoai.com##.hg-ssp-slot
 programme.tvb.com##.tvb-ads--empty
-mscw-guidebook.com##.plaza-ad-wrap
 adersaytech.com##.adersay-ad
 17173.com##.webgame .pn-bd
 flyert.com.cn##div[style^="width:950px;height:90px;"]
@@ -9852,6 +9851,7 @@ newduba.cn###jq_youxi
 ##button[onclick*=".xacg.info/"]
 xc6b.com##.cHeadImg
 mscw-guidebook.com##.qiyou-ad
+mscw-guidebook.com##.plaza-ad-wrap
 dzdu.com###mv_box
 redircdn.com##.al
 gh-proxy.com#?#.w-full:has(>a[rel$="sponsored"])
@@ -9935,11 +9935,11 @@ twkan.com###mobile-ad
 axiang.cc###achang-related-adsense
 hcbbs.com##.plc > .pct + :last-child
 mysteel.com###float-adv
-91porna.com,evgpopxb.cc##.dx-banner-item
+91porna.com##.dx-banner-item
 91porna.com##.checkNum[target="_blank"]:not([href*="91porna.com"])
 91porna.com##.h-full.swiper
-91porna.com,evgpopxb.cc##.ad-dialog
-91porna.com,evgpopxb.cc##.modal-backdrop
+91porna.com##.ad-dialog
+91porna.com##.modal-backdrop
 avbebe.com##.footer_column:nth-child(n+2)
 xchina.co##.block-overlay
 baozimh.org#?#.relative:has(>.bg-red-500)
@@ -10467,6 +10467,8 @@ chinanews.com,chinanews.com.cn###dingtong
 3boys2girls.com###displayadbu3
 3boys2girls.com###div3_display3
 findprice.com.tw###divBestBuy
+findprice.com.tw##.fsa__promo
+findprice.com.tw##.divAD2
 splaybow.com###divPrevious:last-child
 rfidworld.com.cn###divTopContainer
 nmgnews.com.cn###div_ad4
@@ -15242,6 +15244,11 @@ jm18c-oec.club,18comic.org,18comic.vip,18comic.ink#?#div[data-group]:has(>.group
 ##header + #main:nth-child(n+4) > div[id^="po-s"]:not(#po-shd)
 99re.com##.dmcenter
 99re.com##.spots
+##.popup-banner-ad
+##.ttgg
+##.acg-adv-show
+acgcbk55.vip#?#.post:has(a[title*="广告"])
+acgcbk55.vip#?#.ajax-post:has(a[href*="/tag/%e5%b9%bf%e5%91%8a"])
 ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com#?##content_left > [class]:has(span[data-tuiguang])
 ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com#?##content_left > [style*="important"]
 ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com#?##content_left > div:has(.ec-tuiguang)
@@ -15456,6 +15463,8 @@ theporn.cc##.toolbar-gg
 ###vpnModal.nordvpn-popup
 ##.nordvpn-popup + .sidebar-vpn
 torkitty.com,torrentkitty.app,torrentkitty.io,torrentkitty.lol,torrentkitty.net,torrentkitty.se,torrentkitty.tv##a[href*="/aff_"]
+vikacg.com##div[role="link"] > img[src*="/assets/moonlight/"]
+vikacg.com##a[href^="http"] > img[src*="/assets/moonlight/"]
 vikacg.com,vikacg.cc##a.w-full[data-ad-index]
 webkaka.com##.pNavigateAd
 webkaka.com##.pTopTextAd
@@ -15824,7 +15833,6 @@ sudokugame.org#%#//scriptlet('trusted-replace-node-text', 'script', 'adjump', 'f
 @@/adguard.$domain=llq.dml.ink
 @@||criteo.com/delivery/ajs.php?zoneid=$script,domain=gaus.ee
 @@||jd.com/adclick?$popup,~third-party
-.in^$domain=wnacg.com|wn001.cfd|wn002.cfd|wnacg.ru
 ||wnacg.com/game/$image,rewrite=abp-resource:1x1-transparent-gif,domain=wnacg.com
 gh-proxy.com#?#.w-full:-abp-has(>a[rel$="sponsored"])
 cngold.org#?#.w310:-abp-has(>.swiper-company)
@@ -15961,9 +15969,6 @@ jm18c-oec.club,18comic.org,18comic.vip,18comic.ink#?#div[data-group]:-abp-has(>.
 91porny.com,91porn.fans,91porny.org#?##main > div[class][id]:-abp-has(.video-elem>a[rel="noopener nofollow"])
 91porny.com,91porn.fans,91porny.org#?#.colVideoList:-abp-has(>.video-elem>.display[href^="http"])
 91porny.com,91porn.fans,91porny.org#?##main > div[class][id]:-abp-has(>div>style)
-##.popup-banner-ad
-##.ttgg
-##.acg-adv-show
 acgcbk55.vip#?#.post:-abp-has(a[title*="广告"])
 acgcbk55.vip#?#.ajax-post:-abp-has(a[href*="/tag/%e5%b9%bf%e5%91%8a"])
 ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com#?##content_left > [class]:-abp-has(span[data-tuiguang])
@@ -15975,8 +15980,6 @@ boylov.xyz,boylove.cc,boyloves.fun#?#:-abp-has(>.adsbyexoclick)
 ddooo.com#?#span:-abp-has(>p:-abp-contains(高速))
 ddooo.com#?#ul:-abp-has(>dd:-abp-contains(高速))
 69xx.one,69xx487.xyz,8mav.cc,av411.xyz,cable2055.cc,theav.xyz,thep178.com,theporn.cc,weav.xyz#?#[class]:-abp-has(>a>.q-responsive)
-vikacg.com##div[role="link"] > img[src*="/assets/moonlight/"]
-vikacg.com##a[href^="http"] > img[src*="/assets/moonlight/"]
 ||m.yap.yahoo.com^$domain=~not.dns
 ||adv0*.msa.cdn.mediaset.net^
 /adunion/*

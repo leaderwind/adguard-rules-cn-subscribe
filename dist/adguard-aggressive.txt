@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Aggressive
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202610142042
-! Last modified: 2026-10-14T20:42:14Z
+! Version: 202610142356
+! Last modified: 2026-10-14T23:56:05Z
 ! Layers: network,content,scriptlet
 ! Mode: aggressive
-! Rules: 117049
+! Rules: 117058
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -92276,6 +92276,7 @@ yandex.*##.business-card-title-view__advert
 douglas.*##.cms-container:has([data-testid="CriteoAdFormatCategoryView"])
 douglas.*##.criteo-product-carousel
 kaufland.*##.exp-vision__ext-wrapper--spad
+makemytrip.*##.flights-adtech-desktop
 yts.*##.home-content > div:has(.blue ~ a img[src*="/images/download"])
 makemytrip.*##.listingRowOuter:has(.pc__sponsored)
 streamsports99.*##.min-h-\[70px\]
@@ -92327,6 +92328,7 @@ deliveroo.*#?#a[role="button"]:has(p:contains(Sponsored))
 deliveroo.*#?#div[class^="HomeFeedScrollTracker-"]:has(span[class^="HomeFeedUILines-"]:contains(Sponsored))
 hookerhillstudios.com##div.items-center:has(> #articlead)
 douglas.*##div.product-grid-column:has(button[data-testid="sponsored-button"])
+makemytrip.*##div:has(> .adBanner__img)
 checkfelix.com,kayak.*,momondo.*,swoodoo.*##div[class$="-result-item-container"]:has(a[href*="/s/clickthrough.jsp?"])
 checkfelix.com,kayak.*,momondo.*,swoodoo.*##div[class$="-result-item-container"]:has(div[class$="-ad-badge"])
 kayak.*##div[class*="-sponsored-result"]
@@ -103804,8 +103806,13 @@ yatu.tv,yhdm7.com,yhdm95.com,xdm530.com##+js(aopw,document.oncontextmenu)
 ##[class^="div-gpt-ad"]
 cyberchef.org###workspace-wrapper > [id][style*="height"] {height: 100% !important}
 complex.com##.\[\@media\(min-width\:520px\)\]\:px-\[20px\]
+drive.com.au##.adSpacing_drive-ad-spacing__ABpTJ
+astrologyanswers.com##.astro-entity-placement
+1001games.com,3addedminutes.com,4rfv.co.uk,808fubo808.com,alistapart.com,anguscountyworld.co.uk,antrimnow.co.uk,arcadebomb.com,armageddonexpo.com,banburyguardian.co.uk,bedfordtoday.co.uk,biggleswadetoday.co.uk,bikechatforums.com,birminghamworld.uk,blackpoolgazette.co.uk,bristolworld.com,bsc.news,bucksherald.co.uk,burnleyexpress.net,buxtonadvertiser.co.uk,ca-flyers.com,caixinglobal.com,caribvision.tv,chad.co.uk,cinemadeck.com,coryarcangel.com,csstats.gg,daventryexpress.co.uk,deathbycaptcha.com,derbyshiretimes.co.uk,derbyworld.co.uk,derryjournal.com,dewsburyreporter.co.uk,diffordsguide.com,dominicantoday.com,doncasterfreepress.co.uk,elyricsworld.com,euobserver.com,eurochannel.com,falkirkherald.co.uk,farminglife.com,fifetoday.co.uk,filmmakermagazine.com,foojay.io,footballtradedirectory.com,forexpeacearmy.com,funpic.hu,gartic.io,garticphone.com,gizmodo.com,glasgowworld.com,gr8.cc,gsprating.com,halifaxcourier.co.uk,harboroughmail.co.uk,harrogateadvertiser.co.uk,hartlepoolmail.co.uk,hemeltoday.co.uk,hiphopdx.com,hortidaily.com,hucknalldispatch.co.uk,hyipexplorer.com,ibtimes.co.in,ibtimes.co.uk,imgsli.com,insidefutbol.com,ipwatchdog.com,irishpost.com,israelnationalnews.com,japantimes.co.jp,jpost.com,kissasians.org,koreaherald.com,kotaku.com,lancasterguardian.co.uk,laserpointerforums.com,leightonbuzzardonline.co.uk,lep.co.uk,lincolnshireworld.com,liverpoolworld.uk,livescore.in,londonworld.com,lutontoday.co.uk,manchesterworld.uk,marinelink.com,meltontimes.co.uk,mercopress.com,meteoradar.co.uk,miltonkeynes.co.uk,mmorpg.com,mob.org,myflr.org,nationalworld.com,newcastleworld.com,newryreporter.com,news.am,news.net,news12.com,newsletter.co.uk,northamptonchron.co.uk,northantstelegraph.co.uk,northernirelandworld.com,northumberlandgazette.co.uk,nottinghamworld.com,oncyprus.com,onlineconvertfree.com,overclock3d.net,peterboroughtoday.co.uk,pharmatimes.com,photofilters.com,portsmouth.co.uk,powerboat.world,pulsesports.co.ke,pulsesports.ng,pulsesports.ug,roblox.com,rotherhamadvertiser.co.uk,rvtrader.com,sat24.com,scientificamerican.com,scotsman.com,shieldsgazette.com,slidescorner.com,speedcafe.com,starradionortheast.co.uk,stornowaygazette.co.uk,subscene.com,sunderlandecho.com,surreyworld.co.uk,sussexexpress.co.uk,sweeting.org,swzz.xyz,tass.com,theconsensus.dev,thefringepodcast.com,theoldreader.com,thescarboroughnews.co.uk,thesouthernreporter.co.uk,thestar.co.uk,timeslive.co.za,totallysnookered.com,townhall.com,toyworldmag.co.uk,unblockstreaming.com,vibilagare.se,vloot.io,vnexpress.net,wakefieldexpress.co.uk,warwickshireworld.com,weatheronline.co.uk,weekly-ads.us,wigantoday.net,worksopguardian.co.uk,worldtimeserver.com,xbiz.com,ynetnews.com,yorkshireeveningpost.co.uk,yorkshirepost.co.uk,yuntrack.com##.banner
 justjared.com##.banner-spacer-top {max-height: 50px !important;}
+drive.com.au##.blocks_drive-block__ad__wrapper__er_24
 temp-mail.io##.fixed.bottom-0.\[\@media\(max-width\:1350px\)\]\:hidden
+antrimnow.co.uk,farminglife.com,newcastleworld.com##.helper__DesktopAdContainer-sc-12ggaoi-1
 complex.com##.lg\:top-\[var\(--sticky-top\)\]
 justjared.com##[role="banner"] {top:0 !important}
 discord.com#?#.wrapper__0d616:has-text(Get Reward)
@@ -103817,6 +103824,7 @@ character.ai#?#.space-y-4 > .w-full:has-text(Advertisement)
 cjleo.com#?#.alt-widget-title:has-text(advertisement)
 getyarn.io#?#.pt3p > div > div:has-text(Advertisement)
 theregister.com#?#article.large-12:has-text(SPONSORED FEATURE)
+edmunds.com##.justify-content-center:has(.exco-player)
 2fa.live#?#p:has-text(Advertising)
 404media.co#?#.post__content > p:has-text(This segment is a paid ad)
 acmemarkets.com,albertsons.com,andronicos.com,carrsqc.com,haggen.com,jewelosco.com,kingsfoodmarkets.com,pavilions.com,randalls.com,safeway.com,shaws.com,starmarket.com,tomthumb.com,vons.com#?#.product-card-col:has-text(Sponsored)
@@ -115100,6 +115108,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /^https?:\/\/www\.ebay-kleinanzeigen\.de\/[a-z0-9]{8}\-[0-9a-f]{4}\-/$script,domain=kleinanzeigen.de
 /^https?:\/\/www\.kroger\.com\/content\/{20,}/$script,xmlhttprequest,domain=kroger.com
 ||127.0.0.1^$third-party,domain=53.com|ameriprise.com|beachbody.com|chick-fil-a.com|citi.com|ebay.at|ebay.be|ebay.ca|ebay.ch|ebay.cn|ebay.co.uk|ebay.com|ebay.com.au|ebay.com.hk|ebay.com.my|ebay.com.sg|ebay.de|ebay.es|ebay.fr|ebay.ie|ebay.it|ebay.nl|ebay.ph|ebay.pl|equifax.ca|equifax.com|globo.com|gumtree.com|kleinanzeigen.de|lendup.com|mbna.ca|rusneb.ru|sciencedirect.com|sky.com|spectrum.net|td.com|tiaa.org|vedacheck.com|wepay.com|whatleaks.com
+||astrologyanswers.com/gtmmetrics/
 ||citi.com^*/fp.js
 ||citibank.com.ph/JSO/js/fp.js
 ||citibank.com.ph/tmx/js/

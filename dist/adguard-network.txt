@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Network
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202610141147
-! Last modified: 2026-10-14T11:47:35Z
+! Version: 202610141708
+! Last modified: 2026-10-14T17:08:15Z
 ! Layers: network
 ! Mode: standard
-! Rules: 47656
+! Rules: 47661
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -14198,6 +14198,7 @@ $image,third-party,denyallow=googleapis.com,domain=vipbox1.org
 $third-party,script,domain=klto9.com|f2movies.to|hacamchicac.com|yourporngod.com|zinchanmanga.com|yaoimangaonline.com|tututweak.app|mangaraw.ac|eromanga-show.com|hentai-one.com|hentaipaw.com|nukibooks.com|paipancon.com|jgvdata.com|youtubevanced.com|pandamtl.com|mangaplus.shueisha.tv|shueisharaw.tv
 ||linksconsole.com/ad-system/
 ||misc-api.feathermc.com/*/ads/ad_units?
+||c.fimgs.net/e/*theme=auto
 ||vdrama.fans/js/vd-ad-config.js
 ||cdn.*.com/sdk/v1/dd.p.js^$script,third-party
 ||porndd.com/static/js/popunder-inject.js
@@ -24270,6 +24271,7 @@ cdn.braun634.com^$third-party
 @@||bundle.ozon.ru/ozon/$script,domain=ozon.ru
 @@||mc.yandex.ru/metrika/watch.js$domain=m.market.yandex.ru|m.market.yandex.by|m.market.yandex.kz
 @@||ad.doubleclick.net/*/pfadx/$domain=m.youtube.com
+@@||btvplus.bg/static/bg/shared/vjs/videojs-contrib-ads.js
 @@||mail.bg/message/$jsinject,elemhide,extension
 @@||mail.bg/message/$xmlhttprequest,other
 ||filmifen.com/templates/filmi/js/adb.js
@@ -35984,6 +35986,7 @@ template/m1938pc/ads/*.js
 /i.gif?
 /i.php?i=
 /i.png?id=
+/i/api/kn/afterclick/*$~third-party,xmlhttprequest
 /i2a.js
 /i2yesCounter.js
 /i?e=pv&url=
@@ -46472,6 +46475,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||crank-in.net/assets/common/js/sendpv.js
 ||crosset.onward.co.jp/ajax/getExternalServiceWebTrackingTags
 ||daiichi-kamotsu.co.jp/js/google_analytics.js
+||dmm.co.jp/js/tracking.min.js
 ||dmm.com/analytics/
 ||dmm.com/imp?
 ||doda.jp/DodaCommon/Html/js/RtoasterTrack.js
@@ -46556,6 +46560,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||socialxup.com/api/track
 ||softonic.jp/web-stats
 ||ssai.api.streaks.jp/*/ad_info?
+||stat.i3.dmm.com/plus/tracking.js
 ||tanweb.net/wordpress/?rest_route=/sng/v1/page-count
 ||tekoki-fuzoku-joho.com/js/ALinkPrepare_
 ||tellows.jp/ping.php

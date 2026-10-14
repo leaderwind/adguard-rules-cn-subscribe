@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Content
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202610140020
-! Last modified: 2026-10-14T00:20:37Z
+! Version: 202610140608
+! Last modified: 2026-10-14T06:08:49Z
 ! Layers: content
 ! Mode: standard
-! Rules: 63776
+! Rules: 63759
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -137,7 +137,7 @@ popbee.com##.adblocker
 ##.main-container ~ div[class^="z"][class$="-root"]
 ##.main-container ~ div.z-gate-mask
 icu##.banner-layout-box
-##html[lang="zh-cn"] > body  > header.Mobile-Header + main > div[id][class]
+##html[lang="zh-cn"] > body  > header.Mobile-Header + main#main > div[id][class]:not(#videoListPage,[class*="-"],[class*=" "])
 ##.videoPlayContainer > div#video-play + div[data-nosnippet]
 ##.row > div.colVideoList:has(> div.video-elem > a[target="_blank"])
 yfsp.tv,aiyifan.tv,iyf.tv#$#.bg-overlayer { pointer-events: unset !important; }
@@ -255,7 +255,6 @@ tw.news.yahoo.com##blockquote.mb-module-gap
 vikacg.com##a[href^="https://acg01.com/]"]
 bbys.app##.global-desktop-ad
 stock-calculator.net##.grid > div > div.overflow-hidden:has(> div.inset-0 > ins.adsbygoogle)
-91porny.com##div[data-nosnippet]:has(div.row a[href][rel^="noopener"])
 91porny.com##.alert
 cmoney.tw##.stockGrid__topbar
 soft8ware.com##ins.adsbygoogle
@@ -1976,7 +1975,7 @@ bmvc2020-conference.com#@#div[id][style="width: 100%;"] > iframe[scrolling="no"]
 ###cs_left_couplet
 ###cs_right_couplet
 ###dbgg
-###dgf_pc
+##.main-content > .ad-shell
 ###diads
 ###div_top_ads
 ###duilian_left
@@ -2155,7 +2154,6 @@ newduba.cn###jq_youxi
 ##.a_pb
 ~05wang.com##.a_pr
 ~fishmsg.net,~briian.com##.a_pt
-##.a_ssk_cn
 ##.a_sxc
 ##.a_xsfl
 ##.aab-post
@@ -2181,7 +2179,6 @@ newduba.cn###jq_youxi
 ##.ad336left
 ##.ad990x130
 ##.ad990x90
-##.adContainer[style="margin-top: -5px"]
 ##.adHF
 ##.adHF3
 ##.adHF6
@@ -2276,7 +2273,6 @@ newduba.cn###jq_youxi
 ##.container > .index-ad
 ##.container > .slide-baidu
 ##.container .t-img-box:first-child
-##.container > a[href^="http"] > .ads
 ##.containeradvertising
 ##.content > #dhxhtml
 ##.content > a > .topline
@@ -2421,8 +2417,6 @@ newduba.cn###jq_youxi
 ##.mylist + #topthree
 ##.mylist > a > img[width^="9"][height="80"]
 ##.myui-extra + .noticetext
-##.nQIAj
-##.nQIAj1
 ##.nav-ads
 ##.nav-area + .wrapper .tuiguang
 ##.newstyle > .container > a[target="_blank"]
@@ -2472,7 +2466,6 @@ newduba.cn###jq_youxi
 ##.pro1-molnk
 ##.prom-olnk
 ##.promlnk[style="position:relative;width:100%;height:100%;"]
-##.propa_bottom
 ##.push-top[clickmode="cpt"]
 ##.push-bottom-container[clickmode="cpt"]
 ##.push-slider[clickmode="cpt"]
@@ -2520,7 +2513,6 @@ newduba.cn###jq_youxi
 ##.video-item-ads
 ##.video-player > .gg-bg-cover
 ##.w-full > .banner.el-carousel
-##.w100b > .m_adv
 ##.wbalist_thumb[style*="/upload/site/"]
 ##.wemziguanggao
 ##.wf_ad_block
@@ -2722,6 +2714,8 @@ newduba.cn###jq_youxi
 ##.hg-ssp-slot
 ###main > .nv-ad
 ###adFloat
+##.body-adblock
+##.head-adblock
 ##a[href*="/122.51.121.126:"]
 ##a[href*="/137.220.194.105:"]
 ##a[href*="/137.220.194.123:"]
@@ -2731,7 +2725,6 @@ newduba.cn###jq_youxi
 ##a[href*="/vv88.life"]
 ##a[href*="/lesi151.cc"]
 ##a[href*="/lesi198.com"]
-##a[href*=".jmtybc.com"]
 ##a[href*="/2e9c9aa9.com/"]
 ##a[href*="/33hth.cn"]
 ##a[href*="/445.ee/"]
@@ -3269,7 +3262,6 @@ mcdulll.com,mcdulll.pixnet.net###box1989082
 cwyuni.tw###box34614 > [class^="box-"]
 lohas.pixnet.net###box785805
 finance.ifeng.com###box_img
-111os.com###btmBox
 drvsky.com###bz_position
 pchome.net###bzhref
 lspdfrcn.com###cancms_float_bar_fixed_bottom
@@ -3322,13 +3314,12 @@ aa25.cn,kafan.cn###content_top
 360kuai.com###content_top_gg
 mbd.baidu.com###content_wrapper + div + .default-container
 icanzc.com###contsec
-aae3.com,qq.com###coo_qqBrowser
+qq.com###coo_qqBrowser
 0597kk.com###cool_fixed
 2345.com###corner-flash
 2345.com###corner_a
 airav.cc###corner_cf
 2345.com###corner_div
-111os.com###couplet
 baidu.com###couplet-left
 baidu.com###couplet-right
 youxi.baidu.com###coupletBanner
@@ -3750,7 +3741,6 @@ playno1.com###m7
 2345.com###m_banner
 2345.com###m_banner_2
 chacuo.net###mailtooltipss
-kaka12345.cc###main
 g-years.com,ghoffice.cc,gpsuu.com,mydigit.cn###main > .textMes
 lusongsong.com###main > center
 e0575.cn###main > div:first-child
@@ -3769,10 +3759,8 @@ gzmama.com###mdvtips
 hinet.net###media_ad_popup_overlay
 appinn.com###media_image-2
 loldk.com###meizi_ad
-aae3.com###menu
 xiuren.org###menur
 tv.sohu.com###miaozhenad
-111os.com###midBox
 sina.cn###midThreeAds
 webjx.com###middleimg
 91.com,hao123.com,site.baidu.com###midline
@@ -4097,7 +4085,6 @@ maxthon.cn###top-slider-ad
 teepr.com###topAdBlock
 91duba.com,iduba.com###topBanner
 recruit.com.hk###topBar
-111os.com###topBox
 qidian.com###topGameOp
 2345.com###topHf
 elecfans.com###topJf
@@ -6553,7 +6540,6 @@ youku.com##.src_adwrap
 alistgo.com##.ss
 stockstar.com##.ss-ad-icon2
 duba.com##.ss_sider_list[href*=".wan.liebao.cn"]
-zhain8.com##.ssr
 zhujiwiki.com##.ssrtop
 eastday.com##.ssy_left
 eastday.com##.ssy_right
@@ -6902,7 +6888,7 @@ laoliublog.cn,ruyo.net,winandmac.com,zhujiceping.com,zouaw.com##.widget_custom_h
 423down.com##.widget_d_banner
 jiayongluyou.com##.widget_image_myimg
 flyzy2005.com##.widget_kratos_ad
-abmedia.io,appinn.com,carrotchou.blog,landiannews.com,laoliublog.cn,woniuyulew.com,zhain8.com##.widget_media_image
+abmedia.io,appinn.com,carrotchou.blog,landiannews.com,laoliublog.cn,woniuyulew.com##.widget_media_image
 meijumi.net##.widget_metaslider_widget
 muzhuangnet.com##.widget_sentence
 lzdcctv.cn##.widget_ssr > a > img
@@ -7210,7 +7196,6 @@ github.com##a[href="http://gk.link/a/103EK"]
 wanmeikk.me##a[href="http://qq.wanmeikk.me/index"]
 cjw123.com##a[href="http://tb.cjw123.com"]
 sports.qq.com##a[href="http://teramont.svw-volkswagen.com/"]
-zhaohuangpian.net##a[href="https://galaxymedia.xyz/app/"]
 hqyman.cn##a[href="https://hqyman.cn/taobao/"]
 github.com##a[href="https://start.aliyun.com/"]
 2dway.com##a[href="https://www.2dway.com/5244/"]
@@ -7491,7 +7476,6 @@ yahoo.com##.taboola-ad-item-wrapper
 yahoo.com##.stream-responsive-ad-item
 wealwomen.com##div[data-cptid]
 cqmmgo.com##div[data-id*="_adv_"]
-freejavbt.com##div[data-selector*="ai-insert-"]
 sd.ifeng.com##div[data-title*="广告位"]
 oschina.net##div[data-traceid*="_ad_"]
 oschina.net##div[data-tracepid="question_detai_above"]
@@ -7779,7 +7763,6 @@ douyu.com#?#.wm-general:has(.link[href*=".tmall.com"])
 bbs.my0511.com##embed[width="970"][height="70"]
 engadget.com#?#.Py\(40px\):has(> article > .D\(f\) > .Pos\(r\)[data-ylk*=":AD;"])
 fishpi.cn#?#.module:has(>.ad)
-aae3.com##form + center > p[align="center"]
 msn.cn##gaming-discover-strip
 guilinlife.com#?#li:has(> div > .content-other > .content-type:contains(广告))
 hao.360.com#?#.cube-mod:has(.dh-cpcad-container)

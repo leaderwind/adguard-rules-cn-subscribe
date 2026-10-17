@@ -1,8 +1,8 @@
 ! Title: AdGuard Rules CN - Scriptlet
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202610171344
-! Last modified: 2026-10-17T13:44:05Z
+! Version: 202610171708
+! Last modified: 2026-10-17T17:08:38Z
 ! Layers: scriptlet
 ! Mode: standard
 ! Rules: 5618
@@ -4839,7 +4839,7 @@ m.youtube.com#%#(()=>{const t={apply:(t,e,n)=>{if(location.href.includes("/short
 akirabox.to#%#//scriptlet('prevent-eval-if', 'atob')
 tgsearch.su#%#//scriptlet('set-constant', 'linkOpener', 'emptyObj')
 pixhost.to#%#//scriptlet('abort-on-stack-trace', 'document.addEventListener', 'loadInstantMessage')
-4khd.com,wallpaperalchemy.com#%#//scriptlet('prevent-window-open', '_blank')
+nexify-zone.com,4khd.com,wallpaperalchemy.com#%#//scriptlet('prevent-window-open', '_blank')
 shortflix.net#%#//scriptlet('json-prune', 'props.interstitialAd')
 lulu0.ovh,luluvdoo.com,luluvido.com,luluvdo.com#%#//scriptlet('prevent-window-open', '_blank')
 cinecloud.site#%#//scriptlet('prevent-setTimeout', 'location.href', '5000')

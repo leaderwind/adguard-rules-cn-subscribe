@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Network
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202610172217
-! Last modified: 2026-10-17T22:17:23Z
+! Version: 202610180101
+! Last modified: 2026-10-18T01:01:27Z
 ! Layers: network
 ! Mode: standard
-! Rules: 47359
+! Rules: 47360
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -6761,6 +6761,7 @@ $script,third-party,domain=torkitty.com|torkitty.net|torrentkitty.app|torrentkit
 @@||youku.com/cms/player/userinfo/
 @@||youku.com/cms/playlog/get?
 ||hjfile.cn/analytics/site/TrackEvent.js
+$script,third-party,domain=52movieba.com|audio699.com|duboku.info|kan-tv.com|m.supfree.net|mvffm.net|xiaoheimi.cc|xiaoyakankan.com|xunleisou.forum|xunleisou.info|xunleisou.life
 ||*.$image,rewrite=abp-resource:1x1-transparent-gif,third-party,domain=rmdown.com
 ||17173cdn.com/20*.mp4$rewrite=abp-resource:blank-mp3,domain=17173.com
 ||8maple.ru/dzcm$rewrite=abp-resource:1x1-transparent-gif,domain=8maple.ru

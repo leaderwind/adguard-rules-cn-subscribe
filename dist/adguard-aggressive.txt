@@ -1,8 +1,8 @@
 ! Title: AdGuard Rules CN - Aggressive
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202610181059
-! Last modified: 2026-10-18T10:59:00Z
+! Version: 202610181434
+! Last modified: 2026-10-18T14:34:46Z
 ! Layers: network,content,scriptlet
 ! Mode: aggressive
 ! Rules: 116575
@@ -86483,7 +86483,7 @@ wikihow.com##.al_method
 altfi.com##.alert
 accessnow.org##.alert-banner
 apkmb.com##.alert-noty-download
-rapidsave.com##.alert.col-md-offset-2
+rapidsave.com##.alert.col-md-offset-2:has(a[href^="https://docmost.com/"])
 peoplematters.in##.alertBar
 majorgeeks.com##.alford > tbody > tr
 shortlist.com##.align-xl-content-between

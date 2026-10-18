@@ -1,8 +1,8 @@
 ! Title: AdGuard Rules CN - Browser
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202610181804
-! Last modified: 2026-10-18T18:04:52Z
+! Version: 202610182038
+! Last modified: 2026-10-18T20:38:21Z
 ! Layers: network,content,scriptlet
 ! Mode: standard
 ! Rules: 116489
@@ -85257,6 +85257,7 @@ homedepot.com,nordstrom.com###revjet_container
 10minutemail.net,eel.surf7.net.my###right
 ndtv.com###right-ad-slot
 msguides.com###right-bottom-camp
+wikily.gg###right-rail
 comicbookrealm.com###right-rail > .module
 purewow.com###right-rail-ad
 themarysue.com###right-rail-atf
@@ -103230,7 +103231,6 @@ yatu.tv,yhdm7.com,yhdm95.com,xdm530.com##+js(aopw,document.oncontextmenu)
 @@||discord.com^$generichide
 ##.ad-unit
 ##[class^="div-gpt-ad"]
-wikily.gg###right-rail
 cyberchef.org###workspace-wrapper > [id][style*="height"] {height: 100% !important}
 complex.com##.\[\@media\(min-width\:520px\)\]\:px-\[20px\]
 justjared.com##.banner-spacer-top {max-height: 50px !important;}

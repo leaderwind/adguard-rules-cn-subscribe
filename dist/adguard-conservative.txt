@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Conservative
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202610180553
-! Last modified: 2026-10-18T05:53:00Z
+! Version: 202610181059
+! Last modified: 2026-10-18T10:59:00Z
 ! Layers: network,content,scriptlet
 ! Mode: conservative
-! Rules: 108358
+! Rules: 108361
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -82904,6 +82904,7 @@ theurbanlist.com##.LeaderboardAd
 nameberry.com##.LeaderboardAtfAd
 nationalgeographic.com##.LinkedImage
 inverness-courier.co.uk,johnogroat-journal.co.uk##.MPU
+forum.ragezone.com##.MentaLBannerUnit
 medievalists.net##.Mnet_TopLeft_970x250
 wired.com##.MobileProductCardOuter-kMqsSf
 autonocion.com##.Mobile_Bottom
@@ -88661,6 +88662,7 @@ transdict.com##div[style="margin:24px 80px; padding:8px; height:120px;"]
 arealme.com##div[style="margin:auto;width:100%;min-height:250px;"]
 vr-compare.com##div[style="min-height: 250px; background-color: rgba(0, 0, 0, 0.133); display: flex; justify-content: center; align-items: center;"]
 autoblog.com##div[style="min-height: 250px;"]
+mydramalist.com##div[style="min-height: 250px;"]:has(> .ad-removal-info)
 alternativeto.net##div[style="min-height: 280px;"]
 editpad.org##div[style="min-height: 300px;min-width: 300px"]
 wikiwand.com##div[style="min-height: 325px; max-width: 600px;"]
@@ -106424,6 +106426,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||kaspersky.com/assets/logSender.
 ||mfasa.chase.com/auth/js/jpmc_bb_check.js
 ||olacontent.schwab.com^$script
+||perplexity.ai/unifyintent.js
 ||src.ebay-us.com/*=usllpic$script,domain=ebay.com
 ||tips.delt.io
 ||unami.delt.io/script.js

@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Content
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202610190112
-! Last modified: 2026-10-19T01:12:35Z
+! Version: 202610190613
+! Last modified: 2026-10-19T06:13:56Z
 ! Layers: content
 ! Mode: standard
-! Rules: 63599
+! Rules: 63601
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -8752,7 +8752,8 @@ hogtiehub.com#@#.ad-unit:not(.textads)
 hogtiehub.com#@#.ad-slot
 iphonechecker.herokuapp.com#@#.ad-unit:not(.textads)
 igay69.com#$##k80real { display: block !important; visibility: visible !important; opacity: 1 !important; pointer-events: auto !important; }
-igay69.com#$#.ig69-verification-notice { display: none !important; }
+igay69.com#$##k80wrap.k80-split-ads #k80real .k80-protected-fragment { display: block !important; visibility: visible !important; pointer-events: auto !important; }
+igay69.com#$##ig69-reader-status { display: none !important; }
 igay69.com#@#.ad-link
 gptcleanuptools.com##body > div.fixed.inset-0
 uncrn.org#@#.ad-unit:not(.textads)
@@ -18504,6 +18505,7 @@ animecorner.me,zarabiajprzez24.pl,watchhentai.xxx,app-how-to-use-it.com,linuxcap
 pawastreams.*,nflbite.to,footybite.to,sportschamp.fun,afly.pro,topsporter.net,soccerstreams.football,mysocceraustralia.com,rayinfosports.com,hesgoals.top,sequencecard.xyz,totalsportek.soccer,metaporky.site,nbabite.to,cyfostreams.com,gamerarcades.com,bestreamsports.org,footy.to,mcrypto.club,greaterkashmir.com###id-custom_banner
 pawastreams.*,groundedtechs.com,rayinfosports.com,sequencecard.xyz,matchtime.co,sportspellz.com,bestreamsports.org,silverspoon.site###dismiss-btn
 vi-control.net,nullforums.net,landyzone.co.uk,nullcave.pro,woxmax.com,waskucity.com,babia.to,technofino.in,reef2reef.com,minebbs.com,craxpro.io,affiliatefix.com,myiptvforum.com,hifivision.com,worldofiptv.com,altenen.is,beermoneyforum.com,germancarforum.com,cracking.org##.samBannerUnit
+pornwhite.com##.nav > li:not(.drop)
 doctor.webmd.com##.seo-footerad
 webmd.com#$#div.container > div.pane > div.cpf-masthead { padding-top: 0 !important; }
 lofi-nopixel.com##div[data-testid="ad-anchor"]
@@ -19776,7 +19778,7 @@ scrolller.com##div[aria-label="live-models"]
 scrolller.com##div[class^="index-module"][class$="container"] > button[class^="index-module"][class$="wrapper"]:has(> div[class$="imageContainer"] > div[class$="liveCircle"])
 scrolller.com#$?#div[class^="index-module"][class$="galleryItemHandler"]:has(> div[class$="iframeAdContainer"]) { remove: true; }
 scrolller.com#$#body > div.index-module-scss-module__SGgCpa__container { height: 10vh !important; }
-pornwhite.com##.thumbs-list > div.container-side
+pornwhite.com##div.container-side
 pornwhite.com##a[href^="https://as.fontheader.com/"]
 pornwhite.com##.native-container
 send.vis.ee##send-intro .w-full.mb-2.text-orange-60

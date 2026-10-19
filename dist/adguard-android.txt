@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Android
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202610190112
-! Last modified: 2026-10-19T01:12:35Z
+! Version: 202610190613
+! Last modified: 2026-10-19T06:13:56Z
 ! Layers: network,content,scriptlet
 ! Mode: standard
-! Rules: 16894
+! Rules: 16895
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -15803,6 +15803,7 @@ js/yys/Pfhl365.js
 ||tz659.com/js/html*.js
 ||tz659.com/js/cdn.js
 Mplay/kk1.js
+.com:8005/cc/*?*=$third-party
 ||ffdm*.cc/dd.js
 /resolve?type=*&short=*&name=$third-party
 .com/hm/*?*=*$third-party

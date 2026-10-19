@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Network
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202610191317
-! Last modified: 2026-10-19T13:17:06Z
+! Version: 202610191954
+! Last modified: 2026-10-19T19:54:33Z
 ! Layers: network
 ! Mode: standard
-! Rules: 47379
+! Rules: 47364
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -1405,7 +1405,6 @@ $script,third-party,denyallow=myqcloud.com|bytecdntp.com|pddpic.com|googletagman
 /Runtime/Js/300_300.js
 /Runtime/Js/90_m.js
 /Runtime/Js/960_90.js
-/Runtime/js/banner_
 /Runtime/Js/footer-m.js
 /Runtime/js/fumeiti.
 /Runtime/Js/guding_top.js
@@ -1470,7 +1469,6 @@ $script,third-party,denyallow=myqcloud.com|bytecdntp.com|pddpic.com|googletagman
 /uu114/ad/*
 /view/image/ngps1.gif
 /View/img/b72890.jpg
-/vipgg/*
 /vtdd/*$script
 /vtdt/*$script
 /wamobantong.oss-
@@ -1528,7 +1526,6 @@ $script,third-party,denyallow=myqcloud.com|bytecdntp.com|pddpic.com|googletagman
 :81/c/i.php?id=$script
 :81/s/i.php?id=$script
 :818/nowscore/
-:88/999pc/
 :88/lighttpd/default/
 :8898/ads_
 :900*/d/*n=$script,third-party
@@ -1819,7 +1816,6 @@ meijutt.*/js/pcjs/
 ||02wq.com/script1/
 ||042.cn/adver/
 ||0439.com/javascript.php?part=advertisement&
-||04cmm.com:8888/js
 ||04stream.tv/sda/
 ||0573fang.com/ads/
 ||0575bbs.com/js/float.js
@@ -1964,7 +1960,6 @@ meijutt.*/js/pcjs/
 ||23bei.com/static/plugins/layer/layer.
 ||23img.com^*/qomnyi.
 ||23sc.cn/andy/
-||24cmm.com:8888/js
 ||2500sz.com/site/
 ||250sy.cc/gg/
 ||256856.com/fei-ad/
@@ -2139,7 +2134,6 @@ meijutt.*/js/pcjs/
 ||56ads.com/js/main.js
 ||56img.com^*/baidu-promotion.js
 ||56img.com^*/search-engine-promotion.js
-||56rmm.com:8888/js
 ||576tv.com/Scripts/home.js
 ||57fx.com/img/20170508.jpg
 ||57see.com/js/
@@ -2206,7 +2200,6 @@ meijutt.*/js/pcjs/
 ||75.125.41.29:8080/
 ||76fengyun.com/70070.gif
 ||76fengyun.com/jsa/
-||76wmm.com:8888/js
 ||77ds.*/js/77ad.js
 ||77ds.vip/js/shichuang.js
 ||78dm.net.cn/acg_201*_250
@@ -2390,7 +2383,6 @@ meijutt.*/js/pcjs/
 ||aizhan.com/images/img/apicn.
 ||aizhan.com/images/img/ios-sign.png
 ||aizhan.com/imagesa/
-||akabebe.com/jgg/*.gif
 ||akqipai.com/m/Tpl/v3/js/indexbottom.js
 ||akuziti.com/tu/*.js
 ||aldtop.com/scrtips/
@@ -2467,7 +2459,6 @@ meijutt.*/js/pcjs/
 ||api.bilibili.com/x/ad/
 ||api.wudizuqiu.com/72nba
 ||api.wudizuqiu.com/bocai.js
-||apic.in/mmd.gif
 ||apiimg.com/haishui/
 ||apiimg.com/huaer/xiahe.
 ||apk.tw/static/js/showpic.js
@@ -2759,8 +2750,6 @@ meijutt.*/js/pcjs/
 ||caikuu.com/ckimages/*_zg
 ||caixin.com/s?z=
 ||canton8.com/adphoto/
-||cao0001.com/vip/js/
-||cao0002.com/vip/js/
 ||caoads.com/images/
 ||caoav.net/img/*.js
 ||car.pchome.com.tw/iframe/news_iframe.
@@ -2775,7 +2764,6 @@ meijutt.*/js/pcjs/
 ||ccdm*/Scripts/ccMedia.js
 ||ccement.com/index/index/fetchAd
 ||ccement.com/js/ccement_new/open.js
-||cckke.com/fanhao/v/ad
 ||cctime.com/UpLoadFile/201*.gif
 ||cctv.com/Library/a2.js
 ||cctv5.name/data/js/
@@ -2902,7 +2890,6 @@ meijutt.*/js/pcjs/
 ||clb.biz/Public/static/js/common-v2.js
 ||clouddn.com/960x60.gif
 ||cloudflare.com/ajax/libs/jBox/$domain=localmv1.com
-||cloudfront-666.kxcdn.com/v4.js
 ||cloudfront.net/yongli04/
 ||cmsjs.eastmoney.com^$subdocument
 ||cna5.cc/skins/js/
@@ -3245,7 +3232,6 @@ meijutt.*/js/pcjs/
 ||eoof.net/PicZone/qzgg
 ||eprice.com.tw/img/tw_m/ad/
 ||es3984.review/02_cn_ad/
-||etadult.com*/images/20
 ||etest8.com/js/158/infojs/
 ||etf88.com/jjb/*_ad$script
 ||etf88.com/swf/
@@ -3368,8 +3354,6 @@ meijutt.*/js/pcjs/
 ||gaoqing.la/wp-content/uploads/*GOOVIS
 ||gaoqing888.com/img/icmarkets.
 ||gasaq.com/public/flash/
-||gavbus*.com/assets/common/js/ad.js
-||gavbus*.com/assets/common/js/admenu.js
 ||gd-singapore.com/data/1724/aimg/rloadbnus-ibc26.
 ||gd.ct10000.com/js/ecssstat.js
 ||gd.sina.com.cn/iframe/22/
@@ -3991,8 +3975,6 @@ meijutt.*/js/pcjs/
 ||kaoyan1v1.com/IAA/
 ||kb-render.alicdn.com/html/*.html
 ||kdou.com/ad_js.php?adid=
-||kdw*.com/layer/layer.js
-||kedou*.com/layer/layer.js
 ||kejiwanjia.com/wp-content/uploads/*/1040x100.
 ||kekenet.com/images/*/akasuo
 ||kekenet.com/images/*/tom468X60.gif
@@ -5048,7 +5030,6 @@ meijutt.*/js/pcjs/
 ||tt1069.com/or_pu_0604.js
 ||tt1069.com/script.min.js
 ||tt1069.com/t0602.js
-||ttavav6.com/zz/
 ||ttks.tw/js/otherad.
 ||tui.gtimg.com//res/
 ||tui555.com/public/gong/js/a_
@@ -5231,7 +5212,6 @@ meijutt.*/js/pcjs/
 ||xiacaidd.com/xiacai/ad/
 ||xianshuabao.com/ashx/pt.ashx?cmd=record&filter=&order=all&
 ||xiaobaipan.com/tb.html
-||xiaobi*.com/layer/layer.js
 ||xiaodutv.com/xda?
 ||xiaopi.com/api.php?op=get_p&
 ||xiaopi.com/statics/new_js/15.js
@@ -5265,7 +5245,6 @@ meijutt.*/js/pcjs/
 ||xitonghe.com/SkinNew/js/init_g.
 ||xitongzhijia.net/theme/2020/js/10033_
 ||xizi.com/js/rotator.js
-||xkd*.com/layer/layer.js
 ||xkyn.com/imgs/js/xx.js
 ||xkzzz.com/zb_users/plugin/MoreLinks*/show.
 ||xkzzz.com/zb_users/plugin/MoreLinks/MoreLinks.
@@ -7827,6 +7806,10 @@ $xmlhttprequest,redirect-rule=nooptext,domain=oko.sha|aii.sh|pahe.plus|intercele
 @@||google-analytics.com/analytics.js$domain=cinehd.app
 @@||static.ads-twitter.com/ads.js$domain=cinehd.app
 @@||googleads.g.doubleclick.net/pagead/ads$domain=cinehd.app
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=misterdonghua.in
+@@||sads.adsboosters.xyz^$xmlhttprequest,domain=luciferdonghua.in
+@@||securepubads.g.doubleclick.net/tag/js/gpt.js$xmlhttprequest,domain=luciferdonghua.in
+@@||googleads.g.doubleclick.net/pagead/id$xmlhttprequest,domain=luciferdonghua.in
 @@||lihatgambar.my.id/ad_*.js
 @@||sonyliv.com^$generichide
 ||imasdk.googleapis.com/js/core/$domain=sonyliv.com,important
@@ -20124,7 +20107,7 @@ $csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: www.googletagma
 @@.m3u8$xmlhttprequest,stealth=referrer,domain=roxiestreams.*
 @@.js$xmlhttprequest,stealth=referrer,domain=roxiestreams.*
 @@||ataide0.pingbash.com/$stealth=referrer,domain=roxiestreams.su
-@@/^https:\/\/imgbb.zip\/ib\/[a-z0-9]{15}_[0-9]{10}\.jpg$/$image,third-party,stealth=referrer,domain=rogmovies.*|xprimehub.*|vegamovies.*|1vegamovies.beer|rogmovies.cv|xprimehub.bond
+@@||imgbb.*/ib/$image,third-party,stealth=referrer,domain=rogmovies.*|xprimehub.*|vegamovies.*|1vegamovies.pics|rogmovies.cv|xprimehub.bond
 @@||account.deezer.com/$stealth=flash
 @@.png|$third-party,xmlhttprequest,stealth=referrer,domain=embdmstrplayer.com
 @@.jpg|$third-party,xmlhttprequest,stealth=referrer,domain=embdmstrplayer.com
@@ -31461,6 +31444,7 @@ $third-party,xmlhttprequest,domain=mega4upload.net
 ||newsnow.co.uk/pharos.js
 ||nexvelar.b-cdn.net/videoplayback_.mp4
 ||ngfiles.com/promos/
+||nitter.space/js/ads.js
 ||nordstromrack.com/sponsoredads/
 ||northsidesun.com/init-2.min.js
 ||norwaypost.no/images/banners/
@@ -45448,6 +45432,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tips.delt.io
 ||unami.delt.io/script.js
 ||w-profiling.cibc.com^$script
+||yimg.com/*/ymanalytics-core.js
 ||bankofamerica.com/cookie-id.js
 ||halifax-online.co.uk/scripts/16c9d93d/
 ||rail.bankofamerica.com^$script,~third-party,xmlhttprequest

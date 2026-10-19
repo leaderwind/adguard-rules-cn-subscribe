@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Android
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202610190613
-! Last modified: 2026-10-19T06:13:56Z
+! Version: 202610191317
+! Last modified: 2026-10-19T13:17:06Z
 ! Layers: network,content,scriptlet
 ! Mode: standard
-! Rules: 16895
+! Rules: 16905
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -7439,6 +7439,16 @@ health.tvbs.com.tw##.hidden .justify-center:has(> div[id^="health_pc_read_"])
 health.tvbs.com.tw##.ed-hidden.ed-xl-block
 unwire.hk##.post-main-ad
 news.ebc.net.tw##.inline_text.has_marker
+news.tvbs.com.tw##div[id^="taboola-neo-"]
+news.tvbs.com.tw##div[class^="inline-"][class$="-ad-wrapper"]
+news.tvbs.com.tw##body > .flex > .items-center:has(> #news_m_read_uptop)
+news.tvbs.com.tw##aside > .sticky:has(> div[id^="news_"]:only-child:empty)
+news.tvbs.com.tw##div[data-section="article-content-editor"] > .w-full:has(> div[id^="news_"])
+news.tvbs.com.tw##div[data-section="top-ads"] > div:is(.items-center, .hidden):has(> div[id^="news_"])
+news.tvbs.com.tw##.w-full > div[class^="max-w-"] > div > .px-4 > .mb-4:has(> div > div[id^="taboola-"])
+news.tvbs.com.tw##div[data-section="article-content-editor"] > .w-full > .w-full:has(> div[id^="news_"])
+news.tvbs.com.tw##div[data-section="article-content-editor"] > .w-full > .w-full:has(> div > div[id^="taboola-"])
+news.tvbs.com.tw##.w-full > div[class^="max-w-"] > div > .w-full > .w-full:has(> div[id^="news_"]:only-child:empty)
 news.tvbs.com.tw##.sidebar_div:has(> div.nolazydiv)
 720yun.com##div[class^="Ads_ads_"]
 omnitalk.com##tr[bgcolor="ffffc8"]

@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Content
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202610200444
-! Last modified: 2026-10-20T04:44:41Z
+! Version: 202610201002
+! Last modified: 2026-10-20T10:02:04Z
 ! Layers: content
 ! Mode: standard
-! Rules: 63623
+! Rules: 63626
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -8739,6 +8739,9 @@ youporn.com$$script:contains(/window\.[\s\S]*?_zone_[\s\S]*?{"zone_id":/)
 #@#.ads_banner
 ##.stickyads:not([style^="width: 32px"], [style^="width: 33px"], [style*="left: -43px"], [style*="-3"][style*="important"][style*="display: block;"], [style*="position: fixed"][style*="-188"], [style*="!important;"][style*="width:"][style*="height:"][style*="position"][style*="left:"][style*="top:"][style*="display"], [data-freestar-ad="123"]):not(:empty)
 ##.ads_banner:not([style^="width: 32px"], [style^="width: 33px"], [style*="left: -43px"], [style*="-3"][style*="important"][style*="display: block;"], [style*="position: fixed"][style*="-188"], [style*="!important;"][style*="width:"][style*="height:"][style*="position"][style*="left:"][style*="top:"][style*="display"]):not(:empty)
+cloudnet.one###check-overlay
+cloudnet.one#@#.ad-content
+cloudnet.one#@#.sponsored-post
 freemodels.pro#@#.sponsored-ad
 thertstv.com#$#body { overflow: auto !important; }
 thertstv.com#$#body > div#wrapper { filter: none !important; pointer-events: auto !important; }
@@ -8995,8 +8998,6 @@ airlive.net#@#.ad-slot
 bandle.app##body > div[style^="background:"][style*="position: fixed; display: flex;"][style*="z-index:"]
 indexsubtitle.cc#@#.google_ads
 epic.hellosports.live##.popSc
-platinsport.com#$##adblock-modal-overlay { display: none !important; }
-platinsport.com#$#body { overflow: auto !important; }
 launcherleaks.net#$#.swal2-container { display: none !important; }
 launcherleaks.net#$#body { overflow: auto !important; }
 kanoongpt.in#@#ins.adsbygoogle[data-ad-slot]
@@ -18511,6 +18512,9 @@ animecorner.me,zarabiajprzez24.pl,watchhentai.xxx,app-how-to-use-it.com,linuxcap
 pawastreams.*,nflbite.to,footybite.to,sportschamp.fun,afly.pro,topsporter.net,soccerstreams.football,mysocceraustralia.com,rayinfosports.com,hesgoals.top,sequencecard.xyz,totalsportek.soccer,metaporky.site,nbabite.to,cyfostreams.com,gamerarcades.com,bestreamsports.org,footy.to,mcrypto.club,greaterkashmir.com###id-custom_banner
 pawastreams.*,groundedtechs.com,rayinfosports.com,sequencecard.xyz,matchtime.co,sportspellz.com,bestreamsports.org,silverspoon.site###dismiss-btn
 vi-control.net,nullforums.net,landyzone.co.uk,nullcave.pro,woxmax.com,waskucity.com,babia.to,technofino.in,reef2reef.com,minebbs.com,craxpro.io,affiliatefix.com,myiptvforum.com,hifivision.com,worldofiptv.com,altenen.is,beermoneyforum.com,germancarforum.com,cracking.org##.samBannerUnit
+subterra.run##.w-full.rounded-xl:has(> p + div.overflow-hidden)
+weather.com##div[data-block-type="Ad"]
+uhdpaper.com###menu_ad
 helpnetsecurity.com##aside:has(> div[id] > div[id] > a[rel~="sponsored"])
 coincodex.com##app-sidebar-skyscraper
 coincodex.com##app-root > app-placeholder-debug + div:not([class*="-"])
@@ -19316,6 +19320,7 @@ pv-magazine.com##.advert-block__container
 thestar.com.my##.smg55-brandbar-link
 kotaku.com##.bluesky-embed
 kotaku.com###app > div.hidden:has(> div.flex div[id^="optidigital-adslot"])
+clickhole.com,lifehacker.com,splinternews.com,avclub.com,deadspin.com,gizmodo.com,jalopnik.com,jezebel.com,kotaku.com,qz.com,theinventory.com,theonion.com,theroot.com,thetakeout.com##div[class]:has(> .bg-black:only-child > #cnx-player-main:only-child)
 pokde.net##.ai-dynamic > a[href^="https://my.asus.click/"]
 okmagazine.com##div[class^="sc-"]:has(> div.lngtd_dynamic_leaderboard)
 soonersports.com###headerAdWrapper
@@ -20316,8 +20321,6 @@ newegg.com##.row-side-banners
 yesporn.vip##.header-inner > a:not([href^="https://yesporn.vip/"], [href="https://t.me/+xf80qlGHH_9kNWY0"])
 familyporn.tv$$script:contains(popMethods)
 tabooporn.tv##.textlink a[target="blank"]
-platinsport.com##.pum-container
-platinsport.com##a[href^="https://1xlite-23411.bar/"]
 animeidhentai.com###promo-topbar
 animeidhentai.com##.intl-ad
 animeidhentai.com##.promo--isad
@@ -26105,7 +26108,7 @@ nwdb.info##.nitroholder
 gifer.com##.page-media__banner
 gifer.com##.page-tag__banner
 pastemytxt.com,mywatchseries.cyou,poedb.tw,covemarkets.com,uploadboy.com,9anime.*##.text-center > a[target="_blank"] > img
-gogoanime.*,9anime.*##.adx
+uhdpaper.com,gogoanime.*,9anime.*##.adx
 avpgalaxy.net##.ab-all
 avpgalaxy.net##.ab-bottomsticky
 canadianrealestatemagazine.ca##.new-topice-wrapper
@@ -35240,7 +35243,7 @@ copilot.microsoft.com##div[data-ads-rg]
 x1337x.cc,1337x.st,1337x.to,1337xx.to,x1337x.eu,x1337x.ws,1337x.unblock2.xyz##.page-content > .box-info:has(> .box-info-heading > div[onclick^="location.href="][style])
 x1337x.cc,1337x.st,1337x.to,1337xx.to,x1337x.eu,x1337x.ws,1337x.unblock2.xyz##div[onclick^="location.href="][style]
 x1337x.cc,1337x.st,1337x.to,1337xx.to,x1337x.eu,x1337x.ws,1337x.unblock2.xyz##a[href="/register/"]
-abyssplayer.com,asmrfreeplayer.fun,mov18plus.cloud,jetvid.top,fembedx.top,hihihaha1.xyz,playhydrax.com,hydrax.net,filmespi.online,playembedapi.site,abysscdn.com,player-cdn.com,nazarickol.com##body > #player ~ div[style^="position: fixed;"][style*="z-index:"]
+abysplayer.xyz,abyssplayer.com,asmrfreeplayer.fun,mov18plus.cloud,jetvid.top,fembedx.top,hihihaha1.xyz,playhydrax.com,hydrax.net,filmespi.online,playembedapi.site,abysscdn.com,player-cdn.com,nazarickol.com##body > #player ~ div[style^="position: fixed;"][style*="z-index:"]
 seekyoursounds.com###leaderboard-master
 chfi.com,1067rock.ca,921citi.ca,q92sudbury.com,star959.ca,977rock.ca,979rock.ca,chez106.com,country1011.com,country1043.com,country1067.com,country1071.com,country1073.ca,country600.com,country933.com,country935.ca,easy1013.ca,jack1023.com,jack929.com,jack969.com,jack969.ca,krock1057.ca,sonic1029.com,sonicradio.ca,starfm.com,kiss1023.ca,kiss925.com,kissnorthbay.com,kissottawa.com,kissottawa.com,kisssudbury.com,kisstimmins.com,kiss917.com##.rdm-ad
 chfi.com,1067rock.ca,921citi.ca,q92sudbury.com,star959.ca,977rock.ca,979rock.ca,chez106.com,country1011.com,country1043.com,country1067.com,country1071.com,country1073.ca,country600.com,country933.com,country935.ca,easy1013.ca,jack1023.com,jack929.com,jack969.com,jack969.ca,krock1057.ca,sonic1029.com,sonicradio.ca,starfm.com,kiss1023.ca,kiss925.com,kissnorthbay.com,kissottawa.com,kissottawa.com,kisssudbury.com,kisstimmins.com,kiss917.com##.latest-ad-col

@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Network
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202610200444
-! Last modified: 2026-10-20T04:44:41Z
+! Version: 202610201002
+! Last modified: 2026-10-20T10:02:04Z
 ! Layers: network
 ! Mode: standard
-! Rules: 47365
+! Rules: 47363
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -7661,6 +7661,8 @@ $cookie=__adblocker,domain=slate.com|thehindubusinessline.com
 ||claimfey.com/cryptonews/wp-content/uploads/bqanwcfp.js
 @@||static.trafficjunky.com/ab/ads_test.js$domain=bztube.com|hotovs.com|insuredhome.org|nudegista.com|pornluck.com|vidd.se|redtube.*|youpornru.com|tube8.com|tube8.es|tube8.fr|tube8.net|pornhub.com|pornhub.org|pornhub.net
 @@://www.exoclick.com/ads.js|
+||subterra.run/probe.js
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=cloudnet.one
 ||textmatchcut.app/ad-gate.js
 ||the-avatar.lol/api/pult/
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=freemodels.pro
@@ -17579,7 +17581,7 @@ xxxadd.com/eureka
 @@||track.adtraction.com/t/*&url=*://www.gog.com/$domain=pcgamingwiki.com
 ||1337x.*/js/vpn*.js
 /^https:\/\/x?1337x\.(?:eu|g3g\.sbs|gd|to|se|unblockit\.name|st)\/(?:css\/)?(?:images\/)?[0-9a-z]+\.(?:gif|jpe?g|png)/$image,~third-party,domain=1337x.st|1337x.to|1337xx.to|x1337x.eu|x1337x.ws|1337x.unblock2.xyz
-||click.infonium.org^$domain=jetvid.top|fembedx.top|hihihaha1.xyz|playhydrax.com|hydrax.net|filmespi.online|playembedapi.site|abysscdn.com|player-cdn.com|nazarickol.com|mov18plus.cloud|asmrfreeplayer.fun|abyssplayer.com
+||click.infonium.org^$domain=jetvid.top|fembedx.top|hihihaha1.xyz|playhydrax.com|hydrax.net|filmespi.online|playembedapi.site|abysscdn.com|player-cdn.com|nazarickol.com|mov18plus.cloud|asmrfreeplayer.fun|abyssplayer.com|abysplayer.xyz
 ||utility.rogersmedia.com/utility.js$script,redirect=noopjs,domain=chfi.com|1067rock.ca|921citi.ca|q92sudbury.com|star959.ca|977rock.ca|979rock.ca|chez106.com|country1011.com|country1043.com|country1067.com|country1071.com|country1073.ca|country600.com|country933.com|country935.ca|easy1013.ca|jack1023.com|jack929.com|jack969.com|jack969.ca|krock1057.ca|sonic1029.com|sonicradio.ca|starfm.com|kiss1023.ca|kiss925.com|kissnorthbay.com|kissottawa.com|kissottawa.com|kisssudbury.com|kisstimmins.com|kiss917.com
 /manifest.mpd$xmlprune=/MPD/Period[contains(@id\,'ad-')],domain=hulu.com
 /js/nt.js$domain=fc.*|fitdynamos.com
@@ -42716,10 +42718,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||qq.com/stats?
 ||quadpay.com/analytics/
 ||qualifioapp.com/egw/events
-||qualtrics.com/jfe/$script,third-party
-||qualtrics.com/sie/$script,third-party
-||qualtrics.com/WRSiteInterceptEngine/$third-party
-||qualtrics.com^*/metrics
+||qualtrics.com/WRSiteInterceptEngine/?Q_Impress=
 ||quantcast.com/?log
 ||quantcast.mgr.consensu.org/?log
 ||quisma.com/tracking/
@@ -47098,7 +47097,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||script-at.iocnt.net/iam.js$domain=oe24.at
 @@||showheroes.com/publishertag.js$domain=rollingstone.de
 @@||showheroes.com/pubtag.js$domain=rollingstone.de
-@@||siteintercept.qualtrics.com/$domain=idealo.de
 @@||sophi.io/assets/demeter/$script,domain=faz.net
 @@||spezialklinik-neukirchen.de/matomo/$~third-party
 @@||spiegel.de/layout/js/http/netmind-$script

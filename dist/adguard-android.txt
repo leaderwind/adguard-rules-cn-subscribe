@@ -1,8 +1,8 @@
 ! Title: AdGuard Rules CN - Android
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202610210132
-! Last modified: 2026-10-21T01:32:59Z
+! Version: 202610210734
+! Last modified: 2026-10-21T07:34:22Z
 ! Layers: network,content,scriptlet
 ! Mode: standard
 ! Rules: 16879
@@ -7180,8 +7180,6 @@ tw.news.yahoo.com##div[id^="defaultLDRB"]
 fuliba2025.net##.content > a[href][target="_blank"]
 nekoray.org##main > div[data-elementor-type="single-page"] > div.elementor-element:has(> div.e-con-inner > div.elementor-element > a[href^="https://c.nekoray.org/goto/topbanner/"])
 news.mydrivers.com##div[style="margin: auto;width: 580px;padding: 10px 0;"]
-av6k.com##.subLink
-av6k.com##.clickadu
 news.cnyes.com##.content-main > div[class]:has(div[id^="div-gpt-ad-"])
 news.cnyes.com##div[id^="desktop-ad-card-"]
 news.cnyes.com##.section-aside-wrapper ~ div[class] > a[title] ~ div[class]:not([title])
@@ -11413,6 +11411,7 @@ fpdisplay.com##.class_adv1
 360doc.com##.clear360doc[style^="padding-top:"]
 sina.com.cn##.clearAd
 caikuu.com##.clearfix + .recommend
+av6k.com##.clickadu
 zouaw.com##.cloudbox
 chaomi.cc##.cm-ads
 so.com##.cmclk
@@ -13038,6 +13037,7 @@ sonimei.cn##.style01
 sonimei.cn##.style03
 guofs.com##.style2
 qq.com##.style_modal-wrap__UnbtS
+av6k.com##.subLink
 cam4.tw##.subfoot-section
 etest8.com##.subtop2right
 ltn.com.tw##.suggest_full .C5

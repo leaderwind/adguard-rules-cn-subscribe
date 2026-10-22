@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Network
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202610212219
-! Last modified: 2026-10-21T22:19:54Z
+! Version: 202610220129
+! Last modified: 2026-10-22T01:29:34Z
 ! Layers: network
 ! Mode: standard
-! Rules: 47363
+! Rules: 47359
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -10454,8 +10454,6 @@ $script,redirect-rule=noopjs,domain=vidmoly.biz|vidmoly.me|vidmoly.net|vidmoly.t
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=wordgames.com
 @@||wordgames.com^$generichide
 @@||dove-cameron.org^$generichide
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=smsget.net
-@@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl.js$domain=smsget.net
 @@||thesurfersview.com^$generichide
 @@||s-kip.eu^$generichide
 @@||g.doubleclick.net/pagead/managed/js/gpt/*/pubads_impl.js$domain=games.coolgames.com
@@ -13847,7 +13845,7 @@ youtube.com/get_video_info?*=adunit&
 ||googlevideo.com/videoplayback*ctier=L&*%2Cxpc%2Cctier%2C$domain=m.youtube.com|www.youtube.com
 @@||youtube.com/get_video_info*&el=editpage
 @@||youtube.com/get_video_info?*embedded$~third-party,other
-/.com\/[a-z0-9][a-z0-9]\/[a-z0-9][a-z0-9]\/.*.js$/$third-party,domain=mac-torrents.io|ling.online|pelisplushd.net|bestjavporn.com|bitchyx.it|fzmovies.host|onejav.com|extreme-down.live|animepahe.org|animepahe.com|animepahe.ru
+/.com\/[a-z0-9][a-z0-9]\/[a-z0-9][a-z0-9]\/.*.js$/$third-party,domain=ling.online|pelisplushd.net|bestjavporn.com|bitchyx.it|fzmovies.host|onejav.com|extreme-down.live|animepahe.org|animepahe.com|animepahe.ru
 /\/[0-9][0-9][0-9][0-9][0-9]$/$third-party,script,domain=toonily.com|japscan.me|animepahe.org|animepahe.com|animepahe.ru|chapmanganato.com|lilymanga.net|megacanais.com|putlocker.best|sukidesuost.info|manhuatop.org|animeworld.so|mangaworld.cx|viprow.nu|pandra.ma
 /\/[0-9][0-9][0-9][0-9][0-9][0-9]$/$third-party,script,domain=69shuba.cx|igetintopc.com|animepahe.ru|dramago.in|manhuatop.org|soap2day.day
 /[0-9][0-9][0-9][0-9][0-9]/$third-party,script,domain=kinos.to|archivebate.com|hdtodayz.to|animefenix.tv|bunkr.ph|bunkr.ci|bunkr.ph|kissasian.video
@@ -17407,7 +17405,6 @@ xxxadd.com/eureka
 ||bravotube.net/js/_p4.php
 ||c.speedtest.net/flash/*.swf|
 ||cc.cnetcontent.com/dccn/$domain=urtech.ca
-||cdm.cursecdn.com/js/chip-testing/recovery/cdmfactorem_recover2_min.js$domain=gamepedia.com
 ||cdn.adult.xyz/js/link-converter.js
 ||cdn.javgo.me/frontend/js/codepp.js
 ||cdn.subs.ro/assets/storm-systems.png
@@ -19568,7 +19565,6 @@ $csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: www.googletagma
 @@||scontent.xx.fbcdn.net/hads-ak-prn2/*.png$domain=facebook.com|facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion
 @@||themes.googleusercontent.com/static/fonts/$domain=tweaktown.com
 @@_468x60_$domain=top100arena.com
-@@||motherless.com/favorites/
 @@||192.168.$~third-party
 @@||loksatta.com/wp-content/themes/vip/loksatta/plugins/*ads*.js
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=haber7.com

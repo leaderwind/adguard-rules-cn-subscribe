@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Content
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202610220129
-! Last modified: 2026-10-22T01:29:34Z
+! Version: 202610220732
+! Last modified: 2026-10-22T07:32:08Z
 ! Layers: content
 ! Mode: standard
-! Rules: 63617
+! Rules: 63623
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -8636,7 +8636,7 @@ uozzart.com,chanjaeblog.jp,luchaonline.com,nudeslegion.com,learnodo-newtonic.com
 diarioeducacion.com,tuxnews.it,oracleerpappsguide.com###fb-root + div[id][class*=" "]
 medeberiya.net,kailaba.com,lelmak.com,sayphotobooth.com,odiadance.com,bellezashot.com,magesypro.com,pasatiemposparaimprimir.com,assignmentdon.com,berlin-teltow.de,bestofarea.com,coderblog.in,dailytips247.com,davewigstone.com,deutschpersischtv.com,domainregistrationtips.info,friedrichshainblog.de,funztv.com,healthcheckup.com,hindinest.com,infokita17.com,negative.tboys.ro,onestringlab.com,poco.rcccn.in,prensaesports.com,start-to-run.be,stimotion.pl,symboleslowianskie.pl,thegnomishgazette.com,utilidades.ecuadjsradiocorp.com,eldawly.xyz,elbadr.xyz,abda3.xyz,wisw.online,gooltok.com,cgcosplay.org,loiz.store,towerofgod.me,chevalmag.com,infinityskull.com,audiotools.blog,fattelodasolo.it,koume-in-huistenbosch.net,mens1069.com,english-dubbed.com,businessnews-nigeria.com,day4news.com,net4you.xyz,gameblog.jp,ster-blog.xyz,yazilidayim.net,pandanote.info,forexrw7.com,hyogo.ie-t.net,chatgbt.one,shrinklinker.com,felicetommasino.com,chatgptfree.ai,keroseed.net,ewybory.eu,nghetruyenma.net,azrom.net,mitaku.net,siirtolayhaber.com,japannihon.com,kllproject.lv,telephone-soudan.com###page + div[id][class]
 gameblog.in,irootapk.net,xtremestream.xyz,osmanonline.me,viciante.com.br##body > style + div[id][class*=" "] + div[class*=" "]
-yrs.li,xurl.li,gameblog.in,cybermania.ws,irootapk.net,premierftp.net,xtremestream.xyz,osmanonline.me,ladkibahin.com,finnader.com,retireally.com,cryptomeloud.com,finveeally.com,finnanced.com,finviewvibes.com,moneysally.com,pikatees.com,itdmusics.com,mrfreemium.blogspot.com,userupload.in,xtremestream.co,pornleaks.in,viciante.com.br,zippyshare.cloud,note1s.com,coingraph.us,encurtareidog.top,casperhd.com,7hd.club,onehack.us,bitcotasks.com,itdmusic.com,bg-gledai.*,pepperlive.info,starlive.xyz,topsporter.net##body > style + div[id][class*=" "]
+leeapk.com,yrs.li,xurl.li,gameblog.in,cybermania.ws,irootapk.net,premierftp.net,xtremestream.xyz,osmanonline.me,ladkibahin.com,finnader.com,retireally.com,cryptomeloud.com,finveeally.com,finnanced.com,finviewvibes.com,moneysally.com,pikatees.com,itdmusics.com,mrfreemium.blogspot.com,userupload.in,xtremestream.co,pornleaks.in,viciante.com.br,zippyshare.cloud,note1s.com,coingraph.us,encurtareidog.top,casperhd.com,7hd.club,onehack.us,bitcotasks.com,itdmusic.com,bg-gledai.*,pepperlive.info,starlive.xyz,topsporter.net##body > style + div[id][class*=" "]
 lectortaurus.com,manhuakko.com,inventariooculto.com,3xyaoi.com,mangacrab.org,tatakaescan.com,dragontranslation.org,taurus.topmanhuas.org,emperorscan.mundoalterno.org,baxoi.buzz,curiosidadtop.com,j5z.xyz,riwayat-word.com,tsubasatr.org,samuraiscan.cookni.net,galinhasamurai.com,twobluescans.com,swordalada.org,navernovel.com,marcialhub.xyz,ragnarokscanlation.net,yuramanga.my.id,nocfsb.com,scansatlanticos.com,bokugents.com,lscomic.com,samuraiscan.org,nartag.com,mhscans.com,diamondfansub.com,atlantisscan.com,tecnoscann.com,mantrazscan.com##body > .wrap + div[id][class*=" "]
 haberettim.com,thosa.info,blogenginee.com##body > #scroll-top + div[id][class*=" "]
 freevstplugins.net##body > div#site + div[id][class*=" "]
@@ -19974,12 +19974,12 @@ sourceforge.net##body > div[id^="mongo"]
 sourceforge.net##body > div[id^="at-bottom-"]
 sourceforge.net##body [id][data-banner-name]:not(#style_important)
 sourceforge.net##[id][data-mobile-slot]:not(#style_important):has(> span.close + .linkrow)
-sourceforge.net##body > [id][data-mobile-name]:not(#style_important):has(> span.close + .linkrow)
+sourceforge.net##body > [id]:is([data-mobile-name], [data-mobile-s]):not(#style_important):has(> span.close + .linkrow)
 sourceforge.net##body > [id][data-region-m]:not(#style_important):has(> span.close + .linkrow)
 sourceforge.net##[id][data-nosnippet]:not(#style_important):has(> .row > .input-card > .vibe-glow)
 sourceforge.net##[id][data-nosnippet]:not(#style_important):has(> button:is([class*="-close"], [id*="close"]) + div[class*="sticky"])
-sourceforge.net##[id][data-nosnippet]:not(#style_important):has(> .row > [class*="-row"] > [class*="-inner"] > button[data-url])
-sourceforge.net##[id][data-nosnippet]:not(#style_important):has(> div[class*="sticky"] + button:is([class*="-close"], [id*="close"], [class*="dismiss"]))
+sourceforge.net##[id][data-nosnippet]:not(#style_important):has(> * > [class*="-row"] > [class*="-inner"] > button[data-url])
+sourceforge.net##[id][data-nosnippet]:not(#style_important):has(> div:is([class*="sticky"], [class*="stiky"]) + button:is([class*="-close"], [id*="close"], [class*="dismiss"]))
 sourceforge.net##[id*="-coding-bar"]
 sourceforge.net##body [id^="vibe-main-row"]:not(#style_important)
 sourceforge.net##.l-side-column .m-sidebar-widget:has(> .body > .standard > div[data-dest*="bannerid="])
@@ -21595,6 +21595,9 @@ upornia.*#?#.video__wrapper > div.wrapper:has(> h5:contains(Suggested for you))
 hentaigifz.com##.single-side > .side-widget:has(> ins[data-zoneid])
 hentaijuggs.com##.shortcode-banner
 hentaijuggs.com##.posts-grid > div.posts-grid-item:has(> div.pgi-wrapper a[href] > img[src^="https://hentaijuggs.com/uploads/banners/"])
+myhentaicomics.com###Sliders
+myhentaicomics.com##center > div[style^="min-height:"]:has(>ins[data-revive-zoneid])
+myhentaicomics.com##.comics-grid > li.item:has(> div[class^="image-container"] > iframe, > div[class^="image-container"] > center > #native-content)
 myhentaicomics.com#$#.header-image { min-height: 0 !important; }
 sportsbay.dk##.VideoPlayer + div[style]
 allwebgames.com##div[class^="google-sticky-adv-"]
@@ -58331,6 +58334,8 @@ pv-magazine-australia.com,pv-magazine-usa.com,pv-magazine.*###home-top-rectangle
 pv-magazine-australia.com,pv-magazine-usa.com,pv-magazine.*###home-top-rectangle-wrap-2
 pv-magazine-australia.com,pv-magazine-usa.com,pv-magazine.*###home-top-rectangle-wrap-3
 laredoute.*###hp-sponsored-banner
+deliveroo.*###layout-next_category_layout_id_showcase_ads
+deliveroo.*###layout-next_category_layout_id_showcase_ads + div[class^="MenuUILayout"]
 nextpit.*###nex-footer
 nextpit.*###nex-incontent-1
 nextpit.*###nex-incontent-2
@@ -58442,6 +58447,7 @@ checkfelix.com,kayak.*,momondo.*,swoodoo.*##div[role="button"]:has(.c_3eP-badge-
 momondo.*##div[role="button"][tabindex="0"]:has(div.c_3eP-badge-content)
 checkfelix.com,kayak.*,momondo.*,swoodoo.*##div[role="link"]:has(.c_3eP-badge-content)
 autoscout24.*##img[referrerpolicy="unsafe-url"]
+deliveroo.*##li:has(> [class^="MenuItemCard"] [data-testid="sponsored-ad-tag"])
 sameday.costco.*##li:has([aria-label="Product"]):has([data-fp-eligible]):not(:has(h2))
 deliveroo.*##li:not(:has(li)):has([data-testid="promotional-sponsor-label"])
 yandex.*##li[class*="_card"]:has(a[href^="https://yandex.com/search/_crpd/"])

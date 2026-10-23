@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Android
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202610231323
-! Last modified: 2026-10-23T13:23:20Z
+! Version: 202610231818
+! Last modified: 2026-10-23T18:18:55Z
 ! Layers: network,content,scriptlet
 ! Mode: standard
-! Rules: 16884
+! Rules: 16886
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -6944,6 +6944,8 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###content_left > .r
 ##body[onresize="stopDebugger()"][onbeforecopy="return!1"] > div#root div[id^="notice_modal"]
 ##body[onresize="stopDebugger()"][onbeforecopy="return!1"] > div#root div:has(> img[src$=".gif"])
 ##body[onresize="stopDebugger()"][onbeforecopy="return!1"] > div#root div.m0auto > div > div.grid + div > div:empty
+2dfan.com##.sidebar-section--ad
+2dfan.com##.nexus-ad-corner
 girigirilove.com##.banner-ads
 newtalk.tw##.app-idle-ad-overlay
 newtalk.tw##.grid > div[class^="h-"]:has(> div[id^="compass-fit-"])

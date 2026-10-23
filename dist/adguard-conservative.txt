@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Conservative
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202610230129
-! Last modified: 2026-10-23T01:29:56Z
+! Version: 202610230726
+! Last modified: 2026-10-23T07:26:48Z
 ! Layers: network,content,scriptlet
 ! Mode: conservative
-! Rules: 108396
+! Rules: 108400
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -19357,14 +19357,14 @@ $third-party,xmlhttprequest,domain=faselhd.cafe|faselhd-watch.shop,badfilter
 ||pcchip.hr/wp-content/uploads*BANNER
 ||mob.hr/blog/wp-content/uploads/noviupload/NOA-E1-BANNER
 ||mob.hr^*-300x250.
-||sector.sk/default-*.aspx
-||sector.sk/scripts/trixam.min.js
 ||cdn.telekomunikace.cz/banners
 @@||warforum.xyz/ads.js?$script,~third-party
 ||armyweb.cz/data/presentation/$image
 ||1gr.cz/u/idn4/reklama
 @@||vlm-ads.aimatch.com/vlm/jserver/$domain=titulky.com
 ||titulky.com/mybanalter/
+||sector.sk/default-*.aspx
+||sector.sk/scripts/trixam.min.js
 ||svetserialu.*/assets/js/popads.js
 ||svetserialu.*/assets/js/ads.js
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima3,domain=cnews.cz
@@ -41736,7 +41736,6 @@ svetserialu.io,svetserialu.to,svetserialu.*##.alert_premiumExpired
 svetserialu.io,svetserialu.to,svetserialu.*##body > .loader ~ div[class][style*="z-index"]:not([id])
 infotbal.cz##div[data-elementor-type="wp-page"] > .elementor-section[data-settings*="background_background"]:has(.reklama-wrapper)
 hnonline.sk##.container div[class]:has(> div.ad--align)
-kosicak.sk##div[style^="width:100%;min-height:"]
 prozeny.cz##div[data-e2e="ogm-branding"] > div[class]:has(> div:only-child > div:only-child > div[data-e2e="mol-advert"])
 prozeny.cz,garaz.cz##div[data-e2e="mol-advert"]
 playarcady.com###content-placeholder > div[style^="position: absolute; z-index: 9999; top: 0px; left: 0px;"]
@@ -41824,6 +41823,7 @@ extra.cz##[data-advert-container]
 rychlost.cz##.t-ban
 olympijskytym.cz##div.bg-texture:has(> div[class^="ad-"])
 akcniceny.cz,autojournal.cz,idos.cz,impuls.cz,lidovky.cz,idnes.cz,expres.cz,antiyoutuber.cz##body .r-main
+kosicak.sk##div[style^="width:100%;min-height:"]
 svetserialu.io,svetserialu.to,svetserialu.*#@##ads-banner
 svetserialu.io,svetserialu.to,svetserialu.*#@##google-ads
 horoskopy.cz##div[style*="width:"][style*="max-width: 100%;"]
@@ -47898,6 +47898,7 @@ truyenqqhot.com##div[id^="ads_"]
 ##body[data-publication] aside[class^="RHRBlock_right-aside-wrapper"]
 ##body[data-publication] div.commercial-label-style
 ##body[data-publication] div[data-testid^="ncu-within-group-"]
+##body[data-publication] div[class*="BoxStyles_commercial"][class*="BoxStyles_taboola"][data-testid^="commercial-"]
 ##div[style="margin: 10px 0; position: relative;"] > div[id="overlay"][style="position: absolute; width: 100%; height: 100%; z-index: 99999;"]
 ##div[style="text-align:center;margin:0 0 8px 0;"] > div[class^="ad-"][class$="-wrapper"]
 ##.mvic-btn > a.btn-successful
@@ -49089,6 +49090,9 @@ animecorner.me,zarabiajprzez24.pl,watchhentai.xxx,app-how-to-use-it.com,linuxcap
 pawastreams.*,nflbite.to,footybite.to,sportschamp.fun,afly.pro,topsporter.net,soccerstreams.football,mysocceraustralia.com,rayinfosports.com,hesgoals.top,sequencecard.xyz,totalsportek.soccer,metaporky.site,nbabite.to,cyfostreams.com,gamerarcades.com,bestreamsports.org,footy.to,mcrypto.club,greaterkashmir.com###id-custom_banner
 pawastreams.*,groundedtechs.com,rayinfosports.com,sequencecard.xyz,matchtime.co,sportspellz.com,bestreamsports.org,silverspoon.site###dismiss-btn
 vi-control.net,nullforums.net,landyzone.co.uk,nullcave.pro,woxmax.com,waskucity.com,babia.to,technofino.in,reef2reef.com,minebbs.com,craxpro.io,affiliatefix.com,myiptvforum.com,hifivision.com,worldofiptv.com,altenen.is,beermoneyforum.com,germancarforum.com,cracking.org##.samBannerUnit
+op.gg###pubg-leaderboard-top
+op.gg##.pubg-video-header__slot
+fiercehealthcare.com##div[id="omeda-promo-article-footer olytics_injection"]
 iceporn.net#?#.video-options > div[style^="padding: 2px"]:contains(Advertising)
 iceporn.net#?#div.main > div.take_place:has(> div.caption > span:contains(Advertising))
 dictionary.search.yahoo.com##.sys_dict_top_center_ads
@@ -65775,11 +65779,11 @@ txxxporn.tube,txxx.*##.nav-left > a.nav-hover[target="_blank"]
 txxxporn.tube,txxx.*##.pplayer div.jw-title-secondary:has(a[target="_blank"])
 txxxporn.tube,txxx.*##div[class^="sugggest"]
 winaero.com##body > div[class] > #page .entry-content > .gad-gads:has(> .gad-gads-title)
-wlky.com,ksbw.com,kmbc.com,wapt.com#?#.css-1fcp6vx:has(> h2:contains(Promotions))
-ksbw.com,kmbc.com,mynbc5.com,koat.com##.article-sidelist-wrapper > div.ad-track
-koco.com,wlky.com,ketv.com,gulfcoastnewsnow.com##.article-sidelist-wrapper > div[class^="css-"]:has(> div[class^="css-"] > div[data-type] > div.ad-container)
-koco.com,4029tv.com,kcci.com,mor-tv.com,kcra.com,wlky.com,wmur.com,ksbw.com,kmbc.com,mynbc5.com,koat.com,ketv.com,gulfcoastnewsnow.com,wapt.com##div[class^="css-"]:has(> div[data-type] > div.ad-container)
-koco.com,4029tv.com,kcci.com,mor-tv.com,kcra.com,wlky.com,wmur.com,ksbw.com,kmbc.com,mynbc5.com,koat.com,ketv.com,gulfcoastnewsnow.com,wapt.com##article:has(> div[class^="css-"] > div[data-type] > div.ad-container)
+wpbf.com,4029tv.com,gulfcoastnewsnow.com,kcci.com,kcra.com,ketv.com,kmbc.com,koat.com,koco.com,ksbw.com,mor-tv.com,mynbc5.com,wapt.com,wlky.com,wmur.com#?#.css-1fcp6vx:has(> h2:contains(Promotions))
+wpbf.com,4029tv.com,gulfcoastnewsnow.com,kcci.com,kcra.com,ketv.com,kmbc.com,koat.com,koco.com,ksbw.com,mor-tv.com,mynbc5.com,wapt.com,wlky.com,wmur.com##.article-sidelist-wrapper > div.ad-track
+wpbf.com,4029tv.com,gulfcoastnewsnow.com,kcci.com,kcra.com,ketv.com,kmbc.com,koat.com,koco.com,ksbw.com,mor-tv.com,mynbc5.com,wapt.com,wlky.com,wmur.com##.article-sidelist-wrapper > div[class^="css-"]:has(> div[class^="css-"] > div[data-type] > div.ad-container)
+wpbf.com,4029tv.com,gulfcoastnewsnow.com,kcci.com,kcra.com,ketv.com,kmbc.com,koat.com,koco.com,ksbw.com,mor-tv.com,mynbc5.com,wapt.com,wlky.com,wmur.com##div[class^="css-"]:has(> div[data-type] > div.ad-container)
+wpbf.com,4029tv.com,gulfcoastnewsnow.com,kcci.com,kcra.com,ketv.com,kmbc.com,koat.com,koco.com,ksbw.com,mor-tv.com,mynbc5.com,wapt.com,wlky.com,wmur.com##article:has(> div[class^="css-"] > div[data-type] > div.ad-container)
 4029tv.com,98online.com,abc-7.com,hearst.com,kcci.com,kcra.com,ketv.com,kmbc.com,koat.com,koco.com,ksbw.com,mor-tv.com,mynbc5.com,nbc-2.com,wapt.com,wbal.com,wbaltv.com,wcvb.com,wdsu.com,wesh.com,wgal.com,wisn.com,wjcl.com,wlky.com,wlwt.com,wmtw.com,wmur.com,wpbf.com,wptz.com,wtae.com,wvtm13.com,wxii12.com,wyff4.com##.listing-page-ad
 theridgefieldpress.com,thetelegraph.com,beaumontenterprise.com,bigrapidsnews.com,chron.com,ctinsider.com,ctpost.com,darientimes.com,seattlepi.com,expressnews.com,fuelfix.com,greenwichtime.com,houstonchronicle.com,lakecountystar.com,lmtonline.com,manisteenews.com,michigansthumb.com,middletownpress.com,milfordmirror.com,mrt.com,myjournalcourier.com,myplainview.com,mysanantonio.com,ncadvertiser.com,newstimes.com,nhregister.com,ourmidland.com,recordpatriot.com,registercitizen.com,seattlepi.com,sfchronicle.com,sfgate.com,sheltonherald.com,smallbusiness.chron.com,stamfordadvocate.com,theheraldreview.com,thehour.com,theintelligencer.com,timesunion.com,trumbulltimes.com,weekand.com,wiltonbulletin.com,work.chron.com,yourconroenews.com##.ar16-9
 theridgefieldpress.com,thetelegraph.com,beaumontenterprise.com,bigrapidsnews.com,chron.com,ctinsider.com,ctpost.com,darientimes.com,seattlepi.com,expressnews.com,fuelfix.com,greenwichtime.com,houstonchronicle.com,lakecountystar.com,lmtonline.com,manisteenews.com,michigansthumb.com,middletownpress.com,milfordmirror.com,mrt.com,myjournalcourier.com,myplainview.com,mysanantonio.com,ncadvertiser.com,newstimes.com,nhregister.com,ourmidland.com,recordpatriot.com,registercitizen.com,seattlepi.com,sfchronicle.com,sfgate.com,sheltonherald.com,smallbusiness.chron.com,stamfordadvocate.com,theheraldreview.com,thehour.com,theintelligencer.com,timesunion.com,trumbulltimes.com,weekand.com,wiltonbulletin.com,work.chron.com,yourconroenews.com##.x300px > div.package.y100.none

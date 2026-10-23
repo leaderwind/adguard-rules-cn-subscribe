@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Network
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202610230726
-! Last modified: 2026-10-23T07:26:48Z
+! Version: 202610231323
+! Last modified: 2026-10-23T13:23:20Z
 ! Layers: network
 ! Mode: standard
-! Rules: 47368
+! Rules: 47371
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -6755,6 +6755,7 @@ $script,third-party,domain=torkitty.com|torkitty.net|torrentkitty.app|torrentkit
 @@||criteo.com/delivery/ajs.php?zoneid=$script,domain=gaus.ee
 @@||jd.com/adclick?$popup,~third-party
 ||wnacg.com/game/$image,rewrite=abp-resource:1x1-transparent-gif,domain=wnacg.com
+||dga9amo.website^$all
 ||profitableratecpmnetwork.com^$popup
 ||cdn.adwebcode.gr^$third-party
 ||acceptablefabric.com^$all
@@ -7953,7 +7954,7 @@ $xmlhttprequest,redirect-rule=nooptext,domain=oko.sha|aii.sh|pahe.plus|intercele
 @@||gupload.*^$generichide
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=bellezashot.com
 ||ssl.p.jwpcdn.com/player/v/*/googima.js$script,third-party,redirect-rule=noopjs
-@@||ssl.p.jwpcdn.com/player/v/8.36.2/googima.js$script,domain=vidara.to|vidara.so|xca.cymru|vindaz.shop|vidmatrixa.com|vidchampions.com|vidavaca.cc|calyro.biz|vidarae.live|vidwara.cc|vidwara.fit|viderea.site
+@@||ssl.p.jwpcdn.com/player/v/8.36.2/googima.js$script,domain=vidara.to|vidara.so|xca.cymru|vindaz.shop|vidmatrixa.com|vidchampions.com|vidavaca.cc|calyro.biz|vidarae.live|vidwara.cc|vidwara.fit|viderea.site|gaqghe.com
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$script,domain=talksport.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=talksport.com
 @@||ashesofcreation.com/show-ad.js$script
@@ -9452,6 +9453,7 @@ $xmlhttprequest,third-party,redirect-rule=noopjs,domain=bizjournals.com
 ||hentaihaven.xxx^$referrerpolicy=origin
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima3,domain=hentaihaven.xxx
 ||hentaihaven.xxx/wp-content/plugins/player-logic/player.php?$replace=/(let url = ')https:\/\/static\.ads-twitter\.com\/[\s\S]*?(';)/\$1\/\$2/
+@@||hentaihaven.xxx/ads/ads_controller.js
 @@||google.com/pagead/|$xmlhttprequest,domain=hentaihaven.xxx
 @@||googleads.github.io/|$xmlhttprequest,domain=hentaihaven.xxx
 @@||pagead2.googlesyndication.com/|$xmlhttprequest,domain=hentaihaven.xxx
@@ -20757,6 +20759,7 @@ $csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: www.googletagma
 @@||bilibili.com/*/newplayer.html$stealth=referrer
 @@||kumospace.com^$stealth=webrtc
 @@||player.glomex.com^$subdocument,stealth=referrer
+@@/embed/*$subdocument,stealth=referrer,domain=vidsrc.*|vidsrc.sh|vsembed.ru
 @@||vidsrc.*/embed/$stealth=referrer
 @@||drm.6cloud.fr^$stealth=3p-auth,domain=m6.fr
 @@||6play-users.6play.fr^$stealth=3p-auth,domain=m6.fr

@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Content
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202610230726
-! Last modified: 2026-10-23T07:26:48Z
+! Version: 202610231323
+! Last modified: 2026-10-23T13:23:20Z
 ! Layers: content
 ! Mode: standard
-! Rules: 63628
+! Rules: 63632
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -18505,6 +18505,10 @@ animecorner.me,zarabiajprzez24.pl,watchhentai.xxx,app-how-to-use-it.com,linuxcap
 pawastreams.*,nflbite.to,footybite.to,sportschamp.fun,afly.pro,topsporter.net,soccerstreams.football,mysocceraustralia.com,rayinfosports.com,hesgoals.top,sequencecard.xyz,totalsportek.soccer,metaporky.site,nbabite.to,cyfostreams.com,gamerarcades.com,bestreamsports.org,footy.to,mcrypto.club,greaterkashmir.com###id-custom_banner
 pawastreams.*,groundedtechs.com,rayinfosports.com,sequencecard.xyz,matchtime.co,sportspellz.com,bestreamsports.org,silverspoon.site###dismiss-btn
 vi-control.net,nullforums.net,landyzone.co.uk,nullcave.pro,woxmax.com,waskucity.com,babia.to,technofino.in,reef2reef.com,minebbs.com,craxpro.io,affiliatefix.com,myiptvforum.com,hifivision.com,worldofiptv.com,altenen.is,beermoneyforum.com,germancarforum.com,cracking.org##.samBannerUnit
+totalsport-ek.st##a[href^="https://knowacaliforniafarmer.com/"]
+xnxx.*,xnxx-ru.com##.mobile-menu > ul > li > a[href^="https://"]
+nerdwallet.com##div[data-nw-tracking*=" Ad "]
+hotspawn.com##div:has(> div[class]:only-child > div[class] > div[id^="placement"])
 op.gg###pubg-leaderboard-top
 op.gg##.pubg-video-header__slot
 fiercehealthcare.com##div[id="omeda-promo-article-footer olytics_injection"]
@@ -51912,8 +51916,10 @@ inoreader.com###sinner_container
 guessthe.game,guessthe.house,guesstheangle.wtf,guesstheaudio.com,guessthebook.app,guessthegrid.xyz,guessthelogo.wtf,guessthemovie.name,guessthephrase.xyz###sister-sites-ad
 pocketgamer.com###site-background
 webkinznewz.ganzworld.com###site-description
+gg.deals###site-page-feature
 animeschedule.net###site-theme
 animeschedule.net###site-theme-foot
+gg.deals###site-top-feature
 dead-frog.com###site_top
 2oceansvibe.com,pocketgamer.biz###skin
 breakingdefense.com###skin-clickthrough
@@ -54382,9 +54388,7 @@ flickr.com##.getty-widget-view
 pixabay.com##.gettyImagesContainer--7sZnR
 marketsfarm.com##.gfm-ad-network-ad
 law.cornell.edu##.gfs
-gg.deals##.gg-banner-full-link
 808fubo808.com##.gg-cat-bnner
-gg.deals##.gg-full-content-widget
 808fubo808.com##.gg-popunder
 ganjingworld.com##.ggAdZone_gg-banner-ad_zone__wK3kF
 cometbird.com##.gg_250x250
@@ -56174,7 +56178,6 @@ policyoptions.irpp.org##.single__ad
 nypost.com##.single__outbrain
 gizza.ai,mixonline.com,radioworld.com##.site-ad
 arcadeheroes.com##.site-advertisement
-gg.deals##.site-banner-top-widget
 deshdoaba.com##.site-branding
 winaero.com##.site-content > div > p[style="margin: 22px"]
 archaeology.org##.site-header__iykyk
@@ -61374,6 +61377,7 @@ baidu.com##.se-recommend-word-list,#se-recommend-word-list-container
 baidu.com##a.ball-wrapper__3BTBO.c-blocka
 baidu.com##DIV[data-module='swan-ad-fc-feed'] DIV[sid][posid][prank]
 baidu.com##.barea-ad
+baidu.com###page-copyright.se-page-copyright
 baidu.com##.ec_resitem *
 baidu.com##[data-log-view*='swan-ad-fc-ad-item']
 baidu.com###bdrainrwDragButton

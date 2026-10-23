@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Conservative
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202610230726
-! Last modified: 2026-10-23T07:26:48Z
+! Version: 202610231323
+! Last modified: 2026-10-23T13:23:20Z
 ! Layers: network,content,scriptlet
 ! Mode: conservative
-! Rules: 108400
+! Rules: 108407
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -15013,6 +15013,7 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com#?#.c-container:-abp
 boylov.xyz,boylove.cc,boyloves.fun#?#:-abp-has(> .adsbyexoclick)
 ddooo.com#?#span:-abp-has(> p:-abp-contains(高速))
 ddooo.com#?#ul:-abp-has(> dd:-abp-contains(高速))
+||dga9amo.website^$all
 ||profitableratecpmnetwork.com^$popup
 ||cdn.adwebcode.gr^$third-party
 ||acceptablefabric.com^$all
@@ -16196,7 +16197,7 @@ $xmlhttprequest,redirect-rule=nooptext,domain=oko.sha|aii.sh|pahe.plus|intercele
 @@||gupload.*^$generichide
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=bellezashot.com
 ||ssl.p.jwpcdn.com/player/v/*/googima.js$script,third-party,redirect-rule=noopjs
-@@||ssl.p.jwpcdn.com/player/v/8.36.2/googima.js$script,domain=vidara.to|vidara.so|xca.cymru|vindaz.shop|vidmatrixa.com|vidchampions.com|vidavaca.cc|calyro.biz|vidarae.live|vidwara.cc|vidwara.fit|viderea.site
+@@||ssl.p.jwpcdn.com/player/v/8.36.2/googima.js$script,domain=vidara.to|vidara.so|xca.cymru|vindaz.shop|vidmatrixa.com|vidchampions.com|vidavaca.cc|calyro.biz|vidarae.live|vidwara.cc|vidwara.fit|viderea.site|gaqghe.com
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$script,domain=talksport.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=talksport.com
 @@||ashesofcreation.com/show-ad.js$script
@@ -17661,6 +17662,7 @@ $xmlhttprequest,third-party,redirect-rule=noopjs,domain=bizjournals.com
 @@||smartnator.com/assets/js/prebid-ads.js
 ||hentaihaven.xxx^$referrerpolicy=origin
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima3,domain=hentaihaven.xxx
+@@||hentaihaven.xxx/ads/ads_controller.js
 @@||google.com/pagead/|$xmlhttprequest,domain=hentaihaven.xxx
 @@||googleads.github.io/|$xmlhttprequest,domain=hentaihaven.xxx
 @@||pagead2.googlesyndication.com/|$xmlhttprequest,domain=hentaihaven.xxx
@@ -28033,6 +28035,7 @@ $image,script,stylesheet,subdocument,third-party,xmlhttprequest,domain=animepahe
 @@||c.bunkr-cache.se^$media,stealth=referrer
 @@||reimg*.org/images/$image,stealth=referrer
 @@||player.glomex.com^$subdocument,stealth=referrer
+@@/embed/*$subdocument,stealth=referrer,domain=vidsrc.*|vidsrc.sh|vsembed.ru
 @@||cdn.anilife.*/assets/img/cover/$domain=anilife.*,stealth=referrer
 @@||transfemscience.org^$document,stealth
 @@||sportshub.to/frames$subdocument,stealth=referrer
@@ -49090,6 +49093,10 @@ animecorner.me,zarabiajprzez24.pl,watchhentai.xxx,app-how-to-use-it.com,linuxcap
 pawastreams.*,nflbite.to,footybite.to,sportschamp.fun,afly.pro,topsporter.net,soccerstreams.football,mysocceraustralia.com,rayinfosports.com,hesgoals.top,sequencecard.xyz,totalsportek.soccer,metaporky.site,nbabite.to,cyfostreams.com,gamerarcades.com,bestreamsports.org,footy.to,mcrypto.club,greaterkashmir.com###id-custom_banner
 pawastreams.*,groundedtechs.com,rayinfosports.com,sequencecard.xyz,matchtime.co,sportspellz.com,bestreamsports.org,silverspoon.site###dismiss-btn
 vi-control.net,nullforums.net,landyzone.co.uk,nullcave.pro,woxmax.com,waskucity.com,babia.to,technofino.in,reef2reef.com,minebbs.com,craxpro.io,affiliatefix.com,myiptvforum.com,hifivision.com,worldofiptv.com,altenen.is,beermoneyforum.com,germancarforum.com,cracking.org##.samBannerUnit
+totalsport-ek.st##a[href^="https://knowacaliforniafarmer.com/"]
+xnxx.*,xnxx-ru.com##.mobile-menu > ul > li > a[href^="https://"]
+nerdwallet.com##div[data-nw-tracking*=" Ad "]
+hotspawn.com##div:has(> div[class]:only-child > div[class] > div[id^="placement"])
 op.gg###pubg-leaderboard-top
 op.gg##.pubg-video-header__slot
 fiercehealthcare.com##div[id="omeda-promo-article-footer olytics_injection"]
@@ -82464,8 +82471,10 @@ inoreader.com###sinner_container
 guessthe.game,guessthe.house,guesstheangle.wtf,guesstheaudio.com,guessthebook.app,guessthegrid.xyz,guessthelogo.wtf,guessthemovie.name,guessthephrase.xyz###sister-sites-ad
 pocketgamer.com###site-background
 webkinznewz.ganzworld.com###site-description
+gg.deals###site-page-feature
 animeschedule.net###site-theme
 animeschedule.net###site-theme-foot
+gg.deals###site-top-feature
 dead-frog.com###site_top
 2oceansvibe.com,pocketgamer.biz###skin
 breakingdefense.com###skin-clickthrough
@@ -84934,9 +84943,7 @@ flickr.com##.getty-widget-view
 pixabay.com##.gettyImagesContainer--7sZnR
 marketsfarm.com##.gfm-ad-network-ad
 law.cornell.edu##.gfs
-gg.deals##.gg-banner-full-link
 808fubo808.com##.gg-cat-bnner
-gg.deals##.gg-full-content-widget
 808fubo808.com##.gg-popunder
 ganjingworld.com##.ggAdZone_gg-banner-ad_zone__wK3kF
 cometbird.com##.gg_250x250
@@ -86726,7 +86733,6 @@ policyoptions.irpp.org##.single__ad
 nypost.com##.single__outbrain
 gizza.ai,mixonline.com,radioworld.com##.site-ad
 arcadeheroes.com##.site-advertisement
-gg.deals##.site-banner-top-widget
 deshdoaba.com##.site-branding
 winaero.com##.site-content > div > p[style="margin: 22px"]
 archaeology.org##.site-header__iykyk
@@ -92505,6 +92511,7 @@ baidu.com##.se-recommend-word-list,#se-recommend-word-list-container
 baidu.com##a.ball-wrapper__3BTBO.c-blocka
 baidu.com##DIV[data-module='swan-ad-fc-feed'] DIV[sid][posid][prank]
 baidu.com##.barea-ad
+baidu.com###page-copyright.se-page-copyright
 baidu.com##.ec_resitem *
 baidu.com##[data-log-view*='swan-ad-fc-ad-item']
 baidu.com###bdrainrwDragButton

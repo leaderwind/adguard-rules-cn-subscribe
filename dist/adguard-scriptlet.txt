@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Scriptlet
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202610222218
-! Last modified: 2026-10-22T22:18:46Z
+! Version: 202610230129
+! Last modified: 2026-10-23T01:29:56Z
 ! Layers: scriptlet
 ! Mode: standard
-! Rules: 5624
+! Rules: 5619
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -4053,8 +4053,6 @@ za.gl,za.uy#%#//scriptlet('abort-current-inline-script', 'Math.floor', 'queryRnd
 za.gl,za.uy#%#//scriptlet("abort-current-inline-script", "$", "tabunder")
 inhumanity.com#%#//scriptlet("abort-on-property-read", "inhumanity_pop_var_name")
 1tamilmv.*#%#//scriptlet("abort-current-inline-script", "document.createElement", "ppu_")
-fmovies.app#%#//scriptlet("prevent-setTimeout", "et(e")
-fmovies.app#%#//scriptlet("prevent-addEventListener", "", "prefetchAdEnabled")
 bowfile.com#%#//scriptlet("abort-current-inline-script", "genlink", "onclick")
 allcalidad.club#%#//scriptlet("remove-attr", "href", "a[href]#clickfakeplayer")
 gotohole.com#%#//scriptlet("abort-current-inline-script", "onbeforeunload", "var close")
@@ -4081,7 +4079,6 @@ shtms.co,gitizle.vip,ay.live#%#//scriptlet('set-constant', 'popush', 'undefined'
 shtms.co,gitizle.vip,ay.live#%#//scriptlet('remove-attr', 'data-ppcnt_ads', 'main')
 123moviesfree.love#%#//scriptlet('noeval')
 afreesms.com#%#//scriptlet('prevent-window-open')
-pastehouse.com#%#//scriptlet('abort-current-inline-script', 'document.write', 'Banner')
 slreamplay.cc#%#//scriptlet('prevent-window-open')
 unblocked.id#%#//scriptlet("abort-current-inline-script", "document.write", "VPN")
 sunporno.com#%#//scriptlet('abort-on-property-read', 'BetterPop')
@@ -4117,7 +4114,6 @@ hentaipins.com#%#//scriptlet("abort-on-property-read", "popundrCheck")
 youtubemp3donusturucu.net#%#//scriptlet('prevent-addEventListener', 'click', 't(a)')
 pussy-hub.com#%#//scriptlet('prevent-addEventListener', 'click', 'popundr')
 straemplay.*,stre4mpay.one,powcloud.*,powstream.*,stre4mplay.*,streampiay.*,stemplay.*,steamplay.*,steanplay.*,streamp1ay.*,streanplay.*#%#//scriptlet("prevent-window-open")
-kartaplovdiv.com#%#//scriptlet('remove-attr', 'href', 'a[href="https://kartaplovdiv.com/c5/sexdating.php"]')
 givemenbastreams.com#%#//scriptlet('prevent-window-open')
 teleriumtv.com#%#//scriptlet("prevent-window-open")
 paid4.link#%#//scriptlet("prevent-window-open")
@@ -4143,7 +4139,6 @@ playsexgames.xxx#%#//scriptlet("abort-current-inline-script", "bannersRequest")
 upstream.to#%#//scriptlet("abort-on-property-read", "BetterJustream")
 upstream.to#%#//scriptlet('prevent-window-open')
 comixzilla.com#%#//scriptlet("abort-current-inline-script", "document.createElement", ".parentNode.insertBefore(")
-coursedown.com#%#//scriptlet("prevent-addEventListener", "DOMContentLoaded", "adlinkfly_url")
 latestmanga.net#%#//scriptlet("abort-on-property-write", "onClickTrigger")
 yindex.xyz#%#//scriptlet('remove-attr', 'data-ppcnt_ads|onclick', '#main[onclick*="mainClick"]')
 shemalestube.com#%#//scriptlet('prevent-window-open')

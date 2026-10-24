@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Aggressive
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202610232206
-! Last modified: 2026-10-23T22:06:11Z
+! Version: 202610240038
+! Last modified: 2026-10-24T00:38:16Z
 ! Layers: network,content,scriptlet
 ! Mode: aggressive
-! Rules: 116632
+! Rules: 116633
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -111832,6 +111832,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||octopart-analytics.com^$third-party
 ||odysee.com/api/v1/metric/
 ||odysee.com/log/
+||offer-link.com/collect-click.php
 ||ohnorobot.com/verify.pl?
 ||omnie.ai/api/ddMetric
 ||ondigitalocean.app/insight-analytics.js

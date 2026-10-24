@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Android
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202610241053
-! Last modified: 2026-10-24T10:53:47Z
+! Version: 202610241430
+! Last modified: 2026-10-24T14:30:46Z
 ! Layers: network,content,scriptlet
 ! Mode: standard
-! Rules: 16886
+! Rules: 16887
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -15984,6 +15984,7 @@ baidu.com##.se-recommend-word-list,#se-recommend-word-list-container
 baidu.com##a.ball-wrapper__3BTBO.c-blocka
 baidu.com##DIV[data-module='swan-ad-fc-feed'] DIV[sid][posid][prank]
 baidu.com##.barea-ad
+baidu.com##.detail-banner-new
 baidu.com###page-copyright.se-page-copyright
 baidu.com##.ec_resitem *
 baidu.com##[data-log-view*='swan-ad-fc-ad-item']

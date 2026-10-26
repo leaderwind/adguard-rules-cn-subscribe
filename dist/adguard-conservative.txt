@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Conservative
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202610261916
-! Last modified: 2026-10-26T19:16:20Z
+! Version: 202610262351
+! Last modified: 2026-10-26T23:51:56Z
 ! Layers: network,content,scriptlet
 ! Mode: conservative
-! Rules: 108431
+! Rules: 108433
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -92462,6 +92462,8 @@ _300x250.js
 ||missav.*/pop?url=
 x.com/*/videoads/
 /xxgg/gd*.js
+/poster/zj-gd.js
+/poster/zj-mhz-ding.js
 ||addthis.com/live/
 ||xn--*.xn--fiqs8s:
 /template/piankuwap/js/afoot.js

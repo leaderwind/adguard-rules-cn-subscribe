@@ -1,16 +1,17 @@
 ! Title: AdGuard Rules CN - Content
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202610271030
-! Last modified: 2026-10-27T10:30:40Z
+! Version: 202610271636
+! Last modified: 2026-10-27T16:36:29Z
 ! Layers: content
 ! Mode: standard
-! Rules: 63659
+! Rules: 63667
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
 ! DNS outputs are normalized and safely compressed by parent-domain coverage.
 !
+xchina.co##div[data-block-overlay]
 laosu.tech#@##carbonads
 laosu.tech#@#.ad-block
 jav224.shop,ttp229.shop,clp126.shop,hsq233.shop#@#.ad-unit:not(.textads)
@@ -212,6 +213,7 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###content_left > .r
 ##body[onresize="stopDebugger()"][onbeforecopy="return!1"] > div#root div[id^="notice_modal"]
 ##body[onresize="stopDebugger()"][onbeforecopy="return!1"] > div#root div:has(> img[src$=".gif"])
 ##body[onresize="stopDebugger()"][onbeforecopy="return!1"] > div#root div.m0auto > div > div.grid + div > div:empty
+xchina.co##div[style="container-type:inline-size"]
 pcsoft.com.cn##.m-gg4
 pcsoft.com.cn###qrcode-mask-popup
 2dfan.com##.sidebar-section--ad
@@ -8744,6 +8746,8 @@ youporn.com$$script:contains(/window\.[\s\S]*?_zone_[\s\S]*?{"zone_id":/)
 #@#.ads_banner
 ##.stickyads:not([style^="width: 32px"], [style^="width: 33px"], [style*="left: -43px"], [style*="-3"][style*="important"][style*="display: block;"], [style*="position: fixed"][style*="-188"], [style*="!important;"][style*="width:"][style*="height:"][style*="position"][style*="left:"][style*="top:"][style*="display"], [data-freestar-ad="123"]):not(:empty)
 ##.ads_banner:not([style^="width: 32px"], [style^="width: 33px"], [style*="left: -43px"], [style*="-3"][style*="important"][style*="display: block;"], [style*="position: fixed"][style*="-188"], [style*="!important;"][style*="width:"][style*="height:"][style*="position"][style*="left:"][style*="top:"][style*="display"]):not(:empty)
+ecropper.in#$#body { overflow: auto !important; }
+ecropper.in#$#div[aria-labelledby="adblock-modal-title"] { display: none !important; }
 tv.10dailythings.com#@##pageAdDiv
 tv.10dailythings.com#@#.adsDiv
 techtutorialshub.com#$#html { overflow: auto !important; }
@@ -9254,7 +9258,6 @@ flycutlink.com,arldeemix.com#$#.adblock-container { display: none !important; }
 opinary.com#@#.ad-frame
 animedb.in##.full-page
 edumail.icu$$script:contains(enable_ad_block_detector)
-decrypt.day#$#.google-aiuf { zoom: 4% !important; filter: blur(500px) !important; }
 blackhatworld.com##body > div[id][style="display: block;"]
 panel.fps.ms#@#.adContent
 emoji.gg###yousmell
@@ -9586,6 +9589,7 @@ broadwayworld.com#@#.ad-unit:not(.textads)
 broadwayworld.com#@#.ad-space
 broadwayworld.com#@#.adsbox
 chaturflix.cam#$#.adsbox.doubleclick.ad-placement { display: block !important; }
+chaturflix.cam#@#.sponsored-ad
 summarizingtool.net,allmath.com#$#.adsbox.doubleclick.ad-placement { display: block !important; }
 watchhentai.net##.detectadb
 ufreegames.com###blckr-notice
@@ -18512,6 +18516,12 @@ animecorner.me,zarabiajprzez24.pl,watchhentai.xxx,app-how-to-use-it.com,linuxcap
 pawastreams.*,nflbite.to,footybite.to,sportschamp.fun,afly.pro,topsporter.net,soccerstreams.football,mysocceraustralia.com,rayinfosports.com,hesgoals.top,sequencecard.xyz,totalsportek.soccer,metaporky.site,nbabite.to,cyfostreams.com,gamerarcades.com,bestreamsports.org,footy.to,mcrypto.club,greaterkashmir.com###id-custom_banner
 pawastreams.*,groundedtechs.com,rayinfosports.com,sequencecard.xyz,matchtime.co,sportspellz.com,bestreamsports.org,silverspoon.site###dismiss-btn
 vi-control.net,nullforums.net,landyzone.co.uk,nullcave.pro,woxmax.com,waskucity.com,babia.to,technofino.in,reef2reef.com,minebbs.com,craxpro.io,affiliatefix.com,myiptvforum.com,hifivision.com,worldofiptv.com,altenen.is,beermoneyforum.com,germancarforum.com,cracking.org##.samBannerUnit
+boyfriendtv3.com##[src^="https://www.boyfriendtv3.com/zv3/"]
+boyfriendtv3.com##.tilebar-line
+boyfriendtv3.com##.media-listing-grid > .js-quiet.mtile-x7:has(> .mtile-x7__inner-wrapper a[href^="/zv3/cam"])
+boyfriendtv3.com#?#.js-right-no-ads > div.right-rail-block:has(> div:contains(Advertisment))
+streamo.st,streamo.*##div[class]:has(> div[data-ad-format])
+progameguides.com##.leaderboard_atf
 xxxfetish.tube##a[href][target="_blank"][rel*="sponsored"]
 xxxfetish.tube##.header-promo-link
 xxxfetish.tube##.header-inner > nav > a:not([href^="https://xxxfetish.tube/"])
@@ -18847,7 +18857,6 @@ indiewire.com,robbreport.com,billboard.com,deadline.com##div[spottype="dynamic_m
 sportico.com,indiewire.com,hollywoodreporter.com,wwd.com,variety.com,billboard.com,rollingstone.com,deadline.com,vibe.com,goldderby.com,artnews.com,robbreport.com##[class] > div[id]:has(> div.boomerang)
 unicodeplus.com##.g-top
 torrentinvites.net##.focus-ad
-dulo.gd#?##root > div[class] > .fixed.inset-x-3:has(h2:contains(ads))
 fastcars1.com###popup
 fastcars1.com###adblock-modal
 fastcars1.com###lm-slideup
@@ -19050,7 +19059,6 @@ picazor.com#$#html { --top-banner: 0rem !important; }
 star-history.com##div.lg\:block > div.w-full:has(> a[href*="?utm_source"] img)
 history.com#?#div[data-sentry-element="Component"]:has(> span:contains(Advertisement))
 prydwen.gg##div[data-banner-location]
-streamo.pro##div[style^="opacity:"]:has(> section > div > div[data-ad-format])
 bossip.com##.ione-incontent-sticky-ad-wrapper
 ozbargain.com.au###sticky
 cincinnati.com##.page-main-content-container > .secondary

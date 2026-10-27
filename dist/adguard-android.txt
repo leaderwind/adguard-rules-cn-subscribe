@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Android
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202610270458
-! Last modified: 2026-10-27T04:58:56Z
+! Version: 202610271030
+! Last modified: 2026-10-27T10:30:40Z
 ! Layers: network,content,scriptlet
 ! Mode: standard
-! Rules: 16889
+! Rules: 16892
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -6944,6 +6944,8 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###content_left > .r
 ##body[onresize="stopDebugger()"][onbeforecopy="return!1"] > div#root div[id^="notice_modal"]
 ##body[onresize="stopDebugger()"][onbeforecopy="return!1"] > div#root div:has(> img[src$=".gif"])
 ##body[onresize="stopDebugger()"][onbeforecopy="return!1"] > div#root div.m0auto > div > div.grid + div > div:empty
+pcsoft.com.cn##.m-gg4
+pcsoft.com.cn###qrcode-mask-popup
 2dfan.com##.sidebar-section--ad
 2dfan.com##.nexus-ad-corner
 girigirilove.com##.banner-ads
@@ -16198,6 +16200,7 @@ iplark.com##div.search-container > [style='display: block;']
 118pan.com##.card.mt-2:nth-child(2)
 m.autohome.com.cn##section > ol
 xxooo.cf###overlay
+play.google.com#@#a[href^="intent://"]
 www.3ppp.net##DIV.bottom_fixed
 apkpure.net,apkpure.com##DIV.js-ad-slot
 dongmanhuayuan.myheartsite.com##.card-body

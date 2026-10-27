@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Aggressive
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202610262351
-! Last modified: 2026-10-26T23:51:56Z
+! Version: 202610270458
+! Last modified: 2026-10-27T04:58:56Z
 ! Layers: network,content,scriptlet
 ! Mode: aggressive
-! Rules: 116662
+! Rules: 116660
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -43320,7 +43320,6 @@ gamemodsbase.com,mc-plugin.com,joymaxtr.net,nullsto.com,gamcka.com,ebookdz.com,l
 javcl.com#$##ads1 { height: 1px !important; }
 javcl.com#@##ads1
 85tube.com#@#.ads-iframe
-pclicious.net###quads-myModal
 new.lewd.ninja#@#.stargate
 stacktv.ca,globaltv.com#@#.topAds
 stacktv.ca,globaltv.com#$#body .topAds { display: block !important; }
@@ -65330,7 +65329,7 @@ showsport-tv.com##body > div[id*="_overlay"]
 livestreamz.net##.lives-before-content
 slickdeals.net###logoarea
 slickdeals.net##div[id^="crt-adblock"]
-findaudiobook.com,pclicious.net,katmoviehd.*,nhlstream.net,nbastream.net###sidebar > #text-3
+findaudiobook.com,katmoviehd.*,nhlstream.net,nbastream.net###sidebar > #text-3
 nbastream.net##a[href^="http://v2.nflpass.net/register/"]
 nbastream.net##a[href^="http://www.sportyplay.com/"]
 nhlstream.net,nbastream.net##a[href="/watch-live/"]
@@ -96425,7 +96424,6 @@ downloadfreecourse.com#%#//scriptlet('abort-current-inline-script', 'EventTarget
 shaalaa.com#%#//scriptlet('prevent-fetch', 'www3.doubleclick.net')
 temporarymail.com#%#//scriptlet("set-constant", "adsRunningNew", "noopFunc")
 85tube.com#%#//scriptlet("set-constant", "flashvars.protect_block", "")
-pclicious.net#%#//scriptlet("set-constant", "wpquads_adblocker_check_2", "true")
 theluckygene.com#%#//scriptlet('remove-attr', 'value', 'input#poh[value]')
 leaklinks.com#%#//scriptlet('abort-current-inline-script', 'isAdBlockActive')
 infobel.com#%#//scriptlet("set-constant", "canRunAds", "true")

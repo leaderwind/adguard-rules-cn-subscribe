@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Scriptlet
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202610262351
-! Last modified: 2026-10-26T23:51:56Z
+! Version: 202610270458
+! Last modified: 2026-10-27T04:58:56Z
 ! Layers: scriptlet
 ! Mode: standard
-! Rules: 5630
+! Rules: 5629
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -1931,7 +1931,6 @@ downloadfreecourse.com#%#//scriptlet('abort-current-inline-script', 'EventTarget
 shaalaa.com#%#//scriptlet('prevent-fetch', 'www3.doubleclick.net')
 temporarymail.com#%#//scriptlet("set-constant", "adsRunningNew", "noopFunc")
 85tube.com#%#//scriptlet("set-constant", "flashvars.protect_block", "")
-pclicious.net#%#//scriptlet("set-constant", "wpquads_adblocker_check_2", "true")
 theluckygene.com#%#//scriptlet('remove-attr', 'value', 'input#poh[value]')
 leaklinks.com#%#//scriptlet('abort-current-inline-script', 'isAdBlockActive')
 infobel.com#%#//scriptlet("set-constant", "canRunAds", "true")

@@ -1,8 +1,8 @@
 ! Title: AdGuard Rules CN - Scriptlet
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202610281600
-! Last modified: 2026-10-28T16:00:45Z
+! Version: 202610282101
+! Last modified: 2026-10-28T21:01:27Z
 ! Layers: scriptlet
 ! Mode: standard
 ! Rules: 5629
@@ -4676,7 +4676,7 @@ filepost.com#%#setTimeout(function() { window.show_popup=false; window.download_
 ilive.to#%#function setOverlayHTML() {};
 ilive.to#%#function setOverlayHTML_new() {};
 ilive.to#%#setTimeout(removeOverlayHTML, 2000);
-tvtropes.org#%#//scriptlet('prevent-setTimeout', '/googletagmanager|offsetHeight|\(\);/')
+tvtropes.org#%#//scriptlet('prevent-setTimeout', '/googletagmanager|offsetHeight/')
 sms24.me#%#//scriptlet('remove-node-text', 'script', ').join(String.fromCharCode')
 sms24.me#%#//scriptlet('remove-attr', 'onerror', 'script[id][onerror]')
 index.hr#%#//scriptlet('set-constant', 'as_loader_version', '1')

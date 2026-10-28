@@ -1,8 +1,8 @@
 ! Title: AdGuard Rules CN - Network
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202610281600
-! Last modified: 2026-10-28T16:00:45Z
+! Version: 202610282101
+! Last modified: 2026-10-28T21:01:27Z
 ! Layers: network
 ! Mode: standard
 ! Rules: 47404
@@ -24292,7 +24292,6 @@ cdn.braun634.com^$third-party
 /advert.$~script,~xmlhttprequest,domain=~advert.ae|~advert.club|~advert.com.tr|~advert.ee|~advert.ge|~advert.io|~advert.media|~advert.org.pl|~motortrader.com.my
 /advertising/banners/*$image
 /adverts.$~script,~xmlhttprequest,domain=~0xacab.org|~adverts.ie|~adverts.org.ua|~github.com|~gitlab.com
-/adverts/*$~xmlhttprequest
 /advrotator_banner_largo.htm$subdocument
 /adz/js/adz.$script
 /aff/banners/*$image
@@ -42025,6 +42024,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||desipearl.com/tracker/
 ||dev.visualwebsiteoptimizer.com/*/track-
 ||dev.visualwebsiteoptimizer.com/apm
+||dev.visualwebsiteoptimizer.com/collect/events/
 ||dev.visualwebsiteoptimizer.com/ping_tpc.php
 ||digimedia.com/pageviews.php?
 ||digitaloceanspaces.com/pixel.min.js

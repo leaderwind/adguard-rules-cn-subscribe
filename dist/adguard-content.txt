@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Content
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202610290053
-! Last modified: 2026-10-29T00:53:37Z
+! Version: 202610290701
+! Last modified: 2026-10-29T07:01:32Z
 ! Layers: content
 ! Mode: standard
-! Rules: 63692
+! Rules: 63695
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -19671,7 +19671,7 @@ euronews.com##.b-sponsored-content
 upstyledaily.com##div[id^="wrapper-"][id*="-ad"]
 regfiles.net##.important-container
 xnxx.*,xnxx-ru.com###ad-footer
-xnxx.*###video-right.mobile-hide
+xnxx.*,xnxx-ru.com###video-right.mobile-hide
 every.to###main-content > section.py-6 > .border:has(> div.text-center > a[href="mailto:sponsorships@every.to"])
 defence-industry.eu##.die-ad-bar
 defence-industry.eu##.die-sidebar-ad
@@ -56875,6 +56875,8 @@ dailymail.co.uk,thisismoney.co.uk##.watermark
 watson.ch##.watson-ad
 wbal.com##.wbal-banner
 technclub.com##.wbyqkx-container
+warez-db.org##.wd-promo
+warez-db.org##.wd-vpn
 searchencrypt.com##.web-result.unloaded.sr
 swisscows.com##.web-results > .a8r-web-page
 northernvirginiamag.com##.website-header__ad--leaderboard
@@ -59063,6 +59065,7 @@ amazon.*##.s-result-item:has([data-ad-feedback])
 amazon.*##.s-result-list > .a-section:has(.sbv-ad-content-container)
 amazon.*##.sbv-video-single-product
 amazon.*##[cel_widget_id*="-creative-desktop_loom-desktop-"]
+amazon.*##[data-card-metrics-id^="universal-detail-ilm-card_"]
 amazon.*##[id^="sponsoredProducts"][id$="_feature_div"]
 amazon.*##div.s-inner-result-item > div.sg-col-inner:has(a.puis-sponsored-label-text)
 amazon.*##div[cel_widget_id*="Deals3Ads"]

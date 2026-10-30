@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Browser
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202610292017
-! Last modified: 2026-10-29T20:17:50Z
+! Version: 202610300056
+! Last modified: 2026-10-30T00:56:06Z
 ! Layers: network,content,scriptlet
 ! Mode: standard
-! Rules: 116666
+! Rules: 116668
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -86458,6 +86458,8 @@ nepallivetoday.com##.adsimage
 indianexpress.com##.adsizes
 search.b1.org##.adslabel
 healthing.ca##.adslot
+designboom.com##.adslot--box
+designboom.com##.adslot--upper
 washingtonpost.com##.adslot-c
 insidehighered.com##.adslot-top-container
 ev-database.org##.adslot_detail1

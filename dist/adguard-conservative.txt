@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Conservative
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202610311219
-! Last modified: 2026-10-31T12:19:47Z
+! Version: 202610311743
+! Last modified: 2026-10-31T17:43:25Z
 ! Layers: network,content,scriptlet
 ! Mode: conservative
-! Rules: 108559
+! Rules: 108556
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -47487,7 +47487,7 @@ asilmedia.org##a[href^="http://yangi-kinolar.ru/"]
 asilmedia.org##a[href^="https://yourbonus.online/"]
 asilmedia.org#$#.site-wrap { margin-top: 0 !important; }
 asilmedia.org###banner
-cobephim.icu##.sspp-area
+cobephim.fun##.sspp-area
 motchille.ws##div.fixed.inset-0
 vnjpclub.com##.vnjp-ad-slot
 rophim1.vip##a[href="https://colatv99.live"]
@@ -80035,6 +80035,7 @@ kliuki.bg###container > div[style="float:left;"] > div[style]
 ##.vf-ad-comments
 ##.vf-conversation-starter__ad
 ##.vf-promo-gtag
+##.vf-trending-articles__flex-wrapper
 ##.vf3-conversations-list__promo
 ##.vi-sticky-ad
 ##.video-ad-bottom
@@ -84255,7 +84256,6 @@ businessmirror.com.ph##.busin-after-content
 businessmirror.com.ph##.busin-before-content
 business2community.com##.busin-coinzilla-after-content
 business2community.com##.busin-news-placement-2nd-paragraph
-filecrypt.cc##.butt1ns button[onclick*="loc.href='/Link/"]
 w3docs.com##.buttom-ads
 thisismoney.co.uk##.button-style > [href]
 abbaspc.net##.buttonPress-116
@@ -84782,6 +84782,7 @@ phys.org##.embed-responsive-trendmd
 thebrighterside.news##.empire-organic_article__header__desktop-prefill-container
 autostraddle.com##.end-of-article-ads
 endtimeheadlines.org##.endti-widget
+mobilesyrup.com##.engagement-starter-inline
 floridianpress.com##.enhanced-text-widget
 cathstan.org##.enticement-link
 upfivedown.com##.entry > hr.wp-block-separator + .has-text-align-center
@@ -84883,12 +84884,9 @@ whosdatedwho.com##.ff-adblock
 gq.com.au##.ffNDsR
 thefilmhq.com##.fhq-home-ad
 thefilmhq.com##.fhq-news-sidebar-ad
-filecrypt.cc##.fiIItheadblockqueue4
 newser.com##.fiavur2
 crash.net##.field
 webmd.com##.fifth-para-ad
-filecrypt.cc##.filItheadbIockgueue3
-filecrypt.cc,filecrypt.co##.filItheadbIockqueue3
 telugupeople.com##.fineprint
 bestlifeonline.com,zeenews.india.com##.first-ad
 content.techgig.com##.first-arti-banner
@@ -85257,8 +85255,6 @@ provideocoalition.com##.hero-promotions
 newsnow.co.uk##.hero-wrapper
 azuremagazine.com##.hero__metadata-left-rail
 hwcooling.net##.heureka-affiliate-category
-filecrypt.cc,filecrypt.co##.hghspd
-filecrypt.cc,filecrypt.co##.hghspd + *
 daijiworld.com##.hidden-xs > [href]
 modelviewer.lol##.hidden.mb-3.md\:block
 miragenews.com##.hide-in-mob
@@ -86452,7 +86448,9 @@ eitb.eus##.publicidad_cabecera
 eitb.eus##.publicidad_robapaginas
 justetf.com##.publift-ad-container
 rvtrader.com##.publift-ad-footer
+mobilesyrup.com##.publift-ad-slot
 weatherzone.com.au##.publift-ad-wrapper
+mobilesyrup.com##.publift-ad-zone
 online-stopwatch.com##.publift-div
 online-stopwatch.com##.publift-unfixed
 text-compare.com##.publiftDiv
@@ -87488,6 +87486,7 @@ vaughn.live##.vs_v9_LTabvsLower_beta
 vsbattles.com##.vsb_ad
 vsbattles.com##.vsb_sticky
 notateslaapp.com##.vtwjhpktrbfmw
+vaultwarden.com##.vw-inline-ad
 wral.com##.vw3Klj
 horoscopes.astro-seek.com##.vyska-sense
 yaledailynews.com##.w-\[160px\]
@@ -88164,12 +88163,10 @@ everythingrf.com##[id^="wallpaper_"]
 wuxiaworld.site##[id^="wuxia-"]
 samfw.com##[name="chimera_b"]
 grabcad.com##[ng-if="model.asense"]
-filecrypt.cc##[onclick*="/linkonclick.com/"]
 buzzheavier.com##[onclick="downloadAd()"]
 survivopedia.com##[onclick="recordClick("]
 timesofindia.indiatimes.com##[onclick="stpPgtn(event)"]
 qvc.com##[onclick^="cmCreateManualLinkClickTag"]
-filecrypt.cc,filecrypt.co##[onclick^="var lj"]
 haxmac.cc,haxnode.net##[onclick^="window.open"]
 transfermarkt.co.uk##[referrerpolicy]
 appleinsider.com,dappradar.com,euroweeklynews.com,metro.co.uk,tld-list.com,twitch-tools.rootonline.de,wccftech.com##[rel*="sponsored"]

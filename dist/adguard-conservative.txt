@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Conservative
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202611011505
-! Last modified: 2026-11-01T15:05:02Z
+! Version: 202611011939
+! Last modified: 2026-11-01T19:39:22Z
 ! Layers: network,content,scriptlet
 ! Mode: conservative
-! Rules: 108558
+! Rules: 108562
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -15047,6 +15047,7 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com#?#.c-container:-abp
 boylov.xyz,boylove.cc,boyloves.fun#?#:-abp-has(> .adsbyexoclick)
 ddooo.com#?#span:-abp-has(> p:-abp-contains(高速))
 ddooo.com#?#ul:-abp-has(> dd:-abp-contains(高速))
+||digitaloceanspaces.com/dtek/$all
 ||adsgravity.io^$third-party
 ||dga9amo.website^$all
 ||profitableratecpmnetwork.com^$popup
@@ -16242,7 +16243,7 @@ $xmlhttprequest,redirect-rule=nooptext,domain=oko.sha|aii.sh|pahe.plus|intercele
 @@||gupload.*^$generichide
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=bellezashot.com
 ||ssl.p.jwpcdn.com/player/v/*/googima.js$script,third-party,redirect-rule=noopjs
-@@||ssl.p.jwpcdn.com/player/v/8.36.2/googima.js$script,domain=vidara.to|vidara.so|xca.cymru|vindaz.shop|vidmatrixa.com|vidchampions.com|vidavaca.cc|calyro.biz|vidarae.live|vidwara.cc|vidwara.fit|viderea.site|gaqghe.com|gasobni.com|sugbaioug.com|g8w90qhngo.com
+@@||ssl.p.jwpcdn.com/player/v/8.36.2/googima.js$script,domain=vidara.to|vidara.so|xca.cymru|vindaz.shop|vidmatrixa.com|vidchampions.com|vidavaca.cc|calyro.biz|vidarae.live|vidwara.cc|vidwara.fit|viderea.site|gaqghe.com|gasobni.com|sugbaioug.com|g8w90qhngo.com|as9u7bgh9.com
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$script,domain=talksport.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=talksport.com
 @@||ashesofcreation.com/show-ad.js$script
@@ -49179,6 +49180,7 @@ adblock.turtlecute.org##button[style*="data:image"]
 adblock.turtlecute.org##.test_block div[id$="_test"]
 maritime-executive.com##.l1-ads-wrapper
 mavericktruckclub.com##.xpress_articleList > div[data-insertion-position]
+streamable.com###loop-theme-variables-container > div.flex > div.justify-center:has(a[href="https://streamable.com/pricing"])
 softpedia.com##a[href="https://www.aptum.com/"]
 softpedia.com###_progfloat
 scamadviser.com##.affiliate-block
@@ -84073,6 +84075,7 @@ newzit.com##.big_WcxYT
 gamemodding.com##.big_banner
 hellenicshippingnews.com##.bigbanner
 advocate.com##.bigbox_top_ad-wrap
+smartshanghai.com##.bigboxes:has(> a[href^="https://www.smartshanghai.com/ads/"])
 snokido.com##.bigsquare
 9gag.com,aerotime.aero,autotrader.ca,blackpoolgazette.co.uk,bundesliga.com,dev.to,farminglife.com,hotstar.com,ipolitics.ca,lep.co.uk,northamptonchron.co.uk,qpbriefing.com,scotsman.com,shieldsgazette.com,talksport.com,the-sun.com,thescottishsun.co.uk,thestar.co.uk,thesun.co.uk,thesun.ie##.billboard
 thethaiger.com##.billboard-container-fw
@@ -87501,6 +87504,7 @@ audioxpress.com##.waitress
 swimcompetitive.com##.waldo-display-unit
 flightconnections.com##.waldo-footer
 wetransfer.com##.wallpaper
+smartshanghai.com##.wallpaper-ad-link
 goodfon.com##.wallpapers__banner240
 dailymail.co.uk,thisismoney.co.uk##.watermark
 watson.ch##.watson-ad
@@ -91050,7 +91054,7 @@ sunporno.com##.close-invid
 abxxx.com##.close-play__container
 gays-cruising.com##.cnt_dccxxviii_cclxv
 gays-cruising.com##.cnt_dccxxviii_xc
-fap-nation.com,fyptt.to,gamegill.com,isekaitube.com,japaneseasmr.com##.code-block
+fap-nation.com,fyptt.to,gamegill.com,instavipclub.com,isekaitube.com,japaneseasmr.com##.code-block
 tube8.com,tube8.es,tube8.fr##.col-3-lg.col-4-md.col-4
 playvids.com##.col-lg-6.col-xl-4
 taxidrivermovie.com##.col-pfootban

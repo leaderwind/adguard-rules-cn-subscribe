@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Content
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202611021541
-! Last modified: 2026-11-02T15:41:19Z
+! Version: 202611022330
+! Last modified: 2026-11-02T23:30:27Z
 ! Layers: content
 ! Mode: standard
-! Rules: 63761
+! Rules: 63763
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -18550,6 +18550,7 @@ animecorner.me,zarabiajprzez24.pl,watchhentai.xxx,app-how-to-use-it.com,linuxcap
 pawastreams.*,nflbite.to,footybite.to,sportschamp.fun,afly.pro,topsporter.net,soccerstreams.football,mysocceraustralia.com,rayinfosports.com,hesgoals.top,sequencecard.xyz,totalsportek.soccer,metaporky.site,nbabite.to,cyfostreams.com,gamerarcades.com,bestreamsports.org,footy.to,mcrypto.club,greaterkashmir.com###id-custom_banner
 pawastreams.*,groundedtechs.com,rayinfosports.com,sequencecard.xyz,matchtime.co,sportspellz.com,bestreamsports.org,silverspoon.site###dismiss-btn
 vi-control.net,nullforums.net,landyzone.co.uk,nullcave.pro,woxmax.com,waskucity.com,babia.to,technofino.in,reef2reef.com,minebbs.com,craxpro.io,affiliatefix.com,myiptvforum.com,hifivision.com,worldofiptv.com,altenen.is,beermoneyforum.com,germancarforum.com,cracking.org##.samBannerUnit
+premierleague.com##.global-ad-slot
 sportsmole.co.uk##.akcelo-wrapper
 neoteo.com##.neoteo-adsense-slot
 watchporn.to##.ayb
@@ -56789,6 +56790,7 @@ thumbsnap.com##.ts-blurb-wrap
 thesimsresource.com##.tsr-ad
 yidio.com##.tt
 telecomtalk.info##.tt-ad
+tweaktown.com##.tt-price-board
 telegraphindia.com##.ttdadbox310
 roseindia.net##.tutorialsstaticdata
 tvtropes.org##.tvtropes-ad-unit
@@ -57603,8 +57605,10 @@ appleinsider.com,dappradar.com,euroweeklynews.com,metro.co.uk,tld-list.com,twitc
 warecracks.com,websiteoutlook.com##[rel="nofollow"]
 unknowncheats.me##[rel^="sponsored"]
 justjared.com#$#[role="banner"] { top:0 !important }
+adblock.turtlecute.org##[role="link"]
 myanimelist.net##[src*="/c/img/images/event/"]
 audioz.download##[src*="/promo/"]
+adblock.turtlecute.org##[src*="blob:"]
 bleepingcomputer.com##[src*="https://www.bleepstatic.com/c/t/threatlocker/"]
 transfermarkt.com##[src*="https://www.transfermarkt.com/image/"]
 wallpaperaccess.com##[src="/continue.png"]
@@ -63438,8 +63442,6 @@ justjared.com##.banner-spacer-top {max-height: 50px !important;}
 temp-mail.io##.fixed.bottom-0.\[\@media\(max-width\:1350px\)\]\:hidden
 complex.com##.lg\:top-\[var\(--sticky-top\)\]
 justjared.com##[role="banner"] {top:0 !important}
-adblock.turtlecute.org##[role="link"]
-adblock.turtlecute.org##[src*="blob:"]
 discord.com#?#.wrapper__0d616:has-text(Get Reward)
 gamedev.net#?#.dark\:border-gray-700:has-text(Advertisement)
 deliveroo.*#?#a[role="button"]:has(p:has-text(Sponsored))

@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Network
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202611021541
-! Last modified: 2026-11-02T15:41:19Z
+! Version: 202611022330
+! Last modified: 2026-11-02T23:30:27Z
 ! Layers: network
 ! Mode: standard
-! Rules: 47438
+! Rules: 47441
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -9060,6 +9060,8 @@ $subdocument,~third-party,domain=pussyspace.com|pussyspace.net
 @@||www.pussyspace.net/style/img/navbg.hover.png|
 @@||upfilesgo.com^$generichide
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=falpus.com|fooak.com|upfiles-urls.com|upfiles.app|upfion.com
+@@||orbsdiacle.com^$domain=upfilesgo.com
+@@||adsboosters.xyz^$script,domain=upfilesgo.com
 @@||c.amazon-adsystem.com/aax2/apstag.js$domain=upfilesgo.com|upplinks.net|upfion.com|upfiles.app|upfiles-urls.com|falpus.com|fooak.com
 @@||cdn.taboola.com/libtrc/loader.js$xmlhttprequest,domain=upfilesgo.com|upplinks.net|upfion.com|upfiles.app|upfiles-urls.com|falpus.com|fooak.com
 @@||citynews.ca/*/get_ad_$domain=citynews.ca
@@ -20023,6 +20025,7 @@ $csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: www.googletagma
 @@||img-reserve.reimg2.org/images/$stealth=referrer
 @@.dat|$xmlhttprequest,stealth=referrer,domain=bingebang.st
 @@||log.rlsbb.in^$stealth=ip
+@@||log.rlsbb.to^$stealth=ip
 @@||speedwebgo.com^$stealth=referrer,domain=blacktoon426.com
 @@||toho-one.com^$stealth=referrer,domain=toho-one.com
 @@/embed/tv/*$subdocument,stealth=referrer,domain=player.unlimitedfiles.xyz
@@ -31883,6 +31886,7 @@ $popup,third-party,domain=1337x.buzz|adblockeronstape.me|adblockeronstreamtape.m
 ||rx.link^$popup,domain=uploadgig.com
 ||s.click.aliexpress.com^$popup,domain=dzapk.com|up-4ever.net
 ||sendspace.com/defaults/sendspace-pop.html$popup
+||shockvpn.com^$popup,domain=turtlecute.org
 ||short.bitchute.com^$popup
 ||skycheats.com^$popup,domain=elitepvpers.com
 ||t.co^$popup,domain=hltv.org
@@ -34493,7 +34497,6 @@ template/m1938pc/ads/*.js
 ||2mdn.net/videoplayback/$rewrite=abp-resource:blank-mp4,domain=laurelberninteriors.com|safeframe.googlesyndication.com
 ||googlevideo.com/videoplayback?$rewrite=abp-resource:blank-mp4,domain=laurelberninteriors.com|safeframe.googlesyndication.com
 ||innovid.com/media/encoded/*.mp4$rewrite=abp-resource:blank-mp4,domain=ktla.com
-||shockvpn.com^$popup,domain=turtlecute.org
 ||aucdn.net/library/*.mp4$rewrite=abp-resource:blank-mp4,domain=txnhh.com|xnxx.com|xvideos.com|xvv1deos.com
 ||cdn.miohentai.com/partners/$rewrite=abp-resource:blank-mp4,domain=miohentai.com
 ||cfgr3.com/videos/*.mp4$rewrite=abp-resource:blank-mp4,domain=hitbdsm.com

@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Windows
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202611021541
-! Last modified: 2026-11-02T15:41:19Z
+! Version: 202611022330
+! Last modified: 2026-11-02T23:30:27Z
 ! Layers: network,content,scriptlet
 ! Mode: standard
-! Rules: 116752
+! Rules: 116758
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -17696,6 +17696,8 @@ $subdocument,~third-party,domain=pussyspace.com|pussyspace.net
 @@||www.pussyspace.net/style/img/navbg.hover.png|
 @@||upfilesgo.com^$generichide
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=falpus.com|fooak.com|upfiles-urls.com|upfiles.app|upfion.com
+@@||orbsdiacle.com^$domain=upfilesgo.com
+@@||adsboosters.xyz^$script,domain=upfilesgo.com
 @@||c.amazon-adsystem.com/aax2/apstag.js$domain=upfilesgo.com|upplinks.net|upfion.com|upfiles.app|upfiles-urls.com|falpus.com|fooak.com
 @@||cdn.taboola.com/libtrc/loader.js$xmlhttprequest,domain=upfilesgo.com|upplinks.net|upfion.com|upfiles.app|upfiles-urls.com|falpus.com|fooak.com
 @@||citynews.ca/*/get_ad_$domain=citynews.ca
@@ -28659,6 +28661,7 @@ $csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: www.googletagma
 @@||img-reserve.reimg2.org/images/$stealth=referrer
 @@.dat|$xmlhttprequest,stealth=referrer,domain=bingebang.st
 @@||log.rlsbb.in^$stealth=ip
+@@||log.rlsbb.to^$stealth=ip
 @@||speedwebgo.com^$stealth=referrer,domain=blacktoon426.com
 @@||toho-one.com^$stealth=referrer,domain=toho-one.com
 @@/embed/tv/*$subdocument,stealth=referrer,domain=player.unlimitedfiles.xyz
@@ -40519,6 +40522,7 @@ $popup,third-party,domain=1337x.buzz|adblockeronstape.me|adblockeronstreamtape.m
 ||rx.link^$popup,domain=uploadgig.com
 ||s.click.aliexpress.com^$popup,domain=dzapk.com|up-4ever.net
 ||sendspace.com/defaults/sendspace-pop.html$popup
+||shockvpn.com^$popup,domain=turtlecute.org
 ||short.bitchute.com^$popup
 ||skycheats.com^$popup,domain=elitepvpers.com
 ||t.co^$popup,domain=hltv.org
@@ -52044,6 +52048,7 @@ animecorner.me,zarabiajprzez24.pl,watchhentai.xxx,app-how-to-use-it.com,linuxcap
 pawastreams.*,nflbite.to,footybite.to,sportschamp.fun,afly.pro,topsporter.net,soccerstreams.football,mysocceraustralia.com,rayinfosports.com,hesgoals.top,sequencecard.xyz,totalsportek.soccer,metaporky.site,nbabite.to,cyfostreams.com,gamerarcades.com,bestreamsports.org,footy.to,mcrypto.club,greaterkashmir.com###id-custom_banner
 pawastreams.*,groundedtechs.com,rayinfosports.com,sequencecard.xyz,matchtime.co,sportspellz.com,bestreamsports.org,silverspoon.site###dismiss-btn
 vi-control.net,nullforums.net,landyzone.co.uk,nullcave.pro,woxmax.com,waskucity.com,babia.to,technofino.in,reef2reef.com,minebbs.com,craxpro.io,affiliatefix.com,myiptvforum.com,hifivision.com,worldofiptv.com,altenen.is,beermoneyforum.com,germancarforum.com,cracking.org##.samBannerUnit
+premierleague.com##.global-ad-slot
 sportsmole.co.uk##.akcelo-wrapper
 neoteo.com##.neoteo-adsense-slot
 watchporn.to##.ayb
@@ -90283,6 +90288,7 @@ thumbsnap.com##.ts-blurb-wrap
 thesimsresource.com##.tsr-ad
 yidio.com##.tt
 telecomtalk.info##.tt-ad
+tweaktown.com##.tt-price-board
 telegraphindia.com##.ttdadbox310
 roseindia.net##.tutorialsstaticdata
 tvtropes.org##.tvtropes-ad-unit
@@ -91097,8 +91103,10 @@ appleinsider.com,dappradar.com,euroweeklynews.com,metro.co.uk,tld-list.com,twitc
 warecracks.com,websiteoutlook.com##[rel="nofollow"]
 unknowncheats.me##[rel^="sponsored"]
 justjared.com#$#[role="banner"] { top:0 !important }
+adblock.turtlecute.org##[role="link"]
 myanimelist.net##[src*="/c/img/images/event/"]
 audioz.download##[src*="/promo/"]
+adblock.turtlecute.org##[src*="blob:"]
 bleepingcomputer.com##[src*="https://www.bleepstatic.com/c/t/threatlocker/"]
 transfermarkt.com##[src*="https://www.transfermarkt.com/image/"]
 wallpaperaccess.com##[src="/continue.png"]
@@ -96298,6 +96306,7 @@ pussyspace.com,pussyspace.net#%#//scriptlet('set-constant', 'registerLazyExo', '
 pussyspace.com,pussyspace.net#%#//scriptlet('prevent-addEventListener', '', '=loader')
 pussyspace.com,pussyspace.net#%#//scriptlet('prevent-requestAnimationFrame', 'exoframe')
 pussyspace.com,pussyspace.net#%#//scriptlet('prevent-addEventListener', 'load', 'creativeLoaded-')
+upfilesgo.com#%#//scriptlet('set-constant', 'window.vhit.detectAdblock', 'noopFunc')
 upfilesgo.com,upplinks.net,upfion.com,upfiles.app,upfiles-urls.com,falpus.com,fooak.com#%#//scriptlet('prevent-fetch', 'pagead2.googlesyndication.com')
 upfilesgo.com,upplinks.net,upfion.com,upfiles.app,upfiles-urls.com,falpus.com,fooak.com#%#(()=>{const e=Object.getOwnPropertyDescriptor(Element.prototype,"innerHTML").set,t=Object.getOwnPropertyDescriptor(Element.prototype,"innerHTML").get;Object.defineProperty(Element.prototype,"innerHTML",{get(){return t.call(this)},set(t){if(t?.includes?.("disable Adblock"))return;e.call(this,t)}})})();
 upfilesgo.com,upplinks.net,upfion.com,upfiles.app,upfiles-urls.com,falpus.com,fooak.com#%#(()=>{const t=/free-download-form|'\),_0x|\)\]\(function\(_0x|=>\{return/,e={apply:(t,e,o)=>{const n=o[0];"boolean"==typeof n&&!0===n&&(o[0]=!1),setTimeout((()=>Reflect.apply(t,e,o)),2e3)}},o={apply:(o,n,r)=>{const i=r[0];return"function"==typeof i&&t.test(i.toString())&&(r[0]=new Proxy(r[0],e)),Reflect.apply(o,n,r)}};window.Promise.prototype.then=new Proxy(window.Promise.prototype.then,o);const n=async t=>{t.preventDefault();const e=t.currentTarget;"function"==typeof window.vhit?.report&&await window.vhit.report(),e.form.requestSubmit(e)};window.addEventListener("load",(()=>{const t=document.querySelector("form#go-link button#link-button");if(t){const e=t.cloneNode(!0);t.parentNode.replaceChild(e,t),e.removeAttribute("disabled"),e.addEventListener("click",n)}}))})();
@@ -103463,7 +103472,6 @@ yatu.tv,yhdm7.com,yhdm95.com,xdm530.com##+js(aopw,document.oncontextmenu)
 ||2mdn.net/videoplayback/$rewrite=abp-resource:blank-mp4,domain=laurelberninteriors.com|safeframe.googlesyndication.com
 ||googlevideo.com/videoplayback?$rewrite=abp-resource:blank-mp4,domain=laurelberninteriors.com|safeframe.googlesyndication.com
 ||innovid.com/media/encoded/*.mp4$rewrite=abp-resource:blank-mp4,domain=ktla.com
-||shockvpn.com^$popup,domain=turtlecute.org
 ||aucdn.net/library/*.mp4$rewrite=abp-resource:blank-mp4,domain=txnhh.com|xnxx.com|xvideos.com|xvv1deos.com
 ||cdn.miohentai.com/partners/$rewrite=abp-resource:blank-mp4,domain=miohentai.com
 ||cfgr3.com/videos/*.mp4$rewrite=abp-resource:blank-mp4,domain=hitbdsm.com
@@ -103478,8 +103486,6 @@ justjared.com##.banner-spacer-top {max-height: 50px !important;}
 temp-mail.io##.fixed.bottom-0.\[\@media\(max-width\:1350px\)\]\:hidden
 complex.com##.lg\:top-\[var\(--sticky-top\)\]
 justjared.com##[role="banner"] {top:0 !important}
-adblock.turtlecute.org##[role="link"]
-adblock.turtlecute.org##[src*="blob:"]
 discord.com#?#.wrapper__0d616:has-text(Get Reward)
 gamedev.net#?#.dark\:border-gray-700:has-text(Advertisement)
 deliveroo.*#?#a[role="button"]:has(p:has-text(Sponsored))

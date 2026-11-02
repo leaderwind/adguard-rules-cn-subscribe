@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Browser
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202611012334
-! Last modified: 2026-11-01T23:34:57Z
+! Version: 202611020557
+! Last modified: 2026-11-02T05:57:54Z
 ! Layers: network,content,scriptlet
 ! Mode: standard
-! Rules: 116717
+! Rules: 116729
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -22535,6 +22535,9 @@ $image,third-party,denyallow=googleapis.com,domain=vipbox1.org
 $third-party,script,domain=klto9.com|f2movies.to|hacamchicac.com|yourporngod.com|zinchanmanga.com|yaoimangaonline.com|tututweak.app|mangaraw.lc|eromanga-show.com|hentai-one.com|hentaipaw.com|nukibooks.com|paipancon.com|jgvdata.com|youtubevanced.com|pandamtl.com|mangaplus.shueisha.tv|shueisharaw.tv
 ||linksconsole.com/ad-system/
 ||misc-api.feathermc.com/*/ads/ad_units?
+||boyfriend.tv/*/b/?videoId=$subdocument
+||boyfriend.tv/api/*^advertiserName=
+||boyfriend.tv/bftv/www/js-v*/tab-flow-loader.min.js
 *$third-party,domain=adblock.turtlecute.org
 ||adblock.turtlecute.org/js/*ad
 ||dbnaked.com/api/limited-time-offers/
@@ -43195,6 +43198,7 @@ ufacw.com###adb
 beelink.pro###adb
 javdock.com#@#.ad-placement
 fcportables.com#$#.content-main-wrap ~ div[id][style*="border-block-style"]:not([class]) { display: none !important; }
+fcportables.com#$#html { overflow: auto !important; }
 fcportables.com#$#body { overflow: auto !important; }
 fcportables.com##div[class^="popup"][class$="wrap"][id]
 pornleaks.in,comohoy.com##div[id^="anti-adblock-"]
@@ -52032,6 +52036,12 @@ animecorner.me,zarabiajprzez24.pl,watchhentai.xxx,app-how-to-use-it.com,linuxcap
 pawastreams.*,nflbite.to,footybite.to,sportschamp.fun,afly.pro,topsporter.net,soccerstreams.football,mysocceraustralia.com,rayinfosports.com,hesgoals.top,sequencecard.xyz,totalsportek.soccer,metaporky.site,nbabite.to,cyfostreams.com,gamerarcades.com,bestreamsports.org,footy.to,mcrypto.club,greaterkashmir.com###id-custom_banner
 pawastreams.*,groundedtechs.com,rayinfosports.com,sequencecard.xyz,matchtime.co,sportspellz.com,bestreamsports.org,silverspoon.site###dismiss-btn
 vi-control.net,nullforums.net,landyzone.co.uk,nullcave.pro,woxmax.com,waskucity.com,babia.to,technofino.in,reef2reef.com,minebbs.com,craxpro.io,affiliatefix.com,myiptvforum.com,hifivision.com,worldofiptv.com,altenen.is,beermoneyforum.com,germancarforum.com,cracking.org##.samBannerUnit
+boyfriend.tv##li:has(> a[href^="https://www.boyfriend.tv/zv3/"])
+boyfriend.tv##div[style="position:relative"]:has(> .zn-label)
+boyfriend.tv##.js-toggle-content-wrapper:has(a[href*="/cam?"])
+boyfriend.tv##.right-rail-block
+shrinkme.click###link-view > div.smads
+shrinkme.click##.box-main > div.smads
 pewpewtactical.com##.header-leaderboard-ad
 pewpewtactical.com##.midpost-ad__1
 ani.pm##.tk-promo
@@ -68749,7 +68759,7 @@ bdsmx.tube,mrgay.com,mrgay.tube,xjav.tube,01tube.com,in-porn.com,boobse.com,only
 01tube.com,gfthai.com,boobse.com,keporn.com,peporn.com,teen21.com,ourgay.tube,pornuse.com,uanal.com,pornl.tube,xshemale.tube,keporn.vip,fuxxx.com,pornl.com##.video-ntv-wrapper
 pornclassic.tube,hclips.com,tubepornclassic.com,upornia.*,privatehomeclips.com##.btn-hardlink
 xmilf.com,blackporn.tube,in-porn.com,blackporn.tube,inporn.com,mrgay.tube,mrgay.com,pornclassic.tube,upornia.*##div[class$="wrapper"] > section[style]
-hclips.com,pornclassic.tube,gaytxxx.com,vjav.tube,vjav.com,transtxxx.com,upornia.*,txxxporn.tube,txxx.*##.video-videos-slider
+ooxxx.com,hclips.com,pornclassic.tube,gaytxxx.com,vjav.tube,vjav.com,transtxxx.com,upornia.*,txxxporn.tube,txxx.*##.video-videos-slider
 transtxxx.com,shemalez.*,gaytxxx.com,thegay.com,thegay.tube,hdzog.com,vjav.*,hotmovs.*,privatehomeclips.com,txxxporn.tube,txxx.*##div[style="display:flex !important"] > div
 blackporn.tube,01tube.com,vjav.tube,hclips.com,upornia.com,in-porn.com,boobse.com,tubepornclassic.com,pornl.com,pornl.tube,vjav.com,ourgay.tube,pornclassic.tube,porn-latina.com,lesbigo.com,privatehomeclips.com,manysex.*,xmilf.com,inporn.com,xshemale.tube,ourgay.com,ooxxx.com##.tag__item:has(> a[target="_blank"][href])
 01tube.com,gfthai.com,boobse.com,keporn.vip,fuxxx.com,keporn.com,peporn.com,teen21.com,ourgay.tube,pornuse.com,uanal.com,pornl.tube,xshemale.tube,ourgay.com,lesbigo.com,porn-latina.com,pornl.com,ooxxx.com,privatehomeclips.com##section[style="padding: 20px;"]
@@ -99474,6 +99484,8 @@ www.youtube.com#%#//scriptlet('json-prune', '$.playerResponse[?(@.cards&&!@.play
 m.youtube.com#%#//scriptlet('json-prune-fetch-response', '$..itemSectionRenderer.contents[?(@.adSlotRenderer)]', '', '/get_watch')
 m.youtube.com#%#//scriptlet('json-prune', 'playerResponse.messages.[].youThereRenderer')
 m.youtube.com#%#(()=>{const t={apply:(t,e,n)=>{if(location.href.includes("/shorts/")||location.href.includes("youtube.com/tv")||location.href.includes("youtube.com/embed/"))return Reflect.apply(t,e,n);try{const a=n[0];if(!a?.context?.client)return Reflect.apply(t,e,n);const o=String(Date.now());a.playbackContext&&void 0===a.playbackContext.adPlaybackContext&&(a.playbackContext.contentPlaybackContext.lactMilliseconds=o),a.playerRequest&&void 0===a.playerRequest.playbackContext?.adPlaybackContext&&(a.playerRequest.playbackContext.contentPlaybackContext.lactMilliseconds=o),n[0]=a}catch(t){}return Reflect.apply(t,e,n)}};window.JSON.stringify=new Proxy(window.JSON.stringify,t)})();
+boyfriend.tv#%#//scriptlet('abort-current-inline-script', 'document.createElement', 'page-shell')
+boyfriend.tv#%#//scriptlet('prevent-addEventListener', 'click', 'window.open')
 bowfile.com#%#//scriptlet('prevent-addEventListener', 'click', '\u')
 intercelestial.com#%#//scriptlet('set-constant', 'navigator.webdriver', 'true')
 goflix.sbs#%#//scriptlet('prevent-eval-if', 'charCodeAt')

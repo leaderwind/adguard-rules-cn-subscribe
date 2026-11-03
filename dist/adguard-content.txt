@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Content
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202611031504
-! Last modified: 2026-11-03T15:04:47Z
+! Version: 202611032103
+! Last modified: 2026-11-03T21:03:31Z
 ! Layers: content
 ! Mode: standard
-! Rules: 63785
+! Rules: 63791
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -1358,6 +1358,9 @@ league-funny.com##.google_more
 league-funny.com##.widgetBox.w300600
 league-funny.com##.widgetBox.w728Bottom
 league-funny.com##.right > .fansCard
+league-funny.com##div[class*="h-[250px]"]:has(> div[id^="div-gpt-"]:only-child)
+league-funny.com##section.w-full > .border-b:has(> .hidden > div[id^="div-gpt-"]:only-child)
+league-funny.com###feedDetail > div:not([class], [id], [data-html-content]):has(> #PC_AD_Block)
 avbebe.com###wrapper > div[align="center"]
 avbebe.com###content > div.single-post > div[align="center"]
 avbebe.com##.sidebar > .xoxo > li[id^="text-"]
@@ -18557,6 +18560,9 @@ animecorner.me,zarabiajprzez24.pl,watchhentai.xxx,app-how-to-use-it.com,linuxcap
 pawastreams.*,nflbite.to,footybite.to,sportschamp.fun,afly.pro,topsporter.net,soccerstreams.football,mysocceraustralia.com,rayinfosports.com,hesgoals.top,sequencecard.xyz,totalsportek.soccer,metaporky.site,nbabite.to,cyfostreams.com,gamerarcades.com,bestreamsports.org,footy.to,mcrypto.club,greaterkashmir.com###id-custom_banner
 pawastreams.*,groundedtechs.com,rayinfosports.com,sequencecard.xyz,matchtime.co,sportspellz.com,bestreamsports.org,silverspoon.site###dismiss-btn
 vi-control.net,nullforums.net,landyzone.co.uk,nullcave.pro,woxmax.com,waskucity.com,babia.to,technofino.in,reef2reef.com,minebbs.com,craxpro.io,affiliatefix.com,myiptvforum.com,hifivision.com,worldofiptv.com,altenen.is,beermoneyforum.com,germancarforum.com,cracking.org##.samBannerUnit
+nbcboston.com##.taboola__post
+nbcboston.com#$?#.home-module_ad { remove: true; }
+thewrap.com##.display > .display-wrapper:has(> iframe[sandbox^="allow-scripts"])
 skysports.com###floated-mpu
 rrr.org.au##span[data-view-fetch-ad]
 gg.deals##.flash-container-wrapper

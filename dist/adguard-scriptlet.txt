@@ -1,8 +1,8 @@
 ! Title: AdGuard Rules CN - Scriptlet
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202611040905
-! Last modified: 2026-11-04T09:05:12Z
+! Version: 202611041712
+! Last modified: 2026-11-04T17:12:44Z
 ! Layers: scriptlet
 ! Mode: standard
 ! Rules: 5651
@@ -465,7 +465,6 @@ hogtiehub.com#%#//scriptlet('prevent-fetch', '/invoke.js')
 traingon.top#%#//scriptlet('prevent-setTimeout', 'bait')
 igay69.com#%#//scriptlet('prevent-fetch', '/tsyndicate.com|jads.co/')
 igay69.com#%#//scriptlet('prevent-addEventListener', 'DOMContentLoaded', 'start')
-igay69.com#%#//scriptlet('trusted-replace-node-text', 'script', 'startProtection', 'function startProtection() {', 'function startProtection() { return;')
 igay69.com#%#//scriptlet('remove-attr', 'inert', '#k80wrap.k80-split-ads #k80real .k80-protected-fragment[inert]')
 oklivetv.com#%#//scriptlet('prevent-element-src-loading', 'script', 'pagead2.googlesyndication.com')
 vidzer.me#%#//scriptlet('abort-on-stack-trace', 'Promise', 'setupAdblockGuard')
@@ -4853,6 +4852,7 @@ www.youtube.com#%#//scriptlet('json-prune', '$.playerResponse[?(@.cards&&!@.play
 m.youtube.com#%#//scriptlet('json-prune-fetch-response', '$..itemSectionRenderer.contents[?(@.adSlotRenderer)]', '', '/get_watch')
 m.youtube.com#%#//scriptlet('json-prune', 'playerResponse.messages.[].youThereRenderer')
 m.youtube.com#%#(()=>{const t={apply:(t,e,n)=>{if(location.href.includes("/shorts/")||location.href.includes("youtube.com/tv")||location.href.includes("youtube.com/embed/"))return Reflect.apply(t,e,n);try{const a=n[0];if(!a?.context?.client)return Reflect.apply(t,e,n);const o=String(Date.now());a.playbackContext&&void 0===a.playbackContext.adPlaybackContext&&(a.playbackContext.contentPlaybackContext.lactMilliseconds=o),a.playerRequest&&void 0===a.playerRequest.playbackContext?.adPlaybackContext&&(a.playerRequest.playbackContext.contentPlaybackContext.lactMilliseconds=o),n[0]=a}catch(t){}return Reflect.apply(t,e,n)}};window.JSON.stringify=new Proxy(window.JSON.stringify,t)})();
+instagram.com#%#//scriptlet('json-prune', 'data.xdt_injected_reels_units')
 harlmail.com#%#//scriptlet('prevent-window-open', '?c=', '1')
 harlmail.com#%#//scriptlet('prevent-addEventListener', '', 'handleInstantThenCooldownSmartlink')
 vidload.online#%#//scriptlet('prevent-addEventListener', '/play|waiting|ended/', '/Banner|updateCustomPlayOverlay/')
@@ -4864,7 +4864,7 @@ gaystream.pw#%#//scriptlet('abort-current-inline-script', 'Date', '_0x')
 boyfriend.tv#%#//scriptlet('abort-current-inline-script', 'document.createElement', 'page-shell')
 adblock.turtlecute.org#%#//scriptlet('inject-css-in-shadow-dom', 'button[aria-label^="Learn more about "] { display: none !important; }', '.notice_stack')
 bowfile.com#%#//scriptlet('prevent-addEventListener', 'click', '\u')
-fcportables.com,intercelestial.com#%#//scriptlet('set-constant', 'navigator.webdriver', 'true')
+clksz.com,fcportables.com,intercelestial.com#%#//scriptlet('set-constant', 'navigator.webdriver', 'true')
 goflix.sbs#%#//scriptlet('prevent-eval-if', 'charCodeAt')
 filecrypt.cc#%#//scriptlet('prevent-addEventListener', 'click', '/_0x|window\.open/')
 content.st#%#//scriptlet('json-prune', '$.[?(@.id && @.needCheck && @.plan)].plan')

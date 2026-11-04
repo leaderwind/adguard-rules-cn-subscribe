@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Network
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202611040905
-! Last modified: 2026-11-04T09:05:12Z
+! Version: 202611041712
+! Last modified: 2026-11-04T17:12:44Z
 ! Layers: network
 ! Mode: standard
-! Rules: 47456
+! Rules: 47458
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -7699,6 +7699,10 @@ $cookie=__adblocker,domain=slate.com|thehindubusinessline.com
 @@||quge5.com/88/tag.min.js$xmlhttprequest,domain=nosubapp.com
 @@||nosubapp.com/favicon.ico$domain=nosubapp.com
 @@||highperformanceformat.com^$xmlhttprequest,domain=hogtiehub.com
+@@||poweredby.jads.co/js/jads.js$domain=igay69.com
+@@||poweredby.jads.co/js/jads2.js$domain=igay69.com
+@@||poweredby.jads.co/adshow.php$domain=igay69.com
+||poweredby.jads.co/adshow.php$domain=igay69.com,redirect=nooptext,important
 @@^ig69_network_probe=$xmlhttprequest,domain=igay69.com
 @@||oklivetv.com^$generichide
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=oklivetv.com
@@ -35530,6 +35534,7 @@ template/m1938pc/ads/*.js
 /fsrscripts/triggerParams.js
 /funnel-builder/assets/live/js/tracks.min.js
 /fusion/lucid/data/*
+/g/collect?
 /g_track.php?
 /ga-audiences?
 /ga-events.js
@@ -43968,7 +43973,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||abysscdn.com/cdn-cgi/trace
 ||academia.edu/record_hit?
 ||acast.com/api/stats
-||accor.com/g/collect?
 ||accuterm.com/data/stat.js
 ||acronymfinder.com/~/tr.ashx
 ||actionviewphotography.com/api/stats?
@@ -44712,7 +44716,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||mangakoma.net/ajax/manga/view
 ||manomano.*/api/v1/sp-tracking/
 ||manscaped.com/rud-dataplane/
-||manua.ls/g/collect?
 ||manua.ls/gtag
 ||mapcarta.com/logs
 ||mapquest.com/logger
@@ -44878,7 +44881,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||phonearena.com/_track.php
 ||pi.ai/proxy/api/event
 ||pics-view.com/ad-track
-||pie.org/g/collect?
 ||pie.org/v1/experiments/view
 ||pikbest.com/?m=Stats&
 ||pinkvilla.com/comscore_response.php

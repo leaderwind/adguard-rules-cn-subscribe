@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Network
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202611052040
-! Last modified: 2026-11-05T20:40:15Z
+! Version: 202611060133
+! Last modified: 2026-11-06T01:33:03Z
 ! Layers: network
 ! Mode: standard
-! Rules: 47473
+! Rules: 47474
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -17930,6 +17930,7 @@ $popup,third-party,domain=fembed-hd.com,badfilter
 $popup,third-party,domain=sbplay2.com,badfilter
 $popup,third-party,domain=dood.ws,badfilter
 @@||download.ros.org/*.xsd$document
+@@||fluid.4strokemedia.com/www/delivery/$domain=3addedminutes.com
 @@://localhost/$elemhide,jsinject,important,app=HDD Regenerator.exe
 @@||ebay.*/wcs/pop-report?$jsinject,elemhide,extension
 @@||live.primis.tech/live/liveView.php$domain=glasgowlive.co.uk
@@ -21475,8 +21476,8 @@ $csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: www.googletagma
 @@||api.cafeyn.co/users/$stealth=referrer
 @@||hotmo.org^$stealth=ip
 @@/wiki.php?player=$third-party,subdocument,stealth=referrer,domain=wikisport.info
-@@/e/*$third-party,subdocument,stealth=referrer,domain=thedaddy.pk
-@@.php?id=$third-party,subdocument,stealth=referrer,domain=thedaddy.pk
+@@/e/*$third-party,subdocument,stealth=referrer,domain=thedaddy.li
+@@.php?id=$third-party,subdocument,stealth=referrer,domain=thedaddy.li
 @@/embed/*$subdocument,stealth=referrer,domain=strims.*|daddyhd.com|daddylive.*
 @@||cloudfront.net^$domain=postype.com,stealth=referrer,image
 @@||sinaimg.cn^$stealth=referrer,domain=weibo.com

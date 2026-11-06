@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Content
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202611060920
-! Last modified: 2026-11-06T09:20:23Z
+! Version: 202611061730
+! Last modified: 2026-11-06T17:30:14Z
 ! Layers: content
 ! Mode: standard
-! Rules: 63808
+! Rules: 63820
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -18563,6 +18563,13 @@ animecorner.me,zarabiajprzez24.pl,watchhentai.xxx,app-how-to-use-it.com,linuxcap
 pawastreams.*,nflbite.to,footybite.to,sportschamp.fun,afly.pro,topsporter.net,soccerstreams.football,mysocceraustralia.com,rayinfosports.com,hesgoals.top,sequencecard.xyz,totalsportek.soccer,metaporky.site,nbabite.to,cyfostreams.com,gamerarcades.com,bestreamsports.org,footy.to,mcrypto.club,greaterkashmir.com###id-custom_banner
 pawastreams.*,groundedtechs.com,rayinfosports.com,sequencecard.xyz,matchtime.co,sportspellz.com,bestreamsports.org,silverspoon.site###dismiss-btn
 vi-control.net,nullforums.net,landyzone.co.uk,nullcave.pro,woxmax.com,waskucity.com,babia.to,technofino.in,reef2reef.com,minebbs.com,craxpro.io,affiliatefix.com,myiptvforum.com,hifivision.com,worldofiptv.com,altenen.is,beermoneyforum.com,germancarforum.com,cracking.org##.samBannerUnit
+goal.com##.fco-sticky-wrapper__space-placeholder
+goal.com##.fco-ad
+tweetviewer.com##.ad-container
+tweetviewer.com##.pfurn
+tweetviewer.com##.pslot
+thedailybeast.com##.ad--outstream-video
+game-repack.site##.file-download-btnn
 teneriffa-news.com##.qm-head:has(> div[id^="adunit"])
 photonics.com###PAN_LeadAd
 photonics.com##.BOX_Ad
@@ -53311,6 +53318,7 @@ wikiwand.com##.article_sectionAd__rMyBc
 lasvegassun.com##.articletoolset
 news.artnet.com##.artnet-ads-ad
 pixnoy.com##.as-bar
+euronews.com##.as-site-main
 theinertia.com##.asc-ad
 rentry.co##.asd_1
 asianjournal.com##.asian-widget
@@ -54317,7 +54325,6 @@ forbes.com##.fbs-ad--mobile-medianet-wrapper
 forbes.com##.fbs-ad--ntv-deskchannel-wrapper
 forbes.com##.fbs-ad--ntv-home-wrapper
 whatismyipaddress.com##.fbx-player-wrapper
-goal.com##.fco-sticky-wrapper__space-placeholder
 filmdaily.co##.fd-article-sidebar-ad
 filmdaily.co##.fd-article-top-banner
 filmdaily.co##.fd-home-sidebar-inline-rect
@@ -55601,6 +55608,7 @@ lowtoxlife.com##.openpay-footer
 opensourceforu.com##.opens-rollup-desktop
 huffpost.com##.openweb-container
 campaignlive.com##.optanon-category-3
+euronews.com##.optidigital-wrapper-div
 ormanager.com##.orm-black-label-inner
 flysat.com##.orta
 indianexpress.com##.osv-ad-class
@@ -58179,6 +58187,7 @@ freepik.com##div[data-testid="unicorn-banner"]
 birminghammail.co.uk,bristolpost.co.uk,dailyrecord.co.uk,hulldailymail.co.uk,irishstar.com,liverpoolecho.co.uk,manchestereveningnews.co.uk,stokesentinel.co.uk,walesonline.co.uk##div[data-testid^="commercial-"]
 forbes.com##div[data-testid^="fbs-ad"]
 hulldailymail.co.uk##div[data-tmdatatrack-type="commercial"]
+euronews.com##div[data-twig-component="Advertising-default"]
 audi-sport.net##div[data-widget-key="Snack_Side_Menu_1"]
 audi-sport.net##div[data-widget-key="Snack_Side_Menu_2"]
 audi-sport.net##div[data-widget-key="forum_home_sidebar_top_ads"]
@@ -58611,6 +58620,7 @@ walmart.*##div[id*="SponsoredProductCarousel"]
 checkfelix.com,kayak.*,momondo.*,swoodoo.*##div[role="button"]:has(.c_3eP-badge-content)
 momondo.*##div[role="button"][tabindex="0"]:has(div.c_3eP-badge-content)
 checkfelix.com,kayak.*,momondo.*,swoodoo.*##div[role="link"]:has(.c_3eP-badge-content)
+skyscanner.*##div[role="listitem"]:has(button[data-testid="adInfoBtn"])
 autoscout24.*##img[referrerpolicy="unsafe-url"]
 deliveroo.*##li:has(> [class^="MenuItemCard"] [data-testid="sponsored-ad-tag"])
 sameday.costco.*##li:has([aria-label="Product"]):has([data-fp-eligible]):not(:has(h2))
@@ -59837,6 +59847,7 @@ costco.com#?#[data-testid="shoppable-list-container"]:contains(Spons)
 cruisecritic.co.uk,cruisecritic.com#?#div[role="group"]:contains(Sponsored)
 cruisecritic.com#?#.block:has(a[data-tracking]:contains(Sponsored))
 cvs.com#?#div[class*="flex-col"]:has(>h2:contains(Sponsored))
+cvs.com#?#div[id^="product-tile-"]:has(div[dir="auto"]:contains(Sponsored))
 deccanherald.com#?#div#container-text:contains(ADVERTISEMENT)
 deccanherald.com#?#span.container-text:contains(ADVERTISEMENT)
 decrypt.co#?#span:contains(AD)
@@ -63561,6 +63572,7 @@ costco.com#?#[data-testid="shoppable-list-container"]:has-text(Spons)
 cruisecritic.co.uk,cruisecritic.com#?#div[role="group"]:has-text(Sponsored)
 cruisecritic.com#?#.block:has(a[data-tracking]:has-text(Sponsored))
 cvs.com#?#div[class*="flex-col"]:has(>h2:has-text(Sponsored))
+cvs.com#?#div[id^="product-tile-"]:has(div[dir="auto"]:has-text(Sponsored))
 deccanherald.com#?#div#container-text:has-text(ADVERTISEMENT)
 deccanherald.com#?#span.container-text:has-text(ADVERTISEMENT)
 decrypt.co#?#span:has-text(AD)

@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Network
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202611081938
-! Last modified: 2026-11-08T19:38:47Z
+! Version: 202611082343
+! Last modified: 2026-11-08T23:43:56Z
 ! Layers: network
 ! Mode: standard
-! Rules: 47435
+! Rules: 47464
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -9523,8 +9523,8 @@ $xmlhttprequest,third-party,redirect-rule=noopjs,domain=bizjournals.com
 ||tpc.googlesyndication.com/safeframe/*/html/container.html$xmlhttprequest,redirect=nooptext,domain=megainteresting.com
 @@||tpc.googlesyndication.com/safeframe/*/html/container.html$xmlhttprequest,domain=megainteresting.com
 @@||faucethero.com/libs/blockadblock.min.js$domain=faucethero.com
-||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima3,important,domain=urochsunloath.com|35volitantplimsoles5.com|antecoxalbobbing1010.com|cyamidpulverulence530.com|guidon40hyporadius9.com|housecardsummerbutton.com|un-block-voe.net|voeunblk.com|voeunbl0ck.com|voeunblock2.com|voeunblock.com|voe-unblock.*|voe.sx|phenomenalityuniform.com|kathleenmemberhistory.com|paulkitchendark.com|edwardarriveoften.com|lukecomparetwo.com|kennethofficialitem.com|jamiesamewalk.com|johntryopen.com|morganoperationface.com|jayservicestuff.com|heatherdiscussionwhen.com|robertplacespace.com|alleneconomicmatter.com|josephseveralconcern.com|donaldlineelse.com|bethshouldercan.com|lisatrialidea.com|jessicaglassauthor.com|evelynthankregion.com|lorimuchbenefit.com|susanhavekeep.com|thomasalthoughhear.com|zacharycollectionmight.com|richardstorehalf.com|kimberlyonlocal.com|toddpartneranimal.com|jamessoundcost.com|brittneystandardwestern.com|sandratableother.com|robertordercharacter.com|maxfinishseveral.com|alejandrocenturyoil.com|heatherwholeinvolve.com|kristiesoundsimply.com|adrianmissionminute.com|nathanfromsubject.com|jennifercertaindevelopment.com|richardsignfish.com|sarahnewspaperbeat.com|diananatureforeign.com|jonathansociallike.com|mariatheserepublican.com|johnalwayssame.com|kellywhatcould.com|jilliandescribecompany.com|lukesitturn.com|mikaylaarealike.com|christopheruntilpoint.com|walterprettytheir.com|crystaltreatmenteast.com|lauradaydo.com|lancewhosedifficult.com|dianaavoidthey.com|jefferycontrolmodel.com|jessicaclearout.com|marissasharecareer.com|ianrequireadult.com|charlestoughrace.com|timmaybealready.com|richardquestionbuilding.com|charlessheimprove.com|brittanyaheadnew.com|maryspecialwatch.com|benjaminreducecommunity.com|nicholasbreakplan.com|rebeccasciencestreet.com|claireguessthousand.com|shannoncoldalready.com
-@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=urochsunloath.com|35volitantplimsoles5.com|antecoxalbobbing1010.com|cyamidpulverulence530.com|guidon40hyporadius9.com|housecardsummerbutton.com|un-block-voe.net|voeunblk.com|voeunbl0ck.com|voeunblock2.com|voeunblock.com|voe-unblock.*|voe.sx|phenomenalityuniform.com|kathleenmemberhistory.com|paulkitchendark.com|edwardarriveoften.com|lukecomparetwo.com|kennethofficialitem.com|jamiesamewalk.com|johntryopen.com|morganoperationface.com|jayservicestuff.com|heatherdiscussionwhen.com|robertplacespace.com|alleneconomicmatter.com|josephseveralconcern.com|donaldlineelse.com|bethshouldercan.com|lisatrialidea.com|jessicaglassauthor.com|evelynthankregion.com|lorimuchbenefit.com|susanhavekeep.com|thomasalthoughhear.com|zacharycollectionmight.com|richardstorehalf.com|kimberlyonlocal.com|toddpartneranimal.com|jamessoundcost.com|brittneystandardwestern.com|sandratableother.com|robertordercharacter.com|maxfinishseveral.com|alejandrocenturyoil.com|heatherwholeinvolve.com|kristiesoundsimply.com|adrianmissionminute.com|nathanfromsubject.com|jennifercertaindevelopment.com|richardsignfish.com|sarahnewspaperbeat.com|diananatureforeign.com|jonathansociallike.com|mariatheserepublican.com|johnalwayssame.com|kellywhatcould.com|jilliandescribecompany.com|lukesitturn.com|mikaylaarealike.com|christopheruntilpoint.com|walterprettytheir.com|crystaltreatmenteast.com|lauradaydo.com|lancewhosedifficult.com|dianaavoidthey.com|jefferycontrolmodel.com|jessicaclearout.com|marissasharecareer.com|ianrequireadult.com|charlestoughrace.com|timmaybealready.com|richardquestionbuilding.com|charlessheimprove.com|brittanyaheadnew.com|maryspecialwatch.com|benjaminreducecommunity.com|nicholasbreakplan.com|rebeccasciencestreet.com|claireguessthousand.com|shannoncoldalready.com
+||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima3,important,domain=urochsunloath.com|35volitantplimsoles5.com|antecoxalbobbing1010.com|cyamidpulverulence530.com|guidon40hyporadius9.com|housecardsummerbutton.com|un-block-voe.net|voeunblk.com|voeunbl0ck.com|voeunblock2.com|voeunblock.com|voe-unblock.*|voe.sx|phenomenalityuniform.com|kathleenmemberhistory.com|paulkitchendark.com|edwardarriveoften.com|lukecomparetwo.com|kennethofficialitem.com|jamiesamewalk.com|johntryopen.com|morganoperationface.com|jayservicestuff.com|heatherdiscussionwhen.com|robertplacespace.com|alleneconomicmatter.com|josephseveralconcern.com|donaldlineelse.com|bethshouldercan.com|lisatrialidea.com|jessicaglassauthor.com|evelynthankregion.com|lorimuchbenefit.com|susanhavekeep.com|thomasalthoughhear.com|zacharycollectionmight.com|richardstorehalf.com|kimberlyonlocal.com|toddpartneranimal.com|jamessoundcost.com|brittneystandardwestern.com|sandratableother.com|robertordercharacter.com|maxfinishseveral.com|alejandrocenturyoil.com|heatherwholeinvolve.com|kristiesoundsimply.com|adrianmissionminute.com|nathanfromsubject.com|jennifercertaindevelopment.com|richardsignfish.com|sarahnewspaperbeat.com|diananatureforeign.com|jonathansociallike.com|mariatheserepublican.com|johnalwayssame.com|kellywhatcould.com|jilliandescribecompany.com|lukesitturn.com|mikaylaarealike.com|christopheruntilpoint.com|walterprettytheir.com|crystaltreatmenteast.com|lauradaydo.com|lancewhosedifficult.com|dianaavoidthey.com|jefferycontrolmodel.com|jessicaclearout.com|marissasharecareer.com|ianrequireadult.com|charlestoughrace.com|timmaybealready.com|richardquestionbuilding.com|charlessheimprove.com|brittanyaheadnew.com|maryspecialwatch.com|benjaminreducecommunity.com|nicholasbreakplan.com|rebeccasciencestreet.com|claireguessthousand.com|susanexpectcare.com
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=urochsunloath.com|35volitantplimsoles5.com|antecoxalbobbing1010.com|cyamidpulverulence530.com|guidon40hyporadius9.com|housecardsummerbutton.com|un-block-voe.net|voeunblk.com|voeunbl0ck.com|voeunblock2.com|voeunblock.com|voe-unblock.*|voe.sx|phenomenalityuniform.com|kathleenmemberhistory.com|paulkitchendark.com|edwardarriveoften.com|lukecomparetwo.com|kennethofficialitem.com|jamiesamewalk.com|johntryopen.com|morganoperationface.com|jayservicestuff.com|heatherdiscussionwhen.com|robertplacespace.com|alleneconomicmatter.com|josephseveralconcern.com|donaldlineelse.com|bethshouldercan.com|lisatrialidea.com|jessicaglassauthor.com|evelynthankregion.com|lorimuchbenefit.com|susanhavekeep.com|thomasalthoughhear.com|zacharycollectionmight.com|richardstorehalf.com|kimberlyonlocal.com|toddpartneranimal.com|jamessoundcost.com|brittneystandardwestern.com|sandratableother.com|robertordercharacter.com|maxfinishseveral.com|alejandrocenturyoil.com|heatherwholeinvolve.com|kristiesoundsimply.com|adrianmissionminute.com|nathanfromsubject.com|jennifercertaindevelopment.com|richardsignfish.com|sarahnewspaperbeat.com|diananatureforeign.com|jonathansociallike.com|mariatheserepublican.com|johnalwayssame.com|kellywhatcould.com|jilliandescribecompany.com|lukesitturn.com|mikaylaarealike.com|christopheruntilpoint.com|walterprettytheir.com|crystaltreatmenteast.com|lauradaydo.com|lancewhosedifficult.com|dianaavoidthey.com|jefferycontrolmodel.com|jessicaclearout.com|marissasharecareer.com|ianrequireadult.com|charlestoughrace.com|timmaybealready.com|richardquestionbuilding.com|charlessheimprove.com|brittanyaheadnew.com|maryspecialwatch.com|benjaminreducecommunity.com|nicholasbreakplan.com|rebeccasciencestreet.com|claireguessthousand.com|susanexpectcare.com
 ||pagead2.googlesyndication.com/pagead/show_ads.js$script,redirect=noopjs,domain=herokuapp.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=b2bhint.com
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl_with_ama_fy2021.js$domain=b2bhint.com
@@ -31074,6 +31074,7 @@ $third-party,xmlhttprequest,domain=mega4upload.net
 ||backgrounds.wetransfer.net/*.mp4$media
 ||bahamaslocal.com/img/banners/
 ||bbci.co.uk/plugins/dfpAdsHTML/
+||beeg.com/gtg/
 ||beforeitsnews.com/img/banner_
 ||benjamingroff.com/uploads/images/ads/
 ||bernama.com/storage/banner/
@@ -34485,6 +34486,7 @@ template/m1938pc/ads/*.js
 &event_name=view_item_list&
 &EventType=DataDealImpression&
 &EventType=Impression&
+&gtm=*&tag_exp=
 &hitType=pageview&
 &http_referer=$script,xmlhttprequest,domain=~biletomat.pl|~facebook.com|~jobscore.com
 &refer=http$script
@@ -34613,6 +34615,7 @@ template/m1938pc/ads/*.js
 /a/elevar/static/*
 /a/performance_timing/*
 /a8c-analytics.js
+/a?id=*&gtm=
 /aap/stats
 /abc.gif?
 /access.php?referrer=
@@ -35033,6 +35036,7 @@ template/m1938pc/ads/*.js
 /callbacks/stats?
 /capture_client.js
 /CaptureStat.asmx
+/ccm/collect?
 /cdn-cgi/beacon/*
 /cdn-cgi/ping?$image
 /cdn-cgi/rum?
@@ -35136,6 +35140,7 @@ template/m1938pc/ads/*.js
 /CofinaHits.js
 /cogi-etracker.js
 /cohesion-latest.min.js
+/cohesion/xs2.html
 /coinhive.min.js
 /coinimp-cache/*
 /collect.gif?
@@ -35143,6 +35148,7 @@ template/m1938pc/ads/*.js
 /collect/?dp=
 /collect/kasupport
 /collect/kf?
+/collect/metric|
 /collect/pageview?
 /collect/pv?
 /collect/stats?
@@ -35273,6 +35279,7 @@ template/m1938pc/ads/*.js
 /dcjs/prod/*
 /dcs.gif?
 /dcs_tag.js
+/ddm/activity/src=
 /dead-clicks-autocapture.js
 /default/pAnalytics
 /detectIncognito.min.js
@@ -35316,6 +35323,7 @@ template/m1938pc/ads/*.js
 /dynamicyield/*
 /dynaTraceMonitor?
 /e.gif?
+/e?k=*&v=$image
 /e_stat?g_id=
 /eatms.js
 /ecanalytics.js
@@ -35588,6 +35596,7 @@ template/m1938pc/ads/*.js
 /geoLocationData/v1/*
 /geov2.js
 /get/live/web/_/*$script,~third-party
+/get_cookie_id?cookie_domain=
 /get_geoip?
 /get_site_data?requestUUID=
 /getbglog.js
@@ -36027,6 +36036,7 @@ template/m1938pc/ads/*.js
 /mcount.cgi?
 /measure/pixel/*
 /measure/visit/*
+/measurement/conversion?
 /medialaanUniversalTracker.js
 /mediametrie.js
 /mediateGA.js
@@ -36915,6 +36925,7 @@ template/m1938pc/ads/*.js
 /tjp_beacon.js
 /tjx-tracking-data.js
 /tking/ajax_track_stats?
+/tms?id=
 /tncms/tracking.js
 /tongji.js
 /toplytics.js
@@ -37171,6 +37182,8 @@ template/m1938pc/ads/*.js
 /uutils.fcg?
 /v.gif?
 /v1/adn/visit|
+/v1/events/publish|
+/v1/external/visitor|
 /v1/log/web-vitals$xmlhttprequest
 /v1/pixel.js
 /v1/pixel?
@@ -37425,12 +37438,14 @@ template/m1938pc/ads/*.js
 ://elqtrk.
 ://fallback.*/collector
 ://fathom.$domain=~fathom.care|~fathom.co.za|~fathom.fm|~fathom.info|~fathom.io|~fathom.lib.uchicago.edu|~fathom.news|~fathom.org|~fathom.services|~fathom.video|~fathom.world|~fathomdelivers.com|~fathomseo.com|~usesfathom.com
+://gtm.prod.
 ://gtrack.*/dye
 ://insights-collector.
 ://internal-matomo.
 ://l.*/counter.php?id=$script,~third-party
 ://l.*/script.php?i=$script,~third-party
 ://lightning.*/launch/
+://load.sgtm.
 ://matomo.$domain=~matomo.dhjensen.dk|~matomo.org
 ://metrics-collector.
 ://mint.*/?js
@@ -37441,6 +37456,7 @@ template/m1938pc/ads/*.js
 ://rum.collector.
 ://segment-api.
 ://segment-cdn.
+://sgtm.
 ://signal.*/hardal
 ://signals.*/hardal
 ://sp.*/sp/h|$xmlhttprequest
@@ -37469,6 +37485,7 @@ template/m1938pc/ads/*.js
 ?event=performance&
 ?event=performancelogger:
 ?groupType=engagement&eventType=CLICK&
+?id=GTM-*&l=gtmDataLayer
 ?log=player-*&stats_tkn=
 ?log=player_*&stats_tkn=
 ?log=stats-
@@ -37568,7 +37585,6 @@ _WebVitalsReporter_
 /tag/proxy?id=G-
 ://gtm.*.js?st=
 ://load.*.js?st=$~third-party
-://sgtm.*.js?
 ://tagging.*.js?aw=
 ://tagging.*/settings.js
 .js?tg=$~third-party
@@ -37955,6 +37971,7 @@ omni.soundestlink.com$image
 ||ablsrv.com^$third-party
 ||ablyft.com^$third-party
 ||abmr.net^$third-party
+||absmartly.io^$third-party
 ||absolstats.co.za^$third-party
 ||abtshield.com^$third-party
 ||acc-hd.de^$third-party
@@ -38057,6 +38074,7 @@ omni.soundestlink.com$image
 ||albacross.com^$third-party
 ||alcmpn.com^$third-party
 ||alenty.com^$third-party
+||alketech.eu^$third-party
 ||alltracked.com^$third-party
 ||alocdn.com^$third-party
 ||alpixtrack.com^$third-party
@@ -38103,6 +38121,7 @@ omni.soundestlink.com$image
 ||apicit.net^$third-party
 ||apollofind.com^$third-party
 ||apolloprogram.io^$third-party
+||app.dub.co^$third-party
 ||appboycdn.com^$third-party
 ||appcast.io^$third-party
 ||appdynamics.com^$third-party
@@ -38173,6 +38192,7 @@ omni.soundestlink.com$image
 ||baikalize.com^$third-party
 ||bam-x.com^$third-party
 ||baptisttop1000.com^$third-party
+||baqend.com^$third-party
 ||baremetrics.com^$third-party
 ||barilliance.net^$third-party
 ||basicstat.com^$third-party
@@ -38563,6 +38583,7 @@ omni.soundestlink.com$image
 ||dtc-v6t.com^$third-party
 ||dti-ranker.com^$third-party
 ||dtxngr.com^$third-party
+||dubcdn.com^$third-party
 ||durationmedia.net^$third-party
 ||dvnfo.com^$third-party
 ||dynatrace-managed.com^$third-party
@@ -41682,6 +41703,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||app.opmnstr.com/v2/geolocate/
 ||app.partnerboost.com/brand/track.2.0.min.js
 ||app.pendo.io/data/$image
+||app.planhat.com/analytics/plantrack.min.js
 ||app.posthog.com/e/?compression=
 ||app.posthog.com/e/?ip=
 ||app.posthog.com/static/array.js
@@ -42539,6 +42561,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||mfilterit.net^$third-party
 ||mgmlcdn.com/stats/
 ||minutemediacdn.com/campaign-manager-client/
+||mirakl.net/mtag.min.js
 ||mixpanel.com/track?
 ||mkcms.com/stats.js
 ||ml.com/enterprisetagging/
@@ -44290,6 +44313,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||diabrowser.com/api/event
 ||diabrowser.com/js/arcnet-script.js
 ||digital.flytedesk.com/js/head.js
+||dior.com/contcdc/
 ||dmt.fidelity.com/prod/meas/
 ||dmtgvn.com/wrapper/js/common-engine.js$domain=rt.com
 ||docs.github.com/events
@@ -44698,7 +44722,9 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||market.samm.com/0/sendeventv2
 ||marriott.com/mi/api/shop-renderer/logger
 ||massivecams.com/api/metrics
+||masterclass.com/qz6s/
 ||mat6tube.com/api/stats?
+||matalan.co.uk/track
 ||maximise.nyc3.cdn.digitaloceanspaces.com/mxmse.min.js$domain=essentiallysports.com
 ||mcdonalds.com/tags/js/*/mparticle.js
 ||mcdonalds.com/webevents/
@@ -44739,6 +44765,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||monetarygoldgroup.com/_ub/
 ||moneycontrol.com/news/services/get_comscore_pageview/
 ||monitor.lifemiles.com/collect
+||monster.com/visitor/tracking-v11.js
 ||morningstar.com/api/v1/analytics
 ||motorsport.com/stat/
 ||mov.t-mobile.com/p/js/1.js
@@ -44891,6 +44918,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||projectmultatuli.org/analytics/
 ||promos.investing.com/*/digibox.gif?
 ||proporn.com/ajax/log/
+||psychcentral.com/api/drivers/
 ||public.tableau.com/inst?v=
 ||public.tableau.com/public/apis/audit-event
 ||publicwww.com/mtm/mtm.js
@@ -45357,6 +45385,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||wsj.com/cookies/pixel.gif
 ||www-backend.strinova.com/api/common/uid
 ||www.ebay.*/gh/dfpsvc?
+||www.eventim.*/orchestra/
 ||x.com/1.1/attribution
 ||x.com/1.1/graphql/app_context.json
 ||x.com/1.1/graphql/error_log.json

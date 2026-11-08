@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Content
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202611080718
-! Last modified: 2026-11-08T07:18:15Z
+! Version: 202611081508
+! Last modified: 2026-11-08T15:08:37Z
 ! Layers: content
 ! Mode: standard
-! Rules: 63829
+! Rules: 63831
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -58939,6 +58939,7 @@ bestbuy.com##[data-testid="sponsored-listing"]
 bestbuy.com##[data-testid="story-wrapper-row"] div:has(> [data-story-name="sponsored_grid"])
 linuxcommandlibrary.com##[href^="/"]:has([src*=".webp"])
 alibaba.com##[id^="sse-fluent-wending"]:has(.creative-ad-tag)
+x.com##[id^="urt"]>ul>li:has([class*="data-ad-disclosure"])
 kayak.com##[role="button"]:has([class*="ad-marking"])
 staples.com##[role="complementary"] #observer-id-temp:has(> #SKU_FeaturedProductCarousel)
 mail.aol.com##[role="presentation"]:has(> div[data-ad-row-id])
@@ -58997,6 +58998,7 @@ doordash.com##div:has(> a[data-anchor-id="SponsoredStoreCard"])
 regex101.com##div:has(> div > a > div[style*="/static/assets/sponsors/"])
 openalternative.co##div:has(> div > a[href^="/advertise"]):has(> a[target="_blank"])
 tripadvisor.*##div:has(> div > div[class="ui_column ovNFo is-3"])
+producthunt.com##div:has(> div.-mt-px.justify-end.pr-4)
 staples.com##div:has(> div[class*="configurator-container__"] .topsort-video-configurator__monetizationContainer)
 tripadvisor.*##div:has(> div[class="ui_columns is-multiline "])
 heb.com##div:has(> div[id^="hrm-banner-shotgun"])
@@ -59097,6 +59099,7 @@ kohls.com##li.products_grid:has(p.piq-sponsored)
 streeteasy.com##li.searchCardList--listItem:has(.jsSponsoredListingCard)
 temu.com##li.splide__slide:has([role="text"][aria-label="AD"])
 makemytrip.com##li:has(> [class="cardInteractive"] img[src*="sponsoredtag"])
+producthunt.com##li:has(> div.relative.isolate.grid img[alt="Promoted"])
 cars.com##li:has(> fuse-card[data-listing-id] .spr)
 aboutyou.de##li:has([data-testid="spons"])
 classcentral.com##li:has(iframe[src^="/catalog-iframe?"])
@@ -60084,7 +60087,7 @@ w3schools.com#$##tryitLeaderboard ~ #container { top:48px; }
 w3schools.com#$#.trytopnav { top:0; }
 wunderground.com#$#.content-wrap #inner-wrap { height:100vh; }
 yourdictionary.com#$#.header { top:0; }
-producthunt.com#?#[data-test^="homepage-section-"] > section[data-container]:xpath(self::*[not(contains("0123456789", substring(normalize-space(.),1,1)))])
+producthunt.com#?#[data-test^="homepage-section-"] > section[data-container]:xpath(self::*[.//img[@alt="Promoted"]/@src != //div[starts-with(@data-test,"homepage-section-")]/section[@data-container][substring(normalize-space(.),1,1) != ""][contains("0123456789", substring(normalize-space(.),1,1))]//img[@alt="Promoted"]/@src])
 amateur8.com###A8-Under-Video
 virtuagirlgirls.com###DynamicBackgroundWrapper
 porndr.com###PD-Under-player
@@ -63509,7 +63512,6 @@ discord.com#?#.wrapper__0d616:has-text(Get Reward)
 gamedev.net#?#.dark\:border-gray-700:has-text(Advertisement)
 deliveroo.*#?#a[role="button"]:has(p:has-text(Sponsored))
 deliveroo.*#?#div[class^="HomeFeedScrollTracker-"]:has(span[class^="HomeFeedUILines-"]:has-text(Sponsored))
-x.com##[id^="urt"]>ul>li:has([class*="data-ad-disclosure"])
 advocate.com,out.com,pride.com#?#.component.module-headline:has-text(FROM OUR SPONSORS)
 character.ai#?#.space-y-4 > .w-full:has-text(Advertisement)
 cjleo.com#?#.alt-widget-title:has-text(advertisement)

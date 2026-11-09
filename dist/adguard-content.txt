@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Content
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202611090616
-! Last modified: 2026-11-09T06:16:36Z
+! Version: 202611091728
+! Last modified: 2026-11-09T17:28:00Z
 ! Layers: content
 ! Mode: standard
-! Rules: 63831
+! Rules: 63852
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -8764,6 +8764,8 @@ youporn.com$$script:contains(/window\.[\s\S]*?_zone_[\s\S]*?{"zone_id":/)
 #@#.ads_banner
 ##.stickyads:not([style^="width: 32px"], [style^="width: 33px"], [style*="left: -43px"], [style*="-3"][style*="important"][style*="display: block;"], [style*="position: fixed"][style*="-188"], [style*="!important;"][style*="width:"][style*="height:"][style*="position"][style*="left:"][style*="top:"][style*="display"], [data-freestar-ad="123"]):not(:empty)
 ##.ads_banner:not([style^="width: 32px"], [style^="width: 33px"], [style*="left: -43px"], [style*="-3"][style*="important"][style*="display: block;"], [style*="position: fixed"][style*="-188"], [style*="!important;"][style*="width:"][style*="height:"][style*="position"][style*="left:"][style*="top:"][style*="display"]):not(:empty)
+fmodpro.com#$##aab-minimal-overlay { display: none !important; }
+fmodpro.com#$#body { overflow: auto !important; }
 mlhbd.xyz#$#html.abg-lock, html.abg-lock body { overflow: auto !important; }
 mlhbd.xyz#$##abg-ov { display: none !important; }
 mlhbd.xyz#@##ad-top-banner
@@ -18563,6 +18565,24 @@ animecorner.me,zarabiajprzez24.pl,watchhentai.xxx,app-how-to-use-it.com,linuxcap
 pawastreams.*,nflbite.to,footybite.to,sportschamp.fun,afly.pro,topsporter.net,soccerstreams.football,mysocceraustralia.com,rayinfosports.com,hesgoals.top,sequencecard.xyz,totalsportek.soccer,metaporky.site,nbabite.to,cyfostreams.com,gamerarcades.com,bestreamsports.org,footy.to,mcrypto.club,greaterkashmir.com###id-custom_banner
 pawastreams.*,groundedtechs.com,rayinfosports.com,sequencecard.xyz,matchtime.co,sportspellz.com,bestreamsports.org,silverspoon.site###dismiss-btn
 vi-control.net,nullforums.net,landyzone.co.uk,nullcave.pro,woxmax.com,waskucity.com,babia.to,technofino.in,reef2reef.com,minebbs.com,craxpro.io,affiliatefix.com,myiptvforum.com,hifivision.com,worldofiptv.com,altenen.is,beermoneyforum.com,germancarforum.com,cracking.org##.samBannerUnit
+yourharlow.com##div[data-advanced-ads-id]
+yourharlow.com##.yourh-homepage-top
+yourharlow.com##.wpb_wrapper:has(> div.td-fix-index > div[class*="adsense-banner"])
+airlinegeeks.com##.ag-ads-entity-placement
+nfl.com##header[data-testid="header-section"] + div:has(> div.flex > #adv_league)
+nfl.com###main-content > section > div.container > div.flex > div:has(> div.justify-center > div[id^="ad-slot-"])
+independent.co.uk###main > div[class]:not([id]):not([style]):has(> #deeper-dive-container)
+sportsnaut.com#$#.banner-container.banner-style { top: 0 !important; position: sticky !important; height: auto !important; min-height: auto !important; }
+sportsnaut.com#$#.banner-spacer-top { display: none !important; }
+sportsnaut.com##.banner-container > .header-container__main
+sportsnaut.com##.tpd-ad-slot-block
+pymnts.com#$#.container-scroller { --billboard-h: 0px !important; }
+games.gg##.ad-rail-reserve
+gayporntube.com##.category-banner
+thepostmillennial.com##aside[aria-label="Advertisement"]
+topsitecam.com##body .ad-banner
+topsitecam.com##.player-stream__outlink
+topsitecam.com##.player-actions__provider
 sofascore.com##.flex-d_column > .jc_center:has(> .ad-unit-container)
 goal.com##.fco-sticky-wrapper__space-placeholder
 goal.com##.fco-ad
@@ -18686,6 +18706,7 @@ coincodex.com##app-sidebar-skyscraper
 coincodex.com##app-root > app-placeholder-debug + div:not([class*="-"])
 eweek.com##.has-data-empty\:hidden.print\:hidden:has([data-ad-slot])
 physicsandmathstutor.com##.pdf-sidebar
+manhwafan.com,kunmanga.co.uk##div[class^="col-"]:has(> div.custom-item-ad)
 elamigosgames.net##.row > div.portfolio-item:has(> div > a[target="_blank"]:not([href*="elamigosgames.net"]))
 morningstar.com#?#.home__content__mdc > section.home__section--separator__mdc:has(> section.mdc-panel__mdc h2.mdc-header__title__mdc:contains(Sponsor Center))
 morningstar.com##.mdc-top-ad__container
@@ -19140,7 +19161,7 @@ masrawytrend.com###adx-interstitial
 underhentai.net#?#.row > article.post-card:has(> a[href] > div.img-wrapper > div.badge:contains(/^AD$/g))
 underhentai.net##menu > li:has(> a[href="/games/"])
 openinbox.io#?#.overflow-hidden.w-full:has(> div.text-center:contains(Advertisement))
-imgpv.com,nhentai.to,hentaihaven.xxx,jerkmotion.com##a[rel~="sponsored"]
+topsitecam.com,imgpv.com,nhentai.to,hentaihaven.xxx,jerkmotion.com##a[rel~="sponsored"]
 jerkmotion.com##div[style="min-height: 90px;"]
 babastream.top##a[href^="https://omg10.com/"]
 hunkypinoy.com##.a-wrap-base
@@ -25516,7 +25537,7 @@ whatismyipaddress.com##.ip-detail div.call-to-action
 thegay.tube##.wtxmmmmdmdtta
 match3games.com##.playAdFree
 penangpropertytalk.com##div[id^="cliczone-advert-"]
-operawire.com,penangpropertytalk.com##div[id^="advads-"]
+brm.co.nz,operawire.com,penangpropertytalk.com##div[id^="advads-"]
 livesport24.net##a[href^="https://1xbet.onelink.me/"]
 techlusive.in##.ads-mobile-size
 atube.xxx##.sp-i
@@ -30311,7 +30332,7 @@ fuckamouth.ru##a[href*="&offer_id="]
 streamty.com##div[class^="video_adp"]
 slutload.com##.player-related-videos
 inoreader.com###article_below_dialog_wrapper.inno_dialog_overflow
-fakedetail.com,telegraphindia.com,ltnovel.com##.adsbox
+apkvision.org,fakedetail.com,telegraphindia.com,ltnovel.com##.adsbox
 megacloud.tv,divicast.com,moviesjoy.plus,zoechip.com,goku.sx,vidcloud.*###overlay-center
 rushbitcoin.com,btcbunch.com,getdoge.io,ccurl.net##div[id^="wcfloatDiv"]
 icutlink.com##.col-md-10 > div[style="text-align: center;"] > .row > .col-md-12 > form#link-view > .form-group ~ br
@@ -35348,11 +35369,11 @@ txxxporn.tube,txxx.*##.nav-left > a.nav-hover[target="_blank"]
 txxxporn.tube,txxx.*##.pplayer div.jw-title-secondary:has(a[target="_blank"])
 txxxporn.tube,txxx.*##div[class^="sugggest"]
 winaero.com##body > div[class] > #page .entry-content > .gad-gads:has(> .gad-gads-title)
-wesh.com,wpbf.com,4029tv.com,gulfcoastnewsnow.com,kcci.com,kcra.com,ketv.com,kmbc.com,koat.com,koco.com,ksbw.com,mor-tv.com,mynbc5.com,wapt.com,wlky.com,wmur.com#?#.css-1fcp6vx:has(> h2:contains(Promotions))
-wesh.com,wpbf.com,4029tv.com,gulfcoastnewsnow.com,kcci.com,kcra.com,ketv.com,kmbc.com,koat.com,koco.com,ksbw.com,mor-tv.com,mynbc5.com,wapt.com,wlky.com,wmur.com##.article-sidelist-wrapper > div.ad-track
-wesh.com,wpbf.com,4029tv.com,gulfcoastnewsnow.com,kcci.com,kcra.com,ketv.com,kmbc.com,koat.com,koco.com,ksbw.com,mor-tv.com,mynbc5.com,wapt.com,wlky.com,wmur.com##.article-sidelist-wrapper > div[class^="css-"]:has(> div[class^="css-"] > div[data-type] > div.ad-container)
-wesh.com,wpbf.com,4029tv.com,gulfcoastnewsnow.com,kcci.com,kcra.com,ketv.com,kmbc.com,koat.com,koco.com,ksbw.com,mor-tv.com,mynbc5.com,wapt.com,wlky.com,wmur.com##div[class^="css-"]:has(> div[data-type] > div.ad-container)
-wesh.com,wpbf.com,4029tv.com,gulfcoastnewsnow.com,kcci.com,kcra.com,ketv.com,kmbc.com,koat.com,koco.com,ksbw.com,mor-tv.com,mynbc5.com,wapt.com,wlky.com,wmur.com##article:has(> div[class^="css-"] > div[data-type] > div.ad-container)
+wjcl.com,wisn.com,wesh.com,wpbf.com,4029tv.com,gulfcoastnewsnow.com,kcci.com,kcra.com,ketv.com,kmbc.com,koat.com,koco.com,ksbw.com,mor-tv.com,mynbc5.com,wapt.com,wlky.com,wmur.com#?#.css-1fcp6vx:has(> h2:contains(Promotions))
+wjcl.com,wisn.com,wesh.com,wpbf.com,4029tv.com,gulfcoastnewsnow.com,kcci.com,kcra.com,ketv.com,kmbc.com,koat.com,koco.com,ksbw.com,mor-tv.com,mynbc5.com,wapt.com,wlky.com,wmur.com##.article-sidelist-wrapper > div.ad-track
+wjcl.com,wisn.com,wesh.com,wpbf.com,4029tv.com,gulfcoastnewsnow.com,kcci.com,kcra.com,ketv.com,kmbc.com,koat.com,koco.com,ksbw.com,mor-tv.com,mynbc5.com,wapt.com,wlky.com,wmur.com##.article-sidelist-wrapper > div[class^="css-"]:has(> div[class^="css-"] > div[data-type] > div.ad-container)
+wjcl.com,wisn.com,wesh.com,wpbf.com,4029tv.com,gulfcoastnewsnow.com,kcci.com,kcra.com,ketv.com,kmbc.com,koat.com,koco.com,ksbw.com,mor-tv.com,mynbc5.com,wapt.com,wlky.com,wmur.com##div[class^="css-"]:has(> div[data-type] > div.ad-container)
+wjcl.com,wisn.com,wesh.com,wpbf.com,4029tv.com,gulfcoastnewsnow.com,kcci.com,kcra.com,ketv.com,kmbc.com,koat.com,koco.com,ksbw.com,mor-tv.com,mynbc5.com,wapt.com,wlky.com,wmur.com##article:has(> div[class^="css-"] > div[data-type] > div.ad-container)
 4029tv.com,98online.com,abc-7.com,hearst.com,kcci.com,kcra.com,ketv.com,kmbc.com,koat.com,koco.com,ksbw.com,mor-tv.com,mynbc5.com,nbc-2.com,wapt.com,wbal.com,wbaltv.com,wcvb.com,wdsu.com,wesh.com,wgal.com,wisn.com,wjcl.com,wlky.com,wlwt.com,wmtw.com,wmur.com,wpbf.com,wptz.com,wtae.com,wvtm13.com,wxii12.com,wyff4.com##.listing-page-ad
 theridgefieldpress.com,thetelegraph.com,beaumontenterprise.com,bigrapidsnews.com,chron.com,ctinsider.com,ctpost.com,darientimes.com,seattlepi.com,expressnews.com,fuelfix.com,greenwichtime.com,houstonchronicle.com,lakecountystar.com,lmtonline.com,manisteenews.com,michigansthumb.com,middletownpress.com,milfordmirror.com,mrt.com,myjournalcourier.com,myplainview.com,mysanantonio.com,ncadvertiser.com,newstimes.com,nhregister.com,ourmidland.com,recordpatriot.com,registercitizen.com,seattlepi.com,sfchronicle.com,sfgate.com,sheltonherald.com,smallbusiness.chron.com,stamfordadvocate.com,theheraldreview.com,thehour.com,theintelligencer.com,timesunion.com,trumbulltimes.com,weekand.com,wiltonbulletin.com,work.chron.com,yourconroenews.com##.ar16-9
 theridgefieldpress.com,thetelegraph.com,beaumontenterprise.com,bigrapidsnews.com,chron.com,ctinsider.com,ctpost.com,darientimes.com,seattlepi.com,expressnews.com,fuelfix.com,greenwichtime.com,houstonchronicle.com,lakecountystar.com,lmtonline.com,manisteenews.com,michigansthumb.com,middletownpress.com,milfordmirror.com,mrt.com,myjournalcourier.com,myplainview.com,mysanantonio.com,ncadvertiser.com,newstimes.com,nhregister.com,ourmidland.com,recordpatriot.com,registercitizen.com,seattlepi.com,sfchronicle.com,sfgate.com,sheltonherald.com,smallbusiness.chron.com,stamfordadvocate.com,theheraldreview.com,thehour.com,theintelligencer.com,timesunion.com,trumbulltimes.com,weekand.com,wiltonbulletin.com,work.chron.com,yourconroenews.com##.x300px > div.package.y100.none
@@ -58000,6 +58021,7 @@ informer.com##div[align="center"][style="margin:10px"]
 yandex.com##div[aria-label="Ad"]
 lifehacker.com##div[aria-label="Products List"]
 videocardz.com##div[aria-label="Shop"]
+copilot.com,copilot.microsoft.com##div[aria-live="polite"][aria-atomic="true"]:has(span[data-ad-part="title"])
 imginn.com##div[class$="-money"]
 tribuna.com##div[class$="_ads-container"]
 azuremagazine.com##div[class$="azoa"]
@@ -59577,7 +59599,6 @@ youtube.com###description-inner > ytd-merch-shelf-renderer > #main.ytd-merch-she
 youtube.com###shopping-timely-shelf
 youtube.com###shorts-inner-container > .ytd-shorts:has(> .ytd-reel-video-renderer > ytd-ad-slot-renderer)
 youtube.com###sticker-layer
-youtube.com##.ytReelMetapanelViewModelHost > .ytReelMetapanelViewModelMetapanelItem > .ytShortsSuggestedActionViewModelStaticHost
 youtube.com##.ytd-section-list-renderer > .ytd-item-section-renderer > ytd-search-pyv-renderer.ytd-item-section-renderer
 youtube.com##.ytd-two-column-browse-results-renderer > ytd-rich-grid-renderer > #masthead-ad.ytd-rich-grid-renderer
 youtube.com##.ytd-watch-flexy > .ytd-watch-next-secondary-results-renderer > ytd-ad-slot-renderer.ytd-watch-next-secondary-results-renderer

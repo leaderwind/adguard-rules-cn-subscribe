@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Network
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202611100943
-! Last modified: 2026-11-10T09:43:27Z
+! Version: 202611101747
+! Last modified: 2026-11-10T17:47:18Z
 ! Layers: network
 ! Mode: standard
-! Rules: 47518
+! Rules: 47499
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -7684,25 +7684,6 @@ $cookie=__adblocker,domain=slate.com|thehindubusinessline.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=1shortlink.com
 ||app.diagnoseo.com/tools/common-js/dsn.js
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=adslink.pw
-.lnbz.la^
-.clksz.com^
-.aii.sh^
-.pahe.ink^
-/:\/\/pahe.ink\/[a-z0-9]+\/[a-z0-9]+-\w$/$domain=pahe.ink
-/^https:\/\/intercelestial\.com\/[0-9a-f]+\/[a-z]+\.[0-9a-f]+\.js/$script,domain=intercelestial.com
-@@/^https:\/\/[a-z]{4,14}\.[a-z]{3,4}\/[a-z0-9][a-z0-9][a-z0-9][a-z0-9][a-z0-9][a-z0-9][a-z0-9][a-z0-9][a-z0-9][a-z0-9]\//$domain=intercelestial.com|pahe.plus|linegee.net
-/^(?!(https:\/\/[a-z]{3,5}\.[a-z]{2,3}\/cdn-cgi\/|https:\/\/[a-z]{3,5}\.[a-z]{2,3}\/cloud_theme\/build\/js\/script\.min\.js|https:\/\/[a-z]{3,5}\.[a-z]{2,3}\/links\/go)).*$/$~third-party,script,xmlhttprequest,domain=aii.sh|clksz.com|lnbz.la
-$xmlhttprequest,redirect-rule=nooptext,domain=oko.sha|aii.sh|pahe.plus|intercelestial.com|linegee.net|clksz.com|lnbz.la
-@@.js|$xmlhttprequest,domain=intercelestial.com|pahe.plus|linegee.net
-@@||linegee.net^$generichide
-@@||pahe.plus^$generichide
-@@||intercelestial.com^$generichide
-/^https:\/\/[a-z][a-z][a-z]+\.[a-z][a-z]+\/[a-z0-9][a-z0-9][a-z0-9][a-z0-9]+\//$~image,~font,domain=aii.sh|clksz.com|lnbz.la
-@@/^https:\/\/[a-z][a-z][a-z]+\.[a-z][a-z]+\/links\/go$/$domain=aii.sh|clksz.com|lnbz.la
-@@/^https:\/\/[a-z][a-z][a-z]+\.[a-z][a-z]+\/cdn-cgi\//$script,domain=aii.sh|clksz.com|lnbz.la
-@@/^https:\/\/[a-z][a-z][a-z]+\.[a-z][a-z]+\/cloud_theme\/build\/js\/script\.min\.js/$domain=aii.sh|clksz.com|lnbz.la
-@@||lnbz.la^$generichide
-@@||clksz.com^$generichide
 ||youtubetoolkit.com/js/adblock-
 ||jwpcdn.com/player/*/googima.js$redirect=noopjs,domain=weekendletters.store
 @@||jwpcdn.com/player/*/googima.js$domain=weekendletters.store|xcandid.vip|xcandid.top
@@ -8534,8 +8515,6 @@ $subdocument,redirect-rule=noopframe,domain=ytlarge.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=cdkm.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=live.hitsports.bond
 ||sextb.*/js/brs.js
-@@||sextb.net^$generichide
-@@||sextb.date^$generichide
 @@/\/[js].?[js]\/.*\.js/$script,xmlhttprequest,domain=rbtv77.*|live-streamfootball.*|superabbit77.*|superabbit33.*|superdom77.*|superlee77.*|superleo77.*|superargo77.*|superbarca77.*|linelocatemfsn.*|homebasis4d.*|mindmotion93y8.*|monkeynecktj4w.*|masterenjoyao.*|differenceprimitive85p.*|blewdiffera3j2.*|strangernervousql.*|leadmorning4ivn.*|somehowrockyng.*|currentcolorq2dv.*|determinemousecshe.*|publicspeed5c.*|limiteddollqjc.*
 @@/\.(quest|shop|autos)\/.*\./$script,xmlhttprequest,domain=rbtv77.*|live-streamfootball.*|superabbit77.*|superabbit33.*|superdom77.*|superlee77.*|superleo77.*|superargo77.*|superbarca77.*|linelocatemfsn.*|homebasis4d.*|mindmotion93y8.*|monkeynecktj4w.*|masterenjoyao.*|differenceprimitive85p.*|blewdiffera3j2.*|strangernervousql.*|leadmorning4ivn.*|somehowrockyng.*|currentcolorq2dv.*|determinemousecshe.*|publicspeed5c.*|limiteddollqjc.*
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=rbtv77.*|live-streamfootball.*|superabbit77.*|superabbit33.*|superdom77.*|superlee77.*|superleo77.*|superargo77.*|superbarca77.*|linelocatemfsn.*|homebasis4d.*|mindmotion93y8.*|monkeynecktj4w.*|masterenjoyao.*|differenceprimitive85p.*|blewdiffera3j2.*|strangernervousql.*|leadmorning4ivn.*|somehowrockyng.*|currentcolorq2dv.*|determinemousecshe.*|publicspeed5c.*
@@ -13887,7 +13866,7 @@ $third-party,script,domain=klto9.com|f2movies.to|hacamchicac.com|yourporngod.com
 *$third-party,domain=adblock.turtlecute.org
 ||adblock.turtlecute.org/js/*ad
 ||dbnaked.com/api/limited-time-offers/
-||sextb.net/js/popup.js
+||sextb.*/js/popup.js
 ||javovo.net/ad-to-go/
 ||pic.desu.xxx/content/banner/*.gif
 ||mangaraw24.online/api/v*/ads/
@@ -14802,7 +14781,7 @@ $script,third-party,denyallow=cloudflare.net|jquery.com|jsdelivr.net|lulucdn.com
 ||st.1001fonts.net/build/common/ads.*.$script,stylesheet
 ||leisurejobs.net/leisure_opps_site/banners/$domain=spabusiness.com
 /\.[a-z][a-z][a-z]\/$/$xmlhttprequest,third-party,domain=aniwatchtv.to|goku.sx
-||img.strpst.com^$domain=sextb.date|sextb.net
+||img.strpst.com^$domain=sextb.cc|sextb.date|sextb.net
 ||petco.com/wcsstore/PetcoSAS/javascript/SmartBanner.js
 ||bloximages.chicago2.vip.townnews.com/*/ads_blox/resources/scripts/tnt.ads.init.*.js
 ||previbes.online/z-
@@ -20002,7 +19981,7 @@ $csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: www.googletagma
 @@||account.adobe.com^$document,domain=services.adobe.com,stealth=useragent
 @@||adguard.com^$stealth
 @@||click/checklist/*.m3u8$stealth=referrer,domain=inat-tv.org|inattv.co
-@@||t24yedekyayin36.xyz/*.jpg$stealth=referrer,domain=taraftarium24bjk27.com
+@@||t24yedekyayin36.xyz/*.jpg$stealth=referrer,domain=taraftarium24bjk28.com
 @@||amz-ch.desu.pics/ch/storage/$image,stealth=referrer
 @@||img-reserve.reimg2.org/images/$stealth=referrer
 @@.dat|$xmlhttprequest,stealth=referrer,domain=bingebang.st
@@ -24023,6 +24002,7 @@ cdn.braun634.com^$third-party
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=btv.bg
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=play.nova.bg
 @@||ssl.p.jwpcdn.com/player/v/*/googima.js$xmlhttprequest,domain=play.nova.bg
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=i.cdn.bg|nova.bg
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=pik.bg
 @@||vivo.bg/gpt.js
 ||cdn.bg-gledai.*/fuck_
@@ -34886,6 +34866,7 @@ template/m1938pc/ads/*.js
 /api/v3/getPageVisits
 /api/v3/trackSegmentEvent
 /api/video/stats/*$xmlhttprequest
+/api/viewcontent.php?
 /api/web/v1/tracker$ping
 /api_adlog.php?
 /api_ip_info.php

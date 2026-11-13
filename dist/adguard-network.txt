@@ -1,8 +1,8 @@
 ! Title: AdGuard Rules CN - Network
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202611121853
-! Last modified: 2026-11-12T18:53:57Z
+! Version: 202611130017
+! Last modified: 2026-11-13T00:17:42Z
 ! Layers: network
 ! Mode: standard
 ! Rules: 47520
@@ -31074,6 +31074,7 @@ $third-party,xmlhttprequest,domain=mega4upload.net
 ||arbiscan.io/images/gen/*_StylusBlitz_Arbiscan_Ad.png
 ||armyrecognition.com/images/stories/customer/
 ||artdaily.cc/banners/
+||askai.glarity.app/img/ads/
 ||assets.hearstapps.com/moapt/moapt-hdm.latest.js
 ||assets.presearch.com/backgrounds/
 ||assets.systemrequirementslabs.net/srl/wwwroot/js/stake-takeover.js
@@ -44101,7 +44102,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||api-router.kaspersky-labs.com/logger2/metrics/
 ||api.audio.com/analytics/event
 ||api.channel.io/*/events
-||api.community.fox.com/*/metrics
 ||api.deepai.org/log_stat
 ||api.doodle.com/data-layer/track
 ||api.ffm.to/sl/e/$image

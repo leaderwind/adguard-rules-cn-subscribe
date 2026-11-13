@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Content
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202611131617
-! Last modified: 2026-11-13T16:17:25Z
+! Version: 202611132235
+! Last modified: 2026-11-13T22:35:29Z
 ! Layers: content
 ! Mode: standard
-! Rules: 63852
+! Rules: 63856
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -18558,6 +18558,10 @@ animecorner.me,zarabiajprzez24.pl,watchhentai.xxx,app-how-to-use-it.com,linuxcap
 pawastreams.*,nflbite.to,footybite.to,sportschamp.fun,afly.pro,topsporter.net,soccerstreams.football,mysocceraustralia.com,rayinfosports.com,hesgoals.top,sequencecard.xyz,totalsportek.soccer,metaporky.site,nbabite.to,cyfostreams.com,gamerarcades.com,bestreamsports.org,footy.to,mcrypto.club,greaterkashmir.com###id-custom_banner
 pawastreams.*,groundedtechs.com,rayinfosports.com,sequencecard.xyz,matchtime.co,sportspellz.com,bestreamsports.org,silverspoon.site###dismiss-btn
 vi-control.net,nullforums.net,landyzone.co.uk,nullcave.pro,woxmax.com,waskucity.com,babia.to,technofino.in,reef2reef.com,minebbs.com,craxpro.io,affiliatefix.com,myiptvforum.com,hifivision.com,worldofiptv.com,altenen.is,beermoneyforum.com,germancarforum.com,cracking.org##.samBannerUnit
+siteprice.org###header_new2_HeaderAdsense
+siteprice.org##.adCLS
+thetimes.com###react-app > div#sticky-leaderboard-wrapper:has(> div#ad-sticky-leaderboard)
+businesstimes.com.sg##.sph-ads-shell
 djpunjab2.in##.ad-popup-overlay
 djpunjab2.in##.dj-gpt-wrap
 djpunjab2.in##.ad-sticky-top
@@ -27589,7 +27593,7 @@ bleepingcomputer.com###after_dl
 comicbook.com,familyhandyman.com,tasteofhome.com,rd.com##.taboola-wrapper
 awesomeopensource.com##div[class^="carbon-projects-page-native-ad"]
 skillsyouneed.com##.ad_normal
-thetimes.co.uk##.channel-header-ad
+thetimes.com,thetimes.co.uk##.channel-header-ad
 sodapdf.com##.container > div.row > div[style="margin:15px 0 45px !important;"]
 rockmods.net##div[class^="post-ad"]
 gcemetery.co##.header-da-wrap

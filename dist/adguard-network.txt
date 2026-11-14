@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Network
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202611132235
-! Last modified: 2026-11-13T22:35:29Z
+! Version: 202611140311
+! Last modified: 2026-11-14T03:11:17Z
 ! Layers: network
 ! Mode: standard
-! Rules: 47514
+! Rules: 47519
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -36785,6 +36785,7 @@ template/m1938pc/ads/*.js
 /statcounter.asp
 /statcounter.js
 /statcountex/count.asp?
+/statify/v1/track|
 /statistic/pixel?
 /statistiche/stat.php$xmlhttprequest
 /statistics.js?$third-party
@@ -41699,6 +41700,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||api.collarity.com/cws/*http
 ||api.config-security.com/first
 ||api.country.is^$third-party
+||api.firecrown.com/v1/events
 ||api.gist.ai/v1/analytics/track
 ||api.gleap.io/sessions/ping
 ||api.helloextend.com/mintsight
@@ -42148,6 +42150,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||emarketeer.com/tracker/
 ||emrld.cc^$script
 ||emrld.ltd/collect
+||emrldco.com/collect
+||emrldtp.cc/collect
 ||endorsal.io/check/
 ||engagelab.com/ma-report/
 ||engageplatform.com/api/trace/d/record?
@@ -42936,6 +42940,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||sdk.51.la^$third-party
 ||sdk.getlimy.ai/p/limy-analytics.min.js
 ||sdk.mrf.io/statics/marfeel-sdk.js
+||sdk.stackup-ai.com/collect
 ||searchcompletion.com/BannerHandler.ashx
 ||searchrys.com/dot.php
 ||searchunify.com/analytics/suanlytics.png
@@ -45181,6 +45186,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||strtapewithadblock.xyz/stat/
 ||strtpe.link/stat/
 ||stubhub.com/a/icph
+||stuff.co.nz/otel/
 ||stytch.com/sdk/v1/events
 ||suaurl.com/adblock/js/smarttag.js
 ||substrate.office.com/search/api/v1/events
@@ -45280,14 +45286,13 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tradingview-widget.com/static/bundles/embed/snowplow-embed-widget-tracker.$script
 ||tradingview.com/ping
 ||traveloka.com/api/v1/tvlk/events
-||trip.com/bee/collect
-||trip.com/bf.gif?
 ||tripadvisor.*/BALinkImpressionTracking/
 ||tripadvisor.*/CookiePingback?
 ||tripadvisor.*/GARecord^
 ||tripadvisor.*/MetricsAjax
 ||tripadvisor.*/wm/record
 ||tripcdn.com/bee/collect$domain=trip.com
+||tripcdn.com/bf.gif
 ||trivago.com/tracking/
 ||trulia.com/track/trackingPixel.gif?
 ||trumba.com/et.aspx?

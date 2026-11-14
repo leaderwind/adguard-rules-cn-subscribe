@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Aggressive
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202611140311
-! Last modified: 2026-11-14T03:11:17Z
+! Version: 202611141018
+! Last modified: 2026-11-14T10:18:47Z
 ! Layers: network,content,scriptlet
 ! Mode: aggressive
-! Rules: 117039
+! Rules: 117040
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -5375,6 +5375,7 @@ meijutt.*/js/pcjs/
 ||girigirilove.com^*/appConfigData?key=adver_
 ||yszzq.com/Style/js/date.
 ||yxxq59.cc/static/images/ads/
+||qzhyc.com.cn/g.
 @@.adserver.$domain=litv.tv
 @@.com/adv/$domain=my.ctrip.com
 @@.gif#$domain=b168.net|cnprint.org|huhupan.com|tgfcer.com|wgun.net
@@ -52074,8 +52075,8 @@ jordanmiller.news##div[aria-label="Advertisements"]
 full-porn.com##.underplayer_video_page_desktop
 full-porn.com##.grits-slake-trombone
 full-porn.com##.spatter-boarder-preach
-news4sanantonio.com##div[class*="_taboolaDeeperDive"]
-news4sanantonio.com##div[class^="UserCommenting_commentingAd"]
+fox11online.com,news4sanantonio.com##div[class*="_taboolaDeeperDive"]
+fox11online.com,news4sanantonio.com##div[class^="UserCommenting_commentingAd"]
 justetf.com##div[data-testid="quick-search-default-results-content"] tr.table-active:has(> td > div.disclaimer-inbox)
 justetf.com##div[data-testid="quick-search-results-panel"] + div:has(> div[data-testid="quick-search-ad-container"])
 thewrap.com##.lazy-render-response:has(> .wp-block-the-wrap-sellwild)

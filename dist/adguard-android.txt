@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Android
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202611140311
-! Last modified: 2026-11-14T03:11:17Z
+! Version: 202611141018
+! Last modified: 2026-11-14T10:18:47Z
 ! Layers: network,content,scriptlet
 ! Mode: standard
-! Rules: 16866
+! Rules: 16867
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -5375,6 +5375,7 @@ meijutt.*/js/pcjs/
 ||girigirilove.com^*/appConfigData?key=adver_
 ||yszzq.com/Style/js/date.
 ||yxxq59.cc/static/images/ads/
+||qzhyc.com.cn/g.
 @@.adserver.$domain=litv.tv
 @@.com/adv/$domain=my.ctrip.com
 @@.gif#$domain=b168.net|cnprint.org|huhupan.com|tgfcer.com|wgun.net

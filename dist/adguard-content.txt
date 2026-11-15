@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Content
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202611150152
-! Last modified: 2026-11-15T01:52:31Z
+! Version: 202611150918
+! Last modified: 2026-11-15T09:18:14Z
 ! Layers: content
 ! Mode: standard
-! Rules: 63864
+! Rules: 63865
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -12326,6 +12326,7 @@ ncore.cc#@#.text-ad-links
 mbl.is#$#body > main#allt { margin-top: 0 !important; }
 bb.is$$div[class="banner"]
 airtelxstream.in#$#.vdo-player__wrapper { display: block !important; }
+maharashtratimes.com##.alaskamasthead
 prothomalo.com##.qt-image-dynamic + div[class]:has(> div[class] > div.dfp-ad-unit)
 bd-bulletin.com##div.text-center > a[href="#"] > img[src^="/templates/bulletine-web/"]
 bd-bulletin.com#?#div.text-center > div[style]:has(> a[href="#"]:contains(Advertisement))
@@ -18944,7 +18945,7 @@ gameguardian.net##.gg-ad-slot
 18jav.tv##.right-sidebar > .row > div:has(a[href^="https://enter.javhd.com/track/"])
 omgjav.com##div[data-region="content"] div.flex.justify-center.items-center:has(> script)
 omgjav.com##pwx-top-ad-banner
-worldfree4u.business,worldfree4u.*##.ffad-box
+worldfree4u.apartments,worldfree4u.*##.ffad-box
 standard-freeholder.com,recorder.ca,thewhig.com##.pmd-ad-container
 brantfordexpositor.ca##main > div:has(> section.widget--local-business)
 rlsbb.ru,rlsbb.cc,rlsbb.to,rlsbb.in##.entry-summary > a > img.aligncenter[alt]

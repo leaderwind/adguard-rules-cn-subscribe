@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Android
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202611160934
-! Last modified: 2026-11-16T09:34:07Z
+! Version: 202611162025
+! Last modified: 2026-11-16T20:25:39Z
 ! Layers: network,content,scriptlet
 ! Mode: standard
-! Rules: 16868
+! Rules: 16872
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -118,6 +118,7 @@
 207.148.44.179$network
 /^https:\/\/[a-z0-9-]{3,12}\.[a-z0-9]+\.com\/([A-Za-z0-9.]+)(?:\/([A-Za-z0-9.]+))?\.\d{4}\.(doc|docx|html|jpeg|jpg|js|json|odf|pdf|png|ppt|psd|rtf|shtml|sxml|txt|wedp|wps|xml|xps)\?\d{13}$/$third-party,match-case
 ||ad*.on.cc^
+@@||anymind360.com/js/*/ats.js$domain=usca.my903.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=soft8ware.com
 ||freedidi.com/wp-content/plugins/abn-wall/assets/abn-wall.
 @@||quge5.com/88/tag.min.js$domain=wxredian.com
@@ -6913,6 +6914,8 @@ wenshushu.cn##.cont-right .mer-item
 31w3.cn##.adSwipebox2
 31w3.cn##.adSwipebox
 31w3.cn##.gridContent
+cleanip.io##aside[data-nosnippet][class*="--"]
+cleanip.io##section[data-nosnippet] > div > aside[class*="--"]
 cleanip.io##div[aria-label^="Sponsored"]
 cleanip.io##.iu--banner
 cleanip.io##.netfish-invite-compact
@@ -14890,6 +14893,7 @@ ali213.net#@#.subscribe-container
 5dm.link#@#.tm-share-this
 laohu8.com#@#.tweet-article
 fqsousou.com,kengso.com#@#.user-share
+usca.my903.com#%#//scriptlet('prevent-constructor', 'Promise', '/ats.js')
 soft8ware.com#%#//scriptlet('prevent-setTimeout', 'triggerAdBlockModal')
 laosu.tech#%#//scriptlet('prevent-addEventListener', 'DOMContentLoaded', 'detectAdBlocker')
 freedidi.com#%#//scriptlet('abort-on-property-read', 'SPM_CONFIG.adblockOnly')

@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Content
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202611172219
-! Last modified: 2026-11-17T22:19:07Z
+! Version: 202611180415
+! Last modified: 2026-11-18T04:15:33Z
 ! Layers: content
 ! Mode: standard
-! Rules: 63932
+! Rules: 63937
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -18578,6 +18578,9 @@ animecorner.me,zarabiajprzez24.pl,watchhentai.xxx,app-how-to-use-it.com,linuxcap
 pawastreams.*,nflbite.to,footybite.to,sportschamp.fun,afly.pro,topsporter.net,soccerstreams.football,mysocceraustralia.com,rayinfosports.com,hesgoals.top,sequencecard.xyz,totalsportek.soccer,metaporky.site,nbabite.to,cyfostreams.com,gamerarcades.com,bestreamsports.org,footy.to,mcrypto.club,greaterkashmir.com###id-custom_banner
 pawastreams.*,groundedtechs.com,rayinfosports.com,sequencecard.xyz,matchtime.co,sportspellz.com,bestreamsports.org,silverspoon.site###dismiss-btn
 gearspace.com,gleaks.pro,vi-control.net,nullforums.net,landyzone.co.uk,nullcave.pro,woxmax.com,waskucity.com,babia.to,technofino.in,reef2reef.com,minebbs.com,craxpro.io,affiliatefix.com,myiptvforum.com,hifivision.com,worldofiptv.com,altenen.is,beermoneyforum.com,germancarforum.com,cracking.org##.samBannerUnit
+gayhaus.com##.col.second:has(> .spot-holder)
+gayhaus.com###comment .related-video
+gayhaus.com##div[class*="pornlynx-"]
 extraetf.com##app-promotion
 extraetf.com##.card:has(> .card-body > div > a[rel*="sponsored"])
 divvydiary.com##main > div[class]:has(> div:only-child > aside:only-child > a[href^="https://partner"]:only-child)
@@ -18745,7 +18748,6 @@ xxxfetish.tube##a[href][target="_blank"][rel*="sponsored"]
 xxxfetish.tube##.header-promo-link
 xxxfetish.tube##.header-inner > nav > a:not([href^="https://xxxfetish.tube/"])
 xxxfetish.tube##.fh-videos
-xxxfetish.tube##.fp-logo
 xxxfetish.tube##.promo-box
 catster.com##main > section.mx-auto > div.flex > aside.w-full > div.lg\:sticky > figure[class]:has(> a[href^="https://petsmart.haujjd.net/"])
 riftdecks.com###in-stream-placement
@@ -29320,7 +29322,7 @@ audiogon.com###main-content div.content-marketing-panes:not(:last-child)
 audiogon.com###main-content div.content-marketing-panes > div[class]:first-child + div[class]
 thefunpost.com##.ad-spacing
 reuters.com##div[class^="StickyContainer-container-"][style^="height: 1200px;"][style*="margin-bottom: 120px;"]
-katestube.com,xtits.*,mybestxtube.com,teencumpot.com,sexroom.xxx,asiansex.life##.spot-holder
+gayhaus.com,katestube.com,xtits.*,mybestxtube.com,teencumpot.com,sexroom.xxx,asiansex.life##.spot-holder
 asianporn.life,asiansex.life##.full-ave
 asianporn.life,asiansex.life##.top-mo-ave
 nitrome.com###mu_3_shadow_ng
@@ -29813,7 +29815,7 @@ lnk.parts##.display-link-layer > .display-300x250
 az511.gov##.adsContainerTop
 sitepoint.com##div[class^="styledHeader__TopBanner-"]
 gamelab.com,play.dictionary.com##div[class^="DisplayAd__container_"]
-faptor.com,fapnado.com,3dporndude.com,fapnow.*,fapcat.com,cambay.tv##.fp-logo
+gayhaus.com,xxxfetish.tube,faptor.com,fapnado.com,3dporndude.com,fapnow.*,fapcat.com,cambay.tv##.fp-logo
 kolombox.com###dlbtn_big
 stylecaster.com##.wrapper-header-ad-slot
 stylecaster.com##.sc-ad-article-middle-wrapper
@@ -58557,6 +58559,7 @@ weather.com##section[aria-label="Sponsored Content"]
 wallapop.com##section[class*="_adSlot_"]
 bedbathandbeyond.com##section[class^="showcaseAds_container"]
 bestbuy.ca##section[data-automation="dynamic-content-featured-sku-list-home_fsl_sponsored"]
+chatgpt.com##section[data-conversation-ads-supplement]
 bbc.com##section[data-e2e="advertisement"]
 foodandwine.com##section[id*="mntl-four-post--sponsored"]
 woolworths.com.au##shared-header-adaptive-menu-panel.category-list .featured
@@ -62470,6 +62473,8 @@ javbus.com##.container-fluid:nth-child(9) > .row > .ad-list:nth-child(3)
 ##div.page.list div.small-icon-container
 ##DIV.swiper-container.swiper-container-horizontal.swiper-container-ios.swiper-container-wp8-horizontal.swiper-container-initialized.swiper-container-android
 ##div.pannel > div.grid
+##div.module.module-player > .is_mb
+##div.small-icon-container > .small-icon-div
 ##div.footer-area.mobile DIV#banner_container
 ##div.page-d.page-turn > [style='position: relative; margin: auto; clear: both; width: 300px;']
 ##body.__amp.amp-mode-touch IFRAME[frameborder='0'][framespacing='0']

@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Android
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202611172219
-! Last modified: 2026-11-17T22:19:07Z
+! Version: 202611180415
+! Last modified: 2026-11-18T04:15:33Z
 ! Layers: network,content,scriptlet
 ! Mode: standard
-! Rules: 16874
+! Rules: 16876
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -16768,6 +16768,8 @@ javbus.com##.container-fluid:nth-child(9) > .row > .ad-list:nth-child(3)
 ##div.page.list div.small-icon-container
 ##DIV.swiper-container.swiper-container-horizontal.swiper-container-ios.swiper-container-wp8-horizontal.swiper-container-initialized.swiper-container-android
 ##div.pannel > div.grid
+##div.module.module-player > .is_mb
+##div.small-icon-container > .small-icon-div
 ##div.footer-area.mobile DIV#banner_container
 ##div.page-d.page-turn > [style='position: relative; margin: auto; clear: both; width: 300px;']
 ##body.__amp.amp-mode-touch IFRAME[frameborder='0'][framespacing='0']

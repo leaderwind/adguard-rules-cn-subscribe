@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Content
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202611182155
-! Last modified: 2026-11-18T21:55:48Z
+! Version: 202611190321
+! Last modified: 2026-11-19T03:21:46Z
 ! Layers: content
 ! Mode: standard
-! Rules: 63981
+! Rules: 63980
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -30041,8 +30041,6 @@ mytopgames.net##div[style="font-family:Arial;font-size:12px;color:#ffffff;"]
 videomega.co###click_me
 masteranime.es##iframe[src^="https://ad.masteranime.es/adx/"]
 accuweather.com##.glacier-ad
-putlockers.cr##a[href^="/stream-4k/"]
-putlockers.cr##a[href^="/download-4k/"]
 hentaihaven.*##.main-sidebar[role="complementary"]
 miohentai.com###sidebar-right > div.related-post > div.related-post-header ~ div[class^="side"]
 luscious.net##.ad_lead
@@ -51468,6 +51466,7 @@ academictorrents.com###carbon
 downforeveryoneorjustme.com###carbonDiv
 csdb.dk###casdivhor
 csdb.dk###casdivver
+eqmusicblog.com###cb-bg-to
 cbn.com###cbn_leaderboard_atf
 cloudwards.net,guitaradvise.com###cbox
 linuxinsider.com###cboxOverlay

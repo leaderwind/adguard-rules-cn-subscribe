@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Scriptlet
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202611182155
-! Last modified: 2026-11-18T21:55:48Z
+! Version: 202611190321
+! Last modified: 2026-11-19T03:21:46Z
 ! Layers: scriptlet
 ! Mode: standard
-! Rules: 5658
+! Rules: 5657
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -4491,7 +4491,6 @@ freegogpcgames.com#%#//scriptlet("abort-on-property-read", "S9tt")
 skidrowreloaded.com#%#//scriptlet("prevent-addEventListener", "mousedown", ")]){return")
 safeku.com#%#//scriptlet("prevent-window-open", "passeura")
 up-4ever.org#%#//scriptlet("remove-attr", "onclick", "#downLoadLinkButton")
-putlockers.cr#%#//scriptlet("prevent-window-open", "stream-4k")
 streamz.cc#%#//scriptlet("abort-on-property-read", "videoplay")
 streamz.cc#%#//scriptlet('remove-attr', 'onclick', 'form[action="dodownload.dll"] > input[onclick*="window.open"]')
 xxxhentai.net#%#//scriptlet('remove-attr', 'data-id', '.gallery-list > div[itemprop="associatedMedia"] > a[href][data-id]')

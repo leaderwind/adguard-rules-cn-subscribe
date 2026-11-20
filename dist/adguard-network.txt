@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Network
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202611200307
-! Last modified: 2026-11-20T03:07:07Z
+! Version: 202611201128
+! Last modified: 2026-11-20T11:28:13Z
 ! Layers: network
 ! Mode: standard
-! Rules: 47613
+! Rules: 47616
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -11186,6 +11186,7 @@ $third-party,xmlhttprequest,domain=faselhd.cafe|faselhd-watch.shop,badfilter
 ||pcchip.hr/wp-content/uploads*BANNER
 ||mob.hr/blog/wp-content/uploads/noviupload/NOA-E1-BANNER
 ||mob.hr^*-300x250.
+||seznam.cz/*/v2/xhr|
 ||cdn.telekomunikace.cz/banners
 @@||warforum.xyz/ads.js?$script,~third-party
 ||armyweb.cz/data/presentation/$image
@@ -13862,6 +13863,7 @@ $image,third-party,denyallow=googleapis.com,domain=vipbox1.org
 $third-party,script,domain=klto9.com|f2movies.to|hacamchicac.com|yourporngod.com|zinchanmanga.com|yaoimangaonline.com|tututweak.app|mangaraw.ai|eromanga-show.com|hentai-one.com|hentaipaw.com|nukibooks.com|paipancon.com|jgvdata.com|youtubevanced.com|pandamtl.com|mangaplus.shueisha.tv|shueisharaw.tv
 ||linksconsole.com/ad-system/
 ||misc-api.feathermc.com/*/ads/ad_units?
+||symbaloo.com/static/banners/
 /^https:\/\/coincodex\.com\/[a-z0-9][a-z0-9][a-z0-9][a-z0-9][a-z0-9][a-z0-9][a-z0-9][a-z0-9][a-z0-9][a-z0-9]\/$/$xmlhttprequest,match-case,domain=coincodex.com
 /^https:\/\/gayhaus\.com\/[_a-zA-Z0-9]+\.js\?/$script,domain=gayhaus.com
 ||dlink10.com/apop.php
@@ -33466,6 +33468,7 @@ unpkg.com/aladug/*.js
 /assets/publish/d3.2.js$~third-party
 ||ciliyinqing.top^$third-party
 ||feijisu*.com/js/huimi-
+://gg.*/*.js$third-party
 /api/LM/Report?placeUUID=$third-party
 .icu/pssbk?$third-party
 /vhyoydie_*_*.js$third-party

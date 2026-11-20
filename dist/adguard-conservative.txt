@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Conservative
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202611200307
-! Last modified: 2026-11-20T03:07:07Z
+! Version: 202611201128
+! Last modified: 2026-11-20T11:28:13Z
 ! Layers: network,content,scriptlet
 ! Mode: conservative
-! Rules: 109017
+! Rules: 109029
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -19370,6 +19370,7 @@ $third-party,xmlhttprequest,domain=faselhd.cafe|faselhd-watch.shop,badfilter
 ||pcchip.hr/wp-content/uploads*BANNER
 ||mob.hr/blog/wp-content/uploads/noviupload/NOA-E1-BANNER
 ||mob.hr^*-300x250.
+||seznam.cz/*/v2/xhr|
 ||cdn.telekomunikace.cz/banners
 @@||warforum.xyz/ads.js?$script,~third-party
 ||armyweb.cz/data/presentation/$image
@@ -21810,6 +21811,7 @@ $image,third-party,denyallow=googleapis.com,domain=vipbox1.org
 $third-party,script,domain=klto9.com|f2movies.to|hacamchicac.com|yourporngod.com|zinchanmanga.com|yaoimangaonline.com|tututweak.app|mangaraw.ai|eromanga-show.com|hentai-one.com|hentaipaw.com|nukibooks.com|paipancon.com|jgvdata.com|youtubevanced.com|pandamtl.com|mangaplus.shueisha.tv|shueisharaw.tv
 ||linksconsole.com/ad-system/
 ||misc-api.feathermc.com/*/ads/ad_units?
+||symbaloo.com/static/banners/
 /^https:\/\/coincodex\.com\/[a-z0-9][a-z0-9][a-z0-9][a-z0-9][a-z0-9][a-z0-9][a-z0-9][a-z0-9][a-z0-9][a-z0-9]\/$/$xmlhttprequest,match-case,domain=coincodex.com
 /^https:\/\/gayhaus\.com\/[_a-zA-Z0-9]+\.js\?/$script,domain=gayhaus.com
 ||dlink10.com/apop.php
@@ -39362,8 +39364,8 @@ sayphotobooth.com,odiadance.com,heypikachu.com,optiklink.com,egycdn.net,krx18.co
 safelink.asia#$#body { overflow: auto !important; }
 safelink.asia#$##seosecretidnadblock { display: none !important; }
 fc-lc.com###ignielAdBlock
-shii4u.media,sahid4u.com,shaheed4u.day,shaheiid4u.net,shahheid4u.net,shhahhed4u.net,shiid4u.day,shaahed4u.net,shah4u.*,sd4u.net,sshahid4u.*,shahid-4u.*,shahid4u.*,shhahid4u.*,shaid4u.day,shahhid4u.cam,shsaahid4u.net,shahiid4u.net,shahidd4u.net,neosatsu.com,indokontraktor.comak.sv,nguyenvanbao.com,ak4ar.*,akw.to,xn--mgba7fjn.*,ak4eg.*,adnews.me,traffic1s.com,ipacrack.com,oii.io,note1s.com,fc.lc#$#body { overflow: auto !important; }
-shii4u.media,sahid4u.com,shaheed4u.day,shaheiid4u.net,shahheid4u.net,shhahhed4u.net,shiid4u.day,shaahed4u.net,shah4u.*,sd4u.net,sshahid4u.*,shahid-4u.*,shahid4u.*,shhahid4u.*,shaid4u.day,shahhid4u.camak.sv,nguyenvanbao.com,ak4ar.*,akw.to,xn--mgba7fjn.*,ak4eg.*,adnews.me,traffic1s.com,ipacrack.com,oii.io,note1s.com,fc.lc#$##ignielAdBlock { display: none !important; }
+shii4u.media,sahid4u.com,shaheed4u.day,shaheiid4u.net,shahheid4u.net,shhahhed4u.net,shiid4u.day,shaahed4u.net,shah4u.*,sd4u.net,sshahid4u.*,shahid-4u.*,shahid4u.*,shhahid4u.*,shaid4u.day,shahhid4u.cam,shsaahid4u.net,shahiid4u.net,shahidd4u.net,neosatsu.com,indokontraktor.com,ak.sv,nguyenvanbao.com,ak4ar.*,akw.to,xn--mgba7fjn.*,ak4eg.*,adnews.me,traffic1s.com,ipacrack.com,oii.io,note1s.com,fc.lc#$#body { overflow: auto !important; }
+shii4u.media,sahid4u.com,shaheed4u.day,shaheiid4u.net,shahheid4u.net,shhahhed4u.net,shiid4u.day,shaahed4u.net,shah4u.*,sd4u.net,sshahid4u.*,shahid-4u.*,shahid4u.*,shhahid4u.*,shaid4u.day,shahhid4u.cam,ak.sv,nguyenvanbao.com,ak4ar.*,akw.to,xn--mgba7fjn.*,ak4eg.*,adnews.me,traffic1s.com,ipacrack.com,oii.io,note1s.com,fc.lc#$##ignielAdBlock { display: none !important; }
 shii4u.media,sahid4u.com,shaheed4u.day,shaheiid4u.net,shahheid4u.net,shhahhed4u.net,shiid4u.day,shaahed4u.net,shah4u.*,sd4u.net,sshahid4u.*,shahid4u.*,shhahid4u.*,shaid4u.day,shahhid4u.cam,shsaahid4u.net,shahiid4u.net,shahidd4u.net,neosatsu.com,indokontraktor.com#$#.ignielAdBlock { display: none !important; }
 ##.adace-popup-detector
 math4all.es,clownandco.org,modapk48.com,felizmodapk.com,4horlover.com,willcycle.com,pinoyalbums.com,samuraiscan.org,magiskmanager.com,infortechno.com,powerup-gaming.com,lascimmiapensa.com,wanderertl130.id,davescomputertips.com,movies4u.network,sociologicamente.it,textfonts.net,ketubanjiwa.com,ubitennis.com,gaypornhdfree.com,openculture.com##div[id$="-blanket"]
@@ -41849,6 +41851,7 @@ njuskalo.hr#$#.pub_300x250.pub_300x250m.pub_728x90.text-ad.textAd.text_ad.text_a
 mob.hr##.noa-banner > a
 mob.hr###billboard_ad_container
 mob.hr##.side_banner
+www.seznam.cz##div[style="height:300px;width:560px;"]
 autoviny.sk##.bm-group
 autoviny.sk##.mtx
 sector.sk###newsload > div[style*="text-align:"]:has(> a[onmouseover])
@@ -49248,6 +49251,12 @@ animecorner.me,zarabiajprzez24.pl,watchhentai.xxx,app-how-to-use-it.com,linuxcap
 pawastreams.*,nflbite.to,footybite.to,sportschamp.fun,afly.pro,topsporter.net,soccerstreams.football,mysocceraustralia.com,rayinfosports.com,hesgoals.top,sequencecard.xyz,totalsportek.soccer,metaporky.site,nbabite.to,cyfostreams.com,gamerarcades.com,bestreamsports.org,footy.to,mcrypto.club,greaterkashmir.com###id-custom_banner
 pawastreams.*,groundedtechs.com,rayinfosports.com,sequencecard.xyz,matchtime.co,sportspellz.com,bestreamsports.org,silverspoon.site###dismiss-btn
 gearspace.com,gleaks.pro,vi-control.net,nullforums.net,landyzone.co.uk,nullcave.pro,woxmax.com,waskucity.com,babia.to,technofino.in,reef2reef.com,minebbs.com,craxpro.io,affiliatefix.com,myiptvforum.com,hifivision.com,worldofiptv.com,altenen.is,beermoneyforum.com,germancarforum.com,cracking.org##.samBannerUnit
+onefootball.com##.xtdgva_xpaLayoutContainerGridItemComponents > div.bys4-W_container
+ccn.com##div[id^="toplist-"]
+cinehd.vc##main > div.mt-6[style="background:transparent"]
+cinehd.vc##main > div.mt-8:has(> div[class] > a[href="https://royalminer.app/"])
+comicbook.com##.wp-block-savage-platform-fabrik-video
+dramafren.org###safePopupArea
 daily.dev##main > div.flex:has(> a[rel="noopener noreferrer nofollow sponsored"])
 f4splay.vip##.f4s-pause-ad
 coincodex.com##app-page-rail
@@ -49348,7 +49357,7 @@ sportsnaut.com##.tpd-ad-slot-block
 pymnts.com#$#.container-scroller { --billboard-h: 0px !important; }
 games.gg##.ad-rail-reserve
 gayporntube.com##.category-banner
-sheepesports.com,thepostmillennial.com##aside[aria-label="Advertisement"]
+ingamenews.com,sheepesports.com,thepostmillennial.com##aside[aria-label="Advertisement"]
 topsitecam.com##body .ad-banner
 topsitecam.com##.player-stream__outlink
 topsitecam.com##.player-actions__provider
@@ -64325,7 +64334,7 @@ giveawayoftheday.com##div[class*="_ab aa-"]
 cpuid.com##div[class*="widget-advert-"]
 tunefind.com##div[class^="AdSlot_"]
 thesurfersview.com##div[class^="ad"]
-get4all.org,technobaboy.com,full-porn.com,entireweb.com,yay.porn,1porno.net,ip-tracker.org,peggo.tv,fliqlo.com##div[class^="ad-"]
+ingamenews.com,get4all.org,technobaboy.com,full-porn.com,entireweb.com,yay.porn,1porno.net,ip-tracker.org,peggo.tv,fliqlo.com##div[class^="ad-"]
 pixiz.com##div[class^="ad-list"]
 stream2watch.co##div[class^="adk2_"]
 einthusan.ca,einthusan.com,einthusan.tv##div[class^="adspace-"]
@@ -88586,6 +88595,7 @@ facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##a[a
 facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##a[aria-label="Advertiser"]
 themainewire.com##a[aria-label^="The Maine Wire Banner Ad"]
 alibaba.com##a[campaignid][target="_blank"]
+videocardz.com##a[class][href^="https://www.amazon.com"][target]
 bernama.com##a[class^="banner_photo_"]
 probuilds.net##a[class^="dl-blitz-"]
 zerohedge.com##a[class^="endorsement"]
@@ -89372,6 +89382,7 @@ tripadvisor.*##[data-sponsored="sponsored"]:has(.txxUo)
 walmart.*##[data-testid="carousel-ad"]
 skyscanner.*##[data-testid="inline-ad-panel-desktop-layout"]:has([data-testid="adInfoBtn"])
 douglas.*##[data-testid="product-overview-content-slot"]:has(.criteo-teaser-gold__sponsored)
+pinterest.*##[role="listitem"]:has(.fullWidth_1f .subtle_1h)
 wayfair.*##a[data-enzyme-id="WssBannerContainer"]
 walmart.*##a[href*=".criteo.com/"]
 manomano.*##a[href^="/"][href*="?product_id="][title]:has(span > .svg_tamagoshi)
@@ -89399,7 +89410,7 @@ walmart.*##div[data-automation^="HookLogicCarouses"]
 skyscanner.*##div[data-backpack-ds-component]:has(#inline-ad-button)
 tripadvisor.*##div[data-curated-shelf-id]:has(a[rel="sponsored"])
 wayfair.*##div[data-enzyme-id="WssBannerContainer"]
-pinterest.com##div[data-grid-item]:has([data-test-pin-id] [data-test-id^="one-tap-desktop"] > a[href^="http"][rel="nofollow"]):not(body > div)
+pinterest.*##div[data-grid-item]:has([data-test-pin-id] [data-test-id^="one-tap-desktop"] > a[href^="http"][rel="nofollow"]):not(body > div)
 wayfair.*##div[data-hb-id="Grid.Item"]:has(a[href*="&sponsoredid="])
 wayfair.*##div[data-name="DisplayAd"]
 wayfair.*##div[data-node-id^="SponsoredListingCollectionItem"]
@@ -92549,6 +92560,7 @@ unpkg.com/aladug/*.js
 /assets/publish/d3.2.js$~third-party
 ||ciliyinqing.top^$third-party
 ||feijisu*.com/js/huimi-
+://gg.*/*.js$third-party
 /api/LM/Report?placeUUID=$third-party
 .icu/pssbk?$third-party
 /vhyoydie_*_*.js$third-party

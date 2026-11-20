@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Conservative
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202611192128
-! Last modified: 2026-11-19T21:28:13Z
+! Version: 202611200307
+! Last modified: 2026-11-20T03:07:07Z
 ! Layers: network,content,scriptlet
 ! Mode: conservative
-! Rules: 109002
+! Rules: 109017
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -37796,6 +37796,7 @@ $third-party,xmlhttprequest,domain=mega4upload.net
 ||webstick.blog/images/images-ads/
 ||weedmaps.com/seg/evs/$~third-party,xmlhttprequest
 ||welcomemagazinecy.com/media/advertisements/
+||whispersinthecorridors.in/api/ads/
 ||wikihow.com/x/zscsucgm?
 ||wordcount.im/js/ad.js
 ||workers.dev^$domain=chartgo.com|chessgames.com|player.vidzee.wtf
@@ -82906,6 +82907,7 @@ gadgethacks.com,virtual.reality.news###sticky-footer--container
 cpu-monkey.com###sticky-header-mobile
 datamation.com###sticky-rail
 radio.net###sticky-reklame-header
+beloitdailynews.com###sticky-right-rail-spacer
 gumtree.com.au###sticky-top-container
 independent.co.uk,standard.co.uk,the-independent.com###stickyFooterRoot
 afr.com###stickyLeaderboard
@@ -83531,6 +83533,7 @@ statnews.com##.ad-in-article
 wago.io##.ad-in-search
 symbl.cc##.ad-incontent-rectangle
 andscape.com##.ad-incontent-wrapper
+albertleatribune.com##.ad-indicator-text
 pcgamesn.com,pockettactics.com,wargamer.com##.ad-injector-potential-slot
 etfstream.com##.ad-inline-leaderboard
 kenyans.co.ke##.ad-kenyans
@@ -84386,6 +84389,7 @@ thecompleteuniversityguide.co.uk##.bnr_out
 armenpress.am##.bnrcontainer
 apkmody.mobi##.body-fixed-footer
 saharareporters.com##.body-inject
+indianmasterminds.com##.bodyAds
 boingboing.net##.boing-amp-triple13-amp-1
 boingboing.net##.boing-homepage-after-first-article-in-list
 boingboing.net##.boing-leaderboard-below-menu
@@ -85005,7 +85009,9 @@ vecteezy.com##.eezy-sponsored-results
 cryptorank.io##.egJLJA
 clutchpoints.com##.ehgtMe.sc-ed3f1eaf-1
 filmibeat.com##.ele-ad
+indianmasterminds.com##.elementor > .elementor-element:has(> div.e-con-inner > div.elementor-widget-html div.bodyAds)
 sashares.co.za##.elementor-48612
+indianmasterminds.com##.elementor-element > .elementor-widget-container > div:not([id]):has(> div.lazyloadads)
 cryptopolitan.com##.elementor-element-094410a
 transportandenergy.com##.elementor-element-16336d8
 avitrader.com##.elementor-element-31aeedc
@@ -85014,6 +85020,8 @@ whakatakitimes.nz##.elementor-element-97aca2d
 transportandenergy.com##.elementor-popup-modal
 optimyz.com,ringsidenews.com##.elementor-shortcode
 canyoublockit.com##.elementor-widget-container > center > p
+indianmasterminds.com##.elementor-widget-html > .elementor-widget-container > div:not([id]):has(> div[id^="div-gpt-ad"][data-adcode])
+indianmasterminds.com##.elementor-widget-image > .elementor-widget-container:has(a:not([href^="https://indianmasterminds.com/"])[target="_blank"])
 vedantbhoomi.com##.elementor-widget-smartmag-codes
 radiotimes.com##.elementor-widget-wp-widget-section_full_width_advert
 worldscreen.com##.embdad
@@ -85219,6 +85227,7 @@ ghacks.net##.ftd-item
 speedof.me##.ftl-zone
 familytreenow.com##.ftn_detail_mid_one
 familytreenow.com##.ftn_detail_mid_two
+indianmasterminds.com##.ftrstkyad
 newser.com##.fu4elsh1yd
 sneakernews.com##.full-width-ad-blk
 livability.com##.full-width-off-white
@@ -87777,6 +87786,10 @@ transfermarkt.co.uk,transfermarkt.com##.werbung-skyscraper-container
 westsiderag.com##.wests-widget
 washingtonexaminer.com##.wex-ad-wrap
 bollywoodshaadis.com##.wgt-continue-title
+whispersinthecorridors.in##.wh-ad-slot
+whispersinthecorridors.in##.wh-after-header-ad
+whispersinthecorridors.in##.wh-rail-ad
+whispersinthecorridors.in##.wh-slider-banner-ad
 player.fm##.when-show-ads
 gadgethacks.com,reality.news,wonderhowto.com##.whtaph
 pch.com##.wide_banner
@@ -95589,7 +95602,6 @@ yatu.tv##.dplayer-web-fullscreen-fix #tburl,#loadtop,[id^=myas],#myds1,#daohang
 @@||discord.com^$generichide
 ##.ad-unit
 ##[class^="div-gpt-ad"]
-beloitdailynews.com###sticky-right-rail-spacer
 cyberchef.org###workspace-wrapper > [id][style*="height"] {height: 100% !important}
 complex.com##.\[\@media\(min-width\:520px\)\]\:px-\[20px\]
 justjared.com##.banner-spacer-top {max-height: 50px !important;}
@@ -105441,6 +105453,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||smarte.rs/log
 ||trsbf.com/static/fbs.min.js
 ||unpkg.com/@topsort/analytics.js
+||view.publitas.com/ecommTracker.js
+||view.publitas.com/javascripts/vendors/publitas-stats.js
 ||aftonbladet.se/blogportal/view/statistics?$third-party
 ||eniro.com/pixel/
 ||pji.nu/libs/pjpixel/
@@ -106886,6 +106900,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||wfinterface.com/tracking/$domain=wellsfargo.com
 ||whattomine.com/stats
 ||wheregoes.com/api/event
+||whispersinthecorridors.in/public/js/analytics.js
 ||whistleout.com.au/track
 ||wikihow.com/x/collect?
 ||wikily.gg/api/event

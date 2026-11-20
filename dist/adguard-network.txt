@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Network
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202611192128
-! Last modified: 2026-11-19T21:28:13Z
+! Version: 202611200307
+! Last modified: 2026-11-20T03:07:07Z
 ! Layers: network
 ! Mode: standard
-! Rules: 47609
+! Rules: 47613
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -31773,6 +31773,7 @@ $third-party,xmlhttprequest,domain=mega4upload.net
 ||webstick.blog/images/images-ads/
 ||weedmaps.com/seg/evs/$~third-party,xmlhttprequest
 ||welcomemagazinecy.com/media/advertisements/
+||whispersinthecorridors.in/api/ads/
 ||wikihow.com/x/zscsucgm?
 ||wordcount.im/js/ad.js
 ||workers.dev^$domain=chartgo.com|chessgames.com|player.vidzee.wtf
@@ -44048,6 +44049,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||smarte.rs/log
 ||trsbf.com/static/fbs.min.js
 ||unpkg.com/@topsort/analytics.js
+||view.publitas.com/ecommTracker.js
+||view.publitas.com/javascripts/vendors/publitas-stats.js
 ||aftonbladet.se/blogportal/view/statistics?$third-party
 ||eniro.com/pixel/
 ||pji.nu/libs/pjpixel/
@@ -45493,6 +45496,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||wfinterface.com/tracking/$domain=wellsfargo.com
 ||whattomine.com/stats
 ||wheregoes.com/api/event
+||whispersinthecorridors.in/public/js/analytics.js
 ||whistleout.com.au/track
 ||wikihow.com/x/collect?
 ||wikily.gg/api/event

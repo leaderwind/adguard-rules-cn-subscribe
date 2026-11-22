@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Network
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202611220307
-! Last modified: 2026-11-22T03:07:32Z
+! Version: 202611221114
+! Last modified: 2026-11-22T11:14:04Z
 ! Layers: network
 ! Mode: standard
-! Rules: 47627
+! Rules: 47633
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -7630,6 +7630,7 @@ $cookie=__adblocker,domain=slate.com|thehindubusinessline.com
 ||claimfey.com/cryptonews/wp-content/uploads/bqanwcfp.js
 @@||static.trafficjunky.com/ab/ads_test.js$domain=bztube.com|hotovs.com|insuredhome.org|nudegista.com|pornluck.com|vidd.se|redtube.*|youpornru.com|tube8.com|tube8.es|tube8.fr|tube8.net|pornhub.com|pornhub.org|pornhub.net
 @@://www.exoclick.com/ads.js|
+@@||securepubads.g.doubleclick.net/tag/js/gpt.js$script,domain=zeta-ai.io
 @@||poweredby.jads.co^$domain=pzonehd.com
 @@||tsyndicate.com^$domain=pzonehd.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=akari46.com
@@ -30662,7 +30663,6 @@ _800x80_
 ||washingtonpost.com/wp-stat/ad/zeus/wp-ad.min.js
 ||web-hosting.net.my/banner/
 ||webseed.com/WP/
-||wgt.podcastswaves.com/jamx.player.js
 ||whatfinger.com^$third-party
 ||widget.engageya.com/engageya_loader.js
 ||widgets.monito.com^$third-party
@@ -33751,7 +33751,8 @@ _/bigREDdog.js
 /config/tj.js
 ||*.org/config/v7.js
 ||jjjxsw.com/js/common.*
-||/js/0x1a2b3c4d.js
+/js/0x1a2b3c4d.js
+.com:30009/*t*$third-party
 /js/j*s*r*u*n*n*e*r.js$~third-party
 /js/kaixin.js
 .net/vh1/1*$third-party
@@ -36532,6 +36533,7 @@ template/m1938pc/ads/*.js
 /px.gif?
 /px.js?ch=$script
 /px/*/blank.gif?
+/px/?rand=
 /px/client/main.min.js
 /px?t=
 /px_trans.gif
@@ -42181,7 +42183,9 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||desipearl.com/tracker/
 ||dev.visualwebsiteoptimizer.com/*/track-
 ||dev.visualwebsiteoptimizer.com/apm
+||dev.visualwebsiteoptimizer.com/cdn/edrv/
 ||dev.visualwebsiteoptimizer.com/collect/events/
+||dev.visualwebsiteoptimizer.com/edrv/
 ||dev.visualwebsiteoptimizer.com/ping_tpc.php
 ||digimedia.com/pageviews.php?
 ||digitaloceanspaces.com/pixel.min.js
@@ -42238,6 +42242,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||episerver.net/ia.js
 ||epl.paypal-communication.com^$script
 ||epromote.co.za/track/
+||estuary-data.com/ga4-identify
 ||etoro.com/tradesmonitor/
 ||ev.mmin.io/ping
 ||eventful.com/apps/generic/$image,third-party
@@ -44112,7 +44117,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||abysscdn.com/cdn-cgi/trace
 ||academia.edu/record_hit?
 ||acast.com/api/stats
-||accuterm.com/data/stat.js
 ||acronymfinder.com/~/tr.ashx
 ||actionviewphotography.com/api/stats?
 ||activate.latimes.com/pc/caltimes/?pulse2001=
@@ -44143,6 +44147,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||advancedmp3players.co.uk/themes/basic/js/analytics.js
 ||advertisertape.com/stat/
 ||advertising.amazon.dev/v1/ad-events/
+||adweek.com/vx39/
 ||adweek.com/wp-content/plugins/adw-parsley/
 ||aeis.alicdn.com/awsc/fireyejs/$script,domain=alibaba.com
 ||aerlingus.com/ahktqsewxjhguuxe.js
@@ -44314,6 +44319,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||buzzfeed.com/destination-sync.html
 ||bwbx.io/s3/javelin/public/hub/js/abba/$script,domain=bloomberg.co.jp|bloomberg.com
 ||byteoversea.com/monitor_web/
+||bytes.adweek.com/vs.js
 ||c.paypal.com^$image,script
 ||c.ypcdn.com^$domain=yellowpages.com
 ||camgirls.casa/p.php

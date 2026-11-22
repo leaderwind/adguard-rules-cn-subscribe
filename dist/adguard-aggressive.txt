@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Aggressive
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202611221114
-! Last modified: 2026-11-22T11:14:04Z
+! Version: 202611221832
+! Last modified: 2026-11-22T18:32:30Z
 ! Layers: network,content,scriptlet
 ! Mode: aggressive
-! Rules: 117362
+! Rules: 117365
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -16274,6 +16274,7 @@ $cookie=__adblocker,domain=slate.com|thehindubusinessline.com
 ||claimfey.com/cryptonews/wp-content/uploads/bqanwcfp.js
 @@||static.trafficjunky.com/ab/ads_test.js$domain=bztube.com|hotovs.com|insuredhome.org|nudegista.com|pornluck.com|vidd.se|redtube.*|youpornru.com|tube8.com|tube8.es|tube8.fr|tube8.net|pornhub.com|pornhub.org|pornhub.net
 @@://www.exoclick.com/ads.js|
+@@||tpc.googlesyndication.com/sodar/sodar2.js$xmlhttprequest,domain=zeta-ai.io
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$script,domain=zeta-ai.io
 @@||poweredby.jads.co^$domain=pzonehd.com
 @@||tsyndicate.com^$domain=pzonehd.com
@@ -95429,6 +95430,7 @@ youporn.com,bztube.com,hotovs.com,insuredhome.org,nudegista.com,pornluck.com,vid
 pornhub.com,pornhub.org,pornhub.net#%#//scriptlet('set-constant', 'page_params.holiday_promo_prem', 'true')
 pornhub.com,pornhub.org,pornhub.net#%#//scriptlet('prevent-setTimeout', '\x41\x64\x62\x6c\x6f\x63\x6b\x20\x66\x6f\x72\x20\x70\x6f\x72\x6e\x68\x75\x62')
 youporn.com#%#//scriptlet('remove-node-text', 'script', '/window\.[\s\S]*?_zone_[\s\S]*?{"zone_id":/')
+zeta-ai.io#%#//scriptlet('prevent-fetch', 'tpc.googlesyndication.com/sodar/sodar2.js')
 zeta-ai.io#%#//scriptlet('prevent-element-src-loading', 'script', 'securepubads.g.doubleclick.net/tag/js/gpt.js')
 f4splay.vip#%#//scriptlet('prevent-fetch', 'pagead2.googlesyndication.com')
 pzonehd.com#%#//scriptlet('prevent-fetch', '/poweredby\.jads\.co|cdn\.tsyndicate\.com/')
@@ -114860,6 +114862,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||rv.modanisa.com^$script
 ||s-cdn.anthropic.com/s.js
 ||s.joinhoney.com/evs
+||s.pdfroom.com/api/event
 ||s.smallpdf.com/static/track-js-
 ||s.sofoot.com/script.js
 ||s.yimg.com/rx/ev/*/pframe.html$domain=aol.com

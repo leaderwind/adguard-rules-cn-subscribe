@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Network
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202611230015
-! Last modified: 2026-11-23T00:15:56Z
+! Version: 202611230900
+! Last modified: 2026-11-23T09:00:13Z
 ! Layers: network
 ! Mode: standard
-! Rules: 47641
+! Rules: 47654
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -7938,7 +7938,7 @@ $cookie=__adblocker,domain=slate.com|thehindubusinessline.com
 @@||gupload.*^$generichide
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=bellezashot.com
 ||ssl.p.jwpcdn.com/player/v/*/googima.js$script,third-party,redirect-rule=noopjs
-@@||ssl.p.jwpcdn.com/player/v/8.36.2/googima.js$script,domain=vidara.to|vidara.so|xca.cymru|vindaz.shop|vidmatrixa.com|vidchampions.com|vidavaca.cc|calyro.biz|vidarae.live|vidwara.cc|vidwara.fit|viderea.site|gaqghe.com|gasobni.com|sugbaioug.com|g8w90qhngo.com|as9u7bgh9.com|gobsao8u.com
+@@||ssl.p.jwpcdn.com/player/v/8.36.2/googima.js$script,domain=vidara.to|vidara.so|xca.cymru|vindaz.shop|vidmatrixa.com|vidchampions.com|vidavaca.cc|calyro.biz|vidarae.live|vidwara.cc|vidwara.fit|viderea.site|gaqghe.com|gasobni.com|sugbaioug.com|g8w90qhngo.com|as9u7bgh9.com|gobsao8u.com|fhjabs.com
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$script,domain=talksport.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=talksport.com
 @@||ashesofcreation.com/show-ad.js$script
@@ -13867,9 +13867,11 @@ $image,third-party,denyallow=googleapis.com,domain=vipbox1.org
 $third-party,script,domain=klto9.com|f2movies.to|hacamchicac.com|yourporngod.com|zinchanmanga.com|yaoimangaonline.com|tututweak.app|mangaraw.ai|eromanga-show.com|hentai-one.com|hentaipaw.com|nukibooks.com|paipancon.com|jgvdata.com|youtubevanced.com|pandamtl.com|mangaplus.shueisha.tv|shueisharaw.tv
 ||linksconsole.com/ad-system/
 ||misc-api.feathermc.com/*/ads/ad_units?
+||porndiff.com/api/vixee/
+||vixee.ai/*/vixee-ad-
 ||symbaloo.com/static/banners/
 /^https:\/\/coincodex\.com\/[a-z0-9][a-z0-9][a-z0-9][a-z0-9][a-z0-9][a-z0-9][a-z0-9][a-z0-9][a-z0-9][a-z0-9]\/$/$xmlhttprequest,match-case,domain=coincodex.com
-/^https:\/\/gayhaus\.com\/[_a-zA-Z0-9]+\.js\?/$script,domain=gayhaus.com
+/\.com\/[_a-zA-Z0-9]+\.js\?/$script,match-case,~third-party,domain=gayck.com|gayhaus.com
 ||dlink10.com/apop.php
 ||scanwp.net/js/exit-popup.js
 ||liveball.sx/public/js/custom_clickunder.js
@@ -17916,6 +17918,9 @@ $popup,third-party,domain=fembed-hd.com,badfilter
 $popup,third-party,domain=sbplay2.com,badfilter
 $popup,third-party,domain=dood.ws,badfilter
 @@||download.ros.org/*.xsd$document
+@@||live.primis.tech/live/liveView.php$domain=apnews.com
+@@||live.primis.tech/live/liveVideo.php$domain=apnews.com
+@@||live.primis.tech/content/omid/static/omid-session-client*.js$domain=apnews.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=foxsports.com.au
 @@||s0.2mdn.net/instream/video/client.js$domain=foxsports.com.au
 @@||ads.pubmatic.com/AdServer/js/pwt/*/pwt.js$domain=foxsports.com.au
@@ -24640,6 +24645,7 @@ cdn.braun634.com^$third-party
 /popup_code.php$script
 /popupads.js$script
 /prbt/v1/ads/?_=
+/prebid-library.js
 /prism_ad/*$script
 /processing/impressions.asp?$image
 /production/ad-$script
@@ -25520,7 +25526,6 @@ _800x80_
 ||clearwatch.tv^$document
 ||click-for-preview.com^$document
 ||clickblitzo.com^$document
-||clickpunch.icu^$document
 ||cliphotbokep.xyz^$document
 ||clixwells.com^$document
 ||clladss.com^$document
@@ -25870,7 +25875,6 @@ _800x80_
 ||stortla.com^$document
 ||strtgic.com^$document
 ||stsbih.com.ba^$document
-||studiotrackmusic.com^$document
 ||superfasti.co^$document
 ||sxlflt.com^$document
 ||synccora.com^$document
@@ -26765,7 +26769,6 @@ _800x80_
 ||neoffic.com^$third-party
 ||neon.today^$third-party
 ||netaffiliation.com^$~script,third-party
-||netavenir.com^$third-party
 ||netinsight.co.kr^$third-party
 ||netizen.co^$third-party
 ||netliker.com^$third-party
@@ -27002,7 +27005,6 @@ _800x80_
 ||springserve.com^$~media,third-party
 ||sprintrade.com^$third-party
 ||stackup-ai.com^$third-party
-||starti.pl^$third-party
 ||stratos.blue^$third-party
 ||streamdefence.com^$third-party
 ||strossle.com^$third-party
@@ -31108,6 +31110,7 @@ $third-party,xmlhttprequest,domain=mega4upload.net
 ||apkcube.com/loader.js
 ||app.mps.vsnt.net/fetch/ext/load-rottentomatoes-web.js$domain=rottentomatoes.com
 ||appteka.store/api/banners?
+||aps.dz/en/_next/*banner$image
 ||arbiscan.io/images/gen/*_StylusBlitz_Arbiscan_Ad.png
 ||armyrecognition.com/images/stories/customer/
 ||artdaily.cc/banners/
@@ -31344,6 +31347,8 @@ $third-party,xmlhttprequest,domain=mega4upload.net
 ||gpt.mail.yahoo.net/sandbox$subdocument,domain=mail.yahoo.com
 ||graphicdesignforums.co.uk/banners/
 ||greatandhra.com/images/landing/
+||gridinsoft.com/assets/js/report-ad-frequency.js
+||gridinsoft.com/assets/js/report-ads.js
 ||grow.gab.com/galahad/
 ||gsmarena.com/top-skin.min.js
 ||guessthe.house/ads/
@@ -34531,7 +34536,6 @@ template/m1938pc/ads/*.js
 ||www.yatu.tv/m/images/$image
 ||tracker.$xhr,websocket,script,ping
 .php?zoneid=$script
-/prebid-library.js
 ://ads.$popup,domain=~ad.olx.pl|~ads.mercadolibre.com.ar|~ads.mercadolibre.com.cl|~ads.mercadolibre.com.co|~ads.mercadolibre.com.ec|~ads.mercadolibre.com.mx|~ads.mercadolibre.com.pe|~ads.mercadolibre.com.ve|~ads.mercadolivre.com.br|~ads.openai.com|~ads.pandauth.com|~ads.umd.edu|~axon.ai|~kakaku.com|~reddit.com|~smartnews.com
 ://adv.$popup,domain=~adv.kompas.id|~adv.lack-girl.com
 ||lockerdome.com^$third-party
@@ -34652,6 +34656,7 @@ template/m1938pc/ads/*.js
 /?swift-performance-tracking
 /_/api/v2/analytics/?
 /_/lite/performance/*
+/__activity.gif?
 /__core/metrics.js
 /__imp_apg__/*
 /__rmn.gif?
@@ -34909,6 +34914,7 @@ template/m1938pc/ads/*.js
 /api/datafast/*
 /api/drpStats
 /api/event-rfkj/*
+/api/event/collect|
 /api/front/v2/observability$ping
 /api/internal/pixel?
 /api/log-visit
@@ -35153,6 +35159,7 @@ template/m1938pc/ads/*.js
 /chartbeat.min.js
 /chcounter/counter.php
 /check.php?referrer=
+/checkout/offer/trackShow
 /chicken.gif?*=
 /cklink.gif?
 /cklog.js
@@ -38644,6 +38651,7 @@ omni.soundestlink.com$image
 ||demandscience.com^$third-party
 ||departapp.com^$third-party
 ||deqwas.net^$third-party
+||derbysoftsec.com^$third-party
 ||devatics.com^$third-party
 ||devatics.io^$third-party
 ||device9.com^$third-party
@@ -42821,6 +42829,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||organicfruitapps.com/analytics/
 ||orts.wixawin.com^$third-party
 ||osano.com/js/?action_name=
+||otel-hfo.fareharbor.engineering/v1/traces
 ||otg.mblycdn.com/bundles/cmp.js
 ||outbrain.com/nanoWidget/externals/cookie/
 ||outbrain.com/widgetOBUserSync/
@@ -43111,6 +43120,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||squarecdn.com/square-marketplace-js/chunk-analytics-vendors.js
 ||squarecdn.com/square-marketplace-js/chunk-analytics.js
 ||squarespace.com/universal/scripts-compressed/performance-$script,third-party
+||sr-cdn.shiprocket.in/sr-promise/static/iframe.html
+||sr-cdn.shiprocket.in/sr-promise/static/uc.js
 ||srvmath.com^*/analytics.js
 ||ssc.shopstyle.com/collective.min.js
 ||ssl-images-amazon.com/images/I/31YXrY93hfL.js$domain=imdb.com
@@ -45077,6 +45088,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||public.tableau.com/public/apis/audit-event
 ||publicwww.com/mtm/mtm.js
 ||pulpulyy.club/cdn-cgi/trace
+||pureinfotech.com/media/api/send
 ||pushsquare.com/blank.gif
 ||qub.ca/api/log
 ||qub.ca/collector-service/event
@@ -45358,6 +45370,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||thetimes.co.uk/track?
 ||thetruth.com/pd.js
 ||thetruthaboutcars.com/api/slots
+||theverge.com/SendEventData
 ||thewindowsclub.com/wp-content/themes/genesis/lib/js/skip-links.min.js
 ||think.ing.com/ajax/ajax_cookie_consent$~third-party,xmlhttprequest
 ||thisiswhyimbroke.com/api/user/gift-guide-thumbnail-homepage/tracking

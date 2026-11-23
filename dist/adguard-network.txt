@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Network
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202611221832
-! Last modified: 2026-11-22T18:32:30Z
+! Version: 202611230015
+! Last modified: 2026-11-23T00:15:56Z
 ! Layers: network
 ! Mode: standard
-! Rules: 47635
+! Rules: 47641
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -26273,6 +26273,7 @@ _800x80_
 ||amxrtb.com^$third-party
 ||andbeyond.media^$third-party
 ||aniview.com^$third-party
+||anonymousdemographics.com^$third-party
 ||anrdoezrs.net/image-
 ||anrdoezrs.net/placeholder-
 ||anyclip-media.com^$third-party
@@ -34530,6 +34531,7 @@ template/m1938pc/ads/*.js
 ||www.yatu.tv/m/images/$image
 ||tracker.$xhr,websocket,script,ping
 .php?zoneid=$script
+/prebid-library.js
 ://ads.$popup,domain=~ad.olx.pl|~ads.mercadolibre.com.ar|~ads.mercadolibre.com.cl|~ads.mercadolibre.com.co|~ads.mercadolibre.com.ec|~ads.mercadolibre.com.mx|~ads.mercadolibre.com.pe|~ads.mercadolibre.com.ve|~ads.mercadolivre.com.br|~ads.openai.com|~ads.pandauth.com|~ads.umd.edu|~axon.ai|~kakaku.com|~reddit.com|~smartnews.com
 ://adv.$popup,domain=~adv.kompas.id|~adv.lack-girl.com
 ||lockerdome.com^$third-party
@@ -37302,6 +37304,7 @@ template/m1938pc/ads/*.js
 /vendor/analytics.js
 /vendor/analytics/*
 /vendor/cedexis/*
+/vendor/snowplow-
 /vestigo/v1/measure
 /vglnk.js
 /video-ga.js
@@ -39725,6 +39728,7 @@ omni.soundestlink.com$image
 ||ptztvpremium.com^$third-party
 ||pubdream.com^$third-party
 ||pubexchange.com^$third-party
+||pubfluencers.com^$third-party
 ||publicgood.com^$third-party
 ||publicidees.com^$third-party
 ||publytics.net^$third-party
@@ -44658,6 +44662,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||google.com/measurement/
 ||google.com/pagead/1p-conversion/
 ||gpsvisualizer.com/ip2country.js
+||gpupartner.com/57df8107ae016629/script.js
 ||grabify.link/api/js
 ||grok.com/_data/v1/a/
 ||grok.com/_data/v1/events
@@ -44875,6 +44880,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||me-qr.com/metrics/
 ||me-qr.com/statistic/collect/
 ||medal.tv^$ping
+||media.audubon.org/js/aud_tracker.min.js
 ||media.io/trk
 ||medium.com/_/batch
 ||meduza.io/stat/
@@ -45137,7 +45143,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||s.pdfroom.com/api/event
 ||s.smallpdf.com/static/track-js-
 ||s.sofoot.com/script.js
-||s.yimg.com/rx/ev/*/pframe.html$domain=aol.com
+||s.yimg.com/cv/apiv2/cv/apiv2/trueanthem/$domain=yahoo.com
 ||s.yimg.com/ss/analytics-$script,domain=yahoo.com
 ||samsung.com/us/web/internal/logger
 ||scholar.google.com^$ping

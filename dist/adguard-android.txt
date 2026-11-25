@@ -1,8 +1,8 @@
 ! Title: AdGuard Rules CN - Android
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202611250223
-! Last modified: 2026-11-25T02:23:36Z
+! Version: 202611251244
+! Last modified: 2026-11-25T12:44:39Z
 ! Layers: network,content,scriptlet
 ! Mode: standard
 ! Rules: 16908
@@ -6904,6 +6904,7 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###content_left > .r
 ##body[onresize="stopDebugger()"][onbeforecopy="return!1"] > div#root div[id^="notice_modal"]
 ##body[onresize="stopDebugger()"][onbeforecopy="return!1"] > div#root div:has(> img[src$=".gif"])
 ##body[onresize="stopDebugger()"][onbeforecopy="return!1"] > div#root div.m0auto > div > div.grid + div > div:empty
+map.baidu.com###message-center-panel:has(> span.message-ad-tag)
 comic18j-susu.com,jmcomic-zzz.one,18comic.vip##.web-right-float-button
 comic18j-susu.com,jmcomic-zzz.one,18comic.vip##.top-a2db
 blog.csdn.net##.simple-ad-slot
@@ -13703,7 +13704,6 @@ chinacsbs.com##a[href^="/plus/view.php?aid="]
 supercloudsms.com##a[href^="/redirect?"]
 96weixin.com##a[href^="/show/ads/"]
 fx112.com##a[href^="/union."]
-joyacg.top##a[href^="http"] > .img-fluid
 boniu123.cc##a[href^="http"] > img[src*="/bn_"]
 yigujin.cn##a[href^="http"]:not([href$=".html"]) > img[src*="/tp/"]
 90oo.com##a[href^="http"]:not([href*=".90oo."]) > img[src*="/tp/"]

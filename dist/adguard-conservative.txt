@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Conservative
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202611252229
-! Last modified: 2026-11-25T22:29:18Z
+! Version: 202611260500
+! Last modified: 2026-11-26T05:00:19Z
 ! Layers: network,content,scriptlet
 ! Mode: conservative
-! Rules: 109201
+! Rules: 109224
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -30161,7 +30161,7 @@ cdn.braun634.com^$third-party
 .com/1784b8bs/
 .com/4/js/$third-party
 .com/ad/$~image,third-party,domain=~espn.com|~mediaplex.com|~warpwire.com|~wsj.com
-.com/adv/$domain=~adv.asahi.com|~advantabankcorp.com|~alltransistors.com|~archiproducts.com|~tritondigital.com
+.com/adv/$domain=~adv.asahi.com|~advantabankcorp.com|~alltransistors.com|~archiproducts.com|~bazaraki.com|~tritondigital.com
 .com/b.js|
 .com/bn.js$third-party
 .com/exload.js
@@ -83069,6 +83069,7 @@ sitepoint.com###takeover-content-1
 sitepoint.com###takeover-vertical
 quizlet.com###targetDiv-setpage_billboard
 romsgames.net###td-top-leaderboard
+techmeme.com###tdbuacdq
 based-politics.com###tdi_107
 linuxtoday.com###tdi_46
 depressionforums.org###tdi_72
@@ -87068,6 +87069,7 @@ videocardz.com##.s7k2m9qx
 videocardz.com##.s7k2m9qx-adhesive
 nodejs.libhunt.com##.saashub-ad
 steamladder.com##.salad
+geeksforgeeks.org##.saleModalPanel
 takeuforward.org##.sales-timer-banner
 9gag.com##.salt-section
 9gag.com##.salt-wrapper
@@ -97309,7 +97311,7 @@ otomi-games.com##.clean-grid-grid-post:has(> [id^="otomi-"] + .clean-grid-grid-p
 /hgct?hc=&hb=*&vjs=
 /hints.netflame.cc/*
 /histats.js
-/hit-counter.
+/hit-counter.$domain=~hit-counter.info
 /Hit.ashx?
 /hit.asp?
 /Hit.aspx?
@@ -107230,14 +107232,20 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /^https?:\/\/www\.ebay-kleinanzeigen\.de\/[a-z0-9]{8}\-[0-9a-f]{4}\-/$script,domain=kleinanzeigen.de
 /^https?:\/\/www\.kroger\.com\/content\/{20,}/$script,xmlhttprequest,domain=kroger.com
 ||127.0.0.1^$third-party,domain=53.com|ameriprise.com|beachbody.com|chick-fil-a.com|citi.com|ebay.at|ebay.be|ebay.ca|ebay.ch|ebay.cn|ebay.co.uk|ebay.com|ebay.com.au|ebay.com.hk|ebay.com.my|ebay.com.sg|ebay.de|ebay.es|ebay.fr|ebay.ie|ebay.it|ebay.nl|ebay.ph|ebay.pl|equifax.ca|equifax.com|globo.com|gumtree.com|kleinanzeigen.de|lendup.com|mbna.ca|rusneb.ru|sciencedirect.com|sky.com|spectrum.net|td.com|tiaa.org|vedacheck.com|wepay.com|whatleaks.com
+||adobe.com/gtg/
 ||astrologyanswers.com/gtmmetrics/
+||box.com/securemetric/
+||canva.com/gtg/
 ||citi.com^*/fp.js
 ||citibank.com.ph/JSO/js/fp.js
 ||citibank.com.ph/tmx/js/
 ||citibank.com.sg/jso/js/fp.js
 ||citibank.com.sg/tmx/
+||cloudflare.com/go9u/
 ||content22.citi.eu^$script
 ||content22.citibank.com.sg^$script
+||cursor.com/an/5NFOPZQoiC99Q/
+||cursor.com/metrics/
 ||customer.homedepot.com^$script
 ||delt.io/a/nalytic/s.js
 ||ebay.com/nkfytkqtoxtljvzbxhr.js$script,domain=ebay.com
@@ -107246,15 +107254,30 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ebaystatic.com/rs/v/klminxoj1uyzvo0p0qu4nhpg0qo.js
 ||ebaystatic.com/rs/v/s0hteylevy4bpkd12dvkd4yi5ms.js
 ||greynoise.io/nvhc9u4gxsagNjY3ZGQ0MGViYjgwOTVlODlmMjc1NjM5/
+||gumgum.com/wvxwa3jtwetcNjllZWU1MzIzMTMzOTYwMDVmM2ExMDFi/
+||infobae.com/metrics/
 ||kaspersky.com/assets/logSender.
+||lg.com/m5vgrhz/
+||lg.com/t54xgrj/
+||lowes.com/k7x2m9/
+||mailchimp.com/metrics/
 ||mfasa.chase.com/auth/js/jpmc_bb_check.js
 ||olacontent.schwab.com^$script
+||onesignal.com/f7by/
 ||perplexity.ai/unifyintent.js
+||poki.com/rmt/
+||s.dreamhost.com/67ead4DfmU/
 ||secure.valnetinc.com/discover
+||squarespace.com/metrics/
 ||src.ebay-us.com/*=usllpic$script,domain=ebay.com
-||tiles.openfreemap.org/planet
+||ss.partner.life360.com/bwcrqwpxgng.js
+||taboola.com/gtm/
+||theverge.com/metrics/
 ||unami.delt.io/script.js
 ||w-profiling.cibc.com^$script
+||weare.kueez.com/nvhc9u4gxsagNjgyMmY4ZDU0ODljNDJhNTU3MmVkN2Q1/
+||www.hilton.com/gtag
+||xfinity.com/metricsaw/
 ||yimg.com/*/ymanalytics-core.js
 ||bankofamerica.com/cookie-id.js
 ||halifax-online.co.uk/scripts/16c9d93d/

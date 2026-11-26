@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Conservative
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202611260500
-! Last modified: 2026-11-26T05:00:19Z
+! Version: 202611261507
+! Last modified: 2026-11-26T15:07:08Z
 ! Layers: network,content,scriptlet
 ! Mode: conservative
-! Rules: 109224
+! Rules: 109246
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -16224,7 +16224,7 @@ ddooo.com#?#ul:-abp-has(> dd:-abp-contains(高速))
 @@||gupload.*^$generichide
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=bellezashot.com
 ||ssl.p.jwpcdn.com/player/v/*/googima.js$script,third-party,redirect-rule=noopjs
-@@||ssl.p.jwpcdn.com/player/v/8.36.2/googima.js$script,domain=vidara.to|vidara.so|xca.cymru|vindaz.shop|vidmatrixa.com|vidchampions.com|vidavaca.cc|calyro.biz|vidarae.live|vidwara.cc|vidwara.fit|viderea.site|gaqghe.com|gasobni.com|sugbaioug.com|g8w90qhngo.com|as9u7bgh9.com|gobsao8u.com|fhjabs.com
+@@||ssl.p.jwpcdn.com/player/v/8.36.2/googima.js$script,domain=vidara.to|vidara.so|xca.cymru|vindaz.shop|vidmatrixa.com|vidchampions.com|vidavaca.cc|calyro.biz|vidarae.live|vidwara.cc|vidwara.fit|viderea.site|gaqghe.com|gasobni.com|sugbaioug.com|g8w90qhngo.com|as9u7bgh9.com|gobsao8u.com|fhjabs.com|vvaassjjav.xyz
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$script,domain=talksport.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=talksport.com
 @@||ashesofcreation.com/show-ad.js$script
@@ -21831,6 +21831,9 @@ $image,third-party,denyallow=googleapis.com,domain=vipbox1.org
 $third-party,script,domain=klto9.com|f2movies.to|hacamchicac.com|yourporngod.com|zinchanmanga.com|yaoimangaonline.com|tututweak.app|mangaraw.ai|eromanga-show.com|hentai-one.com|hentaipaw.com|nukibooks.com|paipancon.com|jgvdata.com|youtubevanced.com|pandamtl.com|mangaplus.shueisha.tv|shueisharaw.tv
 ||linksconsole.com/ad-system/
 ||misc-api.feathermc.com/*/ads/ad_units?
+=======
+||thebanks.eu/img/partners/
+||filecrypt.*/js/ddownload.js
 ||ondemand.st/js/xk7m9p2.js
 ||ondemand.to/js/xk7m9p2.js
 ||rule34.gg/static/scripts/ads.min.js
@@ -25820,6 +25823,8 @@ $popup,third-party,domain=fembed-hd.com,badfilter
 $popup,third-party,domain=sbplay2.com,badfilter
 $popup,third-party,domain=dood.ws,badfilter
 @@||download.ros.org/*.xsd$document
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=clarksonathletics.com
+@@||lenovo.com/*/_cms_lazyload_include_/$xmlhttprequest,jsinject,elemhide,extension
 @@||live.primis.tech/live/liveView.php$domain=apnews.com
 @@||live.primis.tech/live/liveVideo.php$domain=apnews.com
 @@||live.primis.tech/content/omid/static/omid-session-client*.js$domain=apnews.com
@@ -31667,6 +31672,7 @@ _800x80_
 ||hfr67jhqrw8.com^$document
 ||hiasor.com^$document
 ||highcpmgate.com^$document
+||hiiltrack.online^$document
 ||hiiona.com^$document
 ||hilltopads.net^$document
 ||hnrgmc.com^$document
@@ -42595,6 +42601,10 @@ imovies.cc##iframe[src*=".myvideo.ge/delivery/"]
 livesport.ge###banner
 livesport.ge###footerbanner
 autopapa.ge##.top-rek
+evros-news.gr##a[target="blanc"] > img
+evros-news.gr##.theiaStickySidebar > div.widget_custom_html
+evros-news.gr##p > img[style="width: 100%;"]
+evros-news.gr##.entry-content div[dir="auto"] > img[decoding="async"]:not([class])
 gazzetta.gr##section.mb-0-mobile > div.mb-48 > div.is-hidden-touch:has(> a[href*="?utm_source"])
 techmaniacs.gr##.border-slate-200:has(> div.items-center > ins.adsbygoogle)
 enikos.gr##.flex-col.h-full:has(> h4.font-bold)
@@ -49322,6 +49332,17 @@ animecorner.me,zarabiajprzez24.pl,watchhentai.xxx,app-how-to-use-it.com,linuxcap
 pawastreams.*,nflbite.to,footybite.to,sportschamp.fun,afly.pro,topsporter.net,soccerstreams.football,mysocceraustralia.com,rayinfosports.com,hesgoals.top,sequencecard.xyz,totalsportek.soccer,metaporky.site,nbabite.to,cyfostreams.com,gamerarcades.com,bestreamsports.org,footy.to,mcrypto.club,greaterkashmir.com###id-custom_banner
 pawastreams.*,groundedtechs.com,rayinfosports.com,sequencecard.xyz,matchtime.co,sportspellz.com,bestreamsports.org,silverspoon.site###dismiss-btn
 gearspace.com,gleaks.pro,vi-control.net,nullforums.net,landyzone.co.uk,nullcave.pro,woxmax.com,waskucity.com,babia.to,technofino.in,reef2reef.com,minebbs.com,craxpro.io,affiliatefix.com,myiptvforum.com,hifivision.com,worldofiptv.com,altenen.is,beermoneyforum.com,germancarforum.com,cracking.org##.samBannerUnit
+clarksonathletics.com##.s-ads__wrapper
+busbud.com##div[data-cy="ad-banner"]
+liquipedia.net##.content-ad
+liquipedia.net##.sidebar-toc__ad
+eastlothiancourier.com##div[class^="mar-leaderboard"]
+leeds-live.co.uk##div[data-testid^="commercial"]
+invenglobal.com##.article-ad-top
+freewebtoapk.com##.wz-ad
+thebanks.eu###partner_footer
+thebanks.eu##div[id^="top-widget-"]
+linuxblog.io##.svc-banner
 shrinkme.click##.smads
 pacogames.com##.grid > div.border:has(> div[id^="gp_st__"])
 eloshapes.com##div[id^="addverts-"]
@@ -49971,7 +49992,7 @@ tradingref.com##div[style^="display: flex; justify-content: center;"]:has(> div[
 toolspivot.com##.tp-ad-lead
 coinsimulator.online##center:has(> ins[style^="display:inline-block;"][style*="width:"][style*="height:"]:first-child + script:last-child)
 animextv.tech##.w-full > div.flex:has(> div#ad-banner-placement)
-strcsh.xyz,streamcash.to###player-wrap > #main-video ~ *
+str-cash.xyz,strcsh.xyz,streamcash.to###player-wrap > #main-video ~ *
 mail.yahoo.com##div[data-test-id="virtual-list"] > ul > li > div > a[rel="noreferrer"]
 adultswim.com##.tui-ad-slate
 bizjournals.com##div[data-dev="MovableAd"]
@@ -55483,7 +55504,7 @@ ship24.com##div[style^="max-height:"].flex.justify-center.h-24.w-full.mt-3
 technext24.com##.custom_html-2
 technext24.com##.custom_html-19
 technext24.com##div[class^="techn-"][class$="-content"]
-haydenjames.io##div[id^="hayden"]
+linuxblog.io,haydenjames.io##div[id^="hayden"]
 haydenjames.io###text-2
 md5hashing.net##.alert-promo
 kcrw.com###portlets-middle_ad
@@ -60603,7 +60624,7 @@ lnk.parts##.display-link-layer > .display-300x250
 az511.gov##.adsContainerTop
 sitepoint.com##div[class^="styledHeader__TopBanner-"]
 gamelab.com,play.dictionary.com##div[class^="DisplayAd__container_"]
-gayhaus.com,xxxfetish.tube,faptor.com,fapnado.com,3dporndude.com,fapnow.*,fapcat.com,cambay.tv##.fp-logo
+sosalkino.city,sosalkino.*,gayhaus.com,xxxfetish.tube,faptor.com,fapnado.com,3dporndude.com,fapnow.*,fapcat.com,cambay.tv##.fp-logo
 kolombox.com###dlbtn_big
 stylecaster.com##.wrapper-header-ad-slot
 stylecaster.com##.sc-ad-article-middle-wrapper
@@ -103245,6 +103266,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ad-shield.io^$third-party
 ||ad.mail.ru/*.gif?rnd=$third-party
 ||adbr.io/log?
+||adcanvas.com^$third-party
 ||addtoany.com/menu/transparent.gif
 ||adnz.co/api/ws-events-sink/
 ||adnz.co/dmp/publisher.js

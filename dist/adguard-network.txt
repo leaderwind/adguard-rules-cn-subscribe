@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Network
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202611270819
-! Last modified: 2026-11-27T08:19:14Z
+! Version: 202611271856
+! Last modified: 2026-11-27T18:56:58Z
 ! Layers: network
 ! Mode: standard
-! Rules: 47713
+! Rules: 47716
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -6710,6 +6710,7 @@ $script,third-party,domain=torkitty.com|torkitty.net|torrentkitty.app|torrentkit
 @@||criteo.com/delivery/ajs.php?zoneid=$script,domain=gaus.ee
 @@||jd.com/adclick?$popup,~third-party
 ||wnacg.com/game/$image,rewrite=abp-resource:1x1-transparent-gif,domain=wnacg.com
+||adfractal.com^$all
 ||pockett3.com^$third-party
 ||runative-syndicate.com^$popup
 ||9hito.com^$third-party
@@ -7657,6 +7658,7 @@ $cookie=__adblocker,domain=slate.com|thehindubusinessline.com
 @@||ads.pubmatic.com/AdServer/js/showad.js$xmlhttprequest,domain=puregirl.tv
 @@||c.amazon-adsystem.com/aax2/apstag.js$xmlhttprequest,domain=puregirl.tv
 @@||dcbbwymp1bhlf.cloudfront.net^$domain=fmodpro.com
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=vpnjantit.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=tempgmailer.com
 @@||pornhoarder.gd^$generichide
 ||vidload.online/anti-adblock.js
@@ -7681,7 +7683,7 @@ $cookie=__adblocker,domain=slate.com|thehindubusinessline.com
 ||lyricsly.in/wp-content/plugins/gpadblock/assets/js/detector.js
 @@||ad.doubleclick.net/favicon.ico$domain=thertstv.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=thertstv.com
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=f4scdn.com
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=f4scdn.com|f4splay.vip
 @@||quge5.com/88/tag.min.js$xmlhttprequest,domain=nosubapp.com
 @@||nosubapp.com/favicon.ico$domain=nosubapp.com
 @@||highperformanceformat.com^$xmlhttprequest,domain=hogtiehub.com
@@ -7770,8 +7772,6 @@ $cookie=__adblocker,domain=slate.com|thehindubusinessline.com
 @@||flyfile.app^$generichide
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=flyfile.app
 ||hdmovieverse.site/wp-content/plugins/adblock-detector/adblock-detector.js
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=net77.cc
-@@||publishers.monetag.com/assets/favicon-16x16.png$domain=net77.cc
 @@||static.doubleclick.net/pcs/click?ts=$image,domain=indratranslations.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=indratranslations.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?ts=$script,domain=indratranslations.com
@@ -11023,6 +11023,7 @@ $third-party,xmlhttprequest,domain=faselhd.cafe|faselhd-watch.shop,badfilter
 ||tiv1.am/gwd-banner/
 .az/banner/
 .az/reklamexport_
+||globalpromo.az/placements.js$domain=baku.ws
 ||day.az/ads/
 ||qafqazinfo.az/public/site/js/reklam.js
 ||fed.az/upload/banners/$image
@@ -13878,6 +13879,7 @@ $image,third-party,denyallow=googleapis.com,domain=vipbox1.org
 $third-party,script,domain=klto9.com|f2movies.to|hacamchicac.com|yourporngod.com|zinchanmanga.com|yaoimangaonline.com|tututweak.app|mangaraw.ai|eromanga-show.com|hentai-one.com|hentaipaw.com|nukibooks.com|paipancon.com|jgvdata.com|youtubevanced.com|pandamtl.com|mangaplus.shueisha.tv|shueisharaw.tv
 ||linksconsole.com/ad-system/
 ||misc-api.feathermc.com/*/ads/ad_units?
+||smailpro.com/img/smailpro.com/banners/
 ||cdn77.boyfriendtv.com/bftv/xyz/
 ||cdn77.boyfriend.tv/bftv/xyz/
 ||thebanks.eu/img/partners/
@@ -20053,7 +20055,7 @@ $csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: www.googletagma
 @@||beinconnect.com.tr^$stealth
 @@||account.adobe.com^$document,domain=services.adobe.com,stealth=useragent
 @@||adguard.com^$stealth
-@@||lensfrontend-pa.clients6.google.com/v1/gsessionid$xmlhttprequest,stealth
+@@||lensfrontend-pa.clients6.google.com/v1/gsessionid$xmlhttprequest,stealth=referrer
 @@||vkvideo.ru/video_ext.php$stealth=referrer,domain=yandex.*
 @@||vkvideo.ru/video.php$stealth=referrer,domain=yandex.*
 @@||cdn-mr.contentful.com^$stealth=3p-auth,domain=fido.ca
@@ -43314,7 +43316,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||umami.*/script.js|$script
 ||unibet.de/stan/campaign.do?*&affiliateId=$subdocument,third-party
 ||unifyintent.com/analytics/
-||unpkg.com/web-vitals?
+||unpkg.com/web-vitals
 ||upsell-app.logbase.io/metrics
 ||uptime.com/static/rum/$third-party
 ||upvert.io/api/v3/pixel/
@@ -47576,6 +47578,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||dmp.im-apps.net/pms/*/pmt.js$domain=zakzak.co.jp
 @@||docodoco.jp^*/docodoco?key=$script,domain=jrtours.co.jp
 @@||e-stat.go.jp/modules/custom/retrieve/src/js/stat.js?$script,~third-party
+@@||ekitan.com/transit/js/ticket-analytics.js$~third-party
 @@||ev.tpocdm.com^$xmlhttprequest,domain=wowma.jp
 @@||f-gear.ec-optimizer.com/img/spacer.gif$image,domain=ec.f-gear.co.jp
 @@||f-gear.ec-optimizer.com/search4.do$script,domain=ec.f-gear.co.jp

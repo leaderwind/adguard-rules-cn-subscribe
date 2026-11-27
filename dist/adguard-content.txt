@@ -1,11 +1,11 @@
 ! Title: AdGuard Rules CN - Content
 ! Homepage: https://github.com/leaderwind/adguard-rules-cn-subscribe
 ! License: Source licenses apply.
-! Version: 202611270819
-! Last modified: 2026-11-27T08:19:14Z
+! Version: 202611271856
+! Last modified: 2026-11-27T18:56:58Z
 ! Layers: content
 ! Mode: standard
-! Rules: 64179
+! Rules: 64198
 !
 ! Auto-generated. Do not edit dist files manually.
 ! Candidate rules are not merged automatically; only custom/ reviewed rules are included.
@@ -8623,6 +8623,7 @@ korsrt.eu.org##.cutemag-scroll-top + div[id][class*=" "]
 beruhmtemedien.com,francemusic.com##.infinite-scroll-path + div[id][class*=" "]
 vbnmx.online,metavise.in,viralxns.com,obitspublishers.com,nayisahara.com,infinityskull.com,drinkspartner.com,atleticalive.it,amritadrino.com##.mh-container + div[id][class*=" "]
 trovapromozioni.it,videosgays.net##body > #topcontrol + div[id][class*=" "]
+niganpro.com##body > div.wrapper-page + script +div[id][class*=" "]
 appdoze.net,dobleaccion.xyz,appdoze.com##body > div.wrapper-page + div[id][class*=" "]
 porndish.com,xvipp.com,4drumkits.com,altselection.com##.g1-canvas + div[id][class*=" "]
 legionscans.com,mewingzone.com,opchapters.com,tresdaos.com##.mainholder + div[id][class*=" "]
@@ -8798,7 +8799,6 @@ mlhbd.xyz#@#.adunit
 mlhbd.xyz#@#.ad_box:not(.text-ad)
 mlhbd.xyz#@#.ads-300x250
 mlhbd.xyz#@#.sponsored-ad
-vpnjantit.com##body > div[style^="position: fixed; inset: 0px; width: 100%;"]:has(> div[style] > button[onclick^="window.location.reload"])
 harlmail.com#$#html { overflow: auto !important; }
 harlmail.com#$##__ab_guard { display: none !important; }
 ecropper.in#$#body { overflow: auto !important; }
@@ -8814,7 +8814,7 @@ freemodels.pro#@#.sponsored-ad
 thertstv.com#$#body { overflow: auto !important; }
 thertstv.com#$#body > div#wrapper { filter: none !important; pointer-events: auto !important; }
 thertstv.com#$#body > div[style*="position: fixed; z-index: 2147483647;"] { display: none !important; }
-f4scdn.com#$#body > .adsbox.pub_300x250[style] { display: block !important; }
+f4splay.vip,f4scdn.com#$#body > .adsbox.pub_300x250[style] { display: block !important; }
 nosubapp.com#$#.adblock-gate { display: none !important; }
 nosubapp.com#$#.adblock-locked { overflow: auto !important; }
 nosubapp.com#@#.ad-slot
@@ -8896,7 +8896,7 @@ kickbd.org#@#.ad-space:not(.textads)
 cinecloud.site#@#.ad-unit:not(.textads)
 cinecloud.site#@#.sponsored-ad
 cinecloud.site#@#.ad-content
-net77.cc#@#.ad-unit:not(.textads)
+net11.cc#@#.ad-unit:not(.textads)
 7daystodie-servers.com#@##ad-banner-top
 7daystodie-servers.com#@#.ad-container
 7daystodie-servers.com#@#.ad-sidebar
@@ -17366,6 +17366,7 @@ truyenqqhot.com##div[id^="ads_"]
 ##.video-brs
 ##.brs-block
 ##div[data-target="ad"]
+##.other-ads-container
 ###inPlayerGGzone
 ##iframe[style="position: absolute; top: -1000px; left: -1000px; visibility: hidden; border: medium none; background-color: transparent;"]
 ##.video-info > div.video-link:has(> b > a[href][target="_blank"][rel="sponsored"])
@@ -18636,6 +18637,15 @@ animecorner.me,zarabiajprzez24.pl,watchhentai.xxx,app-how-to-use-it.com,linuxcap
 pawastreams.*,nflbite.to,footybite.to,sportschamp.fun,afly.pro,topsporter.net,soccerstreams.football,mysocceraustralia.com,rayinfosports.com,hesgoals.top,sequencecard.xyz,totalsportek.soccer,metaporky.site,nbabite.to,cyfostreams.com,gamerarcades.com,bestreamsports.org,footy.to,mcrypto.club,greaterkashmir.com###id-custom_banner
 pawastreams.*,groundedtechs.com,rayinfosports.com,sequencecard.xyz,matchtime.co,sportspellz.com,bestreamsports.org,silverspoon.site###dismiss-btn
 gearspace.com,gleaks.pro,vi-control.net,nullforums.net,landyzone.co.uk,nullcave.pro,woxmax.com,waskucity.com,babia.to,technofino.in,reef2reef.com,minebbs.com,craxpro.io,affiliatefix.com,myiptvforum.com,hifivision.com,worldofiptv.com,altenen.is,beermoneyforum.com,germancarforum.com,cracking.org##.samBannerUnit
+pavlus.com##.footer-newsletter
+pavlus.com###pavlus-nl
+sheepesports.com##a[href="https://polymarket.com"]
+sheepesports.com##a[href="https://www.michelin.com/en/media/magazine/michelin-video-game-rocket-league"]
+gamerant.com##.gr-ig-offer
+epicroms.net##center > button.file-download-btnn
+epicroms.net$$script:contains(/\;void window\;/)
+finance.yahoo.com##.dock-item.dock-top-insert
+smailpro.com##div[data-partner]
 dailywire.com##.homepage-ad-container
 dailywire.com###global-header-top-ad-slot
 yoloxxx.com##.yolo-native-slot
@@ -19198,7 +19208,6 @@ techdoctoruk.com##div[data-testid="vpn-banner"]
 pons.com##div[data-slot="mpu"]
 successcds.net##a[href^="https://superprofile.bio/vp/Class-10-combo-offer"]
 invezz.com##.gam-ad-slot
-webseriessex.com,javrider.com##.other-ads-container
 inc.com#$##header-scroll-sentinel + div.top-0 { top: 0 !important; }
 tallycount.app##main div.leading-normal > div.text-center > a.inline-block[target="_blank"]:has(img)
 intercelestial.com,clashfox.com,24vids.com##a[rel="noopener sponsored"]
@@ -19421,7 +19430,6 @@ pearos.xyz##.ad-fixed-side
 deepai.org##div[data-adtype]
 petersenshunting.com##.adpos_rightD
 speedof.me##.intro-ad-footer
-speedof.me##.api-ad-footer
 pornditt.com##.top_nav_menu
 startpage.com###main > div[data-bvs][data-identifier]
 taboohome.net,taboodaddy.com##.nina-final-layer
@@ -27422,7 +27430,7 @@ issuu.com##section[aria-label="Advert"]
 issuu.com###ad-primis-wide
 emporis.com###partner
 raabta.net###text-html-widget-3
-dash.infinityfree.com,omg.blog,uxwing.com,fontesk.com,iplocation.net,pureinfotech.com,insurance-space.xyz,igeeksblog.com##div[id^="bsa-zone_"]
+smailpro.com,dash.infinityfree.com,omg.blog,uxwing.com,fontesk.com,iplocation.net,pureinfotech.com,insurance-space.xyz,igeeksblog.com##div[id^="bsa-zone_"]
 calculator.net##div[style^="padding-top:10px"][style*="min-height:280px"]
 aroged.com##div[itemprop="articleBody"] > div.quads-location ~ center
 aviability.com##.a180
@@ -36116,7 +36124,7 @@ zerohedge.com#$#.container > div[class^="Page_"] { padding-top: 80px !important;
 redirectchecker.io##main > div > div.w-full:has(> div.mx-auto > p.tracking-wide)
 bleepingcomputer.com##.bc_right_sidebar div[align="center"] > a[target="_blank"] > img
 insideevs.com,motor1.com##.outstream_partner
-outsideonline.com##.prestitial-ad
+backpacker.com,outsideonline.com##.prestitial-ad
 comix.*,comix.ws,animekai.*,animekai.la,animekai.gs,animekai.fo,animekai.fi,comix.to,anikai.to##body > a[target="_blank"][style^="position:"][style*="z-index:"]
 onejailbreak.com##.gtm-cls
 uploadnow.io##div[class^="file_browser_alt_ad_wrap__"]
@@ -56119,6 +56127,7 @@ banjohangout.org,fiddlehangout.com,flatpickerhangout.com,mandohangout.com,resoha
 pixabay.com##.present-g-item
 bangpremier.com##.presentation-space
 bangpremier.com##.presentation-space-m-panel
+outsideonline.com##.prestitial-ad
 manutd.com##.primary-header-sponsors
 economictimes.indiatimes.com##.primeDW
 tech.hindustantimes.com##.primeDay
@@ -56894,6 +56903,7 @@ buzzfeed.com##.subbuzz-bfp--connatix_video
 complex.com##.suitcase-ad
 proprivacy.com##.summary-footer-cta
 monocle.com##.super-leaderboard
+bestbuy.ca##.superLeaderboard_dvejh
 atalayar.com,express.co.uk,the-express.com##.superbanner
 f1gamesetup.com##.supp-footer-banner
 f1gamesetup.com##.supp-header-banner
@@ -57946,6 +57956,7 @@ usdoku.com##[id^="usdoku-com_"]
 everythingrf.com##[id^="wallpaper_"]
 wuxiaworld.site##[id^="wuxia-"]
 samfw.com##[name="chimera_b"]
+phoronix.com##[name="phoronix_desktop_leaderboard_header"]
 grabcad.com##[ng-if="model.asense"]
 filecrypt.cc,filecrypt.co,filecrypt.to##[onclick*="/linkonclick.com/"]
 buzzheavier.com##[onclick="downloadAd()"]
@@ -59017,6 +59028,7 @@ chosun.com##.box--bg-grey-20:has(.dfpAd)
 radioreference.com##.box.gradient:has(a[href*="&Click="])
 gpro.net##.boxy:has(#blockblockA)
 homedepot.com##.browse-search__pod:has([id^="plp_pod_sponsored"])
+filecrypt.*##.butt1ns :is(button, a):has(> svg):not(form *), :has(> [name="hidden_cnl_id"]) :is(button, a):has(> svg):not(form *), [onclick*="/Link/"], :has(> svg:is(.hghdsp, .hghspd, .hghsdp))
 justwatch.com##.buybox_international_offers_row__header__icons:has([rel="nofollow sponsored noopener"])
 bws.com.au##.card-list-item:has(.productTile.is-Sponsored)
 truecar.com##.card:has([href*="marketplace&sponsored"])
@@ -59046,6 +59058,7 @@ wsj.com##.e1vnmyci0:has(> .adWrapper)
 protrumpnews.com##.enhanced-text-widget:has(span.pre-announcement)
 upfivedown.com##.entry > hr.wp-block-separator:has(+ .has-text-align-center)
 igorslab.de##.entry-content > a:has(> img):has(+ aside.ilab-ad-privacy-footer)
+igorslab.de##.entry-content > a:has(> img):not([href*="igorslab.de"]):has(~ aside.ilab-ad-privacy-footer)
 morrisons.com##.featured-items:has(.js-productCarouselFops)
 top.gg##.flex-col.items-center.justify-center:has(#desktop-aside-video-ad)
 staples.com##.flexible-banner-configurator__flexibleBannerWrapper:has(a[aria-label*="Sponsored by"])
@@ -61843,6 +61856,9 @@ boyfriendtv.com#$##b-page-frame > * { pointer-events:auto; }
 boyfriendtv.com#$##b-page-frame { padding-top:0; }
 boyfriendtv.com#$##b-page-frame { pointer-events:none; }
 boyfriendtv.com#$#body { cursor:default; }
+boyfriendtv.com,ashemaletube.com,pornoxo.com#$##page-shell > * { pointer-events:auto; }
+boyfriendtv.com,ashemaletube.com,pornoxo.com#$##page-shell { padding-top:0;background-image:none;cursor:auto;pointer-events:none; }
+boyfriendtv.com,ashemaletube.com,pornoxo.com#$#body { background-image:none; }
 hentaihere.com#$#body { padding-top:0; }
 hitomi.la#$#.content > div[class]:not([class*="-"]) { min-height:40px !important; }
 hitomi.la#$#.top-content > div[class]:not([class*="-"]) { min-height:40px !important; }
@@ -64183,6 +64199,9 @@ boyfriendtv.com###b-page-frame > * {pointer-events:auto;}
 boyfriendtv.com###b-page-frame {padding-top:0;}
 boyfriendtv.com###b-page-frame {pointer-events:none;}
 boyfriendtv.com##body {cursor:default;}
+boyfriendtv.com,ashemaletube.com,pornoxo.com###page-shell > * {pointer-events:auto;}
+boyfriendtv.com,ashemaletube.com,pornoxo.com###page-shell {padding-top:0;background-image:none;cursor:auto;pointer-events:none;}
+boyfriendtv.com,ashemaletube.com,pornoxo.com##body {background-image:none;}
 hentaihere.com##body {padding-top:0;}
 hitomi.la##.content > div[class]:not([class*="-"]) {min-height:40px !important;}
 hitomi.la##.top-content > div[class]:not([class*="-"]) {min-height:40px !important;}
